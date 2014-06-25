@@ -1,4 +1,5 @@
 <a href="UDK2014"><img src="wiki/images/IntroducingUDK2014.png"/></a>
+__NOTOC__
 
 This is the community site surrounding the open source components of Intel's implementation of [[UEFI]].
 To learn how to use UEFI see our [[start using UEFI]] page.
