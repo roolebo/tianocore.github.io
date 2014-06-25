@@ -38,13 +38,12 @@ Contents
 </th>
 
 </tr>
-
 <!-- COMMENT :  Heading Row -->
 <tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
 
 
 <th width="110">
-[[Image:DownLoad-button.gif|150px|link=https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download]]
+[https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download download]
 </th>
 
 <th width="430">
@@ -55,6 +54,10 @@ What is it?
 </th>
 
 </tr>
+
+</table>
+
+<table width="100%" >
 
 <tr style="background-color:#DBEBFF">
 <td>
