@@ -1,4 +1,4 @@
-<a href="../UDK2014"><img src="../images/IntroducingUDK2014.png"/></a>
+<a href="UDK2014"><img src="images/IntroducingUDK2014.png"/></a>
 
 This is the community site surrounding the open source components of Intel's implementation of [[UEFI]].
 To learn how to use UEFI see our [[start using UEFI]] page.
