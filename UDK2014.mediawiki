@@ -133,7 +133,7 @@ Documents<br/>
 <tr>
 
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 Version 1.22 Errata D
 * [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download BUILD PDF] [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download  ZIP] 
 * [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download   DEC PDF] [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download   ZIP]
@@ -141,25 +141,21 @@ Version 1.22 Errata D
 * [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.pdf/download   FDF PDF]  [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_D.zip/download   ZIP]
 * [http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download INF PDF]  [http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download ZIP]
 
-</p>
 </td>
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [[EDK_II_Specifications | UDK2014 EDK II v1.22 Errata D specifications]]
 
 
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
 These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.22 Errata D) that are available with the UDK2014 release. (Except DEC did not change from Errata C) See details in the Revision History in each of the individual documents for more details.
 
 * Update January, 2014 
-</p>
 
 </td>
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 Each document is a .PDF of each of the specifications
-</p>
+
 </td>
 </tr>
 <!-- Row End -->
@@ -180,28 +176,26 @@ Each document is a .PDF of each of the specifications
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Documents.zip/download Download All CHM/HTMLs]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/UDK2014_Documents_PDF.zip/download Download All PDFs]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 This download contains all .chm and .html documents for UDK2014.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.  Optionally, Download all the CHMs converted to PDF Format in the second .zip
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 Contains both .chm file and .html files in this .zip for all UDK2014  documents
 <BR>
 Contains zip of all the .chm converted to PDF
-</p>
+
 </td>
 </tr>
 <!-- Row End -->
@@ -211,35 +205,33 @@ Contains zip of all the .chm converted to PDF
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.chm.zip/download CryptoPkg .chm .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.zip/download CryptoPkg .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/CryptoPkg%20Document.pdf/download CryptoPkg .pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 The [[CryptoPkg]] Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 .chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 .html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 .pdf file
-</p>
+
 </td>
 
 </tr>
