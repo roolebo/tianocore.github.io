@@ -253,15 +253,9 @@ in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+.chm file<br/>
+.html file<br/>
 .pdf file
-</p>
 </td>
 </tr>
 <!-- Row End -->
@@ -270,36 +264,26 @@ in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.chm/download IntelFrameworkModulePkg .chm ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.zip/download IntelFrameworkModulePkg .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkModulePkg%20Document.pdf/download IntelFrameworkModulePkg .pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 The [[IntelFrameworkModulePkg]] Document Package Helper file. This Package contains the definitions and module implementation
 which follows Intel EFI Framework Specification.
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+.chm file<br/>
+.html file<br/>
 .pdf file
-</p>
 </td>
 </tr>
 <!-- Row End -->
@@ -308,35 +292,25 @@ which follows Intel EFI Framework Specification.
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.chm.zip/download IntelFrameworkPkg .chm .zip]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.zip/download IntelFrameworkPkg .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/IntelFrameworkPkg%20Document.pdf/download IntelFrameworkPkg .pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
  The [[IntelFrameworkPkg]] Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+.chm file<br/>
+.html file<br/>
 .pdf file
-</p>
 </td>
 </tr>
 <!-- Row End -->
