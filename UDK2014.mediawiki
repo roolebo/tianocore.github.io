@@ -224,12 +224,8 @@ The [[CryptoPkg]] Document Package Helper file. This Package provides cryptograp
 <td>
 <!-- col 3 -->
 
-.chm file
-
-
-.html file
-
-
+.chm file<br/>
+.html file<br/>
 .pdf file
 
 </td>
@@ -241,22 +237,18 @@ The [[CryptoPkg]] Document Package Helper file. This Package provides cryptograp
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
-[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm.zip/download EdkCompatibilityPkgPkg .chm .zip]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download EdkCompatibilityPkgPkg .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.chm.zip/download EdkCompatibilityPkgPkg .chm .zip]<br/>
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.zip/download EdkCompatibilityPkgPkg .zip ]<br/>
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/EdkCompatibilityPkg%20Document.pdf/download EdkCompatibilityPkgPkg .pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 The [[EdkCompatibilityPkg]] documents provide documentation on header files and libraries that enable you to build the EDK module
-in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.</p>
-<P style="margin-top: 0; margin-bottom: 0">
+in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.
+
 </p>
 </td>
 <td>
