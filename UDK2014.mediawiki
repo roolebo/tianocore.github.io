@@ -249,7 +249,7 @@ The [[CryptoPkg]] Document Package Helper file. This Package provides cryptograp
 The [[EdkCompatibilityPkg]] documents provide documentation on header files and libraries that enable you to build the EDK module
 in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.
 
-</p>
+
 </td>
 <td>
 <!-- col 3 -->
@@ -321,36 +321,32 @@ which follows Intel EFI Framework Specification.
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.chm.zip/download MdeModulePkg .chm .zip]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.zip/download MdeModulePkg .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdeModulePkg%20Document.pdf/download MdeModulePkg .pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 The [[MdeModulePkg]] Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
 It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)
-and libraries instances, which are used for those modules</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+and libraries instances, which are used for those modules
+
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+.chm file<br/>
+.html file<br/>
 .pdf file
-</p>
+
 </td>
 
 </tr>
@@ -362,54 +358,44 @@ and libraries instances, which are used for those modules</p>
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.chm.zip/download MdePkg w/ Libraries .chm .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.zip/download MdePkg w/ Libraries .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document%20With%20Libraries.pdf/download MdePkg w/ Libraries .pdf ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.chm/download MdePkg .chm ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.zip/download MdePkg  .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/MdePkg%20Document.pdf/download MdePkg  .pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 The [[MdePkg]] Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
 and libraries instances, which are defined in MDE Specification.
 It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
 EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.
-</p>
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+.chm file<br/>
+.html file<br/>
+.pdf file<br/>
+.chm file<br/>
+.html file<br/>
 .pdf file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.pdf file
-</p>
+
 </td>
 </tr>
 <!-- Row End -->
@@ -419,35 +405,31 @@ EFI1.10/UEFI2.4/PI1.3 and some Industry Standards.
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.chm.zip/download  NetworkPkg.chm .zip]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.zip/download  NetworkPkg.zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/NetworkPkg%20Document%20With%20Modules.pdf/download  NetworkPkg.pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 The [[NetworkPkg]] Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+
+
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+.chm file<br/>
+.html file<br/>
 .pdf file
-</p>
+
 </td>
 </tr>
 <!-- Row End -->
@@ -456,36 +438,32 @@ The [[NetworkPkg]] Document Package Helper file. This package provides network m
 <tr>
 <td>
 <!-- col 1 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.chm.zip/download SecurityPkg.chm .zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.zip/download SecurityPkg.zip ]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+
 [http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2014/SecurityiPkg%20Document%20With%20Modules.pdf/download SecurityPkg.pdf ]
-</p>
+
 </td>
 <td>
 <!-- col 2 -->
-<P style="margin-top: 0; margin-bottom: 0">
+
 The [[SecurityPkg]] Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
 and library classes) and libraries instances
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+
+
+
 </td>
 <td>
 <!-- col 3 -->
-<P style="margin-top: 0; margin-bottom: 0">
-.chm file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-.html file
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
+.chm file<br/>
+.html file<br/>
 .pdf file
-</p>
+
 </td>
 </tr>
 <!-- Row End -->
@@ -514,25 +492,25 @@ N/A
 <tr>
 
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 
 [[Previous UDK2010 Releases]]
-</p>
+
 ----
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/ EDK II Project Files] 
-</p>
+
 </td>
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 Menu for downloading Previous UDK2010 releases 
-</p>
+
 ----
-<P style="margin-top: 0; margin-bottom: 0">
+
 SourceForge style explorer: 
 Several files and packages are available on the EDK II project (Docs and Files, under "UDK2010 Releases": UDK2010.UP3.P1, etc.)
 Or for UDK2014_Releases Directory
-</p>
+
 </td>
 <td>
 </td>
