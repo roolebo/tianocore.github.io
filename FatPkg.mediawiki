@@ -1,0 +1,7 @@
+[[Category:EDKII Packages]]
+
+The FatPkg is a separate Edk 2 project [[Edk2-fat-driver]]
+
+===Source Repository===
+
+https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg/

@@ -1,0 +1,45 @@
+The [[Code Style/Commit Message|commit message]] should include signatures for those involved with creating and reviewing the code.
+
+This format is also documented in [https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdePkg/Contributions.txt Contributions.txt] which may be available in the source tree as well.
+
+=Name format=
+# Your Name <your.email@host.com>
+#* This is your real name and email address
+
+=Where to add signatures=
+* All signatures should be at the end of the commit log message
+* Following the message, there should be one blank line and then the signatures
+* There should only be one signature per line
+* Each new signature should be added following to the end of the signature list
+
+=Signed-off-by=
+* Authors should use Signed-off-by (See example below)
+* If you've received the code from a trusted source, and are forwarding it along, please add a Signed-off-by line for yourself to indicate that you know this code to be usable by our community.
+
+=Reviewed-by=
+* For code reviewers use Reviewed-by (See example below)
+* Reviewers should publicly indicate they have reviewed the code by replying to the code review email with:
+*# Review comments (optional if you have no suggested changes.)
+*# Your Reviewed-by signature line, exactly as it should appear in the commit.  (The committer will add this before committing the change to source control.)
+*#* You should omit your Reviewed-by signature if you want to re-review the change after your suggested changes are made.
+
+=Format Strictness=
+Please strictly adhere to this format for signatures to enable this data to be stripped by automated tools when required.
+
+=Example=
+This is a sample [[Code Style/Commit Message|commit message]], including signatures:
+ Package/Module: Short one line description of change
+ 
+ Several lines of
+ description for the
+ change.
+ 
+ Contributed-under: TianoCore Contribution Agreement 1.0
+ Signed-off-by: Contributor Name <contributor@email.server>
+ Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
+
+=See Also=
+* [[Code Style]]
+* [http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git;a=blob;f=Documentation/SubmittingPatches;h=689e2371095cc5dfea9927120009341f369159aa;hb=f6f94e2ab1b33f0082ac22d71f66385a60d8157f#l297 SubmittingPatches 1.12]
+
+{{CommitProcess}}

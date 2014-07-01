@@ -1,0 +1,135 @@
+<div class="t_projects">
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">EDK II User Documentation</th></tr>
+<tr>
+<th>Document title</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>
+
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/UEFI%20SCT%20Case%20Writers%20Guide_0_91.pdf/download UEFI SCT Case Writers Guide .91]
+</td>
+<td>
+This document defines the guidelines for writing the test cases under UEFI Self-Certification Test (SCT) and introduces the UEFI SCT source tree. This document is intended for anyone interested in developing or porting tests for the UEFI SCT
+</td>
+
+</tr>
+
+
+
+<tr>
+<td>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf/download A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf]
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.zip/download Zip]
+
+</td>
+<td>
+This document provides an overview of the implementation and intent behind the UEFI Secure Boot feature and capability of UEFI Specification, Version 2.3.1C, http://www.uefi.org 
+
+The goal of the paper is to provide
+*	an understanding of the motivations behind this capability
+*	a walk-through of the implementation 
+*	a future evolution.
+
+This paper targets firmware, software, and BIOS engineers. 
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.pdf/download Signing UEFI Images.pdf V1.31]
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.zip/download Zip]
+
+</td>
+<td>
+Version 1.31. This document describes how to sign UEFI images for the development and test of UEFI Secure Boot using the UDK2010.SR1 release.
+
+*	Provides an overview of UEFI Secure Boot 
+*	Details the steps to sign an UEFI image 
+*	Describes the UEFI Secure Boot policies 
+*	Describes the steps required to set specific UEFI Secure Boot policies 
+*	Describes the image authorization flow when UEFI Secure Boot is enabled
+*	Decribes how to use OVMF and NT32Pkg as UEFI Secure Boot reference platforms
+*	Demonstrates several UEFI Secure Boot scenarios using OVMF
+Updates and clarifications related to UEFI Spec conformance regarding KEK and DB usages
+
+
+
+
+See also [[SecurityPkg]] for more information on How to enable security, TPM, User identification (UID), secure boot and authenticated variable.
+
+NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010.SR1 release version
+
+</td>
+</tr>
+
+
+
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UEFI%20Driver_Writer_Guide_V1.0.1_120308.pdf/download Driver Writer Guide V1.01]
+</td>
+<td>
+The UEFI Driver Writer Guide V1.0.1 document is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please also refer to the [[Driver_Developer]] page for the EDK II UEFI Driver Developer Wizard.
+
+UEFI Drivers are described in the Unified Extensible Firmware Interface Specification, Version 2.3.1. There are different categories of UEFI Drivers, and many variations of each category. This document provides basic information for the most common categories of UEFI drivers. Many other driver designs are possible.
+</td>
+</tr>
+
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download EDKII User Manual V 0.7]
+</td>
+<td>
+This document provides detailed instructions for downloading, configuring, and building an EDK II project as well as running EDKII Emulation Environments.</td>
+</tr>
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20User%20Manual%20V0.60.pdf/download EDK II User Manual v 0.6]</td>
+<td>
+This document provides detailed instructions for downloading, configuring and building an EDK II project as well as running EDK II Emulation Environments. Superceded by version 0.7</td>
+</tr>
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download EDK II Module Writer's Guide v 0.7]</td>
+<td>
+The document is a guidline for new EDK II module developers, and provides detailed instructions on how to develop and build a new module, and
+how to release with a package.</td>
+</tr>
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20Module%20Writer_s%20Guide_0_01.pdf/download EDK II Module Writer's Guide v0.01]</td>
+<td>
+The document is a guidline for new EDK II module developers, and provides detailed instructions on how to develop and build a new module, and
+how to release with a package. Superceded by version 0.7.</td>
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20C%20Coding%20Standards%20Specification.pdf/download EDK II C Coding Standards Specification v 0.53]</td>
+<td>
+C Coding standards for EDK II </td>
+</tr>
+ <tr>
+<td>
+[http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download PerformanceOptimization PDF]
+
+</td>
+<td>
+Technical documentation for Performance Optimization for EDK II </td>
+</tr>
+
+</table>
+
+[[Category:EDKII]]
+[[Category:Documents]]

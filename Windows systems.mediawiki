@@ -1,0 +1,108 @@
+Please note: These instructions are currently under construction.
+
+This page provides [[step-by-step instructions]] for setting up a [[EDK II]] build environment on Windows systems.
+
+== GUI instructions ==
+{{TortoiseSvnInstructions}}
+{{TortoiseSvnCheckout|https://svn.code.sf.net/p/edk2/code/trunk/edk2}}
+
+== Command line Instructions ==
+
+===Getting started for Windows operating systems===
+
+These instructions will be written as a series of commands executed from a command terminal.
+
+Often these instructions will contain a command which needs to be executed in the terminal window.  For example:
+
+<pre>
+C:\> echo this bold text is a sample command
+</pre>
+
+To execute this command, highlight the bold text of the command in your web browser.  Most web browsers should be able to copy the text by selecting Copy under the Edit menu.  Now, change back to the terminal application, and there should be a Paste operation under the Edit menu.  After pasting the command into the shell, you may need to press the enter or return key to execute the command. 
+
+Of course, there may be other ways to copy and paste the command into the terminal which are specific to the windowing environment and applications that you are using.  If all else fails, however, you can type the command by hand.
+
+Some commands are very long, and we use the caret character (^) to tell the shell program that the command is not finished.  For example:
+
+<pre>
+C:\> echo this bold text is a sample command ^
+        which is broken into two lines
+</pre>
+
+When you copy and paste, make sure you include all lines of the command (including the caret (^) characters).  If you are typing the command, you can remove the caret character (^) and combine the lines into a single line if you prefer.
+
+For the purposes of this set of instructions, we will be using the C:\edk2 path for the edk2 source tree.
+
+===Internet proxies===
+
+If your network utilizes a firewall with a web proxy, then you may need to configure your proxy information for subversion to work.  Ask your network administrator to find out the computer name and port to use for proxy setup and refer to the manual for your subversion software to find out how to configure the proxy information. 
+
+
+===Checkout the edk2 source tree from subversion===
+
+If you use the command line version of subversion, then you can easily checkout the edk2 to the C:\edk2 directory with the following command:
+
+<pre>
+C:\> svn co ^
+  https://svn.code.sf.net/p/edk2/code/trunk/edk2 ^ 
+  C:\edk2 ^
+  --username guest
+</pre>
+
+==Build MdeModulePkg==
+
+
+====Setup build shell environment====
+
+<pre>
+C:\> cd C:\edk2
+C:\edk2> edksetup.bat
+</pre>
+
+====Modify Conf files====
+
+You will need to edit the Conf\target.txt file.  First, change the ACTIVE_PLATFORM to the MdeModulePkg:
+
+<pre>
+C:\edk2> notepad Conf\target.txt
+</pre>
+
+ACTIVE_PLATFORM should look like this in Conf\target.txt:
+
+<pre>
+ACTIVE_PLATFORM       = MdeModulePkg/MdeModulePkg.dsc
+</pre>
+
+Modify TOOL_CHAIN_TAG in target.txt for the toolchain installed on your system. There are many options, so review the tools_def.txt to find the appropriate toolchain for your system.  Search for 'Supported Tool Chains' in tools_def.txt to see the valid options for TOOL_CHAIN_TAG. 
+<pre>
+TOOL_CHAIN_TAG        = VS2008x86
+</pre>
+
+
+
+See also: [[Windows_systems_ToolChain_Matrix]] for how to change the Tool Chain Tag.
+
+Also, consider if you want to build a different processor architecture by changing the TARGET_ARCH value in target.txt.  Please consider that certain toolchains only support building certain processor architectures.
+
+====Build Hello World!  (and the rest of MdeModulePkg)====
+
+Now you should be able to simply run the build command to compile the MdeModulePkg.
+
+<pre>
+C:\edk2> build
+</pre>
+
+As a tangible result of the build, you should have the HelloWorld UEFI application.  If you have a UEFI system available to you which matches the processor architecture that you built, then this application should be able to run successfully under the shell.
+
+<pre>
+C:\edk2> dir /s Build\MdeModule\HelloWorld.efi
+</pre>
+
+===Build [[OVMF]] (OPTIONAL)===
+
+Once your build environment is set up you might be interested in building the [[OVMF]] platform which is included in the main edk2 source tree.  Since [[OVMF]] builds a full system firmware image this may be of interest to UEFI system firmware developers.
+
+=See Also=
+* [[Step-by-step instructions]]
+
+[[Category:EDKII]]

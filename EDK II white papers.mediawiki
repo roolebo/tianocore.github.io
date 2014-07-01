@@ -1,0 +1,48 @@
+<div class="t_projects">
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">EDK II White papers</th></tr>
+<tr>
+<th>Specification</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20SMM%20call%20topology.pdf/download EDK II SMM call Topology]
+</td>
+<td>
+Topology of the EDK II Calling order of the SMM code (PDF)
+</td>
+</tr>
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download EDK II Performance Optimization]
+</td>
+<td>
+This paper focuses on techniques and methodologies which can be used to characterize and optimize the performance of EDK II based firmware.
+(PDF)
+
+</td>
+</tr>
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK2_Build_Decoded.pdf/download EDK II Build Decoded]
+</td>
+<td>
+Discussion of the files that are used in a build and their purpose.(PDF)
+
+</td>
+</tr>
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/How-to-Create_VS_Solution_for_Existing_Code.pdf/download How to create Visual Studio solution]
+</td>
+<td>
+How to create a Visual Studio solution for an EDK II tree.(PDF)
+
+</td>
+</tr>
+
+</table>
+[[Category:EDKII]]
+[[Category:Documents]]

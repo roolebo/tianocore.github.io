@@ -1,0 +1,4 @@
+{{EDKIIDocuments}}
+
+[[Category:EDKII]]
+[[Category:Documents]]

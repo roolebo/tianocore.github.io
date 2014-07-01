@@ -1,0 +1,158 @@
+<div class="t_projects">
+
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">EDK II Specifications
+</th>
+
+</tr>
+<tr>
+<th>Specification</th>
+<th>Description</th>
+</tr>
+<tr>
+ </tr>
+
+<tr>
+<td>
+'''BUILD'''- EDK II BUILD Spec v1.22
+
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download Errata D PDF]
+
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download   ZIP]
+
+</td>
+<td>
+
+This document describes the EDK II build information for the (BUILD) specification and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details. 
+
+* Update January 2014
+</tr>
+<tr>
+<td>
+
+'''DEC'''- EDK II DEC File Spec v1.22
+
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.pdf/download   Errata C PDF] 
+
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download   ZIP]
+</td>
+<td>
+
+This document describes the EDK II build information (DEC) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details.  Note no update for UDK2014
+
+* Update August 30, 2013
+
+</tr>
+
+
+<tr>
+<td>
+'''DSC'''- EDK II DSC File Spec v1.22 
+
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download  Errata D PDF]
+
+[https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download  ZIP]
+
+</td>
+<td>
+
+This document describes the EDK II build information (DSC) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details.
+
+* Update January 2014
+</tr>
+
+
+
+<tr>
+<td>
+'''FDF'''- EDK II FDF File Spec v1.22
+
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.pdf/download   Errata D PDF] 
+
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.zip/download   ZIP]
+
+</td>
+<td>
+
+This document describes the EDK II build information (FDF) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details.
+
+* Update January 2014
+</tr>
+
+
+
+<tr>
+<td>
+'''INF'''- EDK II INF File Specification v1.22
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download Errata D PDF]
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download ZIP]
+
+</td>
+<td>
+
+This document describes the EDK II build information (INF) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details.
+* Update January 2014
+
+</tr>
+
+<tr>
+<td>
+'''UNI'''- EDK II UNI Unicode File Specification 
+
+[http://sourceforge.net/projects/edk2/files/Specifications/Unicode%20UNI%20File%20Spec.pdf/download  PDF]
+
+[http://sourceforge.net/projects/edk2/files/Specifications/Unicode%20UNI%20File%20Spec.zip/download ZIP]
+
+</td>
+<td>
+
+This document describes the EDK II build information (UNI) file format . See details in the Revision History in the document for more details.
+* Update April 2014
+
+</tr>
+
+
+
+<tr>
+<td>
+'''VFR'''-
+[https://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download VFR Programming Language v 1.7 PDF]
+</td>
+<td>
+To simplify the creation of Internal Forms Representation (IFR), 
+a high-level Visual Forms Representation (VFR) language is
+described in this document.
+Using this language syntax, a compiler can be designed to take an ordinary text file containing VFR as an input, and output IFR for use in a user’s program. There are various methods to define the VFR language. 
+
+* Update June 11, 2012
+
+
+</td>
+</tr>
+
+
+
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/Specifications/PCD_Infrastructure.pdf/download EDK II Platform Configuration Database Infrastructure Description v 0.55 PDF]</td>
+<td>
+This document discusses the mechanisms and configuration entries required
+
+to make it easy to write portable silicon modules and to port the Framework
+
+from platform to platform. 
+</td>
+
+
+</tr>
+<tr>
+<th colspan="4" style="background-color:#ffffff">Archived EDK II Specifications  [[EDK_II_Specifications_Archived| Download]]
+</th>
+</tr>
+</table>
+[[Category:EDKII]]
+[[Category:Documents]]
+</div>

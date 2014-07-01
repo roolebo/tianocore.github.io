@@ -1,0 +1,12 @@
+Documents including Specification, User Manuals, White Papers, and other member contributions are listed here.
+==[[EDK II]] Documents==
+{{EDKIIDocuments}}
+
+
+== [[EDK]] Documents ==
+*[[EDK User Documentation]]
+*[[EDK Member Documents]]
+
+[[Category:EDK]]
+[[Category:Documents]]
+[[Category:EDKII]]

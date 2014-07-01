@@ -1,0 +1,2104 @@
+{{UDK2010}}
+Current  [[UDK2014]] Releases 
+<!-- TABLE start -->
+<div class=t_projects>
+<table width="100%" >
+<tr><th colspan="3" style="background-color:#a9c6dd">
+<span style="font-size: 14.0pt; text-align: center; font-family: Verdana; color: black">
+'''UDK2010 Releases'''
+</span>
+</th>
+</tr>
+
+<!-- COMMENT :  Heading Row -->
+<tr style="margin-top: 0; margin-bottom: 0" >
+
+<th style="background-color:#fdbb13" width="110">
+<span style="font-size: 12.0pt; text-align: left; font-family: Verdana; color: white">
+Download </span>
+</th> 
+
+<th style="background-color:#fdbb13" width="430">
+<span style="font-size: 12.0pt; text-align: left; font-family: Verdana; color: white">
+What
+</span>
+
+</th>
+
+<th style="background-color:#fdbb13" width="200">
+<span style="font-size: 12.0pt; text-align: left; font-family: Verdana; color: white">
+Contents
+</span>
+
+</th>
+
+</tr>
+
+<!-- COMMENT :  Heading Row -->
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+
+<th width="110">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1.Complete.MyWorkSpace.zip/download '''UDK2010.SR1.UP1.P1 DownLoad''' ]
+</th>
+
+
+
+<th width="430">
+What is it?
+</th>
+
+<th width="200">What’s in the package?
+</th>
+
+</tr>
+
+<tr style="background-color:#DBEBFF">
+<td>
+'''LAST''' UDK2010 Release
+w/ WorkSpace Expanded .zip 
+<P style="margin-top: 0; margin-bottom: 0">
+Release '''July 28, 2013'''</p>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download Release Notes] 
+</td>
+<td>
+
+UEFI development Kit 2010 Specification Release #1 (UDK2010.SR1.UP1.P1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)
+
+Based on svn version:
+<P style="margin-top: 0; margin-bottom: 0">
+https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1: r14385
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg/: r73
+</p>
+
+'''How to Build'''
+
+[[UDK2010.SR1.UP1_How-to-Build | How to Build]] UDK2010.SR1.UP1.P1 Release
+
+'''Features Summary:''' See [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download Release Notes Features]
+
+'''Supported OS and Build Environments'''
+<P style="margin-top: 0; margin-bottom: 0">
+
+* [[Using EDK II with Native GCC| Using newer versions of Linux]] 
+* [[Windows systems]]
+* [[Xcode | Xcode Mac OS X ]]
+* [[Unix-like systems]] (For older Linux distributions, or using Cygwin or Mac OS X)
+</p>
+
+</td>
+<td>
+<span class="docHeader">(UDK2010.SR1.UP1.P1)</span>
+<P style="margin-top: 0; margin-bottom: 0">
+
+<span class="docHeader">[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-FilesList-MyWorkSpace.txt/download File List]
+</span>Of Entire Release .zip 
+</p>
+----
+<span class="docHeader">Documents</span>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download Download All]
+
+</p>
+</tr>
+
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="220" >EDK II Specifications (UDK2010.SR1.UP1.P1)
+</th>
+
+<th width="220">What is it?
+</th>
+
+<th width="220">
+
+</th>
+
+</tr>
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Version 1.22 Errata C
+* [https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_C.pdf/download  BUILD PDF] [https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_C.zip/download  ZIP] 
+* [https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.22_Errata_C.pdf/download   DEC PDF] [https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.22_Errata_C.zip/download   ZIP]
+* [https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.22_Errata_C.pdf/download  DSC PDF] [https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.22_Errata_C.zip/download  ZIP]
+* [https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.22_Errata_C.pdf/download   FDF PDF] [https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.22_Errata_C.zip/download   ZIP]
+* [https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.22_Errata_C.pdf/download INF PDF] [https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.22_Errata_C.zip/download ZIP]
+
+</p>
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[[EDK_II_Specifications | UDK2010 SR1 UP1 EDK II v1.22 Errata C specifications]]
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.22 Errata C) that are available with the UDK2010.SR1.UP1.P1 release. See details in the Revision History in each of the individual documents for more details.
+
+* Update August 30, 2013 
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Each document is a .PDF of each of the specifications
+</p>
+
+</td>
+</tr>
+<!-- Row End -->
+
+<!-- New header -->
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="220" >Documents (UDK2010.SR1.UP1.P1)
+</th>
+
+<th width="220">What is it?
+</th>
+
+<th width="220">What’s in the Download?
+</th>
+
+</tr>
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download Download all UDK2010.SR1.UP1.P1]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+This download contains all .chm and .html documents for UDK2010.SR1.UP1.P1.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+Contains both .chm file and .html files in this .zip for all UDK2010.SR1.UP1.P1 documents
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/CryptoPkg%20Document.chm/download CryptoPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/CryptoPkg%20Document.zip/download CryptoPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[CryptoPkg]] Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/EdkCompatibilityPkg%20Document.chm/download EdkCompatibilityPkgPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/EdkCompatibilityPkg%20Document.zip/download EdkCompatibilityPkgPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[EdkCompatibilityPkg]] documents provide documentation on header files and libraries that enable you to build the EDK module
+in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/IntelFrameworkModulePkg%20Document.chm/download IntelFrameworkModulePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/IntelFrameworkModulePkg%20Document.zip/download IntelFrameworkModulePkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[IntelFrameworkModulePkg]] Document Package Helper file. This Package contains the definitions and module implementation
+which follows Intel EFI Framework Specification.
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/IntelFrameworkPkg%20Document.chm/download IntelFrameworkPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/IntelFrameworkPkg%20Document.zip/download IntelFrameworkPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+ The [[IntelFrameworkPkg]] Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/MdeModulePkg%20Document.chm/download MdeModulePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/MdeModulePkg%20Document.zip/download MdeModulePkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[MdeModulePkg]] Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
+It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)
+and libraries instances, which are used for those modules</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/MdePkg%20Document%20With%20Libraries.chm/download MdePkg w/ Libraries .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/MdePkg%20Document%20With%20Libraries.zip/download MdePkg w/ Libraries .zip ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/MdePkg%20Document.chm/download MdePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/MdePkg%20Document.zip/download MdePkg  .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+<P style="margin-top: 0; margin-bottom: 0">
+The [[MdePkg]] Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
+and libraries instances, which are defined in MDE Specification.
+It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
+EFI1.10/UEFI2.3.1/PI1.2 and some Industry Standards.
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/NetworkPkg%20Document%20With%20Modules.chm/download  NetworkPkg.chm ]
+</p>
+
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/NetworkPkg%20Document%20With%20Modules.zip/download  NetworkPkg.zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[NetworkPkg]] Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/SecurityiPkg%20Document%20With%20Modules.chm/download SecurityPkg.chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1.P1/SecurityiPkg%20Document%20With%20Modules.zip/download SecurityPkg.zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[SecurityPkg]] Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
+and library classes) and libraries instances
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+<!-- Header start -->
+
+<tr style="background-color:#a9c6dd"; style="margin-top: 0; margin-bottom: 0" >
+
+<th colspan="3" style="background-color:#a9c6dd">Other Releated UDK2010 Releases
+</th>
+</tr>
+<!-- New header -->
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="220" >Download Release</th>
+
+<th width="220">What is it?
+</th>
+
+<th width="220">What’s in the Download?
+</th>
+
+</tr>
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+[[Driver_Developer | ''' Go to Driver Dev Page''']]
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+UEFI Driver Writer's Wizard and the 
+UEFI Driver Writer's Guide supports UEFI 3.2.1 version of the Specification. See the [[Driver_Developer]]  page for more resources for UEFI Driver Writers Resources
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+<td>
+
+</td>
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download UEFI Packaging Tool.zip]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download Quick Start Guide]
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Intel® UEFI Packaging Tool is used to create, install or remove a UEFI Distribution Package.
+The .Zip includes bin UPT.exe from http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32 
+and Manual Documentation from http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals plus the Quick Start Guide
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+.zip 
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+User PDF Guide only
+</p>
+</td>
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EadkPkg_B1.02_Release.zip/download EADK release 1.02.zip]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EADK_1.02_Release_notes.txt/download Release Notes]
+</p>
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+EDK II Application Development Kit [[EDKII_EADK | (EADK)]] Release 1.02 Package incorporates the Standard C Library, BSD Sockets Library, and other standards-based components. Include these into standard "C" applications. See the AppPkg for examples using the Standard Library components.  Further information is available in the ReadMe.txt files.
+* Based on  SVN  https://svn.code.sf.net/p/edk2/code/trunk/edk2/  -r 14804
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+<td>
+Packages Included in zip
+<P style="margin-top: 0; margin-bottom: 0">
+[[AppPkg]]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[StdLib]]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[StdLibPrivateInternalFiles]]
+</p>
+</td>
+</tr>
+<!-- Row End -->
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download UEFI Shell 2.0 Pkg .zip]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[ShellPkg#Shell_2.0_Engineering_Resources| Shell 2.0 Documentation]] 
+
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 - Verified and tested SVN Rersion: https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg r11566
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+This release is the implmentation sources for the UEFI Shell Specification 2.0. Please see http://www.uefi.org to download this specification
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+
+See [[Shell_FAQ#How_do_you_add_the_new_UEFI_Shell_2.0_to_the_Nt32_in_the_UDK2010.SR1 | How to include UEFI Shell 2.0 into .DSC file]]
+</p>
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[[ShellPkg]] .zip Package
+</p>
+</td>
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Comment Start Row start 
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Col 1 Line 1
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+col 1 Line 2
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Col 2 Line 1
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+col 2 Line 2
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+</p>
+
+</td>
+</tr>
+<!-- Row End  Comment End-->
+
+
+
+
+
+
+</table>
+
+</div>
+
+
+
+
+
+
+<!-- TABLE end --------------------------------------------------------------->
+
+
+<!-- TABLE START -->
+<div class=t_projects>
+
+<table width="100%" >
+<tr style="margin-top: 0; margin-bottom: 0" >
+
+<th colspan="3" style="background-color:#fdbb13" >
+<span style="font-size: 14.0pt; text-align: left; font-family: Verdana; color: white">
+'''Previous UDK2010 Releases''' 
+
+</span>
+</th> 
+
+</tr>
+
+
+
+<!-- COMMENT :  Heading Row -->
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="110">
+UDK2010.SR1.UP1</th>
+
+<th width="430">What is it?
+</th>
+
+<th width="200">What’s in the package?
+</th>
+
+</tr>
+
+<tr style="background-color:#DBEBFF">
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Complete.MyWorkSpace.zip/download '''UDK2010.SR1.UP1 DownLoad''' ]
+</p>
+w/ WorkSpace Expanded .zip 
+<P style="margin-top: 0; margin-bottom: 0">
+Release June 25, 2012
+</p>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download Release Notes] 
+</td>
+<td>
+
+UEFI development Kit 2010 Specification Release #1 (UDK2010.SR1.UP1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)
+
+Based on svn version:
+<P style="margin-top: 0; margin-bottom: 0">
+https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1: r13452
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg: r67
+</p>
+
+'''How to Build'''
+
+[[UDK2010.SR1.UP1_How-to-Build | How to Build]] UDK2010.SR1.UP1 Release
+
+'''Features Summary:'''
+<P style="margin-top: 0; margin-bottom: 0">
+* UDK2010.SR1.UP1 release will deliver the remaining UEFI 2.3.1 support that was deferred from UDK2010.SR1 release because of no logo requirement need. In addition, any logo requirements which have been clarified, deleted, changed, or added between November 1st and December 22, 2011 have been incorporated. Specific details of what is new is contained in the release notes.
+
+* See [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download Release Notes] for  more details on the features for this release
+</p>
+
+'''Supported OS and Build Environments'''
+<P style="margin-top: 0; margin-bottom: 0">
+
+* [[Using EDK II with Native GCC| Using newer versions of Linux]] 
+* [[Windows systems]]
+* [[Xcode | Xcode Mac OS X ]]
+* [[Unix-like systems]] (For older Linux distributions, or using Cygwin or Mac OS X)
+</p>
+
+</td>
+<td>
+<span class="docHeader">(UDK2010.SR1.UP1)</span>
+<P style="margin-top: 0; margin-bottom: 0">
+
+<span class="docHeader">[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-FilesList-MyWorkSpace.txt/download File List]
+</span>Of Entire Release .zip 
+</p>
+----
+<span class="docHeader">Documents</span>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download Download All]
+
+</p>
+</tr>
+
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="220" >EDK II Specifications (UDK2010.SR1.UP1)
+</th>
+
+<th width="220">What is it?
+</th>
+
+<th width="220">
+
+</th>
+
+</tr>
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+*[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download  BUILD v1.22 Errata B]
+*[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download  DEC v1.22 Errata B]
+*[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download  DSC v1.22 Errata B]
+*[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download  FDF v1.22 Errata B]
+*[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download  INF v1.22 Errata B]
+
+</p>
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[[EDK_II_Specifications | UDK2010 SR1 UP1 EDK II v1.22 Errata B specifications]]
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.22 Errata B) that are available with the UDK2010.SR1.UP1 release. See details in the Revision History in each of the individual documents for more details.
+
+* Released June 26, 2012  
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Each document is a .PDF of each of the specifications
+</p>
+
+</td>
+</tr>
+<!-- Row End -->
+
+<!-- New header -->
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="220" >Documents (UDK2010.SR1.UP1)
+</th>
+
+<th width="220">What is it?
+</th>
+
+<th width="220">What’s in the Download?
+</th>
+
+</tr>
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download Download all UDK2010.SR1.UP1]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+This download contains all .chm and .html documents for UDK2010.SR1.UP1.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+Contains both .chm file and .html files in this .zip for all UDK2010.SR1.UP1 documents
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/CryptoPkg%20Document.chm/download CryptoPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/CryptoPkg%20Document.zip/download CryptoPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[CryptoPkg]] Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/EdkCompatibilityPkg%20Document.chm/download EdkCompatibilityPkgPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/EdkCompatibilityPkg%20Document.zip/download EdkCompatibilityPkgPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[EdkCompatibilityPkg]] documents provide documentation on header files and libraries that enable you to build the EDK module
+in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkModulePkg%20Document.chm/download IntelFrameworkModulePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkModulePkg%20Document.zip/download IntelFrameworkModulePkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[IntelFrameworkModulePkg]] Document Package Helper file. This Package contains the definitions and module implementation
+which follows Intel EFI Framework Specification.
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkPkg%20Document.chm/download IntelFrameworkPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkPkg%20Document.zip/download IntelFrameworkPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+ The [[IntelFrameworkPkg]] Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdeModulePkg%20Document.chm/download MdeModulePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdeModulePkg%20Document.zip/download MdeModulePkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[MdeModulePkg]] Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
+It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)
+and libraries instances, which are used for those modules</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document%20With%20Libraries.chm/download MdePkg w/ Libraries .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document%20With%20Libraries.zip/download MdePkg w/ Libraries .zip ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document.chm/download MdePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document.zip/download MdePkg  .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+<P style="margin-top: 0; margin-bottom: 0">
+The [[MdePkg]] Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
+and libraries instances, which are defined in MDE Specification.
+It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
+EFI1.10/UEFI2.3.1/PI1.2 and some Industry Standards.
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/NetworkPkg%20Document%20with%20Modules.chm/download NetworkPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/NetworkPkg%20Document%20with%20Modules.zip/download NetworkPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[NetworkPkg]] Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/SecurityiPkg%20Document%20With%20Modules.chm/download SecurityPkg.chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/SecurityiPkg%20Document%20With%20Modules.zip/download SecurityPkg.zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[SecurityPkg]] Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
+and library classes) and libraries instances
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+</table>
+<div>
+
+
+
+<!-- TABLE start -->
+
+<div class="t_projects">
+
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">UDK2010 SR1 Release</th></tr>
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="110">
+UDK2010.SR1</th>
+
+<th width="430">What is it?
+</th>
+
+<th width="200">What’s in the package?
+</th>
+
+</tr>
+
+<tr style="background-color:#DBEBFF">
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1.Complete.MyWorkSpace.zip/download '''UDK2010.SR1 DownLoad''' ]
+</p>
+w/ WorkSpace Expanded .zip 
+<P style="margin-top: 0; margin-bottom: 0">
+Release Jan. 2, 2012
+</p>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download Release Notes] 
+</td>
+<td>
+
+UEFI development Kit 2010 Specification Release #1 (UDK2010.SR1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory)
+
+Based on svn version:
+<P style="margin-top: 0; margin-bottom: 0">
+http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2: r12898
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+http://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg: r67
+</p>
+
+'''How to Build'''
+
+[[UDK2010.SR1_How-to-Build | How to Build]] UDK2010.SR1 Release
+
+'''Features Summary:'''
+<P style="margin-top: 0; margin-bottom: 0">
+
+* This release will support Microsoft® Windows® 8 Secure Boot feature. See [[How_to_Enable_Security | How to Enable Security]]
+* Features added to support the UEFI 2.3.1 specification from the official [http://uefi.org UEFI Forum Web] site
+* EDK II Build tools and Updates to the [[EDK_II_Specifications | EDK II v1.22 specifications]] 
+* Other Feature [[UDK2010-SR1-Features|Details]] 
+* See [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download Release Notes] for  more details on the features for this release
+</p>
+
+'''Supported OS and Build Environments'''
+<P style="margin-top: 0; margin-bottom: 0">
+
+* [[Using EDK II with Native GCC| Using newer versions of Linux]] 
+* [[Windows systems]]
+* [[Xcode | Xcode Mac OS X ]]
+* [[Unix-like systems]] (For older Linux distributions, or when using Cygwin or Mac OS X)
+</p>
+
+</td>
+<td>
+<span class="docHeader">(UDK2010.SR1)</span>
+<P style="margin-top: 0; margin-bottom: 0">
+
+<span class="docHeader">[http://iweb.dl.sourceforge.net/project/edk2/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-FileList-MyWorkSpace.txt File List] </span>Of Entire Release .zip 
+</p>
+----
+<span class="docHeader">Notes (UDK2010.SR1)</span>
+
+<P style="margin-top: 0; margin-bottom: 0">
+Update 
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes_UDK2010.SR1.zip/download Notes] 
+for all packages since UDK2010.UP4 Release
+</p>
+
+----
+<span class="docHeader">Packages & Notes UDK2010.SR1</span>
+<P style="margin-top: 0; margin-bottom: 0">
+[[BaseTools]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/BaseTools%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[CryptoPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/CryptoPkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[DuetPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+No Updates
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[EdkCompatibilityPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+-
+</span>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/EdkCompatibility%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[EdkShellBinPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- --
+</span>
+No Updates
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[FatBinPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+No Updates
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[IntelFrameworkModulePkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+-
+</span>
+
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/IntelFrameworkModulePkg%20Notes.txt/download Notes.txt]
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[IntelFrameworkPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+-
+</span>
+
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/IntelFramework%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[MdeModulePkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - -
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/MdeModulePkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[MdePkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - - - -
+</span>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/MdePkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[NT32Pkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+No Updates
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[PcAtChipsetPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- --
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/PcAtChipsetPkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[PerformancePkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - --
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/PerformancePkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[ShellBinPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - -
+</span>
+No Updates
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[ShellPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+No Updates
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[UefiCpuPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/UefiCpuPkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[NetworkPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/NetworkPkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[SecurityPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - -
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/SecurityPkg%20Notes.txt/download Notes.txt]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[SourceLevelDebugPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+-
+</span>
+No Updates
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[[FatPkg]]
+<span style="font-size: 10.0pt; text-align: center; font-family: Verdana; color: white; font-weight: bold; font-style: normal">
+- - - - - - - - -
+</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/FatPkg%20Notes.txt/download Notes.txt]
+
+</p>
+----
+<span class="docHeader">Documents</span>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents_UDK2010.SR1.zip/download Download All]
+
+</p>
+See below to download individual files</td>
+</tr>
+
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="220" >Specification (UDK2010.SR1)
+</th>
+
+<th width="220">What is it?
+</th>
+
+<th width="220">
+
+</th>
+
+</tr>
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+
+*[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.22_Errata_A_Final.pdf/download  BUILD v1.22 Errata A]
+*[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_A_Final.pdf/download  DEC v1.22 Errata A]
+*[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_A_Final.pdf/download  DSC v1.22 Errata A]
+*[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_A_Final.pdf/download  FDF v1.22 Errata A]
+*[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_A_Final.pdf/download  INF v1.22 Errata A]
+
+</p>
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+[[EDK_II_Specifications | UDK2010 SR1 Build EDK II v1.22 specifications]]
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+These documents describe the EDKII build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates that are available with the UDK2010.SR1 release. See details in the Revision History in each of the individual documents for more details.
+
+* Released Dec. 19, 2011  
+</p>
+
+</td>
+<td>
+<P style="margin-top: 0; margin-bottom: 0">
+Each document is a .PDF of each of the specifications
+</p>
+
+</td>
+</tr>
+<!-- Row End -->
+
+<!-- New header -->
+<tr style="background-color:#DBEBFF"; style="margin-top: 0; margin-bottom: 0" >
+
+<th width="220" >Documents (UDK2010.SR1)
+</th>
+
+<th width="220">What is it?
+</th>
+
+<th width="220">What’s in the Download?
+</th>
+
+</tr>
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents_UDK2010.SR1.zip/download Download all UDK2010.SR1]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+This download contains all .chm and .html documents for UDK2010.SR1.  Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+Contains both .chm file and .html files in this .zip for all UDK2010.SR1 documents
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/CryptoPkg%20Document.chm/download CryptoPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/CryptoPkg%20Document.zip/download CryptoPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[CryptoPkg]] Document Package Helper file. This Package provides cryptographic-related libraries for UEFI security modules.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/EdkCompatibilityPkg%20Document.chm/download EdkCompatibilityPkgPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/EdkCompatibilityPkg%20Document.zip/download EdkCompatibilityPkgPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[EdkCompatibilityPkg]] documents provide documentation on header files and libraries that enable you to build the EDK module
+in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with UEFI2.3/PI1.2 EDK II Cores.</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/IntelFrameworkModulePkg%20Document.chm/download IntelFrameworkModulePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/IntelFrameworkModulePkg%20Document.zip/download IntelFrameworkModulePkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[IntelFrameworkModulePkg]] Document Package Helper file. This Package contains the definitions and module implementation
+which follows Intel EFI Framework Specification.
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/IntelFrameworkPkg%20Document.chm/download IntelFrameworkPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/IntelFrameworkPkg%20Document.zip/download IntelFrameworkPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+ The [[IntelFrameworkPkg]] Document Package Helper file.  This package provides definitions and libraries that comply to Intel Framework Specifications.
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/MdeModulePkg%20Document.chm/download MdeModulePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/MdeModulePkg%20Document.zip/download MdeModulePkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[MdeModulePkg]] Document Package Helper file. This package provides the modules that conform to UEFI/PI Industry standards.
+It also provides the defintions(including PPIs/PROTOCOLs/GUIDs and library classes)
+and libraries instances, which are used for those modules</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/MdePkg%20Document%20With%20Libraries.chm/download MdePkg w/ Libraries .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/MdePkg%20Document%20With%20Libraries.zip/download MdePkg w/ Libraries .zip ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/MdePkg%20Document.chm/download MdePkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/MdePkg%20Document.zip/download MdePkg  .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+<P style="margin-top: 0; margin-bottom: 0">
+The [[MdePkg]] Document Package Helper file. This Package provides all definitions(including functions, MACROs, structures and library classes)
+and libraries instances, which are defined in MDE Specification.
+It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
+EFI1.10/UEFI2.3.1/PI1.2 and some Industry Standards.
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+
+</td>
+
+</tr>
+<!-- Row End -->
+
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/NetworkPkg%20Document%20with%20Modules.chm/download NetworkPkg .chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/NetworkPkg%20Document%20with%20Modules.zip/download NetworkPkg .zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[NetworkPkg]] Document Package Helper file. This package provides network modules that conform to UEFI 2.2 specification.
+
+
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+<!-- Row End -->
+
+<!-- Row start -->
+<tr>
+
+<td>
+<!-- col 1 -->
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/SecurityPkg%20Document%20with%20Modules.chm/download SecurityPkg.chm ]
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents/SecurityPkg%20Document%20with%20Modules.zip/download SecurityPkg.zip ]
+</p>
+
+</td>
+<td>
+<!-- col 2 -->
+
+<P style="margin-top: 0; margin-bottom: 0">
+The [[SecurityPkg]] Document Package Helper file. This package includes the security drivers, defintions(including PPIs/PROTOCOLs/GUIDs
+and library classes) and libraries instances
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+</p>
+</td>
+
+<td>
+<!-- col 3 -->
+<P style="margin-top: 0; margin-bottom: 0">
+.chm file
+</p>
+<P style="margin-top: 0; margin-bottom: 0">
+.html file
+</p>
+</td>
+
+</tr>
+
+
+
+
+</table>
+</div>
+
+
+<div class="t_projects">
+
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">UDK2010 UP4 Release</th></tr>
+<tr>
+<th>Release</th>
+<th>What is it?</th>
+<th>What’s in the package?</th>
+<th>Documents</th>
+</tr>
+<tr>
+<td rowspan="4">[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Complete.zip/download UDK2010.UP4]</td>
+<td rowspan="4">UEFI development Kit 2010
+Update #4 (Complete)
+ Based on svn http://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010  r11579
+
+Supports UEFI 2.3 and PI 1.2 Specifications form the http://uefi.org
+
+UDK2010 Release based upon the UDK2010 UP4 package including the IPv6 Network stack and improved Source Level Debugging support modules.
+
+This includes the certified IPv6 network stack implementation under UEFI.</td>
+<td rowspan="4">
+[[BaseTools]]
+
+[[CryptoPkg]]
+
+[[DuetPkg]]
+
+[[EdkCompatibilityPkg]]
+
+[[EdkShellBinPkg]]
+
+[[IntelFrameworkModulePkg]]
+
+[[MdeModulePkg]]
+
+[[MdePkg]]
+
+[[NT32Pkg]]
+
+[[OptionRomPkg]]
+
+[[PcAtChipsetPkg]]
+
+[[ShellPkg]]
+
+[[UefiCpuPkg]]
+
+</td>
+
+<td>
+<span class="docHeader">Readme</span>
+
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Release.Notes.txt/download UDK2010.UP4.Release.Notes.txt]
+
+[[UDK2010 UP4 Help documents|UDK2010 UP4 Help documents]]
+</td></tr>
+</table>
+
+</div>
+
+
+<div class="t_projects">
+
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">UDK2010 UPT 3</th></tr>
+<tr>
+<th>Release</th>
+<th>What is it?</th>
+<th>What’s in the package</th>
+<th>Documents</th>
+</tr>
+<tr>
+<td rowspan="4">[https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP3.P1/UDK2010.UP3.zip/download UDK2010.UP3]</td>
+<td rowspan="4">UEFI development Kit 2010
+UDK Patch #3, 
+UDK2010 Release based upon the UDK2010 UP3 package 
+UEFI.</td>
+<td rowspan="4">
+Base Tools
+
+CryptoPkg
+
+DuetPkg
+
+EdkCompatibilityPkg
+
+EdkShellBinPkg
+
+IntelFrameworkModulePkg
+
+MdeModulePkg
+
+MdePkg
+
+NT32Pkg
+
+OptionRomPkg
+
+PcAtChipsetPkg
+
+ShellPkg
+
+UefiCpuPkg
+
+Duet-Readme.txt
+</td>
+
+<td>
+<span class="docHeader">Readme</span>
+
+[[UDK2010 UP3 Help documents]]
+</td></tr>
+<tr><td>
+<span class="docHeader">General documentation</span>
+
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download EDKII_UserManual_0_7.pdf]
+
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download EDKII Module Writer_s Guide_07.pdf]
+
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20C%20Coding%20Standards%20Specification.pdf/download EDKII C Coding Standards Specification.pdf]
+</td></tr>
+<tr><td>
+<span class="docHeader">Specifications</span>
+
+[http://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download Errata1_22a_20May2010.pdf]
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download INF_v1_22.PDF]
+</td></tr>
+<tr><td>
+<span class="docHeader">Technical information</span>
+
+[http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download PerformanceOptimization_1_0.pdf]
+</td></tr>
+</table>
+
+</div>
+
+
+<div class="t_projects">
+
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">UKD2010 Patch 2</th></tr>
+<tr>
+<th>Release</th>
+<th>What is it?</th>
+<th>What’s in the package</th>
+<th>Documents</th>
+</tr>
+<tr>
+<td rowspan="4">[https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/ UDK2010.UP2]</td>
+<td rowspan="4">UEFI development Kit 2010
+UDK Patch #2, 
+UDK2010 Release based upon the UDK2010 UP2 package 
+UEFI.</td>
+<td rowspan="4">
+Base Tools
+
+CryptoPkg
+
+DuetPkg
+
+EdkCompatibilityPkg
+
+EdkShellBinPkg
+
+IntelFrameworkModulePkg
+
+MdeModulePkg
+
+MdePkg
+
+NT32Pkg
+
+OptionRomPkg
+
+PcAtChipsetPkg
+
+ShellPkg
+
+UefiCpuPkg
+
+Duet-Readme.txt
+</td>
+
+<td>
+<span class="docHeader">Readme</span>
+
+[[UDK2010 UP2 Help Documents]]
+</td></tr>
+<tr><td>
+<span class="docHeader">General documentation</span>
+
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download EDKII_UserManual_0_7.pdf]
+
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download EDKII Module Writer_s Guide_07.pdf]
+
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20C%20Coding%20Standards%20Specification.pdf/download EDKII C Coding Standards Specification.pdf]
+</td></tr>
+<tr><td>
+<span class="docHeader">Specifications</span>
+
+[http://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download Errata1_22a_20May2010.pdf]
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download INF_v1_22.PDF]
+</td></tr>
+<tr><td>
+<span class="docHeader">Technical information</span>
+
+[http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download PerformanceOptimization_1_0.pdf]
+</td></tr>
+</table>
+
+</div>

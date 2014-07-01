@@ -1,0 +1,34 @@
+{{UDK2014}}
+
+
+<div class="t_projects">
+<table>
+<tr><th colspan="4" style="background-color:#a9c6dd">EDK II Libraries and Helper files</th></tr>
+<tr>
+<th>Specification</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>
+
+[[UDK2014]]
+
+</td>
+<td>
+See Documents on the  [[UDK2014]] link.  Help documents in CHM and Zip formats for the UDK2014 Release.  Includes all the Library and documentation for UDK2014
+</td>
+
+</tr>
+<tr>
+<td>
+[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries Library and Documentation Files]
+</td>
+<td>
+Complete .chm and .zip Documentation on Libraries and helper files for EDK II per each release.  
+</td>
+</tr>
+</table>
+
+[[Category:EDKII]]
+[[Category:Documents]]

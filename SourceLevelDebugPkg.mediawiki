@@ -1,0 +1,12 @@
+[[Category:EDKII Packages]]
+This package contains the source code to include the Source code debugger agent into a platform.  This plus the host application will allow Source level debugging for the platform and UEFI Drivers and UEFI applications. 
+
+
+For Documenatation and to download the Host side of this for both Windows for WinDBG and Linux DBG : 
+* http://uefidk.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool 
+
+
+===Source Repository===
+{{Edk2SubPkg|SourceLevelDebugPkg}}
+
+[[Category:Debug]]

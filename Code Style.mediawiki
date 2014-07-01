@@ -1,0 +1,20 @@
+[[Category:EDKII]]
+[[Category:EDKIIBuildTools]]
+[[Category:EDK]]
+[[Category:CodeStyle]]
+Code style add greatly to the readability and maintainability of code.
+Therefore, please follow our coding style when making [[Code Contributions]].
+
+
+Coding:
+* [[Code Style/C|C]]
+* [[Code Style/Python|Python]]
+
+
+[[Source Control]]:
+* [[Code Style/Commit Message|Commit Message]]
+* [[Code Style/Commit Partitioning|Commit Partitioning]]
+* [[Code Style/Signatures for Code|Signatures]]
+
+= See Also =
+* [[How To Contribute]]

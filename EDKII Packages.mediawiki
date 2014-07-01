@@ -1,0 +1,199 @@
+[[Category:EDKII]]
+[[Category:EDKII Packages]]
+
+Within our [[EDK2|EDK II]] project, we have various packages (each sub-directory).  To discuss an issue with a package, or to [[Code Contributions|contribute]] a code change, please consult with the package maintainer (via [[edk2-devel]]).
+
+
+<div class="t_projects">
+{|
+! colspan="4" style="background-color:#a9c6dd" | [[EDK2|EDKII]] Packages
+|-
+! Package
+! Description
+! Maintainer
+! Source Repository
+|-
+| [[AppPkg]]
+| Provides UEFI applications based on [[StdLib]]
+| {{sfuser|darylm503}}
+| {{Edk2SubPkg|AppPkg}}
+|-
+| [[ArmPkg]]
+| Provides ARM architectural protocols common to most of ARM Platforms
+| {{sfuser|oliviermartin}}
+| {{Edk2SubPkg|ArmPkg}}
+|-
+| [[ArmPlatformPkg]]
+| Supports UEFI for ARM development boards and their drivers
+| {{sfuser|oliviermartin}}
+| {{Edk2SubPkg|ArmPlatformPkg}}
+
+|-
+| [[ArmRealViewEbPkg]]
+| 
+| {{sfuser|oliviermartin}}
+| {{Edk2SubPkg|ArmRealViewEbPkg}}
+|-
+| [[BaseTools]]
+| Provides build releated tools for both EDK and EDK2.
+Also contains miscellaneous tools such as ECC and EOT.
+| {{sfuser|yingke}}
+| {{Edk2SubPkg|BaseToolsPkg}}
+|-
+| [[BeagleBoardPkg]]
+| Provides UEFI support for the BeagleBoard platform
+| {{sfuser|oliviermartin}}
+| {{Edk2SubPkg|BeagleBoardPkg}}
+|-
+| [[CryptoPkg]]
+| Several security features were introduced (e.g. Authenticated Variable Service, Driver Signing, etc) from UEFI 2.2+ (http://www.uefi.org). These security features highly depends on the cryptography and the CryptoPkg
+| {{sfuser|tye}}
+| {{Edk2SubPkg|CryptoPkg}}
+|-
+| [[DuetPkg]]
+|Developer's UEFI Emulation (DUET) on Edk2 - Boot to EFI Shell on legacy platform 
+| {{sfuser|niruiyu}}
+| {{Edk2SubPkg|DuetPkg}}
+|-
+| [[EdkCompatibilityPkg]]
+| Provides header files and libraries that enble you to build 
+the EDK module in UEFI 2.0 + Framework 0.9x mode with EDK II Build
+|  {{sfuser|lgao4}}
+| {{Edk2SubPkg|EdkCompatibilityPkg}}
+|-
+| [[EdkShellBinPkg]]
+| Binary images of the EFI Shell 1.0 for IA32, X64 and IPF
+| {{sfuser|niruiyu}}
+| {{Edk2SubPkg|EdkShellBinPkg}}
+|-
+| [[EdkShellPkg]]
+| Template for building the EFI Shell 1.0 with the EDK II build
+| {{sfuser|niruiyu}}
+| {{Edk2SubPkg|EdkShellPkg}}
+|-
+| [[EmbeddedPkg]]
+| Provides protocol implementation for memory mapped controller and EBL
+| {{sfuser|oliviermartin}}
+| {{Edk2SubPkg|EmbeddedPkg}}
+|-
+| [[EmulatorPkg]]
+| This is a project to enable UEFI emulation within an OS environment
+| {{sfuser|andrewfish}}, {{sfuser|jljusten}}
+| {{Edk2SubPkg|EmulatorPkg}}
+|-
+| [[FatBinPkg]]
+| Binary images for the Fat file system UEFI Driver
+| {{sfuser|niruiyu}}
+| {{Edk2SubPkg|FatBinPkg}}
+|-
+| [[IntelFrameworkModulePkg]]
+| Intel Framework Module Package contains the definitions and module implementation
+which follows Intel® Platform Innovation Framework for UEFI and EFI Specifications from http://www.intel.com/udk
+| {{sfuser|vanjeff}}
+| {{Edk2SubPkg|IntelFrameworkModulePkg}}
+|-
+| [[IntelFrameworkPkg]]
+| This package provides definitions and libraries that comply to the Intel® Platform Innovation Framework for UEFI and EFI Specifications from http://www.intel.com/udk
+
+| {{sfuser|mdkinney}}
+| {{Edk2SubPkg|IntelFrameworkPkg}}
+|-
+| [[MdePkg]]
+| The Module Development Environment Package provides all definitions(including functions, MACROs, structures and library classes) and libraries instances, which are defined in MDE Specification.
+It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
+EFI1.10/UEFI2.3.1/PI1.2 and some Industry Standards.
+
+
+| {{sfuser|mdkinney}}
+| {{Edk2SubPkg|MdePkg}}
+|-
+| [[MdeModulePkg]]
+| This package provides the modules that conform to UEFI/PI http://www.uefi.org Industry standards. 
+| {{sfuser|erictian}}
+| {{Edk2SubPkg|MdeModulePkg}}
+|-
+| [[NetworkPkg]]
+| NetworkPkg provides IPv6 network stack drivers, IPsec driver, PXE driver, iSCSI driver and necessary shell applications for network configuration 
+
+| {{sfuser|qianouyang}}
+| {{Edk2SubPkg|NetworkPkg}}
+|-
+| [[Nt32Pkg]]
+| Sample Open source of a platform.  This package is used to use UEFI emulation on top of Windows
+| {{sfuser|niruiyu}}
+| {{Edk2SubPkg|Nt32Pkg}}
+|-
+| [[Omap35xxPkg]]
+| Provides UEFI support for Texas Instrument OMAP35xx based platforms
+| {{sfuser|oliviermartin}}
+| {{Edk2SubPkg|Omap35xxPkg}}
+|-
+| [[OptionRomPkg]]
+| 
+This package is designed to interoperate with the EDK II open source and this package is required to build PCI compliant Option ROM image for all CPU architectures, including EBC target. A single driver can support mixes of EFI 1.1, UEFI 2.0 and UEFI 2.1.
+
+| {{sfuser|niruiyu}}
+| {{Edk2SubPkg|OptionRomPkg}}
+|-
+| [[OvmfPkg]]
+| This is a project to enable UEFI support for Virtual Machines.
+| {{sfuser|jljusten}}
+| {{Edk2SubPkg|OvmfPkg}}
+|-
+| [[PcAtChipsetPkg]]
+| This package is designed to public interfaces and implementation which follows PcAt defacto standard.
+| {{sfuser|niruiyu}}
+| {{Edk2SubPkg|PcAtChipsetPkg}}
+|-
+| [[PerformancePkg]]
+| Add performance measurement capabilities to your code
+| {{sfuser|darylm503}}
+| {{Edk2SubPkg|PerformancePkg}}
+|-
+| [[SecurityPkg]]
+| TPM, User identification (UID), secure boot and authenticated variable.
+| {{sfuser|gdong1}}
+| {{Edk2SubPkg|SecurityPkg}}
+|-
+| [[ShellPkg]]
+| Native EDKII implementation of a UEFI Shell 2.0.
+| {{sfuser|jcarsey}}
+| {{Edk2SubPkg|ShellPkg}}
+|-
+| [[ShellBinPkg]]
+| Binary image of UEFI Shell 2.0 based on [[ShellPkg]].
+| {{sfuser|jcarsey}}
+| {{Edk2SubPkg|ShellBinPkg}}
+|-
+| [[SourceLevelDebugPkg]]
+| This package contains the source code to include the Source code debugger agent into a platform
+| {{sfuser|vanjeff}}
+| {{Edk2SubPkg|SourceLevelDebugPkg}}
+|-
+| [[StdLib]]
+| Standard C Library implementation.
+| {{sfuser|jcarsey}}
+| {{Edk2SubPkg|StdLib}}
+|-
+| [[StdLibPrivateInternalFiles]]
+| Standard C Library implementation.
+| {{sfuser|jcarsey}}
+| {{Edk2SubPkg|StdLibPrivateInternalFiles}}
+|-
+| [[StartCore]]
+| A UEFI application demonstrating use of the MpService protocol to start tasks running on multiple processor cores. Detects whether the Framework or PI compliant protocol is implemented and adjusts its behavior accordingly. 
+| {{sfuser|darylm503}}
+| {{SfSvnPkg|edk2-startcore||StartCorePkg}}
+|-
+| [[UefiCpuPkg]]
+| This Package provides UEFI compatible CPU modules and libraries
+| {{sfuser|vanjeff}}
+| {{Edk2SubPkg|UefiCpuPkg}}
+|-
+| [[UnixPkg]]
+| Provides a UEFI emulation environment which runs under Unix-like operating systems.
+| {{sfuser|jljusten}}
+| {{Edk2SubPkg|UnixPkg}}
+|}
+
+</div>
