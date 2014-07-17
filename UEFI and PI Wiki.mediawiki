@@ -1,2 +1,0 @@
-[[Category:UEFI]]
-[[Image:UEFI vs. PI Spec.jpg|thumb|alt=UEFI vs. PI Spec Picture|UEFI vs. PI Specifications]]
