@@ -49,24 +49,24 @@ Also contains miscellaneous tools such as ECC and EOT.
 |-
 | [[DuetPkg]]
 |Developer's UEFI Emulation (DUET) on Edk2 - Boot to EFI Shell on legacy platform 
-| {{sfuser|niruiyu}}
-| {{Edk2SubPkg|DuetPkg}}
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=DuetPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/DuetPkg edk2/DuetPkg]
 |-
 | [[EdkCompatibilityPkg]]
 | Provides header files and libraries that enble you to build 
 the EDK module in UEFI 2.0 + Framework 0.9x mode with EDK II Build
-|  {{sfuser|lgao4}}
-| {{Edk2SubPkg|EdkCompatibilityPkg}}
+|<a href="mailto:lgao4@users.sourceforge.net?Subject=EdkCompatibilityPkg Package>  lgao4</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EdkCompatibilityPkg edk2/EdkCompatibilityPkg]
 |-
 | [[EdkShellBinPkg]]
 | Binary images of the EFI Shell 1.0 for IA32, X64 and IPF
-| {{sfuser|niruiyu}}
-| {{Edk2SubPkg|EdkShellBinPkg}}
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=EdkShellBinPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EdkShellBinPkg edk2/EdkShellBinPkg]
 |-
 | [[EdkShellPkg]]
 | Template for building the EFI Shell 1.0 with the EDK II build
-| {{sfuser|niruiyu}}
-| {{Edk2SubPkg|EdkShellPkg}}
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=EdkShellPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EdkShellPkg edk2/EdkShellPkg]
 |-
 | [[EmbeddedPkg]]
 | Provides protocol implementation for memory mapped controller and EBL
@@ -75,25 +75,26 @@ the EDK module in UEFI 2.0 + Framework 0.9x mode with EDK II Build
 |-
 | [[EmulatorPkg]]
 | This is a project to enable UEFI emulation within an OS environment
-| {{sfuser|andrewfish}}, {{sfuser|jljusten}}
-| {{Edk2SubPkg|EmulatorPkg}}
+|<a href="mailto:andrewfish@users.sourceforge.net?Subject=EmulatorPkg Package>  andrewfish</a>,
+<a href="mailto:jljusten@users.sourceforge.net?Subject=EmulatorPkg Package>  jljusten</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EmulatorPkg edk2/EmulatorPkg]
 |-
 | [[FatBinPkg]]
 | Binary images for the Fat file system UEFI Driver
-| {{sfuser|niruiyu}}
-| {{Edk2SubPkg|FatBinPkg}}
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=FatBinPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/FatBinPkg edk2/FatBinPkg]
 |-
 | [[IntelFrameworkModulePkg]]
 | Intel Framework Module Package contains the definitions and module implementation
 which follows Intel® Platform Innovation Framework for UEFI and EFI Specifications from http://www.intel.com/udk
-| {{sfuser|vanjeff}}
-| {{Edk2SubPkg|IntelFrameworkModulePkg}}
+|<a href="mailto:vanjeff@users.sourceforge.net?Subject=IntelFrameworkModulePkg Package>  vanjeff</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/IntelFrameworkModulePkg edk2/IntelFrameworkModulePkg]
 |-
 | [[IntelFrameworkPkg]]
 | This package provides definitions and libraries that comply to the Intel® Platform Innovation Framework for UEFI and EFI Specifications from http://www.intel.com/udk
 
-| {{sfuser|mdkinney}}
-| {{Edk2SubPkg|IntelFrameworkPkg}}
+|<a href="mailto:mdkinney@users.sourceforge.net?Subject=IntelFrameworkPkg Package>  mdkinney</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/IntelFrameworkPkg edk2/IntelModulePkg]
 |-
 | [[MdePkg]]
 | The Module Development Environment Package provides all definitions(including functions, MACROs, structures and library classes) and libraries instances, which are defined in MDE Specification.
@@ -101,46 +102,46 @@ It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
 EFI1.10/UEFI2.3.1/PI1.2 and some Industry Standards.
 
 
-| {{sfuser|mdkinney}}
-| {{Edk2SubPkg|MdePkg}}
+|<a href="mailto:mdkinney@users.sourceforge.net?Subject=MdePkg Package>  mdkinney</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/MdePkg edk2/MdePkg]
 |-
 | [[MdeModulePkg]]
 | This package provides the modules that conform to UEFI/PI http://www.uefi.org Industry standards. 
-| {{sfuser|erictian}}
-| {{Edk2SubPkg|MdeModulePkg}}
+|<a href="mailto:erictian@users.sourceforge.net?Subject=MdeModulePkg Package>  erictian</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/MdeModulePkg edk2/MdeModulePkg]
 |-
 | [[NetworkPkg]]
 | NetworkPkg provides IPv6 network stack drivers, IPsec driver, PXE driver, iSCSI driver and necessary shell applications for network configuration 
 
-| {{sfuser|qianouyang}}
-| {{Edk2SubPkg|NetworkPkg}}
+|<a href="mailto:qianouyang@users.sourceforge.net?Subject=NetworkPkg Package>  qianouyang</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/NetworkPkg edk2/NetworkPkg]
 |-
 | [[Nt32Pkg]]
 | Sample Open source of a platform.  This package is used to use UEFI emulation on top of Windows
-| {{sfuser|niruiyu}}
-| {{Edk2SubPkg|Nt32Pkg}}
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=Nt32Pkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/Nt32Pkg edk2/Nt32Pkg]
 |-
 | [[Omap35xxPkg]]
 | Provides UEFI support for Texas Instrument OMAP35xx based platforms
-| {{sfuser|oliviermartin}}
-| {{Edk2SubPkg|Omap35xxPkg}}
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=Omap35xxPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/Omap35xxPkg edk2/Omap35xxPkg]
 |-
 | [[OptionRomPkg]]
 | 
 This package is designed to interoperate with the EDK II open source and this package is required to build PCI compliant Option ROM image for all CPU architectures, including EBC target. A single driver can support mixes of EFI 1.1, UEFI 2.0 and UEFI 2.1.
 
-| {{sfuser|niruiyu}}
-| {{Edk2SubPkg|OptionRomPkg}}
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=OptionRomPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/OptionRomPkg edk2/OptionRomPkg]
 |-
-| [[OvmfPkg]]
+| [[OVMF | OvmfPkg]]
 | This is a project to enable UEFI support for Virtual Machines.
 | {{sfuser|jljusten}}
 | {{Edk2SubPkg|OvmfPkg}}
 |-
 | [[PcAtChipsetPkg]]
 | This package is designed to public interfaces and implementation which follows PcAt defacto standard.
-| {{sfuser|niruiyu}}
-| {{Edk2SubPkg|PcAtChipsetPkg}}
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=PcAtChipsetPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/PcAtChipsetPkg edk2/PcAtChipsetPkg]
 |-
 | [[PerformancePkg]]
 | Add performance measurement capabilities to your code
