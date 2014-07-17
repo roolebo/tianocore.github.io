@@ -1,5 +1,4 @@
 
-
 == '''EDK II Specifications'''==
 
 
@@ -10,7 +9,7 @@
     <th colspan="4" style="background-color:#a9c6dd">EDK II Specifications</th>
 </tr>
     <tr>
-        <th>Specification</th>
+        <th>Specification Download </th>
         <th>Description</th>
     </tr>
 <tr></tr>
