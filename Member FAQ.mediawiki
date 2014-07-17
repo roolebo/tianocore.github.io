@@ -1,13 +1,13 @@
 We have a lot of information accumulated over the years. It is now organized by topic.
 
-[[Acronyms|Terms and Acronyms]]
+[[Acronyms and Glossary|Terms and Acronyms]]
 
 [[Documents]] are for downloadable files (such as specs).
 
 == FAQs == 
-*[[FAQ]] General community and EFI questions
+*[[EFI and Framework Open Source Community FAQ|  FAQ]] General community and EFI questions
 *[[EDK II FAQ]] Frequently Asked Questions about EDK II
-*[[UEFI/PI FAQ|UEFI/PI FAQ]] Frequently Asked Questions about UEFI/PI
+*[[UEFI PI_FAQ|UEFI/PI FAQ]] Frequently Asked Questions about UEFI/PI
 *[[Shell FAQ|Shell FAQ]] Frequently Asked Questions about Shell
 
 Note: there are more FAQs under these listed.  See [[:Category:FAQ|here]] for a full list.
