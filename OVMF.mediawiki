@@ -1,4 +1,4 @@
-[[Category:OVMF]]
+
 This is a project to enable UEFI support for Virtual Machines.  OVMF contains a sample UEFI firmware for [http://www.qemu.org QEMU] and [http://www.linux-kvm.org KVM].
 
 <div class="t_projects">
@@ -28,13 +28,13 @@ This is a project to enable UEFI support for Virtual Machines.  OVMF contains a 
 
 </div>
 
-More information: [[OVMF FAQ]], [[How to build OVMF]], [[OVMF/Boot Overview]], [[edk2-devel]] email list
+More information: [[OVMF FAQ]], [[How to build OVMF]], [[Boot Overview|OVMF/Boot Overview]], [[Mailing-Lists]] EDK II email list
 
-Project owner(s):  {{sfuser|jljusten}}
+Project owner(s):  <a href="mailto:jljusten@users.sourceforge.net?Subject=OVMF Page>  jljusten</a>{{sfuser|jljusten}}
 
 License information: [http://www.opensource.org/licenses/bsd-license.php BSD] (May contain an additional exception if bundled with the [[Edk2-fat-driver|FAT driver]].)
 
-Source Repository: {{Edk2SubPkg|OvmfPkg}}
+Source Repository: {{Edk2SubPkg|OvmfPkg}}  [https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg Edk2/OvmfPkg]
 
 =See Also=
 * http://www.linux-kvm.org/page/OVMF
