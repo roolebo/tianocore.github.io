@@ -1,54 +1,51 @@
-[[Category:EDKII]]
-[[Category:EDKII Packages]]
-
-Within our [[EDK2|EDK II]] project, we have various packages (each sub-directory).  To discuss an issue with a package, or to [[Code Contributions|contribute]] a code change, please consult with the package maintainer (via [[edk2-devel]]).
+'''EDK II Packages'''
+Within our [[EDK2|EDK II]] project, we have various packages (each sub-directory).  To discuss an issue with a package, or to [[Code Contributions|contribute]] a code change, please consult with the package maintainer (via [[Mailing_Lists]]).
 
 
 <div class="t_projects">
 {|
-! colspan="4" style="background-color:#a9c6dd" | [[EDK2|EDKII]] Packages
+! colspan="4" style="background-color:#a9c6dd" | [[EDK2|EDK II]] Packages
 |-
 ! Package
 ! Description
 ! Maintainer
 ! Source Repository
 |-
-| [[AppPkg]]
+| [[EDKII_EADK | AppPkg or EADK]] 
 | Provides UEFI applications based on [[StdLib]]
-| {{sfuser|darylm503}}
-| {{Edk2SubPkg|AppPkg}}
+|<a href="mailto:darylm503@users.sourceforge.net?Subject=AppPkg Package>  darylm503</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/AppPkg edk2/AppPkg]
 |-
 | [[ArmPkg]]
 | Provides ARM architectural protocols common to most of ARM Platforms
-| {{sfuser|oliviermartin}}
-| {{Edk2SubPkg|ArmPkg}}
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=ArmPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ArmPkg edk2/ArmPkg]
 |-
 | [[ArmPlatformPkg]]
 | Supports UEFI for ARM development boards and their drivers
-| {{sfuser|oliviermartin}}
-| {{Edk2SubPkg|ArmPlatformPkg}}
-
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=ArmPlatform Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ArmPlatformPkg edk2/ArmPlatformPkg]
 |-
 | [[ArmRealViewEbPkg]]
 | 
-| {{sfuser|oliviermartin}}
-| {{Edk2SubPkg|ArmRealViewEbPkg}}
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=ArmRealViewEbPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ArmRealViewEbPkg edk2/ArmRealViewEbPkg]
 |-
 | [[BaseTools]]
-| Provides build releated tools for both EDK and EDK2.
+| Provides build related tools for both EDK and EDK2.
 Also contains miscellaneous tools such as ECC and EOT.
-| {{sfuser|yingke}}
-| {{Edk2SubPkg|BaseToolsPkg}}
+|<a href="mailto:yingke@users.sourceforge.net?Subject=BaseToolsPkg Package>  yingke</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/BaseToolsPkg edk2/BaseToolsPkg]
 |-
 | [[BeagleBoardPkg]]
 | Provides UEFI support for the BeagleBoard platform
-| {{sfuser|oliviermartin}}
-| {{Edk2SubPkg|BeagleBoardPkg}}
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=BeagleBoard Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/BeagleBoardPkg edk2/BeagleBoardPkg]
 |-
 | [[CryptoPkg]]
 | Several security features were introduced (e.g. Authenticated Variable Service, Driver Signing, etc) from UEFI 2.2+ (http://www.uefi.org). These security features highly depends on the cryptography and the CryptoPkg
-| {{sfuser|tye}}
-| {{Edk2SubPkg|CryptoPkg}}
+|<a href="mailto:tye@users.sourceforge.net?Subject=CryptoPkg Package>  tye</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/CryptoPkg edk2/CryptoPkg]
 |-
 | [[DuetPkg]]
 |Developer's UEFI Emulation (DUET) on Edk2 - Boot to EFI Shell on legacy platform 
@@ -73,8 +70,8 @@ the EDK module in UEFI 2.0 + Framework 0.9x mode with EDK II Build
 |-
 | [[EmbeddedPkg]]
 | Provides protocol implementation for memory mapped controller and EBL
-| {{sfuser|oliviermartin}}
-| {{Edk2SubPkg|EmbeddedPkg}}
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=EmbeddedPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EmbeddedPkg edk2/EmbeddedPkg]
 |-
 | [[EmulatorPkg]]
 | This is a project to enable UEFI emulation within an OS environment
