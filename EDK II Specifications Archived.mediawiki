@@ -28,7 +28,7 @@
 
 This document describes the EDK II build information for the (BUILD) specification and it contains the proposal for the Errata updates that will be available with the UDK2010.SR1 release. See details in the Revision History in the document for more details. 
 
-
+</td>
 </tr>
 <tr>
 <td>
@@ -48,7 +48,7 @@ This document describes the EDK II build information for the (BUILD) specificati
 
 This document describes the EDK II build information (DEC) file format and it contains the proposal for the Errata updates that will be available with the UDK2010.SR1 release. See details in the Revision History in the document for more details.
 
-
+</td>
 </tr>
 
 
@@ -68,7 +68,7 @@ This document describes the EDK II build information (DEC) file format and it co
 <td>
 
 This document describes the EDK II build information (DSC) file format and it contains the proposal for the Errata updates that will be available with the UDK2010.SR1 release. See details in the Revision History in the document for more details.
-
+</td>
 </tr>
 
 
@@ -89,7 +89,7 @@ This document describes the EDK II build information (DSC) file format and it co
 
 This document describes the EDK II build information (FDF) file format and it contains the proposal for the Errata updates that will be available with the UDK2010.SR1 release. See details in the Revision History in the document for more details.
 
-
+</td>
 </tr>
 
 
@@ -110,7 +110,7 @@ This document describes the EDK II build information (FDF) file format and it co
 <td>
 
 This document describes the EDK II build information (INF) file format and it contains the proposal for the Errata updates that will be available with the UDK2010.SR1 release. See details in the Revision History in the document for more details.
-
+</td>
 
 </tr>
 
@@ -137,7 +137,8 @@ This document describes the known errata with the specifications as of 31 August
 
 [https://sourceforge.net/projects/edk2/files/Specifications/VFR1_4_May_03_11.pdf/download VFR Programming Language v 1.4 May 2011]
 
-[https://sourceforge.net/projects/edk2/files/Specifications/VFR_1_3.pdf/download VFR Programming Language v 1.3]</td>
+[https://sourceforge.net/projects/edk2/files/Specifications/VFR_1_3.pdf/download VFR Programming Language v 1.3]
+</td>
 <td>
 To simplify the creation of Internal Forms Representation (IFR), 
 
