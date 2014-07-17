@@ -135,8 +135,8 @@ This package is designed to interoperate with the EDK II open source and this pa
 |-
 | [[OVMF | OvmfPkg]]
 | This is a project to enable UEFI support for Virtual Machines.
-| {{sfuser|jljusten}}
-| {{Edk2SubPkg|OvmfPkg}}
+|<a href="mailto:jljusten@users.sourceforge.net?Subject=OvmfPkg Package>  jljusten</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg edk2/OvmfPkg]
 |-
 | [[PcAtChipsetPkg]]
 | This package is designed to public interfaces and implementation which follows PcAt defacto standard.
@@ -145,23 +145,25 @@ This package is designed to interoperate with the EDK II open source and this pa
 |-
 | [[PerformancePkg]]
 | Add performance measurement capabilities to your code
-| {{sfuser|darylm503}}
-| {{Edk2SubPkg|PerformancePkg}}
+|<a href="mailto:darylm503@users.sourceforge.net?Subject=PerformancePkg Package>  darylm503</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/PerformancePkg edk2/PerformancePkg]
 |-
 | [[SecurityPkg]]
 | TPM, User identification (UID), secure boot and authenticated variable.
-| {{sfuser|gdong1}}
-| {{Edk2SubPkg|SecurityPkg}}
+|<a href="mailto:gdong1@users.sourceforge.net?Subject=SecurityPkg Package>  gdong1</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/SecurityPkg edk2/SecurityPkg]
 |-
 | [[ShellPkg]]
 | Native EDKII implementation of a UEFI Shell 2.0.
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=ShellPkg Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ShellPkg edk2/ShellPkg]
 | {{sfuser|jcarsey}}
 | {{Edk2SubPkg|ShellPkg}}
 |-
-| [[ShellBinPkg]]
+| [[ShellPkg | ShellBinPkg]]
 | Binary image of UEFI Shell 2.0 based on [[ShellPkg]].
-| {{sfuser|jcarsey}}
-| {{Edk2SubPkg|ShellBinPkg}}
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=ShellBinPkg Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ShellBinPkg edk2/ShellBinPkg]
 |-
 | [[SourceLevelDebugPkg]]
 | This package contains the source code to include the Source code debugger agent into a platform
@@ -170,28 +172,28 @@ This package is designed to interoperate with the EDK II open source and this pa
 |-
 | [[StdLib]]
 | Standard C Library implementation.
-| {{sfuser|jcarsey}}
-| {{Edk2SubPkg|StdLib}}
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=StdLib Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/StdLib edk2/StdLib]
 |-
-| [[StdLibPrivateInternalFiles]]
+| [[StdLib | StdLibPrivateInternalFiles]]
 | Standard C Library implementation.
-| {{sfuser|jcarsey}}
-| {{Edk2SubPkg|StdLibPrivateInternalFiles}}
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=StdLibPrivateInternalFiles Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/StdLibPrivateInternalFiles edk2/StdLibPrivateInternalFiles]
 |-
 | [[StartCore]]
 | A UEFI application demonstrating use of the MpService protocol to start tasks running on multiple processor cores. Detects whether the Framework or PI compliant protocol is implemented and adjusts its behavior accordingly. 
-| {{sfuser|darylm503}}
-| {{SfSvnPkg|edk2-startcore||StartCorePkg}}
+|<a href="mailto:darylm503@users.sourceforge.net?Subject=StartCorePkg Package>  darylm503</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/StartCorePkg edk2/StartCorePkg]
 |-
 | [[UefiCpuPkg]]
 | This Package provides UEFI compatible CPU modules and libraries
-| {{sfuser|vanjeff}}
-| {{Edk2SubPkg|UefiCpuPkg}}
+|<a href="mailto:vanjeff@users.sourceforge.net?Subject=UefiCpuPkg Package>  vanjeff</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/UefiCpuPkg edk2/UefiCpuPkg]
 |-
 | [[UnixPkg]]
 | Provides a UEFI emulation environment which runs under Unix-like operating systems.
-| {{sfuser|jljusten}}
-| {{Edk2SubPkg|UnixPkg}}
+|<a href="mailto:jljusten@users.sourceforge.net?Subject=UnixPkg Package>  jljusten</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/UnixPkg edk2/UnixPkg]
 |}
 
 </div>
