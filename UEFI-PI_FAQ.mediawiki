@@ -1,5 +1,5 @@
+[[UEFI-and-PI-Wiki]] Picture of UEFI vs PI 
 
-[[UEFI-and-PI-Wiki| UEFI vs. PI Spec Picture]]
 
 '''Frequently asked Questions about UEFI/PI'''
 
