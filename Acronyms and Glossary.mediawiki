@@ -355,5 +355,5 @@ The EFI and Framework Open Source Community lives within a fairly complex world 
 Frequently asked questions about EDK II 
 
 
-[[UEFI/PI FAQ|UEFI/PI FAQ]]
+[[UEFI-PI_FAQ|UEFI/PI FAQ]]
 Frequently asked questions about UEFI/PI
