@@ -1,0 +1,23 @@
+There are several developer email lists available.
+
+For general developer discussions, please refer to the ''Developer Discussions'' lists below.  If you are interested in receiving email notifications regarding source code changes (commits), then subscribe to the ''Source Code Changes'' lists below.
+
+{| class="wikitable"
+! !! Developer Discussions !! Source Code Changes
+|-
+| [[EDK]]
+| [https://lists.sourceforge.net/lists/listinfo/efidevkit-devel efidevkit-devel]
+| [https://lists.sourceforge.net/lists/listinfo/efidevkit-commits efidevkit-commits]
+|-
+| [[EDK II]]
+| [https://lists.sourceforge.net/lists/listinfo/edk2-devel edk2-devel]
+| [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
+|-
+| [[Edk2-buildtools]]
+| [https://lists.sourceforge.net/lists/listinfo/edk2-buildtools-devel edk2-buildtools-devel]
+| [https://lists.sourceforge.net/lists/listinfo/edk2-buildtools-commits edk2-buildtools-commits]
+|}
+
+Some smaller projects do not have separate emails lists.  In this case, feel free to discuss these projects on either the EDK or EDK II developer discussions email lists.
+
+For [[GSOC2011|Google Summer of Code 2011]] discussions, please use the edk2-devel email list.
