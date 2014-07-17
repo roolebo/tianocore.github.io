@@ -1,6 +1,3 @@
-[[Category:EDK]]
-[[Category:EDKII]]
-[[Category:EDKIIBuildTools]]
 There are several developer email lists available.
 
 For general developer discussions, please refer to the ''Developer Discussions'' lists below.  If you are interested in receiving email notifications regarding source code changes (commits), then subscribe to the ''Source Code Changes'' lists below.
@@ -16,7 +13,7 @@ For general developer discussions, please refer to the ''Developer Discussions''
 | [https://lists.sourceforge.net/lists/listinfo/edk2-devel edk2-devel]
 | [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
 |-
-| [[EDK II buildtools]]
+| [[Edk2-buildtools]]
 | [https://lists.sourceforge.net/lists/listinfo/edk2-buildtools-devel edk2-buildtools-devel]
 | [https://lists.sourceforge.net/lists/listinfo/edk2-buildtools-commits edk2-buildtools-commits]
 |}
