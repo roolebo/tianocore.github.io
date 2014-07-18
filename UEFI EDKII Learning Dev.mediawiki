@@ -1,7 +1,7 @@
 {{UDK2014}}
 
 <span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">
-'''UEFI and EDK II Learning and Development'''
+=='''UEFI and EDK II Learning and Development'''==
 </span>
 
 Welcome to UEFI and EDK II Learning and Development.  The courses below are provided to help you increase your knowledge of UEFI and EDK II and to aid you in performing UEFI- and EDK II-related tasks.
@@ -15,11 +15,170 @@ If you have trouble  downloading from Sourceforge:
 <br>
 What you can do is download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally. The Flash Player is still required.
 
+==='''Courses'''===
 
-<span style="font-size: 14.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">
-'''Courses'''</span>
+<div class="t_projects">
+
+<table width="100%">
+<tr>
+    <th colspan="4" style="background-color:#a9c6dd">Defining Specifications' Role in Firmware</th>
+</tr>
+    <tr>
+        <th>Download</th>
+        <th>Description</th>
+    </tr>
+<tr></tr>
+
+<tr>
+
+  <td>
+[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.htm/download  Lesson 0] <br>
+[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.zip/download Zip file**] 
+
+  </td>
+
+  <td>
+'''Lesson 0: Defining Specifications' Role in Firmware'''<br>
+Intended Audience: Firmware/Software Engineers 
+Course Goal: Briefly explore the history and role of specifications in firmware 
+  </td>
 
 
+</tr>
+</table>
+
+<table width="100%">
+<tr>
+    <th colspan="4" style="background-color:#a9c6dd">
+'''Initializing the Boot Process''' Lessons 1 - 5 </th>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+Intended Audience:Firmware/Software Engineers 
+Course Goal:Initialize the boot process by following the UEFI specifications
+</td>
+</tr>    
+<tr>
+        <th>Download</th>
+        <th>Description</th>
+    </tr>
+<tr></tr>
+
+
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.htm/download Lesson 1] <br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.zip/download Zip File**] 
+  <br>
+ 
+  </td>
+
+  <td>
+
+'''Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases'''  <br>
+  
+  </td>
+
+
+</tr>
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+ 
+[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.htm/download Lesson 2 ]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.zip/download Zip File**]
+ 
+  </td>
+
+  <td>
+  
+''' Lesson 2: Driver Execution Environment (DXE)'''<br>
+  
+  </td>
+
+
+</tr>
+<!-- COMMENT  -->
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+ [http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_UEFI_Drivers.htm/download Lesson 3]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_Drivers.zip/download Zip File**]
+ 
+ 
+  </td>
+
+  <td>
+  '''Lesson 3: Firmware and Data Storage'''<br>
+  
+  </td>
+
+
+</tr>
+<!-- COMMENT  -->
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+  [http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware_Storage.htm/download Lesson 4 ] <br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware.zip/download Zip File**] 
+ 
+  </td>
+
+  <td>
+  '''Lesson 4: Firmware and Data Storage'''<br>
+  
+  </td>
+
+
+</tr>
+<!-- COMMENT  -->
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+  
+[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.htm/download Lesson 5 ]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.zip/download Zip File**]
+ 
+  </td>
+
+  <td>
+  '''Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)'''<br>
+  
+  </td>
+
+
+</tr>
+<!-- COMMENT  -->
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+  <br>
+ 
+  </td>
+
+  <td>
+  <br>
+  
+  </td>
+
+
+</tr>
+<!-- COMMENT  -->
+<!-- COMMENT  -->
+
+</table>
+<hr>
+
+===Training Course Detailed Descriptions ===
 
 
 '''Lesson 0: Defining Specifications' Role in Firmware'''<br>
@@ -28,8 +187,7 @@ Course Goal: Briefly explore the history and role of specifications in firmware
 
 [http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.htm/download  Lesson 0] <br>
 [http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.zip/download Zip file**] 
-</td>
-<td>
+
 
 Lesson 0: <br>
 Course Objectives: When you complete the course, you will be able to:
@@ -121,7 +279,3 @@ When you complete this lesson, you will be able to:
 * Select Data from Forms Using HII 
 
 
-
-<hr>
-[[Category:Documents]]
-[[Category:Training]]
