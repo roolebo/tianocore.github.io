@@ -1,6 +1,7 @@
 {{UDK2010}}
 
-[[Image:Minnowboard_org.png|300px|link=http://www.minnowboard.org]]
+
+
 
 = MinnowBoard UEFI Firmware =
 What is the MinnowBoard: This is the open community project with UEFI Developed firmware.
