@@ -1,5 +1,5 @@
-[[Category:PI]]
-[[Image:PI Boot Phases.jpg|thumb|alt=PI Boot Phases Picture|PI Boot Phases]]
+
+
 
 '''Security (SEC) Phase'''<br>
 The Security (SEC) phase is the first phase in the PI Architecture architecture and is responsible for
@@ -11,7 +11,7 @@ the following:<br>
 In addition to the minimum architecturally required handoff information, the SEC phase can pass
 optional information to the PEI Core, such as the SEC Platform Information PPI or
 information about the health of the processor.<br>
-[[http://www.uefi.org/specs VOLUME 1: Platform Initialization Specification 1.2 Pre-EFI Initialization Core Interface]] <br>
+[[http://uefi.org/specsandtesttools VOLUME 1: Platform Initialization Specification 1.2 Pre-EFI Initialization Core Interface]] <br>
 <br>'''Pre-EFI Initialization (PEI) Phase'''<br>
 The Pre-EFI Initialization (PEI) phase of the PI Architecture specifications (hereafter referred to as
 the “PI Architecture”) is invoked quite early in the boot flow. Specifically, after some preliminary
@@ -38,7 +38,7 @@ phase. In particular, the more resources the processor provides at its initial o
 richer the interface between the PEI Foundation and PEIMs. As such, there are several parts of the
 following discussion that note requirements on the architecture but are otherwise left architecturally
 dependent.<br>
-[[http://www.uefi.org/specs VOLUME 1: Platform Initialization Specification 1.2 Pre-EFI Initialization Core Interface]] <br>
+[[http://www.uefi.org/specsandtesttools VOLUME 1: Platform Initialization Specification 1.2 Pre-EFI Initialization Core Interface]] <br>
 <br>'''Driver eXecution Environment (DXE) Phase'''<br>
 The Driver Execution Environment (DXE) phase is where most of the system initialization is performed. Pre-EFI Initialization (PEI), the phase prior to DXE, is responsible for initializing permanent memory in the platform so that the DXE phase can be loaded and executed. The state of the system at the end of the PEI phase is passed to the DXE phase through a list of position-independent data structures called Hand-Off Blocks (HOBs). HOBs are described in detail in the Platform Initialization Hand-Off Block Specification.<br>
 There are several components in the DXE phase:<br>
@@ -46,7 +46,8 @@ There are several components in the DXE phase:<br>
 * “DXE Dispatcher”
 * A set of “DXE Drivers”
 The Dxe Core produces a set of Boot Services, Runtime Services, and DXE Services. The DXE Dispatcher is responsible for discovering and executing DXE drivers in the correct order. The DXE drivers are responsible for initializing the processor, chipset, and platform components as well as providing software abstractions for system services, console devices, and boot devices. These components work together to initialize the platform and provide the services required to boot an operating system. The DXE phase and Boot Device Selection (BDS) phases work together to establish consoles and attempt the booting of operating systems. The DXE phase is terminated when an operating system is successfully booted. The Dxe Core is composed of boot services code, so no code from the Dxe Core itself is allowed to persist into the OS runtime environment. Only the runtime data structures allocated by the Dxe Core and services and data structured produced by runtime DXE drivers are allowed to persist into the OS runtime environment.<br>
-[http://www.uefi.org/specs VOLUME 2: Platform Initialization Specification 1.2 Driver Execution Environment Core Interface]]<br> 
+[http://www.uefi.org/specsandtesttools VOLUME 2: Platform Initialization Specification 1.2 Driver Execution Environment Core Interface]]<br> 
+
 <br>'''Boot Device Selection (BDS) Phase'''<br>
 The Boot Manager in DXE executes after all the DXE drivers whose dependencies have been satisfied have been dispatched by the DXE Dispatcher. At that time, control is handed to the Boot Device Selection (BDS) phase of execution. The BDS phase is responsible for implementing the platform boot policy. System firmware that is compliant with this specification must implement the boot policy specified in the Boot Manager chapter of the UEFI 2.0 specification. This boot policy provides flexibility that allows system vendors to customize the user experience during this phase of execution.<br>
 The Boot Manager must also support booting from a short-form device path that starts with the first node being a firmware volume device path. The boot manager must use the GUID in the firmware volume device node to match it to a firmware volume in the system. The GUID in the firmware volume device path is compared with the firmware volume name GUID. If a match is made, then the firmware volume device path can be appended to the device path of the matching firmware volume and normal boot behavior can then be used.<br>
@@ -56,7 +57,7 @@ The BDS phase is responsible for the following:<br>
 * Loading device drivers
 * Attempting to load and execute boot selections
 If the BDS phase cannot make forward progress, it will reinvoke the DXE Dispatcher to see if the dependencies of any additional DXE drivers have been satisfied since the last time the DXE Dispatcher was invoked.<br>
-[http://www.uefi.org/specs VOLUME 2: Platform Initialization Specification 1.2 Driver Execution Environment Core Interface]]<br> 
+[http://www.uefi.org/specsandtesttools VOLUME 2: Platform Initialization Specification 1.2 Driver Execution Environment Core Interface]]<br> 
 <br>'''Transient System Load (TSL) Phase'''<br>
 The TSL is the 1st stage of the boot process where the OS loader is an EFI application.<br>
 <br>'''Run Time (RT) Phase'''<br>
@@ -66,4 +67,4 @@ It is legal for OS to call the EFI runtime services using virtual addressing so 
 After the Operating System takes over from the BDS via its boot (TSL)  only a small set of EFI is left behind. If the hardware or OS crashes the  firmware could try and implement some form of recovery or remediation action. This is the After life. UEFI and PI do not spec any required behavior in this phase. 
 
 == Glossary ==
-See [[Acronyms]] for glossary and acronym information.
+See [[Acronyms-and-Glossary | Acronyms]] for glossary and acronym information.
