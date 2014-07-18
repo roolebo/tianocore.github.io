@@ -1,5 +1,5 @@
-
-
+[[https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.jpg |
+<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg>]]
 
 '''Security (SEC) Phase'''<br>
 The Security (SEC) phase is the first phase in the PI Architecture architecture and is responsible for
