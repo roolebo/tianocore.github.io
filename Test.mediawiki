@@ -52,7 +52,15 @@ Course Goal: Briefly explore the history and role of specifications in firmware
     <th colspan="4" style="background-color:#a9c6dd">
 '''Initializing the Boot Process''' Lessons 1 - 5 </th>
 </tr>
-    <tr>
+<tr>
+<td>
+</td>
+<td>
+Intended Audience:Firmware/Software Engineers 
+Course Goal:Initialize the boot process by following the UEFI specifications
+</td>
+</tr>    
+<tr>
         <th>Download</th>
         <th>Description</th>
     </tr>
@@ -63,12 +71,15 @@ Course Goal: Briefly explore the history and role of specifications in firmware
 <tr>
 
   <td>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.htm/download Lesson 1] <br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.zip/download Zip File**] 
   <br>
  
   </td>
 
   <td>
-  <br>
+
+'''Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases'''  <br>
   
   </td>
 
@@ -78,28 +89,15 @@ Course Goal: Briefly explore the history and role of specifications in firmware
 <tr>
 
   <td>
-  <br>
+ 
+[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.htm/download Lesson 2 ]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.zip/download Zip File**]
  
   </td>
 
   <td>
-  <br>
   
-  </td>
-
-
-</tr>
-<!-- COMMENT  -->
-<!-- COMMENT  -->
-<tr>
-
-  <td>
-  <br>
- 
-  </td>
-
-  <td>
-  <br>
+''' Lesson 2: Driver Execution Environment (DXE)'''<br>
   
   </td>
 
@@ -110,12 +108,14 @@ Course Goal: Briefly explore the history and role of specifications in firmware
 <tr>
 
   <td>
-  <br>
+ [http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_UEFI_Drivers.htm/download Lesson 3]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_Drivers.zip/download Zip File**]
+ 
  
   </td>
 
   <td>
-  <br>
+  '''Lesson 3: Firmware and Data Storage'''<br>
   
   </td>
 
@@ -126,12 +126,31 @@ Course Goal: Briefly explore the history and role of specifications in firmware
 <tr>
 
   <td>
-  <br>
+  [http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware_Storage.htm/download Lesson 4 ] <br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware.zip/download Zip File**] 
  
   </td>
 
   <td>
-  <br>
+  '''Lesson 4: Firmware and Data Storage'''<br>
+  
+  </td>
+
+
+</tr>
+<!-- COMMENT  -->
+<!-- COMMENT  -->
+<tr>
+
+  <td>
+  
+[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.htm/download Lesson 5 ]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.zip/download Zip File**]
+ 
+  </td>
+
+  <td>
+  '''Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)'''<br>
   
   </td>
 
@@ -157,3 +176,105 @@ Course Goal: Briefly explore the history and role of specifications in firmware
 <!-- COMMENT  -->
 
 </table>
+
+===Training Course Details===
+
+
+'''Lesson 0: Defining Specifications' Role in Firmware'''<br>
+Intended Audience: Firmware/Software Engineers 
+Course Goal: Briefly explore the history and role of specifications in firmware 
+
+[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.htm/download  Lesson 0] <br>
+[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.zip/download Zip file**] 
+
+
+Lesson 0: <br>
+Course Objectives: When you complete the course, you will be able to:
+* Identify and define the Legacy BIOS and UEFI specifications
+* Compare the similarities and differences of Legacy BIOS and UEFI
+* Define Platform Initialization and explain its evolution from “The Framework” to “Platform Initialization”
+* Explain the benefits of Platform Initialization
+* Define EDK I and II and their purposes
+
+<hr>
+
+'''Initializing the Boot Process'''  Lessons 1 - 5 <br>
+Intended Audience:Firmware/Software Engineers 
+Course Goal:Initialize the boot process by following the UEFI specifications
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.htm/download Lesson 1] <br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.zip/download Zip File**] 
+
+
+'''Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases''' <br>
+When you complete this lesson, you will be able to: 
+* Access EDK II to assist you in in using commercial compilers, providing for self-hosted development, and supplying libraries to assist in managing common tasks. 
+* Use tools to assist you in Platform Initialization 
+* Define and implement types of debugging allowed with EDK II 
+* Identify the responsibilities of the Security phase 
+* Define PEI and its purpose, functions, attributes, and components 
+* Describe PEI’s relationship to memory 
+* Explain HOBs, their purpose, and contribution to the PEI phase 
+* Transition from the PEI phase to the DXE phase.  
+
+
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.htm/download Lesson 2 ]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.zip/download Zip File**]
+
+
+''' Lesson 2: Driver Execution Environment (DXE)'''<br>
+When you complete this lesson, you will be able to: 
+* Summarize the DXE phase and its purpose, functions, properties, attributes, and components * Identify the responsibilities of the DXE phase 
+* Describe events and their role in the DXE phase 
+* Define architectural protocols and their role in the DXE phase 
+* Compare and contrast the two types of DXE drivers: Early DXE Phase Drivers and UEFI Drivers 
+* Explain System Management Mode Services’ characteristics, services, and role in PI. 
+
+
+
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_UEFI_Drivers.htm/download Lesson 3]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_Drivers.zip/download Zip File**]
+
+'''Lesson 3: Firmware and Data Storage'''<br>
+When you complete this lesson, you will be able to: 
+* Define Firmware Storage, Firmware Files, Firmware File Systems, and Firmware Volumes and explain their hierarchical relationship. 
+* Define Terse Image 
+* Explain why using a Terse Image is more beneficial than using a UEFI Image 
+* Locate firmware storage in a physical memory map 
+* Load drivers from a non-flash location 
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware_Storage.htm/download Lesson 4 ] <br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware.zip/download Zip File**] 
+
+
+'''Lesson 4: Firmware and Data Storage'''<br>
+When you complete this lesson, you will be able to:
+*	Define Firmware Storage, Firmware Files, Firmware File Systems, and Firmware Volumes and explain their hierarchical relationship.
+*	Define Terse Image
+*	Explain why using a Terse Image is more beneficial than using a UEFI Image
+*	Locate firmware storage in a physical memory map
+*	Load drivers from a non-flash location
+
+
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.htm/download Lesson 5 ]<br>
+[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.zip/download Zip File**]
+
+'''Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)'''<br>
+When you complete this lesson, you will be able to: 
+* Explain the primary steps of the BDS Phase 
+* Define BDS’s goals 
+* Identify BDS’ functions and components 
+* Define global defined variables 
+* Identify a UEFI device path 
+* Search for handles in the handle database 
+* Define HII and identify its components 
+* Explain how data communicates with HII, the user, and UEFI drivers 
+* Identify the functions of the HII database 
+* Define Visual Forms Representation (VFR) 
+* Define Internal Forms Representation (IFR) 
+* Select Data from Forms Using HII 
+
+
