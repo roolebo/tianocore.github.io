@@ -17,7 +17,5 @@ You may be required to create an account to participate in certain areas of our 
 * See [[Driver_Developer|UEFI Driver Developer Resources with EDK II]] Support UEFI driver development by independent hardware vendors (IHV), including the UEFI Driver Wizard and UEFI Driver Writers Guide (DWG).
 
 
-* Both [[EDK]] and [[EDKII]] contain a Developer’s UEFI Emulation ([[DuetPkg]]) environment to aid in development of UEFI drivers for add-in hardware.  One of the limitations of the [[NT32]] emulation environment is the inability to communicate directly with hardware.  This is of particular concern to add-in hardware developers (IHVs), who are developing UEFI drivers for their hardware devices.
+* Both [[EDK]] and [[EDK-II |EDK II]] contain a Developer’s UEFI Emulation ([[DuetPkg]]) environment to aid in development of UEFI drivers for add-in hardware.  One of the limitations of the [[NT32]] emulation environment is the inability to communicate directly with hardware.  This is of particular concern to add-in hardware developers (IHVs), who are developing UEFI drivers for their hardware devices.
 
-[[Category:Main]]
-[[Category:Getting Started]]
