@@ -9,5 +9,3 @@
 
 * Request for training material: <a href="mailto:laurie0131@users.sourceforge.net?Subject=UEFI%20Training%20Material&body=UEFI%20Training%20Material>  Material-Request</a>
 
-[[Category:Documents]]
-[[Category:Training]]
