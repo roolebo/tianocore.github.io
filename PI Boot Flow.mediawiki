@@ -1,4 +1,4 @@
-[[https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.jpg |
+[[https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG|
 <img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases-tn.jpg>]]
 
 '''Security (SEC) Phase'''<br>
