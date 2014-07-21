@@ -32,7 +32,6 @@ What you can do is download each lesson’s '''Zip file**'''  into your local di
 <tr>
 
   <td>
-[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.htm/download  Lesson 0] <br>
 [http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.zip/download Zip file**] 
 
   </td>
@@ -71,7 +70,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.htm/download Lesson 1] <br>
+
 [http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.zip/download Zip File**] 
   <br>
  
@@ -90,7 +89,6 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 
   <td>
  
-[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.htm/download Lesson 2 ]<br>
 [http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.zip/download Zip File**]
  
   </td>
@@ -108,7 +106,6 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
- [http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_UEFI_Drivers.htm/download Lesson 3]<br>
 [http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_Drivers.zip/download Zip File**]
  
  
@@ -126,7 +123,6 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-  [http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware_Storage.htm/download Lesson 4 ] <br>
 [http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware.zip/download Zip File**] 
  
   </td>
@@ -143,8 +139,6 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-  
-[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.htm/download Lesson 5 ]<br>
 [http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.zip/download Zip File**]
  
   </td>
