@@ -48,8 +48,10 @@ This document describes the EDK II build information (INF) file format.
 </td>
 <td>
 -----
+The following are for the latest UDK2014 release
 </td>
 </tr>
+<tr>
 <td>
 '''BUILD'''
 
