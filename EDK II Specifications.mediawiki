@@ -1,4 +1,3 @@
-
 == '''EDK II Specifications'''==
 
 
@@ -13,7 +12,44 @@
         <th>Description</th>
     </tr>
 <tr></tr>
+
 <tr>
+<td>
+'''DEC'''- EDK II DEC Spec 
+
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download V1.24 PDF]
+
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download   ZIP]
+
+</td>
+<td>
+This document describes the EDK II build information (DEC) file format.
+
+* Update Aug 2014
+</td>
+</tr>
+<tr>
+<td>
+'''INF'''- EDK II INF Spec 
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download V1.24 PDF]
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download   ZIP]
+
+</td>
+<td>
+This document describes the EDK II build information (INF) file format.
+
+* Update Aug 2014
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+-----
+</td>
+</tr>
 <td>
 '''BUILD'''
 
