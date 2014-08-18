@@ -112,7 +112,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
   </td>
 
   <td>
-  '''Lesson 3: Firmware and Data Storage'''<br>
+  '''Lesson 3: UEFI Drivers '''<br>
   
   </td>
 
@@ -232,13 +232,15 @@ When you complete this lesson, you will be able to:
 [http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_UEFI_Drivers.htm/download Lesson 3]<br>
 [http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_Drivers.zip/download Zip File**]
 
-'''Lesson 3: Firmware and Data Storage'''<br>
-When you complete this lesson, you will be able to: 
-* Define Firmware Storage, Firmware Files, Firmware File Systems, and Firmware Volumes and explain their hierarchical relationship. 
-* Define Terse Image 
-* Explain why using a Terse Image is more beneficial than using a UEFI Image 
-* Locate firmware storage in a physical memory map 
-* Load drivers from a non-flash location 
+'''Lesson 3: UEFI Drivers '''<br>
+When you complete this lesson, you will be able to:
+*    Summarize UEFI drivers’ attribute, functions, and contents
+*    Compare and contrast drivers and applications
+*    Define UEFI protocols and explain their properties
+*    Outline the UEFI driver design process
+*    Identify and define the types of UEFI drivers
+*    Describe the necessary and recommended protocols for writing UEFI drivers
+
 
 [http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware_Storage.htm/download Lesson 4 ] <br>
 [http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware.zip/download Zip File**] 
