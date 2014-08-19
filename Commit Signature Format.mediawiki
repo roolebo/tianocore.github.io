@@ -28,15 +28,17 @@ Please strictly adhere to this format for signatures to enable this data to be s
 
 =Example=
 This is a sample [[Code Style/Commit Message|commit message]], including signatures:
- Package/Module: Short one line description of change
- 
- Several lines of
- description for the
- change.
- 
- Contributed-under: TianoCore Contribution Agreement 1.0
- Signed-off-by: Contributor Name <contributor@email.server>
- Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
+<pre>
+Package/Module: Short one line description of change
+
+Several lines of
+description for the
+change.
+
+Contributed-under: TianoCore Contribution Agreement 1.0
+Signed-off-by: Contributor Name <contributor@email.server>
+Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
+</pre>
 
 =See Also=
 * [[Code Style]]
