@@ -7,12 +7,14 @@ Use this format for commit messages, and when providing the log message for a pa
 
 =Commit message format=
 
- Pkg-Module: Brief-single-line-summary
- <font style="color: darkgray;">blank-line</font>
- Full-commit-message
- <font style="color: darkgray;">blank-line</font>
- Contributed-under: TianoCore Contribution Agreement 1.0
- [[Code Style/Signatures for Code|Signatures]]
+<pre>
+Pkg-Module: Brief-single-line-summary
+
+Full-commit-message
+
+Contributed-under: TianoCore Contribution Agreement 1.0
+Signed-off-by: Contributor Name <contributor@email.server>
+</pre>
 
 Where:
 * Pkg-Module is the EDK II Package and optionally the Module
