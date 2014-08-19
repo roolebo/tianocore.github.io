@@ -1,11 +1,10 @@
-{{CommitProcess}}
 This page documents our source control commit message format.
 
-This format is also documented in [https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdePkg/Contributions.txt Contributions.txt] which may be available in the source tree as well.
+This format is also documented in [Contributions.txt](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdePkg/Contributions.txt) which may be available in the source tree as well.
 
 Use this format for commit messages, and when providing the log message for a patch.
 
-=Commit message format=
+# Commit message format
 
 <pre>
 Pkg-Module: Brief-single-line-summary
@@ -13,7 +12,7 @@ Pkg-Module: Brief-single-line-summary
 Full-commit-message
 
 Contributed-under: TianoCore Contribution Agreement 1.0
-Signed-off-by: Contributor Name <contributor@email.server>
+Signed-off-by: Contributor Name &lt;contributor@email.server&gt;
 </pre>
 
 Where:
@@ -35,10 +34,10 @@ description for the
 change.
 
 Contributed-under: TianoCore Contribution Agreement 1.0
-Signed-off-by: Contributor Name <contributor@email.server>
-Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
+Signed-off-by: Contributor Name &lt;contributor@email.server&gt;
+Reviewed-by: Reviewer Name &lt;reviewer@reviewer-email.server&gt;
 </Pre>
 
-=See Also=
+# See Also
 * [[Code Style]]
 * [[Oneline Release Notes Generation]]
