@@ -1,11 +1,10 @@
-{{CommitProcess}}
 Since we have many people involved in our projects, communication is very important.
 One often overlooked form of communication is the source control commits.
 
 To maintain an easily reviewable source control history, it is important to
 put the appropriate amount of effort into partitioning your changes properly.
 This is just as important as the time you spend developing the code and
-writing a good [[Code Style/Commit Message|Commit Message]].
+writing a good [[Commit Message Format|Commit Message]].
 
 Part of your role as a [[Code Reviews|Code Reviewer]] should be to give feedback about proper commit partitioning.
 
@@ -24,4 +23,4 @@ In general, try to:
 * In most cases a new driver or library implementation should be a single commit
 
 =See Also=
-* [[Code Style]]
+* [[Code-Style]]
