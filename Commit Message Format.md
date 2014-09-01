@@ -21,7 +21,7 @@ Where:
 * The length of 'Pkg-Module: Brief-single-line-summary' should not exceed 70 characters
 * blank-line is an empty line
 * Full-commit-message is the full message describing the change
-** Line length should be limited to 70 characters when possible
+ * Line length should be limited to 70 characters when possible
 * Signatures is one or more lines with signatures.  Please see the [[Commit Signature Format]] page for more information.
 * The entire log message should use only standard ASCII text characters
 
