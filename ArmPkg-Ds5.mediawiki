@@ -130,7 +130,7 @@ With this extension association the full callstack should be displayed.
 <pre>Warning: not possible to load symbols from /home/olimar01/edk2/Build/Fat/RELEASE_RVCTLINUX/ARM/FatPkg/EnhancedFatDxe/Fat/DEBUG/Fat.dll
 Warning: not possible to load symbols from /home/olimar01/edk2/Build/Fat/RELEASE_RVCTLINUX/ARM/ShellPkg/Shell/DEBUG/Shell.dll</pre>
 Because the Fat and Shell binaries come as pre-built binaries.<br/>
-If you want to rebuild these binaries for your platform: [[ArmPkg/Binaries]]
+If you want to rebuild these binaries for your platform: [[ArmPkg-Binaries]]
 
 <b>Note 3:</b> DS-5 Debugger’s editor does not recognize the '*.iii' as assembly files. The workaround is to add a file association for "*.iii" to "ARM Assembler Editor" in DS-5 Eclipse:
 Window > Preferences, General > Editors > File Associations

@@ -27,7 +27,7 @@ patch -p1 < 0006-SamsungPlatformPkg-SmdkBoardPkg-Removed-memory-initi.patch
 patch -p1 < 0007-SamsungPlatformPkg-SmdkBoardLib-Fixed-GCC-build-issu.patch
 </pre>
 
-3. Add support for one of the supported toolchains. See [[ArmPkg/Toolchain]]
+3. Add support for one of the supported toolchains. See [[ArmPkg-Toolchain]]
 
 4. Build EDK2:
 <pre>

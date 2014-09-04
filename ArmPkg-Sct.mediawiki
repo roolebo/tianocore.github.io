@@ -269,7 +269,7 @@ A more efficient way is to start SCT in interactive mode (command: `SCT -u`) and
 When SCT is started in interactive mode all the SCT test binaries are (pre-)loaded in memory (to retrieve test information for the menu) before the tests are started from the UI.
 
 
-For this tutorial we will use DS-5 and its UEFI debugging scripts (see [[ArmPkg/Ds5]]).
+For this tutorial we will use DS-5 and its UEFI debugging scripts (see [[ArmPkg-Ds5]]).
 
 For the Fast Model Versatile Express A9x4, after breaking the execution of the model, type within the DS-5 'Commands' window (with $EDK2_ROOT the root of your EDK2 sources):
 <pre>source $EDK2_ROOT/ArmPlatformPkg/Scripts/Ds5/cmd_load_symbols.py -m (0x80000000,0x40000000) -a</pre>

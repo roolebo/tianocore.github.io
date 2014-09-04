@@ -28,7 +28,7 @@ patch -p1 < ArmPlatformPkg/Documentation/patches/BaseTools-Pending-Patches.patch
 cd BeagleBoardPkg/
 </pre>
 
-3. Get the toolchain: See [[ArmPkg/Toolchain]]
+3. Get the toolchain: See [[ArmPkg-Toolchain]]
 
 4. Apply the ARM pending patches required to build the firmware
 <pre>
