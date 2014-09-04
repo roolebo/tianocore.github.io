@@ -12,7 +12,7 @@ Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.  (Impleme
 * Mentor:
 * Suggested by: {{sfuser|jljusten}}
 
-More information: [[Tasks/UefiCpuPkg/CpuDxe MP support]]
+More information: [[Tasks-UefiCpuPkg-CpuDxe MP support]]
 
 ===Read-only ext2 driver===
 Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
@@ -22,7 +22,7 @@ Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
 * Suggested by: {{sfuser|rsun3}}
 * Status: Significant progress made during [[GSOC2011]] (external [https://github.com/rraf/Ext2Pkg repo])
 
-More information: [[Tasks/ext2 file-system driver]]
+More information: [[Tasks-ext2 file-system driver]]
 
 ===Compatibility Support Module===
 A [[CSM]] allows a UEFI system to boot legacy operating systems on IA32 & X64 systems.  In other words, most current production OS's.  Strong preference is for a BSD licensed solution, as this is license used by nearly all of our code.  A [http://www.coreboot.org/SeaBIOS SeaBIOS] based solution could be considered, but would not be as widely usable.
@@ -47,7 +47,7 @@ Create a windows based host environment for [[EmulatorPkg]].  (Could also be dev
 * Mentor:
 * Suggested by: {{sfuser|andrewfish}}
 
-More information: [[Tasks/EmulatorPkg for Windows]]
+More information: [[Tasks-EmulatorPkg for Windows]]
 
 ===Port EmulatorPkg to ARM===
 Create a ARM based host environment for [[EmulatorPkg]].
@@ -77,7 +77,7 @@ http://nbd.sourceforge.net/
 * Mentor:
 * Suggested by: {{sfuser|bjjohnson}}, {{sfuser|andreiwarkentin}}
 
-More information: [[Tasks/Network Block Device]]
+More information: [[Tasks-Network Block Device]]
 
 ===SMB network share support===
 Enable accessing content on an SMB network share
@@ -185,7 +185,7 @@ Develop a read-only filesystem driver which allows the contents of each PI 1.2 F
 * Suggested by: {{sfuser|mdkinney}}
 * Status: Ready for integration into main edk2 tree (external [https://github.com/cfdrake/FileSystemPkg repo])
 
-More information: [[Tasks/Read-only FFS file-system driver]]
+More information: [[Tasks-Read-only FFS file-system driver]]
 
 ===Shell editor improvements===
 Various improvements for the Shell editor
@@ -196,7 +196,7 @@ Various improvements for the Shell editor
 * Suggested by: {{sfuser|jljusten}}, {{sfuser|geekboy15a}}, {{sfuser|jcarsey}}
 * Status: Available in main edk2 tree
 
-More information: [[Tasks/Text Editor]]
+More information: [[Tasks-Text Editor]]
 
 ===Enable Xen Support in OVMF===
 Get [http://www.xen.org/ Xen] to boot UEFI with the [[OVMF]] platform.
@@ -213,7 +213,7 @@ Develop a USB driver for a common USB-to-serial adapter.
 * Mentor:
 * Suggested by: {{sfuser|jljusten}}
 
-More information: [[Tasks/USB Serial Adapter driver]]
+More information: [[Tasks-USB Serial Adapter driver]]
 
 ==See Also==
 * [[How To Contribute]]
