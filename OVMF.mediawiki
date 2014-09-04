@@ -28,7 +28,7 @@ This is a project to enable UEFI support for Virtual Machines.  OVMF contains a 
 
 </div>
 
-More information: [[OVMF FAQ]], [[How to build OVMF]], [[Boot Overview|OVMF/Boot Overview]], [[Mailing-Lists]] EDK II email list
+More information: [[OVMF FAQ]], [[How to build OVMF]], [[OVMF-Boot Overview]], [[Mailing-Lists]] EDK II email list
 
 Project owner(s):  <a href="mailto:jljusten@users.sourceforge.net?Subject=OVMF Page>  jljusten</a>{{sfuser|jljusten}}
 
