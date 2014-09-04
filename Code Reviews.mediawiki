@@ -9,7 +9,7 @@ As a member of the community, please take the time to review patches.
 
 If you find issues, and think the code should be modified and re-reviewed before being used, then reply to the email list letting the author know the issues you see.
 
-If you think the code is reasonable for use, then reply with your [[Code Style/Signatures for Code#Reviewed-by|Reviewed-by]] signature.
+If you think the code is reasonable for use, then reply with your [[Commit Signature Format#Reviewed-by|Reviewed-by]] signature.
 If you think only minor modifications are required, then you can include your Reviewed-by signature, but also list the minor changes you think are required.
 
 Please consider [[Code Style]] issues as part of your code review.

@@ -76,7 +76,7 @@ Aside from Google's recommendations, here are some things you should look over b
 Here are some recommendations for use during the summer while working on your project:
 # [http://www.google.com/search?q=commit+early+commit+often Commit early, commit often]
 #* Besides being a good practice in general, this will allow your mentor to see your progress.
-#* Proper [[Code Style/Commit Partitioning|Commit Partitioning]] can allow you to check in changes up to several per day.
+#* Proper [[Commit Partitioning]] can allow you to check in changes up to several per day.
 # Ask questions earlier rather than later.
 #* Use the [[edk2-devel]] list first, and your mentor second.  You should interact with our community as much as possible.
 #* Questions are good.  Perhaps it'll point out some documentation that we need for our community.
