@@ -2,7 +2,7 @@
 
 Latest version link [[UDK2014]]
 
-'''UDK2010'''  and [[UDK2014]] are stable releases of portions of the [[EDK2|EDK II]] project. 
+'''UDK2010'''  and [[UDK2014]] are stable releases of portions of the [http://tianocore.github.io/edk2.html EDK II] project. 
 
 What are the [[Differences between UDK2010 and EDK II]]?
 

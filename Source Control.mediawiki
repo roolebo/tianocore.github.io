@@ -9,7 +9,7 @@ In a few cases, some source control mirrors are available.  However, these mirro
 {| class="wikitable"
 ! Project || [http://sourceforge.net sf] || [https://github.com github] || [https://bitbucket.org bitbucket] || [http://sourceforge.net sf]
 |-
-| [[EDK2|EDK II]]
+| [http://tianocore.github.io/edk2.html EDK II]
 | [https://svn.code.sf.net/p/edk2/code svn]
 | [https://github.com/tianocore/edk2 git]
 | [https://bitbucket.org/tianocore/edk2 git]

@@ -17,7 +17,7 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 * [[MinnowBoard]] open community project with UEFI Developed firmware. 
 
 ==[[efidevkit|EDK]]==
-Note: this is the older development environment; Pre-[[EDK2|EDK II]]. See the [[Differences_between_EDK_and_EDK_II|Differences between EDK and EDK II
+Note: this is the older development environment; Pre-[http://tianocore.github.io/edk2.html EDK II]. See the [[Differences_between_EDK_and_EDK_II|Differences between EDK and EDK II
 ]]
 * [[EFI Shell|EDK Releases]] the open-source component of Intel's implementation of the EFI Specification
 * [[edk-fat-driver|edk-fat-driver]] a project for the FAT32 File System Driver

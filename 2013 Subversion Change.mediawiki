@@ -29,7 +29,7 @@ SourceForge has more documentation at [http://sourceforge.net/p/forge/community-
 ! Old URL
 ! New URL
 |-
-| [[EDK2|EDK II]]
+| [http://tianocore.github.io/edk2.html EDK II]
 | https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2
 | https://svn.code.sf.net/p/edk2/code/trunk/edk2
 |-

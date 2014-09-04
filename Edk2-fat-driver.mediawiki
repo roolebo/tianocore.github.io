@@ -51,7 +51,7 @@ What makes the Enhanced-FAT-Driver better?
 '''Other Common Links and Downloads'''
 
 * Request for a FAT-Driver Project Role (initial or promotion)
-* Link to the [[EDK2|EDK II]] Project Homepage
+* Link to the [http://tianocore.github.io/edk2.html EDK II] Project Homepage
 * Link to the TianoCore Community Project
 * Link to the [[Reporting Issues|TianoCore Issue Management Process]]
 * Link to [http://www.microsoft.com/whdc/system/platform/firmware/fatgen.mspx Microsoft's FAT32 System Driver Specification]

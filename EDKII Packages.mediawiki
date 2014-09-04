@@ -1,10 +1,10 @@
 '''EDK II Packages'''
-Within our [[EDK2|EDK II]] project, we have various packages (each sub-directory).  To discuss an issue with a package, or to [[Code Contributions|contribute]] a code change, please consult with the package maintainer (via [[Mailing_Lists]]).
+Within our [http://tianocore.github.io/edk2.html EDK II] project, we have various packages (each sub-directory).  To discuss an issue with a package, or to [[Code Contributions|contribute]] a code change, please consult with the package maintainer (via [[Mailing_Lists]]).
 
 
 <div class="t_projects">
 {|
-! colspan="4" style="background-color:#a9c6dd" | [[EDK2|EDK II]] Packages
+! colspan="4" style="background-color:#a9c6dd" | [http://tianocore.github.io/edk2.html EDK II] Packages
 |-
 ! Package
 ! Description
