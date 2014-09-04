@@ -63,4 +63,4 @@ Please refer to the [[Getting Started]] page.
 Refer to the README document under the OvmfPkg directory within the EDK II source repository or on the [[How to build OVMF|building OVMF]] wiki page.
 
 ===How do I enable source level debugging with OVMF?===
-Please refer to the [[EDK2/Source Level Debug]] page.
+Please refer to the [[EDK II-Source Level Debug]] page.
