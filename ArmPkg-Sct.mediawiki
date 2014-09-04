@@ -1,6 +1,6 @@
 == Debugging UEFI Self Certification Test (SCT) ==
 
-1. Build UEFI for your targeted ARM RTSM (RealTime System Model). See [[ArmPlatformPkg/ArmVExpressPkg]] for more complete instructions.
+1. Build UEFI for your targeted ARM RTSM (RealTime System Model). See [[ArmPlatformPkg-ArmVExpressPkg]] for more complete instructions.
 
 For this tutorial we will use ARM Versatile Express Cortex A9x4 RTSM:
 <pre>cd $EDK2_ROOT
