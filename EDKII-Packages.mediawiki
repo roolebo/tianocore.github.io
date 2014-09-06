@@ -1,0 +1,199 @@
+'''EDK II Packages'''
+Within our [http://tianocore.github.io/edk2.html EDK II] project, we have various packages (each sub-directory).  To discuss an issue with a package, or to [[Code Contributions|contribute]] a code change, please consult with the package maintainer (via [[Mailing_Lists]]).
+
+
+<div class="t_projects">
+{|
+! colspan="4" style="background-color:#a9c6dd" | [http://tianocore.github.io/edk2.html EDK II] Packages
+|-
+! Package
+! Description
+! Maintainer
+! Source Repository
+|-
+| [[EDKII_EADK | AppPkg or EADK]] 
+| Provides UEFI applications based on [[StdLib]]
+|<a href="mailto:darylm503@users.sourceforge.net?Subject=AppPkg Package>  darylm503</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/AppPkg edk2/AppPkg]
+|-
+| [[ArmPkg]]
+| Provides ARM architectural protocols common to most of ARM Platforms
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=ArmPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ArmPkg edk2/ArmPkg]
+|-
+| [[ArmPlatformPkg]]
+| Supports UEFI for ARM development boards and their drivers
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=ArmPlatform Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ArmPlatformPkg edk2/ArmPlatformPkg]
+|-
+| [[ArmRealViewEbPkg]]
+| 
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=ArmRealViewEbPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ArmRealViewEbPkg edk2/ArmRealViewEbPkg]
+|-
+| [[BaseTools]]
+| Provides build related tools for both EDK and EDK2.
+Also contains miscellaneous tools such as ECC and EOT.
+|<a href="mailto:yingke@users.sourceforge.net?Subject=BaseToolsPkg Package>  yingke</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/BaseToolsPkg edk2/BaseToolsPkg]
+|-
+| [[BeagleBoardPkg]]
+| Provides UEFI support for the BeagleBoard platform
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=BeagleBoard Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/BeagleBoardPkg edk2/BeagleBoardPkg]
+|-
+| [[CryptoPkg]]
+| Several security features were introduced (e.g. Authenticated Variable Service, Driver Signing, etc) from UEFI 2.2+ (http://www.uefi.org). These security features highly depends on the cryptography and the CryptoPkg
+|<a href="mailto:tye@users.sourceforge.net?Subject=CryptoPkg Package>  tye</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/CryptoPkg edk2/CryptoPkg]
+|-
+| [[DuetPkg]]
+|Developer's UEFI Emulation (DUET) on Edk2 - Boot to EFI Shell on legacy platform 
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=DuetPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/DuetPkg edk2/DuetPkg]
+|-
+| [[EdkCompatibilityPkg]]
+| Provides header files and libraries that enble you to build 
+the EDK module in UEFI 2.0 + Framework 0.9x mode with EDK II Build
+|<a href="mailto:lgao4@users.sourceforge.net?Subject=EdkCompatibilityPkg Package>  lgao4</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EdkCompatibilityPkg edk2/EdkCompatibilityPkg]
+|-
+| [[EdkShellBinPkg]]
+| Binary images of the EFI Shell 1.0 for IA32, X64 and IPF
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=EdkShellBinPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EdkShellBinPkg edk2/EdkShellBinPkg]
+|-
+| [[EdkShellPkg]]
+| Template for building the EFI Shell 1.0 with the EDK II build
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=EdkShellPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EdkShellPkg edk2/EdkShellPkg]
+|-
+| [[EmbeddedPkg]]
+| Provides protocol implementation for memory mapped controller and EBL
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=EmbeddedPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EmbeddedPkg edk2/EmbeddedPkg]
+|-
+| [[EmulatorPkg]]
+| This is a project to enable UEFI emulation within an OS environment
+|<a href="mailto:andrewfish@users.sourceforge.net?Subject=EmulatorPkg Package>  andrewfish</a>,
+<a href="mailto:jljusten@users.sourceforge.net?Subject=EmulatorPkg Package>  jljusten</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/EmulatorPkg edk2/EmulatorPkg]
+|-
+| [[FatBinPkg]]
+| Binary images for the Fat file system UEFI Driver
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=FatBinPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/FatBinPkg edk2/FatBinPkg]
+|-
+| [[IntelFrameworkModulePkg]]
+| Intel Framework Module Package contains the definitions and module implementation
+which follows Intel® Platform Innovation Framework for UEFI and EFI Specifications from http://www.intel.com/udk
+|<a href="mailto:vanjeff@users.sourceforge.net?Subject=IntelFrameworkModulePkg Package>  vanjeff</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/IntelFrameworkModulePkg edk2/IntelFrameworkModulePkg]
+|-
+| [[IntelFrameworkPkg]]
+| This package provides definitions and libraries that comply to the Intel® Platform Innovation Framework for UEFI and EFI Specifications from http://www.intel.com/udk
+
+|<a href="mailto:mdkinney@users.sourceforge.net?Subject=IntelFrameworkPkg Package>  mdkinney</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/IntelFrameworkPkg edk2/IntelModulePkg]
+|-
+| [[MdePkg]]
+| The Module Development Environment Package provides all definitions(including functions, MACROs, structures and library classes) and libraries instances, which are defined in MDE Specification.
+It also provides the definitions(including PPIs/PROTOCOLs/GUIDs) of
+EFI1.10/UEFI2.3.1/PI1.2 and some Industry Standards.
+
+
+|<a href="mailto:mdkinney@users.sourceforge.net?Subject=MdePkg Package>  mdkinney</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/MdePkg edk2/MdePkg]
+|-
+| [[MdeModulePkg]]
+| This package provides the modules that conform to UEFI/PI http://www.uefi.org Industry standards. 
+|<a href="mailto:erictian@users.sourceforge.net?Subject=MdeModulePkg Package>  erictian</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/MdeModulePkg edk2/MdeModulePkg]
+|-
+| [[NetworkPkg]]
+| NetworkPkg provides IPv6 network stack drivers, IPsec driver, PXE driver, iSCSI driver and necessary shell applications for network configuration 
+
+|<a href="mailto:qianouyang@users.sourceforge.net?Subject=NetworkPkg Package>  qianouyang</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/NetworkPkg edk2/NetworkPkg]
+|-
+| [[Nt32Pkg]]
+| Sample Open source of a platform.  This package is used to use UEFI emulation on top of Windows
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=Nt32Pkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/Nt32Pkg edk2/Nt32Pkg]
+|-
+| [[Omap35xxPkg]]
+| Provides UEFI support for Texas Instrument OMAP35xx based platforms
+|<a href="mailto:oliviermartin@users.sourceforge.net?Subject=Omap35xxPkg Package>  oliviermartin</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/Omap35xxPkg edk2/Omap35xxPkg]
+|-
+| [[OptionRomPkg]]
+| 
+This package is designed to interoperate with the EDK II open source and this package is required to build PCI compliant Option ROM image for all CPU architectures, including EBC target. A single driver can support mixes of EFI 1.1, UEFI 2.0 and UEFI 2.1.
+
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=OptionRomPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/OptionRomPkg edk2/OptionRomPkg]
+|-
+| [[OVMF | OvmfPkg]]
+| This is a project to enable UEFI support for Virtual Machines.
+|<a href="mailto:jljusten@users.sourceforge.net?Subject=OvmfPkg Package>jljusten</a>, <a href="mailto:lersek@users.sourceforge.net?Subject=OvmfPkg Package>lersek</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg edk2/OvmfPkg]
+|-
+| [[PcAtChipsetPkg]]
+| This package is designed to public interfaces and implementation which follows PcAt defacto standard.
+|<a href="mailto:niruiyu@users.sourceforge.net?Subject=PcAtChipsetPkg Package>  niruiyu</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/PcAtChipsetPkg edk2/PcAtChipsetPkg]
+|-
+| [[PerformancePkg]]
+| Add performance measurement capabilities to your code
+|<a href="mailto:darylm503@users.sourceforge.net?Subject=PerformancePkg Package>  darylm503</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/PerformancePkg edk2/PerformancePkg]
+|-
+| [[SecurityPkg]]
+| TPM, User identification (UID), secure boot and authenticated variable.
+|<a href="mailto:gdong1@users.sourceforge.net?Subject=SecurityPkg Package>  gdong1</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/SecurityPkg edk2/SecurityPkg]
+|-
+| [[ShellPkg]]
+| Native EDKII implementation of a UEFI Shell 2.0.
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=ShellPkg Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ShellPkg edk2/ShellPkg]
+| {{sfuser|jcarsey}}
+| {{Edk2SubPkg|ShellPkg}}
+|-
+| [[ShellPkg | ShellBinPkg]]
+| Binary image of UEFI Shell 2.0 based on [[ShellPkg]].
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=ShellBinPkg Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/ShellBinPkg edk2/ShellBinPkg]
+|-
+| [[SourceLevelDebugPkg]]
+| This package contains the source code to include the Source code debugger agent into a platform
+| {{sfuser|vanjeff}}
+| {{Edk2SubPkg|SourceLevelDebugPkg}}
+|-
+| [[StdLib]]
+| Standard C Library implementation.
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=StdLib Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/StdLib edk2/StdLib]
+|-
+| [[StdLib | StdLibPrivateInternalFiles]]
+| Standard C Library implementation.
+|<a href="mailto:jcarsey@users.sourceforge.net?Subject=StdLibPrivateInternalFiles Package>  jcarsey</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/StdLibPrivateInternalFiles edk2/StdLibPrivateInternalFiles]
+|-
+| [[StartCore]]
+| A UEFI application demonstrating use of the MpService protocol to start tasks running on multiple processor cores. Detects whether the Framework or PI compliant protocol is implemented and adjusts its behavior accordingly. 
+|<a href="mailto:darylm503@users.sourceforge.net?Subject=StartCorePkg Package>  darylm503</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/StartCorePkg edk2/StartCorePkg]
+|-
+| [[UefiCpuPkg]]
+| This Package provides UEFI compatible CPU modules and libraries
+|<a href="mailto:vanjeff@users.sourceforge.net?Subject=UefiCpuPkg Package>  vanjeff</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/UefiCpuPkg edk2/UefiCpuPkg]
+|-
+| [[UnixPkg]]
+| Provides a UEFI emulation environment which runs under Unix-like operating systems.
+|<a href="mailto:jljusten@users.sourceforge.net?Subject=UnixPkg Package>  jljusten</a>
+|[https://svn.code.sf.net/p/edk2/code/trunk/edk2/UnixPkg edk2/UnixPkg]
+|}
+
+</div>
