@@ -133,7 +133,7 @@ This package is designed to interoperate with the EDK II open source and this pa
 |<a href="mailto:niruiyu@users.sourceforge.net?Subject=OptionRomPkg Package>  niruiyu</a>
 |[https://svn.code.sf.net/p/edk2/code/trunk/edk2/OptionRomPkg edk2/OptionRomPkg]
 |-
-| [[OVMF | OvmfPkg]]
+| [http://tianocore.github.io/ovmf/ OVMF]
 | This is a project to enable UEFI support for Virtual Machines.
 |<a href="mailto:jljusten@users.sourceforge.net?Subject=OvmfPkg Package>jljusten</a>, <a href="mailto:lersek@users.sourceforge.net?Subject=OvmfPkg Package>lersek</a>
 |[https://svn.code.sf.net/p/edk2/code/trunk/edk2/OvmfPkg edk2/OvmfPkg]

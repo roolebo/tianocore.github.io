@@ -10,7 +10,7 @@ Add [http://nbd.sourceforge.net/ Network Block Device] support
 = Test environment =
 
 Client
-* [[OVMF]], [[EmulatorPkg]], or [[NT32]].
+* [http://tianocore.github.io/ovmf/ OVMF], [[EmulatorPkg]], or [[NT32]].
 
 Server
 * Linux

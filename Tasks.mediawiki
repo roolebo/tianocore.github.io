@@ -163,7 +163,7 @@ Note: There are many ideas here.  GSoC students should feel free to gather toget
 * Suggested by: {{sfuser|andrewfish}}
 
 ===Optimize OVMF for Xen HVM domains===
-Add [http://www.xen.org/ Xen] specific support in [[OVMF]] to improve boot & runtime performance.
+Add [http://www.xen.org/ Xen] specific support in [http://tianocore.github.io/ovmf/ OVMF] to improve boot & runtime performance.
 * Difficulty: Easy ... Hard
 * Language: C
 * Mentor:
@@ -199,7 +199,7 @@ Various improvements for the Shell editor
 More information: [[Tasks-Text Editor]]
 
 ===Enable Xen Support in OVMF===
-Get [http://www.xen.org/ Xen] to boot UEFI with the [[OVMF]] platform.
+Get [http://www.xen.org/ Xen] to boot UEFI with the [http://tianocore.github.io/ovmf/ OVMF] platform.
 * Difficulty: Easy ... Hard - (depending on tasks taken on)
 * Language: C
 * Mentor: {{sfuser|andreiwarkentin}}, {{sfuser|jljusten}}

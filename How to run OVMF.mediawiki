@@ -1,5 +1,5 @@
 [[Category:OVMF]]
-How to run [[OVMF]] with QEMU or KVM
+How to run [http://tianocore.github.io/ovmf/ OVMF] with QEMU or KVM
 
 ==Pre-requisites==
 
@@ -7,7 +7,7 @@ In order to run OVMF with QEMU, you must have QEMU version 0.9.1 or newer instal
 
 ===Get a build of OVMF.fd===
 
-The latest pre-built binaries of OVMF are available from the main [[OVMF]] page, or from [http://sourceforge.net/projects/edk2/files/OVMF OVMF downloads] area.  You can also [[How to build OVMF|build OVMF]] if you are interested.
+The latest pre-built binaries of OVMF are available from the main [http://tianocore.github.io/ovmf/ OVMF] page, or from [http://sourceforge.net/projects/edk2/files/OVMF OVMF downloads] area.  You can also [[How to build OVMF|build OVMF]] if you are interested.
 
 ==Choose the correct processor architecture==
 

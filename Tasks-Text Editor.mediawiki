@@ -29,7 +29,7 @@ Building
 
 Testing
 * This project can be tested on any PI 1.2 system.
-* [[OVMF]], [[Nt32Pkg]] or [[UnixPkg]] could each provide friendly test environments.
+* [http://tianocore.github.io/ovmf/ OVMF], [[Nt32Pkg]] or [[UnixPkg]] could each provide friendly test environments.
 
 =Current State=
 
