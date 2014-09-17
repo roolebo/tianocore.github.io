@@ -1,5 +1,5 @@
 {{UEFIShell}}
-[[Category:EDKII Packages]]
+[[EDKII Packages]]
 
 The '''Shell''' Packages provide native UDK implemenations of a UEFI Shell 2.0.
 
