@@ -6,15 +6,15 @@
 
 [[Build]] questions
 
-[[Debug]] questions
+[[Debug FAQ]] questions
 
-[[DEC]] questions
+[[DEC FAQ]] questions
 
 [[ECP]] EFI Compatibility package questions
 
-[[Execution order]] questions
+[[Execution order FAQ]] questions
 
-[[GUID]] questions
+[[GUID FAQ]] questions
 
 [[NT32]] questions
 
@@ -22,7 +22,7 @@
 
 [[Shell FAQ|Shell]] questions
 
-[[Virtualization]] questions
+[[Virtualization FAQ]] questions
 
 [[UEFI application]] questions
 
