@@ -1,3 +1,4 @@
+[[Member-FAQ| Member-FAQ]]
 The EFI and Framework Open Source Community lives within a fairly complex world of acronyms, terms, etc. Hopefully this page helps clarify some of those and provides a good reference.
 
 ;'''ACPI'''
