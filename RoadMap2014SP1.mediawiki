@@ -2,6 +2,7 @@
 =='''UDK2014 SP1 Roadmap for Tianocore.org '''==
 </span>
 
+'''Expected update end of October'''
 <div class="t_projects">
 
 <table width="100%">
