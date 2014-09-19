@@ -1,5 +1,5 @@
 <span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">
-=='''UDK2014 SP1 Roadmap for Tianocore.org Feature Details'''==
+=='''UDK2014 SP1 Roadmap for Tianocore.org '''==
 </span>
 
 <div class="t_projects">
@@ -8,10 +8,7 @@
 <tr>
     <th  style="background-color:#a9c6dd">Feature Details</th>
 </tr>
-    <tr>
-        <th>Description</th>
-    </tr>
-
+   
 <tr>
   <td>
     Support UEFI 2.4 errata B</td>
