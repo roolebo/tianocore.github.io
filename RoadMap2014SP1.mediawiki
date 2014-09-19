@@ -1,0 +1,67 @@
+<span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">
+=='''UDK2014 SP1 Roadmap for Tianocore.org Feature Details'''==
+</span>
+
+<div class="t_projects">
+
+<table width="100%">
+<tr>
+    <th  style="background-color:#a9c6dd">Feature Details</th>
+</tr>
+    <tr>
+        <th>Description</th>
+    </tr>
+
+<tr>
+  <td>
+    Support UEFI 2.4 errata B</td>
+</tr>
+
+<tr>
+  <td>
+INF/DEC files updates
+#Usage information in INF file comment blocks
+#Add Module Extra UNI file
+#PCD information in DEC file comment blocks 
+#Add PACKAGE_UNI_FILE UNI file
+#Add Package Extra UNI file
+</td>
+</tr>
+
+<tr>
+  <td>
+    Add ACPI 5.1 and SMBIOS 2.8.0 definitions.</td>
+</tr>
+
+<tr>
+  <td>
+    Support OpenSSL from 0.9.8w to 0.9.8zb</td>
+</tr>
+
+<tr>
+  <td>
+    Support USB 3.0 (XHCI) Recovery</td>
+</tr>
+
+<tr>
+  <td>
+    Support VS2013 build</td>
+</tr>
+
+<tr>
+  <td>
+    Remove un-necessary attribute for EFI variables</td>
+</tr>
+
+
+<tr>
+  <td>
+    &nbsp;</td>
+</tr>
+
+
+
+
+
+
+</table>
