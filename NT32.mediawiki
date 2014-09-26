@@ -37,18 +37,10 @@ The problem is that there is a string value missing in the registry that needs t
 
 This Registry value should look like the following:
 
-<P style="margin-top: 0; margin-bottom: 0">
-[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-"UserDebuggerHotKey"=dword:00000000
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-"Debugger"="\"C:\\Windows\\system32\\VSJitDebugger.exe\" -p %ld -e %ld"
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-"Auto"="1"
-</p>
+ [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug]
+ "UserDebuggerHotKey"=dword:00000000
+ "Debugger"="\"C:\\Windows\\system32\\VSJitDebugger.exe\" -p %ld -e %ld"
+ "Auto"="1"
 
 After making this change, if NT32 emulation generates an exception, it will bring up a dialog asking if you want to debug in Visual Studio.
 
