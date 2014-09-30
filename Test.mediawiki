@@ -274,7 +274,7 @@ See [[Shell_FAQ#How_do_you_add_the_new_UEFI_Shell_2.0_to_the_Nt32_in_the_UDK2010
 </table>
 <!-- TABLE END 99999999999999999999999999999 -->
 </div>
-
+==='''Previous UDK2010 Releases'''===
 <!-- TABLE start -->
 
 <div class="t_projects">
@@ -298,14 +298,40 @@ Download</th>
 <tr>
 <!--  Col 1 -->
 <td>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Complete.MyWorkSpace.zip/download '''UDK2010.SR1.UP1 DownLoad''' ] 
+w/ WorkSpace Expanded .zip <br>
+*Release June 25, 2012 
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download Release Notes] 
+
 </td>
 
 <!--  Col 2 -->
 <td>
+UEFI development Kit 2010 Specification Release #1 (UDK2010.SR1.UP1) (Complete zip of all packages and documentation where packages are expanded to MyWorkSpace Directory) <br>
+Based on svn version: <BR>
+https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1: r13452 <BR>
+https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg: r67 <BR>
+<BR>
+'''How to Build''' [[UDK2010.SR1.UP1_How-to-Build | How to Build]] UDK2010.SR1.UP1 Release <BR>
+'''Features Summary:''' 
+* UDK2010.SR1.UP1 release will deliver the remaining UEFI 2.3.1 support that was deferred from UDK2010.SR1 release because of no logo requirement need. In addition, any logo requirements which have been clarified, deleted, changed, or added between November 1st and December 22, 2011 have been incorporated. Specific details of what is new is contained in the release notes. 
+* See [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download Release Notes] for more details on the features for this release <BR>
+
+'''Supported OS and Build Environments''' 
+* [[Using EDK II with Native GCC| Using newer versions of Linux]] 
+* [[Windows systems]] 
+* [[Xcode | Xcode Mac OS X ]] 
+* [[Unix-like systems]] (For older Linux distributions, or using Cygwin or Mac OS X)
 </td>
 
 <!--  Col 3 -->
 <td>
+(UDK2010.SR1.UP1) 
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-FilesList-MyWorkSpace.txt/download File List] Of Entire Release .zip 
+---- 
+Documents 
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download Download All] 
+
 </td>
 </tr>
 <!-- Roll end ddddddddddddd-->
@@ -316,6 +342,7 @@ Download</th>
 <tr>
 <!--  Col 1 -->
 <th>
+EDK II Specifications (UDK2010.SR1.UP1) 
 </th>
 
 <!--  Col 2 -->
@@ -328,10 +355,68 @@ Download</th>
 </tr>
 <!-- Roll end hhhhhhhhhhhhhh-->
 
+<!-- Roll start dddddddddddddd -->
+<tr>
+<!--  Col 1 -->
+<td>
+*[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download BUILD v1.22 Errata B] 
+*[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download DEC v1.22 Errata B] 
+*[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download DSC v1.22 Errata B] *[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download FDF v1.22 Errata B] 
+*[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download INF v1.22 Errata B] 
+
+</td>
+
+<!--  Col 2 -->
+<td>
+[[EDK_II_Specifications | UDK2010 SR1 UP1 EDK II v1.22 Errata B specifications]] 
+These documents describe the EDK II build information for the following (Build, DEC, DSC, FDF and INF) file formats and it contains the Errata updates (version 1.22 Errata B) that are available with the UDK2010.SR1.UP1 release. See details in the Revision History in each of the individual documents for more details. <BR>
+* Released June 26, 2012 
+
+</td>
+
+<!--  Col 3 -->
+<td>
+Each document is a .PDF of each of the specifications 
+</td>
+</tr>
+<!-- Roll end ddddddddddddd-->
 
 
+<!-- Roll start  HHHHHHHHHHHH00000000000 -->
+<tr>
+<!--  Col 1 -->
+<th>
+Documents (UDK2010.SR1.UP1) 
+</th>
 
+<!--  Col 2 -->
+<th>
+</th>
 
+<!--  Col 3 -->
+<th>
+</th>
+</tr>
+<!-- Roll end hhhhhhhhhhhhhh-->
+
+<!-- Roll start dddddddddddddd -->
+<tr>
+<!--  Col 1 -->
+<td>
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download Download all UDK2010.SR1.UP1] 
+</td>
+
+<!--  Col 2 -->
+<td>
+This download contains all .chm and .html documents for UDK2010.SR1.UP1. Each package includes details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with each package. 
+</td>
+
+<!--  Col 3 -->
+<td>
+Contains both .chm file and .html files in this .zip for all UDK2010.SR1.UP1 documents 
+</td>
+</tr>
+<!-- Roll end ddddddddddddd-->
 
 </table>
 <!-- TABLE END 99999999999999999999999999999 -->
