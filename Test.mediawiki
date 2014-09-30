@@ -575,8 +575,8 @@ This includes the certified IPv6 network stack implementation under UEFI.</td>
 <span class="docHeader">Readme</span>
 
 [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Release.Notes.txt/download UDK2010.UP4.Release.Notes.txt]
-
-[[UDK2010 UP4 Help documents|UDK2010 UP4 Help documents]]
+----
+[ http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/Documents/ UDK2010 UP4 Help documents]
 </td></tr>
 </table>
 
@@ -586,7 +586,7 @@ This includes the certified IPv6 network stack implementation under UEFI.</td>
 <div class="t_projects">
 
 <table>
-<tr><th colspan="4" style="background-color:#a9c6dd">UDK2010 UPT 3</th></tr>
+<tr><th colspan="4" style="background-color:#a9c6dd">UDK2010 UP3 P1</th></tr>
 <tr>
 <th>Release</th>
 <th>What is it?</th>
@@ -630,9 +630,10 @@ Duet-Readme.txt
 </td>
 
 <td>
-<span class="docHeader">Readme</span>
-
-[[UDK2010 UP3 Help documents]]
+Readme 
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP3.P1/UDK2010.UP3.Release.Notes.P1.txt/download  UDK2010.UP3.Release.Notes.P1.txt]
+----
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP3.P1/Documents/ UDK2010 UP3 Help documents]
 </td></tr>
 <tr><td>
 <span class="docHeader">General documentation</span>
@@ -675,7 +676,8 @@ Duet-Readme.txt
 <td rowspan="4">UEFI development Kit 2010
 UDK Patch #2, 
 UDK2010 Release based upon the UDK2010 UP2 package 
-UEFI.</td>
+UEFI.
+</td>
 <td rowspan="4">
 Base Tools
 
@@ -707,11 +709,13 @@ Duet-Readme.txt
 </td>
 
 <td>
-<span class="docHeader">Readme</span>
-
-[[UDK2010 UP2 Help Documents]]
-</td></tr>
-<tr><td>
+Readme [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/UDK2010.UP2.ReleaseNotes.txt/download UDK2010.UP2.ReleaseNotes.txt ]
+----
+[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/Documents/  UDK2010 UP2 Help Documents]
+</td>
+</tr>
+<tr>
+<td>
 <span class="docHeader">General documentation</span>
 
 [http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download EDKII_UserManual_0_7.pdf]
@@ -735,3 +739,6 @@ Duet-Readme.txt
 </table>
 
 </div>
+
+
+
