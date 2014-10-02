@@ -23,4 +23,4 @@ If you have questions about the code or run into obstacles getting things to wor
 
 How to Write a simple UEFI EDK II Application, see: [[Getting Started Writing Simple Application]]
 
-Understanding the basic setup of .DCS, .DEC, and .INF files [[Build_Description_Files ]]
+Understanding the basic setup of .DSC, .DEC, and .INF files [[Build_Description_Files ]]
