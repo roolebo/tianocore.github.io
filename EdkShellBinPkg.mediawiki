@@ -2,7 +2,7 @@
 <!-- [[Category:EFI Shell]] -->
 <!-- [[Category:EDK]] -->
 
-The '''EdkShellBinPkg''' contains binary copies of the [[EDK]] [[Efi-shell|Shell]] for inclusion in a [[EDK II]] platform.
+The '''EdkShellBinPkg''' contains binary copies of the [[EDK]] [[Efi-shell|Shell]] for inclusion in a [http://tianocore.github.io/edk2.html EDK II] platform.
 
 ===Source Repository===
 {{Edk2SubPkg|EdkShellBinPkg}}

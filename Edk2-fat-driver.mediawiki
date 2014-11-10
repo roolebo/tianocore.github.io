@@ -1,6 +1,6 @@
 <!-- [[Category:EDKII]] -->
 {{project-summary
-|sum=[[EDK II]] [[UEFI]] FAT filesystem driver
+|sum=[http://tianocore.github.io/edk2.html EDK II] [[UEFI]] FAT filesystem driver
 |cat=uefi-boot-services-driver
 |lic=[http://www.opensource.org/licenses/bsd-license.php BSD] with additional term (see below)
 |own={{sfuser|jljusten}}, {{sfuser|pgao2}}

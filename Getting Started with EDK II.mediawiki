@@ -5,7 +5,7 @@
 
 ==Step-by-step Instructions==
 
-We have some step-by-step instructions for helping new developers set up their build environment and build their first [[EDK II]] package.
+We have some step-by-step instructions for helping new developers set up their build environment and build their first [http://tianocore.github.io/edk2.html EDK II] package.
 
 A few different build environment types are documented.  If instructions are not available for your exact system configuration, you may still be able to tweak the instructions to work on your system.
 

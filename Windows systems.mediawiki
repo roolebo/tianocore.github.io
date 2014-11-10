@@ -1,6 +1,6 @@
 Please note: These instructions are currently under construction.
 
-This page provides [[step-by-step instructions]] for setting up a [[EDK II]] build environment on Windows systems.
+This page provides [[step-by-step instructions]] for setting up a [http://tianocore.github.io/edk2.html EDK II] build environment on Windows systems.
 
 == GUI instructions ==
 {{TortoiseSvnInstructions}}

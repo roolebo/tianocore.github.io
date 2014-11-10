@@ -9,7 +9,7 @@ For general developer discussions, please refer to the ''Developer Discussions''
 | [https://lists.sourceforge.net/lists/listinfo/efidevkit-devel efidevkit-devel]
 | [https://lists.sourceforge.net/lists/listinfo/efidevkit-commits efidevkit-commits]
 |-
-| [[EDK II]]
+| [http://tianocore.github.io/edk2.html EDK II]
 | [https://lists.sourceforge.net/lists/listinfo/edk2-devel edk2-devel]
 | [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
 |-
