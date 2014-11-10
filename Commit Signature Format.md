@@ -6,6 +6,8 @@ This format is also documented in [Contributions.txt](https://edk2.svn.sourcefor
 
 * Your Name &lt;your.email@host.com&gt;
   - This is your real name and email address
+  - Quote (") your name if it contains a comma
+    * "Last, First" &lt;your.email@host.com&gt;
 
 # Where to add signatures
 
