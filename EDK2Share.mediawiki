@@ -1,4 +1,4 @@
-[[Category:EDKII Share]]
+<!-- [[Category:EDKII Share]] -->
 {{project-summary
 |sum=EDK II Share project|cat=none
 |lic=none

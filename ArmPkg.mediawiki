@@ -6,6 +6,6 @@ Various ARM architectures (from ARMv4T to ARMv7) are currently supported by this
 {{Edk2SubPkg|ArmPkg}}
 
 
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 <!-- [[Category:ARM]] -->
 <!-- [[Category:EDKII]] -->

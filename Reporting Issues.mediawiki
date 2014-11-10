@@ -1,4 +1,4 @@
-[[Category:Defect Tracking]]
+<!-- [[Category:Defect Tracking]] -->
 '''The SourceForge Trac Application'''
 
 The bug tracking system used by the EFI and Framework Open Source Community Website is "Project Tracker". The application allows for each project to have its own database for "artifacts" (defects, enhancements, tasks). The application is highly configurable, and for the EFI and Framework Open Source Community Website has been configured to support the unique need for a tightly controlled process of changing the codebase. The purpose of this page is to provide the EFI and Framework Open Source Community Website users with an understanding of the configuration of Project Tracker for this site. If you need more help to understand the underlying tool please consult the help documentation on that topic.

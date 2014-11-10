@@ -1,4 +1,4 @@
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 Nt32Pkg 
 The goals and features of the Nt32Pkg platform are similar to [[UnixPkg]].
 

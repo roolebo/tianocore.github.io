@@ -105,5 +105,5 @@ cp ArmPlatformPkg/ArmPlatformPkg-2ndstage.fdf [YOUR_PLATFORM_PKG]/[YOUR_PLATFORM
 [[ArmPlatformPkg-ArmVExpressPkg]]
 
 <!-- [[Category:ARM]] -->
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 <!-- [[Category:EDKII]] -->

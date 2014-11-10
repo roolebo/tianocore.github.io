@@ -35,7 +35,7 @@ This page is designed to support Unified Extensible Firmware Interface (UEFI) de
 
 * Please visit the [http://uefidk.com/ Intel UEFI Community Resource Center] for additional resources (Source Level Debugger, UEFI Development Kit, etc.)
 
-[[Category:UEFI Driver Wizard]]
+<!-- [[Category:UEFI Driver Wizard]] -->
 <!-- [[Category:EDKII]] -->
 <!-- [[Category:IHV]] -->
 <!-- [[Category:DWG]] -->

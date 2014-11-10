@@ -1,5 +1,5 @@
 <!-- [[Category:EDKII]] -->
-[[Category:EDKII Build]]
+<!-- [[Category:EDKII Build]] -->
 Getting and Installing the Required Tools for Building [[EDK II]].
 
 Note: The [[step-by-step instructions]] also cover installing pre-requisite build tools for some build environments.

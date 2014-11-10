@@ -26,7 +26,7 @@ Once the workspace directory has been configured, use the 'New UEFI Driver' dial
 
 Note that the wizard may return an error at the end of the process if required fields are left blank (example: UEFI Driver Name). For details on this dialog, please refer to the [[New UEFI Driver Dialog]] page.
 
-[[Category:UEFI Driver Wizard]]
+<!-- [[Category:UEFI Driver Wizard]] -->
 <!-- [[Category:Driver]] -->
 <!-- [[Category:IHV]] -->
 <!-- [[Category:EDKII]] -->

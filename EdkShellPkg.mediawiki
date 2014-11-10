@@ -1,5 +1,5 @@
-[[Category:EDKII Packages]]
-[[Category:EFI Shell]]
+<!-- [[Category:EDKII Packages]] -->
+<!-- [[Category:EFI Shell]] -->
 <!-- [[Category:EDK]] -->
 The '''EdkShellPkg''' contains meta data files for building the [[EDK]] [[Efi-shell|Shell]] for building in an [[EDK II]] platform.
 

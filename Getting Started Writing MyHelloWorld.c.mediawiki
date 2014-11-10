@@ -34,4 +34,4 @@ UefiMain (
 
 </pre>
 
-[[Category:Getting Started]]
+<!-- [[Category:Getting Started]] -->

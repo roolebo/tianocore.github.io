@@ -48,4 +48,4 @@ These links will work only if you are a registered user on TianoCore (click here
 
 
 <!-- [[Category:EDK]] -->
-[[Category:EFI Shell]]
+<!-- [[Category:EFI Shell]] -->

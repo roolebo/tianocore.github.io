@@ -15,7 +15,7 @@ This subset of packages is designed to be used with the [[UEFI Driver Wizard]].
 # Unzip the BaseTools ZIP file into the workspace directory
 # Open a Visual Studio Command Prompt and run edksetup.bat in the workspace directory
 
-[[Category:UEFI Driver Wizard]]
+<!-- [[Category:UEFI Driver Wizard]] -->
 <!-- [[Category:Driver]] -->
 <!-- [[Category:IHV]] -->
 <!-- [[Category:EDKII]] -->

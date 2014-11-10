@@ -52,4 +52,4 @@ The storage of NV RAM variables for the Nt32Pkg emulation is in the Nt32.fd file
 <!-- [[category:FAQ]] -->
 <!-- [[category:EDKII]] -->
 <!-- [[category:NT32]] -->
-[[category:Windows 7]]
+<!-- [[category:Windows 7]] -->

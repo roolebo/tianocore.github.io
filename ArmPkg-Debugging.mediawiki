@@ -65,6 +65,6 @@ Note: 'BL' is a branch relative to the Program Counter (PC) register. In the cas
 <pre>add-symbol-file [EDK2_ROOT]/Build/ArmRealViewEb-RTSM-A8/DEBUG_RVCTLINUX/ARM/ArmPlatformPkg/Sec/Sec/DEBUG/ArmPlatformSec.dll 0x180</pre>
 
 
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 <!-- [[Category:ARM]] -->
 <!-- [[Category:EDKII]] -->

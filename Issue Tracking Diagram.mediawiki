@@ -1,4 +1,4 @@
-[[Category:Defect Tracking]]
+<!-- [[Category:Defect Tracking]] -->
 == The EFI and Framework Open Source Defect Resolution Process ==
 
 

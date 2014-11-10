@@ -269,6 +269,6 @@ OMAP3 beagleboard.org # fatload USB 0:1 80008000 BEAGLEBOARD_EFI.fd
 OMAP3 beagleboard.org # go 80008000
 </pre>
 
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 <!-- [[Category:BeagleBoard]] -->
 <!-- [[Category:EDKII]] -->

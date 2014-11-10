@@ -1,6 +1,6 @@
 <!--
 <!-- [[Category:EDKII]] -->
-[[Category:Getting Started]]
+<!-- [[Category:Getting Started]] -->
 -->
 
 ==Step-by-step Instructions==

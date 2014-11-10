@@ -78,4 +78,4 @@ to:
 : NOTE: VS2003** May not be supported
 
 
-[[Category:Getting Started]]
+<!-- [[Category:Getting Started]] -->

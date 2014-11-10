@@ -24,5 +24,5 @@ This protocol is a tentative to get a solution to this limitation.
 * FDT Support: [[EmbeddedPkg-Fdt]]
 
 <!-- [[Category:ARM]] -->
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 <!-- [[Category:EDKII]] -->

@@ -1,4 +1,4 @@
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 This is a project to enable [[UEFI]] emulation within an OS environment.
 
 ==Status==

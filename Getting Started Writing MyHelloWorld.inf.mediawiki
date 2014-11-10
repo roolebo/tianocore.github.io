@@ -48,4 +48,4 @@ Note: Copy and paste the GUID from : http://www.guidgen.com/ for the '''FILE_GUI
 </pre>
 
 
-[[Category:Getting Started]]
+<!-- [[Category:Getting Started]] -->

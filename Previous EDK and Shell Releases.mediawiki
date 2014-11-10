@@ -1,5 +1,5 @@
-[[Category: EFI Shell]]
-[[Category: EDK]]
+<!-- [[Category: EFI Shell]] -->
+<!-- [[Category: EDK]] -->
 These releses are archived for reference. 
 
 To learn more about the EDK codebase see the [http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modules EDK Module Structure Explained].

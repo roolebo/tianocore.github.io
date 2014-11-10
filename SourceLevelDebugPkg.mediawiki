@@ -1,4 +1,4 @@
-[[Category:EDKII Packages]]
+<!-- [[Category:EDKII Packages]] -->
 This package contains the source code to include the Source code debugger agent into a platform.  This plus the host application will allow Source level debugging for the platform and UEFI Drivers and UEFI applications. 
 
 
