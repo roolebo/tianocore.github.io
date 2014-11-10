@@ -25,7 +25,7 @@ If there is not a GPT partition then this must done on install.  UEFI needs the 
 ===Why would I need it (UEFI aware OS)?=== 
 To get the benefits of UEFI with the OS. One benefit is >2.2 TB hard drive support.
 
-[[category:edit]]
-[[category:FAQ]]
+<!-- [[category:edit]] -->
+<!-- [[category:FAQ]] -->
 [[category:UEFI/PI]]
-[[category:GPT]]
+<!-- [[category:GPT]] -->

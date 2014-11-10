@@ -283,4 +283,4 @@ Resume the execution of the Fast Model and start the SCT test to debug from the 
 You can now step though the SCT & UEFI Firmware code :-)
 [[File:ArmPkg-Sct-7.png|center]]
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

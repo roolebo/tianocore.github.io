@@ -33,4 +33,4 @@ After visiting the SourceForge project page, click on the '''Develop''' link nea
 
 From the '''Develop''' page, you can also join discussion groups and email lists related to the project.
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

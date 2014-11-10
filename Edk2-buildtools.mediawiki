@@ -1,4 +1,4 @@
-[[Category:EDKIIBuildTools]]
+<!-- [[Category:EDKIIBuildTools]] -->
 = EDK II Build Tools sub project=
 This sub project is for development of the EDK II Build Tools. This is the primary set of tools for processing [http://tianocore.github.io/edk2.html EDK II] content. It contains configuration templates and source files. The tools support a Makefile based EDK II build with no additional packages required--the compiler tool chain, an assembler and optional ACPI assembler are the only additional tools need to build the EDK II project.
 

@@ -55,5 +55,5 @@ git commit -m "EDK Shell patch to support GCC"
 4. Generate the new EDK Shell patch
 git format-patch -1 --stdout > $TIANOCORE_ROOT/EdkShellPkg/ShellR64.patch
 
-[[Category:ARM]]
-[[Category:EDKII]]
+<!-- [[Category:ARM]] -->
+<!-- [[Category:EDKII]] -->

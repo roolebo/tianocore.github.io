@@ -1,5 +1,5 @@
-[[Category:GSOC2011]]
-[[Category:Tasks]]
+<!-- [[Category:GSOC2011]] -->
+<!-- [[Category:Tasks]] -->
 Develop an [[Wikipedia:Ext2|ext2]] filesystem driver.  (read-only support would be useful as a first step)
 
 * Difficulty: Medium ... Hard

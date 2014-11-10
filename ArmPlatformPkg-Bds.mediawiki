@@ -81,5 +81,5 @@ Choose option 1-5: 1
 Select the Boot Device: 2
 File path of the EFI Application or the kernel: ShellFull.efi
 </pre>
-[[Category:ARM]]
-[[Category:EDKII]]
+<!-- [[Category:ARM]] -->
+<!-- [[Category:EDKII]] -->

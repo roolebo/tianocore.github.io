@@ -12,7 +12,7 @@ The DEC file declares Protocols, PPIs, GUIDs, Library Classes, and PCDs. It is n
 ===What is DEC publishing?===
 The DEC of a package will publish protocols for consuming, PCDs that can be manipulated by other packages, Libraries and GUIDs. The DEC file declares Protocols, PPIs, GUIDs, Library Classes, and PCDs. 
 
-[[category:FAQ]]
-[[category:EDKII]]
-[[category:DEC]]
-[[category:Package]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:EDKII]] -->
+<!-- [[category:DEC]] -->
+<!-- [[category:Package]] -->

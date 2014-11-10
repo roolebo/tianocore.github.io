@@ -27,7 +27,7 @@ Yes, ECP has set of libraries that are understood by EDK I to build in EDK II. I
 ===With regard to HII protocols what is the level to use with the ECP?===
 To use ECP the code and VFR code must be UEFI 2.0/Framework 0.9. This means using the HII from Framework 0.9.
  
-[[category:FAQ]]
-[[category:EDKII]]
-[[category:ECP]]
-[[category:EdkCompatibilityPkg]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:EDKII]] -->
+<!-- [[category:ECP]] -->
+<!-- [[category:EdkCompatibilityPkg]] -->

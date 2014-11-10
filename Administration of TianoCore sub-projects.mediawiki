@@ -13,4 +13,4 @@
 
 * {{sfuser|jljusten}}: We should not enable the 'forum' feature of sourceforge.  The mail lists feature seems to better match our project communication method on collabnet.
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

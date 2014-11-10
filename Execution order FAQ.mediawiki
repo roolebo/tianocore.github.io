@@ -14,5 +14,5 @@ No eviction mode and set a side temp memory. PEI core will allocate memory.
 There is another method called an a priori file. There can be one per Firmware volume. This will tell the dispatcher what order to dispatch list drivers in the order they need to dipatch them. This is a manual order. It does not need to be in any specific place in the FV. If it in the FV the dispatcher will find it.
 
 
-[[Category:FAQ]]
-[[Category:Dispatch]]
+<!-- [[Category:FAQ]] -->
+<!-- [[Category:Dispatch]] -->

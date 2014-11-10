@@ -21,4 +21,4 @@ Generally these features are not needed.  Of course they may be useful for some 
 * Forums
 * Project News
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

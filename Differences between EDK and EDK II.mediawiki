@@ -1,6 +1,6 @@
-[[Category:EDK]]
-[[Category:EDKII]]
-[[Category:UDK2010]]
+<!-- [[Category:EDK]] -->
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:UDK2010]] -->
 
 Frequently asked questions about the differences between EDK and EDK II
 

@@ -22,7 +22,7 @@ Yes, the PCDs need to be declared as DynamicHii
 ===Where is an example of using HII and VFR ?===
 There is a good example in the MdkModulePkg\Universal\DriverSampleDxe.  To see the demo of this use the Nt32 emulation setup page, go to "''Device Manager''" then "''Browser Testcase Engine''".  This will open a menu form with examples of different types of ways to enter configuration data. 
 
-[[category:FAQ]]
+<!-- [[category:FAQ]] -->
 [[category:UEFI/PI]]
-[[category:HII]]
-[[category:VFR]]
+<!-- [[category:HII]] -->
+<!-- [[category:VFR]] -->

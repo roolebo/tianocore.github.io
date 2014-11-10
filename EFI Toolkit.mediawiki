@@ -1,4 +1,4 @@
-[[Category:ArchivedInformation]]
+<!-- [[Category:ArchivedInformation]] -->
 
 '''The [[EDKII_EADK]] is replacing the EFI Toolkit.  It is recommended that you use this EDK II Project instead of the EFI Toolkit since it is no longer supported.'''
 ----

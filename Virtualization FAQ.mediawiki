@@ -1,6 +1,6 @@
-[[Category:FAQ]]
-[[Category:Virtualization]]
-[[Category:EDKII]]
+<!-- [[Category:FAQ]] -->
+<!-- [[Category:Virtualization]] -->
+<!-- [[Category:EDKII]] -->
 
 Virtualization questions
 

@@ -1,4 +1,4 @@
-[[Category:Legalese]]
+<!-- [[Category:Legalese]] -->
 netBSD License
 --------------------------------------------------------------------------------------------
 This license follows the same terms and conditions as the BSD license which is also viewable at:

@@ -93,4 +93,4 @@ To become a mentor for our project:
 * http://www.google-melange.com/gsoc/org/google/gsoc2011/tianocore
 * [[Tasks]]
 
-[[Category:GSoC]]
+<!-- [[Category:GSoC]] -->

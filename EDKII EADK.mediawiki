@@ -119,6 +119,6 @@ Packages Included:  (Note: get the latest from the [[UDK2010]] release)
 </tr>
 
 </table>
-[[Category:EDKII]]
-[[Category:EADK]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:EADK]] -->
 </div>

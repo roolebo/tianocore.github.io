@@ -1,4 +1,4 @@
-[[Category:OVMF]]
+<!-- [[Category:OVMF]] -->
 How to run [http://tianocore.github.io/ovmf/ OVMF] with QEMU or KVM
 
 ==Pre-requisites==

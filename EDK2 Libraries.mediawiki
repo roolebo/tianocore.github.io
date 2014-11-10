@@ -1,4 +1,4 @@
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->
 This page gives an overview of [http://tianocore.github.io/edk2.html EDK II] libraries.
 
 =Classes vs. Implementation=

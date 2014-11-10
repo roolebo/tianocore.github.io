@@ -270,5 +270,5 @@ OMAP3 beagleboard.org # go 80008000
 </pre>
 
 [[Category:EDKII Packages]]
-[[Category:BeagleBoard]]
-[[Category:EDKII]]
+<!-- [[Category:BeagleBoard]] -->
+<!-- [[Category:EDKII]] -->

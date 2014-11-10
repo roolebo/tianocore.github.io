@@ -44,5 +44,5 @@ How to create a Visual Studio solution for an EDK II tree.(PDF)
 </tr>
 
 </table>
-[[Category:EDKII]]
-[[Category:Documents]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:Documents]] -->

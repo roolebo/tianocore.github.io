@@ -1,4 +1,4 @@
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->
 {{Shell}}
 {{project-summary
 |sum=Contributed Shell adaptations for GCC and SCT in EDK 2

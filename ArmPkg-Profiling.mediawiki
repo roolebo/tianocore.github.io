@@ -289,4 +289,4 @@ After some post-processing here are the list of the 20 functions that consume th
 |}
 This is based on SVN rev15539 (2014-05-19).
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

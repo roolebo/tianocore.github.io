@@ -1,7 +1,7 @@
-[[category:FAQ]]
-[[category:EDKII]]
-[[category:UEFI_Shell]]
-[[category:Script]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:EDKII]] -->
+<!-- [[category:UEFI_Shell]] -->
+<!-- [[category:Script]] -->
 [[category:.nsh]]
 
 

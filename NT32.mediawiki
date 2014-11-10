@@ -49,7 +49,7 @@ After making this change, if NT32 emulation generates an exception, it will brin
 The storage of NV RAM variables for the Nt32Pkg emulation is in the Nt32.fd file in the output build directory, for example, build/NT32/DEBUG_VS2010x86/FV/NT32.fd using VS 2010 and Win 7 X64.   If you issue another “Build” this is cleared for the next “Build Run
 
 
-[[category:FAQ]]
-[[category:EDKII]]
-[[category:NT32]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:EDKII]] -->
+<!-- [[category:NT32]] -->
 [[category:Windows 7]]

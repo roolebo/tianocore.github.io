@@ -75,4 +75,4 @@ Codename:      Karmic*
 
 >        build -t GCC44
 
-[[Category:Documents]]
+<!-- [[Category:Documents]] -->

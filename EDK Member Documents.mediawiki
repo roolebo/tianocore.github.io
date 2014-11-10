@@ -25,5 +25,5 @@ Material from the 2009 training in Beijing.</td>
 
 </table>
 <div>
-[[Category:EDK]]
-[[Category:Documents]]
+<!-- [[Category:EDK]] -->
+<!-- [[Category:Documents]] -->

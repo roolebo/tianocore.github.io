@@ -309,4 +309,4 @@ To enable both worlds, you must set the PCD gArmTokenSpaceGuid.PcdTrustzoneSuppo
 ArmPlatformPkg/Sec module will be responsible to make the transition from Secure to Non-Secure World.
 
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

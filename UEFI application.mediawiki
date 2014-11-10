@@ -24,6 +24,6 @@ Outside the shell there are different ways.
 The Boot Maintenance Manager provides menus to manually add a new Boot Option and re-order the active Boot Options.  A UEFI Application can also be used to update the EFI Variables associated with Boot Options to add a new Boot Option to a platform.  This would be the typical method used by an installer application.  UEFI OS installers also use this method of updating the EFI Variables to add a newly installed operating system to the set of operating systems installed on a platform.
 
 
-[[category:FAQ]]
-[[category:EDKII]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:EDKII]] -->
 [[category:UEFI applications]]

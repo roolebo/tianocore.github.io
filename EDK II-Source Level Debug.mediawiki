@@ -1,4 +1,4 @@
-[[Category:EDKIIFAQ]][[Category:EDKIISourceLevelDebug]]
+<!-- [[Category:EDKIIFAQ]] --><!-- [[Category:EDKIISourceLevelDebug]] -->
 =[http://tianocore.github.io/ovmf/ OVMF]=
 
 Requirements:

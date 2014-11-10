@@ -198,4 +198,4 @@ Mem:          3963         80       3882          0          3         25
 Swap:            0          0          0
 root@genericarmv8:~#</pre>
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

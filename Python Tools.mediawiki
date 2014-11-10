@@ -1,4 +1,4 @@
-[[Category:EDKIIBuildTools]]
+<!-- [[Category:EDKIIBuildTools]] -->
 The following tools are required for building [[edk2-buildtools| EDK II Build Tools]] and instructions are provided in the [[BuildTool Setup Guide]].
 
 =Resources=

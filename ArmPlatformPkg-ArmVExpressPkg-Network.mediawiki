@@ -87,4 +87,4 @@ Now you should see the file you put in /var/lib/tftpboot in the directory you ra
 ==== Debugging the Ethernet Driver ====
 To debugging the network stack add the bit DEBUG_NET (ie: 0x00004000) to gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel to enable the network specific debug information.
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

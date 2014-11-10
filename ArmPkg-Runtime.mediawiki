@@ -427,4 +427,4 @@ And when booting Linux:
   EFI remap 0x00000c000000 => ffffff8000080000
   EFI remap 0x00001c170000 => ffffff8000012000</pre>
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

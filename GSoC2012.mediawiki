@@ -96,4 +96,4 @@ Here are some recommendations for use during the summer while working on your pr
 
 -->
 
-[[Category:GSoC]]
+<!-- [[Category:GSoC]] -->

@@ -9,4 +9,4 @@ The Tianocore project hosts the mediawiki hosted app and the mailing list hosted
 
 if you know a better way to do this please let us know because even the site is open source  ;-)
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

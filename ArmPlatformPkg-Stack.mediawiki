@@ -35,4 +35,4 @@ The Global Variable region is automatically set at the top of the primary core s
 Example to access the global variable B in Normal World, the calculation should be:
 PcdCPUCoresStackBase + PcdCPUCorePrimaryStackSize - PcdPeiGlobalVariableSize + PcdXipVariableBGlobalOffset
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

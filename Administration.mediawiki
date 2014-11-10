@@ -30,4 +30,4 @@ The EDK, EDK II, EFI-SHELL, EFI-SCT and FAT32 projects use the roles defined abo
 
 Since Intel is the originator of the EDK, EDK II, EFI-SHELL, EFI-SCT and FAT32 code bases, contributors to those code bases must agree to the site's Terms and Conditions in order to make code changes (downloads of these code bases are unrestricted). For other projects on this website, the license model chosen is up to the individual project owners.
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

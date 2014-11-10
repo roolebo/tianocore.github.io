@@ -151,5 +151,5 @@ described in this document.</td>
 
 
 </table>
-[[Category:EDKII]]
-[[Category:Documents]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:Documents]] -->

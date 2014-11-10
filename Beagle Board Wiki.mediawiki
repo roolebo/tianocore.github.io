@@ -1,5 +1,5 @@
-[[Category:EDKII]]
-[[Category:BeagleBoard]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:BeagleBoard]] -->
 == Beagle Board==
 To find the latest instructions to build the BeagleBoard on Linux go to [[BeagleBoardPkg | this wikipage]]
 

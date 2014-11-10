@@ -376,6 +376,6 @@ what source files are used in a build, and more!</td>
   <td>http://www.intel.com/content/www/us/en/architecture-and-technology/unified-extensible-firmware-interface/efi-specifications-general-technology.html</td>
 </tr>
 </table>
-[[Category:EDKII]]
-[[Category:EDKII_dashboard]]
-[[Category:Documents]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:EDKII_dashboard]] -->
+<!-- [[Category:Documents]] -->

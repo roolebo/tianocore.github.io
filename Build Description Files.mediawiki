@@ -1,5 +1,5 @@
-[[Category:EDKII]]
-[[Category:Build]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:Build]] -->
 
 = '''EDK II – Concise Getting Started Guide''' =
  

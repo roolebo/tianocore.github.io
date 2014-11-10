@@ -4,5 +4,5 @@
 *[[EDK II white papers]]
 *[[Driver_Developer| EDK II Driver Developer Page]]
 *[[EdkII_dashboard| EDK II Dashboard Page]]
-[[Category:EDKII]]
-[[Category:Documents]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:Documents]] -->

@@ -219,5 +219,5 @@ More information: [[Tasks-USB Serial Adapter driver]]
 * [[How To Contribute]]
 * [[GSoC2012]]
 
-[[Category:Tasks]]
-[[Category:GSoC]]
+<!-- [[Category:Tasks]] -->
+<!-- [[Category:GSoC]] -->

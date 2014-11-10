@@ -1,4 +1,4 @@
-[[Category:EDK]]
+<!-- [[Category:EDK]] -->
 {{project-summary
 |sum=EDK Applications|cat=development-platform
 |lic=[http://www.opensource.org/licenses/bsd-license.php BSD]

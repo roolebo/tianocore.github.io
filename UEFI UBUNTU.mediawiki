@@ -9,4 +9,4 @@ http://cdimage.ubuntu.com/daily-live/
 * https://help.ubuntu.com/community/UEFIBooting
 * https://wiki.ubuntu.com/Kernel/Testing/UbuntuUEFI
 
-[[Category:UEFI]]
+<!-- [[Category:UEFI]] -->

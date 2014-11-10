@@ -64,6 +64,6 @@ The .CHM is the package scope.  The other aspect is distributing a module needs 
 
 
 
-[[category:FAQ]]
-[[category:EDKII]]
-[[category:PCD]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:EDKII]] -->
+<!-- [[category:PCD]] -->

@@ -23,6 +23,6 @@ This protocol is a tentative to get a solution to this limitation.
 * EBL Support: [[EmbeddedPkg-Ebl]]
 * FDT Support: [[EmbeddedPkg-Fdt]]
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->
 [[Category:EDKII Packages]]
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->

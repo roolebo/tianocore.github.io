@@ -2,4 +2,4 @@ This page is no longer used.
 
 Please refer to the [[How To Contribute]] page. 
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

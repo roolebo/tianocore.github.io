@@ -1,7 +1,7 @@
 {{UDK2010}}
 
-[[Category:EDKII]]
-[[Category:UDK2010]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:UDK2010]] -->
 
 '''Frequently asked questions about the differences between UDK2010 and EDK II'''
 

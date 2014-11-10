@@ -139,4 +139,4 @@ To:
 ==See Also==
 * [[Step-by-step instructions]]
 
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->

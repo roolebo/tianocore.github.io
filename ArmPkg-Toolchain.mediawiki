@@ -20,8 +20,8 @@
 
 <u><b>Note:</b></u> BaseTools does not need to by build when EDK2 is built from a MS Windows. Pre-built BaseTools binaries are provided by EDK2 repository.
 
-[[Category:ARM]]
-[[Category:EDKII]]
+<!-- [[Category:ARM]] -->
+<!-- [[Category:EDKII]] -->
 
 ===Add Support for ARMGCC===
 1. Get the arm-none-eabi Toolchain from Code Sourcery:

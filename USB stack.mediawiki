@@ -1,4 +1,4 @@
-[[Category:FAQ]]
+<!-- [[Category:FAQ]] -->
 ===If I have a USB dongle, what drivers do I need?===
 Below are specific paths to the drivers from the open source packages.  You can also put in both EHCI and UHCI, and they will work together to select the best controller to use based on the capabilities of the attached USB devices.  You also need the Disk I/O Driver and Partition Driver.  The FAT driver is available in both source and binary form.  The path to the pre-built FAT binary is shown in the list below.
 
@@ -20,6 +20,6 @@ USB Dongles can also be used as a recovery device in the PEI Phase.  The followi
   MdeModulePkg/Universal/Disk/CdExpressPei/CdExpressPei.inf
   FatPkg/FatPei/FatPei.inf
 
-[[Category:FAQ]]
+<!-- [[Category:FAQ]] -->
 
-[[Category:USB]]
+<!-- [[Category:USB]] -->

@@ -51,4 +51,4 @@ EDK II Summary page: http://sourceforge.net/projects/edk2
 * [[Start using UEFI]]
 * [[EDK II Overview|Overview]]
 
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->

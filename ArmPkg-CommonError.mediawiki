@@ -16,5 +16,5 @@ The solution is to add CompilerIntrinsicsLib to your DSC file:
   NULL|ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
 </pre>
 
-[[Category:ARM]]
-[[Category:EDKII]]
+<!-- [[Category:ARM]] -->
+<!-- [[Category:EDKII]] -->

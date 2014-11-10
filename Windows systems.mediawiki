@@ -105,4 +105,4 @@ Once your build environment is set up you might be interested in building the [h
 =See Also=
 * [[Step-by-step instructions]]
 
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->

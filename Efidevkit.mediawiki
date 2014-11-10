@@ -1,4 +1,4 @@
-[[Category:EDK]]
+<!-- [[Category:EDK]] -->
 The '''EDK''' is the open-source component of the "Framework", Intel's implementation of the EFI Specification, which was developed under the project codenamed "Tiano". The EDK was released under the  [[BSD License]]. Refer to the  [[FAQ#EDK_and_Fat-Driver_Projects_FAQ|EDK  section of the EFI and Framework Open Source FAQs]]  for a full explanation of how the EDK relates to the EFI effort.
 
 

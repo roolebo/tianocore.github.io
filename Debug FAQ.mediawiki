@@ -32,6 +32,6 @@ The EDK II does not have a macro to generate a software breakpoint.  Instead, th
 
 
 
-[[Category:FAQ]]
+<!-- [[Category:FAQ]] -->
 
-[[Category:Debug]]
+<!-- [[Category:Debug]] -->

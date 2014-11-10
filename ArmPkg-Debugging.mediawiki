@@ -66,5 +66,5 @@ Note: 'BL' is a branch relative to the Program Counter (PC) register. In the cas
 
 
 [[Category:EDKII Packages]]
-[[Category:ARM]]
-[[Category:EDKII]]
+<!-- [[Category:ARM]] -->
+<!-- [[Category:EDKII]] -->

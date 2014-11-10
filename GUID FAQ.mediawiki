@@ -1,4 +1,4 @@
-[[Category:FAQ]]
+<!-- [[Category:FAQ]] -->
 Frequently asked questions about GUIDs
 
 

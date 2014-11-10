@@ -72,5 +72,5 @@ Commit all of your changes to svn:
 == See also ==
 * [[EDK2 git]]
 
-[[Category:EDKII]]
-[[Category:git]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:git]] -->

@@ -12,4 +12,4 @@ If you are a developer, and would like to make [[Code Contributions]] to our com
 * Review our [[Tasks]] page which documents some open projects
 * Review our [[Code Style]] page which documents coding styles and commit log styles
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

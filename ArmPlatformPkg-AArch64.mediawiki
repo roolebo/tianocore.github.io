@@ -114,4 +114,4 @@ The Linux kernel (filename = 'Image') and the Device Tree Binary (filename = 'rt
 export LD_LIBRARY_PATH=ARM_BASE_AEMV8_ROOT:$LD_LIBRARY_PATH
 FVP_VE_AEMv8A -C motherboard.flashloader0.fname=Build/ArmVExpress-RTSM-AEMv8Ax4/DEBUG_GCC47/FV/RTSM_VE_AEMV8_EFI.fd</pre>
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

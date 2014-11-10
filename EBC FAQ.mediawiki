@@ -1,7 +1,7 @@
-[[Category:FAQ]]
-[[Category:EDKII]]
-[[Category:EDK]]
-[[Category:EBC]]
+<!-- [[Category:FAQ]] -->
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:EDK]] -->
+<!-- [[Category:EBC]] -->
 
 Frequently asked questions about EDK and EBC
 

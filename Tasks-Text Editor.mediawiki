@@ -1,5 +1,5 @@
-[[Category:GSOC2011]]
-[[Category:Tasks]]
+<!-- [[Category:GSOC2011]] -->
+<!-- [[Category:Tasks]] -->
 This task involves making several improvements for the standard shell text editor
 
 =Current Status=

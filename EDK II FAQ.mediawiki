@@ -241,7 +241,7 @@ http://cdimage.ubuntu.com/releases/10.04.1/release/
 
 ubuntu-10.04-dvd-amd64.iso         29-Apr-2010 15:28  4.1G  Install/live DVD for 64-bit PC (AMD64) computers (standard download)
 
-[[category:EDKII]]
-[[category:FAQ]]
-[[category:multithread]]
-[[category:libraries]]
+<!-- [[category:EDKII]] -->
+<!-- [[category:FAQ]] -->
+<!-- [[category:multithread]] -->
+<!-- [[category:libraries]] -->

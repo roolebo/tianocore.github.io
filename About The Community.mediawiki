@@ -38,4 +38,4 @@ As the EDK and other EFI-based projects constitute the primary focus of the EFI 
 * Adherence to the EFI Specification
 * Adherence to quality C coding standards
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

@@ -9,4 +9,4 @@ Our community also has various package maintainers that:
 * Is tasked with maintaining the package source code 
 * Reviews the code submitted from the project development mail list, for example [[edk2-devel]] email list for their package
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

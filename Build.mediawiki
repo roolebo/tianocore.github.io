@@ -105,7 +105,7 @@ In general the EFI build system constructs relocatable PE/COFF images, and every
 
 
 
-[[category:FAQ]]
-[[category:Build]]
-[[category:EDKII]]
-[[category:Edk2-BuildTools]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:Build]] -->
+<!-- [[category:EDKII]] -->
+<!-- [[category:Edk2-BuildTools]] -->

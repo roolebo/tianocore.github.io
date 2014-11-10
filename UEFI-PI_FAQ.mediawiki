@@ -236,6 +236,6 @@ Basically you use the CreateEvent() boot service to make a timer event, and then
 
 
 
-[[category:FAQ]]
-[[category:UEFI]]
-[[category:PI]]
+<!-- [[category:FAQ]] -->
+<!-- [[category:UEFI]] -->
+<!-- [[category:PI]] -->

@@ -1,4 +1,4 @@
-[[Category:Legalese]]
+<!-- [[Category:Legalese]] -->
 Copyright (c) 2005, Intel Corporation
 All rights reserved.
 

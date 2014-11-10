@@ -1,5 +1,5 @@
-[[Category:EDKII]]
-[[Category:EDKIIBuild]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:EDKIIBuild]] -->
 This page provides [[step-by-step instructions]] for setting up a [[EDK II]] build environment on Linux using a native GCC 4.4 (and newer) installation.  This EDK II setup does not require the Mingw version of GCC to be built, and therefore can be much faster to setup.
 
 ==Limitations of GCC 4.4==

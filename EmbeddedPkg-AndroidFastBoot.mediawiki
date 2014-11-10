@@ -132,4 +132,4 @@ The FASTBOOT_TRANSPORT_PROTOCOL provides an abstracted means for AndroidFastboot
 
 In order to use Fastboot over USB on your platform, you will need to write a UEFI driver for the USB peripheral controller which exposes the USB_DEVICE_PROTOCOL defined in `EmbeddedPkg/Include/Protocol/UsbDevice.h`. At time of writing, this protocol consists of the bare minimum of functionality required to implement Fastboot. You can then use UsbFastbootTransportDxe, which will consume the USB_DEVICE_PROTOCOL and produce the FASTBOOT_TRANSPORT_PROTOCOL.
 
-[[Category:ARM]]
+<!-- [[Category:ARM]] -->

@@ -1,4 +1,4 @@
-[[Category:EDK]]
+<!-- [[Category:EDK]] -->
 {{project-summary
 |sum=SNP NT32 Network I/O|cat=none
 |lic=[http://www.opensource.org/licenses/bsd-license.php BSD]

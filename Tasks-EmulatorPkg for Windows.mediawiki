@@ -40,4 +40,4 @@ Please discuss the project on [[edk2-devel]].
 * [[Tasks]]
 * [[GSoC2012#Port EmulatorPkg to Windows]]
 
-[[Category:Tasks]]
+<!-- [[Category:Tasks]] -->

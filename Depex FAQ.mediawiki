@@ -1,8 +1,8 @@
-[[Category:FAQ]]
-[[Category:EDKII]]
-[[Category:EDK]]
-[[Category:DEPEX]]
-[[Category:Dependency]]
+<!-- [[Category:FAQ]] -->
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:EDK]] -->
+<!-- [[Category:DEPEX]] -->
+<!-- [[Category:Dependency]] -->
 
 
 Frequently asked questions about Depex

@@ -10,7 +10,7 @@ or
 
 
 
-[[Category:EDKII]]
-[[Category:IHV]]
-[[Category:DWG]]
-[[Category:Driver]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:IHV]] -->
+<!-- [[Category:DWG]] -->
+<!-- [[Category:Driver]] -->

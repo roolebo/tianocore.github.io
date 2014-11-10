@@ -40,4 +40,4 @@ Please Note: this is the older EFI shell; Pre-[[ShellPkg]]
 ==Older, unmaintained projects==
 * [[EFI Toolkit]] is a set of tools that support rapid porting and development of EFI applications, and promote a uniform pre-boot environment on 32 and 64 bit based platforms.
 
-[[Category:Main]]
+<!-- [[Category:Main]] -->

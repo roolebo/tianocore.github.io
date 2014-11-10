@@ -7,4 +7,4 @@ The following licenses our used by our community:
 * [[FAT32 License]] (BSD + one additional term)
 * [[Eclipse License]]
 
-[[Category:Legalese]]
+<!-- [[Category:Legalese]] -->

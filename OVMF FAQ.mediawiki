@@ -1,5 +1,5 @@
-[[Category:FAQ]]
-[[Category:OVMF]]
+<!-- [[Category:FAQ]] -->
+<!-- [[Category:OVMF]] -->
 ===What is Open Virtual Machine Firmware (OVMF)?===
 OVMF is a project to enable support for UEFI within Virtual Machines. It is built upon the EDK II code base.
 

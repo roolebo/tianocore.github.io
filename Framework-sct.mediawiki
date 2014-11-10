@@ -47,5 +47,5 @@ These links will work only if you are a registered user on TianoCore (click here
 * Request for a Project Role (initial or promotion)
 
 
-[[Category:EDK]]
+<!-- [[Category:EDK]] -->
 [[Category:EFI Shell]]

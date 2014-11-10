@@ -55,6 +55,6 @@ In general for all the Libraries and APIs it does not matter. It is a  “C” c
 There are a few “Base” libraries that CPU specific.
 
 
-[[category:FAQ]]
+<!-- [[category:FAQ]] -->
 [[category:UEFI/PI]]
-[[category:PEI]]
+<!-- [[category:PEI]] -->

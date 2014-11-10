@@ -1,5 +1,5 @@
 <!--
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->
 [[Category:Getting Started]]
 -->
 

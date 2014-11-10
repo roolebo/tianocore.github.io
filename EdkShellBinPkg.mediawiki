@@ -1,6 +1,6 @@
 [[Category:EDKII Packages]]
 [[Category:EFI Shell]]
-[[Category:EDK]]
+<!-- [[Category:EDK]] -->
 
 The '''EdkShellBinPkg''' contains binary copies of the [[EDK]] [[Efi-shell|Shell]] for inclusion in a [[EDK II]] platform.
 

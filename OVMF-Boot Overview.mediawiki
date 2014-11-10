@@ -1,4 +1,4 @@
-[[Category:OVMF]]
+<!-- [[Category:OVMF]] -->
 This page provides a high-level overview of the boot process for [http://tianocore.github.io/ovmf/ OVMF].
 
 =SEC=

@@ -21,5 +21,5 @@ Final revisions v1.22 Errata A
 
 </table>
 
-[[Category:EDKII]]
-[[Category:Documents]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:Documents]] -->

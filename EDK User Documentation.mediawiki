@@ -79,5 +79,5 @@ parts of the code base. </td>
 This document explains the driver support library features</td>
 </tr>
 </table>
-[[Category:EDKII]]
-[[Category:Documents]]
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:Documents]] -->

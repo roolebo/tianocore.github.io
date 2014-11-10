@@ -174,5 +174,5 @@ A: New projects should be related to implementation of the EFI specification. Pr
 
 A: If you have an idea for a new project please submit your request to the EFI and Framework Open Source  community manager at Admin , and your request will be considered and responded to. If it's accepted you'll be given support in setting up and launching your new project.
 
-[[category:edit]]
-[[category:FAQ]]
+<!-- [[category:edit]] -->
+<!-- [[category:FAQ]] -->

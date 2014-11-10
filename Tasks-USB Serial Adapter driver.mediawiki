@@ -83,4 +83,4 @@ This project would be for an edk2 based driver, so please discuss the project on
 = See Also =
 * [[Tasks#USB-to-serial driver]]
 
-[[Category:Tasks]]
+<!-- [[Category:Tasks]] -->

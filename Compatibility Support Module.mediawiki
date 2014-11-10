@@ -1,4 +1,4 @@
-[[Category:FAQ]]
+<!-- [[Category:FAQ]] -->
 The Compatibility Support Module (CSM) provides services that allow a UEFI based firmware to support a legacy PC boot process.
 
 The 16-bit CSM component programming interface is described in this file:

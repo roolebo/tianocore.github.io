@@ -16,7 +16,7 @@ This subset of packages is designed to be used with the [[UEFI Driver Wizard]].
 # Open a Visual Studio Command Prompt and run edksetup.bat in the workspace directory
 
 [[Category:UEFI Driver Wizard]]
-[[Category:Driver]]
-[[Category:IHV]]
-[[Category:EDKII]]
-[[Category:UDK2014]]
+<!-- [[Category:Driver]] -->
+<!-- [[Category:IHV]] -->
+<!-- [[Category:EDKII]] -->
+<!-- [[Category:UDK2014]] -->

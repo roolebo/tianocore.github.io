@@ -1,4 +1,4 @@
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->
 [[Category:EDKII Build]]
 Getting and Installing the Required Tools for Building [[EDK II]].
 

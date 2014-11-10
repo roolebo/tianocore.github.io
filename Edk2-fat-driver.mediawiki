@@ -1,4 +1,4 @@
-[[Category:EDKII]]
+<!-- [[Category:EDKII]] -->
 {{project-summary
 |sum=[[EDK II]] [[UEFI]] FAT filesystem driver
 |cat=uefi-boot-services-driver
