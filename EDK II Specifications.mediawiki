@@ -152,10 +152,11 @@ from platform to platform.
 </tr>
 <tr>
    <td>
-[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download Download PDF]
+EDK II C Coding Standards
+[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download  PDF]
    </td>
    <td>
-EDK II C Coding Standards Specification
+EDK II C Coding Standards Specification<br>
 
 
 
