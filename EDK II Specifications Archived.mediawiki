@@ -34,7 +34,10 @@ This document describes the EDK II build information for the (BUILD) specificati
 <td>
 '''DEC'''- EDK II DEC File Spec v1.22 PDF
 
+
 [https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.22_Errata_C.pdf/download  Errata C] 2013-08-30
+or
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download   ZIP]
 
 [https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download Errata B] 2012-06-26
 
@@ -97,6 +100,13 @@ This document describes the EDK II build information (FDF) file format and it co
 <tr>
 <td>
 '''INF'''- EDK II INF File Spec v1.22 PDF 
+
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download Errata D PDF] 2014-01
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download ZIP] 2014-01
+
+
 
 [https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.22_Errata_C.pdf/download Errata C] 2013-08-30
 
