@@ -727,7 +727,7 @@ Readme
 
 [http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download EDKII Module Writer_s Guide_07.pdf]
 
-[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20C%20Coding%20Standards%20Specification.pdf/download EDKII C Coding Standards Specification.pdf]
+[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download EDK2_C_Coding_Standards_2_0.pdf]
 </td></tr>
 <tr><td>
 <span class="docHeader">Specifications</span>
@@ -807,7 +807,7 @@ Readme [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP
 
 [http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download EDKII Module Writer_s Guide_07.pdf]
 
-[http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20C%20Coding%20Standards%20Specification.pdf/download EDKII C Coding Standards Specification.pdf]
+[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download EDK2_C_Coding_Standards_2_0.pdf]
 </td></tr>
 <tr><td>
 <span class="docHeader">Specifications</span>

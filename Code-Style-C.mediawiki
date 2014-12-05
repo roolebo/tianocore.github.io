@@ -1,5 +1,5 @@
 This is just a brief overview of the C [[Code Style]] used for our projects.  The official C Coding Standards specification can be found at:
-* [http://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20C%20Coding%20Standards%20Specification.pdf/download EDK II C Coding Standards Specification.pdf]
+* [http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download EDK2_C_Coding_Standards_2_0.pdf]
 
 __TOC__
 

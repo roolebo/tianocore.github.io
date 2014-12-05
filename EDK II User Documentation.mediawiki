@@ -123,7 +123,7 @@ how to release with a package. Superceded by version 0.7.
 </tr>
 <tr>
     <td>
-[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20C%20Coding%20Standards%20Specification.pdf/download PDF ]
+[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download PDF ]
     </td>
 
     <td>
