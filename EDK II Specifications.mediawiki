@@ -15,49 +15,49 @@
 
 <tr>
 <td>
-'''DEC'''- EDK II DEC Spec 
+'''DEC''' 
 
-[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download V1.24 PDF]
-
-[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download   ZIP]
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download Errata A PDF]
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download   ZIP]
 
 </td>
 <td>
-This document describes the EDK II build information (DEC) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 release. See details in the Revision History in the document for more details. 
+EDK II DEC File Spec v1.24 <br>
+This document describes the EDK II build information (DEC) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 releases. See details in the Revision History in the document for more details. 
 
-* Update Aug 2014
+* Update Jan 2015
 </td>
 </tr>
 <tr>
 <td>
-'''INF'''- EDK II INF Spec 
+'''INF'''-
 
-[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download V1.24 PDF]
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download Errata A PDF] or
 
-[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download   ZIP]
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download   ZIP]
 
 </td>
 <td>
+ EDK II INF File Spec  V1.24 
+<br>
+This document describes the EDK II build information (INF) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 releases. See details in the Revision History in the document for more details.
 
-This document describes the EDK II build information (INF) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 release. See details in the Revision History in the document for more details.
-
-* Update Aug 2014
+* Update Jan 2015
 </td>
 </tr>
 
 <tr>
 <td>
 '''BUILD'''
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download ZIP]
 
-[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download Errata D PDF]
-or 
-[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download   ZIP]
 </td>
 
     <td>
-EDK II BUILD Spec v1.22 - <br>
-This document describes the EDK II build information for the (BUILD) specification and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details. 
-* Update January 2014
+EDK II BUILD Spec  V1.24 - <br>
+This document describes the EDK II build information for the (BUILD) specification and it contains the proposal for the Errata updates that will be available with the UDK2014 releases. See details in the Revision History in the document for more details. 
+* Update January 2015
 </td>
 </tr>
 
@@ -66,16 +66,15 @@ This document describes the EDK II build information for the (BUILD) specificati
 <td>
 '''DSC'''
 
-[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download  Errata D PDF]
-or
-[https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download  ZIP]
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download ZIP]
 
 </td>
 <td>
-EDK II DSC File Spec v1.22 <br>
-This document describes the EDK II build information (DSC) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details.
+EDK II DSC File Spec v1.24 <br>
+This document describes the EDK II build information (DSC) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 releases. See details in the Revision History in the document for more details.
 
-* Update January 2014
+* Update January 2015
 </td>
 </tr>
 
@@ -83,37 +82,48 @@ This document describes the EDK II build information (DSC) file format and it co
 <td>
 '''FDF'''
 
-[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.pdf/download   Errata D PDF] 
-or
-[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.zip/download   ZIP]
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.zip/download ZIP]
 
 </td>
 <td>
-EDK II FDF File Spec v1.22 <br>
+EDK II FDF File Spec v1.24 <br>
 This document describes the EDK II build information (FDF) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details.
 
-* Update January 2014
+* Update January 2015
 </td>
 </tr>
 
 <tr>
 <td>
 '''UNI'''  
-
-[http://sourceforge.net/projects/edk2/files/Specifications/Unicode%20UNI%20File%20Spec.pdf/download  PDF]
+[http://sourceforge.net/projects/edk2/files/Specifications/UNI_File_Spec_v1.2.pdf/download PDF]
 or
-[http://sourceforge.net/projects/edk2/files/Specifications/Unicode%20UNI%20File%20Spec.zip/download ZIP]
+[http://sourceforge.net/projects/edk2/files/Specifications/UNI_File_Spec_v1.2.zip/download ZIP]
 
 </td>
 <td>
-EDK II UNI Unicode File Specification <br>
+EDK II UNI Unicode File Specification V1.2 <br>
 This document describes the EDK II build information (UNI) file format . See details in the Revision History in the document for more details.
-* Update April 2014
+* Update Jan 2015 
 </td>
 </tr>
 
+<tr>
+<td>
+''' Expression Syntax'''  
+[http://sourceforge.net/projects/edk2/files/Specifications/ExpressionSyntax_1.1.pdf/download PDF] 
+or
+[http://sourceforge.net/projects/edk2/files/Specifications/ExpressionSyntax_1.1.zip/download ZIP]
 
+</td>
+<td>
+EDK II Expression Syntax Specification V1.1 <br>
+This document describes the syntax of expression statements for EDK II Meta-data files used in data fields, feature flag expressions and conditional directive statements
 
+* Update Jan 2015 
+</td>
+</tr>
 <tr>
 <td>
 '''VFR'''
