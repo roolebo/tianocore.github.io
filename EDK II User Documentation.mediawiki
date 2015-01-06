@@ -127,7 +127,7 @@ how to release with a package. Superceded by version 0.7.
     </td>
 
     <td>
-EDK II C Coding Standards Specification v 0.53<br>
+EDK II C Coding Standards Specification v 2.0<br>
 C Coding standards for EDK II
     </td>
 </tr>
