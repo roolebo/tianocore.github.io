@@ -16,6 +16,9 @@
 <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Training" title="Training"> Training </a></li>
 
  
+<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Security" title="Security Advisory"> Security Advisory</a></li>
+
+
 <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Reporting_Issues" title="Reporting Issues"> Reporting Issues </a></li>
 
  
