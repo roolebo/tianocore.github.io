@@ -18,5 +18,3 @@ For general developer discussions, please refer to the ''Developer Discussions''
 |}
 
 Some smaller projects do not have separate emails lists.  In this case, feel free to discuss these projects on either the EDK or EDK II developer discussions email lists.
-
-For [[GSOC2011|Google Summer of Code 2011]] discussions, please use the edk2-devel email list.
