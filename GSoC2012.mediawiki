@@ -82,7 +82,7 @@ Here are some recommendations for use during the summer while working on your pr
 #* Questions are good.  Perhaps it'll point out some documentation that we need for our community.
 # Create a timeline with some intermediate goals for your project.
 #* Discuss the situation with your mentor if you need to adjust your goals.
-# Don't copy source code, except from the main [http://tianocore.github.io/edk2.html EDK II] tree.
+# Don't copy source code, except from the main [http://tianocore.github.io/edk2/ EDK II] tree.
 #* If you think some BSD licensed code from another project is required, make sure you discuss it with your mentor and  {{sfuser|jljusten}}.
 # If you have an issue, and your mentor is not able to help you, then contact {{sfuser|jljusten}}.
 

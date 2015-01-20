@@ -11,7 +11,7 @@ Any SVN client software package will enable you to get the source code for the [
 
 = Getting the extra tools=
 == Compiler ==
-For both the BuildTools and [http://tianocore.github.io/edk2.html EDK II] projects, you will need to obtain a compiler from somewhere else. These instructions do not cover obtaining or installation of a compiler tools chain. The BuildTools projects only requires a C compiler; an assembler or ACPI assembler are not required to build tools in this project. BaseTools assume that a compiler is already configured in the environment.
+For both the BuildTools and [http://tianocore.github.io/edk2/ EDK II] projects, you will need to obtain a compiler from somewhere else. These instructions do not cover obtaining or installation of a compiler tools chain. The BuildTools projects only requires a C compiler; an assembler or ACPI assembler are not required to build tools in this project. BaseTools assume that a compiler is already configured in the environment.
 
 == Python ==
 The BaseTools project supports the Makefile based build for EDK II. All Tools are written in either C or Python. The C tools must compile on all operating systems with various compilers, so the code is written using simple, standard functions and libraries. The Python-based tools are written assuming the features that were available in Python. GUI applications can be created in Python, using the wxPython package and all Python applications can be converted to run under a native OS (Windows, Linux or OS/X.) via the [[Python Tools]].

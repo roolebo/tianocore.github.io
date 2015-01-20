@@ -1,6 +1,6 @@
 <!-- [[Category:EDKII]] -->
 {{project-summary
-|sum=[http://tianocore.github.io/edk2.html EDK II] [[UEFI]] FAT filesystem driver
+|sum=[http://tianocore.github.io/edk2/ EDK II] [[UEFI]] FAT filesystem driver
 |cat=uefi-boot-services-driver
 |lic=[http://www.opensource.org/licenses/bsd-license.php BSD] with additional term (see below)
 |own={{sfuser|jljusten}}, {{sfuser|pgao2}}
@@ -51,7 +51,7 @@ What makes the Enhanced-FAT-Driver better?
 '''Other Common Links and Downloads'''
 
 * Request for a FAT-Driver Project Role (initial or promotion)
-* Link to the [http://tianocore.github.io/edk2.html EDK II] Project Homepage
+* Link to the [http://tianocore.github.io/edk2/ EDK II] Project Homepage
 * Link to the TianoCore Community Project
 * Link to the [[Reporting Issues|TianoCore Issue Management Process]]
 * Link to [http://www.microsoft.com/whdc/system/platform/firmware/fatgen.mspx Microsoft's FAT32 System Driver Specification]

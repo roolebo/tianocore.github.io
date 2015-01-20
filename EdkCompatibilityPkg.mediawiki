@@ -1,5 +1,5 @@
 <!-- [[Category:EDKII Packages]] -->
-EdkCompatibilityPkg provides header files and libraries that enable you to build the [[EDK]] module in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with [[UEFI]] 2.3.1 / PI 1.2 [http://tianocore.github.io/edk2.html EDK II] Platforms.
+EdkCompatibilityPkg provides header files and libraries that enable you to build the [[EDK]] module in UEFI 2.0 + Framework 0.9x mode. This package also provides Thunk modules that enable Framework 0.9x modules to work with [[UEFI]] 2.3.1 / PI 1.2 [http://tianocore.github.io/edk2/ EDK II] Platforms.
 
 ===Source Repository===
 {{Edk2SubPkg|EdkCompatibilityPkg}}

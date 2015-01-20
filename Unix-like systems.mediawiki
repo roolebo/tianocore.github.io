@@ -1,6 +1,6 @@
 '''Note''': These instructions are not recommended for most EDK II developers. If you are working with a supported system, then the [[Using EDK II with Native GCC]] page is faster/easier, and produces smaller UEFI image builds.
 
-This page provides [[step-by-step instructions]] for setting up a [http://tianocore.github.io/edk2.html EDK II] build environment on various Unix-like systems.
+This page provides [[step-by-step instructions]] for setting up a [http://tianocore.github.io/edk2/ EDK II] build environment on various Unix-like systems.
 
 ==Getting started for UNIX-like operating systems==
 
@@ -54,7 +54,7 @@ To utilize the subversion source control command behind an internet firewall wit
 == Cygwin 1.7.1 ==
 Notes:
 * Cygwin is not officially supported or tested by the edk2 project at this time.
-* Building of [http://tianocore.github.io/edk2.html EDK II] components will be done using bash.
+* Building of [http://tianocore.github.io/edk2/ EDK II] components will be done using bash.
 Prerequisites:
 * Cygwin 1.7.1 is currently installed on the system.
 * Cygwin 1.7.1 setup.exe is available on the system to install additional packages as needed.

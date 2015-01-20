@@ -4,7 +4,7 @@ TianoCore is a group of open source projects related to [[UEFI]] and the Intel&r
 If you are interested in being involved with our community, we suggest:
 * Downloading and using our open source code
 ** Look over our [[Projects]] section
-** For [http://tianocore.github.io/edk2.html EDK II], checkout the [[Getting Started with EDK II]] page
+** For [http://tianocore.github.io/edk2/ EDK II], checkout the [[Getting Started with EDK II]] page
 * Join the [[Mailing Lists]] for one or more of our projects
 
 You may be required to create an account to participate in certain areas of our community.  The [[Tianocore User Help]] page be helpful in this case.

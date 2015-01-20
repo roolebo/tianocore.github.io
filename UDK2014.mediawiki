@@ -1,7 +1,7 @@
 {{UDK2014}}
 
 == UDK2014 ==
-UDK2014 is a stable release of portions of the [http://tianocore.github.io/edk2.html EDK II] project.  Link for 
+UDK2014 is a stable release of portions of the [http://tianocore.github.io/edk2/ EDK II] project.  Link for 
 
 * [http://tianocore.github.io/udk2014/index.html Current UDK2014 Release]
 * [http://tianocore.github.io/udk2014/Archive/ Previous UDK2014 Releases]

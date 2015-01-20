@@ -1,7 +1,7 @@
-# [EDK II](http://tianocore.github.io/edk2.html)
+# [EDK II](http://tianocore.github.io/edk2/)
 
 A modern, feature-rich, cross-platform firmware development environment for the UEFI and PI specifications. Click for a list of [[EDK II Documents]] and Specifications
-* [[UDK2010]] is a stable release of portions of our [EDK II](http://tianocore.github.io/edk2.html) project.
+* [[UDK2010]] is a stable release of portions of our [EDK II](http://tianocore.github.io/edk2/) project.
 * [[edk2-buildtools]] is the primary set of tools for processing EDK II content.
 * [OVMF](http://tianocore.github.io/ovmf/) is a project to enable UEFI support for Virtual Machines.
 * [[Shellpkg]] UEFI Shell is a project to create a UEFI 2.0 Shell implementation.
@@ -19,7 +19,7 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 
 # [[EDK|efidevkit]]
 
-Note: this is the older development environment; Pre-[EDK II](http://tianocore.github.io/edk2.html). See the [[Differences between EDK and EDK II|Differences_between_EDK_and_EDK_II]]
+Note: this is the older development environment; Pre-[EDK II](http://tianocore.github.io/edk2/). See the [[Differences between EDK and EDK II|Differences_between_EDK_and_EDK_II]]
 * [[EFI Shell|EDK Releases]] the open-source component of Intel's implementation of the EFI Specification
 * [[edk-fat-driver]] a project for the FAT32 File System Driver
 * [[network-io]] SNP NT32 Network I/O
