@@ -14,8 +14,7 @@ For general developer discussions, please refer to the ''Developer Discussions''
 | [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
 |-
 | [[Edk2-buildtools]]
-| [https://lists.sourceforge.net/lists/listinfo/edk2-buildtools-devel edk2-buildtools-devel]
-| [https://lists.sourceforge.net/lists/listinfo/edk2-buildtools-commits edk2-buildtools-commits]
+| colspan="2" | Moved! Use same lists as EDK II
 |}
 
 Some smaller projects do not have separate emails lists.  In this case, feel free to discuss these projects on either the EDK or EDK II developer discussions email lists.
