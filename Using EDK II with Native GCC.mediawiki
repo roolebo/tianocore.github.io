@@ -1,6 +1,6 @@
 <!-- [[Category:EDKII]] -->
 <!-- [[Category:EDKIIBuild]] -->
-This page provides [[step-by-step instructions]] for setting up a [http://tianocore.github.io/edk2/ EDK II] build environment on Linux using a native GCC 4.4 (and newer) installation.  This EDK II setup does not require the Mingw version of GCC to be built, and therefore can be much faster to setup.
+This page provides [[step-by-step instructions]] for setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on Linux using a native GCC 4.4 (and newer) installation.  This EDK II setup does not require the Mingw version of GCC to be built, and therefore can be much faster to setup.
 
 ==Limitations of GCC 4.4==
 
@@ -254,9 +254,9 @@ One result of the build is that you should have the HelloWorld UEFI application:
 bash$ ls Build/MdeModule/DEBUG_*/*/HelloWorld.efi
 </pre>
 
-===Build [http://tianocore.github.io/ovmf/ OVMF]===
+===Build [http://www.tianocore.org/ovmf/ OVMF]===
 
-Once your build environment is set up you might be interested in [[How to build OVMF|building the OVMF platform]] which is included in the main edk2 source tree.  Since [http://tianocore.github.io/ovmf/ OVMF] builds a full system firmware image this may be of interest to UEFI system firmware developers.
+Once your build environment is set up you might be interested in [[How to build OVMF|building the OVMF platform]] which is included in the main edk2 source tree.  Since [http://www.tianocore.org/ovmf/ OVMF] builds a full system firmware image this may be of interest to UEFI system firmware developers.
 
 =See Also=
 * [[Step-by-step instructions]]

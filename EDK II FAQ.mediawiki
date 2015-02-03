@@ -138,7 +138,7 @@ A found device is checked against the table, and if there is an Option Rom avail
 There is not a lot of document but the one to modify the most is the CpuMpDxe driver
 
 ===Is  there any other Native EDK II platform available?===
-DUET, [http://tianocore.github.io/ovmf/ OVMF]
+DUET, [http://www.tianocore.org/ovmf/ OVMF]
 
 ===Is there any porting guide available?===
 There is training material that has a high level list of the porting the different phases but there is no EDK I to EDK II porting guide.

@@ -17,7 +17,7 @@
 
  
 <li>
-<a href="http://tianocore.github.io/security" title="Security advisory"> Security advisory </a>
+<a href="http://www.tianocore.org/security" title="Security advisory"> Security advisory </a>
 </li>
 
 

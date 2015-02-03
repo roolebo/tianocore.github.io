@@ -1,4 +1,4 @@
-This page provides [[step-by-step instructions]] for setting up a [http://tianocore.github.io/edk2/ EDK II] build environment on Mac OS X systems using the Xcode development tools.
+This page provides [[step-by-step instructions]] for setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on Mac OS X systems using the Xcode development tools.
 
 == Mac OS X Xcode ==
 Download the latest version of Xcode (4.2.1) from the Mac App Store<br>

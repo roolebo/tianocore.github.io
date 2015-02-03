@@ -1,5 +1,5 @@
 Our community enables [[UEFI]] firmware and tools through various open source projects.
-Most of our efforts are currently related to the [http://tianocore.github.io/edk2/ EDK II] project, so if you are developer, then this is a good place to start contributing to our community.
+Most of our efforts are currently related to the [http://www.tianocore.org/edk2/ EDK II] project, so if you are developer, then this is a good place to start contributing to our community.
 
 UEFI developers are the primary focus of our community, but if you are interested in trying to use UEFI, then we have a page on how to [[start using UEFI]].
 

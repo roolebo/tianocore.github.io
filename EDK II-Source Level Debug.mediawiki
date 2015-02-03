@@ -1,5 +1,5 @@
 <!-- [[Category:EDKIIFAQ]] --><!-- [[Category:EDKIISourceLevelDebug]] -->
-=[http://tianocore.github.io/ovmf/ OVMF]=
+=[http://www.tianocore.org/ovmf/ OVMF]=
 
 Requirements:
 # Build OVMF with source level debug enabled

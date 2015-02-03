@@ -1,3 +1,3 @@
-[<img src="wiki/images/IntroducingUDK2014.png"/>](http://tianocore.github.io/udk2014/)
+[<img src="wiki/images/IntroducingUDK2014.png"/>](http://www.tianocore.org/udk2014/)
 
-Main site: http://tianocore.github.io
+Main site: http://www.tianocore.org

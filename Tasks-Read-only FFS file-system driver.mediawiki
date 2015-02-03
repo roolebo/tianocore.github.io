@@ -25,7 +25,7 @@ Each FFS file which contains a PE/COFF section should have a .efi file available
 =Development environment=
 Building: This project can be completed on any edk2 supported OS or toolchain.
 
-Testing: This project can be tested on any PI 1.2 system.  Even without loading the driver into flash, it can be loaded by using the EFI shell 'load' command.  [http://tianocore.github.io/ovmf/ OVMF], [[Nt32Pkg]] or [[UnixPkg]] could each provide friendly test environments.
+Testing: This project can be tested on any PI 1.2 system.  Even without loading the driver into flash, it can be loaded by using the EFI shell 'load' command.  [http://www.tianocore.org/ovmf/ OVMF], [[Nt32Pkg]] or [[UnixPkg]] could each provide friendly test environments.
 
 =Further Discussion=
 This project would be for an edk2 based driver, so please discuss the project on [[edk2-devel]].

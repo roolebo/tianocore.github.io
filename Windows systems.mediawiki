@@ -1,6 +1,6 @@
 Please note: These instructions are currently under construction.
 
-This page provides [[step-by-step instructions]] for setting up a [http://tianocore.github.io/edk2/ EDK II] build environment on Windows systems.
+This page provides [[step-by-step instructions]] for setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on Windows systems.
 
 == GUI instructions ==
 {{TortoiseSvnInstructions}}
@@ -98,9 +98,9 @@ As a tangible result of the build, you should have the HelloWorld UEFI applicati
 C:\edk2> dir /s Build\MdeModule\HelloWorld.efi
 </pre>
 
-===Build [http://tianocore.github.io/ovmf/ OVMF] (OPTIONAL)===
+===Build [http://www.tianocore.org/ovmf/ OVMF] (OPTIONAL)===
 
-Once your build environment is set up you might be interested in building the [http://tianocore.github.io/ovmf/ OVMF] platform which is included in the main edk2 source tree.  Since [http://tianocore.github.io/ovmf/ OVMF] builds a full system firmware image this may be of interest to UEFI system firmware developers.
+Once your build environment is set up you might be interested in building the [http://www.tianocore.org/ovmf/ OVMF] platform which is included in the main edk2 source tree.  Since [http://www.tianocore.org/ovmf/ OVMF] builds a full system firmware image this may be of interest to UEFI system firmware developers.
 
 =See Also=
 * [[Step-by-step instructions]]

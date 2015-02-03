@@ -1,5 +1,5 @@
 Documents including Specification, User Manuals, White Papers, and other member contributions are listed here.
-==[http://tianocore.github.io/edk2/ EDK II] Documents==
+==[http://www.tianocore.org/edk2/ EDK II] Documents==
 *[[EDK II Documents]]
 
 == [[EDK]] Documents ==

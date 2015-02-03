@@ -2,7 +2,7 @@ Note: If you are simply looking for an
 [[Source Control|EDK II git repository]],
 then visit the [[Source Control]] page.
 
-The [http://tianocore.github.io/edk2/ EDK II] project uses the subversion source control system.
+The [http://www.tianocore.org/edk2/ EDK II] project uses the subversion source control system.
 But, as [http://git-scm.org git] is a source control system often
 used by open-source projects these days, the question of whether git
 can be used with EDK II occasionally comes up.

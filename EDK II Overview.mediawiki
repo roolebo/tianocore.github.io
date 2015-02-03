@@ -1,5 +1,5 @@
 <!-- [[Category:EDKII]] -->
-The [http://tianocore.github.io/edk2/ EDK II] project is the response to the EFI community’s request for a better build and version tracking environment for UEFI and PI development. The main difference between the EDK II to the original EDK is the '''Enhanced Build Environment''' of the EDK II. 
+The [http://www.tianocore.org/edk2/ EDK II] project is the response to the EFI community’s request for a better build and version tracking environment for UEFI and PI development. The main difference between the EDK II to the original EDK is the '''Enhanced Build Environment''' of the EDK II. 
 The advantages of the Enhanced Build Environment include: 
 
 * Operating System independence 

@@ -1,1 +1,1 @@
-Moved to [http://tianocore.github.io/ovmf](http://tianocore.github.io/ovmf/).
+Moved to [http://www.tianocore.org/ovmf](http://www.tianocore.org/ovmf/).

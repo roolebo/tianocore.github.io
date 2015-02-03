@@ -1,1 +1,1 @@
-News items: http://tianocore.github.io/news/
+News items: http://www.tianocore.org/news/
