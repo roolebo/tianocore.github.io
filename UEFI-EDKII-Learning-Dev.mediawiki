@@ -11,9 +11,8 @@ To view the online courses, you'll need   [http://sourceforge.net/projects/edk2/
 [http://www.adobe.com/products/flashplayer.html Adobe Flash Player] 13)  Before you begin a course, review the course objectives and intended audience to determine if the course is right for you.  Then, click the course link to begin.  Enjoy learning more about UEFI and EDK II!
 
 
-If you have trouble  downloading from Sourceforge:
 <br>
-What you can do is download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally. The Flash Player is still required.
+How to download: Download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally. The Flash Player is still required.
 
 ==='''Courses'''===
 
@@ -179,8 +178,8 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 Intended Audience: Firmware/Software Engineers 
 Course Goal: Briefly explore the history and role of specifications in firmware 
 
-[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.htm/download  Lesson 0] <br>
-[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.zip/download Zip file**] 
+
+[http://sourceforge.net/projects/edk2/files/Training/SpecIntro/Defining_Specifications_Role_in_Firmware.zip/download Lesson 0 Zip file**] 
 
 
 Lesson 0: <br>
@@ -197,8 +196,8 @@ Course Objectives: When you complete the course, you will be able to:
 Intended Audience:Firmware/Software Engineers 
 Course Goal:Initialize the boot process by following the UEFI specifications
 
-[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.htm/download Lesson 1] <br>
-[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.zip/download Zip File**] 
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson1/Lesson_1_PEI_and_Course_Intro.zip/download Lesson 1 Zip File**] 
 
 
 '''Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases''' <br>
@@ -214,8 +213,8 @@ When you complete this lesson, you will be able to:
 
 
 
-[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.htm/download Lesson 2 ]<br>
-[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.zip/download Zip File**]
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson2/Lesson_2_DXE.zip/download Lesson 2 Zip File**]
 
 
 ''' Lesson 2: Driver Execution Environment (DXE)'''<br>
@@ -229,8 +228,8 @@ When you complete this lesson, you will be able to:
 
 
 
-[http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_UEFI_Drivers.htm/download Lesson 3]<br>
-[http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_Drivers.zip/download Zip File**]
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson3/Lesson_3_Drivers.zip/download Lesson 3 Zip File**]
 
 '''Lesson 3: UEFI Drivers '''<br>
 When you complete this lesson, you will be able to:
@@ -242,8 +241,8 @@ When you complete this lesson, you will be able to:
 *    Describe the necessary and recommended protocols for writing UEFI drivers
 
 
-[http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware_Storage.htm/download Lesson 4 ] <br>
-[http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware.zip/download Zip File**] 
+
+[http://sourceforge.net/projects/edk2/files/Training/Lesson4/Lesson_4_Firmware.zip/download Lesson 4 Zip File**] 
 
 
 '''Lesson 4: Firmware and Data Storage'''<br>
@@ -256,8 +255,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.htm/download Lesson 5 ]<br>
-[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.zip/download Zip File**]
+[http://sourceforge.net/projects/edk2/files/Training/Lesson5/Lesson_5_BDS_HII.zip/download Lesson 5 Zip File**]
 
 '''Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)'''<br>
 When you complete this lesson, you will be able to: 
