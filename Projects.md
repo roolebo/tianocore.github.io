@@ -16,6 +16,7 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 * Some open [[Tasks]] suggested by our EDK II community
 * EDK II Security Package and other news on Security [[SecurityPkg]]
 * [[MinnowBoard]] open community project with UEFI Developed firmware. 
+* [[MinnowBoardMax]] open community project with UEFI Developed firmware. 
 
 # [[EDK|efidevkit]]
 
