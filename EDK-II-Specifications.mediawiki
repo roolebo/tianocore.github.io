@@ -103,8 +103,8 @@ or
 
 </td>
 <td>
-EDK II UNI Unicode File Specification V1.2 <br>
-This document describes the EDK II build information (UNI) file format . See details in the Revision History in the document for more details.
+Multi-String UNI Unicode File Specification V1.2 <br>
+This document describes the Multi-String build information (UNI) file format . See details in the Revision History in the document for more details.
 * Update Jan 2015 
 </td>
 </tr>
