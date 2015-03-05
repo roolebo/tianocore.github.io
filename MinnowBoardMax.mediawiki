@@ -1,6 +1,6 @@
 == MinnowBoard MAX==
 
-<img src="http://firmware.intel.com/sites/default/files/minnowboard.png" width="10%" height="10%" >
+<img src="http://firmware.intel.com/sites/default/files/minnowboard50.png" width="10%" height="10%" >
 
 === MinnowBoard Max UEFI Firmware===
 What is the MinnowBoard Max : This is the open community project with UEFI Developed firmware.
