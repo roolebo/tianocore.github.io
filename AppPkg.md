@@ -1,1 +1,1 @@
-[[EDKII_EADK]]
+[[EDKII-EADK]]
