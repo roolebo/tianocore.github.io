@@ -5,7 +5,7 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 * [[edk2-buildtools]] is the primary set of tools for processing EDK II content.
 * [OVMF](http://www.tianocore.org/ovmf/) is a project to enable UEFI support for Virtual Machines.
 * [[Shellpkg]] UEFI Shell is a project to create a UEFI 2.0 Shell implementation.
-* [[EDK II Application Development Kit (EADK)|EDKII-EADK]] EDK II Application Development Kit (EADK) to include Standard C Libraries in UEFI Shell Applications (EFI_Toolkit replacement)
+* [[EDK II Application Development Kit (EADK)|EDKII-EADK]] includes Standard C Libraries in UEFI Shell Applications (EFI_Toolkit replacement)
 * [[UEFI Driver Developer Resources with EDK II|Driver_Developer]] Support UEFI driver development by independent hardware vendors (IHV), including the UEFI Driver Wizard and UEFI Driver Writers Guide (DWG).
 * [[Beagle Board|Beagle Board Wiki]] is a low cost highly capable single board computer.
 * [[edk2-fat-driver]] is a driver for the FAT12/16/32 filesystems.
