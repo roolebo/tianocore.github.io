@@ -20,25 +20,23 @@ EDK II Application Development Kit for include the Standard C Libraries in UEFI 
 '''EADK'''-
 <P style="margin-top: 0; margin-bottom: 0">
 [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EadkPkg_B1.02_Release.zip/download release 1.02.zip]
-</p>
+
 
 ----
 
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EADK_1.02_Release_notes.txt/download Release Notes]
-</p>
+
 
 </td>
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 EDK II Application Development Kit (EADK) Release 1.02 Package incorporates using the Standard C Library components. Include these into standard "C" applications.  See the AppPkg for "Hello World" example
 * This release is based on SVN:  
 *  https://svn.code.sf.net/p/edk2/code/trunk/edk2/  -r 14804
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
-</p>
+
 Packages Included:  (Note: get the latest from the [[UDK2010]] release)
-<P style="margin-top: 0; margin-bottom: 0">
+<br>
 '''1) [[AppPkg]]''';- This package contains applications which demonstrate use of the          Standard C Library.            These applications reside in AppPkg/Applications.
 
 *''' Enquire ''' This is a program that determines many properties of the                C compiler and the target machine that Enquire is run on.  The                only changes required to port this 1990s era Unix program to                EDK II were the addition of eight pragmas to enquire.c in                order to disable some Microsoft VC++ specific warnings.
@@ -67,13 +65,12 @@ Packages Included:  (Note: get the latest from the [[UDK2010]] release)
 :*   SetSockOpt                   
 :*   TftpServer
 :*   WebServer
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+<br>
 '''2) [[StdLib]]'''
  
 ;- The StdLib package contains the standard header files as well as            implementations of the standard libraries.
 
-</p>
+
 </td>
 </tr>
 <tr>
@@ -84,12 +81,11 @@ Packages Included:  (Note: get the latest from the [[UDK2010]] release)
 
 <tr>
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/UDK2010.SR1.UP1.P1/EADK_B1_Release.zip/download Beta 1.zip]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/UDK2010.SR1.UP1.P1/EADK_B1_Release_Notes.txt/download Release Notes]
-</p>
+
 
 </td>
 <td>
@@ -102,13 +98,11 @@ Packages Included:  (Note: get the latest from the [[UDK2010]] release)
 
 <tr>
 <td>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download EADK Alpha 2 .zip]
-</p>
-<P style="margin-top: 0; margin-bottom: 0">
+
 [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release_notes.txt/download Release Notes]
 
-</p>
 
 </td>
 <td>
