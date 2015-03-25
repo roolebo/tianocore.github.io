@@ -1,3 +1,4 @@
+
 ==='''Coreboot'''===
 
 coreboot is an Open Source project aimed at replacing the proprietary BIOS (firmware) found in most computers. coreboot performs a little bit of hardware initialization and then executes additional boot logic, called a payload.
@@ -17,5 +18,10 @@ Coreboot in itself is "only" minimal code for initializing hardware. It does not
 http://www.coreboot.org/Payloads
 
 
+<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot001.jpg" >
+
 ==='''UEFI Payload'''===
 UEFI payload provides UEFI services on top of coreboot that allows UEFI OS boot.
+
+
+<img src="https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot002.jpg" >
