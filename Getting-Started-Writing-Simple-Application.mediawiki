@@ -5,7 +5,7 @@
 e.g. <span style="font-family: Courier">mkdir edk2</span>
 === 2) Download the Edk II source ===
 # Latest from the svn by getting the EDK II source from following Instructions on [[Getting_Started_with_EDK_II | Step by step instructions]] 
-# Downloading the latest .zip [[UDK2010 | UDK2010 Download]] release.
+# Downloading the latest .zip [[UDK2014 | UDK2014 Download]] release (or Latest UDK release).
 === 3) Run the '''''edksetup''''' ===
 Run''' ''edksetup''''' script from the command line prompt at the Work Space directory
 #Windows Comand Prompt: <span style="font-family: Courier">''' C:\edk2> edksetup --nt32''' </span>
