@@ -17,6 +17,7 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 * EDK II Security Package and other news on Security [[SecurityPkg]]
 * [[MinnowBoard]] open community project with UEFI Developed firmware. 
 * [[MinnowBoardMax]] open community project with UEFI Developed firmware. 
+* [[Coreboot_UEFI_payload]] open community project for Coreboot Payload Package.
 
 # [[EDK|efidevkit]]
 
