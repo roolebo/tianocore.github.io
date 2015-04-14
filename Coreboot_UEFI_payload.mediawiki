@@ -7,8 +7,6 @@ With the separation of hardware initialization and later boot logic, coreboot ca
 http://www.coreboot.org/
 
 ==='''Coreboot Payload Package'''===
- 
-Using EDK II Workspace with 
 
 '''CorebootModulePkg'''        
 - Source code package of Coreboot Support Modules that will be used to parse the coreboot tables in memory , report memory/io resources and install acpi and smbios tables from coreboot into EFI system tables.
