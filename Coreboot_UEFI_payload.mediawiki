@@ -6,7 +6,17 @@ coreboot is an Open Source project aimed at replacing the proprietary BIOS (firm
 With the separation of hardware initialization and later boot logic, coreboot can scale from specialized applications that run directly from firmware, run operating systems in flash, load custom bootloaders, or implement firmware standards, like PC BIOS services or UEFI. This allows for systems to only include the features necessary in the target application, reducing the amount of code and flash space required.
 http://www.coreboot.org/
 
-CorebootPayloadPkg Build Instructions: 
+==='''Coreboot Payload Package'''===
+ 
+Using EDK II Workspace with 
+
+'''CorebootModulePkg'''        
+- Source code package of Coreboot Support Modules that will be used to parse the coreboot tables in memory , report memory/io resources and install acpi and smbios tables from coreboot into EFI system tables.
+
+'''CorebootPayloadPkg'''        
+- Source code package of Coreboot Payload Modules, Provides definitions of       payload image's layout and lists the modules required in DSC file.
+
+'''Build Instructions''':
 https://svn.code.sf.net/p/edk2/code/trunk/edk2/CorebootPayloadPkg/BuildAndIntegrationInstructions.txt
 
 
