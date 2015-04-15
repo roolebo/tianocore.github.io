@@ -14,9 +14,7 @@
 
 <tr>
 <td>
-'''BUILD'''-EDK II BUILD 
-<Br>
-Spec 1.24 PDF
+'''BUILD'''-EDK II BUILD Spec 1.24 PDF
 <br>
  
  - 2015-01-01 -
