@@ -14,8 +14,15 @@
 
 <tr>
 <td>
-'''BUILD'''-EDK II BUILD Spec 1.22 PDF
+'''BUILD'''-EDK II BUILD Spec 1.24 PDF
 <br>
+ 
+ - 2015-01-01 -
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download ZIP]
+
+<BR>
+Spec v1.22 PDF
  - 2014-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download Errata D] or
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download ZIP]
@@ -41,6 +48,10 @@ This document describes the EDK II build information for the (BUILD) specificati
 <td>
 '''DEC'''- EDK II DEC File Spec v1.24 PDF
 <BR>
+2015-01-11 -
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download Errata A PDF]
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download   ZIP]
+
 2014-08-11 -
 [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download PDF] or
 [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download ZIP] 
@@ -72,8 +83,13 @@ This document describes the EDK II build information (DEC) file format and it co
 
 <tr>
 <td>
-'''DSC'''- EDK II DSC File Spec v1.22 PDF
+'''DSC'''- EDK II DSC File Spec v1.24 PDF
 <br>
+ 2015-01-11 -
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download ZIP]
+<BR>
+Spec v1.22 PDF
  2014-01-11 -
 [http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download Errata D] or 
 [https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download ZIP] 
@@ -100,8 +116,15 @@ This document describes the EDK II build information (DSC) file format and it co
 
 <tr>
 <td>
-'''FDF'''- EDK II FDF File Spec v1.22 PDF
+'''FDF'''- EDK II FDF File Spec v1.24 PDF
 <br>
+ - 2015-01-01 -
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.zip/download ZIP]
+
+
+<BR>
+Spec v1.22 PDF
  - 2014-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.pdf/download Errata D] or
 [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.zip/download ZIP] 
