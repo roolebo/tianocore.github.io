@@ -6,7 +6,7 @@
 
 </tr>
 <tr>
-<th>Specification</th>
+<th>Specification Revision</th>
 <th>Description</th>
 </tr>
 <tr>
