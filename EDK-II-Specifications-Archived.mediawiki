@@ -124,17 +124,18 @@ This document describes the EDK II build information (DSC) file format and it co
 
 
 <BR>
-Spec v1.22 PDF
- - 2014-01-01 -
+Spec v1.22 PDF <br>
+;2014-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.pdf/download Errata D] or
 [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.zip/download ZIP] 
-
- ; 2013-08-30 -
+<br>
+; 2013-08-30 -
 [https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.22_Errata_C.pdf/download   Errata C] 
-
- ; 2012-06-26 -
+<br>
+; 2012-06-26 -
 [https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download  Errata B] 
- ; 2011-12-19 -
+<br>
+; 2011-12-19 -
 [https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_A_Final.pdf/download  Errata A] 
  ; 2010-05-04 -
 [https://sourceforge.net/projects/edk2/files/Specifications/FDF_v1_22.pdf/download No_Errata] 
@@ -152,23 +153,33 @@ This document describes the EDK II build information (FDF) file format and it co
 <td>
 '''INF'''- EDK II INF File Spec v1.24  
 <br>
+;2015-01-01 
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download Errata A PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download   ZIP]
+
+<br>
+;2014-08-11 
 [http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download PDF] or
 [http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download ZIP]
-2014-08-11;
+
 <br>
-Spec v1.22 
+Spec v1.22 <br>
+;2014-01-01
 [http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download Errata D PDF] or
-[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download ZIP] 2014-01-01;
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download ZIP] 
 
 <br>
-
-[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.22_Errata_C.pdf/download Errata C] 2013-08-30;
+;2013-08-30
+[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.22_Errata_C.pdf/download Errata C] 
 <br>
-[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download  Errata B] 2012-06-26;
+;2012-06-26 
+[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download  Errata B] 
 <br> 
-[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_A_Final.pdf/download  Errata A] 2011-12-19;
-
-[https://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download No_Errata] 2010-05-04
+;2011-12-19 
+[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_A_Final.pdf/download  Errata A] 
+<Br>
+;2010-05-04
+[https://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download No_Errata] 
 
 </td>
 <td>
