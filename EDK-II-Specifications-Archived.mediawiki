@@ -14,7 +14,9 @@
 
 <tr>
 <td>
-'''BUILD'''-EDK II BUILD Spec 1.24 PDF
+'''BUILD'''-EDK II BUILD 
+<Br>
+Spec 1.24 PDF
 <br>
  
  - 2015-01-01 -
@@ -23,18 +25,20 @@
 
 <BR>
 Spec v1.22 PDF
+<BR>
  - 2014-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download Errata D] or
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download ZIP]
-
+<BR>
  ; 2013-08-30-
 [https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_C.pdf/download  Errata C] 
-
+<BR>
  ; 2012-06-26-
 [https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download  Errata B] 
+<BR>
  ; 2011-12-19 -
 [https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.22_Errata_A_Final.pdf/download  Errata A] 
-
+<BR>
  ; 2010-05-04 -
 [https://sourceforge.net/projects/edk2/files/Specifications/EDK_II_Build_v1_22.pdf/download No_Errata] 
 </td>
@@ -46,28 +50,32 @@ This document describes the EDK II build information for the (BUILD) specificati
 </tr>
 <tr>
 <td>
-'''DEC'''- EDK II DEC File Spec v1.24 PDF
+'''DEC'''- EDK II DEC File 
+<BR>
+Spec v1.24 PDF
 <BR>
 2015-01-11 -
 [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download Errata A PDF]
 [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download   ZIP]
-
+<BR>
 2014-08-11 -
 [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download PDF] or
 [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download ZIP] 
 
 <BR>
 Spec v1.22 PDF
+<BR>
  - 2013-08-30 -
 [https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.22_Errata_C.pdf/download  Errata C] or
 [http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download   ZIP] 
+<BR>
  ; 2012-06-26 -
 [https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download Errata B] 
-
+<BR>
 
  ; 2011-12-19 -
 [https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_A_Final.pdf/download  Errata A] 
-
+<BR>
  ; 2010-05-04 - 
 [https://sourceforge.net/projects/edk2/files/Specifications/DEC_v1_22.pdf/download No_Errata]  
 
@@ -83,25 +91,30 @@ This document describes the EDK II build information (DEC) file format and it co
 
 <tr>
 <td>
-'''DSC'''- EDK II DSC File Spec v1.24 PDF
+'''DSC'''- EDK II DSC File 
+
+<BR>
+Spec v1.24 PDF
 <br>
  2015-01-11 -
 [http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download PDF] or
 [http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download ZIP]
 <BR>
 Spec v1.22 PDF
+<BR>
  2014-01-11 -
 [http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download Errata D] or 
 [https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download ZIP] 
+<BR> 
  ; 2013-08-30 -
 [https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.22_Errata_C.pdf/download  Errata C] 
-
+<BR>
  ; 2012-06-26 -
 [https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download Errata B] 
-
+<BR>
  ; 2011-12-19 -
 [https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_A_Final.pdf/download  Errata A] 
-
+<BR>
   ; 2010-05-04 -
 [https://sourceforge.net/projects/edk2/files/Specifications/DSC_v1_22.pdf/download No_Errata] 
 
@@ -116,7 +129,9 @@ This document describes the EDK II build information (DSC) file format and it co
 
 <tr>
 <td>
-'''FDF'''- EDK II FDF File Spec v1.24 PDF
+'''FDF'''- EDK II FDF File 
+<BR>
+Spec v1.24 PDF
 <br>
  2015-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download PDF] or
