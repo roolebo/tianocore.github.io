@@ -6,6 +6,7 @@ The '''Shell''' Packages provide native UDK implemenations of a UEFI Shell 2.0.
 == Getting the Shell 2.0 ==
 This provides a shell application, a set of NULL-named libraries that provide configurable command sets, and libraries for creating more Shell applications and shell commands. See the [https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg/Readme.txt ReadMe] for more info.
 
+__NOTOC__
 ===Source Repository===
 {{Edk2SubPkg|ShellPkg}}
 This provides binary shell applications.  There are a few versions for different usage models.  See the [https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellBinPkg/ReadMe.txt ReadMe] for more info.
