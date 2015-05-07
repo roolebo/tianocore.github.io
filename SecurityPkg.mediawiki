@@ -34,7 +34,6 @@ Please send recommended changes to:
  
 ==='''Linux tools for signing UEFI images'''===
 <!--"TABLE START" -->
-<div class="t_projects">
 
 <table width="100%">
 <tr>
@@ -142,7 +141,6 @@ Building EDK2
 </td>
 </tr>
 <!--"end Row" -->
-
 <!--"Row" -->
 <tr>
 <td>
@@ -183,10 +181,23 @@ Images for testing  
 </td>
 </tr>
 <!--"end Row" -->
+<!--"Row" -->
+<tr>
+<td>
+b2
+</td>
+<td>
+https://fedoraproject.org/wiki/Secure_Boot_Testing 
+</td>
+<td>
+Images for testing  
+</td>
+</tr>
+<!--"end Row" -->
 
 
 </table>
-</div>
+
 <!--"TABLE END" -->
 END Table 
 
