@@ -34,6 +34,162 @@ Please send recommended changes to:
  
 ==='''Linux tools for signing UEFI images'''===
 <!--"TABLE START" -->
+<div class="t_projects">
+
+<table width="100%">
+<tr>
+<th>
+Organization
+</th>
+<th>
+Link
+</th>
+<th>
+Description
+</th>
+
+</tr>
+<!--"Row" -->
+<tr>
+<td>
+'''Ubuntu'''
+</td>
+<td>
+https://wiki.ubuntu.com/SecurityTeam/SecureBoot
+</td>
+<td>
+OVMF tips, creating keys & certificates, configuring secure boot , signing test images with sbsign, updating key databases
+</td>
+</tr>
+<!--"end Row" -->
+
+<!--"Row" -->
+<tr>
+<td>
+b
+</td>
+<td>
+http://jk.ozlabs.org/docs/sbkeysync-maintaing-uefi-key-databases/
+</td>
+<td>
+creating keys & certificates, tools for signing variables and maintaining key databases 
+</td>
+</tr>
+<!--"end Row" -->
+<!--"Row" -->
+<tr>
+<td>
+'''SUSE'''
+</td>
+<td>
+https://www.suse.com/blogs/uefi-secure-boot-overview
+</td>
+<td>
+Backgrounder
+</td>
+</tr>
+<!--"end Row" -->
+<!--"Row" -->
+<tr>
+<td>
+b1
+</td>
+<td>
+https://www.suse.com/blogs/uefi-secure-boot-pla
+</td>
+<td>
+shim loader description
+</td>
+</tr>
+<!--"end Row" -->
+<!--"Row" -->
+<tr>
+<td>
+b2
+</td>
+<td>
+https://www.suse.com/blogs/uefi-secure-boot-details
+</td>
+<td>
+MOK description
+</td>
+</tr>
+<!--"end Row" -->
+<!--"Row" -->
+<tr>
+<td>
+b3
+</td>
+<td>
+http://en.opensuse.org/openSUSE:UEFI_Secure_boot_using_qemu-kvm
+</td>
+<td>
+Secure Boot in OVMF & lockdown.efi
+</td>
+</tr>
+<!--"end Row" -->
+
+<!--"Row" -->
+<tr>
+<td>
+b4
+</td>
+<td>
+http://en.opensuse.org/SDB:UEFI_EDK2_Build_Howto_On_openSUSE12_1
+</td>
+<td>
+Building EDK2
+</td>
+</tr>
+<!--"end Row" -->
+
+<!--"Row" -->
+<tr>
+<td>
+'''Fedora'''
+</td>
+<td>
+https://fedoraproject.org/wiki/Secureboot 
+</td>
+<td>
+Backgrounder
+</td>
+</tr>
+<!--"end Row" -->
+
+<!--"Row" -->
+<tr>
+<td>
+b1
+</td>
+<td>
+https://fedoraproject.org/wiki/Features/SecureBoot
+</td>
+<td>
+Status
+</td>
+</tr>
+<!--"end Row" -->
+<!--"Row" -->
+<tr>
+<td>
+b2
+</td>
+<td>
+https://fedoraproject.org/wiki/Secure_Boot_Testing 
+</td>
+<td>
+Images for testing  
+</td>
+</tr>
+<!--"end Row" -->
+
+
+</table>
+</div>
+<!--"TABLE END" -->
+END Table 
+
 <table border="2" width="28%" style="border-collapse: collapse" bordercolor="#0000011">
 <tr>
 <td width="141"><b><font face="Calibri">Tool</font></b></td>
