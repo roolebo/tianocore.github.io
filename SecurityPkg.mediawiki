@@ -76,9 +76,6 @@ https://github.com/vathpela/pesign </span></td>
 <table width="100%">
 <tr>
 <th>
-Organization
-</th>
-<th>
 Link
 </th>
 <th>
@@ -88,9 +85,9 @@ Description
 </tr>
 <!--"Row" -->
 <tr>
-<td>
-'''Ubuntu'''
-</td>
+<th colspan="2" style="background-color:#a9c6dd">'''Ubuntu''' </th>
+</tr>
+<tr>
 <td>
 https://wiki.ubuntu.com/SecurityTeam/SecureBoot
 </td>
@@ -103,9 +100,6 @@ OVMF tips, creating keys & certificates, configuring secure boot , signing test 
 <!--"Row" -->
 <tr>
 <td>
-
-</td>
-<td>
 http://jk.ozlabs.org/docs/sbkeysync-maintaing-uefi-key-databases/
 </td>
 <td>
@@ -115,9 +109,11 @@ creating keys & certificates, tools for signing variables and maintaining key da
 <!--"end Row" -->
 <!--"Row" -->
 <tr>
-<td>
+<th colspan="2" style="background-color:#a9c6dd">
 '''SUSE'''
-</td>
+</th>
+</tr>
+<tr>
 <td>
 https://www.suse.com/blogs/uefi-secure-boot-overview
 </td>
@@ -129,9 +125,6 @@ Backgrounder
 <!--"Row" -->
 <tr>
 <td>
-
-</td>
-<td>
 https://www.suse.com/blogs/uefi-secure-boot-pla
 </td>
 <td>
@@ -142,9 +135,6 @@ shim loader description
 <!--"Row" -->
 <tr>
 <td>
-
-</td>
-<td>
 https://www.suse.com/blogs/uefi-secure-boot-details
 </td>
 <td>
@@ -154,9 +144,6 @@ MOK description
 <!--"end Row" -->
 <!--"Row" -->
 <tr>
-<td>
-
-</td>
 <td>
 http://en.opensuse.org/openSUSE:UEFI_Secure_boot_using_qemu-kvm
 </td>
@@ -169,9 +156,6 @@ Secure Boot in OVMF & lockdown.efi
 <!--"Row" -->
 <tr>
 <td>
-
-</td>
-<td>
 http://en.opensuse.org/SDB:UEFI_EDK2_Build_Howto_On_openSUSE12_1
 </td>
 <td>
@@ -181,9 +165,11 @@ Building EDK2
 <!--"end Row" -->
 <!--"Row" -->
 <tr>
-<td>
+<th colspan="2" style="background-color:#a9c6dd">
 '''Fedora'''
-</td>
+</th>
+</tr>
+<tr>
 <td>
 https://fedoraproject.org/wiki/Secureboot 
 </td>
@@ -196,9 +182,6 @@ Backgrounder
 <!--"Row" -->
 <tr>
 <td>
-
-</td>
-<td>
 https://fedoraproject.org/wiki/Features/SecureBoot
 </td>
 <td>
@@ -208,9 +191,7 @@ Status
 <!--"end Row" -->
 <!--"Row" -->
 <tr>
-<td>
 
-</td>
 <td>
 https://fedoraproject.org/wiki/Secure_Boot_Testing 
 </td>
@@ -219,16 +200,20 @@ Images for testing  
 </td>
 </tr>
 <!--"end Row" -->
+
+
 <!--"Row" -->
 <tr>
+<th colspan="2" style="background-color:#a9c6dd">
+'''Linux Foundation'''
+</th>
+</tr>
+<tr>
 <td>
-
+http://blog.hansenpartnership.com/uefi-secure-boot/
 </td>
 <td>
-https://fedoraproject.org/wiki/Secure_Boot_Testing 
-</td>
-<td>
-Images for testing  
+using MS UEFI CA to sign images 
 </td>
 </tr>
 <!--"end Row" -->
