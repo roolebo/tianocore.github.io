@@ -89,7 +89,7 @@ Description
 </tr>
 <tr>
 <td>
-https://wiki.ubuntu.com/SecurityTeam/SecureBoot
+[https://wiki.ubuntu.com/SecurityTeam/SecureBoot ubuntu]
 </td>
 <td>
 OVMF tips, creating keys & certificates, configuring secure boot , signing test images with sbsign, updating key databases
@@ -100,7 +100,7 @@ OVMF tips, creating keys & certificates, configuring secure boot , signing test 
 <!--"Row" -->
 <tr>
 <td>
-http://jk.ozlabs.org/docs/sbkeysync-maintaing-uefi-key-databases/
+[http://jk.ozlabs.org/docs/sbkeysync-maintaing-uefi-key-databases/ jk.ozlabs.org]
 </td>
 <td>
 creating keys & certificates, tools for signing variables and maintaining key databases 
@@ -115,7 +115,7 @@ creating keys & certificates, tools for signing variables and maintaining key da
 </tr>
 <tr>
 <td>
-https://www.suse.com/blogs/uefi-secure-boot-overview
+[https://www.suse.com/blogs/uefi-secure-boot-overview overview]
 </td>
 <td>
 Backgrounder
@@ -125,7 +125,7 @@ Backgrounder
 <!--"Row" -->
 <tr>
 <td>
-https://www.suse.com/blogs/uefi-secure-boot-pla
+[https://www.suse.com/blogs/uefi-secure-boot-pla suse.com]
 </td>
 <td>
 shim loader description
@@ -135,7 +135,7 @@ shim loader description
 <!--"Row" -->
 <tr>
 <td>
-https://www.suse.com/blogs/uefi-secure-boot-details
+[https://www.suse.com/blogs/uefi-secure-boot-details suse.com/details]
 </td>
 <td>
 MOK description
@@ -145,7 +145,7 @@ MOK description
 <!--"Row" -->
 <tr>
 <td>
-http://en.opensuse.org/openSUSE:UEFI_Secure_boot_using_qemu-kvm
+[http://en.opensuse.org/openSUSE:UEFI_Secure_boot_using_qemu-kvm en.opensuse.org]
 </td>
 <td>
 Secure Boot in OVMF & lockdown.efi
@@ -156,7 +156,7 @@ Secure Boot in OVMF & lockdown.efi
 <!--"Row" -->
 <tr>
 <td>
-http://en.opensuse.org/SDB:UEFI_EDK2_Build_Howto_On_openSUSE12_1
+[http://en.opensuse.org/SDB:UEFI_EDK2_Build_Howto_On_openSUSE12_1 en.opensuse.org]
 </td>
 <td>
 Building EDK2
@@ -171,7 +171,7 @@ Building EDK2
 </tr>
 <tr>
 <td>
-https://fedoraproject.org/wiki/Secureboot 
+[https://fedoraproject.org/wiki/Secureboot fedoraproject.org]
 </td>
 <td>
 Backgrounder
@@ -182,7 +182,7 @@ Backgrounder
 <!--"Row" -->
 <tr>
 <td>
-https://fedoraproject.org/wiki/Features/SecureBoot
+[https://fedoraproject.org/wiki/Features/SecureBoot Secureboot]
 </td>
 <td>
 Status
@@ -193,7 +193,7 @@ Status
 <tr>
 
 <td>
-https://fedoraproject.org/wiki/Secure_Boot_Testing 
+[https://fedoraproject.org/wiki/Secure_Boot_Testing  Testing]
 </td>
 <td>
 Images for testing  
@@ -210,7 +210,7 @@ Images for testing  
 </tr>
 <tr>
 <td>
-http://blog.hansenpartnership.com/uefi-secure-boot/
+[http://blog.hansenpartnership.com/uefi-secure-boot/  uefi-secure-boot]
 </td>
 <td>
 using MS UEFI CA to sign images 
