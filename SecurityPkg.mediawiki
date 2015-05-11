@@ -31,9 +31,9 @@ Please send recommended changes to:
 
  
 ==='''Linux tools for signing UEFI images'''===
-<table border="2" width="28%" style="border-collapse: collapse" bordercolor="#0000011">
+<table  width="100%" style="border-collapse: collapse" bordercolor="#0000011">
 <tr>
-<td width="141"><b><font face="Calibri">Tool</font></b></td>
+<td><b><font face="Calibri">Tool</font></b></td>
 		<td><b><font face="Calibri">Link</font></b></td>
 </tr>
 <tr>
@@ -91,7 +91,7 @@ Description
 <td>
 [https://wiki.ubuntu.com/SecurityTeam/SecureBoot ubuntu]
 </td>
-<td>
+<td width=150>
 OVMF tips, creating keys & certificates, configuring secure boot , signing test images with sbsign, updating key databases
 </td>
 </tr>
