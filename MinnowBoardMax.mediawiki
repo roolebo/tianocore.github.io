@@ -40,7 +40,7 @@ Follow the instructions below to download the latest firmware releases to update
 # Copy ''FatPkg''  directory to the ''MyWorkSpace'' directory above
 # Download Objects zip: [http://firmware.intel.com/sites/default/files/MinnowBoard_MAX-0.79-Binary.Objects.zip MinnowBoard_MAX-0.79-Binary.Objects.ZIP]
 # Extract the contents of the MinnowBoard_MAX-0.79-Binary.Objects ZIP file placing the contents into the respective folders (e.g.  ''MyWorkspace'' as above).
-# To Build see “HOW TO BUILD  . . .” in the release notes : [http://firmware.intel.com/sites/default/files/MinnowBoard_MAX-Rel_0.79-ReleaseNotes.txt Release Notes]
+# To Build see “HOW TO BUILD  . . .” in the release notes : [https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/MAX/MinnowBoard_MAX-Rel_0_79-ReleaseNotes.txt/download Release Notes]
 
 </td>
 <td>
