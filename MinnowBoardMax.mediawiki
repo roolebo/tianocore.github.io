@@ -28,6 +28,28 @@ Follow the instructions below to download the latest firmware releases to update
 <tr></tr>
 <tr>
 <td>
+ Rel .80
+</td>
+<td>
+# Download Open source with the following example using SVN:<br>  ''svn export –r 16867 https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1 MyWorkSpace''
+# Download Vlv2DeviceRefCodePkg Open source:<br> ''svn export –r 17407 https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1/Vlv2DeviceRefCodePkg'' 
+# Copy ''Vlv2DeviceRefCodePkg''  directory to the ''MyWorkSpace'' directory above
+# Download Vlv2TbltDevicePkg Open source:<br> ''svn export –r 17407 https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1/Vlv2TbltDevicePkg'' 
+# Copy ''Vlv2TbltDevicePkg''  directory to the ''MyWorkSpace'' directory above
+# Download Fat Open source:<br> ''svn export –r 92 https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/FatPkg'' 
+# Copy ''FatPkg''  directory to the ''MyWorkSpace'' directory above
+# Download Objects zip: [http://firmware.intel.com/sites/default/files/MinnowBoard_MAX-0.80-Binary.Objects.zip MinnowBoard_MAX-0.80-Binary.Objects.zip]
+# Extract the contents of the MinnowBoard_MAX-0.79-Binary.Objects ZIP file placing the contents into the respective folders (e.g.  ''MyWorkspace'' as above).
+# To Build see “HOW TO BUILD  . . .” in the release notes : 
+[https://firmware.intel.com/sites/default/files/MinnowBoard_MAX-Rel_0.80-ReleaseNotes.txt Release Notes ]
+
+</td>
+<td>
+May 14, 2015
+</td>
+</tr>
+<tr>
+<td>
  Rel .79
 </td>
 <td>
