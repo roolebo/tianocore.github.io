@@ -1,5 +1,3 @@
-[![image](http://www.tianocore.org/images/SidebarLogo.png)](http://www.tianocore.org/)
-
 EDK II
 ======
 A modern, feature-rich, cross-platform firmware development environment for the UEFI and PI specifications. Click for a list of [[EDK II Documents]] and Specifications
