@@ -1,5 +1,3 @@
-[![image](http://www.tianocore.org/images/SidebarLogo.png)](http://www.tianocore.org/)
-
 Security
 ========
 
