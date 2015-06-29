@@ -3,3 +3,4 @@
 [EDK II](http://www.tianocore.org/edk2/)<br/>
 [[Additional Projects]]<br/>
 [[Community Information]]
+[[Community Support]]
