@@ -5,7 +5,7 @@
 
 <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/UEFI" title="UEFI"> UEFI </a></li>
 
-<li><a href="#" title="Community News"> Community News </a></li>
+<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Community-News" title="Community News"> Community News </a></li>
 
 
 <li>
