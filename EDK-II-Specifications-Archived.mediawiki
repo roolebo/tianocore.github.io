@@ -20,7 +20,8 @@
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.pdf/download Errata A PDF] or
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.zip/download ZIP]
  
- - 2015-01-01 -
+<BR>
+- 2015-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download PDF] or
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download ZIP]
 
