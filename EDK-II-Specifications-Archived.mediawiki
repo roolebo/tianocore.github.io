@@ -16,6 +16,9 @@
 <td>
 '''BUILD'''-EDK II BUILD Spec 1.24 PDF
 <br>
+ - 2015-03-01 -
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.pdf/download Errata A PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.zip/download ZIP]
  
  - 2015-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download PDF] or
@@ -93,6 +96,10 @@ This document describes the EDK II build information (DEC) file format and it co
 
 <BR>
 Spec v1.24 PDF
+-2015-03-01 -
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.pdf/download Errata A PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.zip/download ZIP]
+
 <br>
  2015-01-11 -
 [http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download PDF] or
@@ -130,6 +137,13 @@ This document describes the EDK II build information (DSC) file format and it co
 '''FDF'''- EDK II FDF File 
 <BR>
 Spec v1.24 PDF
+<br>
+ 2015-03-01 -
+
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.pdf/download Errata A PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.zip/download ZIP]
+
+
 <br>
  2015-01-01 -
 [http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download PDF] or
