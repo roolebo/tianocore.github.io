@@ -13,38 +13,6 @@
     </tr>
 <tr></tr>
 
-<tr>
-<td>
-'''DEC''' 
-
-[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.pdf/download Errata B PDF]
-[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.zip/download   ZIP]
-
-</td>
-<td>
-EDK II DEC File Spec v1.24 <br>
-This document describes the EDK II build information (DEC) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 releases. See details in the Revision History in the document for more details. 
-
-* Update March 2015
-</td>
-</tr>
-<tr>
-<td>
-'''INF'''-
-
-[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.pdf/download Errata B PDF] or
-
-[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.zip/download   ZIP]
-
-</td>
-<td>
- EDK II INF File Spec  V1.24 
-<br>
-This document describes the EDK II build information (INF) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 releases. See details in the Revision History in the document for more details.
-
-* Update March 2015
-</td>
-</tr>
 
 <tr>
 <td>
@@ -91,6 +59,38 @@ EDK II FDF File Spec v1.25 <br>
 This document describes the EDK II build information (FDF) file format and it contains the proposal for the Errata updates that will be available with the UDK2014 release. See details in the Revision History in the document for more details.
 
 * Update July 2015
+</td>
+</tr>
+<tr>
+<td>
+'''DEC''' 
+
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.pdf/download Errata B PDF]
+[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.zip/download   ZIP]
+
+</td>
+<td>
+EDK II DEC File Spec v1.24 <br>
+This document describes the EDK II build information (DEC) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 releases. See details in the Revision History in the document for more details. 
+
+* Update March 2015
+</td>
+</tr>
+<tr>
+<td>
+'''INF'''-
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.pdf/download Errata B PDF] or
+
+[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.zip/download   ZIP]
+
+</td>
+<td>
+ EDK II INF File Spec  V1.24 
+<br>
+This document describes the EDK II build information (INF) file format and it contains the proposal for the Errata updates that will be available with the latest UDK2014 releases. See details in the Revision History in the document for more details.
+
+* Update March 2015
 </td>
 </tr>
 
