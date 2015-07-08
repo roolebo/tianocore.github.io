@@ -127,17 +127,18 @@ This document describes the syntax of expression statements for EDK II Meta-data
 <tr>
 <td>
 '''VFR'''
-[https://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download PDF]
+[http://sourceforge.net/projects/edk2/files/Specifications/VFR/VFR_1_9.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/Specifications/VFR/VFR_1_9.zip/download ZIP]
+
 </td>
 <td>
-VFR Programming Language v 1.7  <br>
+VFR Programming Language v 1.9  <br>
 To simplify the creation of Internal Forms Representation (IFR), 
 a high-level Visual Forms Representation (VFR) language is
 described in this document.
 Using this language syntax, a compiler can be designed to take an ordinary text file containing VFR as an input, and output IFR for use in a user’s program. There are various methods to define the VFR language. 
 
-* Update June 11, 2012
-
+* Update July 2015
 
 </td>
 </tr>
