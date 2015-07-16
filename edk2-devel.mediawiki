@@ -5,7 +5,7 @@ For general developer discussions, please refer to the ''Developer Discussions''
 {| class="wikitable"
 ! !! Developer Discussions !! Source Code Changes
 |-
-| [http://www.tianocore.org/edk2/ EDK II / UDK]
+| [http://www.tianocore.org/edk2/ EDK II] / [http://www.tianocore.org/udk2014/ UDK]
 | [https://lists.01.org/mailman/listinfo/edk2-devel edk2-devel] (moved July 2015!)
 | [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
 |-
