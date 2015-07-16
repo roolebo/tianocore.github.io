@@ -5,13 +5,13 @@ For general developer discussions, please refer to the ''Developer Discussions''
 {| class="wikitable"
 ! !! Developer Discussions !! Source Code Changes
 |-
+| [http://www.tianocore.org/edk2/ EDK II / UDK]
+| [https://lists.01.org/mailman/listinfo/edk2-devel edk2-devel] (moved July 2015!)
+| [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
+|-
 | [[EDK]]
 | [https://lists.sourceforge.net/lists/listinfo/efidevkit-devel efidevkit-devel]
 | [https://lists.sourceforge.net/lists/listinfo/efidevkit-commits efidevkit-commits]
-|-
-| [http://www.tianocore.org/edk2/ EDK II]
-| [https://lists.sourceforge.net/lists/listinfo/edk2-devel edk2-devel]
-| [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
 |-
 | [[Edk2-buildtools]]
 | colspan="2" | Moved! Use same lists as EDK II
