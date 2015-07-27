@@ -9,8 +9,7 @@ UDK2014 is a stable release of portions of the [http://www.tianocore.org/edk2/ E
 
 If you have questions please email the <a href="mailto:edk2-devel-bounces@lists.01.org?subject=UDK2014%20Question">Edk2 Devel Mail list</a>
 
-To join the email list goto: 
- [https://github.com/tianocore/tianocore.github.io/wiki/Edk2-devel edk2-devel]  email list.
+To join the email list goto: [https://github.com/tianocore/tianocore.github.io/wiki/Edk2-devel edk2-devel]  email list.
 
 ----
 
