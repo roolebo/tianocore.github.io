@@ -7,6 +7,8 @@ UDK2014 is a stable release of portions of the [http://www.tianocore.org/edk2/ E
 * [http://www.tianocore.org/udk2014/Archive/ Previous UDK2014 Releases]
 * [[Previous UDK2010 Releases]]
 
+
+If you have questions please email the [edk2-devel] email list.
 If you have questions please email the <a href="mailto:edk2-devel@lists.sourceforge.net?subject=UDK2014%20Question">Edk2 Devel Mail list</a> - To join the email list goto: [http://lists.sourceforge.net/lists/listinfo/edk2-devel Join Edk2 Devel Mail list]
 
 
