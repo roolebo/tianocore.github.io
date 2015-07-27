@@ -29,6 +29,8 @@ Community: email {[edk2-devel](https://github.com/tianocore/tianocore.github.io/
 EDK II Summary page: [http://sourceforge.net/projects/edk2](http://sourceforge.net/projects/edk2)
 
 Stable releases: [UDK2010](https://github.com/tianocore/tianocore.github.io/wiki/UDK2010 "UEFI Development Kit 2010"), [UDK2014](http://www.tianocore.org/udk2014/ "UEFI Development Kit 2014")
+### Other Projects (Non EDK II Projects)
+[[Additional-Projects-other]]
 
 ### Important Information
 
