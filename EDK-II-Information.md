@@ -1,7 +1,7 @@
 EDK II
 ======
 A modern, feature-rich, cross-platform firmware development environment for the UEFI and PI specifications. Click for a list of [[EDK II Documents]] and Specifications
-* [http://www.tianocore.org/udk2014/index.html UDK2014] is a stable release of portions of our [EDK II](http://www.tianocore.org/edk2/) project.
+* [UDK2014] (http://www.tianocore.org/udk2014/) is a stable release of portions of our [EDK II](http://www.tianocore.org/edk2/) project.
 * [[edk2-buildtools]] is the primary set of tools for processing EDK II content.
 * [OVMF](http://www.tianocore.org/ovmf/) is a project to enable UEFI support for Virtual Machines.
 * [[Shellpkg]] UEFI Shell is a project to create a UEFI 2.0 Shell implementation.
