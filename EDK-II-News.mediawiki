@@ -35,7 +35,7 @@ The MdePkg provides developers working on UEFI Applications, UEFI Drivers, UEFI 
 
 The MdePkg 1.00 also features the following quality metrics:
 
-*The MdePkg source code follows EDK II Coding Standard, which inludes the use of Doxygen style file and function headers.  The documentation generated from the MdePkg is available in both CHM and HTML formats. *The MdePkg source code passed static code analysis and zero potential security violation is reported. 
+*The MdePkg source code follows EDK II Coding Standard, which inludes the use of Doxygen style file and function headers.  The documentation generated from the MdePkg is available in both CHM and HTML formats. 
 *All the library source code can build without errors across several operating systems and tool chains 
 *All MDE library interfaces and PCD entries are covered and verified by MDE library test cases at API level for functionality and conformance.  
 Of particular note to developers:  the r8508 of the entire EDK II project contains the complete set of EDK II components used to test and validate this release.
