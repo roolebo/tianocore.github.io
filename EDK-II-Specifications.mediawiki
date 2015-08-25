@@ -17,9 +17,9 @@
 <tr>
 <td>
 '''BUILD'''
-[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1_25A.pdf/download Errata A PDF] or
-[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1_25A.zip/download ZIP]
-
+[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.pdf/download 
+Errata A PDF] or
+[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.pdf/download ZIP]
 </td>
 
     <td>
