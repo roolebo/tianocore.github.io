@@ -19,7 +19,7 @@
 '''BUILD'''
 [https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.pdf/download 
 Errata A PDF] or
-[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.pdf/download ZIP]
+[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.zip/download ZIP]
 </td>
 
     <td>
