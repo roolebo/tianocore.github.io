@@ -7,6 +7,16 @@
 </tr>
 <tr>
 <td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKIIHttpBootGettingStartedGuide_0_6.pdf/download EDK II HTTP Boot Getting Started Guide .PDF] 
+
+</td>
+<td>
+This document is a getting started guide for using the HTTP boot capability introduced in the UEFI Specification, revision 2.5.
+* Sept 2015 Rev 0.6
+</td>
+</tr>
+<tr>
+<td>
 [https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20SMM%20call%20topology.pdf/download EDK II SMM call Topology]
 </td>
 <td>
