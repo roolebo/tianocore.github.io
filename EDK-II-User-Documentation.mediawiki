@@ -6,7 +6,19 @@
 <th>Document DownLoad</th>
 <th>Description</th>
 </tr>
+<tr>
+    <td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/UEFI-PackagingToolQuickStartGuideRev_1_2.pdf/download PDF]
 
+    </td>
+
+    <td>
+UEFI Packaging Tool (UEFIPT) Quick Start 1.2 <br>
+
+This document provides a definitive list of steps to follow which will result in the creation of a UEFI Distribution Package using the UEFI Packaging Tool (UEFIPT) within a Microsoft Windows* OS and Linux OS environments.
+* August 2015
+    </td>
+</tr>
 <tr>
     <td>
 [https://sourceforge.net/projects/edk2/files/General%20Documentation/UEFI%20SCT%20Case%20Writers%20Guide_0_91.pdf/download  PDF ]
