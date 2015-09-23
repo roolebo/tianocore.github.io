@@ -57,7 +57,7 @@
 *BMC/Service Processor Device Path
 </td>
 
-<td>
+<td valign=top>
 #PI SMM GPI
 #New MP Service PPI
 #Multiple CPU health info
