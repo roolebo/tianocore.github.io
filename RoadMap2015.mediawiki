@@ -1,0 +1,75 @@
+<span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">
+=='''UDK2015 Roadmap for Tianocore.org '''==
+</span>
+
+'''Expected update Mid October'''
+<div class="t_projects">
+
+<table width="100%">
+<tr>
+    <th   colspan="2">Feature Details</th>
+</tr>
+   
+<tr>
+  <th>
+    Support UEFI 2.5 Updates
+  </th>
+  <th>
+    Support PI 1.4 Updates
+  </th>
+  
+</tr>
+<tr>
+<td>
+#Smart Card Reader & Smart card edge protocol
+#Inline Cryptographic Interface Protocol
+#UEFI USB Function I/O Protocol
+#Add NVM Express Pass Thru Protocol
+#Add UFS stack
+#Add SD Device Path & RamDisk Device Path
+#Add reconnect Browser Action
+#Ability to refresh the entire form
+#The default/options for the Ordered List question
+#Match2 Opcode and EFI_REGULAR_EXPRESSION_PROTOCOL
+#Keyword Strings support
+#New CPER Memory Section
+#New EFI_HASH2_PROTOCOL
+#Adding support for No executable data areas
+#Persistent Memory Type support
+#Add the Support for new PKCS7 Verification Services
+#System Prep Applications
+#Bluetooth Support
+#Add SMBIOS3_TABLE_GUID in configuration table.
+#Exposing Memory Redundancy to OSPM
+#ESRT: EFI System Resource Table and component firmware updates
+#IPV6 support from UNDI
+#UEFI “Next”  Feature – 
+
+*Boot from HTTP
+*DNSv4 and DNSv6
+*IP_CONFIG2 Protocol
+*WIFI support
+*EAP2 Protocol
+*UEFI TLS API
+*REST Protocol
+*Platform recovery
+*Customized Deployment of Secure Boot
+*BMC/Service Processor Device Path
+</td>
+
+<td>
+#PI SMM GPI
+#New MP Service PPI
+#Multiple CPU health info
+#PEI SetBootMode Service() clarification
+#GetMemoryMap Update for ReservedMemory
+#New Graphics PPI
+#New Capsule PPI
+#SIO PEI and UEFI-Driver Model Architecture
+#Extended File Size Errata
+#Add Reset2 PPI
+
+</td>
+
+</tr>
+</table>
