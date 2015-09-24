@@ -21,40 +21,30 @@
 </tr>
 <tr>
 <td>
-#Smart Card Reader & Smart card edge protocol
-#Inline Cryptographic Interface Protocol
-#UEFI USB Function I/O Protocol
-#Add NVM Express Pass Thru Protocol
-#Add UFS stack
-#Add SD Device Path & RamDisk Device Path
-#Add reconnect Browser Action
-#Ability to refresh the entire form
-#The default/options for the Ordered List question
-#Match2 Opcode and EFI_REGULAR_EXPRESSION_PROTOCOL
-#Keyword Strings support
-#New CPER Memory Section
-#New EFI_HASH2_PROTOCOL
-#Adding support for No executable data areas
-#Persistent Memory Type support
-#Add the Support for new PKCS7 Verification Services
-#System Prep Applications
-#Bluetooth Support
-#Add SMBIOS3_TABLE_GUID in configuration table.
-#Exposing Memory Redundancy to OSPM
-#ESRT: EFI System Resource Table and component firmware updates
-#IPV6 support from UNDI
-#UEFI “Next”  Feature – 
-
-*Boot from HTTP
-*DNSv4 and DNSv6
-*IP_CONFIG2 Protocol
-*WIFI support
-*EAP2 Protocol
-*UEFI TLS API
-*REST Protocol
-*Platform recovery
-*Customized Deployment of Secure Boot
-*BMC/Service Processor Device Path
+# Smart Card Reader & Smart card edge protocol (H file only)
+# Inline Cryptographic Interface Protocol (H file only)
+# UEFI USB Function I/O Protocol (H file only)
+# Add NVM Express Pass Thru Protocol
+# Add UFS stack
+# Add SD Device Path (H file only) & RamDisk Device Path
+# Add reconnect Browser Action
+# Ability to refresh the entire form
+# The default/options for the Ordered List question
+# Keyword Strings support
+# New CPER Memory Section (H file only)
+# New EFI_HASH2_PROTOCOL
+# Adding support for No executable data areas
+# Persistent Memory Type support
+# Add the Support for new PKCS7 Verification Services
+# System Prep Applications
+# Add SMBIOS3_TABLE_GUID in configuration table.
+# Exposing Memory Redundancy to OSPM
+# ESRT: EFI System Resource Table and component firmware updates
+# IPV6 support from UNDI
+# UEFI “Next”  Feature – 
+* IP_CONFIG2 Protocol
+* Boot from HTTP
+* DNSv4 and DNSv6
 </td>
 
 <td valign=top>
@@ -72,4 +62,57 @@
 </td>
 
 </tr>
+
+<tr>
+<td>
+Add ACPI 6.0 definitions.
+</td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td>
+Add SMBIOS 3.0 definitions.
+</td>
+<td>
+</td>
+</tr>
+
+
+<tr>
+<td>
+Support OpenSSL version 1.0.2d.
+
+</td>
+<td>
+</td>
+</tr>
+
+<tr>
+    <th   colspan="2">Excluded from UEFI 2.5 Updates</th>
+</tr>
+
+<tr>
+<td>
+# Match2 Opcode and EFI_REGULAR_EXPRESSION_PROTOCOL
+# Bluetooth Support (H file only)
+# Errata Boot Manager Policy & SATA Device Path Node 
+# UEFI “Next”  Feature – 
+* Boot from HTTP (Excluding IPV6)
+* WIFI support (H file only)
+* EAP2 Protocol (H file only)
+* UEFI TLS API
+* REST Protocol
+* Platform recovery
+* Customized Deployment of Secure Boot
+* BMC/Service Processor Device Path
+
+
+</td>
+<td>
+</td>
+</tr>
+
+
 </table>
