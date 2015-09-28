@@ -135,7 +135,7 @@ how to release with a package. Superceded by version 0.7.
 </tr>
 <tr>
     <td>
-[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download PDF ]
+PDF
     </td>
 
     <td>
