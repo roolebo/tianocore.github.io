@@ -164,7 +164,7 @@ from platform to platform.
 <tr>
    <td>
 EDK II C Coding Standards
-[http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download  PDF]
+ PDF
    </td>
    <td>
 EDK II C Coding Standards Specification<br>
