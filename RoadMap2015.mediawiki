@@ -26,7 +26,7 @@
 # UEFI USB Function I/O Protocol (H file only)
 # Add NVM Express Pass Thru Protocol
 # Add UFS stack
-# Add SD Device Path (H file only) & RamDisk Device Path
+# Add SD Device Path (H file only) 
 # Add reconnect Browser Action
 # Ability to refresh the entire form
 # The default/options for the Ordered List question
@@ -43,7 +43,7 @@
 # IPV6 support from UNDI
 # UEFI “Next”  Feature – 
 * IP_CONFIG2 Protocol
-* Boot from HTTP
+* Boot from HTTP (Excluding IPV6)
 * DNSv4 and DNSv6
 </td>
 
@@ -98,6 +98,7 @@ Support OpenSSL version 1.0.2d.
 # Match2 Opcode and EFI_REGULAR_EXPRESSION_PROTOCOL
 # Bluetooth Support (H file only)
 # Errata Boot Manager Policy & SATA Device Path Node 
+# RamDisk Device Path
 # UEFI “Next”  Feature – 
 * Boot from HTTP (Excluding IPV6)
 * WIFI support (H file only)
