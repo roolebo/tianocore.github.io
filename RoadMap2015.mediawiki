@@ -64,29 +64,26 @@
 </tr>
 
 <tr>
-<td>
+<td colspan="2">
 Add ACPI 6.0 definitions.
 </td>
-<td>
-</td>
+
 </tr>
 
 <tr>
-<td>
+<td colspan="2">
 Add SMBIOS 3.0 definitions.
 </td>
-<td>
-</td>
+
 </tr>
 
 
 <tr>
-<td>
+<td colspan="2">
 Support OpenSSL version 1.0.2d.
 
 </td>
-<td>
-</td>
+
 </tr>
 
 <tr>
@@ -94,7 +91,7 @@ Support OpenSSL version 1.0.2d.
 </tr>
 
 <tr>
-<td>
+<td colspan="2">
 # Match2 Opcode and EFI_REGULAR_EXPRESSION_PROTOCOL
 # Bluetooth Support (H file only)
 # Errata Boot Manager Policy & SATA Device Path Node 
@@ -111,8 +108,7 @@ Support OpenSSL version 1.0.2d.
 
 
 </td>
-<td>
-</td>
+
 </tr>
 
 
