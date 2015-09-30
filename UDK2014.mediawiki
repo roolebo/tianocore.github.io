@@ -11,23 +11,4 @@ If you have questions please email the <a href="mailto:edk2-devel-bounces@lists.
 
 To join the email list goto: [https://github.com/tianocore/tianocore.github.io/wiki/Edk2-devel edk2-devel]  email list.
 
-----
 
-== More Info ==
-
-EDK II More info: 
-[[Getting Started with EDK II|Getting Started for Developers]],
-[[EDK II Overview]], [[EDKII Packages]]
-
-UEFI Developers Kit 2010 (UDK2014).  The UDK2014 is the EDKII support for all currently published [http://www.uefi.org  UEFI specifications] UDK2010.SR1 currently supports UEFI 2.4 and PI 1.3 level of specifications.
-
-For quick reference, here are the links to the latest packages:
-
-
-*[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download UEFI Packing Tool]
-
-*[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download UEFI Shell 2.0 Spec package Sources]
-
-*[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download EDKII User Manual]
-
-*The Intel(R) UDK Debugger Tool and its detailed user manual may be obtained from http://www.intel.com/udk
