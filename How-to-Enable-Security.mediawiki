@@ -6,7 +6,7 @@
 == HOW TO ENABLE SECURE BOOT SERVICE ==
 === Download PDF with examples ===
 
-[http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot0.pdf/download How to Sign UEFI Drivers & Applications .pdf] NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010 version
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.pdf/download How to Sign UEFI Drivers & Applications .pdf] NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010 version
 
 === How to add Secure Boot to DSC and FDF ===
 Based on original variable driver in MdeModulePkg, variable driver in SecurityPkg
