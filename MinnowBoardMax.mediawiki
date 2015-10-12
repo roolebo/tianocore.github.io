@@ -31,9 +31,8 @@ Follow the instructions below to download the latest firmware releases to update
  Rel .83
 </td>
 <td>
-# Download Open source with the following example using SVN:<br>  ''svn export –r 16867 https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1 MyWorkSpace''
-# Download Vlv2DeviceRefCodePkg Open source:<br> ''svn export –r 18508
-https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1/Vlv2DeviceRefCodePkg'' 
+# Download Open source with the following example using SVN:<br> ''svn export –r 16867 https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1 MyWorkSpace''
+# Download Vlv2DeviceRefCodePkg Open source:<br> ''svn export –r 18508 https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1/Vlv2DeviceRefCodePkg'' 
 # Copy ''Vlv2DeviceRefCodePkg''  directory to the ''MyWorkSpace'' directory above
 # Download Vlv2TbltDevicePkg Open source:<br> ''svn export –r 18508 https://svn.code.sf.net/p/edk2/code/branches/UDK2014.SP1/Vlv2TbltDevicePkg'' 
 # Copy ''Vlv2TbltDevicePkg''  directory to the ''MyWorkSpace'' directory above
