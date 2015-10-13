@@ -5,6 +5,27 @@
 <th>Specification</th>
 <th>Description</th>
 </tr>
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_Implementing_UEFI_Authenticated_Variables_in_SMM_with_EDKII_V2.pdf/download .PDF]
+</td>
+<td>
+
+A Tour Beyond BIOS Implementing UEFI Authenticated Variables in SMM with EDKII
+<br>
+This paper presents the internal structure and boot flow of the SMM-based UEFI Authenticated Variable driver in the MDE Module Package and Security Package of the EDKII.
+<br>
+Prerequisite
+This paper assumes that audience has EDKII/UEFI firmware development experience. He or she should also be familiar with UEFI/PI firmware infrastructure, such as SEC, PEI, DXE, runtime phase.
+
+* Oct 2015 
+</td>
+</tr>
+
+
+
+
 <tr>
 <td>
 [https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKIIHttpBootGettingStartedGuide_0_6.pdf/download EDK II HTTP Boot Getting Started Guide .PDF] 
