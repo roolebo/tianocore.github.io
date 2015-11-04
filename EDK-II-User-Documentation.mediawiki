@@ -135,11 +135,11 @@ how to release with a package. Superceded by version 0.7.
 </tr>
 <tr>
     <td>
-PDF
+[https://sourceforge.net/projects/edk2/files/Specifications/CCS_2_1_Draft.pdf/download PDF]
     </td>
 
     <td>
-EDK II C Coding Standards Specification v 2.0<br>
+EDK II C Coding Standards Specification v 2.1 Draft<br>
 C Coding standards for EDK II
     </td>
 </tr>
