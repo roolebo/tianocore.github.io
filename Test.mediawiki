@@ -1,6 +1,4 @@
-=='''Multiple Workspace'''==
-
-=='''Introduction:'''==
+==='''Introduction:'''===
 An update to the EDKII build tools now allows the setting of multiple paths that will be searched when attempting to resolve the location of packages.  This new feature allows for more flexibility when designing a tree layout or combining sources from different sources.  The new functionality is enabled through the addition of a new environment variable (PACKAGES_PATH). 
 
 The PACKAGES_PATH variable is an ordered list of additional search paths using the default path separator of the host OS between each entry.  The first path in the list has the highest priority and the last path has the lowest priority.  The path specified by the WORKSPACE variable always has the highest search priority over any PACKAGE_PATH entries.
