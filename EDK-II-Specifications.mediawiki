@@ -163,8 +163,8 @@ from platform to platform.
 </tr>
 <tr>
    <td>
-EDK II C Coding Standards
- PDF
+EDK II C Coding Standards 
+[https://sourceforge.net/projects/edk2/files/Specifications/CCS_2_1_Draft.pdf/download 2.1 Draft PDF]
    </td>
    <td>
 EDK II C Coding Standards Specification<br>
