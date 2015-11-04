@@ -2,7 +2,7 @@
 <!-- [[Category:EDKII Build]] -->
 Getting and Installing the Required Tools for Building [http://www.tianocore.org/edk2/ EDK II].
 
-Note: The [[step-by-step instructions]] also cover installing pre-requisite build tools for some build environments.
+Note: The '''step-by-step''' instructions also cover installing pre-requisite build tools for some build environments.
 
 == Requirements ==
 * An IA32 or X64 based development workstation (IPF workstations are not supported)
@@ -105,6 +105,8 @@ set WORKSPACE=c:\workspace\edk2
 
 It is recommended that you wrap up all the environment variables above into a script that you can launch each time you begin to do development in your EDK II workspace.
 
+Multiple Workspaces are also supported see how:  [[Multiple_Workspace]]
+
 == First Build ==
 
-The [[step-by-step instructions]] documents how to build the MdeModulePkg under various environments.
+The '''step-by-step'''  documents how to build the MdeModulePkg under various environments.
