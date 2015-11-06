@@ -7,15 +7,11 @@ To use this feature, the PACKAGES_PATH environment variable must be set prior to
 
 The use of the PACKAGES_PATH environment variable is optional and if it is not defined the build will function like it has in the past.
 
-==='''Tree Layout:'''===
-When creating a tree structure it is required that all paths defined by PACKAGES_PATH are subdirectories under the WORKSPACE environment variable.  This makes sure that all tool and packages references are contained within the WORKSPACE directory structure.
-
 ==='''Environment Variables:'''===
 *         WORKSPACE
 **    Location of the Build directory
 **    Always highest search priority
 *        PACKAGES_PATH
-**    All paths must be under the WORKSPACE path
 **   List of additional paths to search for packages using OS path separator character
 **   Paths are listed in priority order
 
@@ -32,5 +28,4 @@ When the build tools are run with this configuration the directories will be sca
 
 '''Summary:'''
 *         Use of PACKAGES_PATH is not required
-*         All PACKAGES_PATH entries must be subdirectories of the WORKSPACE environment variable
 *         PACKAGES_PATH must be set prior to running the edksetup script for correct tool configuration
