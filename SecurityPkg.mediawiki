@@ -2,7 +2,7 @@ There are 4 security related features in SecurityPkg including [[SecurityPkg#TPM
 
 More information: 
 * [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Readme_Security.txt/download ReadMe.txt]
-* [[How_to_Enable_Security | How to enable Security]] with EDK II
+* [[How-to-Enable-Security | How to enable Security]] with EDK II
 * [http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.pdf/download How to Sign UEFI Drivers & Applications V1.31.pdf]
 * [https://docs.google.com/file/d/0BxgB4JDywk3MWnM0WmNXMHBTcm8/edit?pli=1 Secure Boot Ecosystem Challenges PDF]-From ToorCamp 2012, Presentation by Vincent Zimmer 
 * [http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf/download  A Tour Beyond BIOS into UEFI Secure Boot PDF]
