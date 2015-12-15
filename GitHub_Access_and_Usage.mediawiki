@@ -1,3 +1,5 @@
+__NOTOC__ 
+=GitHub Access and Usage=
 GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub.
 
 =='''GitHub EDKII Project Repositories'''==
