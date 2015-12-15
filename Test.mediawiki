@@ -9,7 +9,7 @@ Please note that FatPkg is not included in the EDKII project repository, it is a
 
 =='''How to Setup the EDKII Tree'''==
 ==='''Linux Support'''===
-For EDKII project developers:
+====For EDKII project developers:====
 *	Clone the EDKII project repository
 **	git clone https://github.com/tianocore/edk2
 *	Change to the edk2 directory
@@ -19,31 +19,97 @@ For EDKII project developers:
 **	. edksetup.sh
 When the above steps are done, you can work in the edk2 directory for code development.
 
+====For FatPkg developers:====
+*	Create a workspace directory
+*	Change to the workspace directory
+*	Clone the EDKII project repository
+**	git clone https://github.com/tianocore/edk2
+*	Clone the edk2-FatPkg repository to “FatPkg”
+**	git clone https://github.com/tianocore/edk2-FatPkg FatPkg
+*	Build the tools
+**	make -C edk2/BaseTools
+*	Set environment variables
+**	WORKSPACE – The workspace directory created above
+**	PACKAGES_PATH – Set it to $WORKSPACE/edk2
+Example:
+  export WORKSPACE=/Sample/Path
+  export PACKAGES_PATH=$WORKSPACE/edk2
+*	Run the edksetup.sh script
+**	. edk2/edksetup.sh
+When the above steps are done, the directory structure will look like:
+  Sample
+    └───Path (WORKSPACE)
+       ├───edk2
+       └───FatPkg
+==='''Windows Support'''===
+====For EDKII project developers:====
+*	Create a workspace directory
+*	Change to the workspace directory
+*	Clone the EDKII project repository
+**	git clone https://github.com/tianocore/edk2
+*	Clone the edk2-BaseTools-win32 repository
+**	git clone https://github.com/tianocore/edk2-BaseTools-win32
+*	Set environment variables:
+**	EDK_TOOLS_BIN – Set it as the edk2-BaseTools-win32 directory
+Example:
+    set EDK_TOOLS_BIN=c:\efi\test\edk2-BaseTools-win32
 
-How to Setup the EDKII Tree
-When creating a tree structure it is required that all paths defined by PACKAGES_PATH are subdirectories under the WORKSPACE environment variable.  This makes sure that all tool and packages references are contained within the WORKSPACE directory structure.
+*	Change to the edk2 directory
+*	Run the edksetup.bat script
+When the above steps are done, the directory structure will look like:
+  efi
+    └───test (WORKSPACE)
+       ├───edk2
+       └───edk2-BaseTools-win32
 
-==='''Environment Variables:'''===
-*         WORKSPACE
-**    Location of the Build directory
-**    Always highest search priority
-*        PACKAGES_PATH
-**    All paths must be under the WORKSPACE path
-**   List of additional paths to search for packages using OS path separator character
-**   Paths are listed in priority order
-
-'''Example:'''
+====For FatPkg developers:====
+*	Create a workspace directory
+*	Change to the workspace directory
+*	Clone the EDKII project repository
+**	git clone https://github.com/tianocore/edk2
+*	Clone the edk2-BaseTools-win32 repository
+**	git clone https://github.com/tianocore/edk2-BaseTools-win32
+*	Clone the edk2-FatPkg repository to “FatPkg”
+**	git clone https://github.com/tianocore/edk2-FatPkg FatPkg 
+*	Set environment variables:
+**	WORKSPACE – The workspace directory created above
+**	PACKAGES_PATH – Set it to %WORKSPACE%\edk2
+**	EDK_TOOLS_BIN – Set it to %WORKSPACE%\edk2-BaseTools-win32
+Example:
   set WORKSPACE=c:\efi\test
-  set PACKAGES_PATH=%WORKSPACE%\platform;%WORKSPACE%\edk2
+  set PACKAGES_PATH=%WORKSPACE%\edk2
+  set EDK_TOOLS_BIN=%WORKSPACE%\edk2-BaseTools-win32
+*	Run the edksetup.bat script
+**	edk2\edksetup.bat
+When the above steps are done, the directory structure will look like:
+  efi
+    └───test (WORKSPACE)
+       ├───edk2
+       ├───edk2-BaseTools-win32
+       └───FatPkg
 
-In this case WORKSPACE is the container for two trees as well as the location of the Build directory.  The example assumes the set of code packages for a given platform are contained in the platform directory.  While the code packages from the open source repository are contained in the edk2 directory.
+Please keep in mind that the EDKII project, FatPkg and edk2-BaseTools-win32 are independent Git repositories. Each of these repositories must be updated individually.
 
-When the build tools are run with this configuration the directories will be scanned in the following order to find packages listed in the DSC and FDF files.
-#       c:\efi\test
-#       c:\efi\test\platform
-#       c:\efi\test\edk2
+=='''Develop Process for EDKII Project'''==
+The normal develop process for EDKII project is:
+#	Setup the EDKII tree if you do not have one
+#	Create a topic branch for new feature or bug fix
+#	Make changes in the working tree
+#	Break up working tree changes into independent ones and commit them one by one to support bisect
+#	Follow the commit message template given below when writing commit messages
+#	Use the ‘PatchCheck.py’ script under ‘edk2\BaseTools\Scripts’ directory to verify the commits are correctly formatted
+#	Update the master branch (pull or fetch/merge)
+#	Rebase the topic branch onto master branch
+#	Create patch (serial) to the edk2-devel mailing list or upload the topic branch to your forked EDKII project and send the URL and branch name of the fork to the above mailing list
+#	Modify local commits based on the review feedbacks and repeat steps 3 to 9
+#	Update the master branch
+#	Integrate reviewed commits on the topic branch to master branch
+#	Push changes to the EDKII project repository
 
-'''Summary:'''
-*         Use of PACKAGES_PATH is not required
-*         All PACKAGES_PATH entries must be subdirectories of the WORKSPACE environment variable
-*         PACKAGES_PATH must be set prior to running the edksetup script for correct tool configuration
+EDKII Project commit message template:
+ PkgName-ModuleName: Brief-single-line-summary
+ Full-commit-message
+ Cc: Package Maintainer Name <Package Maintainer Email Address>
+ Contributed-under: TianoCore Contribution Agreement 1.0
+ Signed-off-by: Contributor Name <contributor@email.server>
+ Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
