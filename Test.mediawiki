@@ -100,7 +100,7 @@ The normal develop process for EDKII project is:
 #	Use the ‘PatchCheck.py’ script under ‘edk2\BaseTools\Scripts’ directory to verify the commits are correctly formatted
 #	Update the master branch (pull or fetch/merge)
 #	Rebase the topic branch onto master branch
-#	Create patch (serial) to the edk2-devel mailing list or upload the topic branch to your forked EDKII project and send the URL and branch name of the fork to the above mailing list
+#	Create patch (serial) to the <a href="mailto:edk2-devel-bounces@lists.01.org?Subject=Patch> edk2-devel </a> mailing list or upload the topic branch to your forked EDKII project and send the URL and branch name of the fork to the above mailing list
 #	Modify local commits based on the review feedbacks and repeat steps 3 to 9
 #	Update the master branch
 #	Integrate reviewed commits on the topic branch to master branch
@@ -108,7 +108,9 @@ The normal develop process for EDKII project is:
 
 EDKII Project commit message template:
  PkgName-ModuleName: Brief-single-line-summary
+
  Full-commit-message
+
  Cc: Package Maintainer Name <Package Maintainer Email Address>
  Contributed-under: TianoCore Contribution Agreement 1.0
  Signed-off-by: Contributor Name <contributor@email.server>
