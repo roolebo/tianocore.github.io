@@ -1,13 +1,26 @@
-==='''Introduction:'''===
-An update to the EDKII build tools now allows the setting of multiple paths that will be searched when attempting to resolve the location of packages.  This new feature allows for more flexibility when designing a tree layout or combining sources from different sources.  The new functionality is enabled through the addition of a new environment variable (PACKAGES_PATH). 
+GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub.
 
-The PACKAGES_PATH variable is an ordered list of additional search paths using the default path separator of the host OS between each entry.  The first path in the list has the highest priority and the last path has the lowest priority.  The path specified by the WORKSPACE variable always has the highest search priority over any PACKAGE_PATH entries.
+=='''GitHub EDKII Project Repositories'''==
+The EDKII project repository is available at https://github.com/tianocore/edk2. 
 
-To use this feature, the PACKAGES_PATH environment variable must be set prior to running the edksetup script.  The reason for this is that the edksetup script determines the location of the Conf and BaseTools directory location based on the values of the WORKSPACE and PACKAGES_PATH environment variables.
+Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32.
 
-The use of the PACKAGES_PATH environment variable is optional and if it is not defined the build will function like it has in the past.
+Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.
 
-==='''Tree Layout:'''===
+=='''How to Setup the EDKII Tree'''==
+==='''Linux Support'''===
+For EDKII project developers:
+*	Clone the EDKII project repository
+**	git clone https://github.com/tianocore/edk2
+*	Change to the edk2 directory
+*	Build the tools
+**	make -C BaseTools
+*	Run the edksetup.sh script
+**	. edksetup.sh
+When the above steps are done, you can work in the edk2 directory for code development.
+
+
+How to Setup the EDKII Tree
 When creating a tree structure it is required that all paths defined by PACKAGES_PATH are subdirectories under the WORKSPACE environment variable.  This makes sure that all tool and packages references are contained within the WORKSPACE directory structure.
 
 ==='''Environment Variables:'''===
