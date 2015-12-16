@@ -73,6 +73,6 @@ to:
 :: <span style="font-family: Courier">  '''TOOL_CHAIN_TAG        = VS2010x86''' </span>
 
 
-: NOTE: VS2012** only with [[UDK2014]] releases or equivalent
+: NOTE: VS2012** only with [[UDK2014]] releases or equivalent or later releases
 
 : NOTE: VS2003** May not be supported
