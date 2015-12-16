@@ -78,7 +78,7 @@ TOOL_CHAIN_TAG        = VS2008x86
 
 
 
-See also: [[Windows_systems_ToolChain_Matrix]] for how to change the Tool Chain Tag.
+See also: [[Windows-systems-ToolChain-Matrix]] for how to change the Tool Chain Tag.
 
 Also, consider if you want to build a different processor architecture by changing the TARGET_ARCH value in target.txt.  Please consider that certain toolchains only support building certain processor architectures.
 
