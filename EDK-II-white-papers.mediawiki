@@ -2,11 +2,11 @@
 <table>
 <tr><th colspan="4" style="background-color:#a9c6dd">EDK II White papers</th></tr>
 <tr>
-<td>Download PDF</td>
+<td>'''Download PDF'''</td>
 <td>
-Title<Br>
-Description<br>
-*Date Published<BR>
+'''Title'''<Br>
+'''Description'''<br>
+'''*Date Published'''<BR>
 
 
 
