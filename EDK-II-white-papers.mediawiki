@@ -6,7 +6,7 @@
 <td>
 '''Title'''<Br>
 '''Description'''<br>
-'''*Date Published'''<BR>
+*'''Date Published'''<BR>
 
 
 
