@@ -6,7 +6,7 @@
 
 </tr>
 <tr>
-<th>SpecificationRevision</th>
+<th>Specification_Revision_Download</th>
 <th>Description</th>
 </tr>
 <tr>
