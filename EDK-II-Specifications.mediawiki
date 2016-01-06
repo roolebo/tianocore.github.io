@@ -69,9 +69,8 @@ The FDF file is used to describe the content and layout of binary images. Binary
 <tr>
 <td>
 '''DEC''' 
-
-[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.25.pdf/download  PDF] or
-[http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.25.zip/download   ZIP]
+[https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1_25.pdf/download PDF] or
+[https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1_25.zip/download ZIP]
 
 </td>
 <td>
@@ -86,9 +85,9 @@ The EDK II Build Infrastructure supports generation of UEFI 2.5 and PI 1.4 (Unif
 <td>
 '''INF'''-
 
-[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.25.pdf/download PDF] or
+[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1_25.pdf/download PDF] or
+[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1_25.zip/download ZIP]
 
-[http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.25.zip/download   ZIP]
 
 </td>
 <td>
