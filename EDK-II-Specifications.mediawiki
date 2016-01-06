@@ -83,7 +83,7 @@ The EDK II Build Infrastructure supports generation of UEFI 2.5 and PI 1.4 (Unif
 </tr>
 <tr>
 <td>
-'''INF'''-
+'''INF'''
 
 [https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1_25.pdf/download PDF] or
 [https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1_25.zip/download ZIP]
