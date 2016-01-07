@@ -3,4 +3,4 @@
 [https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1_26.zip/download  ZIP]
 
 from github 
-[https://github.com/test-abc/files/blob/master/Specs/Build_Spec_1_26.pdf/download pdf]
+[https://github.com/test-abc/files/blob/master/Specs/Build_Spec_1_26.pdf pdf]
