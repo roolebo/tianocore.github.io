@@ -67,7 +67,26 @@ Topology of the EDK II Calling order of the SMM code
 </td>
 </tr>
 
+<tr>
+    <td>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf/download PDF] or
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.zip/download Zip]
 
+    </td>
+
+    <td>
+[http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf/download A Tour Beyond BIOS into UEFI Secure Boot White Paper] <br>
+This document provides an overview of the implementation and intent behind the UEFI Secure Boot feature and capability of UEFI Specification, Version 2.3.1C, http://www.uefi.org 
+
+The goal of the paper is to provide
+*	an understanding of the motivations behind this capability
+*	a walk-through of the implementation 
+*	a future evolution.
+
+This paper targets firmware, software, and BIOS engineers. 
+* July 2012
+    </td>
+</tr>
 <tr>
 <td>
 [https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK2_Build_Decoded.pdf/download .PDF]
