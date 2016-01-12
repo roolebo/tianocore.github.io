@@ -6,7 +6,7 @@
 # Download and install the [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UefiDriverWizard.msi/download UEFI Driver Wizard]
 # Open the UEFI Driver Wizard, select 'File -> Open Workspace' and select the UDK2010.SR1.IHV workspace directory
 
-After these steps are complete, the [[UEFI Driver Wizard]] is ready to use for the first time.
+After these steps are complete, the UEFI Driver Wizard is ready to use for the first time.
 
 == Configure the Workspace ==
 
