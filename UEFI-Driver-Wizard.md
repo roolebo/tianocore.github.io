@@ -1,6 +1,6 @@
 [v0.11 (03-05-2012, Windows MSI)](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UefiDriverWizard.msi/download Download) |
 [ReadMe](https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/README) |
-[[Wizard_Getting_Started]]
+[[Wizard-Getting-Started]]
 
 
 
