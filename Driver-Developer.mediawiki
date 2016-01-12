@@ -22,7 +22,7 @@ This page is designed to support Unified Extensible Firmware Interface (UEFI) de
 
 <tr>
     <td>[[UEFI Driver Wizard]]</td>
-    <td>The [[UEFI Driver Wizard]] is an open source program designed to accelerate the development of new UEFI drivers using a GUI-based template generator. This wizard provides basic support for the most common categories of UEFI drivers. Please refer to the UEFI Driver Wizard [https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/README ReadMe].  Check out the [[Wizard_Getting_Started|Getting Started Guide]] for more information. Download the [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UefiDriverWizard.msi/download UEFI Driver Wizard MSI] (installer for Microsoft Windows) or use this [https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/ SVN Link] to download for Linux/Unix/Mac.</td>
+    <td>The [[UEFI Driver Wizard]] is an open source program designed to accelerate the development of new UEFI drivers using a GUI-based template generator. This wizard provides basic support for the most common categories of UEFI drivers. Please refer to the UEFI Driver Wizard [https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/README ReadMe].  Check out the [[Wizard-Getting-Started|Wizard Getting Started ]] guide for more information. Download the [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UefiDriverWizard.msi/download UEFI Driver Wizard MSI] (installer for Microsoft Windows) or use this [https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/ SVN Link] to download for Linux/Unix/Mac.</td>
 </tr>
 <tr>
     <td>[[UEFI Driver Writer's Guide]]</td>
