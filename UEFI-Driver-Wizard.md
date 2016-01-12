@@ -11,5 +11,5 @@ The [UEFI Driver Wizard](http://sourceforge.net/projects/edk2/files/EDK%20II%20R
 The [[UDK2014.IHV Setup Guide]] (Driver Developer Release) is a subset of the UEFI Development Kit (UDK2014) designed for use with the UEFI Driver Wizard. This release only contains the packages essential for independent hardware vendor (IHV) driver development.
 
 Please refer to the UEFI Driver Wizard [ReadMe](https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/README). 
-Check out the [[Wizard_Getting_Started]]  for more information.
+Check out the [[Wizard-Getting-Started]]  for more information.
 
