@@ -111,6 +111,7 @@ The developer process for the EDK II project is:<BR>
 #	Update the master branch (pull or fetch/merge)<BR>
 #	Rebase the topic branch onto master branch<BR>
 #	Create patch (serial) to the <a href="mailto:edk2-devel-bounces@lists.01.org?Subject=Patch> edk2-devel </a> mailing list or upload the topic branch to your forked EDK II project and send the URL and branch name of the fork to the above mailing list<BR>
+#*      Using ''git send-email'' is the preferred method for posting patches to the mailing list<BR>
 #	Modify local commits based on the review feedbacks and repeat steps 3 to 9<BR>
 
 <BR>
