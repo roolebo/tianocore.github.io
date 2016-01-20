@@ -103,7 +103,7 @@ The developer process for the EDK II project is:<BR>
 #	Create and checkout a topic branch for new feature or bug fix<BR>
 #	Make changes in the working tree<BR>
 #	Break up working tree changes into independent commits that do not break ''git bisect''
-#*       [[Commit-Guidelines]]
+#*       [[Commit-Partitioning]]
 #	Follow the commit message template given below when writing commit messages<BR>
 #*       [[Commit-Message-Format]]
 #	Use the ‘PatchCheck.py’ script under ‘edk2\BaseTools\Scripts’ directory to verify the commits are correctly formatted<BR>
@@ -124,5 +124,5 @@ The maintainer process for the EDK II project is:<BR>
 
 =='''See Also'''==
 * [[Commit-Message-Format]]
-* [[Commit-Guidelines]]
+* [[Commit-Partitioning]]
 * [[Code-Style]]
