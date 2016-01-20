@@ -105,6 +105,7 @@ The developer process for the EDK II project is:<BR>
 #	Break up working tree changes into independent commits that do not break ''git bisect''
 #*       [[Commit-Guidelines]]
 #	Follow the commit message template given below when writing commit messages<BR>
+#*       [[Commit-Message-Format]]
 #	Use the ‘PatchCheck.py’ script under ‘edk2\BaseTools\Scripts’ directory to verify the commits are correctly formatted<BR>
 #	Update the master branch (pull or fetch/merge)<BR>
 #	Rebase the topic branch onto master branch<BR>
