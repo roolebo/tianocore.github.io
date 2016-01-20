@@ -97,15 +97,13 @@ When the above steps are done, the directory structure will look like:
 
 Please keep in mind that the EDK II project, FatPkg and edk2-BaseTools-win32 are independent Git repositories. Each of these repositories must be updated individually.
 
-
 =='''Development Process for the EDK II Project'''==
 The developer process for the EDK II project is:<BR>
 #	Setup the EDK II tree if you do not have one<BR>
 #	Create and checkout a topic branch for new feature or bug fix<BR>
 #	Make changes in the working tree<BR>
-#	Break up working tree changes into independent commits
-#*       Commits should contain one logical change
-#*       Commits should build / boot if possible to support use of bisect<BR>
+#	Break up working tree changes into independent commits that do not break ''git bisect''
+#*       [[Commit-Guidelines]]
 #	Follow the commit message template given below when writing commit messages<BR>
 #	Use the ‘PatchCheck.py’ script under ‘edk2\BaseTools\Scripts’ directory to verify the commits are correctly formatted<BR>
 #	Update the master branch (pull or fetch/merge)<BR>
@@ -113,8 +111,6 @@ The developer process for the EDK II project is:<BR>
 #	Create patch (serial) to the <a href="mailto:edk2-devel-bounces@lists.01.org?Subject=Patch> edk2-devel </a> mailing list or upload the topic branch to your forked EDK II project and send the URL and branch name of the fork to the above mailing list<BR>
 #*      Using ''git send-email'' is the preferred method for posting patches to the mailing list<BR>
 #	Modify local commits based on the review feedbacks and repeat steps 3 to 9<BR>
-
-<BR>
 <BR>
 The maintainer process for the EDK II project is:<BR>
 #	Determine if a patch has met the review requirements for the package<BR>
@@ -127,4 +123,5 @@ The maintainer process for the EDK II project is:<BR>
 
 =='''See Also'''==
 * [[Commit-Message-Format]]
+* [[Commit-Guidelines]]
 * [[Code-Style]]
