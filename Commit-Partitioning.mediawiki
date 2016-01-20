@@ -22,5 +22,12 @@ In general, try to:
 ** If you fixed 5 spelling errors within comments in a file, then it does not require 5 commits!
 * In most cases a new driver or library implementation should be a single commit
 
+==Dealing with bisect issues==
+Each commit should build and function on its own.  This allows for the use of ''git bisect'' to identify changes that result in bugs.  This is a powerful tool so be sure not to break it.  Below are some hints to deal with potential ''git bisect'' issues.
+* See if reordering commits will help to keep each commit building and functioning
+* Adding temporary code that is removed at the end of the patch series is an acceptable practice
+* Developers are only responsible for testing the build with their preferred tool chain
+** If possible test with a Microsoft and GCC tool chain
+
 =See Also=
 * [[Code-Style]]
