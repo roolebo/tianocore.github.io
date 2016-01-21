@@ -4,9 +4,11 @@ This document is designed to aid in the development of UEFI Drivers using the ED
 
 == Versions ==
 
-Driver Writer’s Guide for UEFI 2.3.1, 03/08/2012, Version 1.0.1 [http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UEFI_DWG_V1.0.1_120308.pdf/download UEFI_DWG_V1.0.1_120308(PDF)]
+Driver Writer’s Guide for UEFI 2.3.1, 03/08/2012, Version 1.0.1 
+[https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UEFI%20Driver_Writer_Guide_V1.0.1_120308.pdf
+ UEFI_DWG_V1.0.1_120308(PDF)]
 or 
-[http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UEFI_DWG_V1.0.1_120308.zip/download UEFI_DWG_V1.0.1_120308(ZIP)] (zip of PDF)
+[https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UEFI_DWG_V1.0.1_120308.zip/download UEFI_DWG_V1.0.1_120308(ZIP)] (zip of PDF)
 
 
 
