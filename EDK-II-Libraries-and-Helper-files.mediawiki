@@ -1,4 +1,4 @@
-{{UDK2014}}
+
 
 
 <div class="t_projects">
@@ -20,14 +20,7 @@ See Documents on the  [[UDK2015]] link.  Help documents in CHM and Zip formats f
 </td>
 
 </tr>
-<tr>
-<td>
-[http://sourceforge.net/projects/edk2/files/EDK_II_Libraries Library and Documentation Files]
-</td>
-<td>
-Complete .chm and .zip Documentation on Libraries and helper files for EDK II per each release.  
-</td>
-</tr>
+
 </table>
 
 <!-- [[Category:EDKII]] -->
