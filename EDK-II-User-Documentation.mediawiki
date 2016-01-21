@@ -8,7 +8,7 @@
 </tr>
 <tr>
     <td>
-[https://sourceforge.net/projects/edk2/files/General%20Documentation/UEFI-PackagingToolQuickStartGuideRev_1_2.pdf/download PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/UEFI-PackagingToolQuickStartGuideRev_1_2.pdf PDF]
 
     </td>
 
@@ -19,41 +19,13 @@ This document provides a definitive list of steps to follow which will result in
 * August 2015
     </td>
 </tr>
-<tr>
-    <td>
-[https://sourceforge.net/projects/edk2/files/General%20Documentation/UEFI%20SCT%20Case%20Writers%20Guide_0_91.pdf/download  PDF ]
-    </td>
 
-    <td>
-UEFI SCT Case Writers Guide .91 <br>
-This document defines the guidelines for writing the test cases under UEFI Self-Certification Test (SCT) and introduces the UEFI SCT source tree. This document is intended for anyone interested in developing or porting tests for the UEFI SCT
 
-    </td>
-</tr>
 
 <tr>
     <td>
-[http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf/download PDF] or
-[http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.zip/download Zip]
-
-    </td>
-
-    <td>
-A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper <br>
-This document provides an overview of the implementation and intent behind the UEFI Secure Boot feature and capability of UEFI Specification, Version 2.3.1C, http://www.uefi.org 
-
-The goal of the paper is to provide
-*	an understanding of the motivations behind this capability
-*	a walk-through of the implementation 
-*	a future evolution.
-
-This paper targets firmware, software, and BIOS engineers. 
-    </td>
-</tr>
-<tr>
-    <td>
-[http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.pdf/download PDF ] or
-[http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.zip/download Zip]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf PDF ] or
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.zip Zip]
 
     </td>
 
@@ -70,16 +42,18 @@ Version 1.31. This document describes how to sign UEFI images for the developmen
 *	Demonstrates several UEFI Secure Boot scenarios using OVMF
 Updates and clarifications related to UEFI Spec conformance regarding KEK and DB usages
 
+
 See also [[SecurityPkg]] for more information on How to enable security, TPM, User identification (UID), secure boot and authenticated variable.
 
 NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010.SR1 release version
 
+* Feb 2013
     </td>
 </tr>
 
 <tr>
     <td>
-[https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UEFI%20Driver_Writer_Guide_V1.0.1_120308.pdf/download PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UEFI%20Driver_Writer_Guide_V1.0.1_120308.pdf PDF]
     </td>
 
     <td>
@@ -87,71 +61,61 @@ Driver Writer Guide V1.01 <br>
 The UEFI Driver Writer Guide V1.0.1 document is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please also refer to the [[Driver-Developer]] page for the EDK II UEFI Driver Developer Wizard.
 
 UEFI Drivers are described in the Unified Extensible Firmware Interface Specification, Version 2.3.1. There are different categories of UEFI Drivers, and many variations of each category. This document provides basic information for the most common categories of UEFI drivers. Many other driver designs are possible.
+
+* March 2012
     </td>
 </tr>
 
 <tr>
     <td>
-[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDKII_UserManual_0_7.pdf PDF]
     </td>
 
     <td>
 EDKII User Manual V 0.7 <br>
 This document provides detailed instructions for downloading, configuring, and building an EDK II project as well as running EDKII Emulation Environments.
-    </td>
-</tr>
-<tr>
-    <td>
-[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20User%20Manual%20V0.60.pdf/download PDF ]
-    </td>
-    <td>
-EDK II User Manual v 0.6<br>
-This document provides detailed instructions for downloading, configuring and building an EDK II project as well as running EDK II Emulation Environments. Superceded by version 0.7
 
+* March 2010
     </td>
 </tr>
+
 <tr>
     <td>
-[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download PDF ]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDKII%20Module%20Writer_s%20Guide_0_7.pdf PDF ]
     </td>
 
     <td>
 EDK II Module Writer's Guide v 0.7<br>
 The document is a guideline for new EDK II module developers, and provides detailed instructions on how to develop and build a new module, and
 how to release with a package.
+
+* March 2010
     </td>
 </tr>
+
+
 <tr>
     <td>
-[https://sourceforge.net/projects/edk2/files/General%20Documentation/EDK%20II%20Module%20Writer_s%20Guide_0_01.pdf/download PDF]
-    </td>
-
-    <td>
-EDK II Module Writer's Guide v0.01<br>
-The document is a guidline for new EDK II module developers, and provides detailed instructions on how to develop and build a new module, and
-how to release with a package. Superceded by version 0.7.
-
-    </td>
-</tr>
-<tr>
-    <td>
-[https://sourceforge.net/projects/edk2/files/Specifications/CCS_2_1_Draft.pdf/download PDF]
-    </td>
-
-    <td>
-EDK II C Coding Standards Specification v 2.1 Draft<br>
-C Coding standards for EDK II
-    </td>
-</tr>
-<tr>
-    <td>
-[http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download  PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/PerformanceOptimization_1_0.pdf  PDF]
 
     </td>
 
     <td>
 Performance Optimization <br>
 Technical documentation for Performance Optimization for EDK II
+
+* Feb 2010
+    </td>
+</tr>
+<tr>
+    <td>
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/UEFI%20SCT%20Case%20Writers%20Guide_0_91.pdf PDF ]
+    </td>
+
+    <td>
+UEFI SCT Case Writers Guide .91 <br>
+This document defines the guidelines for writing the test cases under UEFI Self-Certification Test (SCT) and introduces the UEFI SCT source tree. This document is intended for anyone interested in developing or porting tests for the UEFI SCT
+* July 2009
     </td>
 </tr>
 <tr>
