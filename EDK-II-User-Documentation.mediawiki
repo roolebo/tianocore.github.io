@@ -84,7 +84,7 @@ NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK201
 
     <td>
 Driver Writer Guide V1.01 <br>
-The UEFI Driver Writer Guide V1.0.1 document is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please also refer to the [[Driver_Developer]] page for the EDK II UEFI Driver Developer Wizard.
+The UEFI Driver Writer Guide V1.0.1 document is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please also refer to the [[Driver-Developer]] page for the EDK II UEFI Driver Developer Wizard.
 
 UEFI Drivers are described in the Unified Extensible Firmware Interface Specification, Version 2.3.1. There are different categories of UEFI Drivers, and many variations of each category. This document provides basic information for the most common categories of UEFI drivers. Many other driver designs are possible.
     </td>
