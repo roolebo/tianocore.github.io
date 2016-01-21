@@ -17,8 +17,8 @@
 <tr>
 <td>
 '''BUILD'''
-[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1_26.pdf/download  PDF] or
-[https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1_26.zip/download  ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/Build_Spec_1_26.pdf  PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/Build_Spec_1_26.zip  ZIP]
 </td>
 
     <td>
@@ -36,8 +36,8 @@ Unified Extensible Firmware Image (UEFI) applications.
 <td>
 '''DSC'''
 
-[https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1_26.pdf/download PDF] or
-[https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1_26.zip/download ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/DSC_Spec_1_26.pdf PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/DSC_Spec_1_26.zip ZIP]
 
 </td>
 <td>
@@ -53,8 +53,8 @@ The EDK II Build Infrastructure supports creation of binary images that comply w
 <td>
 '''FDF'''
 
-[https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1_26.pdf/download PDF] or
-[https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1_26.zip/download ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/FDF_Spec_1_26.pdf PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/FDF_Spec_1_26.zip ZIP]
 
 </td>
 <td>
@@ -69,8 +69,8 @@ The FDF file is used to describe the content and layout of binary images. Binary
 <tr>
 <td>
 '''DEC''' 
-[https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1_25.pdf/download PDF] or
-[https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1_25.zip/download ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/DEC_Spec_1_25.pdf PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/DEC_Spec_1_25.zip ZIP]
 
 </td>
 <td>
@@ -85,8 +85,8 @@ The EDK II Build Infrastructure supports generation of UEFI 2.5 and PI 1.4 (Unif
 <td>
 '''INF'''
 
-[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1_25.pdf/download PDF] or
-[https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1_25.zip/download ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/INF_Spec_1_25.pdf PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/INF_Spec_1_25.zip ZIP]
 
 
 </td>
@@ -103,9 +103,9 @@ The EDK II Build Infrastructure supports creation of binary images that comply w
 <tr>
 <td>
 '''UNI'''  
-[http://sourceforge.net/projects/edk2/files/Specifications/UNI_File_Spec_v1_2_Errata_A.pdf/download PDF Errata A]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.pdf PDF Errata A]
 or
-[http://sourceforge.net/projects/edk2/files/Specifications/UNI_File_Spec_v1_2_Errata_A.zip/download ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.zip ZIP]
 
 </td>
 <td>
@@ -118,9 +118,9 @@ This document describes the Multi-String build information (UNI) file format . S
 <tr>
 <td>
 ''' Expression Syntax'''  
-[http://sourceforge.net/projects/edk2/files/Specifications/ExpressionSyntax_1.1.pdf/download PDF] 
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/ExpressionSyntax_1.1.pdf PDF] 
 or
-[http://sourceforge.net/projects/edk2/files/Specifications/ExpressionSyntax_1.1.zip/download ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/ExpressionSyntax_1.1.zip ZIP]
 
 </td>
 <td>
@@ -133,8 +133,8 @@ This document describes the syntax of expression statements for EDK II Meta-data
 <tr>
 <td>
 '''VFR'''
-[http://sourceforge.net/projects/edk2/files/Specifications/VFR/VFR_1_9.pdf/download PDF] or
-[http://sourceforge.net/projects/edk2/files/Specifications/VFR/VFR_1_9.zip/download ZIP]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/VFR_1_9.pdf PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/VFR_1_9.zip ZIP]
 
 </td>
 <td>
@@ -154,7 +154,7 @@ Using this language syntax, a compiler can be designed to take an ordinary text 
 
 <tr>
 <td>
-[https://sourceforge.net/projects/edk2/files/Specifications/PCD_Infrastructure.pdf/download PCD  PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/PCD_Infrastructure.pdf PCD  PDF]
 </td>
 <td>
 Platform Configuration Database Infrastructure Description v 0.55 - <br>
@@ -163,6 +163,8 @@ This document discusses the mechanisms and configuration entries required
 to make it easy to write portable silicon modules and to port the Framework
 
 from platform to platform. 
+
+* April 2009
 </td>
 
 
@@ -170,7 +172,7 @@ from platform to platform.
 <tr>
    <td>
 EDK II C Coding Standards 
-[https://sourceforge.net/projects/edk2/files/Specifications/CCS_2_1_Draft.pdf/download 2.1 Draft PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/CCS_2_1_Draft.pdf 2.1 Draft PDF]
    </td>
    <td>
 EDK II C Coding Standards Specification 2.1 Draft - <br>
@@ -187,6 +189,8 @@ constraint, but as an enabling philosophy which will:
 * Reduce customer and new employee learning curves by providing accurate code documentation and uniform style.
 
 These rules apply to all code developed
+
+* Oct 2015
    </td>
 </tr> 
 <tr>
