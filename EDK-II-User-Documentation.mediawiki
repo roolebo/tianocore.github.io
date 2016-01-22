@@ -145,7 +145,15 @@ This document defines the guidelines for writing the test cases under UEFI Self-
 
     </td>
 </tr>
+<tr>
+    <td>
+Previous UDK Releases
+    </td>
 
+    <td>
+[[EdkII_dashboard| EDK II Dashboard Page]]
+    </td>
+</tr>
 <tr></tr>
 
 </table>
