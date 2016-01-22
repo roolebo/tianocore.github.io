@@ -3,6 +3,6 @@
 *[[EDK II Libraries and Helper files]]
 *[[EDK II white papers]]
 *[[Driver-Developer| EDK II Driver Developer Page]]
-*[[EdkII_dashboard| EDK II Dashboard Page]]
+
 <!-- [[Category:EDKII]] -->
 <!-- [[Category:Documents]] -->
