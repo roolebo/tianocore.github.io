@@ -18,6 +18,8 @@ A modern, feature-rich, cross-platform firmware development environment for the 
 * [[MinnowBoard]] open community project with UEFI Developed firmware. 
 * [[MinnowBoardMax]] open community project with UEFI Developed firmware. 
 * [[Coreboot_UEFI_payload]] open community project for Coreboot Payload Package.
+* [EDK II Build Data Viewer ](https://github.com/01org/edkiibuilddataviewer) open project for EDK II Build Data viewer
+
 
 
 License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
