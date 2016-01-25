@@ -12,6 +12,59 @@
 
 </td>
 </tr>
+
+<tr>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_SMM.pdf  .PDF] or [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_SMM.vsd .VSD]
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_SMM.pdf  EDK II Topology SMM] - White Paper contributed by Lee Hamel<BR>
+EDK II Topology – SMM: Topology of how SMM is set up and executed
+
+* Jan 2016
+</td>
+</tr>
+
+<tr>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_S3.pdf  .PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_S3.vsd .VSD]<BR>
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_S3.pdf EDK II Topology S3 ] - White Paper contributed by Lee Hamel<BR>
+EDK II Topology - S3: Topology of how S3 is set up and executed
+
+* Jan 2016
+</td>
+</tr>
+
+<tr>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_PCI_Enumeration.pdf  .PDF] or [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_PCI_Enumeration.vsd .VSD]
+
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_PCI_Enumeration.pdf  EDK II Topology PCI Enumeration] - White Paper contributed by Lee Hamel<BR>
+EDK II Topology - PCI Enumeration: Topology of how PCI Enumeration is set up and executed
+
+
+* Jan 2016
+</td>
+</tr>
+
+<tr>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/UDK_Build_Integration_of_Reset_Vector.pdf PDF]
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/UDK_Build_Integration_of_Reset_Vector.pdf UDK Build Integration of Reset Vector]  - White Paper contributed by Lee Hamel<BR>
+How the Reset Vector is integrated into a UDK build
+
+* Jan 2016
+</td>
+</tr>
+
+
 <tr>
 <td>
 
@@ -56,16 +109,6 @@ This paper assumes that audience has EDKII/UEFI firmware development experience.
 </td>
 </tr>
 
-<tr>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK%20II%20SMM%20call%20topology.pdf .PDF]
-</td>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK%20II%20SMM%20call%20topology.pdf EDK II SMM call Topology] <Br>
-Topology of the EDK II Calling order of the SMM code 
-* Sept 2012
-</td>
-</tr>
 
 <tr>
     <td>
