@@ -1,5 +1,7 @@
 Example of MyHelloWorld.inf
 
+Please check for the latest version of the [[EDK II Specifications]] 
+
 Note: Copy and paste the GUID from : http://www.guidgen.com/ for the '''FILE_GUID''' in the example below
 <pre>
 ## @file
@@ -14,7 +16,7 @@ Note: Copy and paste the GUID from : http://www.guidgen.com/ for the '''FILE_GUI
 ##
 
 [Defines]
-  INF_VERSION                    = 0x00010005
+  INF_VERSION                    = 1.25
   BASE_NAME                      = MyHelloWorld
   FILE_GUID                      = http://www.guidgen.com/
   MODULE_TYPE                    = UEFI_APPLICATION
