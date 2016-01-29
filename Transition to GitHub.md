@@ -6,7 +6,9 @@ Here are the planned transition tasks along with their status:
 
 | Task | Status |
 | ---- | ------ |
+| change commit emails from svn to github | finished |
 | email notification of sourceforge svn becoming read-only | not started |
 | disable write access on sourceforge | not started |
+| disable svn to github mirroring | not started |
 | enable push access for package maintainers on github | not started |
 | email notification of github push access | not started |
