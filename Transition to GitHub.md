@@ -8,8 +8,8 @@ Here are the planned transition tasks along with their status:
 | ---- | ------ |
 | change commit emails from svn to github | finished |
 | update web pages regarding repo url | [finished](http://www.tianocore.org/edk2/source.html) |
-| email notification of sourceforge svn becoming read-only | not started |
-| disable write access on sourceforge (EDK II; FAT) | not started |
+| email notification of sourceforge svn becoming read-only | sent |
+| disable write access on sourceforge (EDK II; FAT) | in progress |
 | sync svn => git one last time | not started |
 | backup sourceforge svn database | not started |
 | disable svn to github mirroring | not started |
