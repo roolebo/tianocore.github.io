@@ -23,3 +23,4 @@ Post transition follow on tasks:
 
 * [ ] Automated mirroring of git repo to git mirrors
 * [ ] Automated mirroring of git repo (master, UDK branches) back to deprecated svn repo
+* [ ] Archive old svn branches to separate git repo
