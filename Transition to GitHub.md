@@ -11,7 +11,7 @@ Here are the planned transition tasks along with their status:
 * [x] disable write access on sourceforge
 * [x] sync svn => git one last time
 * [x] backup sourceforge EDK II svn database
-* [ ] test EDK II svn backup - in progress
+* [x] test EDK II svn backup
 * [x] backup sourceforge EDK II FAT svn database
 * [x] test EDK II FAT svn backup
 * [x] disable svn to github mirroring
