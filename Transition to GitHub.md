@@ -16,5 +16,10 @@ Here are the planned transition tasks along with their status:
 * [x] test EDK II FAT svn backup
 * [x] disable svn to github mirroring
 * [x] enable push access for package maintainers on github
-* [ ] push test commit to master modifying Maintainers.txt
+* [x] push test commit to master modifying Maintainers.txt
 * [ ] email notification of github push access
+
+Post transition follow on tasks:
+
+* [ ] Automated mirroring of git repo to git mirrors
+* [ ] Automated mirroring of git repo (master, UDK branches) back to deprecated svn repo
