@@ -11,7 +11,7 @@ Here are the planned transition tasks along with their status:
 * [x] disable write access on sourceforge
 * [x] sync svn => git one last time
 * [ ] backup sourceforge EDK II svn database - in progress
-* [ ] backup sourceforge FAT svn database
+* [x] backup sourceforge FAT svn database
 * [ ] disable svn to github mirroring
 * [ ] enable push access for package maintainers on github
 * [ ] push test commit to master modifying Maintainers.txt
