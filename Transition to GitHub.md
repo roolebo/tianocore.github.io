@@ -10,7 +10,7 @@ Here are the planned transition tasks along with their status:
 | update web pages regarding repo url | [finished](http://www.tianocore.org/edk2/source.html) |
 | email notification of sourceforge svn becoming read-only | not started |
 | disable write access on sourceforge (EDK II; FAT) | not started |
-| sync svn => git on last time | not started |
+| sync svn => git one last time | not started |
 | backup sourceforge svn database | not started |
 | disable svn to github mirroring | not started |
 | enable push access for package maintainers on github | not started |
