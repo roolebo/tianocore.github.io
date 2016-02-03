@@ -1,4 +1,4 @@
-__NOTOC__
+
 
 This page provides ''step-by-step instructions'' for setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on Linux using a native GCC 4.4 (and newer) installation.  This EDK II setup does not require the Mingw version of GCC to be built, and therefore can be much faster to setup.
 
@@ -169,13 +169,12 @@ Several ubuntu packages will be needed to fully set up an edk2 build environment
 bash$ sudo apt-get install build-essential subversion uuid-dev iasl
 </pre>
 
-<big>
-Continue with common instructions
-</big>
+
+==Continue with common instructions==
 
 The [[Common instructions|remaining instructions]] are common for most UNIX-like systems.
 
 
 =See Also=
-* [[Step-by-step instructions]]
+
 * [[Unix-like systems]] - Instructions which walk through building the Mingw GCC cross-compiler
