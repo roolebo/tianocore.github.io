@@ -1,61 +1,81 @@
+__NOTOC__
+
 This page provides step-by-step instructions or setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on Windows systems.
 
-== GUI instructions ==
-{{TortoiseSvnInstructions}}
-{{TortoiseSvnCheckout|https://svn.code.sf.net/p/edk2/code/trunk/edk2}}
+==GitHub Help==
 
-== Command line Instructions ==
+GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub.
+=== Git GUI Interface for Windows OS ===
+* Git for Windows OS is available at: (http://git-scm.com/download/win)
+* TortoiseGit for windows OS is available at (https://tortoisegit.org/download/)
 
-===Getting started for Windows operating systems===
+=='''GitHub EDK II Project Repositories'''==
 
-These instructions will be written as a series of commands executed from a command terminal.
+* The EDK II project repository is available at https://github.com/tianocore/edk2. 
+* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
+* Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.<BR><BR>
 
-Often these instructions will contain a command which needs to be executed in the terminal window.  For example:
+Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
 
-<pre>
-C:\> echo this bold text is a sample command
-</pre>
+==Internet proxies==
 
-To execute this command, highlight the bold text of the command in your web browser.  Most web browsers should be able to copy the text by selecting Copy under the Edit menu.  Now, change back to the terminal application, and there should be a Paste operation under the Edit menu.  After pasting the command into the shell, you may need to press the enter or return key to execute the command. 
-
-Of course, there may be other ways to copy and paste the command into the terminal which are specific to the windowing environment and applications that you are using.  If all else fails, however, you can type the command by hand.
-
-Some commands are very long, and we use the caret character (^) to tell the shell program that the command is not finished.  For example:
+If your network utilizes a firewall with a web proxy, then you may need to configure your proxy information for various command line applications to work.  You may need to consult with your network administrator to find out the computer name and port to use for proxy setup.  The following commands are common '''Git Bash''' examples of how you would configure your proxy by setting an environment variable:
 
 <pre>
-C:\> echo this bold text is a sample command ^
-        which is broken into two lines
+    $ git config --global https.proxy <proxyname>.domain.com:<port>
+    $ git config --global http.proxy <proxyname>.domain.com:<port>
 </pre>
 
-When you copy and paste, make sure you include all lines of the command (including the caret (^) characters).  If you are typing the command, you can remove the caret character (^) and combine the lines into a single line if you prefer.
 
-For the purposes of this set of instructions, we will be using the C:\edk2 path for the edk2 source tree.
+=='''How to Setup the EDK II Tree'''==
+'''Note:''' Some of the following examples use the Multiple Workspace feature to configure the EDK II BaseTools.  More information on the Multiple Workspace feature can be found at the following location. <BR>
+* [[Multiple_Workspace]]
 
-===Internet proxies===
+==Checkout the EDK II source tree from Github ==
 
-If your network utilizes a firewall with a web proxy, then you may need to configure your proxy information for subversion to work.  Ask your network administrator to find out the computer name and port to use for proxy setup and refer to the manual for your subversion software to find out how to configure the proxy information. 
-
-
-===Checkout the edk2 source tree from subversion===
-
-If you use the command line version of subversion, then you can easily checkout the edk2 to the C:\edk2 directory with the following command:
-
+If you use the command line version, then you can easily checkout the edk2 to the C:\edk2 directory with the following git command:
+Main repository: https://github.com/tianocore/edk2
 <pre>
-C:\> svn co ^
-  https://svn.code.sf.net/p/edk2/code/trunk/edk2 ^ 
-  C:\edk2 ^
-  --username guest
+    $ git clone https://github.com/tianocore/edk2
 </pre>
+
+
+
+==For EDK II project developers on Windows:==
+*	Create a workspace directory
+*	Change to the workspace directory
+*	Clone the EDK II project repository
+**	git clone https://github.com/tianocore/edk2
+*	Clone the edk2-BaseTools-win32 repository
+**	git clone https://github.com/tianocore/edk2-BaseTools-win32
+*	Set environment variables:
+**	EDK_TOOLS_BIN – Set it as the edk2-BaseTools-win32 directory
+Example:
+* Inside Git Bash
+<pre>
+     $ git clone https://github.com/tianocore/edk2
+     $ git clone https://github.com/tianocore/edk2-BaseTools-win32
+</pre>
+* Windows CMD prompt:
+<pre>
+     C:\edk2> set EDK_TOOLS_BIN=c:\efi\test\edk2-BaseTools-win32
+</pre>
+*	Change to the edk2 directory
+*	Run the edksetup.bat script
+
+      C:\edk2> CD efi\test\edk2
+      C:\edk2> edksetup
+
+When the above steps are done, the directory structure will look like:
+  efi
+    └───test (WORKSPACE)
+       ├───edk2
+       └───edk2-BaseTools-win32
+
+
 
 ==Build MdeModulePkg==
 
-
-====Setup build shell environment====
-
-<pre>
-C:\> cd C:\edk2
-C:\edk2> edksetup.bat
-</pre>
 
 ====Modify Conf files====
 
