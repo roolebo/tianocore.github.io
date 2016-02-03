@@ -4,7 +4,7 @@
 === 1) Create a Work Space Directory ===
 e.g. <span style="font-family: Courier">mkdir edk2</span>
 === 2) Download the Edk II source ===
-# Latest from the svn by getting the EDK II source from following Instructions on [[Getting_Started_with_EDK_II | Step by step instructions]] 
+# Latest from the svn by getting the EDK II source from following Instructions on [[Getting-Started-with-EDK-II | Step by step instructions]] 
 # Downloading the latest .zip [[UDK2015 | UDK2015 Download]] release (or Latest UDK release).
 === 3) Run the '''''edksetup''''' ===
 Run''' ''edksetup''''' script from the command line prompt at the Work Space directory
@@ -25,7 +25,7 @@ Modify '''TARGET_ARCH''' and '''TOOL_CHAIN_TAG''' as required.
 === 5) Create a project ===
 # Create a new directory. Can be a directory anywhere within the Work Space Directory (e.g. C:\edk2\''MyHelloWorld'' or  ~/src/edk2/''MyHelloWorld'')
 # Create a .c file in the project directory (see example: [[Getting_Started_Writing_MyHelloWorld.c | MyHelloWorld.c]]) 
-# Create a .inf file in the project directory (see examle: [[Getting_Started_Writing_MyHelloWorld.inf | MyHelloWorld.inf]])
+# Create a .inf file in the project directory (see examle: [[Getting-Started-Writing-MyHelloWorld.inf | MyHelloWorld.inf]])
 
 === 6) Build your UEFI Application ===
 
