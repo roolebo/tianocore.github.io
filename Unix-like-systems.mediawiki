@@ -1,5 +1,3 @@
-__NOTOC__
-
 '''Note''': These instructions are not recommended for most EDK II developers. If you are working with a supported system, then the [[Using EDK II with Native GCC]] page is faster/easier, and produces smaller UEFI image builds.
 
 This page provides ''step-by-step instructions'' for setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on various Unix-like systems.
@@ -204,9 +202,9 @@ bash$ sudo apt-get install build-essential uuid-dev texinfo \
         bison flex libgmp3-dev libmpfr-dev subversion
 </pre>
 
-<big>
-Continue with common instructions for Unix
-</big>
+
+==Continue with common instructions for Unix==
+
 
 The [[Common instructions for Unix|remaining instructions]] are common for most UNIX-like systems.
 
