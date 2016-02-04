@@ -21,6 +21,8 @@ Here are the planned transition tasks along with their status:
 
 Post transition follow on tasks:
 
-* [ ] Automated mirroring of git repo to git mirrors
-* [ ] Automated mirroring of git repo (master, UDK branches) back to deprecated svn repo
+* [x] Automated mirroring of git repo to git mirrors
+* [ ] Automated mirroring of git repo (master, UDK branches) back to deprecated
+      svn repo
+  * Manual migration while automation is being brought online
 * [x] Archive old svn branches to separate [git repo](https://github.com/tianocore/edk2-archive)
