@@ -1,14 +1,17 @@
-<!-- [[Category:EDKIIBuildTools]] -->
-= Install and configure a SVN client =
-Any SVN client software package will enable you to get the source code for the [[edk2-buildtools| EDK II Build Tools]] and do all the required development.
+=GitHub Help=
 
-{{TortoiseSvnInstructions}}
+GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub 
 
-= More about SVN=
-*Subversion’s Home page is: http://subversion.apache.org/
-*The Subversion Book is available on-line at: http://svnbook.red-bean.com/
-*For user’s who are familiar with CVS, “Subversion for CVS Users” by Mike Mason, Mar 2004, is available: http://osdir.com/Article203.phtml
+* Setup GitHub for Linux | Windows | MAC | All (https://help.github.com/articles/set-up-git)
+* To download and install a Git GUI interface (http://git-scm.com/)
 
+=='''GitHub EDK II Project Repositories'''==
+
+* The EDK II Build BaseTools repository is available at https://github.com/tianocore/buildtools-BaseTools. 
+* The EDK II project repository is available at https://github.com/tianocore/edk2. 
+* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
+* Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.
+* Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
 = Getting the extra tools=
 == Compiler ==
 For both the BuildTools and [http://www.tianocore.org/edk2/ EDK II] projects, you will need to obtain a compiler from somewhere else. These instructions do not cover obtaining or installation of a compiler tools chain. The BuildTools projects only requires a C compiler; an assembler or ACPI assembler are not required to build tools in this project. BaseTools assume that a compiler is already configured in the environment.
@@ -26,8 +29,17 @@ The Python tools are available in the DevelopmentTools folder, available via SVN
 *The command line for obtaining these files is:
 '''svn co <URL>'''
 
-{{TortoiseSvnCheckout|https://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/trunk/BaseTools}}
 
-Refer to documentation in either the UserManuals or Source folders for more information.
 
-'''You are now ready to start working with the BaseTools!'''
+Refer to documentation in either the UserManuals or Source folders for more information. 
+* BuildTools [https://github.com/tianocore/buildtools-BaseTools/tree/master/UserManuals User Manuals]
+
+='''How to Setup the EDK II Tree'''=
+See [[Getting Started with EDK II]]
+
+==  EDK II Development Process ==
+After setting up your build environment see  [[EDK II Development Process]] for making contributions to the EDK II Project.
+
+=Further Help=
+
+If you have questions about the code or run into obstacles getting things to work for you, please join our [[edk2-devel]] email list and ask your EDK II related questions on the list.
