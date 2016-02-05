@@ -1,4 +1,3 @@
-<!-- [[Category:EDKIIBuildTools]] -->
 = EDK II Build Tools sub project=
 This sub project is for development of the EDK II Build Tools. This is the primary set of tools for processing [http://www.tianocore.org/edk2/ EDK II] content. It contains configuration templates and source files. The tools support a Makefile based EDK II build with no additional packages required--the compiler tool chain, an assembler and optional ACPI assembler are the only additional tools need to build the EDK II project.
 
@@ -16,22 +15,31 @@ Tested and Released binaries for Microsoft Windows* 32-bit operating system are 
 
 Download and setup guide: [[BuildTool Setup Guide]]
 
-Svn Binaries repository: https://svn.code.sf.net/p/edk2-toolbinaries/code/trunk/Win32 ([[2013 Subversion Change|note recent change]])
+* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
+* BaseTools Git repository is available at: https://github.com/tianocore/buildtools-BaseTools 
 
-Svn Source repository: https://svn.code.sf.net/p/edk2-buildtools/code/trunk/BaseTools ([[2013 Subversion Change|note recent change]])
 
 
-Git source mirrors:
-[https://github.com/tianocore/buildtools-BaseTools github],
-<!--[https://bitbucket.org/tianocore/buildtools-BaseTools bitbucket],-->
-[https://sourceforge.net/p/tianocore/buildtools-BaseTools sourceforge],
-[[EDK2 git|more EDK II git info]]
+Git source mirrors: [[EDK2 git|more EDK II git info]]
 
-Developers: [http://sourceforge.net/projects/edk2-buildtools Project Info]
+Project Info: [https://github.com/tianocore/buildtools-BaseTools/blob/master/ReadMe.txt Project Info ReadMe]
+
+Documentation [https://github.com/tianocore/buildtools-BaseTools/tree/master/UserManuals User Manuals]
+
 
 View the [[EDK II Tools List]] for a description of each tool.
 
 == Releases == 
+
+UDK2015 :
+* [https://github.com/tianocore/udk/releases/download/UDK2015/BaseTools.Windows.zip BaseTools.Windows.zip]
+* [https://github.com/tianocore/udk/releases/download/UDK2015/BaseTools.Unix.tar  BaseTools.Unix.tar]
+
+Please see [[UDK2015]] wiki page for more information on the latest release of Build Tools<BR>
+
+<hr>
+
+Below Table are Releases for Archive purposes only
 
 
 <div class="t_projects">
@@ -44,12 +52,13 @@ View the [[EDK II Tools List]] for a description of each tool.
 <th>Tools included in the release</th>
 <th>Documents</th>
 </tr>
+
+
 <tr>
 <td rowspan="4">
-[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.UP1.tar/download  BaseTools(Unix)_UDK2010.SR1.UP1.tar]
+[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.UP1.tar/download  TAR ]
 
-[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.UP1.zip/download BaseTools(Windows)_UDK2010.SR1.UP1.zip]
-
+[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.UP1.zip/download .ZIP] 
 June 26, 2012
 </td>
 <td rowspan="4">Primary set of tools for processing EDK II content.</td>
@@ -106,13 +115,13 @@ June 26, 2012
 <span class="docHeader">Technical information</span>
 
 </td></tr>
-<tr><th colspan="4" >Previous BuildTools Releases</th></tr>
 
 <tr>
 <td rowspan="4">
-[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.tar/download  BaseTools(Unix)_UDK2010.SR1.tar]
+[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.tar/download  .TAR ]
 
-[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.zip/download BaseTools(Windows)_UDK2010.SR1.zip]
+[http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.zip/download .ZIP] 
+
 
 Jan 2, 2012
 </td>
@@ -150,8 +159,10 @@ Jan 2, 2012
 == Notes ==
 These tools are under constant development to ensure [[UEFI]]/PI specification conformance and to reduce build times. 
 
-Your Feedback is critical to making EDK II a success. Please submit any enhancements, defects, or requests through the Project Tracker Tool at [[Reporting Issues]].
+Your Feedback is critical to making EDK II a success. Please submit any enhancements, defects, or requests through the  the <a href="mailto:edk2-devel-bounces@lists.01.org?Subject=BuildTools&body=BuildTools> edk2-devel </a> mailing list
+
+Goto  [[edk2-devel]]  to Join the Mailing list
 
 License information: [http://www.opensource.org/licenses/bsd-license.php BSD]
 
-Project owner(s):  {{sfuser|jcarsey}}, {{sfuser|lhauch}}
+Project owner(s):  {{sfuser|jcarsey}}, {{sfuser|lhauch}}  See: [https://raw.githubusercontent.com/tianocore/edk2/master/Maintainers.txt Maintainers.txt]
