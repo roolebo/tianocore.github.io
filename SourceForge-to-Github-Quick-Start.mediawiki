@@ -98,29 +98,29 @@ When the above steps are done, the directory structure will look like:
 Please keep in mind that the EDK II project, FatPkg and edk2-BaseTools-win32 are independent Git repositories. Each of these repositories must be updated individually.
 
 =='''Development Process for the EDK II Project'''==
-The developer process for the EDK II project is:<BR>
-#	Setup the EDK II tree if you do not have one<BR>
-#	Create and checkout a topic branch for new feature or bug fix<BR>
-#	Make changes in the working tree<BR>
+The developer process for the EDK II project is:
+#	Setup the EDK II tree if you do not have one
+#	Create and checkout a topic branch for new feature or bug fix
+#	Make changes in the working tree
 #	Break up working tree changes into independent commits that do not break ''git bisect''
 #*       [[Commit-Partitioning]]
-#	Follow the commit message template given below when writing commit messages<BR>
+#	Follow the commit message template given below when writing commit messages
 #*       [[Commit-Message-Format]]
-#	Use the ‘PatchCheck.py’ script under ‘edk2\BaseTools\Scripts’ directory to verify the commits are correctly formatted<BR>
-#	Update the master branch (pull or fetch/merge)<BR>
-#	Rebase the topic branch onto master branch<BR>
-#	Create patch (serial) to the <a href="mailto:edk2-devel-bounces@lists.01.org?Subject=Patch> edk2-devel </a> mailing list or upload the topic branch to your forked EDK II project and send the URL and branch name of the fork to the above mailing list<BR>
-#*      Using ''git send-email'' is the preferred method for posting patches to the mailing list<BR>
-#	Modify local commits based on the review feedbacks and repeat steps 3 to 9<BR>
-<BR>
-The maintainer process for the EDK II project is:<BR>
-#	Determine if a patch has met the review requirements for the package<BR>
-#	Update the master branch<BR>
-#	Create and checkout an integration branch<BR>
-#	Integrate reviewed commits on the integration branch<BR>
-#	Rebase commit message to include any reviewed-by or other attributions<BR>
-#	Push changes to the EDKII project repository<BR>
-#*	Pushing the integration branch directly to origin/master is preferred<BR>
+#	Use the ‘PatchCheck.py’ script under ‘edk2\BaseTools\Scripts’ directory to verify the commits are correctly formatted
+#	Update the master branch (pull or fetch/merge)
+#	Rebase the topic branch onto master branch
+#	Create patch (serial) to the <a href="mailto:edk2-devel-bounces@lists.01.org?Subject=Patch> edk2-devel </a> mailing list or upload the topic branch to your forked EDK II project and send the URL and branch name of the fork to the above mailing list
+#*      Using ''git send-email'' is the preferred method for posting patches to the mailing list
+#	Modify local commits based on the review feedbacks and repeat steps 3 to 9
+
+The maintainer process for the EDK II project is:
+#	Determine if a patch has met the review requirements for the package
+#	Update the master branch
+#	Create and checkout an integration branch
+#	Integrate reviewed commits on the integration branch
+#	Rebase commit message to include any reviewed-by or other attributions
+#	Push changes to the EDKII project repository
+#*	Pushing the integration branch directly to origin/master is preferred
 
 =='''See Also'''==
 * [[Commit-Message-Format]]
