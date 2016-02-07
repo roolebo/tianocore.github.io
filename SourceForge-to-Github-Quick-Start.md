@@ -1,5 +1,3 @@
-\_\_NOTOC\_\_
-
 GitHub Help
 ===========
 
@@ -63,18 +61,22 @@ code development.
 
 Example:
 
-` export WORKSPACE=/Sample/Path`\
-` export PACKAGES_PATH=$WORKSPACE/edk2`
+```
+export WORKSPACE=/Sample/Path
+export PACKAGES_PATH=$WORKSPACE/edk2
+```
 
 -   Run the edksetup.sh script
     -   . edk2/edksetup.sh
 
 When the above steps are done, the directory structure will look like:
 
-` Sample`\
-`   └───Path (WORKSPACE)`\
-`      ├───edk2`\
-`      └───FatPkg`
+```
+ Sample
+   └───Path (WORKSPACE)
+      ├───edk2
+      └───FatPkg
+```
 
 ### **Windows Support**
 
@@ -91,17 +93,19 @@ When the above steps are done, the directory structure will look like:
 
 Example:
 
-`   set EDK_TOOLS_BIN=c:\efi\test\edk2-BaseTools-win32`
+`   set EDK_TOOLS_BIN=c:\efi\test\edk2-BaseTools-win32`
 
 -   Change to the edk2 directory
 -   Run the edksetup.bat script
 
 When the above steps are done, the directory structure will look like:
 
-` efi`\
-`   └───test (WORKSPACE)`\
-`      ├───edk2`\
-`      └───edk2-BaseTools-win32`
+```
+ efi
+   └───test (WORKSPACE)
+      ├───edk2
+      └───edk2-BaseTools-win32
+```
 
 #### For FatPkg developers:
 
@@ -120,20 +124,24 @@ When the above steps are done, the directory structure will look like:
 
 Example:
 
-` set WORKSPACE=c:\efi\test`\
-` set PACKAGES_PATH=%WORKSPACE%\edk2`\
-` set EDK_TOOLS_BIN=%WORKSPACE%\edk2-BaseTools-win32`
+```
+set WORKSPACE=c:\efi\test
+set PACKAGES_PATH=%WORKSPACE%\edk2
+set EDK_TOOLS_BIN=%WORKSPACE%\edk2-BaseTools-win32
+```
 
 -   Run the edksetup.bat script
     -   edk2\\edksetup.bat
 
 When the above steps are done, the directory structure will look like:
 
-` efi`\
-`   └───test (WORKSPACE)`\
-`      ├───edk2`\
-`      ├───edk2-BaseTools-win32`\
-`      └───FatPkg`
+```
+efi
+  └───test (WORKSPACE)
+     ├───edk2
+     ├───edk2-BaseTools-win32
+     └───FatPkg
+```
 
 Please keep in mind that the EDK II project, FatPkg and
 edk2-BaseTools-win32 are independent Git repositories. Each of these
@@ -150,11 +158,9 @@ The developer process for the EDK II project is:
 4.  Break up working tree changes into independent commits that do not
     break *git bisect*
     -   [Commit-Partitioning](Commit-Partitioning "wikilink")
-
 5.  Follow the commit message template given below when writing commit
     messages
     -   [Commit-Message-Format](Commit-Message-Format "wikilink")
-
 6.  Use the ‘PatchCheck.py’ script under ‘edk2\\BaseTools\\Scripts’
     directory to verify the commits are correctly formatted
 7.  Update the master branch (pull or fetch/merge)
@@ -166,7 +172,6 @@ The developer process for the EDK II project is:
     mailing list
     -   Using *git send-email* is the preferred method for posting
         patches to the mailing list
-
 10. Modify local commits based on the review feedbacks and repeat steps
     3 to 9
 
