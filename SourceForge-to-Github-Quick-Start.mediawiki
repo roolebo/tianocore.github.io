@@ -5,13 +5,16 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 
 =='''GitHub EDK II Project Repositories'''==
 
-The EDK II project repository is available at https://github.com/tianocore/edk2. <BR><BR>
-Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. <BR><BR>
-Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.<BR><BR>
-Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
+The EDK II project repository is available at https://github.com/tianocore/edk2.
+
+Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32.
+
+Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.
+
+Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.
 
 =='''How to Setup the EDK II Tree'''==
-'''Note:''' Some of the following examples use the Multiple Workspace feature to configure the EDK II BaseTools.  More information on the Multiple Workspace feature can be found at the following location. <BR>
+'''Note:''' Some of the following examples use the Multiple Workspace feature to configure the EDK II BaseTools.  More information on the Multiple Workspace feature can be found at the following location.
 * [[Multiple_Workspace]]
 
 ==='''Linux Support'''===
