@@ -1,5 +1,5 @@
-= EDK II Build Tools sub project=
-This sub project is for development of the EDK II Build Tools. This is the primary set of tools for processing [http://www.tianocore.org/edk2/ EDK II] content. It contains configuration templates and source files. The tools support a Makefile based EDK II build with no additional packages required--the compiler tool chain, an assembler and optional ACPI assembler are the only additional tools need to build the EDK II project.
+= EDK II Build Tools Project=
+This project is for development of the EDK II Build Tools. This is the primary set of tools for processing [http://www.tianocore.org/edk2/ EDK II] content. It contains configuration templates and source files. The tools support a Makefile based EDK II build with no additional packages required--the compiler tool chain, an assembler and optional ACPI assembler are the only additional tools need to build the EDK II project.
 
 Source code in this project is divided into two types:
 * Tools written in C ([http://www.open-std.org/jtc1/sc22/wg14/ ANSI C]) are primarily for tools that modify binary data structures
@@ -15,16 +15,13 @@ Tested and Released binaries for Microsoft Windows* 32-bit operating system are 
 
 Download and setup guide: [[BuildTool Setup Guide]]
 
-* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
-* BaseTools Git repository is available at: https://github.com/tianocore/buildtools-BaseTools 
+* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32.git 
+* BaseTools content (part of the edk2 project) is available at: https://github.com/tianocore/edk2.git 
 
 
+Project Info: [https://github.com/tianocore/edk2/BaseTools/ReadMe.txt Project Info ReadMe]
 
-Git source mirrors: [[EDK2 git|more EDK II git info]]
-
-Project Info: [https://github.com/tianocore/buildtools-BaseTools/blob/master/ReadMe.txt Project Info ReadMe]
-
-Documentation [https://github.com/tianocore/buildtools-BaseTools/tree/master/UserManuals User Manuals]
+Documentation [https://github.com/tianocore/edk2/BaseTools/UserManuals User Manuals]
 
 
 View the [[EDK II Tools List]] for a description of each tool.
