@@ -1,5 +1,5 @@
 <!-- [[Category:EDKIIBuildTools]] -->
-The following tools are required for building [[edk2-buildtools| EDK II Build Tools]] and instructions are provided in the [[BuildTool Setup Guide]].
+The following tools are required for building [[edk2-buildtools| EDK II BaseTools]] and instructions are provided in the [[BuildTool Setup Guide]].
 
 =Resources=
 *[http://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Win32 Windows* URL]
