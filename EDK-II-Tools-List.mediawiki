@@ -1,6 +1,6 @@
 <!-- [[Category:EDKIIBuildTools]] -->
 = Tool Information = 
-This is a table of all of the tools that are part of the [[edk2-buildtools| EDK II Build Tools]] project.
+This is a table of all of the tools that are part of the [[edk2-buildtools| EDK II BaseTools]].
 
 To build these tools see [[BuildTool Setup Guide]].
 
