@@ -21,7 +21,7 @@ Download and setup guide: [[BuildTool Setup Guide]]
 
 Project Info: [https://github.com/tianocore/edk2/tree/master/BaseTools/ReadMe.txt Project Info ReadMe]
 
-Documentation [https://github.com/tianocore/edk2/tree/master/BaseTools/BaseTools/UserManuals User Manuals]
+Documentation [https://github.com/tianocore/edk2/tree/master/BaseTools/UserManuals User Manuals]
 
 
 View the [[EDK II Tools List]] for a description of each tool.
