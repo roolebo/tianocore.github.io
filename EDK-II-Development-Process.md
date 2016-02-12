@@ -66,7 +66,7 @@ The developer process for the EDK II project
     - Generate new patch files: `$ git format-patch -M --thread origin/master`
 
       - Add the `--cover-letter` parameter for long patch series. (Be
-        sure edit the cover-letter.)
+        sure to edit the cover-letter.)
 
       - Add the `--subject-prefix="PATCH v2"` if you are sending out a
         second version of the patch series.
