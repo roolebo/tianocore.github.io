@@ -81,7 +81,7 @@ few commands to be careful with.
         history to find the tree version before your merge. (Helpful
         tools: `gitk`, `tig`, or `git log --oneline --graph`)
 
-      * Now, use `git reset --hard <good-version>
+      * Now, use `git reset --hard <good-version>`
 
         * This will force your branch back to the state before the
           merge. Be sure to understand the dangers of `git reset
