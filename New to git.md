@@ -92,7 +92,9 @@ few commands to be careful with.
 
     * If the merged commit is pushed upstream, then unfortunately it
       will persist in history. This is not really a big deal, but just
-      be sure that the merge worked correctly.
+      be sure that the merge worked correctly. If you find that
+      changes were actually lost then add new commits to re-apply the
+      changes.
 
 * `git pull`
 
