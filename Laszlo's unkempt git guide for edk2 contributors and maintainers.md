@@ -630,10 +630,10 @@ actions above assist maintainers in doing their work.
 Maintainer workflow
 ===================
 
-33.  You need the same settings in your edk2 clone as a contributor.
-     This includes steps (01) through (11).
+1.   You need the same settings in your edk2 clone as a contributor.
+     This includes contributor steps (01) through (11).
 
-34.  You get patches to review, either by CC, or you notice them on the
+2.   You get patches to review, either by CC, or you notice them on the
      list.
 
      If you can immediately point out problems with (some of) the
@@ -645,21 +645,22 @@ Maintainer workflow
      review it in depth (possible for patches that target a package that
      you don't maintain), respond with your Acked-by.
 
-35.  When reviewing a v2, v3, ... posting of a series, focus on the
+3.   When reviewing a v2, v3, ... posting of a series, focus on the
      changes. The contributor is expected to support you in this with:
 
      - Picking up your Reviewed-by and Acked-by tags from your v1
-       review. You can skip re-reviewing those patches in v2, especially
-       because step (29) instructs the contributor to drop your earlier
-       R-b or A-b if he or she reworks the patch significantly.
+       review. You can skip re-reviewing those patches in v2,
+       especially because contributor step (29) instructs the
+       contributor to drop your earlier R-b or A-b if he or she
+       reworks the patch significantly.
 
      - Listing the relative changes per patch, in the git-notes section.
-       Refer to step (30).
+       Refer to contributor step (30).
 
      - Summarizing the changes in the v2, v3, ... cover letters. Refer
-       to step (32).
+       to contributor step (32).
 
-36.  Assuming the series has converged (i.e., all patches have gained
+4.   Assuming the series has converged (i.e., all patches have gained
      the necessary Reviewed-by and/or Acked-by tags), plus you have been
      "elected" as the lucky maintainer to apply and push the series,
      read on.
@@ -669,13 +670,13 @@ Maintainer workflow
      against a fully up-to-date, complete codebase, with all the
      precursor patches from the series applied.)
 
-37.  The first attempt at applying the contributor's series is directly
+5.   The first attempt at applying the contributor's series is directly
      from emails. For this, you *absolutely* need a mail user agent
      (MUA) that allows you to save patch emails *intact*.
 
      So save all the patch emails into a dedicated, new folder.
 
-38.  Refresh your local master branch.
+6.   Refresh your local master branch.
 
        git checkout master
        git pull
@@ -683,8 +684,9 @@ Maintainer workflow
      Note that it is *extremely* important to switch to the master
      branch, with the checkout command above, before you run "git pull".
 
-39.  Create an application/testing/review branch, and apply the patches
-     from the files you saved in step (37), from within your MUA:
+7.   Create an application/testing/review branch, and apply the patches
+     from the files you saved in maintainer step (5), from within your
+     MUA:
 
      ```
        git checkout -b REVIEW_implement_foo_for_bar_vN master
@@ -697,11 +699,12 @@ Maintainer workflow
 
      So the first reason is that the patch may create or delete files,
      which implies "/dev/null" filenames in the git diff hunk headers.
-     Because of the "core.whitespace" setting in step (05) -- which we
-     absolutely need due to the source files using CRLF line terminators
-     in the *internal* git representation --, git-am might choke on
-     those "/dev/null" lines. This depends on the
-     Content-transfer-encoding of the email that is saved in step (37).
+     Because of the "core.whitespace" setting in contributor step (05)
+     -- which we absolutely need due to the source files using CRLF
+     line terminators in the *internal* git representation --, git-am
+     might choke on those "/dev/null" lines. This depends on the
+     Content-transfer-encoding of the email that is saved in
+     maintainer step (5).
 
      The second reason is that the master branch may have genuinely
      diverged from where it was when the contributor prepared his or her
@@ -714,11 +717,11 @@ Maintainer workflow
        git am --abort
      ```
 
-     and proceed to the next step, step (40). Otherwise, if "git am"
-     succeeds, skip forward to step (43).
+     and proceed to the next step, maintainer step (8). Otherwise, if
+     "git am" succeeds, skip forward to maintainer step (11).
 
-40.  As an alternative to step (39), here we'll grab the contributor's
-     patches from his or her personal GitHub repo.
+8.   As an alternative to maintainer step (7), here we'll grab the
+     contributor's patches from his or her personal GitHub repo.
 
      First add his or her personal repo as a *remote* to your local
      clone (this step only needs to be done once, during all of
@@ -731,16 +734,17 @@ Maintainer workflow
      ```
 
      At this point you should of course use the repo URL that the
-     contributor shared in his or her cover letter, in step (23) or --
-     for a v2, v3, ... post -- in step (32).
+     contributor shared in his or her cover letter, in contributor
+     step (23) or -- for a v2, v3, ... post -- in contributor step
+     (32).
 
-41.  Fetch any new commits and branches from the contributor's repo:
+9.   Fetch any new commits and branches from the contributor's repo:
 
      ```
        git fetch HIS_OR_HER_GITHUB_ID
      ```
 
-42.  Now, set up a local, non-tracking branch off of the contributor's
+10.  Now, set up a local, non-tracking branch off of the contributor's
      relevant remote branch. You know about the relevant branch again
      from the contributor's steps (23) or (32), i.e., the cover letter.
 
@@ -750,9 +754,10 @@ Maintainer workflow
          HIS_OR_HER_GITHUB_ID/implement_foo_for_bar_vN
      ```
 
-43.  Rebase the contributor's series -- using your local branch that you
-     created either in step (39) or in step (42) -- to the local master
-     branch (which you refreshed from upstream master in step (38)):
+11.  Rebase the contributor's series -- using your local branch that
+     you created either in maintainer step (7) or in maintainer step
+     (10) -- to the local master branch (which you refreshed from
+     upstream master in maintainer step (6)):
 
      ```
        git rebase -i master REVIEW_implement_foo_for_bar_vN
@@ -762,18 +767,18 @@ Maintainer workflow
      Reviewed-by, Acked-by, Tested-by tags on the mailing list after the
      contributor's last posting. (Patches that garnered such tags in
      earlier versions are supposed to carry those tags already, due to
-     step (28).)
+     contributor step (28).)
 
      When rewording the relevant patches, simply append the relevant
-     R-b, A-b, T-b tags from the mailing list feedback. (Refer to step
-     (28).)
+     R-b, A-b, T-b tags from the mailing list feedback. (Refer to
+     contributor step (28).)
 
-     Now, this rebase has a much better chance to succeed than "git am"
-     in step (39), for two reasons again. The first reason is that the
-     problem with the /dev/null headers just doesn't exist. The second
-     reason is that "git rebase", *unlike* "git am", knows *whence* you
-     are rebasing, which helps it immensely in calculating conflict
-     resolutions automatically.
+     Now, this rebase has a much better chance to succeed than "git
+     am" in maintainer step (7), for two reasons again. The first
+     reason is that the problem with the /dev/null headers just
+     doesn't exist. The second reason is that "git rebase", *unlike*
+     "git am", knows *whence* you are rebasing, which helps it
+     immensely in calculating conflict resolutions automatically.
 
      Nonetheless, the rebase might still fail, if meanwhile there have
      been intrusive / conflicting changes on the upstream master branch.
@@ -781,7 +786,7 @@ Maintainer workflow
      you can ask the contributor to rebase his or her work on current
      upstream master, and to post it as the next version.
 
-44.  Okay, now you have the contributor's patches on top of your local
+12.  Okay, now you have the contributor's patches on top of your local
      master branch, with all the tags added from the mailing list. Time
      to build-test it! If the build fails, report it to the list, and
      ask the contributor for a new version.
@@ -789,12 +794,13 @@ Maintainer workflow
      (The OCD variant of this step is to build-test the contributor's
      series at *each* constituting patch, to enforce bisectability.)
 
-45.  Okay, the build test passes! Maybe you want to runtime test it as
-     well. If you do, and it works, you can respond with a Tested-by to
-     the entire series on the list, *and* immediately add your own
-     Tested-by to the patches as well. Employ step (43) accordingly.
+13.  Okay, the build test passes! Maybe you want to runtime test it as
+     well. If you do, and it works, you can respond with a Tested-by
+     to the entire series on the list, *and* immediately add your own
+     Tested-by to the patches as well. Employ maintainer step (1)
+     accordingly.
 
-46.  Time to push the patches to upstream master. Take a big breath :),
+14.  Time to push the patches to upstream master. Take a big breath :),
      and run
 
      ```
@@ -809,26 +815,28 @@ Maintainer workflow
      If it succeeds, you deserve an alcoholic (or non-alcoholic) drink
      of your choice, you're done.
 
-     If it fails, then the reason is that *another maintainer* executed
-     these steps in parallel, and moved forward the upstream master
-     branch *after* your step (38), but before your step (46). If github
-     accepted your push in this case, that would cause the *other*
-     maintainer's push to go lost. So, proceed to the next step.
+     If it fails, then the reason is that *another maintainer*
+     executed these steps in parallel, and moved forward the upstream
+     master branch *after* your maintainer step (6), but before your
+     maintainer step (14). If github accepted your push in this case,
+     that would cause the *other* maintainer's push to go lost. So,
+     proceed to the next step.
 
-47.  Repeat the following steps:
+15.  Repeat the following steps:
 
-     - step (38) -- Refresh your local master branch.
+     - maintainer step (6) -- Refresh your local master branch.
 
        *Do not forget* the "git checkout master" part in that step!
 
-     - step (43) -- Rebase the contributor's series.
+     - maintainer step (11) -- Rebase the contributor's series.
 
-       No changes should be necessary, but if conflicts are found, those
-       are due to the fresh commits pushed by the other maintainer,
-       mentioned in step (46). The possible remedies are discussed in
-       step (43) -- fix up the conflicts yourself, or ask the
-       contributor to rebase and post a new version.
+       No changes should be necessary, but if conflicts are found,
+       those are due to the fresh commits pushed by the other
+       maintainer, mentioned in maintainer step (14). The possible
+       remedies are discussed in maintainer step (11) -- fix up the
+       conflicts yourself, or ask the contributor to rebase and post a
+       new version.
 
-     - steps (44) through (46) -- rebuild, optionally retest, try
-       pushing again.
+     - maintainer steps (12) through (14) -- rebuild, optionally
+       retest, try pushing again.
 
