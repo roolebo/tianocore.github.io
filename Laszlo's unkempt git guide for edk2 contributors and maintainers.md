@@ -11,15 +11,14 @@ concepts on the web yourself.
 Also, this is very specific to edk2. Other projects have different
 workflows.
 
-
 Contributor workflow
 ====================
 
-(01) Create an account on GitHub.
+1.   Create an account on GitHub.
 
-(02) Enable SSH authentication for your account.
+2.   Enable SSH authentication for your account.
 
-       https://help.github.com/articles/generating-an-ssh-key/
+     https://help.github.com/articles/generating-an-ssh-key/
 
      When completing this step, you should end up with a new keypair
      under ~/.ssh/, for example:
@@ -29,29 +28,31 @@ Contributor workflow
 
      and the following stanza in your ~/.ssh/config:
 
+     ```
        Host github.com
          User          git
          IdentityFile  ~/.ssh/id_rsa_for_github
+     ```
 
-(03) Fork the following repository on GitHub into your own GitHub
+3.   Fork the following repository on GitHub into your own GitHub
      account, using the GitHub web GUI:
 
        https://github.com/tianocore/edk2/
 
-     (My personal fork is at
+     (My personal fork is at https://github.com/lersek/edk2/)
 
-       https://github.com/lersek/edk2/
-     )
+4.   Clone the official edk2 repository to your local computer:
 
-(04) Clone the official edk2 repository to your local computer:
-
+     ```
        cd some-appropriate-directory
        git clone https://github.com/tianocore/edk2.git
+     ```
 
-(05) Implement the following git settings for your local clone, i.e.,
+5.   Implement the following git settings for your local clone, i.e.,
      while standing in your local edk2 directory (these steps don't need
      customization):
 
+     ```
        git config am.keepcr              true
        git config am.signoff             true
        git config cherry-pick.signoff    true
@@ -68,35 +69,43 @@ Contributor workflow
        git config notes.rewriteRef       refs/notes/commits
        git config sendemail.chainreplyto false
        git config sendemail.thread       true
+     ```
 
-(06) Also implement the following -- they need customization:
+6.   Also implement the following -- they need customization:
 
+     ```
        git config sendemail.smtpserver FQDN_OF_YOUR_LOCAL_SMTP_SERVER
        git config user.email           "Your Email Address"
        git config user.name            "Your Name"
+     ```
 
-(07) Create a file called "tianocore.template" somewhere outside your
+7.   Create a file called "tianocore.template" somewhere outside your
      edk2 clone, with the following contents (remove leading
      whitespace). Note that the last line requires customization.
 
+     ```
        [empty line]
        [empty line]
        Contributed-under: TianoCore Contribution Agreement 1.0
        Signed-off-by: Your Name <Your Email Address>
+     ```
 
-(08) Standing in your edk2 clone, implement the following setting
+8.   Standing in your edk2 clone, implement the following setting
      (requires customization):
 
+     ```
        git config commit.template \
          FULL_PATHNAME_OF_FILE_CREATED_IN_LAST_STEP
+     ```
 
-(09) Open the file
+9.   Open the file
 
        .git/info/attributes
 
      (create it if it doesn't exist), and add the following contents
      (with the leading whitespace removed):
 
+     ```
        *.efi     -diff
        *.EFI     -diff
        *.bin     -diff
@@ -111,11 +120,13 @@ Contributor workflow
        *.fdf     diff=ini
        *.fdf.inc diff=ini
        *.inf     diff=ini
+     ```
 
-(10) Create a file called "edk2.diff.order" somewhere outside your local
+10.  Create a file called "edk2.diff.order" somewhere outside your local
      clone, with the following contents (removing the leading
      whitespace):
 
+     ```
        *.dec
        *.dsc.inc
        *.dsc
@@ -124,19 +135,24 @@ Contributor workflow
        *.h
        *.vfr
        *.c
+     ```
 
-(11) Add your own fork of edk2 that lives on GitHub as a *remote* to
+11.  Add your own fork of edk2 that lives on GitHub as a *remote* to
      your local clone:
 
+     ```
        git remote add -f --no-tags \
          YOUR_GITHUB_ID \
          git@github.com:YOUR_GITHUB_ID/edk2.git
+     ```
 
-(12) At this point you are ready to start developing. Refresh your local
+12.  At this point you are ready to start developing. Refresh your local
      master branch from the upstream master branch:
 
+     ```
        git checkout master
        git pull
+     ```
 
      The first command is extremely important. You should only run "git
      pull" while you are standing on your local master branch that
@@ -145,46 +161,60 @@ Contributor workflow
      These commands will fetch any new commits from upstream master, and
      fast-forward your local tracking branch to the new HEAD.
 
-(13) Create and check out a topic branch for the feature or bugfix that
+13.  Create and check out a topic branch for the feature or bugfix that
      you would like to work on. The topic branch name requires
      customization of course.
 
+     ```
        git checkout -b implement_foo_for_bar_v1 master
+     ```
 
-(14) Make sure you have the build environment set up:
+14.  Make sure you have the build environment set up:
 
+     ```
        source edk2setup.sh
        make -C "$EDK_TOOLS_PATH"
+     ```
 
-(15) Implement the next atomic, logical step in your feature or bugfix.
+15.  Implement the next atomic, logical step in your feature or bugfix.
      Test that it builds and works. You should not cross module (driver,
      library class, library instance) boundaries within a single patch,
      if possible.
 
-(16) Add your changes gradually to the staging area of git (it is called
+16.  Add your changes gradually to the staging area of git (it is called
      the "index"):
 
+     ```
        git add -p
+     ```
 
      This command will ask you interactively about staging each separate
      hunk. See the manual for "git add".
 
-(17) When done, you can run
+17.  When done, you can run
 
+     ```
        git status
+     ```
 
      This will list the files with staged and unstaged changes. You can
      show the diff that is staged for commit:
 
+     ```
        git diff --staged
+     ```
 
      and also the diff that is not staged yet:
 
+     ```
        git diff
+     ```
 
-(18) If you are happy with the staged changes, run:
+18.  If you are happy with the staged changes, run:
 
+     ```
        git commit
+     ```
 
      This will commit the staged changes to your local branch called
      "implement_foo_for_bar_v1". You created this branch in step (13).
@@ -213,20 +243,26 @@ Contributor workflow
        Maintainers.txt file. For example, if you wrote a patch for
        OvmfPkg, add:
 
+     ```
        Cc: Jordan Justen <jordan.l.justen@intel.com>
        Cc: Laszlo Ersek <lersek@redhat.com>
+     ```
 
-(19) When you have committed the patch, it is best to confirm it adheres
+19.  When you have committed the patch, it is best to confirm it adheres
      to the edk2 coding style. Run:
 
+     ```
        python BaseTools/Scripts/PatchCheck.py -1
+     ```
 
-(20) If the command in step (19) reports problems, modify the source
+20.  If the command in step (19) reports problems, modify the source
      code accordingly, then go back to step (16) and continue from
      there. However, as a small but important change for step (18), run
      "git commit" with the --amend option:
 
+     ```
        git commit --amend
+     ```
 
      This will *squash* your fixups into the last commit, and it will
      also let you re-edit the commit message (the PatchCheck.py script
@@ -234,13 +270,13 @@ Contributor workflow
 
      Re-run step (19) as well, to see if your patch is now solid.
 
-(21) Write your next patch. That is, repeat this procedure (goto (15))
+21.  Write your next patch. That is, repeat this procedure (goto (15))
      until you are happy with the series -- *each* single one of your
      patches builds and runs (implementing the next atomic, logical step
      in the bugfix or feature), and at the last patch, the feature /
      bugfix is complete.
 
-(22) It is now time to publish your changes for review.
+22.  It is now time to publish your changes for review.
 
      (At this point, at the latest, it is important to review your full
      series using a git GUI; for example "gitk". Practically, any time
@@ -251,7 +287,9 @@ Contributor workflow
      First, we'll push your local branch to your personal repository on
      GitHub, under the same branch name.
 
+     ```
        git push YOUR_GITHUB_ID master implement_foo_for_bar_v1
+     ```
 
      This command will connect to github using your remote configuration
      added in step (11), employing the SSH authentication configured in
@@ -263,11 +301,12 @@ Contributor workflow
 
      It will also push the topic branch you created under step (13).
 
-(23) Now we'll format the patches as email messages, and send them to
+23.  Now we'll format the patches as email messages, and send them to
      the list. Standing in the root of your edk2 directory, run the
      following (note that the "-O" option needs customization: please
      update the pathname to the file created in step (10)):
 
+     ```
        rm -f -- *.patch
 
        git format-patch                               \
@@ -278,7 +317,8 @@ Contributor workflow
          --subject-prefix="PATCH v1"                  \
          --stat=1000                                  \
          --stat-graph-width=20                        \
-       master..implement_foo_for_bar_v1
+         master..implement_foo_for_bar_v1
+     ```
 
      This command will generate an email file for each one of your
      commits. The patch files will be numbered. The file numbered 0000
@@ -298,8 +338,9 @@ Contributor workflow
        across the series, he or she will get a copy of your cover
        letter, which outlines the full feature or bugfix.
 
-(24) Time to mail-bomb the list! Do the following:
+24.  Time to mail-bomb the list! Do the following:
 
+     ```
      git send-email                 \
        --suppress-cc=author         \
        --suppress-cc=self           \
@@ -307,6 +348,7 @@ Contributor workflow
        --suppress-cc=sob            \
        --to=edk2-devel@lists.01.org \
        *.patch
+     ```
 
      This command might ask you about sending the messages in response
      to another message (identified by Message-Id). Just press Enter
@@ -321,9 +363,11 @@ Contributor workflow
      Once the messages are sent, you can remove the local patch files
      with:
 
+     ```
        rm -f -- *.patch
+     ```
 
-(25) On the list, you will get feedback. In the optimal case, each patch
+25.  On the list, you will get feedback. In the optimal case, each patch
      will get a Reviewed-by tag (or an Acked-by tag) from at least one
      maintainer that is responsible for the package being touched by
      that patch. If you are lucky, you will also get Tested-by tags from
@@ -335,7 +379,7 @@ Contributor workflow
      push your patches to upstream master. If this happens, pop the
      champagne, and goto step (12).
 
-(26) More frequently though, you will get requests for changes for
+26.  More frequently though, you will get requests for changes for
      *some* of your patches, while *others* of your patches will be
      fine, and garner Reviewed-by, Acked-by, and Tested-by tags. What
      you need to do in this case is:
@@ -350,9 +394,10 @@ Contributor workflow
      In the following steps, we'll go through each of these in more
      detail.
 
-(27) Create the next version of your local branch. Run the following
+27.  Create the next version of your local branch. Run the following
      commands in your edk2 tree:
 
+     ```
        git checkout master
        git pull
 
@@ -361,6 +406,7 @@ Contributor workflow
          implement_foo_for_bar_v1
 
        git rebase master implement_foo_for_bar_v2
+     ```
 
      These commands do the following: first they refresh (fast forward)
      your local master branch to the current upstream master.
@@ -379,10 +425,12 @@ Contributor workflow
      outside of the scope of this writeup. For now we'll assume that
      your last command completes without errors.
 
-(28) Pick up the tags that you got on the list. Run the following
+28.  Pick up the tags that you got on the list. Run the following
      command:
 
+     ```
        git rebase -i master implement_foo_for_bar_v2
+     ```
 
      This will open your $EDITOR with a list of your patches, identified
      by commit hash and subject line, each prefixed with a rebase
@@ -409,7 +457,9 @@ Contributor workflow
      empty text file. Git rebase will then stop and expect you to issue
      further commands at the normal shell prompt. This is when you run
 
+     ```
        git rebase --abort
+     ```
 
      and everything will be exactly like at the end of step (27).
 
@@ -424,9 +474,11 @@ Contributor workflow
      At the end of this step, you will have picked up the feedback tags
      from the list, for each affected patch individually.
 
-(29) Implement the requested changes. For this you run again
+29.  Implement the requested changes. For this you run again
 
+     ```
        git rebase -i master implement_foo_for_bar_v2
+     ```
 
      but this time, you replace the "pick" actions of the affected (= to
      be modified) patches with "edit". My *strong* recommendation is to
@@ -450,13 +502,17 @@ Contributor workflow
 
      Now, if you ran
 
+     ```
        git commit
+     ```
 
      at this point (i.e., step (18) verbatim), then git would *insert*
      the staged changes as a *separate patch* into your series, so
      *don't do that*; that's most likely not your intent. Instead, run
 
+     ```
        git commit --amend
+     ```
 
      which will squash your staged changes into the patch-to-be-edited.
 
@@ -474,7 +530,9 @@ Contributor workflow
      series); PatchCheck.py is happy with it; and you have it committed.
      Time to run:
 
+     ```
        git rebase --continue
+     ```
 
      This will complete the rebase.
 
@@ -487,7 +545,7 @@ Contributor workflow
      earlier, you are supposed to *drop* these tags, because your
      significant edits render them stale.
 
-(30) Mark the v2 changes on each patch outside of the commit message.
+30.  Mark the v2 changes on each patch outside of the commit message.
      This step is not strictly required, but it is a *huge* help for
      reviewers and maintainers.
 
@@ -497,7 +555,9 @@ Contributor workflow
 
      Grab the SHA1 commit hash of that patch, and run:
 
+     ```
        git notes edit COMMIT_HASH_OF_THAT_PATCH
+     ```
 
      Git will again fire up your text editor, and allow you to attach
      *notes* to the commit. The distinction between a commit message and
@@ -527,7 +587,7 @@ Contributor workflow
      updates, because in that case you can add the v3 section *on top*
      of v2 in the notes!
 
-(31) Push the next version to your personal repo again.
+31.  Push the next version to your personal repo again.
 
      Practically, repeat step (22), but using the branch name
      "implement_foo_for_bar_v2".
@@ -541,7 +601,7 @@ Contributor workflow
      github repo either. If a new version is necessary, you'll post a
      new version, and you'll push a new branch too.)
 
-(32) Post the next version to the list.
+32.  Post the next version to the list.
 
      In practice, repeat step (23), with the following modifications:
 
@@ -567,14 +627,13 @@ reading the rest even to contributors, because it will help them
 understand how maintainers are supposed to operate, and how their
 actions above assist maintainers in doing their work.
 
-
 Maintainer workflow
 ===================
 
-(33) You need the same settings in your edk2 clone as a contributor.
+33.  You need the same settings in your edk2 clone as a contributor.
      This includes steps (01) through (11).
 
-(34) You get patches to review, either by CC, or you notice them on the
+34.  You get patches to review, either by CC, or you notice them on the
      list.
 
      If you can immediately point out problems with (some of) the
@@ -586,7 +645,7 @@ Maintainer workflow
      review it in depth (possible for patches that target a package that
      you don't maintain), respond with your Acked-by.
 
-(35) When reviewing a v2, v3, ... posting of a series, focus on the
+35.  When reviewing a v2, v3, ... posting of a series, focus on the
      changes. The contributor is expected to support you in this with:
 
      - Picking up your Reviewed-by and Acked-by tags from your v1
@@ -600,7 +659,7 @@ Maintainer workflow
      - Summarizing the changes in the v2, v3, ... cover letters. Refer
        to step (32).
 
-(36) Assuming the series has converged (i.e., all patches have gained
+36.  Assuming the series has converged (i.e., all patches have gained
      the necessary Reviewed-by and/or Acked-by tags), plus you have been
      "elected" as the lucky maintainer to apply and push the series,
      read on.
@@ -610,13 +669,13 @@ Maintainer workflow
      against a fully up-to-date, complete codebase, with all the
      precursor patches from the series applied.)
 
-(37) The first attempt at applying the contributor's series is directly
+37.  The first attempt at applying the contributor's series is directly
      from emails. For this, you *absolutely* need a mail user agent
      (MUA) that allows you to save patch emails *intact*.
 
      So save all the patch emails into a dedicated, new folder.
 
-(38) Refresh your local master branch.
+38.  Refresh your local master branch.
 
        git checkout master
        git pull
@@ -624,12 +683,14 @@ Maintainer workflow
      Note that it is *extremely* important to switch to the master
      branch, with the checkout command above, before you run "git pull".
 
-(39) Create an application/testing/review branch, and apply the patches
+39.  Create an application/testing/review branch, and apply the patches
      from the files you saved in step (37), from within your MUA:
 
+     ```
        git checkout -b REVIEW_implement_foo_for_bar_vN master
 
        git am dedicated_directory/*.eml
+     ```
 
      Now, this step can genuinely fail for two reasons. The first reason
      is very obscure and I'm sharing it only for completeness.
@@ -649,43 +710,53 @@ Maintainer workflow
 
      If "git am" above fails for *any reason at all*, immediately issue
 
+     ```
        git am --abort
+     ```
 
      and proceed to the next step, step (40). Otherwise, if "git am"
      succeeds, skip forward to step (43).
 
-(40) As an alternative to step (39), here we'll grab the contributor's
+40.  As an alternative to step (39), here we'll grab the contributor's
      patches from his or her personal GitHub repo.
 
      First add his or her personal repo as a *remote* to your local
      clone (this step only needs to be done once, during all of
      the collaboration with a given contributor):
 
+     ```
        git remote add --no-tags \
          HIS_OR_HER_GITHUB_ID \
          https://github.com/HIS_OR_HER_GITHUB_ID/edk2.git
+     ```
 
      At this point you should of course use the repo URL that the
      contributor shared in his or her cover letter, in step (23) or --
      for a v2, v3, ... post -- in step (32).
 
-(41) Fetch any new commits and branches from the contributor's repo:
+41.  Fetch any new commits and branches from the contributor's repo:
 
+     ```
        git fetch HIS_OR_HER_GITHUB_ID
+     ```
 
-(42) Now, set up a local, non-tracking branch off of the contributor's
+42.  Now, set up a local, non-tracking branch off of the contributor's
      relevant remote branch. You know about the relevant branch again
      from the contributor's steps (23) or (32), i.e., the cover letter.
 
+     ```
        git checkout -b --no-track \
          REVIEW_implement_foo_for_bar_vN \
          HIS_OR_HER_GITHUB_ID/implement_foo_for_bar_vN
+     ```
 
-(43) Rebase the contributor's series -- using your local branch that you
+43.  Rebase the contributor's series -- using your local branch that you
      created either in step (39) or in step (42) -- to the local master
      branch (which you refreshed from upstream master in step (38)):
 
+     ```
        git rebase -i master REVIEW_implement_foo_for_bar_vN
+     ```
 
      Here you should mark those patches with "reword" that have received
      Reviewed-by, Acked-by, Tested-by tags on the mailing list after the
@@ -710,7 +781,7 @@ Maintainer workflow
      you can ask the contributor to rebase his or her work on current
      upstream master, and to post it as the next version.
 
-(44) Okay, now you have the contributor's patches on top of your local
+44.  Okay, now you have the contributor's patches on top of your local
      master branch, with all the tags added from the mailing list. Time
      to build-test it! If the build fails, report it to the list, and
      ask the contributor for a new version.
@@ -718,15 +789,17 @@ Maintainer workflow
      (The OCD variant of this step is to build-test the contributor's
      series at *each* constituting patch, to enforce bisectability.)
 
-(45) Okay, the build test passes! Maybe you want to runtime test it as
+45.  Okay, the build test passes! Maybe you want to runtime test it as
      well. If you do, and it works, you can respond with a Tested-by to
      the entire series on the list, *and* immediately add your own
      Tested-by to the patches as well. Employ step (43) accordingly.
 
-(46) Time to push the patches to upstream master. Take a big breath :),
+46.  Time to push the patches to upstream master. Take a big breath :),
      and run
 
+     ```
        git push origin REVIEW_implement_foo_for_bar_vN:master
+     ```
 
      This will *attempt* to push the commits from your local
      REVIEW_implement_foo_for_bar_vN branch -- which is based off of
@@ -742,7 +815,7 @@ Maintainer workflow
      accepted your push in this case, that would cause the *other*
      maintainer's push to go lost. So, proceed to the next step.
 
-(47) Repeat the following steps:
+47.  Repeat the following steps:
 
      - step (38) -- Refresh your local master branch.
 
