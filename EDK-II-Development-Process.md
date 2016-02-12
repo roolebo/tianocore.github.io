@@ -1,6 +1,9 @@
 First check out [[Getting Started with EDK II]] for downloading the
 latest EDK II development project with your build environment.
 
+Are you new to using git? If so, then the [[New to git]] page may be
+helpful.
+
 The developer process for the EDK II project
 --------------------------------------------
 
