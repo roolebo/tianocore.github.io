@@ -7,6 +7,11 @@ helpful:
 
 * https://git-scm.com/course/svn.html
 
+EDK II git workflows
+--------------------
+
+See [[EDK II Development Process]]
+
 Some Potentially Dangerous Commands
 -----------------------------------
 
