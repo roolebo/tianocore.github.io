@@ -23,12 +23,14 @@ Contributor workflow
      https://help.github.com/articles/generating-an-ssh-key/
 
      When completing this step, you should end up with a new keypair
-     under ~/.ssh/, for example:
+     under `~/.ssh/`, for example:
 
+     ```
        id_rsa_for_github
        id_rsa_for_github.pub
+     ```
 
-     and the following stanza in your ~/.ssh/config:
+     and the following stanza in your `~/.ssh/config`:
 
      ```
        Host github.com
@@ -81,7 +83,7 @@ Contributor workflow
        git config user.name            "Your Name"
      ```
 
-7.   Create a file called "tianocore.template" somewhere outside your
+7.   Create a file called `tianocore.template` somewhere outside your
      edk2 clone, with the following contents (remove leading
      whitespace). Note that the last line requires customization.
 
@@ -102,7 +104,9 @@ Contributor workflow
 
 9.   Open the file
 
+     ```
        .git/info/attributes
+     ```
 
      (create it if it doesn't exist), and add the following contents
      (with the leading whitespace removed):
@@ -124,7 +128,7 @@ Contributor workflow
        *.inf     diff=ini
      ```
 
-10.  Create a file called "edk2.diff.order" somewhere outside your local
+10.  Create a file called `edk2.diff.order` somewhere outside your local
      clone, with the following contents (removing the leading
      whitespace):
 
@@ -156,8 +160,8 @@ Contributor workflow
        git pull
      ```
 
-     The first command is extremely important. You should only run "git
-     pull" while you are standing on your local master branch that
+     The first command is extremely important. You should only run `git
+     pull` while you are standing on your local master branch that
      tracks (and never diverges from) the upstream master branch.
 
      These commands will fetch any new commits from upstream master, and
@@ -191,7 +195,7 @@ Contributor workflow
      ```
 
      This command will ask you interactively about staging each separate
-     hunk. See the manual for "git add".
+     hunk. See the manual for `git add`.
 
 17.  When done, you can run
 
@@ -219,7 +223,7 @@ Contributor workflow
      ```
 
      This will commit the staged changes to your local branch called
-     "implement_foo_for_bar_v1". You created this branch in step (13).
+     `implement_foo_for_bar_v1`. You created this branch in step (13).
 
      Before the commit occurs, git will fire up your preferred editor
      (from the $EDITOR variable) for you to edit the commit message. The
@@ -239,7 +243,7 @@ Contributor workflow
 
      - an empty line
 
-     - One or more tags directly above the "Contributed-under" line
+     - One or more tags directly above the `Contributed-under` line
        (which comes from the template) that CC the package maintainers
        that are relevant for this specific patch. Consult the
        Maintainers.txt file. For example, if you wrote a patch for
@@ -260,7 +264,7 @@ Contributor workflow
 20.  If the command in step (19) reports problems, modify the source
      code accordingly, then go back to step (16) and continue from
      there. However, as a small but important change for step (18), run
-     "git commit" with the --amend option:
+     `git commit` with the `--amend` option:
 
      ```
        git commit --amend
@@ -281,9 +285,9 @@ Contributor workflow
 22.  It is now time to publish your changes for review.
 
      (At this point, at the latest, it is important to review your full
-     series using a git GUI; for example "gitk". Practically, any time
+     series using a git GUI; for example `gitk`. Practically, any time
      you are in doubt, and especially before publishing patches, run
-     "git status" and "gitk" (or another GUI tool) and go over your
+     `git status` and `gitk` (or another GUI tool) and go over your
      series.)
 
      First, we'll push your local branch to your personal repository on
@@ -305,7 +309,7 @@ Contributor workflow
 
 23.  Now we'll format the patches as email messages, and send them to
      the list. Standing in the root of your edk2 directory, run the
-     following (note that the "-O" option needs customization: please
+     following (note that the `-O` option needs customization: please
      update the pathname to the file created in step (10)):
 
      ```
@@ -326,11 +330,11 @@ Contributor workflow
      commits. The patch files will be numbered. The file numbered 0000
      is a *cover letter*, which you should edit in-place:
 
-     - in the "Subject:" line, summarize the goal of your series,
+     - in the `Subject:` line, summarize the goal of your series,
 
      - in the message body, describe the changes on a broad level,
 
-     - *reference*, by complete URL, the "implement_foo_for_bar_v1"
+     - *reference*, by complete URL, the `implement_foo_for_bar_v1`
        branch in your personal GitHub repo -- the one that you pushed in
        step (22),
 
@@ -436,19 +440,19 @@ Contributor workflow
 
      This will open your $EDITOR with a list of your patches, identified
      by commit hash and subject line, each prefixed with a rebase
-     *action*. By default, the rebase action will be "pick".
+     *action*. By default, the rebase action will be `pick`.
 
      You should carefully go through the feedback you received on the
      list for the v1 posting. (An email client that supports threading
      is a hard requirement for this.) For each v1 patch where you
      received a tag (Reviewed-by, Tested-by, Acked-by), *replace* the
-     "pick" action with "reword". Be sure not to modify anything else in
+     `pick` action with `reword`. Be sure not to modify anything else in
      the rebase action list.
 
      Once you modified these actions, save the file, and quit the
      editor. Git will now rebase your patches again (to the same
      refreshed local master branch), but now it will also stop at each
-     patch that you marked "reword", and will let you edit the commit
+     patch that you marked `reword`, and will let you edit the commit
      message for the patch. This is when you append the tags from the
      mailing list feedback to the very end of the commit message,
      underneath your own Signed-off-by tag. Save the updated commit
@@ -482,24 +486,24 @@ Contributor workflow
        git rebase -i master implement_foo_for_bar_v2
      ```
 
-     but this time, you replace the "pick" actions of the affected (= to
-     be modified) patches with "edit". My *strong* recommendation is to
-     set the "edit" action for exactly one patch in the series, and let
-     the rest remain "pick". (There are cases when this is not the best
+     but this time, you replace the `pick` actions of the affected (= to
+     be modified) patches with `edit`. My *strong* recommendation is to
+     set the `edit` action for exactly one patch in the series, and let
+     the rest remain `pick`. (There are cases when this is not the best
      advice, but once you get in those situations, you won't need this
      guide.)
 
      Okay then, git will start the rebase, and it will stop *right
-     after* the patch you marked as "edit" is *committed*. Your working
+     after* the patch you marked as `edit` is *committed*. Your working
      tree will be clean (no changes relative to the staging index), your
      staging index will also be clean (no changes staged relative to the
-     last commit -- which is the patch you marked as "edit").
+     last commit -- which is the patch you marked as `edit`).
 
      At this point you modify the code as necessary, and build it and
      test it. Once satisfied, you run steps (16) and (17). After those
      steps, your working tree will be clean relative to the staging
      index, and the index will have all the necessary changes staged
-     relative to the last commit (which you marked as "edit" in the
+     relative to the last commit (which you marked as `edit` in the
      rebase action list).
 
      Now, if you ran
@@ -552,7 +556,7 @@ Contributor workflow
      reviewers and maintainers.
 
      Each time you finish a full rebase (an iteration of step (29)), you
-     should run your git GUI ("gitk" or anything else), and locate the
+     should run your git GUI (`gitk` or anything else), and locate the
      patch (by subject) that you just edited in step (29).
 
      Grab the SHA1 commit hash of that patch, and run:
@@ -592,10 +596,10 @@ Contributor workflow
 31.  Push the next version to your personal repo again.
 
      Practically, repeat step (22), but using the branch name
-     "implement_foo_for_bar_v2".
+     `implement_foo_for_bar_v2`.
 
      (It is *very* important that you never ever modify
-     "implement_foo_for_bar_v1" after you push it to your personal
+     `implement_foo_for_bar_v1` after you push it to your personal
      github repo. Namely, this FEATURE_BRANCH_vN kind of branch is
      supposed to reflect your vN mailing list posting precisely. Since
      your mailing list posting is read only (you cannot modify emails
@@ -609,11 +613,15 @@ Contributor workflow
 
      - The subject prefix should state
 
+       ```
        --subject-prefix="PATCH v2"
+       ```
 
      - The commit range given should be
 
+       ```
        master..implement_foo_for_bar_v2
+       ```
 
      - The cover letter should reference the v2 branch pushed in step
        (31).
@@ -684,7 +692,7 @@ Maintainer workflow
        git pull
 
      Note that it is *extremely* important to switch to the master
-     branch, with the checkout command above, before you run "git pull".
+     branch, with the checkout command above, before you run `git pull`.
 
 7.   Create an application/testing/review branch, and apply the patches
      from the files you saved in maintainer step (5), from within your
@@ -700,11 +708,11 @@ Maintainer workflow
      is very obscure and I'm sharing it only for completeness.
 
      So the first reason is that the patch may create or delete files,
-     which implies "/dev/null" filenames in the git diff hunk headers.
-     Because of the "core.whitespace" setting in contributor step (05)
+     which implies `/dev/null` filenames in the git diff hunk headers.
+     Because of the `core.whitespace` setting in contributor step (05)
      -- which we absolutely need due to the source files using CRLF
      line terminators in the *internal* git representation --, git-am
-     might choke on those "/dev/null" lines. This depends on the
+     might choke on those `/dev/null` lines. This depends on the
      Content-transfer-encoding of the email that is saved in
      maintainer step (5).
 
@@ -713,14 +721,14 @@ Maintainer workflow
      patches, on top of then-master. And the patches may no longer apply
      with git-am on top of current master.
 
-     If "git am" above fails for *any reason at all*, immediately issue
+     If `git am` above fails for *any reason at all*, immediately issue
 
      ```
        git am --abort
      ```
 
      and proceed to the next step, maintainer step (8). Otherwise, if
-     "git am" succeeds, skip forward to maintainer step (11).
+     `git am` succeeds, skip forward to maintainer step (11).
 
 8.   As an alternative to maintainer step (7), here we'll grab the
      contributor's patches from his or her personal GitHub repo.
@@ -765,7 +773,7 @@ Maintainer workflow
        git rebase -i master REVIEW_implement_foo_for_bar_vN
      ```
 
-     Here you should mark those patches with "reword" that have received
+     Here you should mark those patches with `reword` that have received
      Reviewed-by, Acked-by, Tested-by tags on the mailing list after the
      contributor's last posting. (Patches that garnered such tags in
      earlier versions are supposed to carry those tags already, due to
@@ -775,12 +783,12 @@ Maintainer workflow
      R-b, A-b, T-b tags from the mailing list feedback. (Refer to
      contributor step (28).)
 
-     Now, this rebase has a much better chance to succeed than "git
-     am" in maintainer step (7), for two reasons again. The first
-     reason is that the problem with the /dev/null headers just
-     doesn't exist. The second reason is that "git rebase", *unlike*
-     "git am", knows *whence* you are rebasing, which helps it
-     immensely in calculating conflict resolutions automatically.
+     Now, this rebase has a much better chance to succeed than `git am`
+     in maintainer step (7), for two reasons again. The first reason is
+     that the problem with the `/dev/null` headers just doesn't exist.
+     The second reason is that `git rebase`, *unlike* `git am`, knows
+     *whence* you are rebasing, which helps it immensely in calculating
+     conflict resolutions automatically.
 
      Nonetheless, the rebase might still fail, if meanwhile there have
      been intrusive / conflicting changes on the upstream master branch.
@@ -828,7 +836,7 @@ Maintainer workflow
 
      - maintainer step (6) -- Refresh your local master branch.
 
-       *Do not forget* the "git checkout master" part in that step!
+       *Do not forget* the `git checkout master` part in that step!
 
      - maintainer step (11) -- Rebase the contributor's series.
 
