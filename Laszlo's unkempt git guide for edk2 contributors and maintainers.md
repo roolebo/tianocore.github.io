@@ -881,7 +881,7 @@ Maintainer workflow
      well. If you do, and it works, you can respond with a `Tested-by`
      to the entire series on the list, *and* immediately add your own
      `Tested-by` to the patches as well. Employ [maintainer step
-     1](#maint-01) accordingly.
+     11](#maint-11) accordingly.
 
 14.  <a name="maint-14" href="#maint-14">&sect;</a>
      Time to push the patches to upstream master. Take a big breath :),
