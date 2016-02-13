@@ -2,11 +2,13 @@ Disclaimer
 ==========
 
 This is a quick and dirty, simplified and slightly modified description
-of my own edk2 workflow with git. It expressly defers to any upcoming
-git workflow documentation on the wiki. It doesn't try to be generic,
-focuses only on GNU/Linux (that's what I use). It will not go into many
-details about git; if you are interested, you'll have to research those
-concepts on the web yourself.
+of my own edk2 workflow with git. It expressly defers to the [EDK II
+Development Process
+article](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Development-Process)
+on the TianoCore wiki. It doesn't try to be generic, focuses only on
+GNU/Linux (that's what I use). It will not go into many details about
+git; if you are interested, you'll have to research those concepts on
+the web yourself.
 
 Also, this is very specific to edk2. Other projects have different
 workflows.
