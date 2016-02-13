@@ -26,16 +26,16 @@ Contributor workflow
      under `~/.ssh/`, for example:
 
      ```
-       id_rsa_for_github
-       id_rsa_for_github.pub
+     id_rsa_for_github
+     id_rsa_for_github.pub
      ```
 
      and the following stanza in your `~/.ssh/config`:
 
      ```
-       Host github.com
-         User          git
-         IdentityFile  ~/.ssh/id_rsa_for_github
+     Host github.com
+       User          git
+       IdentityFile  ~/.ssh/id_rsa_for_github
      ```
 
 3.   Fork the following repository on GitHub into your own GitHub
@@ -48,8 +48,8 @@ Contributor workflow
 4.   Clone the official edk2 repository to your local computer:
 
      ```
-       cd some-appropriate-directory
-       git clone https://github.com/tianocore/edk2.git
+     cd some-appropriate-directory
+     git clone https://github.com/tianocore/edk2.git
      ```
 
 5.   Implement the following git settings for your local clone, i.e.,
@@ -57,30 +57,30 @@ Contributor workflow
      customization):
 
      ```
-       git config am.keepcr              true
-       git config am.signoff             true
-       git config cherry-pick.signoff    true
-       git config color.diff             true
-       git config color.grep             auto
-       git config commit.signoff         true
-       git config core.abbrev            12
-       git config core.pager             cat
-       git config core.whitespace        cr-at-eol
-       git config diff.algorithm         patience
-       git config diff.ini.xfuncname     '^\[[A-Za-z0-9_.,   ]+]'
-       git config diff.renames           copies
-       git config format.signoff         false
-       git config notes.rewriteRef       refs/notes/commits
-       git config sendemail.chainreplyto false
-       git config sendemail.thread       true
+     git config am.keepcr              true
+     git config am.signoff             true
+     git config cherry-pick.signoff    true
+     git config color.diff             true
+     git config color.grep             auto
+     git config commit.signoff         true
+     git config core.abbrev            12
+     git config core.pager             cat
+     git config core.whitespace        cr-at-eol
+     git config diff.algorithm         patience
+     git config diff.ini.xfuncname     '^\[[A-Za-z0-9_.,   ]+]'
+     git config diff.renames           copies
+     git config format.signoff         false
+     git config notes.rewriteRef       refs/notes/commits
+     git config sendemail.chainreplyto false
+     git config sendemail.thread       true
      ```
 
 6.   Also implement the following -- they need customization:
 
      ```
-       git config sendemail.smtpserver FQDN_OF_YOUR_LOCAL_SMTP_SERVER
-       git config user.email           "Your Email Address"
-       git config user.name            "Your Name"
+     git config sendemail.smtpserver FQDN_OF_YOUR_LOCAL_SMTP_SERVER
+     git config user.email           "Your Email Address"
+     git config user.name            "Your Name"
      ```
 
 7.   Create a file called `tianocore.template` somewhere outside your
@@ -88,44 +88,44 @@ Contributor workflow
      whitespace). Note that the last line requires customization.
 
      ```
-       [empty line]
-       [empty line]
-       Contributed-under: TianoCore Contribution Agreement 1.0
-       Signed-off-by: Your Name <Your Email Address>
+     [empty line]
+     [empty line]
+     Contributed-under: TianoCore Contribution Agreement 1.0
+     Signed-off-by: Your Name <Your Email Address>
      ```
 
 8.   Standing in your edk2 clone, implement the following setting
      (requires customization):
 
      ```
-       git config commit.template \
-         FULL_PATHNAME_OF_FILE_CREATED_IN_LAST_STEP
+     git config commit.template \
+       FULL_PATHNAME_OF_FILE_CREATED_IN_LAST_STEP
      ```
 
 9.   Open the file
 
      ```
-       .git/info/attributes
+     .git/info/attributes
      ```
 
      (create it if it doesn't exist), and add the following contents
      (with the leading whitespace removed):
 
      ```
-       *.efi     -diff
-       *.EFI     -diff
-       *.bin     -diff
-       *.BIN     -diff
-       *.raw     -diff
-       *.RAW     -diff
-       *.bmp     -diff
-       *.BMP     -diff
-       *.dec     diff=ini
-       *.dsc     diff=ini
-       *.dsc.inc diff=ini
-       *.fdf     diff=ini
-       *.fdf.inc diff=ini
-       *.inf     diff=ini
+     *.efi     -diff
+     *.EFI     -diff
+     *.bin     -diff
+     *.BIN     -diff
+     *.raw     -diff
+     *.RAW     -diff
+     *.bmp     -diff
+     *.BMP     -diff
+     *.dec     diff=ini
+     *.dsc     diff=ini
+     *.dsc.inc diff=ini
+     *.fdf     diff=ini
+     *.fdf.inc diff=ini
+     *.inf     diff=ini
      ```
 
 10.  Create a file called `edk2.diff.order` somewhere outside your local
@@ -133,31 +133,31 @@ Contributor workflow
      whitespace):
 
      ```
-       *.dec
-       *.dsc.inc
-       *.dsc
-       *.fdf
-       *.inf
-       *.h
-       *.vfr
-       *.c
+     *.dec
+     *.dsc.inc
+     *.dsc
+     *.fdf
+     *.inf
+     *.h
+     *.vfr
+     *.c
      ```
 
 11.  Add your own fork of edk2 that lives on GitHub as a *remote* to
      your local clone:
 
      ```
-       git remote add -f --no-tags \
-         YOUR_GITHUB_ID \
-         git@github.com:YOUR_GITHUB_ID/edk2.git
+     git remote add -f --no-tags \
+       YOUR_GITHUB_ID \
+       git@github.com:YOUR_GITHUB_ID/edk2.git
      ```
 
 12.  At this point you are ready to start developing. Refresh your local
      master branch from the upstream master branch:
 
      ```
-       git checkout master
-       git pull
+     git checkout master
+     git pull
      ```
 
      The first command is extremely important. You should only run `git
@@ -172,14 +172,14 @@ Contributor workflow
      customization of course.
 
      ```
-       git checkout -b implement_foo_for_bar_v1 master
+     git checkout -b implement_foo_for_bar_v1 master
      ```
 
 14.  Make sure you have the build environment set up:
 
      ```
-       source edk2setup.sh
-       make -C "$EDK_TOOLS_PATH"
+     source edk2setup.sh
+     make -C "$EDK_TOOLS_PATH"
      ```
 
 15.  Implement the next atomic, logical step in your feature or bugfix.
@@ -191,7 +191,7 @@ Contributor workflow
      the "index"):
 
      ```
-       git add -p
+     git add -p
      ```
 
      This command will ask you interactively about staging each separate
@@ -200,26 +200,26 @@ Contributor workflow
 17.  When done, you can run
 
      ```
-       git status
+     git status
      ```
 
      This will list the files with staged and unstaged changes. You can
      show the diff that is staged for commit:
 
      ```
-       git diff --staged
+     git diff --staged
      ```
 
      and also the diff that is not staged yet:
 
      ```
-       git diff
+     git diff
      ```
 
 18.  If you are happy with the staged changes, run:
 
      ```
-       git commit
+     git commit
      ```
 
      This will commit the staged changes to your local branch called
@@ -249,16 +249,16 @@ Contributor workflow
        Maintainers.txt file. For example, if you wrote a patch for
        OvmfPkg, add:
 
-     ```
+       ```
        Cc: Jordan Justen <jordan.l.justen@intel.com>
        Cc: Laszlo Ersek <lersek@redhat.com>
-     ```
+       ```
 
 19.  When you have committed the patch, it is best to confirm it adheres
      to the edk2 coding style. Run:
 
      ```
-       python BaseTools/Scripts/PatchCheck.py -1
+     python BaseTools/Scripts/PatchCheck.py -1
      ```
 
 20.  If the command in step (19) reports problems, modify the source
@@ -267,7 +267,7 @@ Contributor workflow
      `git commit` with the `--amend` option:
 
      ```
-       git commit --amend
+     git commit --amend
      ```
 
      This will *squash* your fixups into the last commit, and it will
@@ -294,7 +294,7 @@ Contributor workflow
      GitHub, under the same branch name.
 
      ```
-       git push YOUR_GITHUB_ID master implement_foo_for_bar_v1
+     git push YOUR_GITHUB_ID master implement_foo_for_bar_v1
      ```
 
      This command will connect to github using your remote configuration
@@ -313,17 +313,17 @@ Contributor workflow
      update the pathname to the file created in step (10)):
 
      ```
-       rm -f -- *.patch
+     rm -f -- *.patch
 
-       git format-patch                               \
-         --notes                                      \
-         -O"/fully/qualified/path/to/edk2.diff.order" \
-         --cover-letter                               \
-         --numbered                                   \
-         --subject-prefix="PATCH v1"                  \
-         --stat=1000                                  \
-         --stat-graph-width=20                        \
-         master..implement_foo_for_bar_v1
+     git format-patch                               \
+       --notes                                      \
+       -O"/fully/qualified/path/to/edk2.diff.order" \
+       --cover-letter                               \
+       --numbered                                   \
+       --subject-prefix="PATCH v1"                  \
+       --stat=1000                                  \
+       --stat-graph-width=20                        \
+       master..implement_foo_for_bar_v1
      ```
 
      This command will generate an email file for each one of your
@@ -370,7 +370,7 @@ Contributor workflow
      with:
 
      ```
-       rm -f -- *.patch
+     rm -f -- *.patch
      ```
 
 25.  On the list, you will get feedback. In the optimal case, each patch
@@ -404,14 +404,14 @@ Contributor workflow
      commands in your edk2 tree:
 
      ```
-       git checkout master
-       git pull
+     git checkout master
+     git pull
 
-       git checkout -b \
-         implement_foo_for_bar_v2 \
-         implement_foo_for_bar_v1
+     git checkout -b \
+       implement_foo_for_bar_v2 \
+       implement_foo_for_bar_v1
 
-       git rebase master implement_foo_for_bar_v2
+     git rebase master implement_foo_for_bar_v2
      ```
 
      These commands do the following: first they refresh (fast forward)
@@ -435,7 +435,7 @@ Contributor workflow
      command:
 
      ```
-       git rebase -i master implement_foo_for_bar_v2
+     git rebase -i master implement_foo_for_bar_v2
      ```
 
      This will open your $EDITOR with a list of your patches, identified
@@ -464,7 +464,7 @@ Contributor workflow
      further commands at the normal shell prompt. This is when you run
 
      ```
-       git rebase --abort
+     git rebase --abort
      ```
 
      and everything will be exactly like at the end of step (27).
@@ -483,7 +483,7 @@ Contributor workflow
 29.  Implement the requested changes. For this you run again
 
      ```
-       git rebase -i master implement_foo_for_bar_v2
+     git rebase -i master implement_foo_for_bar_v2
      ```
 
      but this time, you replace the `pick` actions of the affected (= to
@@ -509,7 +509,7 @@ Contributor workflow
      Now, if you ran
 
      ```
-       git commit
+     git commit
      ```
 
      at this point (i.e., step (18) verbatim), then git would *insert*
@@ -517,7 +517,7 @@ Contributor workflow
      *don't do that*; that's most likely not your intent. Instead, run
 
      ```
-       git commit --amend
+     git commit --amend
      ```
 
      which will squash your staged changes into the patch-to-be-edited.
@@ -537,7 +537,7 @@ Contributor workflow
      Time to run:
 
      ```
-       git rebase --continue
+     git rebase --continue
      ```
 
      This will complete the rebase.
@@ -562,7 +562,7 @@ Contributor workflow
      Grab the SHA1 commit hash of that patch, and run:
 
      ```
-       git notes edit COMMIT_HASH_OF_THAT_PATCH
+     git notes edit COMMIT_HASH_OF_THAT_PATCH
      ```
 
      Git will again fire up your text editor, and allow you to attach
@@ -699,9 +699,9 @@ Maintainer workflow
      MUA:
 
      ```
-       git checkout -b REVIEW_implement_foo_for_bar_vN master
+     git checkout -b REVIEW_implement_foo_for_bar_vN master
 
-       git am dedicated_directory/*.eml
+     git am dedicated_directory/*.eml
      ```
 
      Now, this step can genuinely fail for two reasons. The first reason
@@ -724,7 +724,7 @@ Maintainer workflow
      If `git am` above fails for *any reason at all*, immediately issue
 
      ```
-       git am --abort
+     git am --abort
      ```
 
      and proceed to the next step, maintainer step (8). Otherwise, if
@@ -738,9 +738,9 @@ Maintainer workflow
      the collaboration with a given contributor):
 
      ```
-       git remote add --no-tags \
-         HIS_OR_HER_GITHUB_ID \
-         https://github.com/HIS_OR_HER_GITHUB_ID/edk2.git
+     git remote add --no-tags \
+       HIS_OR_HER_GITHUB_ID \
+       https://github.com/HIS_OR_HER_GITHUB_ID/edk2.git
      ```
 
      At this point you should of course use the repo URL that the
@@ -751,7 +751,7 @@ Maintainer workflow
 9.   Fetch any new commits and branches from the contributor's repo:
 
      ```
-       git fetch HIS_OR_HER_GITHUB_ID
+     git fetch HIS_OR_HER_GITHUB_ID
      ```
 
 10.  Now, set up a local, non-tracking branch off of the contributor's
@@ -759,9 +759,9 @@ Maintainer workflow
      from the contributor's steps (23) or (32), i.e., the cover letter.
 
      ```
-       git checkout -b --no-track \
-         REVIEW_implement_foo_for_bar_vN \
-         HIS_OR_HER_GITHUB_ID/implement_foo_for_bar_vN
+     git checkout -b --no-track \
+       REVIEW_implement_foo_for_bar_vN \
+       HIS_OR_HER_GITHUB_ID/implement_foo_for_bar_vN
      ```
 
 11.  Rebase the contributor's series -- using your local branch that
@@ -770,7 +770,7 @@ Maintainer workflow
      upstream master in maintainer step (6)):
 
      ```
-       git rebase -i master REVIEW_implement_foo_for_bar_vN
+     git rebase -i master REVIEW_implement_foo_for_bar_vN
      ```
 
      Here you should mark those patches with `reword` that have received
@@ -814,7 +814,7 @@ Maintainer workflow
      and run
 
      ```
-       git push origin REVIEW_implement_foo_for_bar_vN:master
+     git push origin REVIEW_implement_foo_for_bar_vN:master
      ```
 
      This will *attempt* to push the commits from your local
