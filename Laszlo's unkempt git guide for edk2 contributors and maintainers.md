@@ -440,8 +440,7 @@ Contributor workflow
      - push the next version to your personal repo again
      - post the next version to the list
 
-     In the following steps, we'll go through each of these in more
-     detail.
+ In the following steps, we'll go through each of these in more detail.
 
 27.  <a name="contrib-27" href="#contrib-27">&sect;</a>
      Create the next version of your local branch. Run the following
