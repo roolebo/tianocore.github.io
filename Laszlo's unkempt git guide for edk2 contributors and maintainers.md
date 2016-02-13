@@ -417,8 +417,8 @@ Contributor workflow
      git checkout master
      git pull
 
-     git checkout -b \
-       implement_foo_for_bar_v2 \
+     git checkout \
+       -b implement_foo_for_bar_v2 \
        implement_foo_for_bar_v1
 
      git rebase master implement_foo_for_bar_v2
@@ -769,8 +769,8 @@ Maintainer workflow
      from the contributor's steps (23) or (32), i.e., the cover letter.
 
      ```
-     git checkout -b --no-track \
-       REVIEW_implement_foo_for_bar_vN \
+     git checkout --no-track \
+       -b REVIEW_implement_foo_for_bar_vN \
        HIS_OR_HER_GITHUB_ID/implement_foo_for_bar_vN
      ```
 
