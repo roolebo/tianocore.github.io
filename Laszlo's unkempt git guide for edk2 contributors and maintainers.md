@@ -379,7 +379,7 @@ Contributor workflow
        branch in your personal GitHub repo -- the one that you pushed in
        [step 22](#contrib-22),
 
-     - finally, add *all* of the Cc: tags to the cover letter that you
+     - finally, add *all* of the `Cc:` tags to the cover letter that you
        used across all of the patches. This will ensure that even if a
        maintainer is involved in reviewing one or two of your patches
        across the series, he or she will get a copy of your cover
@@ -405,7 +405,7 @@ Contributor workflow
      parameter prepended.
 
      The messages will be posted to the list only, and to the
-     maintainers that you Cc'd explicitly in the commit messages.
+     maintainers that you CC'd explicitly in the commit messages.
 
      Once the messages are sent, you can remove the local patch files
      with:
@@ -416,22 +416,22 @@ Contributor workflow
 
 25.  <a name="contrib-25" href="#contrib-25">&sect;</a>
      On the list, you will get feedback. In the optimal case, each patch
-     will get a Reviewed-by tag (or an Acked-by tag) from at least one
-     maintainer that is responsible for the package being touched by
-     that patch. If you are lucky, you will also get Tested-by tags from
-     some of them.
+     will get a `Reviewed-by` tag (or an `Acked-by` tag) from at least
+     one maintainer that is responsible for the package being touched by
+     that patch. If you are lucky, you will also get `Tested-by` tags
+     from some of them.
 
      Once all tags are in place, one of the maintainers will pick up the
      entire series, update the commit messages to include the above tags
-     (Reviewed-by, Acked-by, Tested-by) at the bottom, and commit and
-     push your patches to upstream master. If this happens, pop the
+     (`Reviewed-by`, `Acked-by`, `Tested-by`) at the bottom, and commit
+     and push your patches to upstream master. If this happens, pop the
      champagne, and goto [step 12](#contrib-12).
 
 26.  <a name="contrib-26" href="#contrib-26">&sect;</a>
      More frequently though, you will get requests for changes for
      *some* of your patches, while *others* of your patches will be
-     fine, and garner Reviewed-by, Acked-by, and Tested-by tags. What
-     you need to do in this case is:
+     fine, and garner `Reviewed-by`, `Acked-by`, and `Tested-by` tags.
+     What you need to do in this case is:
 
      - create the next version of your local branch
      - pick up the tags that you got on the list
@@ -490,9 +490,9 @@ Contributor workflow
      You should carefully go through the feedback you received on the
      list for the v1 posting. (An email client that supports threading
      is a hard requirement for this.) For each v1 patch where you
-     received a tag (Reviewed-by, Tested-by, Acked-by), *replace* the
-     `pick` action with `reword`. Be sure not to modify anything else in
-     the rebase action list.
+     received a tag (`Reviewed-by`, `Tested-by`, `Acked-by`), *replace*
+     the `pick` action with `reword`. Be sure not to modify anything
+     else in the rebase action list.
 
      Once you modified these actions, save the file, and quit the
      editor. Git will now rebase your patches again (to the same
@@ -500,7 +500,7 @@ Contributor workflow
      patch that you marked `reword`, and will let you edit the commit
      message for the patch. This is when you append the tags from the
      mailing list feedback to the very end of the commit message,
-     underneath your own Signed-off-by tag. Save the updated commit
+     underneath your own `Signed-off-by` tag. Save the updated commit
      message and quit the editor; git will continue the rebase.
 
      If you mess up a commit message, don't panic. There are two options
@@ -595,7 +595,7 @@ Contributor workflow
      that needs an edit.
 
      A small caveat: if you significantly edit a patch, say, for the v3
-     posting, for which you have received a Reviewed-by or Tested-by
+     posting, for which you have received a `Reviewed-by` or `Tested-by`
      earlier, you are supposed to *drop* these tags, because your
      significant edits render them stale.
 
@@ -704,22 +704,22 @@ Maintainer workflow
 
      If you can immediately point out problems with (some of) the
      patches, do so. If you are pleased with (some of) the patches,
-     respond with your Reviewed-by, per patch. (Or, well, if you like it
-     all, to the cover letter.)
+     respond with your `Reviewed-by`, per patch. (Or, well, if you like
+     it all, to the cover letter.)
 
      If you agree with a patch, more or less, but lack the expertise to
      review it in depth (possible for patches that target a package that
-     you don't maintain), respond with your Acked-by.
+     you don't maintain), respond with your `Acked-by`.
 
 3.   <a name="maint-03" href="#maint-03">&sect;</a>
      When reviewing a v2, v3, ... posting of a series, focus on the
      changes. The contributor is expected to support you in this with:
 
-     - Picking up your Reviewed-by and Acked-by tags from your v1
+     - Picking up your `Reviewed-by` and `Acked-by` tags from your v1
        review. You can skip re-reviewing those patches in v2, especially
        because [contributor step 29](#contrib-29) instructs the
-       contributor to drop your earlier R-b or A-b if he or she reworks
-       the patch significantly.
+       contributor to drop your earlier `Reviewed-by` or `Acked-by` if
+       he or she reworks the patch significantly.
 
      - Listing the relative changes per patch, in the git-notes section.
        Refer to [contributor step 30](#contrib-30).
@@ -729,9 +729,9 @@ Maintainer workflow
 
 4.   <a name="maint-04" href="#maint-04">&sect;</a>
      Assuming the series has converged (i.e., all patches have gained
-     the necessary Reviewed-by and/or Acked-by tags), plus you have been
-     "elected" as the lucky maintainer to apply and push the series,
-     read on.
+     the necessary `Reviewed-by` and/or `Acked-by` tags), plus you have
+     been "elected" as the lucky maintainer to apply and push the
+     series, read on.
 
      (The following steps are also relevant if you would like to *test*
      the series, or if you would like to review each patch in the series
@@ -842,14 +842,14 @@ Maintainer workflow
      ```
 
      Here you should mark those patches with `reword` that have received
-     Reviewed-by, Acked-by, Tested-by tags on the mailing list after the
-     contributor's last posting. (Patches that garnered such tags in
-     earlier versions are supposed to carry those tags already, due to
-     [contributor step 28](#contrib-28).)
+     `Reviewed-by`, `Acked-by`, `Tested-by` tags on the mailing list
+     after the contributor's last posting. (Patches that garnered such
+     tags in earlier versions are supposed to carry those tags already,
+     due to [contributor step 28](#contrib-28).)
 
      When rewording the relevant patches, simply append the relevant
-     R-b, A-b, T-b tags from the mailing list feedback. (Refer to
-     [contributor step 28](#contrib-28).)
+     `Reviewed-by`, `Acked-by`, `Tested-by` tags from the mailing list
+     feedback. (Refer to [contributor step 28](#contrib-28).)
 
      Now, this rebase has a much better chance to succeed than `git am`
      in [maintainer step 7](#maint-07), for two reasons again. The first
@@ -875,9 +875,9 @@ Maintainer workflow
 
 13.  <a name="maint-13" href="#maint-13">&sect;</a>
      Okay, the build test passes! Maybe you want to runtime test it as
-     well. If you do, and it works, you can respond with a Tested-by to
-     the entire series on the list, *and* immediately add your own
-     Tested-by to the patches as well. Employ [maintainer step
+     well. If you do, and it works, you can respond with a `Tested-by`
+     to the entire series on the list, *and* immediately add your own
+     `Tested-by` to the patches as well. Employ [maintainer step
      1](#maint-01) accordingly.
 
 14.  <a name="maint-14" href="#maint-14">&sect;</a>
