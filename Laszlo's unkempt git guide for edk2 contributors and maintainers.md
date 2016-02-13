@@ -624,9 +624,11 @@ Contributor workflow
 
      So, please format the notes as follows:
 
-       v2:
-       - frobnicate quux [Jordan]
-       - perturb xizzy [Laszlo]
+     ```
+     v2:
+     - frobnicate quux [Jordan]
+     - perturb xizzy [Laszlo]
+     ```
 
      No line should be longer than 72 characters in the notes, and each
      entry should preferably mark who suggested that specific change for
