@@ -252,12 +252,14 @@ Contributor workflow
      ```
 
      This will commit the staged changes to your local branch called
-     `implement_foo_for_bar_v1`. You created this branch in step (13).
+     `implement_foo_for_bar_v1`. You created this branch in [step
+     13](#contrib-13).
 
      Before the commit occurs, git will fire up your preferred editor
      (from the `EDITOR` environment variable) for you to edit the commit
      message. The commit message will be primed from the template
-     created in step (07) and configured in step (08).
+     created in [step 7](#contrib-07) and configured in [step
+     8](#contrib-08).
 
      Above the template, you should add:
 
@@ -294,10 +296,11 @@ Contributor workflow
      ```
 
 20.  <a name="contrib-20" href="#contrib-20">&sect;</a>
-     If the command in step (19) reports problems, modify the source
-     code accordingly, then go back to step (16) and continue from
-     there. However, as a small but important change for step (18), run
-     `git commit` with the `--amend` option:
+     If the command in [step 19](#contrib-19) reports problems, modify
+     the source code accordingly, then go back to [step 16](#contrib-16)
+     and continue from there. However, as a small but important change
+     for [step 18](#contrib-18), run `git commit` with the `--amend`
+     option:
 
      ```
      git commit --amend
@@ -307,14 +310,15 @@ Contributor workflow
      also let you re-edit the commit message (the PatchCheck.py script
      can also find problems with the commit message format).
 
-     Re-run step (19) as well, to see if your patch is now solid.
+     Re-run [step 19](#contrib-19) as well, to see if your patch is now
+     solid.
 
 21.  <a name="contrib-21" href="#contrib-21">&sect;</a>
-     Write your next patch. That is, repeat this procedure (goto (15))
-     until you are happy with the series -- *each* single one of your
-     patches builds and runs (implementing the next atomic, logical step
-     in the bugfix or feature), and at the last patch, the feature /
-     bugfix is complete.
+     Write your next patch. That is, repeat this procedure (goto [step
+     15](#contrib-15)) until you are happy with the series -- *each*
+     single one of your patches builds and runs (implementing the next
+     atomic, logical step in the bugfix or feature), and at the last
+     patch, the feature / bugfix is complete.
 
 22.  <a name="contrib-22" href="#contrib-22">&sect;</a>
      It is now time to publish your changes for review.
@@ -333,20 +337,21 @@ Contributor workflow
      ```
 
      This command will connect to github using your remote configuration
-     added in step (11), employing the SSH authentication configured in
-     step (02).
+     added in [step 11](#contrib-11), employing the SSH authentication
+     configured in [step 2](#contrib-02).
 
      It will update the master branch in your personal repo on GitHub to
      your local master branch (which in turn follows the official master
-     branch, see step (12)).
+     branch, see [step 12](#contrib-12)).
 
-     It will also push the topic branch you created under step (13).
+     It will also push the topic branch you created under [step
+     13](#contrib-13).
 
 23.  <a name="contrib-23" href="#contrib-23">&sect;</a>
      Now we'll format the patches as email messages, and send them to
      the list. Standing in the root of your edk2 directory, run the
      following (note that the `-O` option needs customization: please
-     update the pathname to the file created in step (10)):
+     update the pathname to the file created in [step 10](#contrib-10)):
 
      ```
      rm -f -- *.patch
@@ -372,7 +377,7 @@ Contributor workflow
 
      - *reference*, by complete URL, the `implement_foo_for_bar_v1`
        branch in your personal GitHub repo -- the one that you pushed in
-       step (22),
+       [step 22](#contrib-22),
 
      - finally, add *all* of the Cc: tags to the cover letter that you
        used across all of the patches. This will ensure that even if a
@@ -420,7 +425,7 @@ Contributor workflow
      entire series, update the commit messages to include the above tags
      (Reviewed-by, Acked-by, Tested-by) at the bottom, and commit and
      push your patches to upstream master. If this happens, pop the
-     champagne, and goto step (12).
+     champagne, and goto [step 12](#contrib-12).
 
 26.  <a name="contrib-26" href="#contrib-26">&sect;</a>
      More frequently though, you will get requests for changes for
@@ -507,11 +512,12 @@ Contributor workflow
      git rebase --abort
      ```
 
-     and everything will be exactly like at the end of step (27).
+     and everything will be exactly like at the end of [step
+     27](#contrib-27).
 
      The second option if you mess up a commit message (and you notice
-     too late, i.e., the rebase finishes), is just to repeat step (28),
-     and fix up the commit message.
+     too late, i.e., the rebase finishes), is just to repeat [step
+     28](#contrib-28), and fix up the commit message.
 
      (There is a third option: the branch can be forcibly reset to a
      chronologically earlier HEAD, which you can collect from the
@@ -541,11 +547,11 @@ Contributor workflow
      last commit -- which is the patch you marked as `edit`).
 
      At this point you modify the code as necessary, and build it and
-     test it. Once satisfied, you run steps (16) and (17). After those
-     steps, your working tree will be clean relative to the staging
-     index, and the index will have all the necessary changes staged
-     relative to the last commit (which you marked as `edit` in the
-     rebase action list).
+     test it. Once satisfied, you run [step 16](#contrib-16) and [step
+     17](#contrib-17). After those steps, your working tree will be
+     clean relative to the staging index, and the index will have all
+     the necessary changes staged relative to the last commit (which you
+     marked as `edit` in the rebase action list).
 
      Now, if you ran
 
@@ -553,9 +559,10 @@ Contributor workflow
      git commit
      ```
 
-     at this point (i.e., step (18) verbatim), then git would *insert*
-     the staged changes as a *separate patch* into your series, so
-     *don't do that*; that's most likely not your intent. Instead, run
+     at this point (i.e., [step 18](#contrib-18) verbatim), then git
+     would *insert* the staged changes as a *separate patch* into your
+     series, so *don't do that*; that's most likely not your intent.
+     Instead, run
 
      ```
      git commit --amend
@@ -563,7 +570,7 @@ Contributor workflow
 
      which will squash your staged changes into the patch-to-be-edited.
 
-     Then see steps (19) and (20).
+     Then see [step 19](#contrib-19) and [step 20](#contrib-20).
 
      (I am leaving out some editing action types here, such as: dropping
      a patch entirely, inserting a new patch, reordering patches,
@@ -583,9 +590,9 @@ Contributor workflow
 
      This will complete the rebase.
 
-     You can repeat this step (step (29)) as many times as necessary.
-     Again, I recommend to run a full rebase per each patch that needs
-     an edit.
+     You can repeat this step ([step 29](#contrib-29)) as many times as
+     necessary. Again, I recommend to run a full rebase per each patch
+     that needs an edit.
 
      A small caveat: if you significantly edit a patch, say, for the v3
      posting, for which you have received a Reviewed-by or Tested-by
@@ -597,9 +604,10 @@ Contributor workflow
      This step is not strictly required, but it is a *huge* help for
      reviewers and maintainers.
 
-     Each time you finish a full rebase (an iteration of step (29)), you
-     should run your git GUI (`gitk` or anything else), and locate the
-     patch (by subject) that you just edited in step (29).
+     Each time you finish a full rebase (an iteration of [step
+     29](#contrib-29)), you should run your git GUI (`gitk` or anything
+     else), and locate the patch (by subject) that you just edited in
+     [step 29](#contrib-29).
 
      Grab the SHA1 commit hash of that patch, and run:
 
@@ -627,7 +635,7 @@ Contributor workflow
 
      Save the notes file and quit your editor, git will apply the
      changes. If you need to reedit the note, just repeat this step
-     (step (30)).
+     ([step 30](#contrib-30)).
 
      Very importantly, every time you complete a rebase, your notes are
      *preserved*, even if you edit the patch itself (code or commit
@@ -638,8 +646,8 @@ Contributor workflow
 31.  <a name="contrib-31" href="#contrib-31">&sect;</a>
      Push the next version to your personal repo again.
 
-     Practically, repeat step (22), but using the branch name
-     `implement_foo_for_bar_v2`.
+     Practically, repeat [step 22](#contrib-22), but using the branch
+     name `implement_foo_for_bar_v2`.
 
      (It is *very* important that you never ever modify
      `implement_foo_for_bar_v1` after you push it to your personal
@@ -653,7 +661,8 @@ Contributor workflow
 32.  <a name="contrib-32" href="#contrib-32">&sect;</a>
      Post the next version to the list.
 
-     In practice, repeat step (23), with the following modifications:
+     In practice, repeat [step 23](#contrib-23), with the following
+     modifications:
 
      - The subject prefix should state
 
@@ -667,14 +676,14 @@ Contributor workflow
        master..implement_foo_for_bar_v2
        ```
 
-     - The cover letter should reference the v2 branch pushed in step
-       (31).
+     - The cover letter should reference the v2 branch pushed in
+       [step 31](#contrib-31).
 
      - The cover letter should include or reference (with an URL to the
        mailing list archive) the cover letter of the v1 posting, and
        also summarize the v1->v2 changes.
 
-     Then repeat step (24).
+     Then repeat [step 24](#contrib-24).
 
 This is it, more or less, for a contributor. Nonetheless, I recommend
 reading the rest even to contributors, because it will help them
@@ -686,7 +695,8 @@ Maintainer workflow
 
 1.   <a name="maint-01" href="#maint-01">&sect;</a>
      You need the same settings in your edk2 clone as a contributor.
-     This includes contributor steps (01) through (11).
+     This includes [contributor step 1](#contrib-01) through
+     [contributor step 11](#contrib-11).
 
 2.   <a name="maint-02" href="#maint-02">&sect;</a>
      You get patches to review, either by CC, or you notice them on the
@@ -706,16 +716,16 @@ Maintainer workflow
      changes. The contributor is expected to support you in this with:
 
      - Picking up your Reviewed-by and Acked-by tags from your v1
-       review. You can skip re-reviewing those patches in v2,
-       especially because contributor step (29) instructs the
-       contributor to drop your earlier R-b or A-b if he or she
-       reworks the patch significantly.
+       review. You can skip re-reviewing those patches in v2, especially
+       because [contributor step 29](#contrib-29) instructs the
+       contributor to drop your earlier R-b or A-b if he or she reworks
+       the patch significantly.
 
      - Listing the relative changes per patch, in the git-notes section.
-       Refer to contributor step (30).
+       Refer to [contributor step 30](#contrib-30).
 
      - Summarizing the changes in the v2, v3, ... cover letters. Refer
-       to contributor step (32).
+       to [contributor step 32](#contrib-32).
 
 4.   <a name="maint-04" href="#maint-04">&sect;</a>
      Assuming the series has converged (i.e., all patches have gained
@@ -746,8 +756,8 @@ Maintainer workflow
 
 7.   <a name="maint-07" href="#maint-07">&sect;</a>
      Create an application/testing/review branch, and apply the patches
-     from the files you saved in maintainer step (5), from within your
-     MUA:
+     from the files you saved in [maintainer step 5](#maint-05), from
+     within your MUA:
 
      ```
      git checkout -b REVIEW_implement_foo_for_bar_vN master
@@ -760,12 +770,12 @@ Maintainer workflow
 
      So the first reason is that the patch may create or delete files,
      which implies `/dev/null` filenames in the git diff hunk headers.
-     Because of the `core.whitespace` setting in contributor step (05)
-     -- which we absolutely need due to the source files using CRLF
-     line terminators in the *internal* git representation --, git-am
-     might choke on those `/dev/null` lines. This depends on the
-     Content-transfer-encoding of the email that is saved in
-     maintainer step (5).
+     Because of the `core.whitespace` setting in [contributor step
+     5](#contrib-05) -- which we absolutely need due to the source files
+     using CRLF line terminators in the *internal* git representation
+     --, git-am might choke on those `/dev/null` lines. This depends on
+     the Content-transfer-encoding of the email that is saved in
+     [maintainer step 5](#maint-05).
 
      The second reason is that the master branch may have genuinely
      diverged from where it was when the contributor prepared his or her
@@ -778,12 +788,14 @@ Maintainer workflow
      git am --abort
      ```
 
-     and proceed to the next step, maintainer step (8). Otherwise, if
-     `git am` succeeds, skip forward to maintainer step (11).
+     and proceed to the next step, [maintainer step 8](#maint-08).
+     Otherwise, if `git am` succeeds, skip forward to [maintainer step
+     11](#maint-11).
 
 8.   <a name="maint-08" href="#maint-08">&sect;</a>
-     As an alternative to maintainer step (7), here we'll grab the
-     contributor's patches from his or her personal GitHub repo.
+     As an alternative to [maintainer step 7](#maint-07), here we'll
+     grab the contributor's patches from his or her personal GitHub
+     repo.
 
      First add his or her personal repo as a *remote* to your local
      clone (this step only needs to be done once, during all of
@@ -796,9 +808,9 @@ Maintainer workflow
      ```
 
      At this point you should of course use the repo URL that the
-     contributor shared in his or her cover letter, in contributor
-     step (23) or -- for a v2, v3, ... post -- in contributor step
-     (32).
+     contributor shared in his or her cover letter, in [contributor step
+     23](#contrib-23) or -- for a v2, v3, ... post -- in [contributor
+     step 32](#contrib-32).
 
 9.   <a name="maint-09" href="#maint-09">&sect;</a>
      Fetch any new commits and branches from the contributor's repo:
@@ -810,7 +822,8 @@ Maintainer workflow
 10.  <a name="maint-10" href="#maint-10">&sect;</a>
      Now, set up a local, non-tracking branch off of the contributor's
      relevant remote branch. You know about the relevant branch again
-     from the contributor's steps (23) or (32), i.e., the cover letter.
+     from [contributor step 23](#contrib-23) or [contributor step
+     32](#contrib-32), i.e., the cover letter.
 
      ```
      git checkout --no-track                         \
@@ -819,10 +832,10 @@ Maintainer workflow
      ```
 
 11.  <a name="maint-11" href="#maint-11">&sect;</a>
-     Rebase the contributor's series -- using your local branch that
-     you created either in maintainer step (7) or in maintainer step
-     (10) -- to the local master branch (which you refreshed from
-     upstream master in maintainer step (6)):
+     Rebase the contributor's series -- using your local branch that you
+     created either in [maintainer step 7](#maint-07) or in [maintainer
+     step 10](#maint-10) -- to the local master branch (which you
+     refreshed from upstream master in [maintainer step 6](#maint-06)):
 
      ```
      git rebase -i master REVIEW_implement_foo_for_bar_vN
@@ -832,18 +845,18 @@ Maintainer workflow
      Reviewed-by, Acked-by, Tested-by tags on the mailing list after the
      contributor's last posting. (Patches that garnered such tags in
      earlier versions are supposed to carry those tags already, due to
-     contributor step (28).)
+     [contributor step 28](#contrib-28).)
 
      When rewording the relevant patches, simply append the relevant
      R-b, A-b, T-b tags from the mailing list feedback. (Refer to
-     contributor step (28).)
+     [contributor step 28](#contrib-28).)
 
      Now, this rebase has a much better chance to succeed than `git am`
-     in maintainer step (7), for two reasons again. The first reason is
-     that the problem with the `/dev/null` headers just doesn't exist.
-     The second reason is that `git rebase`, *unlike* `git am`, knows
-     *whence* you are rebasing, which helps it immensely in calculating
-     conflict resolutions automatically.
+     in [maintainer step 7](#maint-07), for two reasons again. The first
+     reason is that the problem with the `/dev/null` headers just
+     doesn't exist. The second reason is that `git rebase`, *unlike*
+     `git am`, knows *whence* you are rebasing, which helps it immensely
+     in calculating conflict resolutions automatically.
 
      Nonetheless, the rebase might still fail, if meanwhile there have
      been intrusive / conflicting changes on the upstream master branch.
@@ -862,10 +875,10 @@ Maintainer workflow
 
 13.  <a name="maint-13" href="#maint-13">&sect;</a>
      Okay, the build test passes! Maybe you want to runtime test it as
-     well. If you do, and it works, you can respond with a Tested-by
-     to the entire series on the list, *and* immediately add your own
-     Tested-by to the patches as well. Employ maintainer step (1)
-     accordingly.
+     well. If you do, and it works, you can respond with a Tested-by to
+     the entire series on the list, *and* immediately add your own
+     Tested-by to the patches as well. Employ [maintainer step
+     1](#maint-01) accordingly.
 
 14.  <a name="maint-14" href="#maint-14">&sect;</a>
      Time to push the patches to upstream master. Take a big breath :),
@@ -883,29 +896,31 @@ Maintainer workflow
      If it succeeds, you deserve an alcoholic (or non-alcoholic) drink
      of your choice, you're done.
 
-     If it fails, then the reason is that *another maintainer*
-     executed these steps in parallel, and moved forward the upstream
-     master branch *after* your maintainer step (6), but before your
-     maintainer step (14). If github accepted your push in this case,
-     that would cause the *other* maintainer's push to go lost. So,
-     proceed to the next step.
+     If it fails, then the reason is that *another maintainer* executed
+     these steps in parallel, and moved forward the upstream master
+     branch *after* your [maintainer step 6](#maint-06), but before your
+     [maintainer step 14](#maint-14). If github accepted your push in
+     this case, that would cause the *other* maintainer's push to go
+     lost. So, proceed to the next step.
 
 15.  <a name="maint-15" href="#maint-15">&sect;</a>
      Repeat the following steps:
 
-     - maintainer step (6) -- Refresh your local master branch.
+     - [maintainer step 6](#maint-06) -- Refresh your local master
+       branch.
 
        *Do not forget* the `git checkout master` part in that step!
 
-     - maintainer step (11) -- Rebase the contributor's series.
+     - [maintainer step 11](#maint-11) -- Rebase the contributor's
+       series.
 
-       No changes should be necessary, but if conflicts are found,
-       those are due to the fresh commits pushed by the other
-       maintainer, mentioned in maintainer step (14). The possible
-       remedies are discussed in maintainer step (11) -- fix up the
-       conflicts yourself, or ask the contributor to rebase and post a
-       new version.
+       No changes should be necessary, but if conflicts are found, those
+       are due to the fresh commits pushed by the other maintainer,
+       mentioned in [maintainer step 14](#maint-14). The possible
+       remedies are discussed in [maintainer step 11](#maint-11) -- fix
+       up the conflicts yourself, or ask the contributor to rebase and
+       post a new version.
 
-     - maintainer steps (12) through (14) -- rebuild, optionally
-       retest, try pushing again.
+     - [maintainer step 12](#maint-12) through [maintainer step
+       14](#maint-14) -- rebuild, optionally retest, try pushing again.
 
