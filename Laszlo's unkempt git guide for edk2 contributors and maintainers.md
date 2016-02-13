@@ -177,7 +177,7 @@ Contributor workflow
 14.  Make sure you have the build environment set up:
 
      ```
-     source edk2setup.sh
+     source edksetup.sh
      make -C "$EDK_TOOLS_PATH"
      ```
 
