@@ -67,7 +67,7 @@ Contributor workflow
      git config core.pager             cat
      git config core.whitespace        cr-at-eol
      git config diff.algorithm         patience
-     git config diff.ini.xfuncname     '^\[[A-Za-z0-9_.,   ]+]'
+     git config diff.ini.xfuncname     '^\[[A-Za-z0-9_., ]+]'
      git config diff.renames           copies
      git config format.signoff         false
      git config notes.rewriteRef       refs/notes/commits
