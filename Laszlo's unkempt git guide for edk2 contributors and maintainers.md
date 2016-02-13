@@ -195,7 +195,19 @@ Contributor workflow
      ```
 
      This command will ask you interactively about staging each separate
-     hunk. See the manual for `git add`.
+     hunk, for files that git already tracks. In order to stage the
+     addition of a new file, use
+
+     ```
+     git add pathname
+     ```
+
+     Finally, for staging the removal of a file that git has been
+     tracking, issue
+
+     ```
+     git rm pathname
+     ```
 
 17.  When done, you can run
 
