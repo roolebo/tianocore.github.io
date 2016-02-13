@@ -85,8 +85,8 @@ Contributor workflow
      ```
 
 7.   Create a file called `tianocore.template` somewhere outside your
-     edk2 clone, with the following contents (remove leading
-     whitespace). Note that the last line requires customization.
+     edk2 clone, with the following contents. Note that the last line
+     requires customization.
 
      ```
      [empty line]
@@ -109,8 +109,7 @@ Contributor workflow
      .git/info/attributes
      ```
 
-     (create it if it doesn't exist), and add the following contents
-     (with the leading whitespace removed):
+     (create it if it doesn't exist), and add the following contents:
 
      ```
      *.efi     -diff
@@ -130,8 +129,7 @@ Contributor workflow
      ```
 
 10.  Create a file called `edk2.diff.order` somewhere outside your local
-     clone, with the following contents (removing the leading
-     whitespace):
+     clone, with the following contents:
 
      ```
      *.dec
