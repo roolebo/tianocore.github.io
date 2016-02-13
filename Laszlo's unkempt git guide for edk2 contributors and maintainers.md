@@ -99,7 +99,7 @@ Contributor workflow
      (requires customization):
 
      ```
-     git config commit.template \
+     git config commit.template                   \
        FULL_PATHNAME_OF_FILE_CREATED_IN_LAST_STEP
      ```
 
@@ -146,8 +146,8 @@ Contributor workflow
      your local clone:
 
      ```
-     git remote add -f --no-tags \
-       YOUR_GITHUB_ID \
+     git remote add -f --no-tags              \
+       YOUR_GITHUB_ID                         \
        git@github.com:YOUR_GITHUB_ID/edk2.git
      ```
 
@@ -417,7 +417,7 @@ Contributor workflow
      git checkout master
      git pull
 
-     git checkout \
+     git checkout                  \
        -b implement_foo_for_bar_v2 \
        implement_foo_for_bar_v1
 
@@ -748,8 +748,8 @@ Maintainer workflow
      the collaboration with a given contributor):
 
      ```
-     git remote add --no-tags \
-       HIS_OR_HER_GITHUB_ID \
+     git remote add --no-tags                           \
+       HIS_OR_HER_GITHUB_ID                             \
        https://github.com/HIS_OR_HER_GITHUB_ID/edk2.git
      ```
 
@@ -769,8 +769,8 @@ Maintainer workflow
      from the contributor's steps (23) or (32), i.e., the cover letter.
 
      ```
-     git checkout --no-track \
-       -b REVIEW_implement_foo_for_bar_vN \
+     git checkout --no-track                         \
+       -b REVIEW_implement_foo_for_bar_vN            \
        HIS_OR_HER_GITHUB_ID/implement_foo_for_bar_vN
      ```
 
