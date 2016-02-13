@@ -749,8 +749,10 @@ Maintainer workflow
 6.   <a name="maint-06" href="#maint-06">&sect;</a>
      Refresh your local master branch.
 
-       git checkout master
-       git pull
+     ```
+     git checkout master
+     git pull
+     ```
 
      Note that it is *extremely* important to switch to the master
      branch, with the checkout command above, before you run `git pull`.
