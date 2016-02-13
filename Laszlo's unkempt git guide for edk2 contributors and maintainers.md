@@ -237,9 +237,9 @@ Contributor workflow
      `implement_foo_for_bar_v1`. You created this branch in step (13).
 
      Before the commit occurs, git will fire up your preferred editor
-     (from the $EDITOR variable) for you to edit the commit message. The
-     commit message will be primed from the template created in step
-     (07) and configured in step (08).
+     (from the `EDITOR` environment variable) for you to edit the commit
+     message. The commit message will be primed from the template
+     created in step (07) and configured in step (08).
 
      Above the template, you should add:
 
@@ -448,9 +448,9 @@ Contributor workflow
      git rebase -i master implement_foo_for_bar_v2
      ```
 
-     This will open your $EDITOR with a list of your patches, identified
-     by commit hash and subject line, each prefixed with a rebase
-     *action*. By default, the rebase action will be `pick`.
+     This will open your `EDITOR` with a list of your patches,
+     identified by commit hash and subject line, each prefixed with a
+     rebase *action*. By default, the rebase action will be `pick`.
 
      You should carefully go through the feedback you received on the
      list for the v1 posting. (An email client that supports threading
