@@ -245,7 +245,9 @@ Contributor workflow
 
      - a subject line, no longer than 74-76 characters, consisting of
 
+       ```
        PackageName: ModuleName: summary of changes
+       ```
 
      - an empty line
 
