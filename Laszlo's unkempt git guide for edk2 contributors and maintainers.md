@@ -16,9 +16,11 @@ workflows.
 Contributor workflow
 ====================
 
-1.   Create an account on GitHub.
+1.   <a name="contrib-01" href="#contrib-01">&sect;</a>
+     Create an account on GitHub.
 
-2.   Enable SSH authentication for your account.
+2.   <a name="contrib-02" href="#contrib-02">&sect;</a>
+     Enable SSH authentication for your account.
 
      https://help.github.com/articles/generating-an-ssh-key/
 
@@ -38,21 +40,24 @@ Contributor workflow
        IdentityFile  ~/.ssh/id_rsa_for_github
      ```
 
-3.   Fork the following repository on GitHub into your own GitHub
+3.   <a name="contrib-03" href="#contrib-03">&sect;</a>
+     Fork the following repository on GitHub into your own GitHub
      account, using the GitHub web GUI:
 
        https://github.com/tianocore/edk2/
 
      (My personal fork is at https://github.com/lersek/edk2/)
 
-4.   Clone the official edk2 repository to your local computer:
+4.   <a name="contrib-04" href="#contrib-04">&sect;</a>
+     Clone the official edk2 repository to your local computer:
 
      ```
      cd some-appropriate-directory
      git clone https://github.com/tianocore/edk2.git
      ```
 
-5.   Implement the following git settings for your local clone, i.e.,
+5.   <a name="contrib-05" href="#contrib-05">&sect;</a>
+     Implement the following git settings for your local clone, i.e.,
      while standing in your local edk2 directory (these steps don't need
      customization):
 
@@ -76,7 +81,8 @@ Contributor workflow
      git config sendemail.to           edk2-devel@lists.01.org
      ```
 
-6.   Also implement the following -- they need customization:
+6.   <a name="contrib-06" href="#contrib-06">&sect;</a>
+     Also implement the following -- they need customization:
 
      ```
      git config sendemail.smtpserver FQDN_OF_YOUR_LOCAL_SMTP_SERVER
@@ -84,7 +90,8 @@ Contributor workflow
      git config user.name            "Your Name"
      ```
 
-7.   Create a file called `tianocore.template` somewhere outside your
+7.   <a name="contrib-07" href="#contrib-07">&sect;</a>
+     Create a file called `tianocore.template` somewhere outside your
      edk2 clone, with the following contents. Note that the last line
      requires customization.
 
@@ -95,7 +102,8 @@ Contributor workflow
      Signed-off-by: Your Name <Your Email Address>
      ```
 
-8.   Standing in your edk2 clone, implement the following setting
+8.   <a name="contrib-08" href="#contrib-08">&sect;</a>
+     Standing in your edk2 clone, implement the following setting
      (requires customization):
 
      ```
@@ -103,7 +111,8 @@ Contributor workflow
        FULL_PATHNAME_OF_FILE_CREATED_IN_LAST_STEP
      ```
 
-9.   Open the file
+9.   <a name="contrib-09" href="#contrib-09">&sect;</a>
+     Open the file
 
      ```
      .git/info/attributes
@@ -128,7 +137,8 @@ Contributor workflow
      *.inf     diff=ini
      ```
 
-10.  Create a file called `edk2.diff.order` somewhere outside your local
+10.  <a name="contrib-10" href="#contrib-10">&sect;</a>
+     Create a file called `edk2.diff.order` somewhere outside your local
      clone, with the following contents:
 
      ```
@@ -142,7 +152,8 @@ Contributor workflow
      *.c
      ```
 
-11.  Add your own fork of edk2 that lives on GitHub as a *remote* to
+11.  <a name="contrib-11" href="#contrib-11">&sect;</a>
+     Add your own fork of edk2 that lives on GitHub as a *remote* to
      your local clone:
 
      ```
@@ -151,7 +162,8 @@ Contributor workflow
        git@github.com:YOUR_GITHUB_ID/edk2.git
      ```
 
-12.  At this point you are ready to start developing. Refresh your local
+12.  <a name="contrib-12" href="#contrib-12">&sect;</a>
+     At this point you are ready to start developing. Refresh your local
      master branch from the upstream master branch:
 
      ```
@@ -166,7 +178,8 @@ Contributor workflow
      These commands will fetch any new commits from upstream master, and
      fast-forward your local tracking branch to the new HEAD.
 
-13.  Create and check out a topic branch for the feature or bugfix that
+13.  <a name="contrib-13" href="#contrib-13">&sect;</a>
+     Create and check out a topic branch for the feature or bugfix that
      you would like to work on. The topic branch name requires
      customization of course.
 
@@ -174,19 +187,22 @@ Contributor workflow
      git checkout -b implement_foo_for_bar_v1 master
      ```
 
-14.  Make sure you have the build environment set up:
+14.  <a name="contrib-14" href="#contrib-14">&sect;</a>
+     Make sure you have the build environment set up:
 
      ```
      source edksetup.sh
      make -C "$EDK_TOOLS_PATH"
      ```
 
-15.  Implement the next atomic, logical step in your feature or bugfix.
+15.  <a name="contrib-15" href="#contrib-15">&sect;</a>
+     Implement the next atomic, logical step in your feature or bugfix.
      Test that it builds and works. You should not cross module (driver,
      library class, library instance) boundaries within a single patch,
      if possible.
 
-16.  Add your changes gradually to the staging area of git (it is called
+16.  <a name="contrib-16" href="#contrib-16">&sect;</a>
+     Add your changes gradually to the staging area of git (it is called
      the "index"):
 
      ```
@@ -208,7 +224,8 @@ Contributor workflow
      git rm pathname
      ```
 
-17.  When done, you can run
+17.  <a name="contrib-17" href="#contrib-17">&sect;</a>
+     When done, you can run
 
      ```
      git status
@@ -227,7 +244,8 @@ Contributor workflow
      git diff
      ```
 
-18.  If you are happy with the staged changes, run:
+18.  <a name="contrib-18" href="#contrib-18">&sect;</a>
+     If you are happy with the staged changes, run:
 
      ```
      git commit
@@ -267,14 +285,16 @@ Contributor workflow
        Cc: Laszlo Ersek <lersek@redhat.com>
        ```
 
-19.  When you have committed the patch, it is best to confirm it adheres
+19.  <a name="contrib-19" href="#contrib-19">&sect;</a>
+     When you have committed the patch, it is best to confirm it adheres
      to the edk2 coding style. Run:
 
      ```
      python BaseTools/Scripts/PatchCheck.py -1
      ```
 
-20.  If the command in step (19) reports problems, modify the source
+20.  <a name="contrib-20" href="#contrib-20">&sect;</a>
+     If the command in step (19) reports problems, modify the source
      code accordingly, then go back to step (16) and continue from
      there. However, as a small but important change for step (18), run
      `git commit` with the `--amend` option:
@@ -289,13 +309,15 @@ Contributor workflow
 
      Re-run step (19) as well, to see if your patch is now solid.
 
-21.  Write your next patch. That is, repeat this procedure (goto (15))
+21.  <a name="contrib-21" href="#contrib-21">&sect;</a>
+     Write your next patch. That is, repeat this procedure (goto (15))
      until you are happy with the series -- *each* single one of your
      patches builds and runs (implementing the next atomic, logical step
      in the bugfix or feature), and at the last patch, the feature /
      bugfix is complete.
 
-22.  It is now time to publish your changes for review.
+22.  <a name="contrib-22" href="#contrib-22">&sect;</a>
+     It is now time to publish your changes for review.
 
      (At this point, at the latest, it is important to review your full
      series using a git GUI; for example `gitk`. Practically, any time
@@ -320,7 +342,8 @@ Contributor workflow
 
      It will also push the topic branch you created under step (13).
 
-23.  Now we'll format the patches as email messages, and send them to
+23.  <a name="contrib-23" href="#contrib-23">&sect;</a>
+     Now we'll format the patches as email messages, and send them to
      the list. Standing in the root of your edk2 directory, run the
      following (note that the `-O` option needs customization: please
      update the pathname to the file created in step (10)):
@@ -357,7 +380,8 @@ Contributor workflow
        across the series, he or she will get a copy of your cover
        letter, which outlines the full feature or bugfix.
 
-24.  Time to mail-bomb the list! Do the following:
+24.  <a name="contrib-24" href="#contrib-24">&sect;</a>
+     Time to mail-bomb the list! Do the following:
 
      ```
      git send-email         \
@@ -385,7 +409,8 @@ Contributor workflow
      rm -f -- *.patch
      ```
 
-25.  On the list, you will get feedback. In the optimal case, each patch
+25.  <a name="contrib-25" href="#contrib-25">&sect;</a>
+     On the list, you will get feedback. In the optimal case, each patch
      will get a Reviewed-by tag (or an Acked-by tag) from at least one
      maintainer that is responsible for the package being touched by
      that patch. If you are lucky, you will also get Tested-by tags from
@@ -397,7 +422,8 @@ Contributor workflow
      push your patches to upstream master. If this happens, pop the
      champagne, and goto step (12).
 
-26.  More frequently though, you will get requests for changes for
+26.  <a name="contrib-26" href="#contrib-26">&sect;</a>
+     More frequently though, you will get requests for changes for
      *some* of your patches, while *others* of your patches will be
      fine, and garner Reviewed-by, Acked-by, and Tested-by tags. What
      you need to do in this case is:
@@ -412,7 +438,8 @@ Contributor workflow
      In the following steps, we'll go through each of these in more
      detail.
 
-27.  Create the next version of your local branch. Run the following
+27.  <a name="contrib-27" href="#contrib-27">&sect;</a>
+     Create the next version of your local branch. Run the following
      commands in your edk2 tree:
 
      ```
@@ -443,7 +470,8 @@ Contributor workflow
      outside of the scope of this writeup. For now we'll assume that
      your last command completes without errors.
 
-28.  Pick up the tags that you got on the list. Run the following
+28.  <a name="contrib-28" href="#contrib-28">&sect;</a>
+     Pick up the tags that you got on the list. Run the following
      command:
 
      ```
@@ -492,7 +520,8 @@ Contributor workflow
      At the end of this step, you will have picked up the feedback tags
      from the list, for each affected patch individually.
 
-29.  Implement the requested changes. For this you run again
+29.  <a name="contrib-29" href="#contrib-29">&sect;</a>
+     Implement the requested changes. For this you run again
 
      ```
      git rebase -i master implement_foo_for_bar_v2
@@ -563,7 +592,8 @@ Contributor workflow
      earlier, you are supposed to *drop* these tags, because your
      significant edits render them stale.
 
-30.  Mark the v2 changes on each patch outside of the commit message.
+30.  <a name="contrib-30" href="#contrib-30">&sect;</a>
+     Mark the v2 changes on each patch outside of the commit message.
      This step is not strictly required, but it is a *huge* help for
      reviewers and maintainers.
 
@@ -605,7 +635,8 @@ Contributor workflow
      updates, because in that case you can add the v3 section *on top*
      of v2 in the notes!
 
-31.  Push the next version to your personal repo again.
+31.  <a name="contrib-31" href="#contrib-31">&sect;</a>
+     Push the next version to your personal repo again.
 
      Practically, repeat step (22), but using the branch name
      `implement_foo_for_bar_v2`.
@@ -619,7 +650,8 @@ Contributor workflow
      github repo either. If a new version is necessary, you'll post a
      new version, and you'll push a new branch too.)
 
-32.  Post the next version to the list.
+32.  <a name="contrib-32" href="#contrib-32">&sect;</a>
+     Post the next version to the list.
 
      In practice, repeat step (23), with the following modifications:
 
@@ -652,10 +684,12 @@ actions above assist maintainers in doing their work.
 Maintainer workflow
 ===================
 
-1.   You need the same settings in your edk2 clone as a contributor.
+1.   <a name="maint-01" href="#maint-01">&sect;</a>
+     You need the same settings in your edk2 clone as a contributor.
      This includes contributor steps (01) through (11).
 
-2.   You get patches to review, either by CC, or you notice them on the
+2.   <a name="maint-02" href="#maint-02">&sect;</a>
+     You get patches to review, either by CC, or you notice them on the
      list.
 
      If you can immediately point out problems with (some of) the
@@ -667,7 +701,8 @@ Maintainer workflow
      review it in depth (possible for patches that target a package that
      you don't maintain), respond with your Acked-by.
 
-3.   When reviewing a v2, v3, ... posting of a series, focus on the
+3.   <a name="maint-03" href="#maint-03">&sect;</a>
+     When reviewing a v2, v3, ... posting of a series, focus on the
      changes. The contributor is expected to support you in this with:
 
      - Picking up your Reviewed-by and Acked-by tags from your v1
@@ -682,7 +717,8 @@ Maintainer workflow
      - Summarizing the changes in the v2, v3, ... cover letters. Refer
        to contributor step (32).
 
-4.   Assuming the series has converged (i.e., all patches have gained
+4.   <a name="maint-04" href="#maint-04">&sect;</a>
+     Assuming the series has converged (i.e., all patches have gained
      the necessary Reviewed-by and/or Acked-by tags), plus you have been
      "elected" as the lucky maintainer to apply and push the series,
      read on.
@@ -692,13 +728,15 @@ Maintainer workflow
      against a fully up-to-date, complete codebase, with all the
      precursor patches from the series applied.)
 
-5.   The first attempt at applying the contributor's series is directly
+5.   <a name="maint-05" href="#maint-05">&sect;</a>
+     The first attempt at applying the contributor's series is directly
      from emails. For this, you *absolutely* need a mail user agent
      (MUA) that allows you to save patch emails *intact*.
 
      So save all the patch emails into a dedicated, new folder.
 
-6.   Refresh your local master branch.
+6.   <a name="maint-06" href="#maint-06">&sect;</a>
+     Refresh your local master branch.
 
        git checkout master
        git pull
@@ -706,7 +744,8 @@ Maintainer workflow
      Note that it is *extremely* important to switch to the master
      branch, with the checkout command above, before you run `git pull`.
 
-7.   Create an application/testing/review branch, and apply the patches
+7.   <a name="maint-07" href="#maint-07">&sect;</a>
+     Create an application/testing/review branch, and apply the patches
      from the files you saved in maintainer step (5), from within your
      MUA:
 
@@ -742,7 +781,8 @@ Maintainer workflow
      and proceed to the next step, maintainer step (8). Otherwise, if
      `git am` succeeds, skip forward to maintainer step (11).
 
-8.   As an alternative to maintainer step (7), here we'll grab the
+8.   <a name="maint-08" href="#maint-08">&sect;</a>
+     As an alternative to maintainer step (7), here we'll grab the
      contributor's patches from his or her personal GitHub repo.
 
      First add his or her personal repo as a *remote* to your local
@@ -760,13 +800,15 @@ Maintainer workflow
      step (23) or -- for a v2, v3, ... post -- in contributor step
      (32).
 
-9.   Fetch any new commits and branches from the contributor's repo:
+9.   <a name="maint-09" href="#maint-09">&sect;</a>
+     Fetch any new commits and branches from the contributor's repo:
 
      ```
      git fetch HIS_OR_HER_GITHUB_ID
      ```
 
-10.  Now, set up a local, non-tracking branch off of the contributor's
+10.  <a name="maint-10" href="#maint-10">&sect;</a>
+     Now, set up a local, non-tracking branch off of the contributor's
      relevant remote branch. You know about the relevant branch again
      from the contributor's steps (23) or (32), i.e., the cover letter.
 
@@ -776,7 +818,8 @@ Maintainer workflow
        HIS_OR_HER_GITHUB_ID/implement_foo_for_bar_vN
      ```
 
-11.  Rebase the contributor's series -- using your local branch that
+11.  <a name="maint-11" href="#maint-11">&sect;</a>
+     Rebase the contributor's series -- using your local branch that
      you created either in maintainer step (7) or in maintainer step
      (10) -- to the local master branch (which you refreshed from
      upstream master in maintainer step (6)):
@@ -808,7 +851,8 @@ Maintainer workflow
      you can ask the contributor to rebase his or her work on current
      upstream master, and to post it as the next version.
 
-12.  Okay, now you have the contributor's patches on top of your local
+12.  <a name="maint-12" href="#maint-12">&sect;</a>
+     Okay, now you have the contributor's patches on top of your local
      master branch, with all the tags added from the mailing list. Time
      to build-test it! If the build fails, report it to the list, and
      ask the contributor for a new version.
@@ -816,13 +860,15 @@ Maintainer workflow
      (The OCD variant of this step is to build-test the contributor's
      series at *each* constituting patch, to enforce bisectability.)
 
-13.  Okay, the build test passes! Maybe you want to runtime test it as
+13.  <a name="maint-13" href="#maint-13">&sect;</a>
+     Okay, the build test passes! Maybe you want to runtime test it as
      well. If you do, and it works, you can respond with a Tested-by
      to the entire series on the list, *and* immediately add your own
      Tested-by to the patches as well. Employ maintainer step (1)
      accordingly.
 
-14.  Time to push the patches to upstream master. Take a big breath :),
+14.  <a name="maint-14" href="#maint-14">&sect;</a>
+     Time to push the patches to upstream master. Take a big breath :),
      and run
 
      ```
@@ -844,7 +890,8 @@ Maintainer workflow
      that would cause the *other* maintainer's push to go lost. So,
      proceed to the next step.
 
-15.  Repeat the following steps:
+15.  <a name="maint-15" href="#maint-15">&sect;</a>
+     Repeat the following steps:
 
      - maintainer step (6) -- Refresh your local master branch.
 
