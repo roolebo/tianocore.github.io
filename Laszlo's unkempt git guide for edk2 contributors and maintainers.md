@@ -259,7 +259,7 @@ Contributor workflow
      - One or more tags directly above the `Contributed-under` line
        (which comes from the template) that CC the package maintainers
        that are relevant for this specific patch. Consult the
-       Maintainers.txt file. For example, if you wrote a patch for
+       `Maintainers.txt` file. For example, if you wrote a patch for
        OvmfPkg, add:
 
        ```
