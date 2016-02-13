@@ -307,7 +307,7 @@ Contributor workflow
      ```
 
      This will *squash* your fixups into the last commit, and it will
-     also let you re-edit the commit message (the PatchCheck.py script
+     also let you re-edit the commit message (the `PatchCheck.py` script
      can also find problems with the commit message format).
 
      Re-run [step 19](#contrib-19) as well, to see if your patch is now
@@ -398,10 +398,10 @@ Contributor workflow
      ```
 
      This command might ask you about sending the messages in response
-     to another message (identified by Message-Id). Just press Enter
+     to another message (identified by `Message-Id`). Just press Enter
      without entering anything.
 
-     You might want to run the command first with the --dry-run
+     You might want to run the command first with the `--dry-run`
      parameter prepended.
 
      The messages will be posted to the list only, and to the
@@ -581,8 +581,8 @@ Contributor workflow
 
      Okay, your patch is fixed up now as the reviewer(s) requested; it
      builds, it runs (at the level expected at this stage into your
-     series); PatchCheck.py is happy with it; and you have it committed.
-     Time to run:
+     series); `PatchCheck.py` is happy with it; and you have it
+     committed. Time to run:
 
      ```
      git rebase --continue
@@ -651,7 +651,7 @@ Contributor workflow
 
      (It is *very* important that you never ever modify
      `implement_foo_for_bar_v1` after you push it to your personal
-     github repo. Namely, this FEATURE_BRANCH_vN kind of branch is
+     github repo. Namely, this `feature_branch_vN` kind of branch is
      supposed to reflect your vN mailing list posting precisely. Since
      your mailing list posting is read only (you cannot modify emails
      you sent), you must not modify the corresponding branches in your
@@ -774,7 +774,7 @@ Maintainer workflow
      5](#contrib-05) -- which we absolutely need due to the source files
      using CRLF line terminators in the *internal* git representation
      --, git-am might choke on those `/dev/null` lines. This depends on
-     the Content-transfer-encoding of the email that is saved in
+     the `Content-transfer-encoding` of the email that is saved in
      [maintainer step 5](#maint-05).
 
      The second reason is that the master branch may have genuinely
@@ -889,7 +889,7 @@ Maintainer workflow
      ```
 
      This will *attempt* to push the commits from your local
-     REVIEW_implement_foo_for_bar_vN branch -- which is based off of
+     `REVIEW_implement_foo_for_bar_vN` branch -- which is based off of
      your local master branch -- to the main github repo, *and* move the
      upstream master branch forward to the final commit among those.
 
