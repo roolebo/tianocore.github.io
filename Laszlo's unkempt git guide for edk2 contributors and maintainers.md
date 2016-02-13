@@ -73,6 +73,7 @@ Contributor workflow
      git config notes.rewriteRef       refs/notes/commits
      git config sendemail.chainreplyto false
      git config sendemail.thread       true
+     git config sendemail.to           edk2-devel@lists.01.org
      ```
 
 6.   Also implement the following -- they need customization:
@@ -359,12 +360,11 @@ Contributor workflow
 24.  Time to mail-bomb the list! Do the following:
 
      ```
-     git send-email                 \
-       --suppress-cc=author         \
-       --suppress-cc=self           \
-       --suppress-cc=cc             \
-       --suppress-cc=sob            \
-       --to=edk2-devel@lists.01.org \
+     git send-email         \
+       --suppress-cc=author \
+       --suppress-cc=self   \
+       --suppress-cc=cc     \
+       --suppress-cc=sob    \
        *.patch
      ```
 
