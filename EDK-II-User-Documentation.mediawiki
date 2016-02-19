@@ -68,7 +68,7 @@ UEFI Drivers are described in the Unified Extensible Firmware Interface Specific
 
 <tr>
     <td>
-[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDKII_UserManual_0_7.pdf PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II_UserManual_0_7.pdf PDF]
     </td>
 
     <td>
@@ -81,7 +81,7 @@ This document provides detailed instructions for downloading, configuring, and b
 
 <tr>
     <td>
-[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDKII%20Module%20Writer_s%20Guide_0_7.pdf PDF ]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II%20Module%20Writer_s%20Guide_0_7.pdf PDF]
     </td>
 
     <td>
