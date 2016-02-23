@@ -74,6 +74,7 @@ Contributor workflow
      git config diff.algorithm         patience
      git config diff.ini.xfuncname     '^\[[A-Za-z0-9_., ]+]'
      git config diff.renames           copies
+     git config format.coverletter     true
      git config format.signoff         false
      git config notes.rewriteRef       refs/notes/commits
      git config sendemail.chainreplyto false
@@ -359,7 +360,6 @@ Contributor workflow
      git format-patch                               \
        --notes                                      \
        -O"/fully/qualified/path/to/edk2.diff.order" \
-       --cover-letter                               \
        --numbered                                   \
        --subject-prefix="PATCH v1"                  \
        --stat=1000                                  \
