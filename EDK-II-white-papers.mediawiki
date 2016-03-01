@@ -12,7 +12,23 @@
 
 </td>
 </tr>
+<tr>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Memory_Map_And_Practices_in_UEFI_BIOS_V2.pdf .PDF]
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Memory_Map_And_Practices_in_UEFI_BIOS_V2.pdf A Tour Beyond BIOS Memory Map and Practices in UEFI BIOS]- contributed by Vincent Zimmer and Jiewen Yao<BR><BR>
 
+This paper introduces the memory map security practices in UEFI BIOS.<BR>
+Audience: This paper assumes that audience has basic EDKII/UEFI firmware development experience.<BR><BR>
+ 
+The main job of BIOS is to initialize the platform hardware and report information to a generic operating system (OS). The memory map is one of the most important pieces of information. The operating system can only load a kernel, driver or application in the right place if it knows how memory is allocated.
+In '''UEFI Memory Map''', we introduced the memory map design in UEFI BIOS, and saw how a typical platform reports the memory map to an OS. In this paper we will discuss how to enhance the memory map reporting and provide security practice for memory protection to harden platforms.
+
+
+* March 2016
+</td>
+</tr>
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_SMM.pdf  .PDF] or [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/Edk_II_Topology/EDK_II_Topology_-_SMM.vsd .VSD]
