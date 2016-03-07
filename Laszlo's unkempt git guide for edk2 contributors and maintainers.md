@@ -502,6 +502,12 @@ Contributor workflow
      underneath your own `Signed-off-by` tag. Save the updated commit
      message and quit the editor; git will continue the rebase.
 
+     *Important*: when you append the `Reviewed-by`, `Tested-by`,
+     `Acked-by` tags from the mailing list feedback to the very end of a
+     given commit message, *never retype* those tags. *Always* cut and
+     paste them with the clipboard instead. You have to treat those tags
+     as opaque.
+
      If you mess up a commit message, don't panic. There are two options
      to bail out. First, you can update the next commit message to an
      empty text file. Git rebase will then stop and expect you to issue
