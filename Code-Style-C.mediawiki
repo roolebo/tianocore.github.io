@@ -1,6 +1,6 @@
 This is just a brief overview of the C [[Code Style]] used for our projects.  The official C Coding Standards specification can be found at:
-* [http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download EDK2_C_Coding_Standards_2_0.pdf]
 
+* [https://github.com/tianocore-docs/Docs/raw/master/Specifications/CCS_2_1_Draft.pdf EDK II C Coding Standards_2.1 Draft .PDF]
 __TOC__
 
 
