@@ -12,6 +12,18 @@
 
 </td>
 </tr>
+
+<tr>
+<td>
+
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf  .PDF] 
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf EDK II HTTP Boot Getting Started Guide] <BR>
+This document is a getting started guide for using the HTTP boot capability introduced in the UEFI Specification, revision 2.5.
+* April 2016 Rev 0.8
+</td>
+</tr>
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Memory_Map_And_Practices_in_UEFI_BIOS_V2.pdf .PDF]
@@ -81,17 +93,7 @@ How the Reset Vector is integrated into a UDK build
 </tr>
 
 
-<tr>
-<td>
 
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_7.pdf  .PDF] 
-</td>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_7.pdf EDK II HTTP Boot Getting Started Guide] <BR>
-This document is a getting started guide for using the HTTP boot capability introduced in the UEFI Specification, revision 2.5.
-* Dec 2015 Rev 0.7
-</td>
-</tr>
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_UEFI_Authenticated_Variables_in_SMM_with_EDKII_V2.pdf .PDF]
@@ -151,7 +153,7 @@ This paper targets firmware, software, and BIOS engineers.
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK_II_Build_Decoded.pdf .PDF]
 </td>
 <td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK_II_Build_Decoded.pdf EDK II Build Decoded]<BR>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK2_Build_Decoded.pdf EDK II Build Decoded]<BR>
 
 Discussion of the files that are used in a build and their purpose.
 * April 2012
