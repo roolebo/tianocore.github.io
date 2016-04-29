@@ -12,14 +12,28 @@
 
 </td>
 </tr>
+<tr>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Secure_SMM_Communication.pdf .PDF]
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Secure_SMM_Communication.pdf A Tour Beyond BIOS Secure SMM Communication]- contributed by Star Zeng, Vincent Zimmer and Jiewen Yao<BR>
 
+<BR>
+This paper introduces how we can do secure SMM communication in a UEFI BIOS.<BR>
+Audience: This paper assumes that audience has basic EDKII/UEFI firmware development experience, and basic knowledge of SMM. 
+
+* April 2016 
+</td>
+</tr>
 <tr>
 <td>
 
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf  .PDF] 
 </td>
 <td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf EDK II HTTP Boot Getting Started Guide] <BR>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf EDK II HTTP Boot Getting Started Guide] - contributed by Ye Ting, Fu Siyuan, and Zhang Lubo
+<BR>
 This document is a getting started guide for using the HTTP boot capability introduced in the UEFI Specification, revision 2.5.
 * April 2016 Rev 0.8
 </td>
