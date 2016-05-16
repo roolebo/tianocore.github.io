@@ -12,7 +12,18 @@
         <th>Description</th>
     </tr>
 <tr></tr>
-
+<tr>
+<td>
+'''UNI'''  
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1.3.pdf PDF] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1.3.zip ZIP]
+</td>
+<td>
+Multi-String UNI Unicode File Specification V1.3  - <br>
+This document describes the Multi-String build information (UNI) file format . See details in the Revision History in the document for more details.
+* Update March 2016 
+</td>
+</tr>
 
 <tr>
 <td>
@@ -100,20 +111,6 @@ The EDK II Build Infrastructure supports creation of binary images that comply w
 </td>
 </tr>
 
-<tr>
-<td>
-'''UNI'''  
-[https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.pdf PDF Errata A]
-or
-[https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.zip ZIP]
-
-</td>
-<td>
-Multi-String UNI Unicode File Specification V1.2 Errata A - <br>
-This document describes the Multi-String build information (UNI) file format . See details in the Revision History in the document for more details.
-* Update March 2015 
-</td>
-</tr>
 
 <tr>
 <td>
@@ -224,5 +221,4 @@ These rules apply to all code developed
 </tr>
 
 </table>
-
 
