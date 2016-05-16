@@ -266,21 +266,19 @@ This document describes the EDK II build information (INF) file format and it co
 
 </tr>
 
-
-
-
-
 <tr>
 <td>
-[https://sourceforge.net/projects/edk2/files/Specifications/Errata_v1.22.pdf/download Errata EDK II V 1.22]
+'''UNI''' V1.2 Errata A -  <br>
+ - March 2015 [https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.pdf PDF Errata A] or
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.zip ZIP]
+
 </td>
 <td>
-This document describes the known errata with the specifications as of 31 August 2011.
+Multi-String UNI Unicode File Specification <br>
+This document describes the Multi-String build information (UNI) file format . See details in the Revision History in the document for more details.
+ 
 </td>
 </tr>
-
-
-
 
 <tr>
 <td>
@@ -300,6 +298,22 @@ a high-level Visual Forms Representation (VFR) language is
 
 described in this document.</td>
 </tr>
+
+
+
+
+<tr>
+<td>
+[https://sourceforge.net/projects/edk2/files/Specifications/Errata_v1.22.pdf/download Errata EDK II V 1.22]
+</td>
+<td>
+This document describes the known errata with the specifications as of 31 August 2011.
+</td>
+</tr>
+
+
+
+
 
 
 
