@@ -266,7 +266,7 @@ In EDKII HTTP Boot driver, the image type is identified by the filename extensio
 | Others (typically *.efi) | UEFI Executable Image |
 
 #### Note
-To enable the RAM Disk boot support, the RamDiskDxe driver and the UefiBootManagerLib (Revision [TBD](TBD)) are also required.
+To enable the RAM Disk boot support, the RamDiskDxe driver and the UefiBootManagerLib ([commit b1bb6f5](https://github.com/tianocore/edk2/commit/b1bb6f5961d82f30046e39e187a80556250f2bd1)) are also required.
 ```
 [LibraryClasses]
   UefiBootManagerLib|MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf
