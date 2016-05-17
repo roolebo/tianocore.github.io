@@ -20,10 +20,8 @@ EFI_UDP6_PROTOCOL
 EFI_TCP4_PROTOCOL
 EFI_TCP6_PROTOCOL
 ```
-	1. There are two TCP drivers in EDK II, either Tcp4Dxe or TcpDxe could be used, but they should not be used at the same time.
-		* Tcp4Dxe (MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe.inf) only support IPv4
-		* TcpDxe (NetworkPkg/TcpDxe/TcpDxe.inf) support both IPv4 and IPv6.
 
+Note: There are two TCP drivers in EDK II, either Tcp4Dxe or TcpDxe could be used, but they should not be used at the same time.
 
 * **NetworkPkg/Dhcp6Dxe** - DHCP6 driver, which produces
 ```
@@ -41,13 +39,13 @@ EFI_MTFTP6_PROTOCOL
 EFI_IPSEC2_PROTOCOL
 EFI_IPSEC_CONFIG_PROTOCOL
 ```
-	1. Supported features in IPsec:
-		* Security Protocols: Encapsulating Security Payload (ESP)
-		* IPsec Mode: Transport/Tunnel mode
-    	* Encryption Algorithm: 3DES-CBC, AES-CBC
-    	* Authentication Algorithm: HMAC\_SHA1\_96
-    	* Authentication Method: Pre-shared Key, X509 Certificates
-	2. After IPsec is enabled in both side, all inbound and outbound IP packet are processed by IPsec.
+1. Supported features in IPsec:
+ * Security Protocols: Encapsulating Security Payload (ESP)
+ * IPsec Mode: Transport/Tunnel mode
+ * Encryption Algorithm: 3DES-CBC, AES-CBC
+ * Authentication Algorithm: HMAC\_SHA1\_96
+ * Authentication Method: Pre-shared Key, X509 Certificates
+2. After IPsec is enabled in both side, all inbound and outbound IP packet are processed by IPsec.
 
 ### PXE
 * **NetworkPkg/UefiPxeBcDxe** - PXE driver, which produces
@@ -244,13 +242,13 @@ Besides the standard DHCP parameters like the station IP, gateway and DNS server
 
 Unlike the corporate network, in a typical home network only a standard DHCP server is available for host IP configuration assignment, the boot file URI need to be entered by user instead of the DHCP HTTPBoot extensions.
 ![Home Network Topology](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/Home.png)
+
 EDK II HTTP Boot driver provides a configuration page for the boot file URI setup.
-1. In the main page of Boot Manager Menu, enter [Device Manager] -> [Network Device List] -> Select a NIC device -> [HTTP Boot Configuration], set the HTTP boot parameters such as the boot option title, IP start version and the URI address as below.
-	![HTTP Boot Configuration Page](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/URI_Address.PNG)
 
-2. Save the configuration and back to the main page, enter [Boot Manager] menu as below, select the new created boot option to start the HTTP Boot.
-	![Boot Manager Menu](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/Boot_Option.PNG)
-
+1. In the main page of Boot Manager Menu, enter [Device Manager] -> [Network Device List] -> Select a NIC device -> [HTTP Boot Configuration], set the HTTP boot parameters such as the boot option title, IP start version and the URI address as below.  
+![HTTP Boot Configuration Page](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/URI_Address.PNG)
+2. Save the configuration and back to the main page, enter [Boot Manager] menu as below, select the new created boot option to start the HTTP Boot.  
+![Boot Manager Menu](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/Boot_Option.PNG)
 3. To delete the boot option, enter [Boot Maintenance Manager] -> [Boot Options] -> [Delete Boot Option].
 
 ### RAM Disk Boot from HTTP
