@@ -117,8 +117,6 @@ EFI_LOAD_FILE_PROTOCOL
   IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
   OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLib.inf
   BaseCryptLib|CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf
-  OpensslTlsLib|CryptoPkg/Library/OpensslLib/OpensslTlsLib.inf
-  TlsLib|CryptoPkg/Library/TlsLib/TlsLib.inf
 
 [Components]
 !if $(NETWORK_ENABLE) == TRUE
@@ -135,7 +133,6 @@ EFI_LOAD_FILE_PROTOCOL
   NetworkPkg/IpSecDxe/IpSecDxe.inf
 !endif
 !if $(NETWORK_HTTP_BOOT_ENABLE) == TRUE
-  NetworkPkg/TlsDxe/TlsDxe.inf
   NetworkPkg/DnsDxe/DnsDxe.inf
   NetworkPkg/HttpDxe/HttpDxe.inf
   NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
@@ -190,7 +187,6 @@ EFI_LOAD_FILE_PROTOCOL
 
   !if $(NETWORK_HTTP_BOOT_ENABLE) == TRUE
     INF  NetworkPkg/DnsDxe/DnsDxe.inf
-    INF  NetworkPkg/TlsDxe/TlsDxe.inf
     INF  NetworkPkg/HttpDxe/HttpDxe.inf
     INF  NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
     INF  NetworkPkg/HttpBootDxe/HttpBootDxe.inf
