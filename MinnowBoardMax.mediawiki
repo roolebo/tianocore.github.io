@@ -30,6 +30,32 @@ Versions prior to release .91 use "''SVN'" instead of  "''Git''"
 <tr></tr>
 <tr>
 <td>
+ Rel .92
+</td>
+<td>
+# Download MinnowBoard Max Branch from GitHub with the following example using Git:<br> 
+## ''git clone https://github.com/tianocore/edk2-platforms.git -b minnowboard-max-udk2015''
+## ''git checkout f0d5f04accd90dd8b88ebad7ebfb8e04496f3797''
+## Rename "edk2-platforms" to "MyWorkspace" to avoid  the long paths
+#  Download BaseTools binaries from GitHub with the following example using Git:<br> 
+##''git clone https://github.com/tianocore/edk2-BaseTools-win32.git''
+## ''git checkout ea691aec89b06aa83474100df1de000a875b4ea0''
+## Rename this folder name from edk2-BaseTools-win32/ to Win32/, then copy Win32/ to BaseTool  Binary folder (e.g. "/MyWorkspace/BaseTools/Bin/")        
+# Download Objects zip: [https://firmware.intel.com/sites/default/files/MinnowBoard_MAX-0.92-Binary.Objects.zip  MinnowBoard_MAX-0.92-Binary.Objects.zip]
+# Extract the contents of the MinnowBoard_MAX-0.92-Binary.Objects ZIP file placing the contents into the respective folders (e.g.  ''MyWorkspace'' as above). 
+##  Copy the following folders to the  working directory 
+###  IA32FamilyCpuPkg
+###   Vlv2BinaryPkg
+###   Vlv2MiscBinariesPkg
+# To Build see “HOW TO BUILD  . . .” in the release notes [https://firmware.intel.com/sites/default/files/ReleaseNotes_HowToBuildMinnowMax_91.txt HowToBuildMinnowMax.txt ]
+#  For more details about this release See: [https://firmware.intel.com/sites/default/files/MinnowBoard_MAX-Rel_0.92-ReleaseNotes.txt  MAX Rel 0.92 ReleaseNotes.txt]
+</td>
+<td>
+May 26, 2016
+</td>
+</tr>
+<tr>
+<td>
  Rel .91
 </td>
 <td>
