@@ -12,6 +12,19 @@
 
 </td>
 </tr>
+
+<tr>
+<td>
+
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf  .PDF] 
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf A Tour Beyond BIOS Implementing Profiling in EDK II] - contributed by Jiewen Yao, Vincent Zimmer, Star Zeng and Fan Jeff <BR>
+The Unified Extensible Firmware Interface (UEFI) and Platform Initialization (PI) specification defines rich execution environments such as Security (SEC), Pre-EFI Initialization (PEI), Driver Execution Environment (DXE), System Management Mode (SMM) and UEFI Runtime (RT) for firmware drivers. There are more and more features added into a firmware. At same time, the firmware still has a resource constrained environment. In addition to functionality, the size, performance, and security are three major concerns of a firmware engineer. This paper introduces several profiling features implemented in EDK II to help the UEFI firmware developer to analyze the size, performance and security of a UEFI firmware implementation.
+
+* July 2016 
+</td>
+</tr>
 <tr>
 <td>
 
