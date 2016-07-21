@@ -13,11 +13,9 @@ For general developer discussions, please refer to the ''Developer Discussions''
 | [[EDK]]
 | [https://lists.sourceforge.net/lists/listinfo/efidevkit-devel efidevkit-devel]
 | [https://lists.sourceforge.net/lists/listinfo/efidevkit-commits efidevkit-commits]
-|
 |-
 | [[Edk2-buildtools]]
 | colspan="2" | Moved! Use same lists as EDK II
-|
 |}
 
 Some smaller projects do not have separate emails lists.  In this case, feel free to discuss these projects on either the EDK or EDK II developer discussions email lists.
