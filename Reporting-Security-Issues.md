@@ -1,6 +1,6 @@
 # How to report a Security Issue
 
-Sign up for a Tianocore Bugzilla account and enter a new issue in the **Tianocore Security Issue** product.  Issues in the **Tianocore Security Issue** product are visible to **Reporter** of the issue and the **infosec** group.
+Sign up for a Tianocore Bugzilla account and enter a new issue in the **Tianocore Security Issue** product.  Issues in the **Tianocore Security Issue** product are only visible to **Reporter** of the issue and the members of the **infosec** group.
 
 # How Security Issues are Evaluated
 
