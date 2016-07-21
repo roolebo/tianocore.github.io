@@ -16,6 +16,6 @@ Tianocore issues can be entered using the following products and categories.
 | **Tianocore Feature Requests** | Code<br/> Documentation<br/> Other<br/> Process<br/> Tools<br/> Web<br/> Content<br/> |
 | **Tianocore Security Issues**  | Security Issue                                     |
 
-If you believe you have discovered a security issue, then you must enter the issue using the **Tianocore Security Issues** product type.  The issue will be evaluated to determine if it really is a security issue or not.  Security Advisories and the process used to evaluate **Tianocore Security Issues** can be found in [Reporting Security Issues]({{wiki}}/Reporting Security Issues)
+If you believe you have discovered a security issue, then you must enter the issue using the **Tianocore Security Issues** product type.  The issue will be evaluated to determine if it really is a security issue or not.  Security Advisories and the process used to evaluate **Tianocore Security Issues** can be found in [Reporting Security Issues](Reporting-Security-Issues "wikilink")
 
 **NOTE:** Never send any security issue details in email.
