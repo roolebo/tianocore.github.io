@@ -2,7 +2,7 @@
 
 The bug tracking system used for Tianocore projects is [Tianocore Bugzilla](https://tianocore.acgmultimedia.com).  An account must be [created](https://tianocore.acgmultimedia.com/createaccount.cgi) to enter a new issue or update exiting issues.  New security issues must be entered using the **Tianocore Security Issue** product.  Issues in the **Tianocore Security Issue** product are only visible to the **Reporter** of the issue and the members of the **infosec** group.
 
-Additional information about Tianocore Bugzilla can be found in [Reporting Issues](https://github.com/tianocore/tianocore.github.io/wiki/Reporting-Issues)
+Additional information about Tianocore Bugzilla can be found in [Reporting Issues](Reporting-Issues "wikilink")
 
 # How Security Issues are Evaluated
 
