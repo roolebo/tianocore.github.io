@@ -102,3 +102,5 @@ Note: After IPsec is enabled in both side, all inbound and outbound IP packet ar
 
 ===UDK2010.SR1 Notes===
 [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/NetworkPkg%20Notes.txt/download NetworkPkg Notes.txt]
+
+More information: [https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide NetworkPkg Getting Started Guide]
