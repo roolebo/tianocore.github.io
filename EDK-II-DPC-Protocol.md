@@ -39,7 +39,7 @@ The function `DispatchDpc()` dispatches all the previously queued DPCs whose TPL
 
 The DPC protocol is designed to solve the TPL issue in UEFI network stack. Take the iSCSI for example, the UEFI SCSI stack lays on top of the TCP network stack, as shown in the following picture.
 
-![UEFI SCSI Layout](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images\Uefi_SCSI_Layout.png)
+![UEFI SCSI Layout](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/Uefi_SCSI_Layout.png)
 
 The network stack from MNP to TCP is asynchronous, that is, all data transmitting and receiving are conveyed by tokens. Each token has an event in it, which has a notify function associated with. When the transmitting or receiving is done, the event is signaled with the corresponding I/O status and optionally the data buffer.
 
@@ -61,7 +61,7 @@ Now the problem comes out: once the Simple File System driver is controlling the
 
 The edk2 network stack drivers solve this deadlock problem by using the DPC protocol. Whenever a driver want to call the asynchronous transmit or receive function, it creates an event with TPL_NOTIFY instead of TPL_CALLBACK. This slightly violates the UEFI specification because it usually says "the Task Priority Level (TPL) of Event must be lower than or equal to TPL_CALLBACK" when describes the asynchronous interface of the network protocols. But actually the notify function will do nothing but only queue a new DPC procedure and return. The DPC procedure will be dispatched later at TPL_CALLBACK, and complete the whole task of packet processing.
 
-![ARP Receive](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images\DPC_ARP_Receive.png)
+![ARP Receive](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/DPC_ARP_Receive.png)
 
 Still take the receive path of ARP for example. The ARP driver creates an event as the MNP receive token, whose notify function is *ArpOnFrameRcvd()* and notify TPL set to *TPL_NOTIFY*. When the *Mnp->Poll()* receives a new packet and signals this receive event, the *ArpOnFrameRcvd()* will execute immediately (because it's a TPL_NOTIFY event, which could interrupt any network task whose TPL <= TPL_CALLBACK). The *ArpOnFrameRcvd()* calls `QueueDpc()` to queue a new DPC procedure *ArpOnFrameRcvdDpc()* at TPL_CALLBACK and return. Later, the *Mnp->Poll()* calls the `DispatchDpc()`, to dispatch the DPC queued by the notify function of the receive token's event, which finally executes the *ArpOnFrameRcvdDpc()* in this case.
 
@@ -181,11 +181,11 @@ MnpPoll()
 
 ### Choose a proper place to dispatch the DPC
 
-The dispatching of previous queued DPCs is not guaranteed by the firmware or the DPC driver. Instead, the UEFI driver or application that calls *QueueDpc()* is responsible for calling *DispatchDpc()* to dispatch it.
+The dispatching of previous queued DPCs is not guaranteed by the firmware or the DPC driver. Instead, **the UEFI driver or application that calls *QueueDpc()* is responsible for calling *DispatchDpc()* to dispatch it**.
 * UEFI Applications that call QueueDpc() must call DispatchDpc() before they exit to guarantee that all queued DPCs have been dispatched.
 * UEFI Drivers that call QueueDpc() must call DispatchDpc() before they unload to guarantee that all queued DPCs have been dispatched
 * UEFI Drivers the follow the EFI Driver Model and call QueueDpc() using a device specific context must call DispatchDpc() from their EFI Driver Binding Stop() function to guarantee that all DPCs for that device are dispatched before the device specific context structures are freed.
 
-However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the network stack. The suggested practice is to make the *QueueDpc()* and *DispatchDpc()* in pairs. Or in other words, always try to call *DispatchDpc()* immediately after a *SignalEvent()* which may queue a new DPC function.
+However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the network stack. **The suggested practice is to make the *QueueDpc()* and *DispatchDpc()* in pairs.** Or in other words, always try to call *DispatchDpc()* immediately after a *SignalEvent()* which may queue a new DPC function.
 
-Finally, make sure the *DispatchDpc()* is called at a right TPL level so it won't miss any previously queued DPCs. The *DispatchDpc()* dispatches all the DPCs that is greater than or equal to the current TPL value.
+Finally, **make sure the *DispatchDpc()* is called at a right TPL level** so it won't miss any previously queued DPCs. The *DispatchDpc()* dispatches all the DPCs that is greater than or equal to the current TPL value.
