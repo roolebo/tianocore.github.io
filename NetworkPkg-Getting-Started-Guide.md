@@ -221,3 +221,7 @@ To validate network stack on NT32 platform, please refer to the document [UEFI N
 ## UEFI HTTP BOOT
 
 Please refer to the [UEFI HTTP Boot](https://github.com/tianocore/tianocore.github.io/wiki/HTTP-Boot) page.
+
+## EDKII DPC Protocols
+
+Please refer to the [Defer Procedure Call Protocol](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-DPC-Protocol) page.
