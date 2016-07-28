@@ -1,14 +1,14 @@
 # **Defer Procedure Call Protocol**
 
-This document introduces the DPC protocol, including the protocol interface, design intension and code analysis in edk2 network drivers. There is also some discussion about the assumptions, limitations and rules that user must know before writing their code to use the DPC protocol.
+This document introduces the Defer Procedure Call (DPC) protocol, including the protocol interface, design intension and code analysis in edk2 network drivers. There is also some discussion about the assumptions, limitations and rules that user must know before consuming the DPC protocol.
 
-## What is DPC
+## What is DPC?
 
-The Defer Procedure Call Protocol provides a method for an UEFI Driver to queue a deferred procedure call (DPC) when the caller is executing at elevated TPLs, and dispatch it at a later time and at specified TPL level.
+The Defer Procedure Call Protocol provides a method for an UEFI Driver to queue a DPC when the caller is executing at elevated TPLs, and dispatch it at a later time and at a specified TPL level.
 
 DPC is typically used by UEFI Drivers that have event notification functions that execute at high TPL levels, and require the use of services that must be executed at lower TPL levels.  The event notification function can queue a DPC with this protocol, and the DPC can be invoked when the TPL is lowered to a level that is less than or equal to the TPL level required for the DPC to run correctly.
 
-The DPC protocol is not a standardized protocol in UEFI specification, it's edk2 specific implementation and defined in *MdeModulePkg/Include/Protocol/Dpc.h*.
+The DPC protocol is not a standardized protocol in UEFI specification; it is an edk2 specific implementation and defined in *MdeModulePkg/Include/Protocol/Dpc.h*.
 
 The DPC protocol only has 2 interfaces: `QueueDpc()` and `DispatchDpc()`.
 ```
@@ -23,7 +23,7 @@ EFI_STATUS
 ```
 The function `QueueDpc()` queues the procedure specified by *DpcProcedure* to be execute at a later time when the TPL level is at or below the TPL level specified by *DpcTpl*.  When *DpcProcedure* is invoked, the one parameter specified by *DpcContext* is passed to *DpcProcedure*. This function is required to maintain a unique queue for every legal EFI_TPL value. The DPC specified by *DpcProcedure* and *DpcContext* is placed at the end of the DPC queue specified by *DpcTpl*.
 
-Although it is said that the *DpcProcedure* will be execute when the TPL level is at or below the *DpcTpl*, the firmware or the DPC driver won't take the responsibility to invoke the queued DPCs. Instead of that, the UEFI driver or application who calls `QueueDpc()` is responsible for calling `DispatchDpc()` to dispatch them from lower TPL levels at an appropriate time.
+The DPC driver does not take the responsibility to invoke the queued DPCs. Instead, the UEFI driver or application which calls `QueueDpc()` is responsible for calling `DispatchDpc()` to dispatch them from lower TPL levels at an appropriate time.
 ```
 typedef
 EFI_STATUS
@@ -31,49 +31,49 @@ EFI_STATUS
   IN EFI_DPC_PROTOCOL  *This
   );
 ```
-The function `DispatchDpc()` dispatches all the previously queued DPCs whose TPL level is greater than or equal to the current TPL level. DPCs with the highest TPL level are dispatched before DPCs with lower TPL levels.  Within a single TPL level, the DPCs that dispatched in the order that they were queued with QueueDpc().
+The function `DispatchDpc()` dispatches all the previously queued DPCs whose TPL level is greater than or equal to the current TPL level. DPCs with the highest TPL level are dispatched before DPCs with lower TPL levels.  Within a single TPL level, the DPCs are dispatched in the order that they were queued by QueueDpc().
 
-## What problem does DPC solve
+## What problem does DPC solve?
 
 ### UEFI iSCSI Layout
 
 The DPC protocol is designed to solve the TPL issue in UEFI network stack. Take the iSCSI for example, the UEFI SCSI stack lays on top of the TCP network stack, as shown in the following picture.
 
-![UEFI SCSI Layout](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/Uefi_SCSI_Layout.png)
+![UEFI SCSI Layout](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/Uefi_SCSI_Layout.png "UEFI iSCSI Layout")
 
-The network stack from MNP to TCP is asynchronous, that is, all data transmitting and receiving are conveyed by tokens. Each token has an event in it, which has a notify function associated with. When the transmitting or receiving is done, the event is signaled with the corresponding I/O status and optionally the data buffer.
+The network stack from MNP to TCP is asynchronous, that is, all data transmitting and receiving are conveyed by tokens. Each token has an event which associates with a notify function. When the transmitting or receiving is done, the event is signaled with the corresponding I/O status and optionally the data buffer.
 
 The SCSI stack and block I/O drivers can be asynchronous or synchronous from UEFI Specification, we only discuss the synchronous situation here.
 
-The UEFI iSCSI driver provides the linkage between the asynchronous network stack and the synchronous SCSI stack. The decision for iSCSI driver in edk2 is that we make it synchronous for better performance. If we make it asynchronous, we can only poll the NIC in periodic timers to receive frames from network, then the performance will be much worse.
+The UEFI iSCSI driver provides the linkage between the asynchronous network stack and the synchronous SCSI stack. The UEFI iSCSI driver is implemented using a synchronous solution, to avoid the performance hit by polling the network cards in periodical timers for receiving frames.
 
 ### TPL issue in iSCSI
 
-UEFI Specification states that all UEFI network stack protocols and their service binding protocols should be called with TPL <= TPL_CALLBACK (see Table 24. TPL Restrictions in UEFI 2.6).
+UEFI Specification states that all UEFI network stack protocols and their service binding protocols should be called with TPL <= TPL_CALLBACK (see Table 24. TPL Restrictions in UEFI Specification v2.6).
 
-Above TPL restriction, plus the asynchronous interface and some specific nature of network, make the UEFI network stack driver can only lock itself at TPL_CALLBACK. Take the ARP driver for example. Usually it will response the received ARP requests with ARP replies. The TPL of notify function to parse the received ARP requests should be >= TPL_CALLBACK because it need to access shared structures in ARP driver. When the ARP request is parsed and an ARP reply should be sent out, Mnp->Transmit() should be called to transmit the ARP reply and UEFI Specification requests the caller’s TPL should be <= TPL_CALLBACK. As a result, these two restrictions make the ARP driver can only run at TPL_CALLBACK.
+Above TPL restrictions, plus the asynchronous interfaces and some specific nature of network, make the UEFI network stack driver can only lock itself at TPL_CALLBACK. Take the ARP driver for example. Usually it will response the received ARP requests with ARP replies. The TPL of notify function to parse the received ARP requests should be >= TPL_CALLBACK because it need to access shared structures in ARP driver. When the ARP request is parsed and an ARP reply should be sent out, Mnp->Transmit() would be called to transmit the ARP reply. The TPL for calling the Mnp->Transmit() should be <= TPL_CALLBACK according to the TPL restrictions defined in the UEFI specification. As a result, these two restrictions make the ARP driver can only run at TPL_CALLBACK.
 
 UEFI Specification also states the Simple File System protocol should be called with TPL <= TPL_CALLBACK. Take FAT driver as the example, it will lock itself at TPL_CALLBACK when accessing the shared structures, or in critical section such as reading block, writing block, etc.
 
-Now the problem comes out: once the Simple File System driver is controlling the iSCSI stack, and attempting to read a block, iSCSI can NOT receive data from network stack any more. Actually, the data could be received into the buffer pool in MNP driver when iSCSI is polling the network. However, as all the tokens of the upper network stack drivers are created with TPL_CALLBACK, the notify function won't have the chance to run despite the receive event is signaled. In the other words, the synchronous data read function in iSCSI driver will continue polling the network device at TPL_CALLBACK, and waiting the receive event's notify function, which is also a TPL_CALLBACK event, to be execute first. As a result, the whole iSCSI stack falls into a deadlock, no packet could be delivered to the upper layer drivers.
+Now the problem comes out: once the Simple File System driver is controlling the iSCSI stack, and attempting to read a block, iSCSI can NOT receive data from network stack any more. Actually, the data could be received into the buffer pool in MNP driver when iSCSI is polling the network. However, as all the tokens of the upper network stack drivers are created with TPL_CALLBACK, the notify function won't have the chance to run even though the receive event is already signaled. In the other words, the synchronous data read function in iSCSI driver will continue polling the network device at TPL_CALLBACK, and waiting the receive event's notify function, which is also a TPL_CALLBACK event, to be execute first. As a result, the whole iSCSI stack falls into a deadlock, no packet could be delivered to the upper layer drivers.
 
 ### How DPC solve the problem
 
-The edk2 network stack drivers solve this deadlock problem by using the DPC protocol. Whenever a driver want to call the asynchronous transmit or receive function, it creates an event with TPL_NOTIFY instead of TPL_CALLBACK. This slightly violates the UEFI specification because it usually says "the Task Priority Level (TPL) of Event must be lower than or equal to TPL_CALLBACK" when describes the asynchronous interface of the network protocols. But actually the notify function will do nothing but only queue a new DPC procedure and return. The DPC procedure will be dispatched later at TPL_CALLBACK, and complete the whole task of packet processing.
+The edk2 network stack solves this deadlock problem by introducing the DPC protocol. Whenever a driver want to call the asynchronous transmit or receive function, it creates an event with TPL_NOTIFY instead of TPL_CALLBACK. This slightly violates the UEFI specification because it usually says "the Task Priority Level (TPL) of Event must be lower than or equal to TPL_CALLBACK" when describes the asynchronous interface of the network protocols. But actually the notify function will do nothing but only queue a new DPC procedure and return. The DPC procedure will be dispatched later at TPL_CALLBACK, and complete the whole task of packet processing.
 
-![ARP Receive](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/DPC_ARP_Receive.png)
+![ARP Receive](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/DPC_ARP_Receive.png "Use DPC in ARP driver")
 
 Still take the receive path of ARP for example. The ARP driver creates an event as the MNP receive token, whose notify function is *ArpOnFrameRcvd()* and notify TPL set to *TPL_NOTIFY*. When the *Mnp->Poll()* receives a new packet and signals this receive event, the *ArpOnFrameRcvd()* will execute immediately (because it's a TPL_NOTIFY event, which could interrupt any network task whose TPL <= TPL_CALLBACK). The *ArpOnFrameRcvd()* calls `QueueDpc()` to queue a new DPC procedure *ArpOnFrameRcvdDpc()* at TPL_CALLBACK and return. Later, the *Mnp->Poll()* calls the `DispatchDpc()`, to dispatch the DPC queued by the notify function of the receive token's event, which finally executes the *ArpOnFrameRcvdDpc()* in this case.
 
 ## How does DPC relate to UEFI network stack
 
-DPC protocol is not mandatory to the UEFI network stack. In fact, introducing DPC mechanism adds an additional layer of complexity to the network drivers, the code must be carefully arranged to queue and dispatch the DPC to ensure the stack running correctly (see the "Rules, limitations and assumptions" below). While in order to solve the TPL lock issue we discussed before, almost all edk2 network stack drivers adopted the DPC in the asynchronous interface, including the transmitting and receiving path.
+DPC protocol is not a standardized solution in UEFI specification. It adds additional complexity to the UEFI network drivers since the code logic must be carefully arranged to queue and dispatch the DPCs to ensure the stack running correctly (see the "Rules, limitations and assumptions" below). However, in order to solve the TPL lock issue we discussed before, almost all edk2 network stack drivers adopt the DPC solution in the asynchronous interface, including the transmitting and receiving path.
 
-Although DPC is designed to solve a particular problem in UEFI network stack, it's not saying it can only be used in the network stack. Any UEFI drivers and applications could also use the DPC protocol for similar problem as long as needed.
+Although DPC protocol is designed to solve a particular problem in the UEFI network stack, it's not saying it can only be used in the network stack. Any UEFI drivers and applications could also use the DPC protocol for solving similar problem as long as needed.
 
 ## DPC Protocol and Library
 
-Edk2 also provides a library interface DpcLib, which is a simple encapsulation of the DPC protocol. The library wraps the 2 interfaces and accepts same parameters except the "*This*" pointer as the protocol interface. The DpcLib is easier to use since it reduces a *LocateProtocol()* call from the user.
+Edk2 also provides a library interface DpcLib, which is a simple encapsulation of the DPC protocol. The library wraps the 2 interfaces and accepts same parameters except the "*This*" pointer as the protocol interface. The DpcLib is more user-friendly since it reduces a *LocateProtocol()* call from the user.
 ```
 [LibraryClasses]
   # MdeModulePkg/Include/Library/DpcLib.h
@@ -156,7 +156,7 @@ DispatchDpc()
 
 The writer should avoid polling the network device in a DPC procedure, especially in the data receive path.
 
-If there is already a network frame in the network device's receive ring, the *Mnp->Poll()* will pick it from the device, signal event to queue a new DPC, and call *DispatchDpc()* to deliver the packet to upper layer driver. This means if a DPC procedure polls the network, a new network packet will be delivered layer by layer, which may finally run into the original DPC procedure again. It will bring lots of complex to the upper layer driver, like a serial of nested DPC call, or an infinite recursion of receive-poll-receive...
+If there is already a network frame in the network device's receive ring, the *Mnp->Poll()* will pick it from the device, signal event to queue a new DPC, and call *DispatchDpc()* to deliver the packet to upper layer driver. This means if a DPC procedure polls the network, a new network packet will be delivered to the upper layer driver, which may finally run into the original DPC procedure again. It will bring lots of complexities to the upper layer driver, like a serial of nested DPC call, or an infinite recursion of receive-poll-receive...
 
 ```
 MnpPoll()
@@ -182,10 +182,10 @@ MnpPoll()
 ### Choose a proper place to dispatch the DPC
 
 The dispatching of previous queued DPCs is not guaranteed by the firmware or the DPC driver. Instead, **the UEFI driver or application that calls *QueueDpc()* is responsible for calling *DispatchDpc()* to dispatch it**.
-* UEFI Applications that call QueueDpc() must call DispatchDpc() before they exit to guarantee that all queued DPCs have been dispatched.
-* UEFI Drivers that call QueueDpc() must call DispatchDpc() before they unload to guarantee that all queued DPCs have been dispatched
-* UEFI Drivers the follow the EFI Driver Model and call QueueDpc() using a device specific context must call DispatchDpc() from their EFI Driver Binding Stop() function to guarantee that all DPCs for that device are dispatched before the device specific context structures are freed.
+* UEFI applications that call QueueDpc() must call DispatchDpc() before they exit to guarantee that all queued DPCs have been dispatched.
+* UEFI drivers that call QueueDpc() must call DispatchDpc() before they unload to guarantee that all queued DPCs have been dispatched
+* UEFI drivers the follow the EFI Driver Model and call QueueDpc() using a device specific context must call DispatchDpc() from their EFI Driver Binding Stop() function to guarantee that all DPCs for that device are dispatched before the device specific context structures are freed.
 
 However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the network stack. **The suggested practice is to make the *QueueDpc()* and *DispatchDpc()* in pairs.** Or in other words, always try to call *DispatchDpc()* immediately after a *SignalEvent()* which may queue a new DPC function.
 
-Finally, **make sure the *DispatchDpc()* is called at a right TPL level** so it won't miss any previously queued DPCs. The *DispatchDpc()* dispatches all the DPCs that is greater than or equal to the current TPL value.
+Finally, **make sure the *DispatchDpc()* is called at a right TPL level** so it won't miss any previously queued DPCs. Remember that the *DispatchDpc()* dispatches all the DPCs that is greater than or equal to the current TPL value.
