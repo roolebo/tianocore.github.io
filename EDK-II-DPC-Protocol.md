@@ -105,7 +105,7 @@ DpcFun_A()
 DpcFun_B()
 {
   Fun_B_Part1;
-  QueueDpc();   // Assume this QueueDpc() will add DpcFun_A() to the DPC queue.
+  QueueDpc(TPL_CALLBACK, DpcFun_A, NULL);   // Add DpcFun_A() to the end of the DPC queue.
   Fun_B_Part2;
   DispatchDpc();
   Fun_B_Part3;
@@ -129,7 +129,7 @@ DispatchDpc()
       DpcFun_B()              // 2nd DPC procedure in the queue.
       {
         Fun_B_Part1;
-        QueueDpc();           // Add DpcFun_A() to the end of the queue.
+        QueueDpc(TPL_CALLBACK, DpcFun_A, NULL);   // Add DpcFun_A() to the end of the queue.
         Fun_B_Part2;
         DispatchDpc()
         {
