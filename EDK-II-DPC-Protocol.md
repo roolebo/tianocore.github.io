@@ -1,12 +1,12 @@
-# **Defer Procedure Call Protocol**
+# **Deferred Procedure Call Protocol**
 
-This document introduces the Defer Procedure Call (DPC) protocol, including the protocol interface, design intension and code analysis in edk2 network drivers. There is also some discussion about the assumptions, limitations and rules that user must know before consuming the DPC protocol.
+This document introduces the Deferred Procedure Call (DPC) protocol, including the protocol interface, design intension and code analysis in edk2 network drivers. There is also some discussion about the assumptions, limitations and rules that user must know before consuming the DPC protocol.
 
 ## What is DPC?
 
-The Defer Procedure Call Protocol provides a method for an UEFI Driver to queue a DPC when the caller is executing at elevated TPLs, and dispatch it at a later time and at a specified TPL level.
+The Deferred Procedure Call Protocol provides a method for an UEFI Driver to queue a DPC Procedure when the caller is executing at elevated TPLs, and dispatch it at a later time and at a specified TPL level.
 
-DPC is typically used by UEFI Drivers that have event notification functions that execute at high TPL levels, and require the use of services that must be executed at lower TPL levels.  The event notification function can queue a DPC with this protocol, and the DPC can be invoked when the TPL is lowered to a level that is less than or equal to the TPL level required for the DPC to run correctly.
+DPC is typically used by UEFI Drivers that have event notification functions that execute at high TPL levels, and require the use of services that must be executed at lower TPL levels.  The event notification function can queue a DPC Procedure with this protocol, and the DPC Procedure can be invoked when the TPL is lowered to a level that is less than or equal to the TPL level required for the DPC Procedure to run correctly.
 
 The DPC protocol is not a standardized protocol in UEFI specification; it is an edk2 specific implementation and defined in *MdeModulePkg/Include/Protocol/Dpc.h*.
 
@@ -21,7 +21,7 @@ EFI_STATUS
   IN VOID               *DpcContext    OPTIONAL
   );
 ```
-The function `QueueDpc()` queues the procedure specified by *DpcProcedure* to be execute at a later time when the TPL level is at or below the TPL level specified by *DpcTpl*.  When *DpcProcedure* is invoked, the one parameter specified by *DpcContext* is passed to *DpcProcedure*. This function is required to maintain a unique queue for every legal EFI_TPL value. The DPC specified by *DpcProcedure* and *DpcContext* is placed at the end of the DPC queue specified by *DpcTpl*.
+The function `QueueDpc()` queues the DPC Procedure specified by *DpcProcedure* to be execute at a later time when the TPL level is at or below the TPL level specified by *DpcTpl*.  When *DpcProcedure* is invoked, the one parameter specified by *DpcContext* is passed to *DpcProcedure*. This function is required to maintain a unique queue for every legal EFI_TPL value. The DPC Procedure specified by *DpcProcedure* and *DpcContext* is placed at the end of the DPC queue specified by *DpcTpl*.
 
 The DPC driver does not take the responsibility to invoke the queued DPCs. Instead, the UEFI driver or application which calls `QueueDpc()` is responsible for calling `DispatchDpc()` to dispatch them from lower TPL levels at an appropriate time.
 ```
@@ -59,11 +59,11 @@ Now the problem comes out: once the Simple File System driver is controlling the
 
 ### How DPC solve the problem
 
-The edk2 network stack solves this deadlock problem by introducing the DPC protocol. Whenever a driver want to call the asynchronous transmit or receive function, it creates an event with TPL_NOTIFY instead of TPL_CALLBACK. This slightly violates the UEFI specification because it usually says "the Task Priority Level (TPL) of Event must be lower than or equal to TPL_CALLBACK" when describes the asynchronous interface of the network protocols. But actually the notify function will do nothing but only queue a new DPC procedure and return. The DPC procedure will be dispatched later at TPL_CALLBACK, and complete the whole task of packet processing.
+The edk2 network stack solves this deadlock problem by introducing the DPC protocol. Whenever a driver want to call the asynchronous transmit or receive function, it creates an event with TPL_NOTIFY instead of TPL_CALLBACK. The notify function won't really process the packet, it only queues a new DPC Procedure and return. Later, the DPC Procedure will be dispatched at TPL_CALLBACK, and complete the whole task of the packet processing. With this technique, the deadlock is avoided by using a high level TPL event, and the packets are still processed in the required TPL_CALLBACK level.
 
 ![ARP Receive](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/DPC_ARP_Receive.png "Use DPC in ARP driver")
 
-Still take the receive path of ARP for example. The ARP driver creates an event as the MNP receive token, whose notify function is *ArpOnFrameRcvd()* and notify TPL set to *TPL_NOTIFY*. When the *Mnp->Poll()* receives a new packet and signals this receive event, the *ArpOnFrameRcvd()* will execute immediately (because it's a TPL_NOTIFY event, which could interrupt any network task whose TPL <= TPL_CALLBACK). The *ArpOnFrameRcvd()* calls `QueueDpc()` to queue a new DPC procedure *ArpOnFrameRcvdDpc()* at TPL_CALLBACK and return. Later, the *Mnp->Poll()* calls the `DispatchDpc()`, to dispatch the DPC queued by the notify function of the receive token's event, which finally executes the *ArpOnFrameRcvdDpc()* in this case.
+Still take the receive path of ARP for example. The ARP driver creates an event as the MNP receive token, whose notify function is *ArpOnFrameRcvd()* and notify TPL set to *TPL_NOTIFY*. When the *Mnp->Poll()* receives a new packet and signals this receive event, the *ArpOnFrameRcvd()* will execute immediately (because it's a TPL_NOTIFY event, which could interrupt any network task whose TPL <= TPL_CALLBACK). The *ArpOnFrameRcvd()* calls `QueueDpc()` to queue a new DPC Procedure *ArpOnFrameRcvdDpc()* at TPL_CALLBACK and return. Later, the *Mnp->Poll()* calls the `DispatchDpc()`, to dispatch the DPC Procedure queued by the notify function of the receive token's event, which finally executes the *ArpOnFrameRcvdDpc()* in this case.
 
 ## How does DPC relate to UEFI network stack
 
@@ -71,13 +71,87 @@ DPC protocol is not a standardized solution in UEFI specification. It adds addit
 
 Although DPC protocol is designed to solve a particular problem in the UEFI network stack, it's not saying it can only be used in the network stack. Any UEFI drivers and applications could also use the DPC protocol for solving similar problem as long as needed.
 
-## DPC Protocol and Library
+## Library Interface (DpcLib)
 
-Edk2 also provides a library interface DpcLib, which is a simple encapsulation of the DPC protocol. The library wraps the 2 interfaces and accepts same parameters except the "*This*" pointer as the protocol interface. The DpcLib is more user-friendly since it reduces a *LocateProtocol()* call from the user.
+Edk2 also provides a library interface DpcLib, which is a simple encapsulation of the DPC protocol. The library wraps the 2 interfaces and accepts same parameters except the "*This*" pointer as the protocol interface. The library interface is more user-friendly since it reduces a *LocateProtocol()* call from the user.
+
 ```
 [LibraryClasses]
   # MdeModulePkg/Include/Library/DpcLib.h
   DpcLib|MdeModulePkg/Library/DxeDpcLib/DxeDpcLib.inf
+```
+
+The following code fragment shows a simple example of using the DpcLib.
+```
+#include <Library/DpcLib.h>
+
+/**
+  DPC Procedure.
+**/
+VOID
+EFIAPI
+EventHandlerDpc (
+  IN VOID      *Context
+  )
+{
+  //
+  // We are running at TPL_CALLBACK.
+  // Data is really processed in this function.
+  //
+  ...
+}
+
+/**
+  Event notify function.
+**/
+VOID
+EFIAPI
+EventHandler (
+  IN EFI_EVENT Event,
+  IN VOID      *Context
+  )
+{
+  //
+  // We are running at TPL_NOTIFY.
+  // Queue EventHandlerDpc as a DPC Procedure at TPL_CALLBACK
+  //
+  QueueDpc (TPL_CALLBACK, EventHandlerDpc, Context);
+}
+
+/*
+  Sample code to create event, signal event and dispatch the DPC Procedure.
+
+  This function must be called at the TPL level <= TPL_CALLBACK.
+*/
+VOID
+CodeSample (
+  VOID
+  )
+{
+  EFI_EVENT   Event;
+  VOID        *Context;
+
+  //
+  // Create a TPL_NOTIFY event.
+  //
+  gBS->CreateEvent (
+         EVT_NOTIFY_SIGNAL,
+         TPL_NOTIFY,
+         EventHandler,
+         Context,
+         &Event
+         );
+
+  //
+  // Signal the event.
+  //
+  gBS->SignalEvent (Event);
+
+  //
+  // Dispatch the DPC Procedure.
+  //
+  DispatchDpc();
+}
 ```
 
 ## Assumptions, Limitations and Rules when using DPC
@@ -86,13 +160,13 @@ The module writer must be familiar with the matters below about DPC before using
 
 ### DispatchDpc() can be Nested
 
-If the *DispatchDpc()* is called again in a dispatched DPC procedure, it will first execute the next DPC in the queue, then return to the original code.
+If the *DispatchDpc()* is called again in a dispatched DPC Procedure, it will first execute the next DPC Procedure in the queue, then return to the original code.
 
-The writer of the DPC procedure must realize that the function may be interrupted when it calls the *DispatchDpc()* interface, or any other interfaces which eventually lead to a *DispatchDpc()*, such as to transmit a network packet, which finally calls *Mnp->Transmit()* with a *DispatchDpc()* in it.
+The writer of the DPC Procedure must realize that the function may be interrupted when it calls the *DispatchDpc()* interface, or any other interfaces which eventually lead to a *DispatchDpc()*, such as to transmit a network packet, which finally calls *Mnp->Transmit()* with a *DispatchDpc()* in it.
 
 ```
 /*
-  Consider we have queued 3 DPC procedures with same TPL level as below.
+  Consider we have queued 3 DPC Procedures with same TPL level as below.
   DPC Queue: DpcFun_A -> DpcFun_B -> DpcFun_C
 */
 DpcFun_A()
@@ -121,26 +195,26 @@ DpcFun_C()
 */
 DispatchDpc()
 {
-  DpcFun_A()                  // 1st DPC procedure in the queue.
+  DpcFun_A()                  // 1st DPC Procedure in the queue.
   {
     Fun_A_Part1;
     DispatchDpc()
     {
-      DpcFun_B()              // 2nd DPC procedure in the queue.
+      DpcFun_B()              // 2nd DPC Procedure in the queue.
       {
         Fun_B_Part1;
         QueueDpc(TPL_CALLBACK, DpcFun_A, NULL);   // Add DpcFun_A() to the end of the queue.
         Fun_B_Part2;
         DispatchDpc()
         {
-          DpcFun_C()          // 3rd DPC in the queue.
+          DpcFun_C()          // 3rd DPC Procedure in the queue.
           {
             Fun_C;
           }
-          DpcFun_A()          // 4th DPC in the queue.
+          DpcFun_A()          // 4th DPC Procedure in the queue.
           {
             Fun_A_Part1;
-            DispatchDpc();    // No more DPC procedure now.
+            DispatchDpc();    // No more DPC Procedure now.
             Fun_A_Part2;
           }
         }
@@ -152,11 +226,11 @@ DispatchDpc()
 }
 ```
 
-### Never Poll the network in a DPC procedure
+### Never Poll an I/O device in a DPC Procedure
 
-The writer should avoid polling the network device in a DPC procedure, especially in the data receive path.
+The writer should avoid polling the I/O device in a DPC Procedure, especially in the data read/receive path.
 
-If there is already a network frame in the network device's receive ring, the *Mnp->Poll()* will pick it from the device, signal event to queue a new DPC, and call *DispatchDpc()* to deliver the packet to upper layer driver. This means if a DPC procedure polls the network, a new network packet will be delivered to the upper layer driver, which may finally run into the original DPC procedure again. It will bring lots of complexities to the upper layer driver, like a serial of nested DPC call, or an infinite recursion of receive-poll-receive...
+Take the network device for example. If there is already a network frame in the network device's receive ring, the *Mnp->Poll()* will pick it from the device, signal event to queue a new DPC Procedure, and call *DispatchDpc()* to deliver the packet to upper layer driver. This means if a DPC Procedure polls the network, a new network packet will be delivered to the upper layer driver, which may finally run into the original DPC Procedure again. It will bring lots of complexities to the upper layer driver, like a serial of nested DPC call, or an infinite recursion of receive-poll-receive...
 
 ```
 MnpPoll()
@@ -170,7 +244,7 @@ MnpPoll()
       ...
       //
       // Signal event of IP driver's receive token, which will queue a new DPC
-      // immediately, see Ip4OnFrameReceived() and Ip6OnFrameReceived()
+      // Procedure immediately, see Ip4OnFrameReceived() and Ip6OnFrameReceived()
       //
       gBS->SignalEvent (RxToken->Event);
     }
@@ -186,6 +260,6 @@ The dispatching of previous queued DPCs is not guaranteed by the firmware or the
 * UEFI drivers that call QueueDpc() must call DispatchDpc() before they unload to guarantee that all queued DPCs have been dispatched
 * UEFI drivers the follow the EFI Driver Model and call QueueDpc() using a device specific context must call DispatchDpc() from their EFI Driver Binding Stop() function to guarantee that all DPCs for that device are dispatched before the device specific context structures are freed.
 
-However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the network stack. **The suggested practice is to make the *QueueDpc()* and *DispatchDpc()* in pairs.** Or in other words, always try to call *DispatchDpc()* immediately after a *SignalEvent()* which may queue a new DPC function.
+However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the network stack. **The suggested practice is to make the *QueueDpc()* and *DispatchDpc()* in pairs.** Or in other words, always try to call *DispatchDpc()* immediately after a *SignalEvent()* which may queue a new DPC Procedure.
 
 Finally, **make sure the *DispatchDpc()* is called at a right TPL level** so it won't miss any previously queued DPCs. Remember that the *DispatchDpc()* dispatches all the DPCs that is greater than or equal to the current TPL value.
