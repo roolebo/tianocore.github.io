@@ -260,6 +260,39 @@ The dispatching of previous queued DPCs is not guaranteed by the firmware or the
 * UEFI drivers that call QueueDpc() must call DispatchDpc() before they unload to guarantee that all queued DPCs have been dispatched
 * UEFI drivers the follow the EFI Driver Model and call QueueDpc() using a device specific context must call DispatchDpc() from their EFI Driver Binding Stop() function to guarantee that all DPCs for that device are dispatched before the device specific context structures are freed.
 
-However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the network stack. **The suggested practice is to make the *QueueDpc()* and *DispatchDpc()* in pairs.** Or in other words, always try to call *DispatchDpc()* immediately after a *SignalEvent()* which may queue a new DPC Procedure.
+However, it's not encouraged to queue a lot of DPCs and dispatch them together before exiting. As we discussed before, multiple DPCs in the queue will result in nested DPC calls, and bring additional complexity to the upper layer driver. **In Edk2 network stack, it is required to call the QueueDpc() and DispatchDpc() always in pairs**, or in other words, always try to call DispatchDpc() immediately after a SignalEvent() which may queue a new DPC procedure, otherwise the upper layer drivers will malfunction. For example, a particular implementation of the MNP driver want to receive multiple packets in the MnpPoll(). So it calls gBS->SignalEvent() for every received packet, then uses a single DispatchDpc() to dispatch them as below.
+```
+// Bad example
+MnpPoll()
+{
+  while (...) {
+    MnpReceive()
+    {
+      MnpInstanceDeliverPacket()
+      {
+        gBS->SignalEvent (RxToken->Event);
+      }
+    }
+  }
+  DispatchDpc ();    // Dispatch several DPC procedures together - NOT good
+}
+```
+The above implementation will result in nested DPC calls as we discussed before, and cause a failure in TCP/UDP driver. The correct practice is to dispatch the DPC procedure inside the while loop, so these DPC procedures will be dispatched separately.
+```
+// Good example
+MnpPoll()
+{
+  while (...) {
+    MnpReceive()
+    {
+      MnpInstanceDeliverPacket()
+      {
+        gBS->SignalEvent (RxToken->Event);
+      }
+    }
+    DispatchDpc ();
+  }
+}
+```
 
 Finally, **make sure the *DispatchDpc()* is called at a right TPL level** so it won't miss any previously queued DPCs. Remember that the *DispatchDpc()* dispatches all the DPCs that is greater than or equal to the current TPL value.
