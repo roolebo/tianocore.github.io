@@ -18,14 +18,14 @@
 
 </td>
 <td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Security_Design_Guide_in_EDK_II.pdf
- A Tour Beyond BIOS Security Design Guide in EDK II] - contributed by Jiewen Yao, Vincent Zimmer<BR>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Security_Design_Guide_in_EDK_II.pdf A Tour Beyond BIOS Security Design Guide in EDK II] contributed by Jiewen Yao and Vincent Zimmer<BR>
+
+
 The purpose of this document is to provide security guidelines to developers, implementers, and code reviewers of the EDK II firmware. The topics discussed in this paper are intended to aid in reducing bugs associated with common security vulnerability classes present in EDK II. Following these guidelines will increase the overall security of platforms implementing the firmware and ensure platforms are not as susceptible to malicious behavior.
 
 * September 2016 
 </td>
 </tr>
-<tr>
 <td>
 
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_Profiling_in_EDK_II.pdf  .PDF] 
