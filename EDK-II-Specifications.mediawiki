@@ -14,6 +14,20 @@
 <tr></tr>
 <tr>
 <td>
+'''FDF Draft'''  
+[https://github.com/tianocore-docs/Docs/raw/master/Specifications/FDF_Spec_1_27_Review_Draft.pdf PDF]
+</td>
+<td>
+EDK II FDF File Spec v1.27  DRAFT for Review- <BR>
+This document describes the EDK II Flash Description (FDF) file format. This format was designed to support new build requirements of building EDK and EDK II modules within the EDK II build infrastructure.
+The EDK II Build Infrastructure supports generation of current Unified EFI, Inc. (UEFI 2.6 and PI 1.4) compliant binary images.
+The FDF file is used to describe the content and layout of binary images. Binary images described in this file may be any combination of boot images, capsule images or PCI Options ROMs.
+* Update Sept 2016 (DRAFT)
+</td>
+</tr>
+
+<tr>
+<td>
 '''UNI'''  
 [https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1.3.pdf PDF] or
 [https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1.3.zip ZIP]
