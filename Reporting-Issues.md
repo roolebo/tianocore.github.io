@@ -1,7 +1,7 @@
 <!-- [[Category:Defect Tracking]] -->
 ### Tianocore Bugzilla
 
-The bug tracking system used for Tianocore projects is [Tianocore Bugzilla](https://tianocore.acgmultimedia.com).  Issues can be viewed without an account.  An account must be [created](https://tianocore.acgmultimedia.com/createaccount.cgi) to enter new issues or update exiting issues.  Additional information about Bugzilla can be found at:
+The bug tracking system used for Tianocore projects is [Tianocore Bugzilla](https://bugzilla.tianocore.org).  Issues can be viewed without an account.  An account must be [created](https://bugzilla.tianocore.org/createaccount.cgi) to enter new issues or update exiting issues.  Additional information about Bugzilla can be found at:
 * [Bugzilla Web Site](https://www.bugzilla.org/)
 * [Bugzilla User's Guide](https://bugzilla.readthedocs.io/en/5.0/using/index.html)
 
