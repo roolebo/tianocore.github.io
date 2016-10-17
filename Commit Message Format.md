@@ -18,10 +18,11 @@ Signed-off-by: Contributor Name &lt;contributor@email.server&gt;
 Where:
 * Pkg-Module is the EDK II Package and optionally the Module
 * Brief-single-line-summary is a short summary of the change
-* The length of 'Pkg-Module: Brief-single-line-summary' should not exceed 70 characters
+* The length of 'Pkg-Module: Brief-single-line-summary' should be less
+  than 72 characters
 * blank-line is an empty line
 * Full-commit-message is the full message describing the change
- * Line length should be limited to 70 characters when possible
+ * Line length should be less than 76 characters when possible
 * Signatures is one or more lines with signatures.  Please see the [[Commit Signature Format]] page for more information.
 * The entire log message should use only standard ASCII text characters
 
