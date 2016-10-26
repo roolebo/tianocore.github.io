@@ -57,7 +57,7 @@ These instructions will utilize Ubuntu's built in command shell (bash) via the G
 
 ====Install required software from apt====
 
-Several ubuntu packages will be needed to set up the build environment for EDK II. The following command install all dependecies:
+Several Ubuntu packages will be needed to set up the build environment for EDK II. The following command will install all required packages:
 
 <pre>
 bash$ sudo apt-get install build-essential uuid-dev iasl git gcc-5 nasm
