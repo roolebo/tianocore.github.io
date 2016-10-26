@@ -91,9 +91,11 @@ TARGET_ARCH           = IA32
 </pre>
 
 Change this reflect the build architecture for the final UEFI binary.
+
 :Example: <code>X64</code>, <code>IA32 X64</code> (which will build both architectures).
 
 Optional: enable multi-threaded build. The default value for <code>MAX_CONCURRENT_THREAD_NUMBER</code> is 1, which disables multi-threaded build. Change this value based on your system's multi-threading capabilities. The formula is '1 + (2 x processor threads)'.
+
 :Example: for an Intel Core i5 (two processor cores w/ hyperthreading), the value is <code>9</code>.
 
 ===Build Hello World!  (and the rest of MdeModulePkg)===
