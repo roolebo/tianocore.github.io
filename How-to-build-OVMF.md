@@ -24,7 +24,7 @@ First decide which version of OVMF you will build. You can choose to build the I
 | OvmfPkg/OvmfPkgIa32X64.dsc | IA32 X64     | IA32     | X64           |
 | OvmfPkg/OvmfPkgX64.dsc     | X64          | X64      | X64           |
 
-Example: <code>Conf/target.txt</conf> values to build x64 UEFI image for OVMF using GCC5 compiler:
+Example: <code>Conf/target.txt</code> values to build x64 UEFI image for OVMF using GCC5 compiler:
 
 <pre>
 ACTIVE_PLATFORM       = OvmfPkg/OvmfPkgX64.dsc
