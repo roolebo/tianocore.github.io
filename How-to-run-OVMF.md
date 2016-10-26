@@ -5,6 +5,8 @@ Pre-requisites
 
 In order to run OVMF with QEMU, you must have QEMU version 0.9.1 or newer installed on your system.
 
+To install on Debian/Ubuntu: <code>sudo apt-get install qemu</code>
+
 ### Get a build of OVMF.fd
 
 The latest pre-built binaries of OVMF are available from the main [OVMF](http://www.tianocore.org/ovmf/) page, or from [OVMF downloads](http://sourceforge.net/projects/edk2/files/OVMF) area. You can also [build OVMF](How_to_build_OVMF "wikilink") if you are interested.
@@ -42,8 +44,6 @@ Next, create a directory to use as a hard disk image for QEMU
 
     bash$ mkdir hda-contents
 
-Run OVMF with QEMU
-
 Run QEMU using OVMF
 -------------------
 
@@ -51,7 +51,18 @@ Here is a sample command:
 
     bash$ qemu-system-x86_64 -L . -hda fat:hda-contents
 
-If everything goes well, you should see a graphic logo, and then the UEFI shell should start.
+If everything goes well, you should see a graphic logo, and the UEFI shell should start.
+
+Note: iPXE is enabled on recent builds of QEMU, and may try to network boot if a valid network adapter is detected. To disable iPXE, add <code>-net none</code> to the command line.
+
+Optional: Point directly to UEFI firmware in <code>edk2/Build</code> directory
+------------------------------------------------------------------------------
+
+The path to the <code>OVMF.fd</code> image can be directly provided on the command line, rather than copying to another directory. Example for debug image built using GCC5, with iPXE disabled:
+
+<pre>
+qemu-system-x86_64 -L . --bios ~/src/edk2/Build/OvmfX64/DEBUG_GCC5/FV/OVMF.fd -net none
+</pre>
 
 Potential issues
 ----------------
