@@ -11,17 +11,17 @@ bash$ cd ~/src
 bash$ git clone https://github.com/tianocore/edk2
 </pre>
 
-====For EDKII project developers:====
-*	Clone the EDK II project repository
-**	git clone https://github.com/tianocore/edk2
-*	Change to the edk2 directory
-*	Build the tools
-**	make -C BaseTools
-*	Run the edksetup.sh script
-**	. edksetup.sh
+===Compile build tools ===
+
+<pre>
+bash$ cd ~/edk2
+bash$ make -C BuildTools
+bash$ . edksetup.sh
+</pre>
+
 When the above steps are done, you can work in the edk2 directory for code development.
 
-====For FatPkg developers:====
+====For FatPkg Developers (optional)====
 *	Create a workspace directory
 *	Change to the workspace directory
 *	Clone the EDK II project repository
@@ -44,6 +44,7 @@ When the above steps are done, the directory structure will look like:
        ├───edk2
        └───FatPkg
 
+<!--
 ===Build the EDK II BaseTools===
 
 <pre>
@@ -57,14 +58,15 @@ bash$ cd ~/src/edk2
 bash$ export EDK_TOOLS_PATH=$HOME/src/edk2/BaseTools
 bash$ . edksetup.sh BaseTools
 </pre>
+-->
 
 ===Modify Conf Files===
 
-You will need to edit the Conf/tools_def.txt and Conf/target.txt files.  These changes will enable the MdeModulePkg to be built using the GCC 4.4 compiler.
+Running <code>edksetup.sh</code> populates the <code>edk2/Conf</code> directory with default configuration files. You will need to edit the <code>Conf/target.txt</code> file to set the build platform, target architecture, tool chain, and multi-threading options. The example below is based on building the <code>MdeModulePkg</code> using GCC5.
 
 ====Set Build Target Information====
 
-For the Conf/target.txt file, find the following lines:
+For the <code>Conf/target.txt</code> file, find the following lines:
 
 <pre>
 ACTIVE_PLATFORM       = Nt32Pkg/Nt32Pkg.dsc
@@ -75,22 +77,23 @@ And change the corresponding lines to match these:
 
 <pre>
 ACTIVE_PLATFORM       = MdeModulePkg/MdeModulePkg.dsc
-TOOL_CHAIN_TAG        = GCC44
+TOOL_CHAIN_TAG        = GCC5
 </pre>
 
-Note: The 'gcc --version' command can be used to find out your GCC version.  Use the '''GCC45''' toolchain for gcc 4.5.* and the '''GCC46''' toolchain for gcc 4.6.*.
+:Note: The <code>gcc --version</code> command can be used to find out your GCC version.  Use the '''GCC45''' toolchain for gcc 4.5.* and the '''GCC46''' toolchain for gcc 4.6.*.
 
-Optionally, you may consider finding:
+Locate the TARGET_ARCH setting:
 
 <pre>
 TARGET_ARCH           = IA32
 </pre>
 
-...and changing it if your GCC 4.4 installation supports 64-bit builds.  You can change it to either 'X64', or even 'IA32 X64' which will build both architectures.
+Change this reflect the build architecture.
+Example: <code>X64</code>, <code>IA32 X64</code> (which will build both architectures).
 
 ===Build Hello World!  (and the rest of MdeModulePkg)===
 
-Now you should be able to simply run the build command to compile the MdeModulePkg.
+Now you should be able to simply run the build command to compile <code>MdeModulePkg</code>.
 
 <pre>
 bash$ build
@@ -103,4 +106,4 @@ bash$ ls Build/MdeModule/DEBUG_*/*/HelloWorld.efi
 
 ===Build [http://www.tianocore.org/ovmf/ OVMF]===
 
-Once your build environment is set up you might be interested in [[How to build OVMF|building the OVMF platform]] which is included in the main edk2 source tree.  Since [http://www.tianocore.org/ovmf/ OVMF] builds a full system firmware image this may be of interest to UEFI system firmware developers.
+Once your build environment is set up you might be interested in [[How to build OVMF|building the OVMF platform]] which is included in the main EDK II source tree.  Since [http://www.tianocore.org/ovmf/ OVMF] builds a full system firmware image this may be of interest to UEFI system firmware developers.
