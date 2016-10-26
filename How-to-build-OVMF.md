@@ -38,7 +38,7 @@ Once you have modified Conf/target.txt, you can run the build command.
 
 If successful, you should now have a OVMF.Fd file under the Build sub-directory. The exact directory under the Build directory will depend upon the toolchain, dsc and processor architecture.
 
-You can use OVMF.Fd to [run OVMF](How_to_run_OVMF "wikilink").
+You can use OVMF.Fd to [run OVMF](How-to-run-OVMF "wikilink").
 
 See Also
 --------
