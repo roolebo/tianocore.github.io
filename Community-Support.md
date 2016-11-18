@@ -1,20 +1,18 @@
 <ul>
  
  
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/How_To_Contribute" title="How to Contribute"> How to Contribute </a></li>
+<li><a href="http://www.tianocore.org/contrib/" title="How to Contribute"> How to Contribute </a></li>
 
 
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Getting_Started" title="Getting Started"> Getting Started </a></li>
+<li><a href="http://http://www.tianocore.org/contrib/getting-started.html" title="Getting Started"> Getting Started </a></li>
 
+
+<li><a href="http://www.tianocore.org/training/" title="Training"> Training </a></li>
  
+<li><a href="http://www.tianocore.org/docs/" title="Documents"> Documents</a></li>
 
-
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Training" title="Training"> Training </a></li>
- 
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Documents" title="Documents"> Documents</a></li>
-
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Reporting_Issues" title="Reporting Issues"> Reporting Issues </a></li>
+<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Reporting-Issues" title="Reporting Issues"> Reporting Issues </a></li>
   
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Member_FAQ" title="FAQ, Acronyms"> FAQs</a></li>
+<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Member-FAQ" title="FAQ, Acronyms"> FAQs</a></li>
  
 </ul>
