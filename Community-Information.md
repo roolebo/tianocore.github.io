@@ -8,7 +8,7 @@
 <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Community-News" title="Community News"> Community News </a></li>
 
 
-<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Community_Admins" title="Contact Community Admins"> Contact Community Admins </a></li>
+<li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Contact-Us" title="Contact Us"> Contact Us </a></li>
  
 <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/Legalese" title="Legalese"> Legalese </a></li>
 
