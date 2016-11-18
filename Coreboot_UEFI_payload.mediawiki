@@ -15,8 +15,7 @@ http://www.coreboot.org/
 - Source code package of Coreboot Payload Modules, Provides definitions of       payload image's layout and lists the modules required in DSC file.
 
 '''Build Instructions''':
-https://svn.code.sf.net/p/edk2/code/trunk/edk2/CorebootPayloadPkg/BuildAndIntegrationInstructions.txt
-
+https://github.com/tianocore/edk2/raw/master/CorebootPayloadPkg/BuildAndIntegrationInstructions.txt
 
 ===''' Intel® Firmware Support Package'''===
 
