@@ -4,7 +4,7 @@
 <li><a href="http://www.tianocore.org/contrib/" title="How to Contribute"> How to Contribute </a></li>
 
 
-<li><a href="http://http://www.tianocore.org/contrib/getting-started.html" title="Getting Started"> Getting Started </a></li>
+<li><a href="http://www.tianocore.org/contrib/getting-started.html" title="Getting Started"> Getting Started </a></li>
 
 
 <li><a href="http://www.tianocore.org/training/" title="Training"> Training </a></li>
