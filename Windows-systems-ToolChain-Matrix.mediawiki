@@ -61,6 +61,26 @@ Change <span style="font-family: Courier"> '''TOOL_CHAIN_TAG''' </span> in the f
 		<td dir="LTR" style="width: 156px; color: white; font-size: 12.0pt; text-shadow: auto; text-align: center; white-space: normal; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: medium none; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #FDB813">
 		'''VS2012x86'''</td>
 	</tr>
+	<tr height="21" style="height:15.75pt">
+		<td height="21" dir="LTR" style="height: 15.75pt; width: 144px; color: white; font-size: 12.0pt; font-weight: 700; text-align: center; white-space: normal; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: .5pt solid white; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #00AEEF">
+		'''VS2013**'''</td>
+		<td dir="LTR" style="width: 109px; color: white; font-size: 12.0pt; text-shadow: auto; text-align: center; white-space: normal; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: medium none; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #FDB813">
+		'''12'''</td>
+		<td dir="LTR" style="width: 127px; color: white; font-size: 12.0pt; text-shadow: auto; text-align: center; white-space: normal; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: medium none; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #FDB813">
+		'''VS2013'''</td>
+		<td dir="LTR" style="width: 156px; color: white; font-size: 12.0pt; text-shadow: auto; text-align: center; white-space: normal; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: medium none; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #FDB813">
+		'''VS2013x86'''</td>
+	</tr>
+	<tr height="21" style="height:15.75pt">
+		<td height="21" dir="LTR" style="height: 15.75pt; width: 144px; color: white; font-size: 12.0pt; font-weight: 700; text-align: center; white-space: normal; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: .5pt solid white; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #00AEEF">
+		'''VS2015**'''</td>
+		<td dir="LTR" style="width: 109px; color: white; font-size: 12.0pt; text-shadow: auto; text-align: center; white-space: normal; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: medium none; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #FDB813">
+		'''14'''</td>
+		<td dir="LTR" style="width: 127px; color: white; font-size: 12.0pt; text-shadow: auto; text-align: center; white-space: normal; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: medium none; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #FDB813">
+		'''VS2015'''</td>
+		<td dir="LTR" style="width: 156px; color: white; font-size: 12.0pt; text-shadow: auto; text-align: center; white-space: normal; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; vertical-align: bottom; border-left: medium none; border-right: .5pt solid white; border-top: medium none; border-bottom: .5pt solid white; padding-left: 1px; padding-right: 1px; padding-top: 1px; background: #FDB813">
+		'''VS2015x86'''</td>
+	</tr>
 
 </table>
 
@@ -74,6 +94,7 @@ to:
 
 
 : NOTE: VS2012** only with [[UDK2014]] releases or equivalent or later UDK release
+: NOTE: VS2013** & VS2015** only with [[UDK2015]] releases or equivalent or later UDK release
 
 : NOTE: VS2003** May not be supported
 
