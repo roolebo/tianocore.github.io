@@ -1,5 +1,7 @@
 Security
 ========
+Obsolete Please use : [[Reporting Security Issues]]
+----
 
 ![image](http://www.tianocore.org/images/SecurityPix.JPG)
 
