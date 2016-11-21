@@ -10,10 +10,5 @@ DuetPkg description :
 * Support boot to EFI/UEFI Shell
 
 How to Build for EDK II
-[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/DuetPkg/ReadMe.txt/download ReadMe.txt]
+[https://github.com/tianocore/edk2/raw/master/DuetPkg/ReadMe.txt ReadMe.txt]
 
-===Source Repository===
-{{Edk2SubPkg|DuetPkg}}
-
-===UDK2010.SR1 Notes===
-No new notes
