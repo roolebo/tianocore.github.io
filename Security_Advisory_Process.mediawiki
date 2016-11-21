@@ -1,6 +1,12 @@
 Security Advisory Process
 
-*'''IMPORTANT:''' All mail sent via this reflector are TianoCore Contribution Agreement 1.0 [[Code_Contributions]]
+Now using Security reporting through the following: [[Reporting Security Issues]]
+
+Below for archive reference only
+----
+
+
+*'''IMPORTANT:''' All mail sent via this reflector are TianoCore Contribution Agreement 1.0 [[Code Contributions]]
 
 *'''IMPORTANT:''' Please consider encrypting your message. We support S/MIME. If you do not have encryption available, describe the issue in generalities to establish the converstation. We can then work out some mutually agreeable method of encrypting the details in subsequent private conversations.
 
