@@ -1,11 +1,11 @@
 There are 4 security related features in SecurityPkg including [[SecurityPkg#TPM|TPM]], [[SecurityPkg#UID|User identification (UID)]], [[SecurityPkg#Secure Boot|secure boot]], and [[SecurityPkg#Authenticated Variable|authenticated variable]].
 
 More information: 
-* [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Readme_Security.txt/download ReadMe.txt]
+* [https://github.com/tianocore/edk2/raw/master/ShellPkg/Readme.txt ReadMe.txt]
 * [[How-to-Enable-Security | How to enable Security]] with EDK II
-* [http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.pdf/download How to Sign UEFI Drivers & Applications V1.31.pdf]
+* PDF on [https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf How to Sign UEFI Drivers & Applications V1.31.pdf]
 * [https://docs.google.com/file/d/0BxgB4JDywk3MWnM0WmNXMHBTcm8/edit?pli=1 Secure Boot Ecosystem Challenges PDF]-From ToorCamp 2012, Presentation by Vincent Zimmer 
-* [http://sourceforge.net/projects/edk2/files/General%20Documentation/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf/download  A Tour Beyond BIOS into UEFI Secure Boot PDF]
+* White Paper : [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf A Tour Beyond BIOS into UEFI Secure Boot PDF] 
 
 
 
@@ -26,10 +26,9 @@ Authenticated variable service is an enhancement on Variable Service in UEFI, wh
 This section lists signing tools and resources for UEFI Secure Boot on Linux. 
 It is far from an exhaustive list but hopefully will be a  helpful  starting point.
 This version was created Jan. 31, 2013 and will be updated periodically.
-Please send recommended changes to: 
-[mailto:edk2-devel@lists.sourceforge.net?subject=Secure%20Boot%20Signing%20Tools%20Question Edk2 Devel Mail list] - To join the email list goto: [http://lists.sourceforge.net/lists/listinfo/edk2-devel Join Edk2 Devel Mail list]
+Please send recommended changes to the  <a href="mailto:edk2-devel@lists.01.org?Subject=Boot%20Signing%20Tools%20Question>  edk2-devel@lists.01.org</a> To join the email list goto: [[edk2-devel]] (NOTE: Do NOT send any personal information to the edk2-devel list.)
 
- 
+
 ==='''Linux tools for signing UEFI images'''===
 <table  width="100%" style="border-collapse: collapse" bordercolor="#0000011">
 <tr>
@@ -288,11 +287,7 @@ Rev1 only supported 2 certificates in an image.
 *	Enroll PeterJones.cer  in PK, KEK & DB,  
 **	now only  hello-2.efi runs.
 
-==Source Repository==
-{{Edk2SubPkg|SecurityPkg}}
 
-===UDK2010.SR1 Notes===
-[https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/SecurityPkg%20Notes.txt/download Security Notes.txt]
 
 <!-- [[Category:EDKII Packages]] -->
 <!-- [[Category:Security]] -->
