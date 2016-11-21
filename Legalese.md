@@ -8,4 +8,4 @@ The following licenses our used by our community:
 -   [[BSD License]]
 -   [[NetBSD License]]
 -   [[FAT32 License]] (BSD + one additional term)
--   [[Eclipse License]]
+-   [[Eclipse]] License
