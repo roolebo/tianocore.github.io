@@ -18,3 +18,5 @@ For general developer discussions, please refer to the ''Developer Discussions''
 |}
 
 Some smaller projects do not have separate emails lists.  In this case, feel free to discuss these projects on either the EDK or EDK II developer discussions email lists.
+
+'''NOTE:''' Do NOT send any personal information to the email lists above.
