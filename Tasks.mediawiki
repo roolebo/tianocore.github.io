@@ -15,7 +15,7 @@ Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
 * Difficulty: Medium
 * Language: Assembly, C
 * Mentor:
-* Suggested by: {{sfuser|jljusten}}
+* Suggested by: jljusten
 
 More information: [[Tasks-UefiCpuPkg-CpuDxe MP support]]
 
@@ -24,7 +24,7 @@ Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
 * Difficulty: Medium ... Hard
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|rsun3}}
+* Suggested by: rsun3
 * Status: Significant progress made during [[GSOC2011]] (external [https://github.com/rraf/Ext2Pkg repo])
 
 More information: [[Tasks-ext2 file-system driver]]
@@ -39,7 +39,7 @@ widely usable.
 * Difficulty: Medium ... Hard
 * Language: Assembly, C
 * Mentor:
-* Suggested by: {{sfuser|bjjohnson}}
+* Suggested by: bjjohnson
 
 ===Enable Link-time Code Optimization for Linux builds===
 Enable Link-time Code Optimization on Linux for either
@@ -50,7 +50,7 @@ for Linux based builds.
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}, {{sfuser|jljusten}}
+* Suggested by: andrewfish, jljusten
 
 ===Port EmulatorPkg to Windows===
 Create a windows based host environment for [[EmulatorPkg]]. (Could
@@ -58,7 +58,7 @@ also be developed using mingw-gcc & wine under Linux.)
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}
+* Suggested by: andrewfish
 
 More information: [[Tasks-EmulatorPkg for Windows]]
 
@@ -67,7 +67,7 @@ Create a ARM based host environment for [[EmulatorPkg]].
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}
+* Suggested by: andrewfish
 
 ===Port ACPI-CA to a shell application===
 Port portions of [http://www.acpica.org ACPI-CA] to a shell
@@ -75,21 +75,21 @@ application to enable dumping and disassembly of ACPI tables.
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}, {{sfuser|jljusten}}
+* Suggested by: andrewfish, jljusten
 
 ===[[EmulatorPkg]] network support for Linux===
 Port EmulatorPkg/EmuSnpDxe to support Linux.
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}
+* Suggested by: andrewfish
 
 ===Network Block Device (NBD) client===
 http://nbd.sourceforge.net/
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|bjjohnson}}, {{sfuser|andreiwarkentin}}
+* Suggested by: bjjohnson, andreiwarkentin
 
 More information: [[Tasks-Network Block Device]]
 
@@ -98,14 +98,14 @@ Enable accessing content on an SMB network share
 * Difficulty: Hard
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|jljusten}}, {{sfuser|geekboy15a}}, {{sfuser|jcarsey}}
+* Suggested by: jljusten, geekboy15a, jcarsey
 
 ===DNS Proxy Support===
 Implement DNS proxy on EDK II
 * Difficulty:
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|kidzyoung}}
+* Suggested by: kidzyoung
 
 ===MP safe Print, DEBUG, and ASSERT===
 Allow APs to safely print and use DEBUG trace messages.
@@ -113,21 +113,21 @@ Allow APs to safely print and use DEBUG trace messages.
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}
+* Suggested by: andrewfish
 
 ===SourceLevelDebugPkg & GDB===
 A fully functional gdb stub for x86/x64, attaching to SourceLevelDebugPkg's remote protocol.
 * Difficulty: Medium ... Hard
 * Language: Python, C
 * Mentor:
-* Suggested by: {{sfuser|bjjohnson}}
+* Suggested by: bjjohnson
 
 ===Terminal driver improvements===
 Optimize cursor motion sequences; support Linux/UNIX standard (xterm/konsole/gnome-terminal/etc.) key codes and line-drawing characters
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|bjjohnson}}
+* Suggested by: bjjohnson
 
 ===HII command-line browser===
 A command-line based HII browser, suitable for automation. Either a
@@ -137,7 +137,7 @@ to/from a file in an easily-edited format.
 * Difficulty: Medium ... Hard
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|bjjohnson}}
+* Suggested by: bjjohnson
 
 ===DataHub & GCD scalability===
 The DataHub and GCD layers don't scale well as the number of data
@@ -146,7 +146,7 @@ better data structures.
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|bjjohnson}}
+* Suggested by: bjjohnson
 
 ===Utilize return address information===
 * Make use of __builtin_return_address(n) & _ReturnAddress to add debug & data gathering capabilities.  Some ideas:
@@ -161,7 +161,7 @@ better data structures.
 * Difficulty: Medium ... Hard
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}
+* Suggested by: andrewfish
 
 ===Various Debug Improvements===
 Note: There are many ideas here. GSoC students should feel free to
@@ -181,7 +181,7 @@ proposal.
 * Difficulty: Medium ... Hard
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|andrewfish}}
+* Suggested by: andrewfish
 
 ===Optimize OVMF for Xen HVM domains===
 Add [http://www.xen.org/ Xen] specific support in
@@ -190,13 +190,13 @@ performance.
 * Difficulty: Easy ... Hard
 * Language: C
 * Mentor:
-* Suggested by:  {{sfuser|andreiwarkentin}}, Bei Guan
+* Suggested by:  andreiwarkentin, Bei Guan
 
 ===Port OpenSSH as a shell application===
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|bjjohnson}}
+* Suggested by: bjjohnson
 
 ==Previously Complete Projects==
 
@@ -206,7 +206,7 @@ each PI 1.2 FFS in the system to appear as a pseudo-file system.
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|mdkinney}}
+* Suggested by: mdkinney
 * Status: Ready for integration into main edk2 tree (external [https://github.com/cfdrake/FileSystemPkg repo])
 
 More information: [[Tasks-Read-only FFS file-system driver]]
@@ -216,8 +216,8 @@ Various improvements for the Shell editor
 
 * Difficulty: Medium
 * Language: C
-* Mentor: {{sfuser|jljusten}}
-* Suggested by: {{sfuser|jljusten}}, {{sfuser|geekboy15a}}, {{sfuser|jcarsey}}
+* Mentor: jljusten
+* Suggested by: jljusten, geekboy15a, jcarsey
 * Status: Available in main edk2 tree
 
 More information: [[Tasks-Text Editor]]
@@ -227,8 +227,8 @@ Get [http://www.xen.org/ Xen] to boot UEFI with the
 [http://www.tianocore.org/ovmf/ OVMF] platform.
 * Difficulty: Easy ... Hard - (depending on tasks taken on)
 * Language: C
-* Mentor: {{sfuser|andreiwarkentin}}, {{sfuser|jljusten}}
-* Suggested by:  {{sfuser|andreiwarkentin}}
+* Mentor: andreiwarkentin, jljusten
+* Suggested by:  andreiwarkentin
 * Status: Available in main edk2 tree
 
 ===USB-to-serial driver===
@@ -236,7 +236,7 @@ Develop a USB driver for a common USB-to-serial adapter.
 * Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: {{sfuser|jljusten}}
+* Suggested by: jljusten
 
 More information: [[Tasks-USB Serial Adapter driver]]
 
