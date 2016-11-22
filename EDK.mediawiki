@@ -149,7 +149,7 @@ The EDK is essentially a container for the Framework's Foundation code and sampl
 
 License information: [http://www.opensource.org/licenses/bsd-license.php BSD]
 
-Project owner(s): Email the [[edk2-devel]] email list
+Project owner(s): Email the [[edk2-devel| efidevkit-devel ]] email list
 =='''Member Links'''==
 
 * [http://sourceforge.net/apps/trac/efidevkit/report/8 Query of Open and Active EDK Defects]
