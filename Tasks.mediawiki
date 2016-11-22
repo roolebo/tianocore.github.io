@@ -9,13 +9,14 @@ still being actively developed.
 
 ==Open Projects==
 
-===Multiprocessor support in UefiCpuPkg/CpuDxe===
+===<s>Multiprocessor support in UefiCpuPkg/CpuDxe</s>===
 Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
-(Implement {{Edk2RepoPath|MdePkg/Include/Protocol/MpService.h}})
+(Implement MdePkg/Include/Protocol/MpService.h)
 * Difficulty: Medium
 * Language: Assembly, C
 * Mentor:
 * Suggested by: jljusten
+* Status: Available in EDK II tree
 
 More information: [[Tasks-UefiCpuPkg-CpuDxe MP support]]
 
