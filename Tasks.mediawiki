@@ -180,7 +180,7 @@ performance.
 
 ==Previously Complete Projects==
 
-===Read-only FFS file-system driver===
+===<s>Read-only FFS file-system driver</s>===
 Develop a read-only filesystem driver which allows the contents of
 each PI 1.2 FFS in the system to appear as a pseudo-file system.
 * Difficulty: Medium
@@ -191,7 +191,7 @@ each PI 1.2 FFS in the system to appear as a pseudo-file system.
 
 More information: [[Tasks-Read-only FFS file-system driver]]
 
-===Shell editor improvements===
+===<s>Shell editor improvements</s>===
 Various improvements for the Shell editor
 
 * Difficulty: Medium
@@ -202,7 +202,7 @@ Various improvements for the Shell editor
 
 More information: [[Tasks-Text Editor]]
 
-===Enable Xen Support in OVMF===
+===<s>Enable Xen Support in OVMF</s>===
 Get [http://www.xen.org/ Xen] to boot UEFI with the
 [http://www.tianocore.org/ovmf/ OVMF] platform.
 * Difficulty: Easy ... Hard - (depending on tasks taken on)
@@ -211,7 +211,7 @@ Get [http://www.xen.org/ Xen] to boot UEFI with the
 * Suggested by:  andreiwarkentin
 * Status: Available in main edk2 tree
 
-===USB-to-serial driver===
+===<s>USB-to-serial driver</s>===
 Develop a USB driver for a common USB-to-serial adapter.
 * Difficulty: Medium
 * Language: C
