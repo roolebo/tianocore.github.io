@@ -2,6 +2,9 @@
 NetworkPkg provides IPv6 network stack drivers, IPsec driver, PXE driver, iSCSI driver and necessary shell applications
 for network configuration
 
+
+More information: [https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide NetworkPkg Getting Started Guide]
+
 <div class="t_projects">
 
 <table border="1" width="500">
@@ -9,7 +12,7 @@ for network configuration
 <th>
 <span style="font-size: 12.0pt; text-align: center; font-family: Verdana; color: black; font-weight: bold; font-style: normal">
 Network Package Details </span>
-[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Readme_NetworkPkg.txt/download ReadMe.txt]
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/Readme_NetworkPkg.txt Readme_NetworkPkg.txt]
 </th>
 </tr>
 
@@ -95,12 +98,5 @@ Note: Supported features in IPsec
 *      5)  Authentication Method       Pre-shared Key, X509 Certificates
 
 Note: After IPsec is enabled in both side, all inbound and outbound IP packet are processed by IPsec.
-
-
-===Source Repository===
-{{Edk2SubPkg|NetworkPkg}}
-
-===UDK2010.SR1 Notes===
-[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/NetworkPkg%20Notes.txt/download NetworkPkg Notes.txt]
 
 More information: [https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide NetworkPkg Getting Started Guide]
