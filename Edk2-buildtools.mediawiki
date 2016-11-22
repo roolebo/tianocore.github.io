@@ -156,10 +156,10 @@ Jan 2, 2012
 == Notes ==
 These tools are under constant development to ensure [[UEFI]]/PI specification conformance and to reduce build times. 
 
-Your Feedback is critical to making EDK II a success. Please submit any enhancements, defects, or requests through the  the <a href="mailto:edk2-devel-bounces@lists.01.org?Subject=BuildTools&body=BuildTools> edk2-devel </a> mailing list
+Your Feedback is critical to making EDK II a success. Please submit any enhancements, defects, or requests through the  the <a href="mailto:edk2-devel@lists.01.org?Subject=BuildTools&body=BuildTools> edk2-devel </a> mailing list
 
 Goto  [[edk2-devel]]  to Join the Mailing list
 
 License information: [http://www.opensource.org/licenses/bsd-license.php BSD]
 
-Project owner(s):  {{sfuser|jcarsey}}, {{sfuser|lhauch}}  See: [https://raw.githubusercontent.com/tianocore/edk2/master/Maintainers.txt Maintainers.txt]
+Project owner(s):    See: [https://raw.githubusercontent.com/tianocore/edk2/master/Maintainers.txt Maintainers.txt]
