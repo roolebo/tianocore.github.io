@@ -40,6 +40,7 @@ widely usable.
 * Language: Assembly, C
 * Mentor:
 * Suggested by: bjjohnson
+* Status: SeaBIOS can be built as a CSM, but a BSD licensed alternative is still not available.
 
 ===<s>Enable Link-time Code Optimization for Linux builds</s>===
 Enable Link-time Code Optimization on Linux for either
