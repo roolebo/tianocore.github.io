@@ -9,17 +9,6 @@ still being actively developed.
 
 ==Open Projects==
 
-===<s>Multiprocessor support in UefiCpuPkg/CpuDxe</s>===
-Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
-(Implement MdePkg/Include/Protocol/MpService.h)
-* Difficulty: Medium
-* Language: Assembly, C
-* Mentor:
-* Suggested by: jljusten
-* Status: Available in EDK II tree
-
-More information: [[Tasks-UefiCpuPkg-CpuDxe MP support]]
-
 ===Read-only ext2 driver===
 Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
 * Difficulty: Medium ... Hard
@@ -42,18 +31,6 @@ widely usable.
 * Mentor:
 * Suggested by: bjjohnson
 * Status: SeaBIOS can be built as a CSM, but a BSD licensed alternative is still not available.
-
-===<s>Enable Link-time Code Optimization for Linux builds</s>===
-Enable Link-time Code Optimization on Linux for either
-[http://gcc.gnu.org/wiki/LinkTimeOptimization GCC 4.6] or LLVM/CLANG.
-
-This feature hopefully would significantly reduce code generation size
-for Linux based builds.
-* Difficulty: Medium
-* Language: C
-* Mentor:
-* Suggested by: andrewfish, jljusten
-* Status: Available in GCC5 & CLANG38 toolchains
 
 ===Port EmulatorPkg to Windows===
 Create a windows based host environment for [[EmulatorPkg]]. (Could
@@ -242,6 +219,29 @@ Develop a USB driver for a common USB-to-serial adapter.
 * Suggested by: jljusten
 
 More information: [[Tasks-USB Serial Adapter driver]]
+
+===<s>Multiprocessor support in UefiCpuPkg/CpuDxe</s>===
+Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
+(Implement MdePkg/Include/Protocol/MpService.h)
+* Difficulty: Medium
+* Language: Assembly, C
+* Mentor:
+* Suggested by: jljusten
+* Status: Available in EDK II tree
+
+More information: [[Tasks-UefiCpuPkg-CpuDxe MP support]]
+
+===<s>Enable Link-time Code Optimization for Linux builds</s>===
+Enable Link-time Code Optimization on Linux for either
+[http://gcc.gnu.org/wiki/LinkTimeOptimization GCC 4.6] or LLVM/CLANG.
+
+This feature hopefully would significantly reduce code generation size
+for Linux based builds.
+* Difficulty: Medium
+* Language: C
+* Mentor:
+* Suggested by: andrewfish, jljusten
+* Status: Available in GCC5 & CLANG38 toolchains
 
 ==See Also==
 * [[How To Contribute]]
