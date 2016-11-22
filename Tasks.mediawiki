@@ -41,7 +41,7 @@ widely usable.
 * Mentor:
 * Suggested by: bjjohnson
 
-===Enable Link-time Code Optimization for Linux builds===
+===<s>Enable Link-time Code Optimization for Linux builds</s>===
 Enable Link-time Code Optimization on Linux for either
 [http://gcc.gnu.org/wiki/LinkTimeOptimization GCC 4.6] or LLVM/CLANG.
 
@@ -51,6 +51,7 @@ for Linux based builds.
 * Language: C
 * Mentor:
 * Suggested by: andrewfish, jljusten
+* Status: Available in GCC5 & CLANG38 toolchains
 
 ===Port EmulatorPkg to Windows===
 Create a windows based host environment for [[EmulatorPkg]]. (Could
