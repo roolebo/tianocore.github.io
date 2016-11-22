@@ -1,12 +1,17 @@
-These tasks have been identified by our community.  They are currently open for development by community members, and would be a great way to get involved and start contributing.
+These tasks have been identified by our community. They are currently
+open for development by community members, and would be a great way to
+get involved and start contributing.
 
-Please let us know on [[edk2-devel]] if you plan to work on one of these tasks to prevent duplicated effort.
-Also, please provide status updates on [[edk2-devel]] so the community will know the project is still being actively developed.
+Please let us know on [[edk2-devel]] if you plan to work on one of
+these tasks to prevent duplicated effort. Also, please provide status
+updates on [[edk2-devel]] so the community will know the project is
+still being actively developed.
 
 ==Open Projects==
 
 ===Multiprocessor support in UefiCpuPkg/CpuDxe===
-Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.  (Implement {{Edk2RepoPath|MdePkg/Include/Protocol/MpService.h}})
+Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
+(Implement {{Edk2RepoPath|MdePkg/Include/Protocol/MpService.h}})
 * Difficulty: Medium
 * Language: Assembly, C
 * Mentor:
@@ -25,23 +30,31 @@ Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
 More information: [[Tasks-ext2 file-system driver]]
 
 ===Compatibility Support Module===
-A [[CSM]] allows a UEFI system to boot legacy operating systems on IA32 & X64 systems.  In other words, most current production OS's.  Strong preference is for a BSD licensed solution, as this is license used by nearly all of our code.  A [http://www.coreboot.org/SeaBIOS SeaBIOS] based solution could be considered, but would not be as widely usable.
+A [[CSM]] allows a UEFI system to boot legacy operating systems on
+IA32 & X64 systems. In other words, most current production OS's.
+Strong preference is for a BSD licensed solution, as this is license
+used by nearly all of our code. A [http://www.coreboot.org/SeaBIOS
+SeaBIOS] based solution could be considered, but would not be as
+widely usable.
 * Difficulty: Medium ... Hard
 * Language: Assembly, C
 * Mentor:
 * Suggested by: {{sfuser|bjjohnson}}
 
 ===Enable Link-time Code Optimization for Linux builds===
-Enable Link-time Code Optimization on Linux for either [http://gcc.gnu.org/wiki/LinkTimeOptimization GCC 4.6] or LLVM/CLANG.
+Enable Link-time Code Optimization on Linux for either
+[http://gcc.gnu.org/wiki/LinkTimeOptimization GCC 4.6] or LLVM/CLANG.
 
-This feature hopefully would significantly reduce code generation size for Linux based builds.
+This feature hopefully would significantly reduce code generation size
+for Linux based builds.
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: {{sfuser|andrewfish}}, {{sfuser|jljusten}}
 
 ===Port EmulatorPkg to Windows===
-Create a windows based host environment for [[EmulatorPkg]].  (Could also be developed using mingw-gcc & wine under Linux.)
+Create a windows based host environment for [[EmulatorPkg]]. (Could
+also be developed using mingw-gcc & wine under Linux.)
 * Difficulty: Medium
 * Language: C
 * Mentor:
@@ -57,7 +70,8 @@ Create a ARM based host environment for [[EmulatorPkg]].
 * Suggested by: {{sfuser|andrewfish}}
 
 ===Port ACPI-CA to a shell application===
-Port portions of [http://www.acpica.org ACPI-CA] to a shell application to enable dumping and disassembly of ACPI tables.
+Port portions of [http://www.acpica.org ACPI-CA] to a shell
+application to enable dumping and disassembly of ACPI tables.
 * Difficulty: Medium
 * Language: C
 * Mentor:
@@ -116,14 +130,19 @@ Optimize cursor motion sequences; support Linux/UNIX standard (xterm/konsole/gno
 * Suggested by: {{sfuser|bjjohnson}}
 
 ===HII command-line browser===
-A command-line based HII browser, suitable for automation.  Either a shell command or set of commands for locating, dumping, and modifying configuration values, or commands for dumping and loading HII data to/from a file in an easily-edited format.
+A command-line based HII browser, suitable for automation. Either a
+shell command or set of commands for locating, dumping, and modifying
+configuration values, or commands for dumping and loading HII data
+to/from a file in an easily-edited format.
 * Difficulty: Medium ... Hard
 * Language: C
 * Mentor:
 * Suggested by: {{sfuser|bjjohnson}}
 
 ===DataHub & GCD scalability===
-The DataHub and GCD layers don't scale well as the number of data items gets large, since they are based on simple linked lists.  Find better data structures.
+The DataHub and GCD layers don't scale well as the number of data
+items gets large, since they are based on simple linked lists. Find
+better data structures.
 * Difficulty: Medium
 * Language: C
 * Mentor:
@@ -145,7 +164,9 @@ The DataHub and GCD layers don't scale well as the number of data items gets lar
 * Suggested by: {{sfuser|andrewfish}}
 
 ===Various Debug Improvements===
-Note: There are many ideas here.  GSoC students should feel free to gather together any interesting & resonable subset for a project proposal.
+Note: There are many ideas here. GSoC students should feel free to
+gather together any interesting & resonable subset for a project
+proposal.
 
 # Debug version of libraries, and tools to analyze the data:
 ## UefiBootServicesTableLib.h & UefiRuntimeServicesLib.h that can profile EFI services usage.
@@ -163,7 +184,9 @@ Note: There are many ideas here.  GSoC students should feel free to gather toget
 * Suggested by: {{sfuser|andrewfish}}
 
 ===Optimize OVMF for Xen HVM domains===
-Add [http://www.xen.org/ Xen] specific support in [http://www.tianocore.org/ovmf/ OVMF] to improve boot & runtime performance.
+Add [http://www.xen.org/ Xen] specific support in
+[http://www.tianocore.org/ovmf/ OVMF] to improve boot & runtime
+performance.
 * Difficulty: Easy ... Hard
 * Language: C
 * Mentor:
@@ -178,7 +201,8 @@ Add [http://www.xen.org/ Xen] specific support in [http://www.tianocore.org/ovmf
 ==Previously Complete Projects==
 
 ===Read-only FFS file-system driver===
-Develop a read-only filesystem driver which allows the contents of each PI 1.2 FFS in the system to appear as a pseudo-file system.
+Develop a read-only filesystem driver which allows the contents of
+each PI 1.2 FFS in the system to appear as a pseudo-file system.
 * Difficulty: Medium
 * Language: C
 * Mentor:
@@ -199,7 +223,8 @@ Various improvements for the Shell editor
 More information: [[Tasks-Text Editor]]
 
 ===Enable Xen Support in OVMF===
-Get [http://www.xen.org/ Xen] to boot UEFI with the [http://www.tianocore.org/ovmf/ OVMF] platform.
+Get [http://www.xen.org/ Xen] to boot UEFI with the
+[http://www.tianocore.org/ovmf/ OVMF] platform.
 * Difficulty: Easy ... Hard - (depending on tasks taken on)
 * Language: C
 * Mentor: {{sfuser|andreiwarkentin}}, {{sfuser|jljusten}}
@@ -218,6 +243,3 @@ More information: [[Tasks-USB Serial Adapter driver]]
 ==See Also==
 * [[How To Contribute]]
 * [[GSoC2012]]
-
-<!-- [[Category:Tasks]] -->
-<!-- [[Category:GSoC]] -->
