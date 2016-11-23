@@ -161,4 +161,4 @@ Project owner(s): Email the [[edk2-devel| efidevkit-devel ]] email list
 
 
 =='''Useful Links'''==
-*[http://developer.intel.com/technology/efi/index.htm Link to the Intel EFI 1.10 Specification] (on Intel's Site)
+* [http://www.intel.com/technology/framework/spec.htm Link to the Intel EFI 1.10 Specification] (on Intel's Site)
