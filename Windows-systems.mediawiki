@@ -1,6 +1,11 @@
 __NOTOC__
-
 This page provides step-by-step instructions or setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on Windows systems.
+
+<u>''Table of Contents''</u>
+* [[Windows-systems#github-help|GitHub Help]]
+* [[Windows-systems#how-to-setup-the-edk-ii-tree| How to Setup the EDK II Tree]]
+* [[Windows-systems#download| Download]] / Checkout EDK II source tree from Github 
+* [[Windows-systems#build | BUILD]] EDK II
 
 ==GitHub Help==
 
@@ -17,7 +22,7 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 
 Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
 
-==Internet proxies==
+===Internet proxies===
 
 If your network utilizes a firewall with a web proxy, then you may need to configure your proxy information for various command line applications to work.  You may need to consult with your network administrator to find out the computer name and port to use for proxy setup.  The following commands are common '''Git Bash''' examples of how you would configure your proxy by setting an environment variable:
 
@@ -31,17 +36,52 @@ If your network utilizes a firewall with a web proxy, then you may need to confi
 '''Note:''' Some of the following examples use the Multiple Workspace feature to configure the EDK II BaseTools.  More information on the Multiple Workspace feature can be found at the following location. <BR>
 * [[Multiple_Workspace]]
 
-==Checkout the EDK II source tree from Github ==
+=='''Download'''==
+Download/Checkout the EDK II source tree from Github
+=== Download Using a Web browser ===
 
+# Download EDK II Project
+## Open https://github.com/tianocore/edk2 in web browser
+## Click on the ''Clone or Download'' button (Right Green)
+## Click on Download ZIP
+## Unzip to C:/
+## Rename directory “edk2-master” to “edk2”  
+# Download the EDK II Base Tools
+## Open https://github.com/tianocore/edk2-BaseTools-win32  in web browser
+## Click on the ''Clone or Download'' button (Right Green)
+## Click on Download ZIP
+## Unzip to C:/
+## Rename directory “edk2-BaseTools-win32-master” to “Win32”  
+## Copy C:/Win32 to C:/edk2/BaseTools/Bin
+
+
+Continue to  [[Windows-systems#build | BUILD]] section
+
+=== Using '''Git for Windows''' Application ===
+==== ''Git GUI''====
+# Clone the EDK II project repository
+## Open Git GUI
+## Use ''Clone Exiting Repository'' with Source location https://github.com/tianocore/edk2.git
+## Select a Target directory C:/edk2
+## Check Recursively clone submodules too
+## click Clone button
+# Repeat the above with the Clone the edk2-BaseTools-win32 repository repository 
+## Open Git Gui
+## Use ''Clone Exiting Repository'' with Source location https://github.com/tianocore/edk2.git and  Target directory C:/Win32
+# Copy C:/Win32 to C:/edk2/BaseTools/Bin
+
+Continue to  [[Windows-systems#build | BUILD]] section
+
+==== ''Git CMD'' ====
 If you use the command line version, then you can easily checkout the edk2 to the C:\edk2 directory with the following git command:
 Main repository: https://github.com/tianocore/edk2
 <pre>
-    $ git clone https://github.com/tianocore/edk2
+    $git clone https://github.com/tianocore/edk2
 </pre>
 
 
 
-==For EDK II project developers on Windows:==
+=====For EDK II project developers on Windows:=====
 *	Create a workspace directory
 *	Change to the workspace directory
 *	Clone the EDK II project repository
@@ -60,11 +100,7 @@ Example:
 <pre>
      C:\edk2> set EDK_TOOLS_BIN=c:\efi\test\edk2-BaseTools-win32
 </pre>
-*	Change to the edk2 directory
-*	Run the edksetup.bat script
 
-      C:\edk2> CD efi\test\edk2
-      C:\edk2> edksetup
 
 When the above steps are done, the directory structure will look like:
   efi
@@ -73,8 +109,17 @@ When the above steps are done, the directory structure will look like:
        └───edk2-BaseTools-win32
 
 
+=='''Build'''==
+* Set up the [[Nasm-Setup| Nasm]] open source assembly compiler
+* Set up the [[Asl Setup| ASL Compiler]] 
+* Open a Windows CMD prompt:
+* Change to the edk2 directory
+* Run the edksetup.bat script
 
-==Build MdeModulePkg==
+      C:\Users\MySid> CD \edk2
+      C:\edk2> edksetup
+
+===Build MdeModulePkg===
 
 
 ====Modify Conf files====
