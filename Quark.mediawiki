@@ -1,3 +1,3 @@
 Intel® Quark Technology
 
-http://uefidk.intel.com/projects/quark
+http://firmware.intel.com/projects/quark
