@@ -2,7 +2,7 @@
 <!-- [[Category: EDK]] -->
 These releses are archived for reference. 
 
-To learn more about the EDK codebase see the [http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modules EDK Module Structure Explained].
+To learn more about the EDK codebase see the [[Modules| EDK Module Structure Explained]].
 
 
 <div class="t_projects">
@@ -663,6 +663,4 @@ To see the differences between snapshot versions
 
 License information: [http://www.opensource.org/licenses/bsd-license.php BSD]
 
-Project owner(s):  hfang,{{sfuser|hhtian}}, laurie0131 
-
-Developer page: http://sourceforge.net/projects/edk2/develop
+Project owner(s): [[Modules| EDK 1 Module owners]]
