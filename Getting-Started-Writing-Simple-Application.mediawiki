@@ -5,6 +5,7 @@
 e.g. <span style="font-family: Courier">mkdir edk2</span>
 === 2) Download the Edk II source ===
 # Latest from the svn by getting the EDK II source from following Instructions on [[Getting-Started-with-EDK-II | Step by step instructions]] 
+OR
 # Downloading the latest .zip [[UDK2015 | UDK2015 Download]] release (or Latest UDK release).
 === 3) Run the '''''edksetup''''' ===
 Run''' ''edksetup''''' script from the command line prompt at the Work Space directory
@@ -14,7 +15,7 @@ Run''' ''edksetup''''' script from the command line prompt at the Work Space dir
 === 4) Edit the file '''conf/target.txt''' ===
 Modify '''TARGET_ARCH''' and '''TOOL_CHAIN_TAG''' as required.
 # TOOL_CHAIN_TAG see:
-## Windows [[Windows systems ToolChain_Matrix]] 
+## Windows [[Windows systems ToolChain Matrix]] 
 ## Newer versions of Linux[[Using EDK II with Native GCC]] 
 ## Older Linux distributions [[Unix-like systems]] 
 ## Mac OS X [[Xcode]]
