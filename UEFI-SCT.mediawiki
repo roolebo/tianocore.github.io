@@ -27,4 +27,4 @@ The Pre-EFI Initialization (PEI) Self-Certification Test (SCT) utility is used t
 The latest Version of the PI SCT can be downloaded from: 
 [https://sourceforge.net/projects/pi-sct/files/PI1.2_Sct_.2_Release_Mar_05_2013/PI1.2-SCT.2Release-Mar052013.zip/download PI1.2 SCT.2 Release.zip]
 
-As PI1.2 introduces the SMM contents—currently not supported by EDK—PI SCT test cases for new contents in PI1.2 must be built with EDKII style build tools. Currently, all of the PI1.2 SCT packages are in the EDKII style, which means you can not use EDK to build PI SCT from this point forward. More information about [[EDKII]]
+As PI1.2 introduces the SMM contents—currently not supported by EDK—PI SCT test cases for new contents in PI1.2 must be built with EDKII style build tools. Currently, all of the PI1.2 SCT packages are in the EDKII style, which means you can not use EDK to build PI SCT from this point forward. More information about [[EDK2]]
