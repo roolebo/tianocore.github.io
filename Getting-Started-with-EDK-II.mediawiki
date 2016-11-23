@@ -25,6 +25,11 @@ A few different build environment types are documented.  If instructions are not
 * Other [[Unix-like systems]] (For '''older''' Linux distributions, or when using Cygwin or Mac OS X)
 
 
+'''Note:''' Some other build tools may be required depending on the project or package
+* [[Nasm Setup|Nasm]]
+* [[Asl Setup| ASL Compiler]]
+
+
 '''Note:''' Some of the following examples use the Multiple Workspace feature to configure the EDK II BaseTools.  More information on the Multiple Workspace feature can be found at the following location. <BR>
 * [[Multiple_Workspace]]
 
