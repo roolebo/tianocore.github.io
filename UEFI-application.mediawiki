@@ -1,7 +1,9 @@
 UEFI application questions
 ===Are there any guidelines for developing  UEFI code in Runtime?===
-Currently there are only guidelines developing UEFI code for pre-boot. Link to the EDK II module writers guide: http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download 
- 
+Currently there are only guidelines developing UEFI code for pre-boot. Link to the EDK II module writers guide: 
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II%20Module%20Writer_s%20Guide_0_7.pdf EDK_II Module Writer_s Guide_0_7.pdf]
+
+
 To develop UEFI code in runtime the applications the UEFI Specification defines the rules for writing runtime safe code along with the calling conventions and the rules that must be followed for UEFI runtime code to work correctly when the OS is running.
 
 
@@ -9,7 +11,7 @@ To develop UEFI code in runtime the applications the UEFI Specification defines 
 UEFI Applications may only execute in the pre-boot environment prior to ExitBootServices().  This means it is not possible for UEFI applications to be available at OS runtime.  The only exception is a special class of UEFI application that is a UEFI OS Loader.
 
 ===How do I view the sample program “HelloWorld”?===
-The “HelloWorld” is a sample application that is part of the {{Edk2SubPkg|MdeModulePkg}}in the directory {{Edk2SubPkg|MdeModulePkg/Application/HelloWorld}}. There is both a [https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdeModulePkg/Application/HelloWorld/HelloWorld.c .C] for the source and an [https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdeModulePkg/Application/HelloWorld/HelloWorld.inf .INF] file to build the module under EDK II. 
+The “HelloWorld” is a sample application that is part of the ''MdeModulePkg'' in  the edk2 directory https://github.com/tianocore/edk2 repository directory. There is both a [https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Application/HelloWorld/HelloWorld.c HelloWorld.C] for the source and an [https://github.com/tianocore/edk2/tree/master/MdeModulePkg/Application/HelloWorld/HelloWorld.inf HelloWorld.INF] file to build the module under EDK II. 
 
 A simple text editor can be used to view both of these files and make changes.
 
