@@ -3,9 +3,6 @@ This package contains the source code to include the Source code debugger agent 
 
 
 For Documenatation and to download the Host side of this for both Windows for WinDBG and Linux DBG : 
-* http://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool#overlay-context=develop
-
-===Source Repository===
-SourceLevelDebugPkg
+*  [https://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool#overlay-context=develop  firmware.intel.com Tools and Utilities Intel UDK Debugger Tool]
 
 <!-- [[Category:Debug]] -->
