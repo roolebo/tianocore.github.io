@@ -18,7 +18,7 @@ Note: Copy and paste the GUID from : http://www.guidgen.com/ for the '''FILE_GUI
 [Defines]
   INF_VERSION                    = 1.25
   BASE_NAME                      = MyHelloWorld
-  FILE_GUID                      = http://www.guidgen.com/
+  FILE_GUID                      = #Copy and paste the GUID from http://www.guidgen.com/ here
   MODULE_TYPE                    = UEFI_APPLICATION
   VERSION_STRING                 = 1.0
   ENTRY_POINT                    = UefiMain
