@@ -4,12 +4,12 @@ Build Pre-requisites
 --------------------
 
 -   A edk2 build tree capable of building UEFI images
-    -   If you are new to edk2 building then these [getting started](Getting_Started_with_EDK_II#Step-by-step_Instructions "wikilink") instructions may be helpful.
+    -   If you are new to edk2 building then these [getting started](Getting-Started-with-EDK-II) instructions may be helpful.
 -   An ASL compiler configured in your edk2 build tree
     -   Either the IASL compiler or the Microsoft ASL compiler can be used
         -   For Unix-like operating systems, IASL is the only option:
-            -   For newer Linux distributions, you should be able to install iasl via the distribution's package management system. (This [page](Using_EDK_II_with_Native_GCC "wikilink") may help.)
-            -   Or, the [Unix-like systems getting started guide](Unix-like_systems "wikilink") includes details for installing IASL as well.
+            -   For newer Linux distributions, you should be able to install iasl via the distribution's package management system. (This [page](Using-EDK-II-with-Native-GCC) may help.)
+            -   Or, the [Unix-like systems getting started guide](Unix-like-systems) includes details for installing IASL as well.
         -   For Windows, you can download pre-built version of IASL compiler from <http://www.acpica.org>.
         -   For Windows, you can also download a pre-built version of the Microsoft ASL compiler from <http://www.acpi.info>.
 
