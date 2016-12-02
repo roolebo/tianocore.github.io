@@ -10,14 +10,17 @@ We have a lot of information accumulated over the years. It is now organized by 
 *[[UEFI PI_FAQ|UEFI/PI FAQ]] Frequently Asked Questions about UEFI/PI
 *[[Shell FAQ|Shell FAQ]] Frequently Asked Questions about Shell
 
-Note: there are more FAQs under these listed.  See [[:Category:FAQ|here]] for a full list.
-
 <span class="docHeader">Your Question Not Found?</span> 
 
-If you have a question and can not find the answer please feel free to email the [mailto:edk2-devel@lists.sourceforge.net?subject=Edk2%20FAQ Edk 2 Development Mail list]
+If you have a question and can not find the answer please feel free to email the 
+<a href="mailto:edk2-devel@lists.01.org?Subject=FAQ%20EDK2%20Question>  edk2-devel@lists.01.org</a>
 
-To join the email list goto: [http://lists.sourceforge.net/lists/listinfo/edk2-devel Edk2 Mailing list]
+To join the email list goto: [[Edk2-devel]] 
 
-You can also search for question and answers already asked in the email list [http://sourceforge.net/search/?group_id=288620&type_of_search=mlists email search]
+You can also search for question and answers already asked in the email list 
+
+* edk2_devel email before Sept 2015 [https://sourceforge.net/p/edk2/mailman/edk2-devel/ email search] NOTE: you will need to login to Sourceforge
+
+* edk2_devel email after Sept 2015 [https://lists.01.org/pipermail/edk2-devel/ email search]
 
 <!-- [[Category:FAQ]] -->
