@@ -14,6 +14,22 @@
 </tr>
 <tr>
 <td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf .PDF]
+
+</td>
+<td>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf A Tour Beyond BIOS- Capsule Update and Recovery in EDK II]
+contributed by Jiewen Yao and Vincent Zimmer<BR>
+
+The firmware update capability represents an important feature for the system firmware on the mother board and the various device firmware instances, such as a host bus adapter-attached PCI option ROM, embedded controller (EC), baseboard management controller (BMC), etc. The firmware recovery is also a feature to support firmware boot in recovery mode in cases where the main flash image is errant or corrupt.
+<BR>
+In this paper, we provide more details on how we implement capsule update and recovery in EDK II.
+* December 2016 
+</td>
+</tr>
+
+<tr>
+<td>
 
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf .PDF]
 
