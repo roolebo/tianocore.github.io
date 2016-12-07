@@ -9,7 +9,7 @@
 '''Introduction to the Network-IO Project'''
 {|border="0" align="right"
 |-
-|[[Image:Networklayer.jpg]]<br>
+|<img src="https://github.com/tianocore/tianocore.github.io/blob/master/images/Networklayer.jpg" ><br>
 |-align="center"
 |'''Figure 1. UEFI Network layering'''
 |}
