@@ -1,6 +1,6 @@
-'''Note''': These instructions are not recommended for most EDK II developers. If you are working with a supported system, then the [[Using EDK II with Native GCC]] page is faster/easier, and produces smaller UEFI image builds.
-
 This page provides ''step-by-step instructions'' for setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on various Unix-like systems.
+
+'''Note''': These instructions are not recommended for most EDK II developers. If you are working with a supported Linux distribution, then the [[Using EDK II with Native GCC]] instructions are faster, easier, and produce a smaller UEFI binary image.
 
 ==Getting started for UNIX-like operating systems==
 
