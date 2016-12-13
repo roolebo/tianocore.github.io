@@ -3,6 +3,8 @@ __NOTOC__
 
 A significant portion of the steps are common on the various UNIX-like platforms.  You should start with the instructions for the operating system that most closely matches your platform, and it will direct you here at the appropriate time.
 
+Note these instructions are not for current Linux distributions, only UNIX-like systems that do not work with the [[Using EDK II with Native GCC]] instructions. Please follow the [[Using EDK II with Native GCC]] guide for mainstream Linux distros.
+
 ===Get the edk2 source tree using Git ===
 
 <pre>
