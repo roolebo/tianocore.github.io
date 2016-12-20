@@ -53,7 +53,7 @@ NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK201
 
 <tr>
     <td>
-[https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UEFI%20Driver_Writer_Guide_V1.0.1_120308.pdf PDF]
+[https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UEFI_Driver_Writer_Guide_V1.0.1_120308.pdf PDF]
     </td>
 
     <td>
