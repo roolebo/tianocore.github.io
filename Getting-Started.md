@@ -1,1 +1,1 @@
-[Getting Started](http://www.tianocore.org/contrib/getting-started.html)
+See [Getting Started with EDK II](https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II)
