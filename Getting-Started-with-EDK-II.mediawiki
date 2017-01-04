@@ -1,5 +1,8 @@
 __NOTOC__
-=Step-by-step Instructions=
+=Downloading and Compiling Code=
+
+This page shows the steps for downloading EDK II from GitHub and compiling projects under various OS/compiler environments.
+
 ==GitHub Help==
 
 GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub 
@@ -25,7 +28,7 @@ Several build environments are supported and documented.  If instructions are no
 
 '''Note:''' Some other build tools may be required depending on the project or package
 * [[Nasm Setup|Nasm]]
-* [[Asl Setup| ASL Compiler]]
+* [[ASL Setup|ASL Compiler]]
 
 '''Note:''' Some of the following examples use the Multiple Workspace feature to configure the EDK II BaseTools.  More information on the Multiple Workspace feature can be found at the following location. <BR>
 * [[Multiple_Workspace]]
