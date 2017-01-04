@@ -1,6 +1,6 @@
-# ASL Compiler Setup
+# ACPI Source Language (ASL) Compiler Setup
 
-EDK II uses ACPI to describe platform configuration and power management methods to the operating system. These methods are described using ACPI Source Language (ASL), which requires an additional compiler.
+EDK II uses ACPI to describe platform configuration and power management methods to the operating system. These methods are described using ASL, which requires an additional compiler.
 
 [ACPI Component Architecture (ACPICA) Downloads](https://acpica.org/downloads)
 
