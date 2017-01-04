@@ -20,9 +20,13 @@ EDK II is a modern, feature-rich, cross-platform firmware development environmen
 ## Documentation
 
 [[Getting Started with EDK II]]
+
 [[Driver Developer]]
+
 [[EDK II Specifications]]
+
 [[Code Style]]
+
 [[EDK II Overview]]
 
 ## Community
