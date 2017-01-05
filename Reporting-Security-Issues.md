@@ -14,7 +14,8 @@ If you are interested in being involved in the evaluation of Tianocore Security 
 
 # Security Advisories
 
-List of current EDK II Security Advisory logs: V .002 [Download PDF](http://sourceforge.net/projects/edk2/files/Security_Advisory/EDK%20II%20Security%20Advisory%20Log%20002.pdf/download)
+List of current EDK II Security Advisories can be found at this Gitbook : 
+**[Security Advisory Log]( https://www.gitbook.com/book/edk2-docs/security-advisory/details)**
 
 
 
