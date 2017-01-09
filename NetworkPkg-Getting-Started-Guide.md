@@ -71,12 +71,25 @@ EFI_DNS4_PROTOCOL
 EFI_DNS6_PROTOCOL
 ```
 
-### HTTP Boot
+### TLS
+
+* **NetworkPkg/TlsDxe** - TLS driver, which produces
+```
+EFI_TLS_PROTOCOL
+EFI_TLS_CONFIGURATION_PROTOCOL
+```
+Note: TlsDxe driver takes advantage of OpenSLL library, including BaseCryptLib and TlsLib. So, TLS feature highly depends on the OpenSSL building. To enable this feature, please follow the instructions found in the file "Patch-HOWTO.txt" located in CryptoPkg\Library\OpensslLib to enable the OpenSSL building first.
+
+* **NetworkPkg/TlsAuthConfigDxe** - TLS certificates configuration driver, which provides the UI to support the required certificate configuration.
+
+### HTTP/HTTPS Boot
 
 * **NetworkPkg/HttpDxe** - HTTP driver, which produces
 ```
 EFI_HTTP_PROTOCOL
 ```
+Note: HttpDxe driver consumes TlsDxe driver to support HTTPS feature. The HTTP instance can be able to determine whether to use HTTP or HTTPS feature by according to the different schemes ("http://" or "https://") in the boot file URI.
+
 * **NetworkPkg/HttpUtilitiesDxe** - HTTP utilities driver, which produces
 ```
 EFI_HTTP_UTILITIES_PROTOCOL
@@ -104,8 +117,8 @@ EFI_LOAD_FILE_PROTOCOL
   DEFINE NETWORK_IP6_ENABLE                    = TRUE
   DEFINE NETWORK_ISCSI_ENABLE                  = TRUE
   DEFINE NETWORK_VLAN_ENABLE                   = TRUE
-  DEFINE NETWORK_HTTP_BOOT_ENABLE              = TRUE
   DEFINE NETWORK_IPSEC_ENABLE                  = TRUE
+  DEFINE NETWORK_TLS_ENABLE                    = TRUE
 
 [LibraryClasses]
   DpcLib|MdeModulePkg/Library/DxeDpcLib/DxeDpcLib.inf
@@ -117,50 +130,58 @@ EFI_LOAD_FILE_PROTOCOL
   IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
   OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLib.inf
   BaseCryptLib|CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf
+  TlsLib|CryptoPkg/Library/TlsLib/TlsLib.inf
 
 [Components]
-!if $(NETWORK_ENABLE) == TRUE
-  MdeModulePkg/Universal/Network/DpcDxe/DpcDxe.inf
-  MdeModulePkg/Universal/Network/SnpDxe/SnpDxe.inf
-  MdeModulePkg/Universal/Network/MnpDxe/MnpDxe.inf
-  MdeModulePkg/Universal/Network/ArpDxe/ArpDxe.inf
-  MdeModulePkg/Universal/Network/Dhcp4Dxe/Dhcp4Dxe.inf
-  MdeModulePkg/Universal/Network/Ip4Dxe/Ip4Dxe.inf
-  MdeModulePkg/Universal/Network/Mtftp4Dxe/Mtftp4Dxe.inf
-  MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe.inf
-  MdeModulePkg/Universal/Network/Udp4Dxe/Udp4Dxe.inf
-!if $(NETWORK_IPSEC_ENABLE) == TRUE
-  NetworkPkg/IpSecDxe/IpSecDxe.inf
-!endif
-!if $(NETWORK_HTTP_BOOT_ENABLE) == TRUE
-  NetworkPkg/DnsDxe/DnsDxe.inf
-  NetworkPkg/HttpDxe/HttpDxe.inf
-  NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
-  NetworkPkg/HttpBootDxe/HttpBootDxe.inf
-!endif
-!if $(NETWORK_IP6_ENABLE) == TRUE
-  NetworkPkg/Ip6Dxe/Ip6Dxe.inf
-  NetworkPkg/Dhcp6Dxe/Dhcp6Dxe.inf
-  NetworkPkg/TcpDxe/TcpDxe.inf
-  NetworkPkg/Udp6Dxe/Udp6Dxe.inf
-  NetworkPkg/Mtftp6Dxe/Mtftp6Dxe.inf
-!endif
-!if $(NETWORK_IP6_ENABLE) == TRUE
-  NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
-!else
-  MdeModulePkg/Universal/Network/UefiPxeBcDxe/UefiPxeBcDxe.inf
-!endif
-!if $(NETWORK_ISCSI_ENABLE) == TRUE
-!if $(NETWORK_IP6_ENABLE) == TRUE
-  NetworkPkg/IScsiDxe/IScsiDxe.inf
-!else
-  MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe.inf
-!endif
-!endif
-!if $(NETWORK_VLAN_ENABLE) == TRUE
-  MdeModulePkg/Universal/Network/VlanConfigDxe/VlanConfigDxe.inf
-!endif
-!endif
+  !if $(NETWORK_ENABLE) == TRUE
+    MdeModulePkg/Universal/Network/DpcDxe/DpcDxe.inf
+    MdeModulePkg/Universal/Network/SnpDxe/SnpDxe.inf
+    MdeModulePkg/Universal/Network/MnpDxe/MnpDxe.inf
+    MdeModulePkg/Universal/Network/ArpDxe/ArpDxe.inf
+    MdeModulePkg/Universal/Network/Dhcp4Dxe/Dhcp4Dxe.inf
+    MdeModulePkg/Universal/Network/Ip4Dxe/Ip4Dxe.inf
+    MdeModulePkg/Universal/Network/Mtftp4Dxe/Mtftp4Dxe.inf
+    MdeModulePkg/Universal/Network/Udp4Dxe/Udp4Dxe.inf
+
+    !if $(NETWORK_IP6_ENABLE) == TRUE
+      NetworkPkg/Ip6Dxe/Ip6Dxe.inf
+      NetworkPkg/Dhcp6Dxe/Dhcp6Dxe.inf
+      NetworkPkg/TcpDxe/TcpDxe.inf
+      NetworkPkg/Udp6Dxe/Udp6Dxe.inf
+      NetworkPkg/Mtftp6Dxe/Mtftp6Dxe.inf
+      NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
+    !else
+      MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe.inf
+      MdeModulePkg/Universal/Network/UefiPxeBcDxe/UefiPxeBcDxe.inf
+    !endif
+
+    NetworkPkg/DnsDxe/DnsDxe.inf
+    NetworkPkg/HttpDxe/HttpDxe.inf
+    NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
+    NetworkPkg/HttpBootDxe/HttpBootDxe.inf
+
+    !if $(NETWORK_IPSEC_ENABLE) == TRUE
+      NetworkPkg/IpSecDxe/IpSecDxe.inf
+    !endif
+
+    !if $(NETWORK_TLS_ENABLE) == TRUE
+      NetworkPkg/TlsDxe/TlsDxe.inf
+      NetworkPkg/TlsAuthConfigDxe/TlsAuthConfigDxe.inf
+    !endif
+
+    !if $(NETWORK_ISCSI_ENABLE) == TRUE
+      !if $(NETWORK_IP6_ENABLE) == TRUE
+        NetworkPkg/IScsiDxe/IScsiDxe.inf
+      !else
+        MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe.inf
+      !endif
+    !endif
+
+    !if $(NETWORK_VLAN_ENABLE) == TRUE
+      MdeModulePkg/Universal/Network/VlanConfigDxe/VlanConfigDxe.inf
+    !endif
+
+  !endif
 ```
 ### Platform FDF file
 ```
@@ -174,30 +195,30 @@ EFI_LOAD_FILE_PROTOCOL
   INF  MdeModulePkg/Universal/Network/Dhcp4Dxe/Dhcp4Dxe.inf
   INF  MdeModulePkg/Universal/Network/Mtftp4Dxe/Mtftp4Dxe.inf
 
-  !if $(NETWORK_IPSEC_ENABLE) == TRUE
-    INF  NetworkPkg/IpSecDxe/IpSecDxe.inf
-  !endif
-
   !if $(NETWORK_IP6_ENABLE) == TRUE
     INF  NetworkPkg/Ip6Dxe/Ip6Dxe.inf
     INF  NetworkPkg/Dhcp6Dxe/Dhcp6Dxe.inf
     INF  NetworkPkg/Udp6Dxe/Udp6Dxe.inf
     INF  NetworkPkg/Mtftp6Dxe/Mtftp6Dxe.inf
-  !endif
-
-  !if $(NETWORK_HTTP_BOOT_ENABLE) == TRUE
-    INF  NetworkPkg/DnsDxe/DnsDxe.inf
-    INF  NetworkPkg/HttpDxe/HttpDxe.inf
-    INF  NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
-    INF  NetworkPkg/HttpBootDxe/HttpBootDxe.inf
-  !endif
-
-  !if $(NETWORK_IP6_ENABLE) == TRUE
-    INF  NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
     INF  NetworkPkg/TcpDxe/TcpDxe.inf
+    INF  NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
   !else
-    INF  MdeModulePkg/Universal/Network/UefiPxeBcDxe/UefiPxeBcDxe.inf
     INF  MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe.inf
+    INF  MdeModulePkg/Universal/Network/UefiPxeBcDxe/UefiPxeBcDxe.inf
+  !endif
+
+  INF  NetworkPkg/DnsDxe/DnsDxe.inf
+  INF  NetworkPkg/HttpDxe/HttpDxe.inf
+  INF  NetworkPkg/HttpUtilitiesDxe/HttpUtilitiesDxe.inf
+  INF  NetworkPkg/HttpBootDxe/HttpBootDxe.inf
+
+  !if $(NETWORK_IPSEC_ENABLE) == TRUE
+    INF  NetworkPkg/IpSecDxe/IpSecDxe.inf
+  !endif
+
+  !if $(NETWORK_TLS_ENABLE) == TRUE
+    INF  NetworkPkg/TlsDxe/TlsDxe.inf
+    INF  NetworkPkg/TlsAuthConfigDxe/TlsAuthConfigDxe.inf
   !endif
 
   !if $(NETWORK_VLAN_ENABLE) == TRUE
@@ -211,6 +232,7 @@ EFI_LOAD_FILE_PROTOCOL
       INF  MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe.inf
     !endif
   !endif
+
 !endif
 ```
 
@@ -221,6 +243,10 @@ To validate network stack on NT32 platform, please refer to the document [UEFI N
 ## UEFI HTTP BOOT
 
 Please refer to the [UEFI HTTP Boot](https://github.com/tianocore/tianocore.github.io/wiki/HTTP-Boot) page.
+
+## UEFI HTTPS BOOT
+
+Please refer to the [UEFI HTTPS Boot](https://github.com/tianocore/tianocore.github.io/wiki/HTTPS-Boot) page.
 
 ## EDKII DPC Protocols
 
