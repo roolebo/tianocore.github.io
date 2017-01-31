@@ -1,4 +1,4 @@
-[Back to EDK II Features](https://github.com/mdkinney/edk2/wiki#edk-ii-features)
+[Back to EDK II Features](EDKII-Packages)
 
 This page describes the UEFI Capsule ("capsule") implementation in EDK II, along with common use cases. [EDK II](https://github.com/tianocore/edk2) provides an implementation of capsule-based firmware update and firmware recovery features that can detect if a firmware update or a recovery image delivered via UEFI Capsule has been modified ([`SignedCapsulePkg`](https://github.com/tianocore/edk2/tree/master/SignedCapsulePkg)).  It can also verify that the capsule applies to the platform that receives the capsule, and verifies that a firmware update does not violate any of the platforms's firmware rollback rules.
 
@@ -44,4 +44,4 @@ The [UEFI Specification](http://www.uefi.org) and the [PI Specification](http://
 
 [A Tour Beyond BIOS: Capsule Update and Recovery in EDK II](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf) (Intel Whitepaper, Dec 2016)
 
-[Back to EDK II Features](https://github.com/mdkinney/edk2/wiki#edk-ii-features)
+[Back to EDK II Features](EDKII-Packages)
