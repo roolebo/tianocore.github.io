@@ -30,8 +30,9 @@ The MdePkg Debug Library Class defines two PCDs
 * `PcdDebugPrintErrorLevel` - Types of messages produced
 
 Example from `Nt32Pkg.dsc`:
+
     [PcdsFixedAtBuild.IA32]
-    
+     . . .
       gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x1f
       gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000040
 
