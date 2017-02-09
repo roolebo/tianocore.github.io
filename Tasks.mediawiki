@@ -1,40 +1,27 @@
-These tasks have been identified by our community. They are currently
-open for development by community members, and would be a great way to
-get involved and start contributing.
+These tasks have been identified by our community. They are currently open for development by community members, and would be a great way to get involved and start contributing. These are also available as ideas for students working on [[Google Summer of Code 2017]].
 
-Please let us know on [[edk2-devel]] if you plan to work on one of
-these tasks to prevent duplicated effort. Also, please provide status
-updates on [[edk2-devel]] so the community will know the project is
-still being actively developed.
+Please let us know on [[edk2-devel]] if you plan to work on one of these tasks (to prevent duplicated effort). Also, please provide status updates on [[edk2-devel]] so the community will know the project is still being actively developed.
 
 ==Open Projects==
 
-===Read-only ext2 driver===
-Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
-* Difficulty: Medium ... Hard
+===Port ACPI-CA to a shell application===
+Port portions of [http://www.acpica.org ACPI-CA] to a shell
+application to enable dumping and disassembly of ACPI tables.
+* Difficulty: Medium
 * Language: C
 * Mentor:
-* Suggested by: rsun3
-* Status: Significant progress made during [[GSOC2011]] (external [https://github.com/rraf/Ext2Pkg repo])
+* Suggested by: andrewfish, jljusten
 
-More information: [[Tasks-ext2 file-system driver]]
-
-===Compatibility Support Module===
-A [[CSM]] allows a UEFI system to boot legacy operating systems on
-IA32 & X64 systems. In other words, most current production OS's.
-Strong preference is for a BSD licensed solution, as this is license
-used by nearly all of our code. A [http://www.coreboot.org/SeaBIOS
-SeaBIOS] based solution could be considered, but would not be as
-widely usable.
-* Difficulty: Medium ... Hard
-* Language: Assembly, C
+===MP safe Print, DEBUG, and ASSERT===
+Allow APs to safely print and use DEBUG trace messages.
+* Note: This project depends on an open-source MP implementation, which is currently not available.
+* Difficulty: Medium
+* Language: C
 * Mentor:
-* Suggested by: bjjohnson
-* Status: SeaBIOS can be built as a CSM, but a BSD licensed alternative is still not available.
+* Suggested by: andrewfish
 
 ===Port EmulatorPkg to Windows===
-Create a windows based host environment for [[EmulatorPkg]]. (Could
-also be developed using mingw-gcc & wine under Linux.)
+Port [[EmulatorPkg]] to Microsoft Windows, as a replacement for [[NT32].
 * Difficulty: Medium
 * Language: C
 * Mentor:
@@ -48,14 +35,6 @@ Create a ARM based host environment for [[EmulatorPkg]].
 * Language: C
 * Mentor:
 * Suggested by: andrewfish
-
-===Port ACPI-CA to a shell application===
-Port portions of [http://www.acpica.org ACPI-CA] to a shell
-application to enable dumping and disassembly of ACPI tables.
-* Difficulty: Medium
-* Language: C
-* Mentor:
-* Suggested by: andrewfish, jljusten
 
 ===[[EmulatorPkg]] network support for Linux===
 Port EmulatorPkg/EmuSnpDxe to support Linux.
@@ -86,14 +65,6 @@ Implement DNS proxy on EDK II
 * Language: C
 * Mentor:
 * Suggested by: kidzyoung
-
-===MP safe Print, DEBUG, and ASSERT===
-Allow APs to safely print and use DEBUG trace messages.
-* Note: This project depends on an open-source MP implementation, which is currently not available.
-* Difficulty: Medium
-* Language: C
-* Mentor:
-* Suggested by: andrewfish
 
 ===SourceLevelDebugPkg & GDB===
 A fully functional gdb stub for x86/x64, attaching to SourceLevelDebugPkg's remote protocol.
@@ -144,9 +115,7 @@ better data structures.
 * Suggested by: andrewfish
 
 ===Various Debug Improvements===
-Note: There are many ideas here. GSoC students should feel free to
-gather together any interesting & resonable subset for a project
-proposal.
+Note: There are many ideas here. GSoC students should feel free to gather any reasonable subset for a project proposal.
 
 # Debug version of libraries, and tools to analyze the data:
 ## UefiBootServicesTableLib.h & UefiRuntimeServicesLib.h that can profile EFI services usage.
@@ -177,6 +146,31 @@ performance.
 * Language: C
 * Mentor:
 * Suggested by: bjjohnson
+
+==Partially Complete or Deferred Projects==
+
+===Read-only ext2 driver===
+Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
+* Difficulty: Medium ... Hard
+* Language: C
+* Mentor:
+* Suggested by: rsun3
+* Status: Some progress was made during [[GSOC2011]]. May be a duplicate of other work, see [https://github.com/pbatard/efifs/tree/master/].
+
+More information: [[Tasks-ext2 file-system driver]]
+
+===Compatibility Support Module===
+A [[CSM]] allows a UEFI system to boot legacy operating systems on
+IA32 & X64 systems. In other words, most current production OS's.
+Strong preference is for a BSD licensed solution, as this is license
+used by nearly all of our code. A [http://www.coreboot.org/SeaBIOS
+SeaBIOS] based solution could be considered, but would not be as
+widely usable.
+* Difficulty: Medium ... Hard
+* Language: Assembly, C
+* Mentor:
+* Suggested by: bjjohnson
+* Status: No longer a priority, since UEFI OS support is mainstream. SeaBIOS can be built as a CSM, but a BSD licensed alternative is still not available.
 
 ==Previously Complete Projects==
 
