@@ -7,30 +7,24 @@
 '''Title'''<Br>
 '''Description'''<br>
 *'''Date Published'''<BR>
-
-
-
 </td>
 </tr>
+
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf .PDF]
-
 </td>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf EDK II HTTPS Boot Getting Started Guide R1.2]
 contributed by Wu Jiaxin, Fu Siyuan and Brian Richardson<BR>
 HTTP over TLS (HTTPS) boot is a standard implementation for securely booting using the Unified Extensible Firmware Interface (UEFI) over a network device. HTTPS Boot is especially important for clients using potentially insecure networks outside of corporate infrastructure. Security for UEFI HTTPS Boot is provided by the underlying Transport Layer Security (TLS). 
-
-
-<BR>
+<br>
 This paper assumes the reader is familiar with the [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf 
 EDK II HTTP Boot Getting Started Guide] available on this page.
 
 * February 2017 Rev 1.2
 </td>
 </tr>
-
 
 <tr>
 <td>
@@ -93,20 +87,7 @@ The Unified Extensible Firmware Interface (UEFI) and Platform Initialization (PI
 * July 2016 
 </td>
 </tr>
-<tr>
-<td>
 
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttps_TLS_BootGettingStartedGuide_07.pdf  .PDF] 
-</td>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttps_TLS_BootGettingStartedGuide_07.pdf Getting Started with UEFI HTTP over TLS (HTTPS) Boot on EDK II] - contributed by Wu Jiaxin
-<BR>
-HTTP over TLS (HTTPS) boot is a standard implementation for securely booting using the Unified Extensible Firmware Interface (UEFI) over a network device. HTTPS Boot is especially important for clients using potentially insecure networks outside of corporate infrastructure. Security for UEFI HTTPS Boot is provided by the underlying Transport Layer Security (TLS).<BR>
-This document assumes that the reader is familiar with the EDK II HTTP Boot Getting Started Guide - 
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf  below] 
-* July 2016 Rev 0.7
-</td>
-</tr>
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Open_Source_IA_Firmware_Platform_Design_Guide_in_EFI_Developer_Kit_II.pdf .PDF]
