@@ -4,7 +4,7 @@ The security of HTTPS boot is that of the underlying Transport Layer Security (T
 
 ### HTTPS Boot Getting Start
 
-Please refer to the white paper [EDK II HTTPS Boot Getting Started Guide](https://github.com/tianocore-docs/Docs/blob/master/White_Papers/EDKIIHttps_TLS_BootGettingStartedGuide_07.pdf) for a step by step guide of the HTTPS Boot enabling and HTTPS server configuration.
+Please refer to the [EDK II HTTPS Boot Getting Started Guide](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf) for a step by step guide of the HTTPS Boot enabling and HTTPS server configuration.
 
 ### HTTPS Boot Authentication
 TLS supports three authentication modes ([RFC5246](https://tools.ietf.org/html/rfc5246)):
