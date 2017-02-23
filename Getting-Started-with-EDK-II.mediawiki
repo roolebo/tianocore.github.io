@@ -7,8 +7,8 @@ This page shows the steps for downloading EDK II from GitHub and compiling proje
 
 GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub 
 
-* Setup GitHub for Linux | Windows | MAC | All (https://help.github.com/articles/set-up-git)
-* To download and install a Git GUI interface (http://git-scm.com/)
+* Setup GitHub for Linux/Windows/MAC (https://help.github.com/articles/set-up-git)
+* Download and install a git GUI interface: git GUI Clients (https://git-scm.com/download/gui/win) | TortoiseGit (https://tortoisegit.org/)
 
 ===GitHub EDK II Project Repositories===
 
