@@ -1,7 +1,7 @@
 __NOTOC__
 =Downloading and Compiling Code=
 
-This page shows the steps for downloading EDK II from GitHub and compiling projects under various OS/compiler environments.
+This page shows the steps for downloading [[EDK II]] from GitHub and compiling projects under various OS/compiler environments.
 
 ==GitHub Help==
 
