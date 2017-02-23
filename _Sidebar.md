@@ -1,4 +1,4 @@
-[Home](http://www.tianocore.org)<br/>
+[Home](https://github.com/tianocore/tianocore.github.io/wiki)<br/>
 [[UDK2015]]<br/>
 [[EDK II]]<br/>
 [[Reporting Issues]]<br />
