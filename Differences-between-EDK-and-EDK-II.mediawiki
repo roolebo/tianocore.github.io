@@ -2,19 +2,23 @@
 <!-- [[Category:EDKII]] -->
 <!-- [[Category:UDK2010]] -->
 
-Frequently asked questions about the differences between EDK and EDK II
+<!-- Frequently asked questions about the differences between EDK and EDK II -->
 
 ===What is the difference between EDK and EDK II?===
+
 '''Differences:'''
 
-Mainly the build architecture is very different. Part of the differences are that the build description files (.dsc .inf, etc) have been enhanced and are different. However, the EDK II build understands EDK build description files so that EDK II build can include EDK source code. There are also build tool differences and EDK II supports more OSes and more tool chains.
-Other differences besides the build include that EDK II has different, richer libraries (MDELIB, etc) which makes some of the source code very different. EDK II also has the package concept so that the directory and file layout is different. 
-EDK II also uses Platform Configuration Database (PCD) for parameterization and fix-up binary support, etc. 
-EDK II supports newer UEFI/PI specifications than EDK (see table below for which versions are supported). 
-In addition, EDK II has compatibility with EDK style sources through the EdkCompatiblityPkg (ECP). This is possible because the ECP will have binary compatability for EDK through its libraies and thunk code.
-Additionally, EDK II is designed to work with Doxygen to generate design level specifications. 
+Mainly the build architecture is very different. Part of the differences are that the build description files (.dsc .inf, etc) have been enhanced and are different. However, the EDK II build understands EDK build description files so that EDK II build can include EDK source code. There are also build tool differences: EDK II supports a larger number of operating systems and tool chains.
 
-In addition, since EDK II supports the later versions of the UEFI and PI Specifications, there are newer protocols that will be part of EDK II that do not exist in EDK. Thus if there is a desire to use the latest protocols there maybe a need to use EDK II instead of EDK.
+Other differences besides the build include that EDK II has different, richer libraries (MDELIB, etc) which makes some of the source code very different. EDK II also has the package concept so that the directory and file layout is different. 
+[[EDK II]] also uses Platform Configuration Database ([[PCD]]) for parameterization and fix-up binary support, etc. 
+EDK II supports newer UEFI/PI specifications than EDK (see table below for which versions are supported). 
+
+In addition, EDK II has compatibility with EDK style sources through the EdkCompatiblityPkg ([[ECP]]). However, this his being depricated in current platforms. This is possible because the ECP will have binary compatability for EDK through its libraies and thunk code.
+
+EDK II is also designed to work with Doxygen to generate design level specifications. 
+
+In addition, since EDK II supports the later versions of the UEFI and PI Specifications, there are newer protocols that will be part of EDK II that do not exist in EDK.
 
 Differences Summary:
 * Build infrastructure and Build tools
@@ -38,11 +42,11 @@ The following table is a side by side comparison.
 |-
 | Development OS 
 | WinXP
-| WinXP, Win64, Win 7, Vista32, Vista64, Linux, OS/X
+| WinXP/7/8/8.1/10, Linux, OS/X
 |-
 | Compiler/Linker
 | VS2003, VS2005, WinDDK
-| VS2003, VS2005, VS2008, WinDDK, Intel, GCC
+| VS2003, VS2005, VS2008, VS2010, VS2013, VS2015, WinDDK, Intel, GCC4, GCC5, LLVM/CLANG
 |-
 | Build
 | nmake
@@ -54,7 +58,7 @@ The following table is a side by side comparison.
 |-
 |Target Platforms (open source)
 |NT32, DUET, 
-|NT32, UNIX, DUET, OVMF
+|See [[EDK II Platforms]]
 |-
 |Distribution
 |ZIP Files – Entire Tree	Packages with XML metadata
@@ -66,8 +70,7 @@ The following table is a side by side comparison.
 |-
 |Standards (UEFI)
 |EFI 1.10, UEFI 2.0, UEFI 2.1, Intel Framework, PI 1.0
-|Focus on UEFI 2.3/PI 1.2 /+ Spec Updates
-Includes Support for EFI 1.10, UEFI 2.0, UEFI 2.1, UEFI 2.2, PI 1.0, PI 1.1, Intel Framework. [[UDK2010]] latest release supports UEFI 3.2.1 / PI 1.2
+|Focus on UEFI 2.3+/PI 1.2+ Spec Updates. Includes Support for EFI 1.10, UEFI 2.0+, PI 1.0+ & Intel Framework. See [[UDK2015]] release notes for info.
 |-
 | Library
 | binary .Lib files
@@ -83,8 +86,9 @@ Includes Support for EFI 1.10, UEFI 2.0, UEFI 2.1, UEFI 2.2, PI 1.0, PI 1.1, Int
 |}
 
 ===Some companies want to know what has changed and why. Is there someplace to find this information per release?===
-  	
-The release notes will have a general summary description of the features and fixes for the core EDK II changes.  See [[UDK2015]] for the latest release and release notes.
+
+The release notes will have a general summary of features and fixes for EDK II changes. See [[UDK2015]] for the latest stable release and release notes.
 
 ===In the past there were Libraries were associated with PPI===
-EDK II does not have that anymore
+
+EDK II does not use that model.
