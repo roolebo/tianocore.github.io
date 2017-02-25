@@ -13,12 +13,7 @@
 * Open [[Tasks]] suggested by the EDK II community.
 * [[Coreboot UEFI Payload|Coreboot_UEFI_payload]] open community project.
 
-## EDK II Platforms
-
-* [[OVMF]] is a platform enabling UEFI firmware support for Virtual Machines.
-* [[Beagle Board|Beagle Board Wiki]] is a low-cost single board computer.
-* [[MinnowBoard Max/Turbot|MinnowBoardMax]] open community project with UEFI Developed firmware. 
-* [[MinnowBoard]] open community project with UEFI Developed firmware. 
+## [[EDK II Platforms]]
 
 ## Other Projects (Non EDK II Projects)
 
