@@ -2,8 +2,8 @@ The [http://beagleboard.org/ Beagle Board] is a low cost highly capable single b
 The BeagleBoardPkg package reuses components from ArmPkg and Omap35xxPkg.
 <br>
 
-===Source Repository===
-{{Edk2SubPkg|BeagleBoardPkg}}
+== Source Repository ==
+[https://github.com/tianocore/edk2/tree/master/BeagleBoardPkg]
 
 == Developer References ==
 * [http://beagleboard.org/static/BBSRM_latest.pdf Beagle Board System Reference Manual] (Chapter 12 talks about booting)
