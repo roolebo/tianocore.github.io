@@ -1,7 +1,7 @@
 Back to [Capsule Based System Firmware Update](Capsule-Based-System-Firmware-Update)
 
 The following steps can be used to verify that the capsule-based system firmware update
-feature has been integrated into a platform correctly. This exampe uses the [[Intel® Galileo Gen 2|Galileo]] platform. These steps use the test signing keys, and it is a good idea to verify this update feature using the test signing keys before using product specific signing keys.  
+feature has been integrated into a platform correctly. This example uses the [[Intel® Galileo Gen 2|Galileo]] platform. These steps use the test signing keys, and it is a good idea to verify this update feature using the test signing keys before using product specific signing keys.  
 
 > NOTE: Each step in this sequence depends on all the previous steps.  If any step in 
 this sequence does not match expectations, then debug and resolve the integration issue 
