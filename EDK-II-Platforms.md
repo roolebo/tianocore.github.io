@@ -1,5 +1,7 @@
 ## EDK II Platforms
 
+Note: new platforms are being developed in the [edk2-platforms](https://github.com/tianocore/edk2-platforms) repository. Some older platforms still reside in the main [edk2](https://github.com/tianocore/edk2) repository.
+
 ### Virtual/Simulated Platforms
 
 * [[OVMF]] is a platform enabling UEFI firmware support for Virtual Machines.
@@ -14,4 +16,5 @@
 
 ### ARM Processor Platforms
 
-* [[Beagle Board|Beagle Board Wiki]] is a low-cost single board computer.
+* [[Beagle Board|Beagle Board Wiki]] -  low-power open-source hardware single-board computer produced by Texas Instruments.
+* [[Omap35xxPkg]] provides UEFI support For Texas Instruments OMAP35xx based platforms.
