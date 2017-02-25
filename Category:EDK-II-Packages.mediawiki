@@ -1,3 +1,1 @@
-== EDK II Packages ==
-
 {{Category tree}}
