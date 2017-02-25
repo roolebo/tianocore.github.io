@@ -1,5 +1,4 @@
-[[UEFI-and-PI-Wiki]] Picture of UEFI vs PI 
-
+More information: [[UEFI-and-PI-Wiki]] | [[PI Boot Flow]] | [PI Boot Phases](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG)
 
 '''Frequently asked Questions about UEFI/PI'''
 
