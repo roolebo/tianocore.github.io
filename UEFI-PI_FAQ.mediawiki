@@ -1,4 +1,4 @@
-More information: [[UEFI-and-PI-Wiki]] | [[PI Boot Flow]] | [PI Boot Phases](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/PI_Boot_Phases.JPG)
+More information: [[UEFI-and-PI-Wiki]] | [[PI Boot Flow]] | [[PI]]
 
 '''Frequently asked Questions about UEFI/PI'''
 
