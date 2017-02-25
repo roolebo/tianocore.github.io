@@ -1,6 +1,6 @@
-## EDK II Projects
+[[EDK II]] is a modern, feature-rich, cross-platform firmware development environment for the [UEFI](http://uefi.org) and PI specifications. Click for a list of [[EDK II Documents]] and [[EDK II Specifications]].
 
-[[EDK II]] is a modern, feature-rich, cross-platform firmware development environment for the [UEFI](http://uefi.org) and PI specifications. Click for a list of <a href="{{baseurl}}/docs/EDK_II_Documents.html">EDK II Documents</a> and [[EDK II Specifications]].
+## EDK II Projects
 
 * UEFI Development Kit 2015 ([[UDK2015]]) is a stable release of portions of [[EDK II]].
 * [[edk2-buildtools]] are the primary set of tools for processing EDK II content. 
