@@ -6,4 +6,4 @@ If you want to compile firmware or utilities, we recommend the [[Getting Started
 
 There are multiple [[hardware platforms|EDK II Platforms]] using EDK II open source UEFI firmware, including [[MinnowBoard Max/Turbot|MinnowBoardMax]], [[MinnowBoard 3]], and [[Intel® Galileo Gen 2|Galileo]]. This allows you to experiment and develop UEFI features on real hardware.
 
-TianoCore uses Bugzilla to track issues and feature requests. Please review [[Reporting Issues]] and [[Reporting Security Issues]] for more information. If you would like to contribute code or fix issues, please see [[How To Contribute]].
+TianoCore uses Bugzilla to track issues and feature requests. Please review [[Reporting Issues]] and [[Reporting Security Issues]] for more information. If you would like to contribute code or fix issues, please see [[How To Contribute]]. The [[Tasks]] page has a list of priority work items. 
