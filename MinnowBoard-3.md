@@ -1,4 +1,4 @@
-== MinnowBoard 3 ==
+## MinnowBoard 3
 
 MinnowBoard 3 is the follow-on to the [[MinnowBoard Max|MinnowBoardMax]] & MinnowBoard Turbot platforms. MinnowBoard platforms offer low cost & commercially available open hardware based on Intel Architecture for hardware, software and firmware developers. Hardware is expected to ship Fall 2017.
 
