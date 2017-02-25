@@ -14,6 +14,10 @@ The goal of this project is to provide a common OS emulation environment, to rep
 | X64 || Windows || Not started
 |}
 
+==Source Repository==
+
+[https://github.com/tianocore/edk2/tree/master/EmulatorPkg]
+
 ==How to Build & Run==
 
  $ EmulatorPkg/build.sh
@@ -29,7 +33,3 @@ On X64 host machines, you can build + run IA32 mode as well:
 
 To install the extra build dependencies required to build EmulatorPkg, run:
  $ sudo apt-get install libx11-dev libxext-dev
-
-===Source Repository===
-
-[https://github.com/tianocore/edk2/tree/master/EmulatorPkg]
