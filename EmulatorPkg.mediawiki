@@ -1,5 +1,4 @@
 <!-- [[Category:EDKII Packages]] -->
-This is a project to enable [[UEFI]] emulation within an OS environment.
 
 ==Status==
 The goal of this project is to provide a common OS emulation environment, to replace [[Nt32Pkg]] and [[UnixPkg]].
@@ -18,18 +17,20 @@ The goal of this project is to provide a common OS emulation environment, to rep
 
 ==How to Build & Run==
 
- $ <b>EmulatorPkg/build.sh</b>
- $ <b>EmulatorPkg/build.sh run</b>
+ $ EmulatorPkg/build.sh
+ $ EmulatorPkg/build.sh run
 
 The build architecture will match your host machine's architecture.
 
 On X64 host machines, you can build + run IA32 mode as well:
- $ <b>EmulatorPkg/build.sh -a IA32</b>
- $ <b>EmulatorPkg/build.sh -a IA32 run</b>
+ $ EmulatorPkg/build.sh -a IA32
+ $ EmulatorPkg/build.sh -a IA32 run
 
 ===Ubuntu build dependencies===
+
 To install the extra build dependencies required to build EmulatorPkg, run:
- $ <b>sudo apt-get install libx11-dev libxext-dev</b>
+ $ sudo apt-get install libx11-dev libxext-dev
 
 ===Source Repository===
+
 {{Edk2SubPkg|EmulatorPkg}}
