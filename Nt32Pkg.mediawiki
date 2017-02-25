@@ -1,8 +1,0 @@
-<!-- [[Category:EDKII Packages]] -->
-Nt32Pkg 
-The goals and features of the Nt32Pkg platform are similar to [[UnixPkg]].
-
-===Source Repository===
-{{Edk2SubPkg|Nt32Pkg}}
-
-More information: [https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf Signing UEFI Images for Secure Boot with Nt32Pkg V1.31.pdf]
