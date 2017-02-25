@@ -19,6 +19,10 @@ Please let us know on [[edk2-devel]] if you plan to work on one of these tasks (
 - LLVM Static Analysis to extend Address Sanitation for FW security
 - Mentor: Steven Shi
 
+### Add Visual Studio 2017 Support
+
+Microsoft Visual Studio will be released March 7, 2017. Add VS2017 build support to EDK II.
+
 ### Port ACPI-CA to a shell application
 
 - Port portions of ACPI-CA to a shell application to enable dumping and disassembly of ACPI tables.
