@@ -12,26 +12,16 @@
 * [[EDK II Security Package|SecurityPkg]] and other security information.
 * Open [[Tasks]] suggested by the EDK II community.
 * [[Coreboot UEFI Payload|Coreboot_UEFI_payload]] open community project.
-
-## [[EDK II Platforms]]
-
-## Other Projects (Non EDK II Projects)
-
-* [[Additional-Projects-other]]
 * [EDK II Build Data Viewer](https://github.com/01org/edkiibuilddataviewer) project at 01.org
+
+### [[EDK II Platforms]]
+
+### [[Other Projects (Non EDK II Projects)|Additional-Projects-other]]
 
 ## Important Information
 * [[Getting Started for Developers|Getting Started with EDK II]]
 * [[EDKII Packages]]
 * [[Code Style|Code-Style]]
-* [EDK II Documents]({{baseurl}}/docs/EDK_II_Documents.html)
-
-
-<MTMarkdownOptions output='html4'>
-<font color="#0066FF" size="4">
-Related Information
-</font>
-</MTMarkdownOptions>
-
--   [Start using UEFI](https://github.com/tianocore/tianocore.github.io/wiki/Start_using_UEFI)
--   [Overview](https://github.com/tianocore/tianocore.github.io/wiki/EDK_II_Overview)
+* [[EDK II Documents]]
+* [[Start using UEFI]]
+* [[EDK II Overview]]
