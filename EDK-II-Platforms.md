@@ -4,7 +4,9 @@ Note: new platforms are being developed in the [edk2-platforms](https://github.c
 
 ### Virtual/Simulated Platforms
 
-* [[OVMF]] is a platform enabling UEFI firmware support for Virtual Machines.
+* [[OVMF]] - enabling UEFI firmware support for Virtual Machines.
+* [[Nt32Pkg]] - enabling UEFI application development in a Microsoft* Windows environment.
+* [[EmulatorPkg]] - enable UEFI emulation within an OS environment.
 
 ### Intel® Processor Platforms
 
