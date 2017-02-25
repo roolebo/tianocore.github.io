@@ -1,15 +1,21 @@
-=How to Enable Security=
-               
-'''Note:''' To be used only with release UDK2010.SR1, to download, goto [[UDK2010]] page
+= Security Features Implemented in EDK II=
 
-    
-== HOW TO ENABLE SECURE BOOT SERVICE ==
+[[EDK II]] implements a variety of platform security features. These are typically disabled or absent in open hardware platforms. While some platforms implement these with enable/disable build flags, other platforms require additional porting to enable security features.
+
+== Signed Firmware Updates ==
+
+
+
+== Enabling UEFI Secure Boot ==
+
 === Download PDF with examples ===
-
 
 [https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf How to Sign UEFI Drivers & Applications .pdf] NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010 version
 
 === How to add Secure Boot to DSC and FDF ===
+
+'''Note:''' Information for this section was written based on the [[UDK2010.SR1|UDK2010]] release
+
 Based on original variable driver in MdeModulePkg, variable driver in SecurityPkg
 provides authenticated variable service in UEFI 2.3.1 spec. Runtime crypto library,
 OpenSSL* library and variable driver are required to enable this feature.
@@ -102,10 +108,12 @@ should be replaced by following drivers in step 5 and 6:
 *        SecurityPkg/VariableAuthenticated/RuntimeDxe/VariableSmm.inf
 *        SecurityPkg/VariableAuthenticated/RuntimeDxe/VariableSmmRuntimeDxe.inf
 
-==                         HOW TO ENABLE USER IDENTIFICATION ==
+== Enable User Identification ==
+
+'''Note:''' Information for this section was written based on the [[UDK2010.SR1|UDK2010]] release
+
 In UID (User Identification) infrastructure, there are 4 UEFI drivers, one library
 instance and some platform specific changes in BDS. To enable UID feature:
-
 
 1.  Ensure the platform specific code had been integrated into the platform BDS.
 Identify () in User Manager Protocol should be invoked after console is ready
@@ -176,11 +184,12 @@ The token file should be at the root directory of USB storage disk and
 its name is specified by PCD value. "Token.bin" is the default name of
 token file.
 
+== Enabling Trusted Compute Module (TPM) ==
 
-== HOW TO ENABLE TCG TPM ==
+'''Note:''' Information for this section was written based on the [[UDK2010.SR1|UDK2010]] release
 
-TCG measured boot consists of two PEI modules, four DXE drivers and three libraries
-and some platform specific changes. To enable TCG TPM feature:
+[[TCG]] measured boot consists of two PEI modules, four DXE drivers and three libraries
+and some platform specific changes. To enable TCG [[TPM]] feature:
 
 1.  Ensure the platform specific changes had been done.
 *    1)  Memory should be cleared if ClearMemory bit of variable MemoryOverwriteRequestControl
@@ -273,7 +282,8 @@ control whether to hide the TPM if PcdHideTpmSupport is set TRUE.
 *      gEfiSecurityPkgTokenSpaceGuid.PcdHideTpmSupport|FALSE|BOOLEAN|0x00000007
 
 
-==                                  NOTES ==
+== Additional Notes ==
+
 1.  In this version of implementation of authenticated variable service, we support:
 *    1)  Public exponent of RSA key value is fixed as 0x10001.
 *    2)  Encoding schema of RSA is PKCS1.15.
