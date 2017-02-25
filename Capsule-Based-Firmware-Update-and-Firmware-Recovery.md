@@ -10,7 +10,7 @@ Firmware is responsible for low-level platform initialization and hand-off to th
 
 [`SignedCapsulePkg`](https://github.com/tianocore/edk2/tree/master/SignedCapsulePkg) makes use of [OpenSSL](https://www.openssl.org/) command line utilities to sign firmware update capsules and firmware recovery images.  It also uses OpenSSL libraries to authenticate firmware update capsules and firmware recovery images before they are used.
 
-As of December 2016, [`SignedCapsulePkg`](https://github.com/tianocore/edk2/tree/master/SignedCapsulePkg) is integrated into the master branch of the [Intel Galileo 2](https://github.com/tianocore/edk2/tree/master/QuarkPlatformPkg) ("Quark") and [MinnowBoard Max](https://github.com/tianocore/edk2/tree/master/Vlv2TbltDevicePkg) platform firmware projects on EDK II. To implement this package on other EDK II platforms, please review documentation for capsule use cases.
+As of December 2016, [`SignedCapsulePkg`](https://github.com/tianocore/edk2/tree/master/SignedCapsulePkg) is integrated into the master branch of the [[Intel® Galileo Gen 2|Galileo]] and [[MinnowBoard Max|MinnowBoardMax]] platform firmware projects on EDK II. To implement this package on other EDK II platforms, please review documentation for capsule use cases.
 
 # Common Use Cases for UEFI Capsule
 
