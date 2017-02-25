@@ -6,27 +6,103 @@ Please let us know on [[edk2-devel]] if you plan to work on one of these tasks (
 
 ## Open Projects
 
+### Enable LLVM Build for Microsoft Windows
+
+[[LLVM/CLANG|LLVM]] support in [[EDK II]] is currently limited to Linux builds. Add build support under Microsoft Windows 10.
+- Mentor: Steven Shi
+
+### LLVM Optimizations
+
+- LLVM Address Sanitation using Intel MPX to detect buffer overflows
+  - Depends on compiler & hardware that supports the Intel MPX compiler
+  - Focus on firmware components
+- LLVM Static Analysis to extend Address Sanitation for FW security
+- Mentor: Steven Shi
+
 ### Port ACPI-CA to a shell application
 
-Port portions of ACPI-CA to a shell application to enable dumping and disassembly of ACPI tables.
-http://www.acpica.org 
-* Difficulty: Medium
-* Language: C
-* Mentor:
-* Suggested by: andrewfish, jljusten
+- Port portions of ACPI-CA to a shell application to enable dumping and disassembly of ACPI tables.
+Based on https://acpica.org/node/126 
+  - Table Verifier: AML method execution for testing without booting to an OS.
+- Difficulty: Medium
+- Language: C
+- Mentor: TBD
+- Suggested by: andrewfish, jljusten
+
+### Implement I2C Stack for PI 1.3
+
+Build I2C support as a [[UEFI PI|PI]] component, based on the PI 1.3 specification. Initial development on [[Intel Galileo|Galileo]] or [[MinnowBoard Max/Turbot|MinnowBoardMax]] platforms.
+- Mentor: Mike Kinney
+
+### Intel Gailieo Platform Improvements
+
+Add features to [[Intel Galileo|Galileo]] based on open source platform in EDK II. https://github.com/tianocore/edk2/tree/master/QuarkPlatformPkg 
+- Switch from private SD/MMC stack to standard one in [[MdeModulePkg]].
+- Debugger/Console using USB client mode for multiple high perf UARTs in ESRAM 
+- Logging and Debugger support over USB using ESRAM for DMA.
+Mentor: Mike Kinney
+
+### Test Harness Improvements
+
+- Improvements to the test harness in the edk2-test staging branch. https://github.com/tianocore/edk2-staging/tree/edk2-test
+  - Test Harness for PEI using Capsule Update or Recovery feature to deliver tests
+  - Test Harness for SMM using Capsule Update or Recovery feature to deliver tests
+  - Performance improvements of test harness
+- Mentor: Mike Kinney, Supreeth Venkatesh
+
+### UEFI Driver Wizard
+
+- Improvements to existing [[UEFI Driver Wizard]]
+  - Update to latest version of wxPython
+  - Update for latest UEFI Specifications
+  - Consider adding PI module types (PEIMs, DXE Drivers, DXE Runtime Drivers, SMM Drivers)
+- Mentor: Mike Kinney
+
+### Coverity Static Analysis Tools
+
+- Enable Coverity Scan for all EDK II projects. https://scan.coverity.com/
+- Evaluate open source CI tools to fine best one to periodically auto run Coverity static analysis
+  - Look into ways to auto-post results to TianoCore (website, wiki, or git repo).
+  - Look into ways to automate Bugzilla issue generation based on Coverity results.
+- Mentor: Mike Kinney, Steven Shi
 
 ### MP safe Print, DEBUG, and ASSERT
 
 Allow APs to safely print and use DEBUG trace messages.
-* Note: This project depends on an open-source MP implementation, which is currently not available.
+> Note: This project depends on an open-source MP implementation, which is currently not available.
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: andrewfish
 
+### Port Intel Firmware Engine SDK Extensions to OVMF
+
+- [[Intel Firmware Engine]] adds UserExtensions in the SDK to describe connections between modules and module parameters (as "Patchable In Binary" PCDs). This enables binary distribution of configurable firmware components. Porting these extensions to a branch of OVMF would allow development and testing of these concepts on a virtual platform.
+  - https://firmware.intel.com/learn/intel-firmware-engine/downloads
+  - https://firmware.intel.com/sites/default/files/Intel%C2%AE%20Firmware%20Engine%20SDK_R2.0.2.zip
+- Languages: C, Python
+- Mentor: Jaben Carsey
+
+### Tools for EDK II Ease-of-Use
+
+- Simplify EDK II development:
+  - GUI helper tool to pull multiple repos and setup WORKSPACE.
+  - GUI helper tool to configure and launch a build.
+  - GUI helper tool to configure platform PCDs.
+  - GUI helper tool to configure FLASH layout, Recovery, and Capsules.
+  - Use [[Intel Firmware Engine]] user extensions to perform additional build checking.
+  - Automatically set values in [[target.txt]] based on platform configuration (compiler, thread count, etc.).
+- Languages: C, Python
+- Mentor: Mike Kinney
+
+
+### Continuous Integration
+
+On demand builds to verify patch series before sending to edk2-devel (for Windows, Linux, OSX)
+
 ### Port EmulatorPkg to Windows
 
-Port [[EmulatorPkg]] to Microsoft Windows, as a replacement for [[NT32].
+Port [[EmulatorPkg]] to Microsoft Windows (32/64 bit), as a replacement for [[NT32]].
 * Difficulty: Medium
 * Language: C
 * Mentor:
