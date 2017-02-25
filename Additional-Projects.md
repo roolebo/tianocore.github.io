@@ -4,7 +4,7 @@
 
 * UEFI Development Kit 2015 ([[UDK2015]]) is a stable release of portions of [[EDK II]].
 * [[edk2-buildtools]] are the primary set of tools for processing EDK II content. 
-* [[Shellpkg]] is a UEFI 2.0 Shell implementation.
+* [[ShellPkg]] is a UEFI 2.0 Shell implementation.
 * The [[EDK II Application Development Kit (EADK)|EDKII-EADK]] includes Standard C Libraries in UEFI Shell Applications (replacement for the EFI Toolkit).
 * [[UEFI Driver Developer Resources for EDK II|Driver-Developer]] support UEFI driver development by independent hardware vendors (IHV), including the UEFI Driver Wizard and UEFI Driver Writers Guide (DWG).
 * [[edk2-fat-driver]] is a driver for the FAT12/16/32 filesystems.
