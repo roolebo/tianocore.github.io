@@ -84,7 +84,7 @@ Includes Support for EFI 1.10, UEFI 2.0, UEFI 2.1, UEFI 2.2, PI 1.0, PI 1.1, Int
 
 ===Some companies want to know what has changed and why. Is there someplace to find this information per release?===
   	
-The release notes will have a general summary description of the features and fixes for the core EDK II changes.  See [[UDK2010]] for the latest release and release notes.
+The release notes will have a general summary description of the features and fixes for the core EDK II changes.  See [[UDK2015]] for the latest release and release notes.
 
 ===In the past there were Libraries were associated with PPI===
 EDK II does not have that anymore
