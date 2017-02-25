@@ -1,18 +1,22 @@
+# Tasks
+
 These tasks have been identified by our community. They are currently open for development by community members, and would be a great way to get involved and start contributing. These are also available as ideas for students working on [[Google Summer of Code 2017]].
 
 Please let us know on [[edk2-devel]] if you plan to work on one of these tasks (to prevent duplicated effort). Also, please provide status updates on [[edk2-devel]] so the community will know the project is still being actively developed.
 
-==Open Projects==
+## Open Projects
 
-===Port ACPI-CA to a shell application===
-Port portions of [http://www.acpica.org ACPI-CA] to a shell
-application to enable dumping and disassembly of ACPI tables.
+### Port ACPI-CA to a shell application
+
+Port portions of ACPI-CA to a shell application to enable dumping and disassembly of ACPI tables.
+http://www.acpica.org 
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: andrewfish, jljusten
 
-===MP safe Print, DEBUG, and ASSERT===
+### MP safe Print, DEBUG, and ASSERT
+
 Allow APs to safely print and use DEBUG trace messages.
 * Note: This project depends on an open-source MP implementation, which is currently not available.
 * Difficulty: Medium
@@ -20,7 +24,8 @@ Allow APs to safely print and use DEBUG trace messages.
 * Mentor:
 * Suggested by: andrewfish
 
-===Port EmulatorPkg to Windows===
+### Port EmulatorPkg to Windows
+
 Port [[EmulatorPkg]] to Microsoft Windows, as a replacement for [[NT32].
 * Difficulty: Medium
 * Language: C
@@ -29,21 +34,24 @@ Port [[EmulatorPkg]] to Microsoft Windows, as a replacement for [[NT32].
 
 More information: [[Tasks-EmulatorPkg for Windows]]
 
-===Port EmulatorPkg to ARM===
+### Port EmulatorPkg to ARM
+
 Create a ARM based host environment for [[EmulatorPkg]].
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: andrewfish
 
-===[[EmulatorPkg]] network support for Linux===
+### [[EmulatorPkg]] network support for Linux
+
 Port EmulatorPkg/EmuSnpDxe to support Linux.
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: andrewfish
 
-===Network Block Device (NBD) client===
+### Network Block Device (NBD) client
+
 http://nbd.sourceforge.net/
 * Difficulty: Medium
 * Language: C
@@ -52,35 +60,40 @@ http://nbd.sourceforge.net/
 
 More information: [[Tasks-Network Block Device]]
 
-===SMB network share support===
+### SMB network share support
+
 Enable accessing content on an SMB network share
 * Difficulty: Hard
 * Language: C
 * Mentor:
 * Suggested by: jljusten, geekboy15a, jcarsey
 
-===DNS Proxy Support===
+### DNS Proxy Support
+
 Implement DNS proxy on EDK II
 * Difficulty:
 * Language: C
 * Mentor:
 * Suggested by: kidzyoung
 
-===SourceLevelDebugPkg & GDB===
+### SourceLevelDebugPkg & GDB
+
 A fully functional gdb stub for x86/x64, attaching to SourceLevelDebugPkg's remote protocol.
 * Difficulty: Medium ... Hard
 * Language: Python, C
 * Mentor:
 * Suggested by: bjjohnson
 
-===Terminal driver improvements===
+### Terminal driver improvements
+
 Optimize cursor motion sequences; support Linux/UNIX standard (xterm/konsole/gnome-terminal/etc.) key codes and line-drawing characters
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: bjjohnson
 
-===HII command-line browser===
+### HII command-line browser
+
 A command-line based HII browser, suitable for automation. Either a
 shell command or set of commands for locating, dumping, and modifying
 configuration values, or commands for dumping and loading HII data
@@ -90,7 +103,8 @@ to/from a file in an easily-edited format.
 * Mentor:
 * Suggested by: bjjohnson
 
-===DataHub & GCD scalability===
+### DataHub & GCD scalability
+
 The DataHub and GCD layers don't scale well as the number of data
 items gets large, since they are based on simple linked lists. Find
 better data structures.
@@ -99,93 +113,92 @@ better data structures.
 * Mentor:
 * Suggested by: bjjohnson
 
-===Utilize return address information===
-* Make use of __builtin_return_address(n) & _ReturnAddress to add debug & data gathering capabilities.  Some ideas:
-** Produce a protocol with info on the image handle so a shell command can dump out the information
-** Track, on a per call basis, where resources are being consumed
-** Detect memory leaks
-** Log information about stall and timer usage
-** Collect statistics on BootServices and RuntimeServices calls.
-** Performance profile library calls EFI boot and runtime services calls.
-**# gBS is set up by a library so it could point to a debug wrapper for the functions.
-** Post process raw output (PDB name + offset in PE/COFF) to include function names via parsing .map files.
-* Difficulty: Medium ... Hard
-* Language: C
-* Mentor:
-* Suggested by: andrewfish
+### Utilize return address information
 
-===Various Debug Improvements===
-Note: There are many ideas here. GSoC students should feel free to gather any reasonable subset for a project proposal.
+- Make use of __builtin_return_address(n) & _ReturnAddress to add debug & data gathering capabilities.  Some ideas:
+  - Produce a protocol with info on the image handle so a shell command can dump out the information
+  - Track, on a per call basis, where resources are being consumed
+  - Detect memory leaks
+  - Log information about stall and timer usage
+  - Collect statistics on BootServices and RuntimeServices calls.
+  - Performance profile library calls EFI boot and runtime services calls.
+  - gBS is set up by a library so it could point to a debug wrapper for the functions.
+  - Post process raw output (PDB name + offset in PE/COFF) to include function names via parsing .map files.
+- Difficulty: Medium ... Hard
+- Language: C
+- Mentor:
+- Suggested by: andrewfish
 
-# Debug version of libraries, and tools to analyze the data:
-## UefiBootServicesTableLib.h & UefiRuntimeServicesLib.h that can profile EFI services usage.
-## Debug version of MemoryAllocationLib.h that can detect memory leaks, buffer overruns, etc.
-## Add a library class for logging the data
-### Log data directly to image handle, per driver.
-### Log data to centralized data service.
-## Add a library class for a module to access/initiate leak checking.
-# Add sample based profiling to EmulatorPkg/Nt32Pkg. On a Mac this would be figuring out how to use Instruments to profile the emulator.
-# Add a sampling based profiling tool to a real EFI system. Note this requires the ability to capture a stack trace and then post process it (likely on the build system).
+### Various Debug Improvements
 
-* Difficulty: Medium ... Hard
-* Language: C
-* Mentor:
-* Suggested by: andrewfish
+- Note: There are many ideas here. GSoC students should feel free to gather any reasonable subset for a project proposal.
+  - Debug version of libraries, and tools to analyze the data:
+    - UefiBootServicesTableLib.h & UefiRuntimeServicesLib.h that can profile UEFI service usage.
+    - Debug version of MemoryAllocationLib.h that can detect memory leaks, buffer overruns, etc.
+    - Add a library class for logging the data
+      - Log data directly to image handle, per driver.
+      - Log data to centralized data service.
+    - Add a library class for a module to access/initiate leak checking.
+  - Add sample based profiling to [[EmulatorPkg]]/[[Nt32Pkg]]. On a Mac this would be figuring out how to use Instruments to profile the emulator.
+  - Add a sampling based profiling tool to a real EFI system. Note this requires the ability to capture a stack trace and then post process it (likely on the build system).
+- Difficulty: Medium ... Hard
+- Language: C
+- Mentor:
+- Suggested by: andrewfish
 
-===Optimize OVMF for Xen HVM domains===
-Add [http://www.xen.org/ Xen] specific support in
-[http://www.tianocore.org/ovmf/ OVMF] to improve boot & runtime
-performance.
-* Difficulty: Easy ... Hard
+### Optimize OVMF for Xen HVM domains
+
+Add Xen specific support in [[OVMF]] to improve boot & runtime performance. http://www.xen.org/
+* Difficulty: Medium/Hard
 * Language: C
 * Mentor:
 * Suggested by:  andreiwarkentin, Bei Guan
 
-===Port OpenSSH as a shell application===
+### Port OpenSSH as a shell application
+
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: bjjohnson
 
-==Partially Complete or Deferred Projects==
+## Partially Complete or Deferred Projects
 
-===Read-only ext2 driver===
-Develop a read-only [http://en.wikipedia.org/wiki/Ext2 ext2] filesystem driver.
+### Read-only ext2 driver
+
+Develop a read-only ext2 filesystem driver. http://en.wikipedia.org/wiki/Ext2
 * Difficulty: Medium ... Hard
 * Language: C
 * Mentor:
 * Suggested by: rsun3
-* Status: Some progress was made during [[GSOC2011]]. May be a duplicate of other work, see [https://github.com/pbatard/efifs/tree/master/].
+* Status: Some progress was made during [[GSOC2011]]. May be a duplicate of other work, see https://github.com/pbatard/efifs/tree/master/
 
 More information: [[Tasks-ext2 file-system driver]]
 
-===Compatibility Support Module===
-A [[CSM]] allows a UEFI system to boot legacy operating systems on
-IA32 & X64 systems. In other words, most current production OS's.
-Strong preference is for a BSD licensed solution, as this is license
-used by nearly all of our code. A [http://www.coreboot.org/SeaBIOS
-SeaBIOS] based solution could be considered, but would not be as
-widely usable.
-* Difficulty: Medium ... Hard
+### Compatibility Support Module
+
+A [[CSM]] allows a UEFI system to boot legacy operating systems on IA32 & X64 systems. In other words, most current production OS's. Strong preference is for a BSD licensed solution, as this is license used by nearly all of our code. A SeaBIOS based solution could be considered, but would not be as widely usable (GPL license). http://www.coreboot.org/SeaBIOS
+* Difficulty: Hard
 * Language: Assembly, C
 * Mentor:
 * Suggested by: bjjohnson
 * Status: No longer a priority, since UEFI OS support is mainstream. SeaBIOS can be built as a CSM, but a BSD licensed alternative is still not available.
 
-==Previously Complete Projects==
+## Previously Complete Projects
 
-===<s>Read-only FFS file-system driver</s>===
+### <s>Read-only FFS file-system driver</s>
+
 Develop a read-only filesystem driver which allows the contents of
 each PI 1.2 FFS in the system to appear as a pseudo-file system.
 * Difficulty: Medium
 * Language: C
 * Mentor:
 * Suggested by: mdkinney
-* Status: Ready for integration into main edk2 tree (external [https://github.com/cfdrake/FileSystemPkg repo])
+* Status: Ready for integration into main edk2 tree from external repo: https://github.com/cfdrake/FileSystemPkg 
 
 More information: [[Tasks-Read-only FFS file-system driver]]
 
-===<s>Shell editor improvements</s>===
+### <s>Shell editor improvements</s>
+
 Various improvements for the Shell editor
 
 * Difficulty: Medium
@@ -196,16 +209,17 @@ Various improvements for the Shell editor
 
 More information: [[Tasks-Text Editor]]
 
-===<s>Enable Xen Support in OVMF</s>===
-Get [http://www.xen.org/ Xen] to boot UEFI with the
-[http://www.tianocore.org/ovmf/ OVMF] platform.
-* Difficulty: Easy ... Hard - (depending on tasks taken on)
+### <s>Enable Xen Support in OVMF</s>
+
+Get Xen to boot UEFI with [[OVMF]].
+* Difficulty: Hard (depending on tasks taken on)
 * Language: C
 * Mentor: andreiwarkentin, jljusten
 * Suggested by:  andreiwarkentin
 * Status: Available in main edk2 tree
 
-===<s>USB-to-serial driver</s>===
+### <s>USB-to-serial driver</s>
+
 Develop a USB driver for a common USB-to-serial adapter.
 * Difficulty: Medium
 * Language: C
@@ -214,7 +228,8 @@ Develop a USB driver for a common USB-to-serial adapter.
 
 More information: [[Tasks-USB Serial Adapter driver]]
 
-===<s>Multiprocessor support in UefiCpuPkg/CpuDxe</s>===
+### <s>Multiprocessor support in UefiCpuPkg/CpuDxe</s>
+
 Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
 (Implement MdePkg/Include/Protocol/MpService.h)
 * Difficulty: Medium
@@ -225,9 +240,9 @@ Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
 
 More information: [[Tasks-UefiCpuPkg-CpuDxe MP support]]
 
-===<s>Enable Link-time Code Optimization for Linux builds</s>===
-Enable Link-time Code Optimization on Linux for either
-[http://gcc.gnu.org/wiki/LinkTimeOptimization GCC 4.6] or LLVM/CLANG.
+### <s>Enable Link-time Code Optimization for Linux builds</s>
+
+Enable Link-time Code Optimization on Linux for either GCC or LLVM/CLANG. http://gcc.gnu.org/wiki/LinkTimeOptimization
 
 This feature hopefully would significantly reduce code generation size
 for Linux based builds.
@@ -237,6 +252,6 @@ for Linux based builds.
 * Suggested by: andrewfish, jljusten
 * Status: Available in GCC5 & CLANG38 toolchains
 
-==See Also==
+## See Also
 * [[How To Contribute]]
 * [[GSoC2012]]
