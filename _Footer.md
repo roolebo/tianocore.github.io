@@ -1,1 +1,1 @@
-[[Home]] | [[Getting Started with EDK II]] | [[Reporting Issues]] | [[Community Information]] | [[Community Support]] | [[Tasks]]
+[[Home]] | [[Getting Started with EDK II]] | [[Reporting Issues]] | [[Community Information]] | [[Community Support]] | [[Tasks]] | [[BSD|BSD License]]
