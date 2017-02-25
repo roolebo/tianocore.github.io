@@ -35,3 +35,5 @@ To install the extra build dependencies required to build EmulatorPkg, run:
 ===Source Repository===
 
 [https://github.com/tianocore/edk2/tree/master/EmulatorPkg]
+
+[[Category:EDKII Packages]]
