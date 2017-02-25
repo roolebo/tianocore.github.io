@@ -1,7 +1,7 @@
 <!-- [[Category:EDKII]] -->
 <!-- [[Category:BeagleBoard]] -->
 == Beagle Board==
-To find the latest instructions to build the BeagleBoard on Linux go to [[BeagleBoardPkg | this wikipage]]
+To find the latest instructions to build the BeagleBoard on Linux, see [[BeagleBoardPkg]].
 
 == Get the edk2 source tree and build BeagleBoardPkg in Windows® Cygwin Bash shell ==
 The following instructions assume you have the ARM RealView Development Suite v3.1 and Cygwin  installed on Windows. Other versions of the RealView Development Suite should work, but only v3.1 and v4.0 have been tested.
