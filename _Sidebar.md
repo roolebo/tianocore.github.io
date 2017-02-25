@@ -5,5 +5,5 @@
 [[Community Information]]<br/>
 [[UDK2015]]<br/>
 [[EDK II]]<br/>
-[[Additional Projects|Additional Projects Other]]<br/>
+[[Additional Projects]]<br/>
 [[Community Support]]
