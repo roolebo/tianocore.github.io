@@ -1,5 +1,3 @@
-<!-- [[Category:EDKII Packages]] -->
-
 ==Status==
 
 The goal of this project is to provide a common OS emulation environment, to replace [[Nt32Pkg]] and [[UnixPkg]].
@@ -36,4 +34,4 @@ To install the extra build dependencies required to build EmulatorPkg, run:
 
 [https://github.com/tianocore/edk2/tree/master/EmulatorPkg]
 
-[[Category:EDKII Packages]]
+[[Category:EDK II Packages]]
