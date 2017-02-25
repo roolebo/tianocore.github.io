@@ -69,7 +69,9 @@ Mentor: Mike Kinney
 ### MP safe Print, DEBUG, and ASSERT
 
 Allow APs to safely print and use DEBUG trace messages.
+
 > Note: This project depends on an open-source MP implementation, which is currently not available.
+
 * Difficulty: Medium
 * Language: C
 * Mentor:
