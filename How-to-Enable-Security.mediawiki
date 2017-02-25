@@ -4,15 +4,11 @@
 
 == Signed Firmware Updates ==
 
-[EDK II](https://github.com/tianocore/edk2) provides an implementation of capsule-based firmware update and firmware recovery features that can detect if a firmware update or a recovery image delivered via UEFI Capsule has been modified ([`SignedCapsulePkg`](https://github.com/tianocore/edk2/tree/master/SignedCapsulePkg)).  It can also verify that the capsule applies to the platform that receives the capsule, and verifies that a firmware update does not violate any of the platforms's firmware rollback rules.
+EDK II provides an implementation of capsule-based firmware update and firmware recovery features that can detect if a firmware update or a recovery image delivered via UEFI Capsule has been modified.  It can also verify that the capsule applies to the platform that receives the capsule, and verifies that a firmware update does not violate any of the platforms's firmware rollback rules.
 
 Please refer to [[Capsule Based Firmware Update and Firmware Recovery]] for detailed porting instructions.
 
 == Enabling UEFI Secure Boot ==
-
-=== Download PDF with examples ===
-
-[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf How to Sign UEFI Drivers & Applications .pdf] NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK2010 version
 
 === How to add Secure Boot to DSC and FDF ===
 
@@ -109,6 +105,10 @@ driver instead of non-SMM authenticated variable driver in SecurityPkg,
 should be replaced by following drivers in step 5 and 6:
 *        SecurityPkg/VariableAuthenticated/RuntimeDxe/VariableSmm.inf
 *        SecurityPkg/VariableAuthenticated/RuntimeDxe/VariableSmmRuntimeDxe.inf
+
+=== Download PDF with examples ===
+
+[https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf How to Sign UEFI Drivers & Applications .pdf]
 
 == Enable User Identification ==
 
