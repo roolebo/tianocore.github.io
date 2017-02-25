@@ -1,5 +1,5 @@
 = MinnowBoard UEFI Firmware =
 
-Note: MinnowBoard is a depreciated project for 32-bit UEFI firmware development. The [[MinnowBoard Max]] and [[MinnowBoard 3]] are more updated versions of this open hardware project.
+Note: MinnowBoard is a depreciated project for 32-bit UEFI firmware development. The [[MinnowBoardMax]] and [[MinnowBoard 3]] are more updated versions of this open hardware project.
 
 MinnowBoard is an open hardware project based on the Intel® Atom™ processor. Technical details, schematics, and information on expansion boards (Lures) can be found at [https://firmware.intel.com/projects/minnowboard-uefi-firmware].
