@@ -1,7 +1,12 @@
-ECP
+= EFI Compatibility Package (ECP) =
 
-===Why does the EFI Compatibility package (ECP) have its starting point at EDK 1.01 since EDK 1.01 only supports UEFI 2.0 of the Spec.? ===
-Doesn’t that indicate that backwards compatibility was not considered?
+== What is ECP? ==
+
+The EFI Compatibility Package (ECP) bridges EDK I code into EDK II projects. It is considered deprecated on modern platforms, and we do not recommend continuing to use ECP in current projects.
+
+== ECP FAQ ==
+
+===Why does the EFI Compatibility package (ECP) have its starting point at EDK 1.01 since EDK 1.01 only supports UEFI 2.0 of the Spec.? Doesn’t that indicate that backwards compatibility was not considered? ===
 
 The purpose of the ECP is to provide backwards compatibility for EDK I style source modules that assume UEFI 2.0/Framework 0.9. The ECP uses a number of techniques that allow these EDK I source modules to execute correctly when run on top of the UDK 2010 UEFI 2.3/PI 1.2 core. This preserves customers existing investments in EDK I modules by allowing them to be used “as is” in UDK 2010 based firmware. This also allows customers to plan when/if their exiting modules will be ported to UDK 2010 without the use of ECP.
 
