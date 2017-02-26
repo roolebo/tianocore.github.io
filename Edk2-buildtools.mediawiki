@@ -1,5 +1,6 @@
-= EDK II Build Tools Project=
-This project is for development of the EDK II Build Tools. This is the primary set of tools for processing [http://www.tianocore.org/edk2/ EDK II] content. It contains configuration templates and source files. The tools support a Makefile based EDK II build with no additional packages required--the compiler tool chain, an assembler and optional ACPI assembler are the only additional tools need to build the EDK II project.
+= EDK II Build Tools Project =
+
+This project is for development of the [[EDK II]] Build Tools. This is the primary set of tools for processing [http://www.tianocore.org/edk2/ EDK II] content. It contains configuration templates and source files. The tools support a Makefile based EDK II build with no additional packages required--the compiler tool chain, an assembler and optional ACPI assembler are the only additional tools need to build the EDK II project.
 
 Source code in this project is divided into two types:
 * Tools written in C ([http://www.open-std.org/jtc1/sc22/wg14/ ANSI C]) are primarily for tools that modify binary data structures
