@@ -3,5 +3,3 @@ The BaseToolsPkg provides build related tools for both EDK and EDK2. It also con
 The tools are developed under the [[edk2-buildtools|EDK II Build Tools]] project.
 
 Source Repository: https://github.com/tianocore/edk2/tree/master/BaseTools
-
-UDK2010.SR1 Notes: [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes/BaseTools%20Notes.txt/download BaseTools Notes.txt]
