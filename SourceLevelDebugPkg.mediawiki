@@ -1,8 +1,5 @@
-<!-- [[Category:EDKII Packages]] -->
-This package contains the source code to include the Source code debugger agent into a platform.  This plus the host application will allow Source level debugging for the platform and UEFI Drivers and UEFI applications. 
+This package includes a source code debugger agent into a platform, which connects over COM or USB debug ports.  This plus a debug host application will allow source level debugging of UEFI drivers and UEFI applications.
 
+https://github.com/tianocore/edk2/tree/master/SourceLevelDebugPkg
 
-For Documenatation and to download the Host side of this for both Windows for WinDBG and Linux DBG : 
-*  [https://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool#overlay-context=develop  firmware.intel.com Tools and Utilities Intel UDK Debugger Tool]
-
-<!-- [[Category:Debug]] -->
+Host debug applications for Microsoft Windows and Linux are available here: https://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool#overlay-context=develop
