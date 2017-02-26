@@ -5,7 +5,7 @@
 EDK II Debug methods enable the following debug techniques:
 * Use `DEBUG` macros instead of inline Print() functions for debug messages
 * Use `ASSERT` macros to halt code execution on critical issues
-* Use a software debugger (COM/USB)
+* Use a [[software debugger|SourceLevelDebugPkg]] (COM/USB)
 * Use a hardware debugger (JTAG/XDB)
 
 The EDK II Debug Library (`MdePkg\Include\Library\DebugLib.h`) is a portable library supporting DEBUG and ASSERT macros, which can be enabled/disabled during compilation in `target.txt`. These are designed to work with a second computer attached as a terminal to observe an ASCII debug log.
