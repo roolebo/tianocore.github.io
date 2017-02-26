@@ -2,7 +2,11 @@
 
 ==Regarding the Build for EDK II, how do you specify a different compiler tool chain on the command line?==
 
-Use –t parameter for the build command. Example, >Build –t VS2005 is the command for using the Visual Studio 2005 “C” compiler tool chain and Windows tools. For using other tools see the “getting started section”: http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Getting_Started_with_EDK_II  This provides some detailed instructions for setting up some different tool chains? The file conf/tools_def.txt contains a list of targets.
+Use –t parameter for the build command. Example: Using the Microsoft Visual Studio 2005 tool chain ... 
+
+    build –t VS2005
+
+For using other tools see [[Getting_Started_with_EDK_II]]. This provides some detailed instructions for setting up some different tool chains? The file Conf/tools_def.txt contains a list of targets.
 
 ==Is it possible to use PCDs @ build time?==
 
@@ -20,8 +24,6 @@ For EDK II, yes, the build tools will need to be recompiled for GCC.  Link for h
 For Building EDK II Python of at least version 2.5 is needed. On Linux we've used 2.6 & 2.7.  Python 3+ is not supported and will not work currently.  On Windows, python is not required to be installed to build with EDK II. 
 There is a Python interpreter that  is part of the EFI toolkit on tianocore.org and is at the Python version level 2.4,  There are long term plans to move to EDK II and support a later version of Python as part of the [[AppPkg]].  It is currently (01/2012) in Aplha stage.
 
-Web link for EFI toolkit: http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=EFI_Toolkit
-
 ==What does the parsing tool do?==
 
 The parsing is part of the first stage of the build process.  There are tools for parsing  the set build description files and the target.txt for a package or platform and creates the intermediate make and autogen files
@@ -38,7 +40,6 @@ For example, Nt32Pkg\Nt32Pkg.dsc - the UEFI application would be in Build\NT32\D
 ==How do I get my UEFI application to the target UEFI System?==
 
 Copy the UEFI Binary image from the output directory after the build to a USB thumb drive. Insert the USB drive in the UEFI target system. Boot to the EFI Shell.  The USB thumb drive should be one of the file systems, e.g. FS0:. Cd to that USB drive and run your UEFI application from the shell  prompt
-
 
 ==Is the Build tool source code part of the Build?==
 
