@@ -1,15 +1,14 @@
-<!-- [[Category:EDKII]] -->
-<!-- [[Category:Build]] -->
-__NOTOC__
-= '''EDK II – Concise Getting Started Guide''' =
- 
+=Build Description Files=
+
 Understanding the basic setup of .DCS, .DEC, and .INF build description files. 
 
-Please check for the latest version of the [[EDK II Specifications]] 
- 
-== '''The .INF file:'''== 
+Please check for the latest version of the [[EDK II Specifications]]
+
+== '''The .INF file''' ==
+
 This file describes how to build a module (i.e. a driver, library, application, etc…).
-=== '''[Defines]'''===
+
+=== '''[Defines]''' ===
     INF_VERSION            = 1.25
 ::Defines the version of the EDK II INF specification the INF file supports.
      BASE_NAME             = NameOuputWithoutExtension
@@ -75,7 +74,8 @@ Lists the libraries available in (provided by) the package and where the header 
 For example:
     LibNameToReference | relative/path/to/header.h  
  
-=== '''[Guids]'''===
+=== '''[Guids]''' ===
+
 Defines various GUIDS available / used by the package.  It replaces #defines that would otherwise be in a .h file.  However you still must define a .h file that includes an extern reference to the variable name.  
  
 For Example:
@@ -86,20 +86,19 @@ For Example:
 :Now in a file /location/of/extern/header.h we add
     extern EFI_GUID gSomeVarGuid;
 
- 
 ==='''[Pcds . . .] -Sections'''===
    [PcdsFeatureFlag]
    [PcdsFixedAtBuild]
    [PcdsFixedAtBuild,PcdsPatchableInModule]
    [PcdsDynamic,]
 
-'''Etc…''' 
+'''Etc...''' 
 These sections represent the creation of a Platform Configuration Database (PCD).   Essentially this is a replacement for using #defines, #if defined, and static const variables in .h files.   The desire of the designers of the EDK II was to discourage the use of #if define() type coding which could lead to code “rot” outside the defined areas.  Instead it uses the compilers optimizations to strip the use of code not used.   They also wanted to encourage the use of const variables over #defines where values may need to be patchable in binary form.
  
-== '''The .DSC file:'''==
+== '''The .DSC file''' ==
 This file describes how to build a package; a package being a set of components to be provided together.
  
-=== '''[Defines]'''===
+=== '''[Defines]''' ===
 The values in this section are self-explanatory.
       PLATFORM_NAME            = name of the package
       PLATFORM_GUID            = 11111111-2222-3333-4444-555555555555
