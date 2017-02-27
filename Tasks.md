@@ -1,8 +1,6 @@
 # Tasks
 
-These tasks have been identified by our community. They are currently open for development by community members, and would be a great way to get involved and start contributing. These are also available as ideas for students working on [[Google Summer of Code 2017]].
-
-Please let us know on [[edk2-devel]] if you plan to work on one of these tasks (to prevent duplicated effort). Also, please provide status updates on [[edk2-devel]] so the community will know the project is still being actively developed.
+These tasks have been identified by our community. They are currently open for development by community members, and would be a great way to get involved and start contributing. Please let us know on [[edk2-devel]] if you plan to work on one of these tasks (to prevent duplicated effort). Also, please provide status updates on [[edk2-devel]] so the community will know the project is still being actively developed.
 
 ## Open Projects
 
