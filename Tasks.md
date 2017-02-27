@@ -334,4 +334,3 @@ for Linux based builds.
 
 ## See Also
 * [[How To Contribute]]
-* [[GSoC2012]]
