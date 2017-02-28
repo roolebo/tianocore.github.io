@@ -14,7 +14,7 @@ bash$ git clone https://github.com/tianocore/edk2
 ===Compile build tools ===
 
 <pre>
-bash$ cd ~/edk2
+bash$ cd ~/src/edk2
 bash$ make -C BaseTools
 bash$ . edksetup.sh
 </pre>
