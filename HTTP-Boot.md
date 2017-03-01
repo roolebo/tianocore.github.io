@@ -33,12 +33,12 @@ EDK II HTTP Boot driver provides a configuration page for the boot file URI setu
 
 Besides the UEFI formatted executable image, the downloaded boot file could also be an archive file (hard disk image) or an ISO image. The file should contain an UEFI-compliant file system and will be mounted as a RAM disk by HTTP Boot driver, to be proceeded in the subsequent boot process.
 
-In EDKII HTTP Boot driver, the image type is identified by the media type, or the filename extensions if "Content-Type" header is not present in the HTTP response message
+In EDKII HTTP Boot driver, the image type is identified by the media type, or the filename extensions if "Content-Type" header is not present in the HTTP response message.
 
 | Media Type | Filename Extensions | Image Type |
 |---| --- | --- | --- |
-|[application/vnd.efi-iso](http://www.iana.org/assignments/media-types/application/vnd.efi-iso)|*.iso|Virtual CD Image|
-|[application/vnd.efi-img](http://www.iana.org/assignments/media-types/application/vnd.efi-img)|*.img|Virtual Disk Image|
+|[application/vnd.efi.iso](http://www.iana.org/assignments/media-types/application/vnd.efi-iso)|*.iso|Virtual CD Image|
+|[application/vnd.efi.img](http://www.iana.org/assignments/media-types/application/vnd.efi-img)|*.img|Virtual Disk Image|
 |[application/efi](http://www.iana.org/assignments/media-types/application/efi)|Others (typically *.efi)|UEFI Executable Image|
 
 ### Feature Enabling
