@@ -12,7 +12,7 @@ Besides the standard DHCP parameters like the station IP, gateway and DNS server
 
 | Tag Name | Tag # (DHCPv4) | Tag # (DHCPv6)| Length | Data Field |
 | --- | --- | --- | --- |--- |
-| Boot File | 'file' field in DHCP header or option 67 |59| Varies| Boot File URI String (eg. "http://Webserver/Boot/Boot.efi")|
+| Boot File | 'file' field in DHCP header, or option 67 |59| Varies| Boot File URI String (eg. "http://Webserver/Boot/Boot.efi" or "http://Webserver/Boot/Boot.iso")|
 | Class Identifier | 60 |16| 10 | "HTTPClient" |
 
 
@@ -33,13 +33,13 @@ EDK II HTTP Boot driver provides a configuration page for the boot file URI setu
 
 Besides the UEFI formatted executable image, the downloaded boot file could also be an archive file (hard disk image) or an ISO image. The file should contain an UEFI-compliant file system and will be mounted as a RAM disk by HTTP Boot driver, to be proceeded in the subsequent boot process.
 
-In EDKII HTTP Boot driver, the image type is identified by the filename extensions as below.
+In EDKII HTTP Boot driver, the image type is identified by the media type, or the filename extensions if "Content-Type" header is not present in the HTTP response message
 
-| Filename Extensions | Image Type |
-| --- | --- |
-| *.iso | Virtual CD Image |
-| *.img | Virtual Disk Image |
-| Others (typically *.efi) | UEFI Executable Image |
+| Media Type | Filename Extensions | Image Type |
+|---| --- | --- | --- |
+|[application/vnd.efi-iso](http://www.iana.org/assignments/media-types/application/vnd.efi-iso)|*.iso|Virtual CD Image|
+|[application/vnd.efi-img](http://www.iana.org/assignments/media-types/application/vnd.efi-img)|*.img|Virtual Disk Image|
+|[application/efi](http://www.iana.org/assignments/media-types/application/efi)|Others (typically *.efi)|UEFI Executable Image|
 
 ### Feature Enabling
 To enable the HTTP boot and RAM Disk boot support, the RamDiskDxe driver and the UefiBootManagerLib ([commit b1bb6f5](https://github.com/tianocore/edk2/commit/b1bb6f5961d82f30046e39e187a80556250f2bd1), [commit fb5848c](https://github.com/tianocore/edk2/commit/fb5848c588688d1e3cd3f175ff888549adddd024) and [commit 3a986a3](https://github.com/tianocore/edk2/commit/3a986a353db249e3ae128d47bff3a13c6e13a037)) are also required.
