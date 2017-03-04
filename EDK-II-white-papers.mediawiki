@@ -9,7 +9,24 @@
 *'''Date Published'''<BR>
 </td>
 </tr>
+<tr>
+<td>
+[https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-memory-protection-in-uefi-bios/details Gitbook PDF]
+</td>
+<td>
+[https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-memory-protection-in-uefi-bios/details A Tour Beyond BIOS- Memory Protection in UEFI BIOS] contributed by Jiewen Yao and Vincent Zimmer<BR>
 
+Data execution protection (DEP) is intended to prevent an application or service from executing code from a non-executable memory region. 
+This helps prevent certain exploits that store code via a buffer overflow.
+
+<br>
+In the White paper [ https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf A Tour Beyond BIOS-Security Enhancement to Mitigate Buffer Overflow] below, we only discussed the DEP for protecting the stack and setting the not-present page for detecting  `NULL`  address 
+accesses and as the guard page. This document will have a more comprehensive discussion of the DEP adoption in the current UEFI firmware to harden the pre-boot phase.
+<BR>
+
+* March 2017 
+</td>
+</tr>
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf .PDF]
