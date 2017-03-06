@@ -1,9 +1,9 @@
 The [[edk2-devel]] mailing list is a good way to contact a broad set of TianoCore developers and site maintainers. You can also contact community evangelists/stewards regarding tianocore.org content:
 
-* Andrew Fish <afish@apple.com>
-* Mike Kinney <michael.d.kinney@intel.com>
-* Leif Lindholm <leif.lindholm@linaro.org>
-* Brian Richardson <brian.richardson@intel.com>
+* Andrew Fish - afish@apple.com
+* Mike Kinney - michael.d.kinney@intel.com
+* Leif Lindholm - leif.lindholm@linaro.org
+* Brian Richardson - brian.richardson@intel.com
 
 To become a community contributor (please see the [[How_To_Contribute]] page) or contact the community admins.
 
