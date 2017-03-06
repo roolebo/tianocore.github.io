@@ -1,11 +1,8 @@
-This Page contains releases of the UDK2014 <br>
-<br>
-See [[UDK2015]]  for the current  Releases
-<br>
-Link for [[UDK2010-Releases]] archive
+This page contains the release history for [[UDK2014]].
+
+See [[UDK]]  for current UEFI Development Kit releases
 
 If you have questions please email the [[edk2-devel]] email list.
-
 
 <table width="100%" class="t_projects">
   <tr>
@@ -633,29 +630,6 @@ which follows Intel EFI Framework Specification.</p>
       and library classes) and libraries instances</p>
     </td>
     <td> <p>.chm file<br/> .html file<br/> .pdf file</p></td>
-  </tr>
-
-  <tr>
-    <th colspan="3">
-      <h2><span class="mw-headline" id="Previous_UDK_Releases">Previous UDK Releases</span></h2>
-    </th>
-  </tr>
-
-  <tr>
-    <td> Previous UDK2014 releases</td>
-    <td> This Menu</td>
-    <td> </td>
-  </tr>
-
-  <tr>
-    <td>
-      <p>[[UDK2010-Releases]] archive</p>
-      
-    </td>
-    <td>
-      <p>Menu for downloading Previous UDK2010 releases </p>
-    </td>
-    <td></td>
   </tr>
 
 </table>
