@@ -62,8 +62,8 @@ After SMI handler profile feature is enabled and the system boots to SHELL, SmiH
 3. **Update SmmChildDispatcher driver to report SMI handler via SmiHandlerProfileRegisterHandler().**
 
   ```
-  diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCore.c b/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCore.c
-  index c2f75f8..ea8b53c 100644
+diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCore.c   diff --git a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCore.c b/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCore.c
+  index c2f75f8..0a8239c 100644
   --- a/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCore.c
   +++ b/QuarkSocPkg/QuarkNorthCluster/Smm/DxeSmm/QncSmmDispatcher/QNCSmmCore.c
   @@ -2,7 +2,7 @@
@@ -149,15 +149,16 @@ After SMI handler profile feature is enabled and the system boots to SHELL, SmiH
      return EFI_SUCCESS;
  
    Error:
-  @@ -522,6 +533,7 @@ Returns:
+  @@ -522,6 +533,8 @@ Returns:
      DATABASE_RECORD *RecordToDelete;
      DATABASE_RECORD *RecordInDb;
      LIST_ENTRY      *LinkInDb;
   +  QNC_SMM_QUALIFIED_PROTOCOL  *Qualified;
+  +  UINTN                       ContextSize;
  
      if (DispatchHandle == NULL) {
        return EFI_INVALID_PARAMETER;
-  @@ -552,7 +564,10 @@ Returns:
+  @@ -552,7 +565,31 @@ Returns:
      }
      if (SafeToDisable) {
        QNCSmmDisableSource( &RecordToDelete->SrcDesc );
@@ -165,7 +166,28 @@ After SMI handler profile feature is enabled and the system boots to SHELL, SmiH
   +  }
   +
   +  Qualified = QUALIFIED_PROTOCOL_FROM_GENERIC (This);
-  +  SmiHandlerProfileUnregisterHandler (Qualified->Guid, RecordToDelete->Callback);
+  +  switch (Qualified->Type) {
+  +  case SxType:
+  +    ContextSize = sizeof(RecordToDelete->ChildContext.Sx);
+  +    break;
+  +  case SwType:
+  +    ContextSize = sizeof(RecordToDelete->ChildContext.Sw);
+  +    break;
+  +  case GpiType:
+  +    ContextSize = sizeof(RecordToDelete->ChildContext.Gpi);
+  +    break;
+  +  case QNCnType:
+  +    ContextSize = sizeof(RecordToDelete->ChildContext.QNCn);
+  +    break;
+  +  case PeriodicTimerType:
+  +    ContextSize = sizeof(RecordToDelete->ChildContext.PeriodicTimer);
+  +    break;
+  +  default:
+  +    ASSERT(FALSE);
+  +    ContextSize = 0;
+  +    break;
+  +  }
+  +  SmiHandlerProfileUnregisterHandler (Qualified->Guid, RecordToDelete->Callback, RecordToDelete->CallbackContext, ContextSize);
  
      FreePool (RecordToDelete);
  
