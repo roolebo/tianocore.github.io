@@ -47,7 +47,7 @@ EFI_IPSEC_CONFIG_PROTOCOL
  * Authentication Method: Pre-shared Key, X509 Certificates
 2. After IPsec is enabled in both side, all inbound and outbound IP packet are processed by IPsec.
 
-### PXE
+### [[PXE]]
 * **NetworkPkg/UefiPxeBcDxe** - PXE driver, which produces
 ```
 EFI_LOAD_FILE_PROTOCOL
