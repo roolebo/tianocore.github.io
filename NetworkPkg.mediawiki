@@ -1,5 +1,5 @@
 <!-- [[Category:EDKII Packages]] -->
-NetworkPkg provides IPv6 network stack drivers, IPsec driver, PXE driver, iSCSI driver and necessary shell applications
+NetworkPkg provides IPv6 network stack drivers, IPsec driver, [[PXE]] driver, iSCSI driver and necessary shell applications
 for network configuration
 
 
