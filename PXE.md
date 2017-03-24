@@ -1,0 +1,98 @@
+# Preboot Execution Environment (PXE)
+
+PXE is a standardized client-server solution that boots an agent via network, allowing management tasks in the absence of a running OS. EDK II has PXE Boot specification compliant implementation for UEFI. This feature is commonly referred to as "PXE boot".
+
+## History & Related Specifications
+
+PXE was introduced as part of the Wired for Management Baseline (WfM) Specification by Intel Corporation in 1997. It was described in a separate PXE 1.0 specification since Wired for Management 2.0. Later, the 2.1 update was published in September 1999. 
+
+PXE 2.1 describes the IPv4-based network boot process. It does not cover IPv6-based PXE, but this is described in the UEFI 2.2 specification. The UEFI 2.6 specification describes the IPv6-based PXE process in Section 23.3.1. The DHCP6 options used in PXE process are also described in the UEFI specification.
+
+## Related Protocols
+
+The UEFI specification introduces the following protocols related to PXE boot:
+
+* PXE Base Code Protocol – provides several features to utilize the PXE-compatible devices, for network access and network booting.
+* PXE Base Code Callback Protocol – provides callback function which will be invoked when the PXE Base Code Protocol is about to transmit, has received, or is waiting to receive a packet.
+* Load File Protocol – loads the boot file to specified buffer, which allows the boot manger to boot the file later.
+
+## Feature Scope
+* Support PXE boot over IPv4 stack, IPv6 stack, or both
+* Network Boot Options using PXE are automatically created
+* Support PXE Redirection servers (Proxy DHCP servers)
+* PXE Vendor Options support (option 43):
+  * PXE Discovery Control (sub-opt 6, 7)
+  * PXE Boot Servers (sub-opt 8)
+  * PXE Boot Menu (sub-opt 9, 10)
+
+## PXE Offer Types
+
+There are eight offer types defined in PXEBC_OFFER_TYPE. All of them are supported in IPv4-based PXE. The rules for distinguishing these offers include:
+* If the offer is a pure DHCP packet, it is PxeOfferTypeDhcpOnly.
+* If the offer does not have DHCP4 option 53, and it contains a DHCP option 67 provides boot file name, it is PxeOfferTypeBootp.
+* If the offer has a DHCP4 option 60, or DHCP6 option 16, and the value is starting with “PXEClient”, it is a PXE offer.
+* If the PXE offer has a zero “yiaddr” in the DHCP header, it is a proxy offer.
+* If the offer has a valid discover vendor option, it is a PXE 1.0 offer.
+* If the offer has a valid MTFTP vendor option, it is a WfM 1.1 offer.
+
+The six remaining PXE offers are described below:
+
+| | discover vendor option | MTFTP vendor option | N/A |
+| --- | --- | --- | --- |
+| “PXEClient” available  | PxeOfferTypeDhcpPxe10 | PxeOfferTypeDhcpWfm11a | PxeOfferTypeDhcpBinl |
+| “PXEClient” available && Yiaddr == 0  | PxeOfferTypeDhcpPxe10 | PxeOfferTypeDhcpWfm11a | PxeOfferTypeDhcpBinl |
+
+Note that “Binl” is a term used in WfM specification and short for “Boot Intervention Network Layer; extended DHCP service”. 
+The offers are selected according to a predefined policy. The priority of the offers is defined in that policy as following:
+
+1. PxeOfferTypeDhcpPxe10
+2. PxeOfferTypeDhcpWfm11a
+3. PxeOfferTypeProxyPxe10 + PxeOfferTypeDhcpOnly
+4. PxeOfferTypeProxyWfm11a + PxeOfferTypeDhcpOnly
+5. PxeOfferTypeDhcpBinl
+6. PxeOfferTypeProxyBinl + PxeOfferTypeDhcpOnly
+7. PxeOfferTypeDhcpOnly offer which contains DHCP option 67 for boot file name
+8. PxeOfferTypeBootp + PxeOfferTypeDhcpOnly
+
+In IPv6-based PXE, only 3 are supported (PxeOfferTypeDhcpBinl, PxeOfferTypeProxyBinl, PxeOfferTypeDhcpOnly).
+
+## PXE DHCP Timeout
+
+In IPv4-based PXE, DHCP discovery will be retried four times. The four timeouts are 4, 8, 16 and 32 seconds respectively, to compliant with PXE 2.1 specification. UEFI specification does not define the timeouts for IPv6-based PXE. In current EDKII implementation, DHCPv6 solicit will be retried four times also. The initial retransmission timeout is 4 seconds and maximum retransmission timeout for each retry is 32 seconds. PXE client should wait for the timeout then select most preferred offer among all the received offers.
+
+## PXE Boot Process
+
+The typical PXE boot process includes several steps. Firstly the PXE module should trigger DHCP process to start D.O.R.A in IPv4 and S.A.R.R in IPv6 stack. Then it should select offers and get the address configuration and boot path information through the selected offers. It might need perform DNS resolution to translate the host address to IP address. Later it should download the network bootstrap program (NBP) and load into the computer’s local memory using TFTP, verify the image and execute the NBP finally. 
+
+* In a Windows Deployment Services (WDS) environment, the NBP is provided by wdsmgfw.efi.
+* In a Linux environment, the NBP is provided by UEFI-enabled boot loaders such as GRUB, GRUB2 or ELILO.
+
+Take UEFI PXE with Microsoft WDS as example, the NBP would continue to download several files to client platform. After the downloading finished, the WDS loader calls ExitBootService() and transits to Rune Time phase. The OS kernel starts execution and takes over the control to the system. The OS network stack is also started for handling network operations.
+
+Please refer to [UEFI PXE Boot Performance Analysis](https://firmware.intel.com/sites/default/files/Intel_UEFI_PXE_Boot_Performance_Analysis.pdf) for more details.
+
+## PXE Boot Verification
+
+Below operating systems have been used to verify EDK II PXE Boot:
+
+* Microsoft Windows 10/8.1/7
+* SUSE Linux Enterprise 11 (SP3)
+* Red Hat Enterprise Linux 7.0
+
+## Enable PXE Boot
+
+PXE Boot is enabled by the EDK II network stack. If your platform does not have EDK II network stack built in yet, or you feel you miss any modules for enabling PXE boot, please refer to the “FEATURES ENABLING” section in https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide.
+
+## PXE Limitations
+
+* PXE uses UDP as transport layer protocol. TCP is not supported.
+* PXE is designed to work within a corporate network, not outside of a company firewall.
+* PXE uses TFTP and does not support a secure transport method (ex: HTTPS).
+
+## References
+
+1. PXE 2.1 specification: http://download.intel.com/design/archives/wfm/downloads/pxespec.pdf
+2. UEFI 2.6 specification: http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf 
+3. WfM2.0 specification: http://download.intel.com/design/archives/wfm/downloads/base20.pdf
+4. UEFI PXE Boot Performance Analysis: https://firmware.intel.com/sites/default/files/Intel_UEFI_PXE_Boot_Performance_Analysis.pdf
+5. NetworkPkg Getting Started Guide: https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide
