@@ -12,8 +12,8 @@ Besides the standard DHCP parameters like the station IP, gateway and DNS server
 
 | Tag Name | Tag # (DHCPv4) | Tag # (DHCPv6)| Length | Data Field |
 | --- | --- | --- | --- |--- |
-| Boot File | 'file' field in DHCP header, or option 67 |59| Varies| Boot File URI String (eg. "http://Webserver/Boot/Boot.efi" or "http://Webserver/Boot/Boot.iso")|
-| Class Identifier | 60 |16| 10 | "HTTPClient" |
+| Boot File | 'file' field in DHCP header, or option 67 | 59 | Varies | Boot File URI String (eg. "http://Webserver/Boot/Boot.efi" or "http://Webserver/Boot/Boot.iso") |
+| Class Identifier | 60 | 16 | 10 | "HTTPClient" |
 
 
 ### URI Configuration in Home Environment
@@ -36,7 +36,7 @@ Besides the UEFI formatted executable image, the downloaded boot file could also
 In EDKII HTTP Boot driver, the image type is identified by the media type, or the filename extensions if "Content-Type" header is not present in the HTTP response message.
 
 | Media Type | Filename Extensions | Image Type |
-|---| --- | --- | --- |
+|---| --- | --- |
 |[application/vnd.efi.iso](http://www.iana.org/assignments/media-types/application/vnd.efi-iso)|*.iso|Virtual CD Image|
 |[application/vnd.efi.img](http://www.iana.org/assignments/media-types/application/vnd.efi-img)|*.img|Virtual Disk Image|
 |[application/efi](http://www.iana.org/assignments/media-types/application/efi)|Others (typically *.efi)|UEFI Executable Image|
