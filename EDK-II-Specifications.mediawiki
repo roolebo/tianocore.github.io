@@ -1,5 +1,9 @@
 == '''EDK II Specifications'''==
 
+This page contains the released versions of the EDK II Specifications.
+The latest draft versions of the EDK II Specification can be found on the 
+[https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Draft-Specification EDK II Draft Specification]
+page.
 
 <div class="t_projects">
 
