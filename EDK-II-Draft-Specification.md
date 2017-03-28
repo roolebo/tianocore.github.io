@@ -1,8 +1,9 @@
 The documents in this page are the latest draft revisions published using [Gitbook](https://www.gitbook.com).
-The source content for these documents are in [Tianocore-docs](https://github.com/tianocore-docs) organization
-on [GitHub](https://github.com).  Feedback on these documents may be provided using the
-[Gitbook](https://www.gitbook.com) commenting feature available when reading the **HTML** version of a document.
-Document issues can also be entered in [Tianocore Bugzilla](https://bugzilla.tianocore.org).
+The source content for these documents are in GIT repositories in the
+[Tianocore-docs](https://github.com/tianocore-docs) organization hosted by [GitHub](https://github.com).
+Feedback on these documents may be provided using the [Gitbook](https://www.gitbook.com) commenting feature
+available when reading the **HTML** versions of the documents. Document issues and feature requests can also
+be entered in [Tianocore Bugzilla](https://bugzilla.tianocore.org).
 
 * **_EDK II DEC Specification_** \[
 [HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-dec-specification),
