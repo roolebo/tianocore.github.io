@@ -1,5 +1,3 @@
-# EDK II Draft Specifications
-
 The documents in this page are the latest draft revisions published using [Gitbook](https://www.gitbook.com).
 The source content for these documents are in [Tianocore-docs](https://github.com/tianocore-docs) organization
 on [GitHub](https://github.com).  Feedback on these documents may be provided using the
