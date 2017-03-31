@@ -5,6 +5,18 @@ Feedback on these documents may be provided using the [Gitbook](https://www.gitb
 available when reading the **HTML** versions of the documents. Document issues and feature requests can also
 be entered in [Tianocore Bugzilla](https://bugzilla.tianocore.org).
 
+* **_EDK II Build Specification_** \[
+[HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-build-specification),
+[PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-build-specification),
+[Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-build-specification),
+[ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-build-specification),
+[Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-build-specification),
+[GitHub ](https://github.com/tianocore-docs/edk2-BuildSpecification)
+\] This document describes the EDK II Build Architecture. This specification was
+designed to support new build requirements for building EDK II modules and EDK
+components within the EDK II build infrastructure as well as to generate binary
+firmware images and Unified Extensible Firmware Image (UEFI) applications.
+
 * **_EDK II DEC Specification_** \[
 [HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-dec-specification),
 [PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-dec-specification),
