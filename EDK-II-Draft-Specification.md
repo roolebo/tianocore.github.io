@@ -84,6 +84,18 @@ be any combination of boot images, capsule images or PCI Options ROMs.
 \] This document describes the Multi-String build information (UNI) file format . See details
 in the Revision History in the document for more details.
 
+* **_EDK II VFR Specification_** \[
+[HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-vfr-specification),
+[PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-vfr-specification),
+[Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-vfr-specification),
+[ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-vfr-specification),
+[Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-vfr-specification),
+[GitHub ](https://github.com/tianocore-docs/edk2-VfrSpecification)
+\] To simplify the creation of Internal Forms Representation (IFR), a high-level Visual Forms
+Representation (VFR) language is described in this document. Using this language syntax, a
+compiler can be designed to take an ordinary text file containing VFR as an input, and output
+IFR for use in a user’s program. There are various methods to define the VFR language.
+
 ---
 
 * **_EDK II Template Specification_** \[
