@@ -106,6 +106,16 @@ IFR for use in a user’s program. There are various methods to define the VFR l
 \] This document describes the syntax of expression statements for EDK II Meta-data files
 used in data fields, feature flag expressions and conditional directive statements.
 
+* **_EDK II PCD Specification_** \[
+[HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-pcd-specification),
+[PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-pcd-specification),
+[Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-pcd-specification),
+[ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-pcd-specification),
+[Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-pcd-specification),
+[GitHub ](https://github.com/tianocore-docs/edk2-PcdSpecification)
+\] This document discusses the mechanisms and configuration entries required to make it 
+easy to write portable silicon modules and to port the Framework from platform to platform.
+
 ---
 
 * **_EDK II Template Specification_** \[
