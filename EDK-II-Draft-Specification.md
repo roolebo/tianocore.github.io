@@ -116,6 +116,24 @@ used in data fields, feature flag expressions and conditional directive statemen
 \] This document discusses the mechanisms and configuration entries required to make it 
 easy to write portable silicon modules and to port the Framework from platform to platform.
 
+* **_EDK II C Coding Standards Specification_** \[
+[HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-c-coding-standards-specification),
+[PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-c-coding-standards-specification),
+[Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-c-coding-standards-specification),
+[ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-c-coding-standards-specification),
+[Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-c-coding-standards-specification),
+[GitHub ](https://github.com/tianocore-docs/edk2-CCodingStandardsSpecification)
+\] The EDK II C Coding Standards Specification establishes a set of rules intended not as
+a constraint, but as an enabling philosophy which will:
+  * Establish uniformity of style.
+  * Set minimum information content requirements.
+  * Allow all programmers to easily understand the code.
+  * Facilitate support tasks by establishing uniform conventions.
+  * Ease documentation efforts by embedding the design documentation in the code.
+  * Reduce customer and new employee learning curves by providing accurate code documentation and uniform style.
+
+  These rules apply to all code developed.
+
 ---
 
 * **_EDK II Template Specification_** \[
