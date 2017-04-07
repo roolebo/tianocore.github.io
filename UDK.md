@@ -10,4 +10,4 @@ The UEFI Development Kit (UDK) is a stable release of portions of [[EDK II]]. UD
 
 [[EDK II]] is the open source project for which volunteers participate in development. The tip of this project is constantly updated for fixes and enhancements.
 
-[[UDK]] releases represent a fully validated implementation of a specific revision of [[EDK II source]], tested against Intel Architecture platforms. Each UDK release lists the corresponding EDK II version in the release notes. Each release is available as a ZIP file, and is mapped to a branch of the EDK II github project (example: https://github.com/tianocore/edk2/tree/UDK2015 for [[UDK2015]]).
+[[UDK]] releases represent a fully validated implementation of a specific revision of [[EDK II]] source, tested against Intel Architecture platforms. Each UDK release lists the corresponding EDK II version in the release notes. Each release is available as a ZIP file, and is mapped to a branch of the EDK II github project (example: https://github.com/tianocore/edk2/tree/UDK2015 for [[UDK2015]]).
