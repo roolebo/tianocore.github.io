@@ -1,5 +1,6 @@
 [[Home]]<br/>
 [[Getting Started with EDK II]]<br/>
+[[EDK II Documents]]<br/>
 [[Reporting Issues]]<br />
 [[Reporting Security Issues]]<br />
 [[Community Information]]<br/>
