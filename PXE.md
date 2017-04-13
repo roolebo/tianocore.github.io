@@ -39,8 +39,8 @@ The six remaining PXE offers are described below:
 
 | | discover vendor option | MTFTP vendor option | N/A |
 | --- | --- | --- | --- |
-| “PXEClient” available  | PxeOfferTypeDhcpPxe10 | PxeOfferTypeDhcpWfm11a | PxeOfferTypeDhcpBinl |
-| “PXEClient” available && Yiaddr == 0  | PxeOfferTypeDhcpPxe10 | PxeOfferTypeDhcpWfm11a | PxeOfferTypeDhcpBinl |
+| “PXEClient” available  | PxeOfferTypeDhcpPxe10 | PxeOfferTypeDhcpWfm11a | PxeOfferTypeDhcpBinl&nbsp; |
+| “PXEClient” available && Yiaddr == 0  | PxeOfferTypeProxyPxe10 | PxeOfferTypeProxyWfm11a | PxeOfferTypeProxyBinl&nbsp; |
 
 Note that “Binl” is a term used in WfM specification and short for “Boot Intervention Network Layer; extended DHCP service”. 
 The offers are selected according to a predefined policy. The priority of the offers is defined in that policy as following:
