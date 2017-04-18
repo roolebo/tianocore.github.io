@@ -4,7 +4,7 @@
 
 ## MinnowBoard Max/Turbot
 
-<img src="http://firmware.intel.com/sites/default/files/minnowboard50.png" width="10%" height="10%" >
+<img src="https://minnowboard.org/pages/default-page/Mb-Turbot-ADI-0008-150807_top.png" width="40%" height="40%" >
 
 MinnowBoard Max & Turbot are low cost, commercially available, reference platforms for hardware, software and firmware developers who wish to work within an open environment. Design specifications and materials have been provided to the open community, encouraging platform experimentation and derivative designs.
 
