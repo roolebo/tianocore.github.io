@@ -84,6 +84,17 @@ be any combination of boot images, capsule images or PCI Options ROMs.
 \] This document describes the Multi-String build information (UNI) file format . See details
 in the Revision History in the document for more details.
 
+* **_EDK II Image Definition IDF File Format Specification_** \[
+[HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-idf-specification),
+[PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-idf-specification),
+[Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-idf-specification),
+[ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-idf-specification),
+[Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-idf-specification),
+[GitHub ](https://github.com/tianocore-docs/edk2-IdfSpecification)
+\] This document describes file format for Image Description files that are used
+to create HII Image Packages introduced in the _Unified Extensible Firmware
+Interface Specification_, Version 2.1.
+
 * **_EDK II VFR Specification_** \[
 [HTML   ](https://www.gitbook.com/read/book/edk2-docs/edk-ii-vfr-specification),
 [PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-vfr-specification),
