@@ -4,7 +4,7 @@ PXE is a standardized client-server solution that boots an agent via network, al
 
 ## History & Related Specifications
 
-PXE was introduced as part of the Wired for Management Baseline (WfM) Specification by Intel Corporation in 1997. It was described in a separate PXE 1.0 specification since Wired for Management 2.0. Later, the 2.1 update was published in September 1999. 
+PXE was introduced as part of the Wired for Management Baseline (WfM) Specification by Intel Corporation in 1997. It was described in a separate PXE 1.0 specification since Wired for Management 2.0. Later, the 2.1 update was published in September 1999.
 
 PXE 2.1 describes the IPv4-based network boot process. It does not cover IPv6-based PXE, but this is described in the UEFI 2.2 specification. The UEFI 2.6 specification describes the IPv6-based PXE process in Section 23.3.1. The DHCP6 options used in PXE process are also described in the UEFI specification.
 
@@ -42,7 +42,7 @@ The six remaining PXE offers are described below:
 | “PXEClient” available  | PxeOfferTypeDhcpPxe10 | PxeOfferTypeDhcpWfm11a | PxeOfferTypeDhcpBinl&nbsp; |
 | “PXEClient” available && Yiaddr == 0  | PxeOfferTypeProxyPxe10 | PxeOfferTypeProxyWfm11a | PxeOfferTypeProxyBinl&nbsp; |
 
-Note that “Binl” is a term used in WfM specification and short for “Boot Intervention Network Layer; extended DHCP service”. 
+Note that “Binl” is a term used in WfM specification and short for “Boot Intervention Network Layer; extended DHCP service”.
 The offers are selected according to a predefined policy. The priority of the offers is defined in that policy as following:
 
 1. PxeOfferTypeDhcpPxe10
@@ -62,12 +62,16 @@ In IPv4-based PXE, DHCP discovery will be retried four times. The four timeouts 
 
 ## PXE Boot Process
 
-The typical PXE boot process includes several steps. Firstly the PXE module should trigger DHCP process to start D.O.R.A in IPv4 and S.A.R.R in IPv6 stack. Then it should select offers and get the address configuration and boot path information through the selected offers. It might need perform DNS resolution to translate the host address to IP address. Later it should download the network bootstrap program (NBP) and load into the computer’s local memory using TFTP, verify the image and execute the NBP finally. 
-
-* In a Windows Deployment Services (WDS) environment, the NBP is provided by wdsmgfw.efi.
+This section will briefly introduce the PXE boot process, please refer the section 2.2 of PXE v2.1 specification for a detailed step-by-step synopsis of the PXE protocol.
+![PXE Boot](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/PXE_Boot.png "PXE BOOT (PXE Spec V2.1 Figure 2-1)")
+The picture shows a typical IPv4 PXE boot flow (it's from PXE Spec V2.1 Figure 2-1).
+**Step 1-4** is DHCP protocol with several extended DHCP option tags. The client should broadcast a DHCP Discover message with "PXEClient" extension tags to trigger the DHCP process. Then it should select offers, get the address configuration and boot path information, and complete the standard DHCP protocol by sending a request for the selected address to the server and waiting for the Ack. It might also need to perform DNS resolution to translate the server's host address to IP address.
+**Step 5-6** takes place between the client and a Boot Server. The client should select and discover a Boot Sever from the obtained server list in step 1-4. This phase is not a part of standard DHCP protocol, but uses the DHCP Request and Ack message format as a convenient for communication. The client should send the request message to port 67 (broadcast) or port 4011 (multicast/unicast) of the selected boot server, and wait a DHCP ack for the boot file name and MTFTP configuration parameters.
+**Step 7-9** is the downloading of the network bootstrap program (NBP). The client will load the NBP into the computer’s local memory using TFTP, verify the image and execute it finally.
+* In a Windows Deployment Services (WDS) environment, the NBP is provided as wdsmgfw.efi.
 * In a Linux environment, the NBP is provided by UEFI-enabled boot loaders such as GRUB, GRUB2 or ELILO.
 
-Take UEFI PXE with Microsoft WDS as example, the NBP would continue to download several files to client platform. After the downloading finished, the WDS loader calls ExitBootService() and transits to Rune Time phase. The OS kernel starts execution and takes over the control to the system. The OS network stack is also started for handling network operations.
+Take UEFI PXE with Microsoft WDS as example, the NBP would continue to download several files to client platform. After the downloading finished, the WDS loader calls ExitBootService() and transits to Runtime phase. The OS kernel starts execution and takes over the control to the system. The OS network stack is also started for handling network operations.
 
 Please refer to [UEFI PXE Boot Performance Analysis](https://firmware.intel.com/sites/default/files/Intel_UEFI_PXE_Boot_Performance_Analysis.pdf) for more details.
 
@@ -92,7 +96,7 @@ PXE Boot is enabled by the EDK II network stack. If your platform does not have 
 ## References
 
 1. PXE 2.1 specification: http://download.intel.com/design/archives/wfm/downloads/pxespec.pdf
-2. UEFI 2.6 specification: http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf 
+2. UEFI 2.6 specification: http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf
 3. WfM2.0 specification: http://download.intel.com/design/archives/wfm/downloads/base20.pdf
 4. UEFI PXE Boot Performance Analysis: https://firmware.intel.com/sites/default/files/Intel_UEFI_PXE_Boot_Performance_Analysis.pdf
 5. NetworkPkg Getting Started Guide: https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide
