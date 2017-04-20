@@ -65,8 +65,11 @@ In IPv4-based PXE, DHCP discovery will be retried four times. The four timeouts 
 This section will briefly introduce the PXE boot process, please refer the section 2.2 of PXE v2.1 specification for a detailed step-by-step synopsis of the PXE protocol.
 ![PXE Boot](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/PXE_Boot.png "PXE BOOT (PXE Spec V2.1 Figure 2-1)")
 The picture shows a typical IPv4 PXE boot flow (it's from PXE Spec V2.1 Figure 2-1).
+
 **Step 1-4** is DHCP protocol with several extended DHCP option tags. The client should broadcast a DHCP Discover message with "PXEClient" extension tags to trigger the DHCP process. Then it should select offers, get the address configuration and boot path information, and complete the standard DHCP protocol by sending a request for the selected address to the server and waiting for the Ack. It might also need to perform DNS resolution to translate the server's host address to IP address.
+
 **Step 5-6** takes place between the client and a Boot Server. The client should select and discover a Boot Sever from the obtained server list in step 1-4. This phase is not a part of standard DHCP protocol, but uses the DHCP Request and Ack message format as a convenient for communication. The client should send the request message to port 67 (broadcast) or port 4011 (multicast/unicast) of the selected boot server, and wait a DHCP ack for the boot file name and MTFTP configuration parameters.
+
 **Step 7-9** is the downloading of the network bootstrap program (NBP). The client will load the NBP into the computer’s local memory using TFTP, verify the image and execute it finally.
 * In a Windows Deployment Services (WDS) environment, the NBP is provided as wdsmgfw.efi.
 * In a Linux environment, the NBP is provided by UEFI-enabled boot loaders such as GRUB, GRUB2 or ELILO.
