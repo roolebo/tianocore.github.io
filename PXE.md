@@ -90,6 +90,9 @@ Below operating systems have been used to verify EDK II PXE Boot:
 
 PXE Boot is enabled by the EDK II network stack. If your platform does not have EDK II network stack built in yet, or you feel you miss any modules for enabling PXE boot, please refer to the “FEATURES ENABLING” section in https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide.
 
+**NOTES:** The platform must support the UUID detection by reading table-based SMBIOS. Please refer the section 5.2.1 of PXE v2.1 specification for more details.
+
+
 ## PXE Limitations
 
 * PXE uses UDP as transport layer protocol. TCP is not supported.
