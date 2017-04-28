@@ -6,6 +6,5 @@
 [[Community Information]]<br/>
 [[UDK2015]] / [[UDK2017]]<br/>
 [[EDK II]]<br/>
-[[Additional Projects]]<br/>
-[[Tasks]]<br/>
+[[Additional Projects]] & [[Tasks]]<br/>
 [[Community Support]]
