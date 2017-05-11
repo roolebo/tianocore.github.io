@@ -180,3 +180,8 @@ Please note the gcc-shell and UnixPkg build separately, so if you update shell c
 
 * [[Step-by-step instructions]]
 
+# Continue with common instructions
+
+The [remaining instructions](../Common-instructions) are common for most UNIX-like systems.
+
+
