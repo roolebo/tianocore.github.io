@@ -26,6 +26,7 @@ To build `mtoc` you will need to copy an include directory from the LLVM project
 Then from the top cctools directory type:
 
 ```
+cd cctools-895
 make
 ```
 
