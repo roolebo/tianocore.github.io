@@ -9,6 +9,23 @@
 *'''Date Published'''<BR>
 </td>
 </tr>
+
+<tr>
+<td>
+[https://www.gitbook.com/book/edk2-docs/getting-started-with-uefi-https-boot-on-edk-ii/details Gitbook PDF]
+</td>
+<td>
+[https://www.gitbook.com/book/edk2-docs/getting-started-with-uefi-https-boot-on-edk-ii/details Getting Started with UEFI HTTPS Boot on EDK II] contributed by Wu Jiaxin, Fu Siyuan and Brian Richardson<BR>
+HTTP over TLS (HTTPS) boot is a standard implementation for securely booting using the Unified Extensible Firmware Interface (UEFI) over a network device. HTTPS Boot is especially important for clients using potentially insecure networks outside of corporate infrastructure. Security for UEFI HTTPS Boot is provided by the underlying Transport Layer Security (TLS). 
+This paper assumes the reader is familiar with the [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf EDK II HTTP Boot Getting Started Guide]
+ available on this page.
+<BR>
+
+* May 2017 Rev 1.3
+* Feb 2017 Rev 1.2 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf .PDF]
+</td>
+</tr>
+
 <tr>
 <td>
 [https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-memory-protection-in-uefi-bios/details Gitbook PDF]
@@ -25,21 +42,6 @@ accesses and as the guard page. This document will have a more comprehensive dis
 <BR>
 
 * March 2017 
-</td>
-</tr>
-<tr>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf .PDF]
-</td>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpsBootGettingStartedGuide_1.2.pdf EDK II HTTPS Boot Getting Started Guide R1.2]
-contributed by Wu Jiaxin, Fu Siyuan and Brian Richardson<BR>
-HTTP over TLS (HTTPS) boot is a standard implementation for securely booting using the Unified Extensible Firmware Interface (UEFI) over a network device. HTTPS Boot is especially important for clients using potentially insecure networks outside of corporate infrastructure. Security for UEFI HTTPS Boot is provided by the underlying Transport Layer Security (TLS). 
-<br>
-This paper assumes the reader is familiar with the [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf 
-EDK II HTTP Boot Getting Started Guide] available on this page.
-
-* February 2017 Rev 1.2
 </td>
 </tr>
 
