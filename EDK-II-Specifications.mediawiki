@@ -209,6 +209,8 @@ These rules apply to all code developed
    </td>
 </tr> 
 
+<tr>
+
 <th colspan="4" style="background-color:#ffffff">Archived EDK II Specifications  [[EDK-II-Specifications-Archived | Download]]
 </th>
 
