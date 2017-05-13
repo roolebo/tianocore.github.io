@@ -208,34 +208,10 @@ These rules apply to all code developed
 * Oct 2015
    </td>
 </tr> 
-<tr>
-   <td>
-   </td>
-   <td>
-   </td>
-</tr> 
-<tr>
-   <td>
-   </td>
-   <td>
-   </td>
-</tr> 
-<tr>
-   <td>
-   </td>
-   <td>
-   </td>
-</tr> 
-<tr>
-   <td>
-   </td>
-   <td>
-   </td>
-</tr> 
-<tr>
 
 <th colspan="4" style="background-color:#ffffff">Archived EDK II Specifications  [[EDK-II-Specifications-Archived | Download]]
 </th>
+
 </tr>
 
 </table>
