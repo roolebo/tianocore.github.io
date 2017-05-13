@@ -7,6 +7,6 @@ TianoCore has accumulated a lot of information over the years. We keep several F
 * [[Terms and Acronyms|Acronyms and Glossary]]
 * [[Documents]]
 
-If you have a question and cannot find the answer, please try the [EDK II developer e-mail list](https://github.com/tianocore/tianocore.github.io/wiki/edk2-devel). You can also [search the e-mail list archive[(https://lists.01.org/pipermail/edk2-devel/) for questions already asked in email. 
+If you have a question and cannot find the answer, please try the [EDK II developer e-mail list](https://github.com/tianocore/tianocore.github.io/wiki/edk2-devel). You can also [search the e-mail list archive](https://lists.01.org/pipermail/edk2-devel/) for questions already asked in email. 
 
 _Note that e-mails prior to September 2015 are on a [sourceforge archive](https://sourceforge.net/p/edk2/mailman/edk2-devel/)._
