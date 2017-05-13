@@ -1,8 +1,6 @@
-
-
 == '''Enabling Resources for UEFI Driver Developers Using EDK II'''==
 
-This page is designed to support Unified Extensible Firmware Interface (UEFI) development by independent hardware vendors (IHV), operating systems vendors (OSV), and application programmers. This page contains resources for UEFI driver developers including the UEFI Driver Wizard and the UEFI Driver Writers Guide (DWG).
+This page is designed to support Unified Extensible Firmware Interface ([[UEFI]]) development by independent hardware vendors (IHV), operating systems vendors (OSV), and application programmers. This page contains resources for UEFI driver developers including the UEFI Driver Wizard and the UEFI Driver Writers Guide (DWG).
 
 <div class="t_projects">
 
@@ -17,7 +15,7 @@ This page is designed to support Unified Extensible Firmware Interface (UEFI) de
 <tr></tr>
 <tr>
     <td>[[UDK2014.IHV Setup Guide|UDK2014 IHV]] (Driver Developer Release)</td>
-    <td>Subset package of UEFI Development Kit (UDK2014) designed for use with the UEFI Driver Wizard. This release only contains the packages essential for independent hardware vendor (IHV) driver development. Review the [[UDK2014.IHV Setup Guide]] for more information.</td>
+    <td>Subset package of UEFI Development Kit ([[UDK2014]]) designed for use with the UEFI Driver Wizard. This release only contains the packages essential for independent hardware vendor (IHV) driver development. Review the [[UDK2014.IHV Setup Guide]] for more information.</td>
 </tr>
 
 <tr>
@@ -33,10 +31,4 @@ This page is designed to support Unified Extensible Firmware Interface (UEFI) de
 
 </table>
 
-* Please visit the [http://firmware.intel.com/ Intel UEFI Community Resource Center] for additional resources (Source Level Debugger, UEFI Development Kit, etc.)
-
-<!-- [[Category:UEFI Driver Wizard]] -->
-<!-- [[Category:EDKII]] -->
-<!-- [[Category:IHV]] -->
-<!-- [[Category:DWG]] -->
-<!-- [[Category:Driver]] -->
+* Please visit the [http://firmware.intel.com/ Intel® Architecture Firmware Resource Center] for additional resources based on Intel platforms. 
