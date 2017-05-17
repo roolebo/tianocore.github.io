@@ -29,7 +29,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
 
-Copyright (c) 2004, Intel Corporation
+Copyright (c) 2017, Intel Corporation
 
 All rights reserved.
 
