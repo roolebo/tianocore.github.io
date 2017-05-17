@@ -9,3 +9,11 @@ The preferred license for TianoCore is [[BSD-2-Clause|BSD License]]. The TianoCo
 * MIT: http://opensource.org/licenses/MIT 
 * Python-2.0: http://opensource.org/licenses/Python-2.0 
 * Zlib: http://opensource.org/licenses/Zlib 
+
+## Documenting Licenses in Source Projects
+
+The full license should be documented in a LICENSE.TXT file, found in the package directory.
+
+Example: https://github.com/tianocore/edk2/blob/master/MdeModulePkg/License.txt 
+
+Source file headers should contain an abbreviated version of the license, with a link to the full license text. An example is provided in the [EDK II Coding Standards Specification](https://edk2-docs.gitbooks.io/edk-ii-c-coding-standards-specification/content/), Section 5.2.3.4 ("License").
