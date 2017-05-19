@@ -2,6 +2,8 @@
 
 PXE is a standardized client-server solution that boots an agent via network, allowing management tasks in the absence of a running OS. EDK II has PXE Boot specification compliant implementation for UEFI. This feature is commonly referred to as "PXE boot".
 
+This page describes the operation of PXE. There are separate pages describing how to [[Enable UEFI PXE Boot in EDK II]] and [[Configuring PXE Boot Servers for UEFI]].
+
 ## History & Related Specifications
 
 PXE was introduced as part of the Wired for Management Baseline (WfM) Specification by Intel Corporation in 1997. It was described in a separate PXE 1.0 specification since Wired for Management 2.0. Later, the 2.1 update was published in September 1999.
@@ -80,18 +82,11 @@ Please refer to [UEFI PXE Boot Performance Analysis](https://firmware.intel.com/
 
 ## PXE Boot Verification
 
-Below operating systems have been used to verify EDK II PXE Boot:
+Operating systems used to verify EDK II PXE Boot functionality:
 
 * Microsoft Windows 10/8.1/7
 * SUSE Linux Enterprise 11 (SP3)
 * Red Hat Enterprise Linux 7.0
-
-## Enable PXE Boot
-
-PXE Boot is enabled by the EDK II network stack. If your platform does not have EDK II network stack built in yet, or you feel you miss any modules for enabling PXE boot, please refer to the “FEATURES ENABLING” section in https://github.com/tianocore/tianocore.github.io/wiki/NetworkPkg-Getting-Started-Guide.
-
-**NOTES:** The platform must support the UUID detection by reading table-based SMBIOS. Please refer the section 5.2.1 of PXE v2.1 specification for more details.
-
 
 ## PXE Limitations
 
