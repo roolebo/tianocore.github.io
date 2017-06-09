@@ -64,6 +64,13 @@ The path to the <code>OVMF.fd</code> image can be directly provided on the comma
 qemu-system-x86_64 -L . --bios ~/src/edk2/Build/OvmfX64/DEBUG_GCC5/FV/OVMF.fd -net none
 </pre>
 
+QEMU with -pflash
+----------------
+<pre>
+qemu-system-x86_64 -pflash bios.bin -hda fat:hda-contents -net none
+</pre>
+
+
 Potential issues
 ----------------
 
