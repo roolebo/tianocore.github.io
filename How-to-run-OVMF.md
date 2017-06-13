@@ -70,6 +70,13 @@ QEMU with -pflash
 qemu-system-x86_64 -pflash bios.bin -hda fat:hda-contents -net none
 </pre>
 
+Optional: QEMU with Read/Write Fat file system using a host directory
+---------------- 
+(Beware that QEMU makes the virtual FAT table once and host could get out of sync and QEMU might get confused)
+
+<pre>
+qemu-system-x86_64 -pflash bios.bin -hda fat:rw:hda-contents -net none
+</pre>
 
 Potential issues
 ----------------
