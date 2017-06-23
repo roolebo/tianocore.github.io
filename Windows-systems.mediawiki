@@ -67,7 +67,7 @@ Continue to [[Windows-systems#compile-tools |Compile Tools]]
 ## click Clone button
 # Optional (see [[Windows-systems#compile-tools |Compile Tools]] ) Repeat the above with the Clone the edk2-BaseTools-win32 repository repository to download Pre-built BaseTools
 ## Open Git Gui
-## Use ''Clone Exiting Repository'' with Source location https://github.com/tianocore/edk2.git and  Target directory C:/Win32
+## Use ''Clone Exiting Repository'' with Source location https://github.com/tianocore/edk2-BaseTools-win32.git and  Target directory C:/Win32
 ## Copy C:/Win32 to C:/edk2/BaseTools/Bin
 ##  Continue to  [[Windows-systems#build | BUILD]] Section
 
