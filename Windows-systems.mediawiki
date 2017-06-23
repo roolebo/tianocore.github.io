@@ -4,7 +4,8 @@ This page provides step-by-step instructions or setting up a [http://www.tianoco
 <u>''Table of Contents''</u>
 * [[Windows-systems#github-help|GitHub Help]]
 * [[Windows-systems#how-to-setup-the-edk-ii-tree| How to Setup the EDK II Tree]]
-* [[Windows-systems#download| Download]] / Checkout EDK II source tree from Github 
+* [[Windows-systems#download| Download]]  Checkout EDK II source tree from Github 
+* [[Windows-systems#compile-tools |Compile Tools]] Build EDK II BaseTools for Windows 
 * [[Windows-systems#build | BUILD]] EDK II
 
 ==GitHub Help==
@@ -17,8 +18,7 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 =='''GitHub EDK II Project Repositories'''==
 
 * The EDK II project repository is available at https://github.com/tianocore/edk2. 
-* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
-* Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.<BR><BR>
+* Optional - Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
 
 Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
 
@@ -46,16 +46,16 @@ Download/Checkout the EDK II source tree from Github
 ## Click on Download ZIP
 ## Unzip to C:/
 ## Rename directory “edk2-master” to “edk2”  
-# Download the EDK II Base Tools
+# Optional- (see [[Windows-systems#compile-tools |Compile Tools]] ) Download the EDK II pre-built Base Tools
 ## Open https://github.com/tianocore/edk2-BaseTools-win32  in web browser
 ## Click on the ''Clone or Download'' button (Right Green)
 ## Click on Download ZIP
 ## Unzip to C:/
 ## Rename directory “edk2-BaseTools-win32-master” to “Win32”  
 ## Copy C:/Win32 to C:/edk2/BaseTools/Bin
+## Continue to  [[Windows-systems#build | BUILD]] section
 
-
-Continue to  [[Windows-systems#build | BUILD]] section
+Continue to [[Windows-systems#compile-tools |Compile Tools]] 
 
 === Using '''Git for Windows''' Application ===
 ==== ''Git GUI''====
@@ -65,12 +65,13 @@ Continue to  [[Windows-systems#build | BUILD]] section
 ## Select a Target directory C:/edk2
 ## Check Recursively clone submodules too
 ## click Clone button
-# Repeat the above with the Clone the edk2-BaseTools-win32 repository repository 
+# Optional (see [[Windows-systems#compile-tools |Compile Tools]] ) Repeat the above with the Clone the edk2-BaseTools-win32 repository repository to download Pre-built BaseTools
 ## Open Git Gui
 ## Use ''Clone Exiting Repository'' with Source location https://github.com/tianocore/edk2.git and  Target directory C:/Win32
-# Copy C:/Win32 to C:/edk2/BaseTools/Bin
+## Copy C:/Win32 to C:/edk2/BaseTools/Bin
+##  Continue to  [[Windows-systems#build | BUILD]] Section
 
-Continue to  [[Windows-systems#build | BUILD]] section
+Continue to [[Windows-systems#compile-tools |Compile Tools]] section
 
 ==== ''Git CMD'' ====
 If you use the command line version, then you can easily checkout the edk2 to the C:\edk2 directory with the following git command:
@@ -79,6 +80,7 @@ Main repository: https://github.com/tianocore/edk2
     $git clone https://github.com/tianocore/edk2
 </pre>
 
+Continue to [[Windows-systems#compile-tools |Compile Tools]] and then [[Windows-systems#build | BUILD]] sections
 
 
 =====For EDK II project developers on Windows with the pre-built binary BaseTools:=====
@@ -108,13 +110,15 @@ When the above steps are done, the directory structure will look like:
        ├───edk2
        └───edk2-BaseTools-win32
 
+Continue to  [[Windows-systems#build | BUILD]] section
 
+=='''Compile Tools'''==
 =====For EDK II project developers on Windows with source BaseTools:=====
 *	Create a workspace directory
 *	Change to the workspace directory
-*	Clone the EDK II project repository
-**	git clone https://github.com/tianocore/edk2
-* Install Python27 to run python tool from source
+*	Clone the EDK II project repository (See [[Windows-systems#download| Download]] section above)
+**	Example: git clone https://github.com/tianocore/edk2
+* Install Python27 (https://www.python.org/)  to run python tool from source 
 **  PYTHON_HOME - set it as Python27 installation directory
 * Compile BaseTools C source tools
 Example:
@@ -122,7 +126,9 @@ Example:
 <pre>
      $ git clone https://github.com/tianocore/edk2
 </pre>
-* Windows CMD prompt:
+=====Compile BaseTools=====
+Example:
+*Windows CMD prompt:
 <pre>
      C:\edk2> set PYTHON_HOME=C:\Python27
      C:\edk2> edksetup.bat --nt32
@@ -133,6 +139,7 @@ Example:
 =='''Build'''==
 * Set up the [[Nasm-Setup| Nasm]] open source assembly compiler
 * Set up the [[Asl Setup| ASL Compiler]] 
+* [[Windows-systems#compile-tools |Compile Tools]] above or download the pre-built Windows BaseTools from https://github.com/tianocore/edk2-BaseTools-win32
 * Open a Windows CMD prompt:
 * Change to the edk2 directory
 * Run the edksetup.bat script
@@ -159,7 +166,7 @@ ACTIVE_PLATFORM       = MdeModulePkg/MdeModulePkg.dsc
 
 Modify TOOL_CHAIN_TAG in target.txt for the toolchain installed on your system. There are many options, so review the tools_def.txt to find the appropriate toolchain for your system.  Search for 'Supported Tool Chains' in tools_def.txt to see the valid options for TOOL_CHAIN_TAG. 
 <pre>
-TOOL_CHAIN_TAG        = VS2008x86
+TOOL_CHAIN_TAG        = VS2015x86
 </pre>
 
 
@@ -179,7 +186,7 @@ C:\edk2> build
 As a tangible result of the build, you should have the HelloWorld UEFI application.  If you have a UEFI system available to you which matches the processor architecture that you built, then this application should be able to run successfully under the shell.
 
 <pre>
-C:\edk2> dir /s Build\MdeModule\HelloWorld.efi
+C:\edk2> dir /s Build\MdeModule\DEBUG_...\IA32\HelloWorld.efi
 </pre>
 
 ===Build [http://www.tianocore.org/ovmf/ OVMF] (OPTIONAL)===
