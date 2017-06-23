@@ -1,5 +1,5 @@
-The FatPkg is a separate Edk 2 project [[Edk2-fat-driver]]
+FatPkg was a separate EDK II based project, but it was merged into the
+EDK II project in April 2016.
 
-### Source Repository
-
-<https://svn.code.sf.net/p/edk2-fatdriver2/code/trunk/EnhancedFat>
+Refer to the [[Code Contributions]] page for more information on
+contributing to the EDK II fat driver.
