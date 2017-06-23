@@ -81,7 +81,7 @@ Main repository: https://github.com/tianocore/edk2
 
 
 
-=====For EDK II project developers on Windows:=====
+=====For EDK II project developers on Windows with the pre-built binary BaseTools:=====
 *	Create a workspace directory
 *	Change to the workspace directory
 *	Clone the EDK II project repository
@@ -107,6 +107,27 @@ When the above steps are done, the directory structure will look like:
     └───test (WORKSPACE)
        ├───edk2
        └───edk2-BaseTools-win32
+
+
+=====For EDK II project developers on Windows with source BaseTools:=====
+*	Create a workspace directory
+*	Change to the workspace directory
+*	Clone the EDK II project repository
+**	git clone https://github.com/tianocore/edk2
+* Install Python27 to run python tool from source
+**  PYTHON_HOME - set it as Python27 installation directory
+* Compile BaseTools C source tools
+Example:
+* Inside Git Bash
+<pre>
+     $ git clone https://github.com/tianocore/edk2
+</pre>
+* Windows CMD prompt:
+<pre>
+     C:\edk2> set PYTHON_HOME=C:\Python27
+     C:\edk2> edksetup.bat --nt32
+     C:\edk2> nmake -f BaseTools\Makefile
+</pre>
 
 
 =='''Build'''==
