@@ -128,11 +128,11 @@ Example:
 </pre>
 =====Compile BaseTools=====
 Example:
-*Windows CMD prompt:
+*Open Visual Studio Command prompt and CD C:\edk2:
 <pre>
      C:\edk2> set PYTHON_HOME=C:\Python27
-     C:\edk2> edksetup.bat --nt32
-     C:\edk2> nmake -f BaseTools\Makefile
+     C:\edk2> set EDK_TOOLS_PATH=%CD%\BaseTools
+     C:\edk2> BaseTools\toolsetup.bat Rebuild
 </pre>
 
 
