@@ -41,7 +41,7 @@ Current list of [[Tasks]] identified by the EDK II community.
 
 ## Stable Releases
 
-Stable releases, based on validation using various platforms, are labeled as "UEFI Development Kit" (UDK). The year tag indicates the year of major specifications used for the release.
+Stable releases, based on validation using various platforms, are labeled as "UEFI Development Kit" ([[UDK]]). The year tag indicates the year of major specifications used for the release.
 
-[[UDK2015]] | [[UDK2014]] | [[UDK2010]]
+[[UDK2017]] | [[UDK2015]] | [[UDK2014]] | [[UDK2010]]
 
