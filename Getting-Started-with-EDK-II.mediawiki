@@ -14,7 +14,6 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 
 * The EDK II project repository is available at https://github.com/tianocore/edk2. 
 * Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
-* Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.
 * Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
 
 ==How to Setup the EDK II Tree==
@@ -29,6 +28,8 @@ Several build environments are supported and documented.  If instructions are no
 '''Note:''' Some other build tools may be required depending on the project or package:
 * [[Nasm Setup|Nasm]]
 * [[ASL Setup|ASL Compiler]]
+* Install Python27 (https://www.python.org/)  to run python tool from source 
+**  PYTHON_HOME - set it as Python27 installation directory
 
 '''Note:''' Some of the following examples use the [[Multiple_Workspace]] feature to configure EDK II BaseTools.
 
