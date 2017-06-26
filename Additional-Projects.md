@@ -2,7 +2,7 @@
 
 ## EDK II Projects
 
-* UEFI Development Kit 2015 ([[UDK2015]]) is a stable release of portions of [[EDK II]].
+* UEFI Development Kit 2017 ([[UDK2017]]) is a stable release of portions of [[EDK II]].
 * [[edk2-buildtools]] are the primary set of tools for processing EDK II content. 
 * [[ShellPkg]] is a UEFI 2.0 Shell implementation.
 * The [[EDK II Application Development Kit (EADK)|EDKII-EADK]] includes Standard C Libraries in UEFI Shell Applications (replacement for the EFI Toolkit).
