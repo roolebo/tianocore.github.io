@@ -1,15 +1,15 @@
-<span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">'''Writing a Simple EDK II UEFI Application ''' 
+<span style="font-size: 15.0pt; text-align: center; font-family: Verdana; color: #004280; font-weight: bold; font-style: normal">'''How to Write a Simple EDK II UEFI Application ''' 
 </span>
 
 === 1) Create a Work Space Directory ===
 e.g. <span style="font-family: Courier">mkdir edk2</span>
 === 2) Download the Edk II source and build tools ===
 # Latest EDK II source from following Instructions on [[Getting-Started-with-EDK-II | Step by step instructions]] 
-## i.e. example >git clone https://github.com/tianocore/edk2
+## i.e. example >git clone https://github.com/tianocore/edk2.git
 OR
-# Downloading the latest .zip [[UDK2015 | UDK2015 Download]] release (or Latest UDK release).
+# Download the latest .zip [[UDK2017]] Download release (or Latest [[UDK]] release).
 === 3) Run the '''''edksetup''''' ===
-Run''' ''edksetup''''' script from the command line prompt at the Work Space directory
+Run''' ''edksetup --nt32''''' script from the command line prompt at the Work Space directory
 #Windows Comand Prompt: <span style="font-family: Courier">''' C:\edk2> edksetup --nt32''' </span>
 #Linux like: <span style="font-family: Courier">'''bash$ . edksetup.sh BaseTools'''</span>
 
