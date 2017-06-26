@@ -10,7 +10,6 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 * The EDK II BaseTools are part of the EDK II project repository. 
 * The EDK II project repository is available at https://github.com/tianocore/edk2. 
 * Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
-* Please note that FatPkg is not included in the EDKII project repository, it is an independent repository which can be found at https://github.com/tianocore/edk2-FatPkg.
 * Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
 = Getting the extra tools=
 == Compiler ==
