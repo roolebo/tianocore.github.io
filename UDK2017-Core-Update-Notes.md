@@ -1,4 +1,4 @@
-# UDK2017 Core Upgrade Notes 
+# UDK2017 Core Update Notes 
 1.  UserPhysicalPresent() behavior is changed in SecurityPkg\Library\PlatformSecureLibNull. <BR>
     It will return the value of new PCD PcdUserPhysicalPresence instead of TRUE.<BR>
     PcdUserPhysicalPresence's default value is FALSE.<BR>
