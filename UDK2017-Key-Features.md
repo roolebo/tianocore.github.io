@@ -34,6 +34,6 @@
 * New packages: IntelFsp2Pkg, IntelFsp2WrapperPkg, IntelSiliconPkg, SignedCapsulePkg
 
 **********
-**Note:** This section and package notes describes the differences based on UEFI Development Kit ([[UDK]]) UDK2015 Release.
+**Note:** This page describes the  package notes and the differences based on previous UEFI Development Kit ([[UDK]]) UDK2015 Release.
 * For a detailed list of Changes and updates,  See wiki page [[UDK2017]] Release 
 **********
