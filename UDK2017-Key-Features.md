@@ -35,7 +35,5 @@
 
 **********
 **Note:** This section and package notes describes the differences based on UEFI Development Kit ([[UDK]]) UDK2015 Release.
-* For a detailed list of Changes and updates <BR>
- See wiki page [[UDK2017]]( https://github.com/tianocore/tianocore.github.io/wiki/UDK2017) Release page
-
+* For a detailed list of Changes and updates,  See wiki page [[UDK2017]] Release 
 **********
