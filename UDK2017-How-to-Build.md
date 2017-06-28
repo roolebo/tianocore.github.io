@@ -1,4 +1,8 @@
 # How to Build [[UDK2017]] 
+Table of Contents
+1) [HOW TO BUILD (WINDOWS SYSTEM)](#how-to-build-windows-system)
+2) [ HOW TO BUILD (LINUX-LIKE SYSTEM)](#how-to-build-linux-like-system)
+
 ##                          HOW TO BUILD (WINDOWS SYSTEM)
 
 The steps below are verified on Microsoft Windows 10 Enterprise*:
@@ -15,15 +19,12 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 
 2.  Create the full Source Code directory for the UDK2017 release
     1)  Create a working space directory in the build machine, for example, C:\MyWorkspace
-
-    2)  Download the UDK2017 release zip https://github.com/tianocore/edk2/archive/vUDK2017.zip 
-        1) Extract files in [edk2-vUDK2017] to the working space directory C:\MyWorkspace.
-    
+    2)  Download the official UDK2017 release .zip file from the [UDK2017 Release Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
+        1) Download - UDK2017 edk-vUDK2017 Workspace [Source code (zip file)](https://github.com/tianocore/edk2/archive/vUDK2017.zip) 
+        2) Extract files in [edk2-vUDK2017] to the working space directory C:\MyWorkspace.
     3) **OR**  Checkout the vUDK2017 Tag from GitHub with the following "git" command <br>
         1) run  `git clone  https://github.com/tianocore/edk2.git vUDK2017`
         2)  Move all files and folders under "vUDK2017" to "C:\MyWorkspace"
-
-	 
     4)  **Optional** (See _Compile the BaseTools_ below) Checkout BaseTools binaries and copy them to BaseTools binary folder.  Warning the Windows* Binary tools are only valid for the tip of the  https://github.com/tianocore/edk2 repository.
          1)  `Cd C:\MyWorkspace`
          2)  Run `git clone https://github.com/tianocore/edk2-BaseTools-win32.git`
@@ -33,7 +34,6 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
          6)  Rename this folder from edk2-BaseTools-win32 to win32, then copy the win32
            directory into the BaseTools/Bin directory under the workspace. 
            (e.g. "C:\MyWorkspace\BaseTools\Bin\")        
-
 3.  Generate OpenSSL* Crypto Library
     1)  Open file "C:\MyWorkspace\CryptoPkg\Library\OpensslLib\OpenSSL-HOWTO.txt"
         and follow the instruction to install OpenSSL* for UEFI building.
@@ -59,10 +59,12 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
        `edksetup --nt32`
     3)  Type following command to build Nt32 platform
         `build -t VS2015x86`
+    4)  Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the C:\MyWorkspace\Build\MdeModule\DEBUG_VS2015x86\IA32 directory
+
 
 ---
 
-##                         HOW TO BUILD (UNIX-LIKE SYSTEM)
+##                         HOW TO BUILD (LINUX-LIKE SYSTEM)
 The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 1.  Setup Build Environment
@@ -90,10 +92,9 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
 
 2.  Create the full Source Code directory for the UDK2017 release
     1)  Create a working space directory in the build machine, for example, ~/src/MyWorkspace
-
-    2)  Download the UDK2017 release tar file from 
-          https://github.com/tianocore/edk2/archive/vUDK2017.tar.gz
-        1) Extract files in [edk2-vUDK2017] to the working space directory ~/src/MyWorkspace.
+    2)  Download the official UDK2017 release .tar file from the [UDK2017 Release Page](https://github.com/tianocore/edk2/releases/tag/vUDK2017)
+        1) Download - UDK2017 edk-vUDK2017 Workspace [Source code (tar.gz file)](https://github.com/tianocore/edk2/archive/vUDK2017.tar.gz) 
+        2) Extract files in [edk2-vUDK2017] to the working space directory ~/src/MyWorkspace.
     3) **OR**  Checkout the vUDK2017 tag from GitHub with the following "git" command 
         1)  Run `"git clone https://github.com/tianocore/edk2.git vUDK2017"`
         2)  Move all files and folders under "vUDK2017" to "~/src/MyWorkspace"
@@ -111,5 +112,12 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
         `"make -C BaseTools"`
     3)  Initialize the build environment by typing 
         `". edksetup.sh"`.
-    4)  Type following command to build platforms using GCC v5.4.0
+    4)  Type following command to build platforms using GCC v5.4.0 <BR>
         `"build  -p MdeModulePkg/MdeModulePkg.dsc -t GCC5"`
+    5)  Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the ~/src/MyWorkspace/Build/MdeModule/DEBUG_GCC5/IA32 directory
+***
+
+If you have questions please email the [[edk2-devel]] mail list.
+
+See also [[Getting Started with EDK II]]
+
