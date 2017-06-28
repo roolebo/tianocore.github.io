@@ -4,6 +4,6 @@ Nt32Pkg implements [[NT32]], a [[UEFI]] simulation environment for Microsoft Win
 
 NT32 will provide boot and runtime services for application development, mapping UEFI functions to Windows APIs. Boot services cannot be terminated in NT32.
 
-The goals and features of the Nt32Pkg platform are similar to [[UnixPkg]] and [[EmulationPkg]]. Our long term goal is to port [[EmulationPkg]] to Microsoft Windows and retire Nt32Pkg.
+The goals and features of the Nt32Pkg platform are similar to [[UnixPkg]] and [[EmulatorPkg]]. Our long term goal is to port [[EmulatorPkg]] to Microsoft Windows and retire Nt32Pkg.
 
 Source Repository: https://github.com/tianocore/edk2/tree/master/Nt32Pkg 
