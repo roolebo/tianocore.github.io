@@ -1,7 +1,9 @@
 # **EDK II Specifications**
 This page contains the released versions of the EDK II Specifications published using [Gitbook](https://www.gitbook.com).<br>
-The latest draft versions of the EDK II Specification can be found on the [[EDK II Draft Specification]] page.<Br>
-The previous versions of the EDK II Specifications can be found on the [[EDK II Specifications Archived]] page.
+* The latest draft versions of the EDK II Specification can be found on the [[EDK II Draft Specification]] page.
+* The previous versions of the EDK II Specifications can be found on the [[EDK II Specifications Archived]] page.<Br>
+
+For an understanding of the basic setup and to see examples of how to use the EDK II Specification files [.DEC](#dec),[.DSC](#dsc) and [.INF](#inf), see the wiki page [[Build Description Files]].<Br>
 
 **_Descriptions for each specification is listed below._**
 
