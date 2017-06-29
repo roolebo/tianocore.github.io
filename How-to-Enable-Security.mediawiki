@@ -12,7 +12,7 @@ Please refer to [[Capsule Based Firmware Update and Firmware Recovery]] for deta
 
 === How to add Secure Boot to DSC and FDF ===
 
-'''Note:''' Information for this section was written based on the [[UDK2010.SR1|UDK2010]] release
+'''Note:''' Information for this section was written based on the [[UDK2010|UDK2010.SR1]] release
 
 Based on original variable driver in MdeModulePkg, variable driver in SecurityPkg
 provides authenticated variable service in UEFI 2.3.1 spec. Runtime crypto library,
@@ -112,7 +112,7 @@ should be replaced by following drivers in step 5 and 6:
 
 == Enable User Identification ==
 
-'''Note:''' Information for this section was written based on the [[UDK2010.SR1|UDK2010]] release
+'''Note:''' Information for this section was written based on the [[UDK2010|UDK2010.SR1]] release
 
 In UID (User Identification) infrastructure, there are 4 UEFI drivers, one library
 instance and some platform specific changes in BDS. To enable UID feature:
@@ -123,14 +123,17 @@ and authentication device (e.g. Smart card) is connected.
 
 2.  Ensure OpensslLib* library instance is defined in [LibraryClasses] section of
 the platform DSC file:
-*    IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
-*    OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLib.inf
-
+<pre>
+     IntrinsicLib|CryptoPkg/Library/IntrinsicLib/IntrinsicLib.inf
+     OpensslLib|CryptoPkg/Library/OpensslLib/OpensslLib.inf
+</pre>
 3.  Ensure BaseCryptLib library instances in each phase are defined in the platform
 DSC file:
-*    PEI phase: BaseCryptLib|CryptoPkg/Library/BaseCryptLib/PeiCryptLib.inf
-*    DXE phase: BaseCryptLib|CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf
-*    RUNTIME phase: BaseCryptLib|CryptoPkg/Library/BaseCryptLib/RuntimeCryptLib.inf
+<pre>
+     PEI phase:     BaseCryptLib|CryptoPkg/Library/BaseCryptLib/PeiCryptLib.inf
+     DXE phase:     BaseCryptLib|CryptoPkg/Library/BaseCryptLib/BaseCryptLib.inf
+     RUNTIME phase: BaseCryptLib|CryptoPkg/Library/BaseCryptLib/RuntimeCryptLib.inf
+</pre>
 
 4.  Add UID drivers to [Component] section of the platform DSC file:
 *    1)  UserIdentifyManagerDxe driver produces user manager protocol and loads
@@ -188,10 +191,10 @@ token file.
 
 == Enabling Trusted Compute Module (TPM) ==
 
-'''Note:''' Information for this section was written based on the [[UDK2010.SR1|UDK2010]] release
+'''Note:''' Information for this section was written based on the [[UDK2010|UDK2010.SR1]] release
 
-[[TCG]] measured boot consists of two PEI modules, four DXE drivers and three libraries
-and some platform specific changes. To enable TCG [[TPM]] feature:
+TCG measured boot consists of two PEI modules, four DXE drivers and three libraries
+and some platform specific changes. To enable TCG TPM feature:
 
 1.  Ensure the platform specific changes had been done.
 *    1)  Memory should be cleared if ClearMemory bit of variable MemoryOverwriteRequestControl
