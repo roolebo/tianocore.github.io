@@ -44,4 +44,6 @@ The [UEFI Specification](http://www.uefi.org) and the [PI Specification](http://
 
 [A Tour Beyond BIOS: Capsule Update and Recovery in EDK II](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf) (Intel Whitepaper, Dec 2016)
 
+[Signed UEFI Firmware Updates in EDK II](https://software.intel.com/en-us/blogs/2017/02/04/signed-uefi-firmware-updates-in-edk-ii) (Intel Developer Zone)
+
 [Back to EDK II Features](EDKII-Packages)
