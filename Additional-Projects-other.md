@@ -1,6 +1,6 @@
 # [[EDK|efidevkit]]
 
-Note: this is the older development environment; Pre-[EDK II](http://www.tianocore.org/edk2/). See the [[Differences between EDK and EDK II|Differences_between_EDK_and_EDK_II]]
+Note: this is the older development environment; Pre-[EDK II](http://www.tianocore.org/edk2/). See the [[Differences between EDK and EDK II]]
 * [[EFI Shell|EDK Releases]] the open-source component of Intel's implementation of the EFI Specification
 * [[edk-fat-driver]] a project for the FAT32 File System Driver
 * [[network-io]] SNP NT32 Network I/O
