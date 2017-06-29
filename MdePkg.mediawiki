@@ -10,4 +10,5 @@ The MdePkg can produce stand-alone modules defined as base that only use resourc
 The MdePkg can be used to write SEC in C code.
 The MdePkg package can also produce UEFI drivers or UEFI  applications that conform to either the EFI 1.10 or the UEFI 2.x specifications. The MdePkg can also build UEFI drivers or applications based on the [[EDK II]] build environment described in the  [[EDK II Specifications]].
 
-The latest MdePkg .chm files will document all the 
+The latest MdePkg .chm files will document all the details on the definitions (including PPIs/PROTOCOLs/GUIDs and library classes) and libraries instances associated with the MdePkg package. 
+To download the latest .chm files see [[UDK]] for the current release.
