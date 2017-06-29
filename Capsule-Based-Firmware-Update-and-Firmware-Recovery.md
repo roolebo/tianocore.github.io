@@ -46,4 +46,6 @@ The [UEFI Specification](http://www.uefi.org) and the [PI Specification](http://
 
 [Signed UEFI Firmware Updates in EDK II](https://software.intel.com/en-us/blogs/2017/02/04/signed-uefi-firmware-updates-in-edk-ii) (Intel Developer Zone)
 
+[Better Firmware Updates in Linux Using UEFI Capsules](https://software.intel.com/en-us/blogs/2015/06/23/better-firmware-updates-in-linux-using-uefi-capsules) (Intel Developer Zone)
+
 [Back to EDK II Features](EDKII-Packages)
