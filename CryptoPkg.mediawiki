@@ -1,5 +1,3 @@
-<!-- [[Category:EDKII Packages]] -->
-
 CryptoPkg description:
 
 UEFI (Unified Extensible Firmware Interface) is a specification detailing the 
@@ -8,4 +6,9 @@ introduced (e.g. Authenticated Variable Service, Driver Signing, etc) from UEFI
 2.2+ (http://www.uefi.org). These security features highly depends on the 
 cryptography and the CryptoPkg
 
+
+To use the correct OpenSSL version please refer to https://github.com/tianocore/edk2/raw/master/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt on how to download the correct version of the OpenSSL Library
+
+
+On Edk II branches before [[UDK2017]]
 To use the correct OpenSSL version please refer to https://github.com/tianocore/edk2/raw/master/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt on how to download and patch
