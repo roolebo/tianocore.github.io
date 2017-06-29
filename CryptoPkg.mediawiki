@@ -11,4 +11,4 @@ To use the correct OpenSSL version please refer to https://github.com/tianocore/
 
 
 On Edk II branches before [[UDK2017]]
-To use the correct OpenSSL version please refer to https://github.com/tianocore/edk2/raw/master/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt on how to download and patch
+To use the correct OpenSSL version for your work space, please refer to  <pre><YourWorkSpace>/CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt </pre> on how to download and patch
