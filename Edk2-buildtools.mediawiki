@@ -17,6 +17,7 @@ Tested and Released binaries for Microsoft Windows* 32-bit operating system are 
 Download and setup guide: [[BuildTool Setup Guide]]
 
 * Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32.git 
+** Note: the Prebuilt Windows tools (Win32 binaries)  are only valid for the tip of https://github.com/tianocore/edk2.  It is recommended to build the source tools for other EDK II branches and projects: Please see: [[Windows-systems#compile-tools]]
 * BaseTools content (part of the edk2 project) is available at: https://github.com/tianocore/edk2.git 
 
 
@@ -28,12 +29,15 @@ Documentation [https://github.com/tianocore/edk2/tree/master/BaseTools/UserManua
 View the [[EDK II Tools List]] for a description of each tool.
 
 == Releases == 
+[[UDK2017]]:
+* Changes for UDK2017  [https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2017/BaseToolsNotes.md BaseTools Notes]
+* Please see [[UDK2017]] wiki page for more information on the latest release of Build Tools<BR>
+
+
 
 UDK2015 :
 * [https://github.com/tianocore/udk/releases/download/UDK2015/BaseTools.Windows.zip BaseTools.Windows.zip]
 * [https://github.com/tianocore/udk/releases/download/UDK2015/BaseTools.Unix.tar  BaseTools.Unix.tar]
-
-Please see [[UDK2015]] wiki page for more information on the latest release of Build Tools<BR>
 
 <hr>
 
