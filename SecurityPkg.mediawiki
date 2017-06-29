@@ -1,7 +1,7 @@
 There are 4 security related features in SecurityPkg including [[SecurityPkg#TPM|TPM]], [[SecurityPkg#UID|User identification (UID)]], [[SecurityPkg#Secure Boot|secure boot]], and [[SecurityPkg#Authenticated Variable|authenticated variable]].
 
 More information: 
-* [https://github.com/tianocore/edk2/raw/master/ShellPkg/Readme.txt ReadMe.txt]
+* [https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2010.SR1/Readme_Security.txt ReadMe_Security.txt] 
 * [[How-to-Enable-Security | How to enable Security]] with EDK II
 * PDF on [https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf How to Sign UEFI Drivers & Applications V1.31.pdf]
 * [https://docs.google.com/file/d/0BxgB4JDywk3MWnM0WmNXMHBTcm8/edit?pli=1 Secure Boot Ecosystem Challenges PDF]-From ToorCamp 2012, Presentation by Vincent Zimmer 
@@ -241,53 +241,43 @@ using MS UEFI CA to sign images 
 <br>
 =='''Images with Multiple Signatures'''==
 This section describes support for Authenticode-signed UEFI images with multiple signatures,  references sample certificates and images and describes  patches to enable this support .  
- 
-===1 Background===
- 
+
+===1. Background===
 The Authenticode signature is in a location called the "Attribute Certificate Table" in a UEFI image. According to the UEFI and PE/COFF specifications, the Attribute Certificate Table is composed of a set of contiguous certificate entries (a list of certificates), and each certificate entry contains an independent Authenticode signature.    
- 
+
 However, revision 2.3.1B of the UEFI Specification has  no explicit description about the verification policy for the multiple certificate entries in a UEFI image, but the Authenticode specification does not preclude this case of multiple entries.
- 
+
 Currently, both the SignTool from MSFT and the DxeImageVerificationLib from the SecurityPkg on http://www.tianocore.org  treat the Attribute Certificate Table as a single certificate.   So if one re-signs a UEFI image with a new certificate, the MSFT  SignTool will overwrite the old certificate entry with the new one. And the verification library assumes that there is only one certificate entry in the attribute certificate table.   
- 
+
 Other Sign Tools are now emerging that can create UEFI images with multiple signatures.
- 
-===2 Sample Images===
- 
+
+===2. Sample Images===
 Some sample UEFI images and their certificates can be found at:
 http://pjones.fedorapeople.org/multisign/
- 
+
 They are:
- 
 *	pjones.cer - public key with a DN that basically says "pjones"
 *	PeterJones.cer - different public key with a DN that says "PeterJones" instead 
 *	hello-0.efi - "Normal, unsigned HelloWorld.efi
 *	hello-1.efi - same binary, signed with "pjones"
 *	hello-2.efi - same binary, signed with "pjones" and then with "PeterJones".
- 
+
 Note:  the 28-Jun-2012 12:41 version of both .cer files [which had lengths of 294]  were corrupt.  
- 
-===3 DxeImageVerificationLib  Patch===
- 
+
+===3. DxeImageVerificationLib  Patch===
 Verification of UEFI images with multiple signatures can be enabled with a small patch to the IsPkcsSignedDataVerifiedBySignatureList routine in SecurityPkg\Library\DxeImageVerificationLib\DxeImageVerificationLib.c.
- 
-Patches are based based on SVN r13505
+
+Patches are based based on SVN r13505  of https://svn.code.sf.net/p/edk2/code/trunk/edk2/
 
 Rev2 handles N certificates in an image and validates each WIN_CERTIFICATE header found in the image
 
 Rev1 only supported 2 certificates in an image.
 
-*Rev2 - patch [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/DxeImageVerificationLib-%20MultipleCertPOC-rev2-r13505.patch/download <<DxeImageVerificationLib-MultipleCertPOC-rev2-r13505.patch>>] 
-*Rev1 – patch [http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/DxeImageVerificationLib-MultipleCertPOC-r13505.patch/download <<DxeImageVerificationLib-MultipleCertPOC-r13505.patch>>]
+*Rev2 - patch [https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2010.SR1.UP1/DxeImageVerificationLib-%20MultipleCertPOC-rev2-r13505.patch DxeImageVerificationLib-MultipleCertPOC-rev2-r13505.patch]
+*Rev1 – patch [https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2010.SR1.UP1/DxeImageVerificationLib-MultipleCertPOC-r13505.patch DxeImageVerificationLib-MultipleCertPOC-r13505.patch ]
 
-===4 Scenarios===
- 
+===4. Scenarios===
 *	Enroll pjones.cer in PK, KEK & DB,  
 **	both hello-1.efi and hello-2.efi run.
 *	Enroll PeterJones.cer  in PK, KEK & DB,  
 **	now only  hello-2.efi runs.
-
-
-
-<!-- [[Category:EDKII Packages]] -->
-<!-- [[Category:Security]] -->
