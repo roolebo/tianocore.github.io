@@ -16,7 +16,7 @@ Documentation, binary images, and source build instructions are at http://firmwa
 
 * Binary Firmware Images ("UEFI BIOS"): 32-bit and 64-bit UEFI builds, with Debug and Release images. Includes flash update utilities and release notes.
 * Binary Object Modules for which source code is not available due to the Intellectual property for both Intel silicon (microprocessor and chipset) and third party components.
-* How to build Instructions for integrating the EDK II source tree (BSD license) with the Binary Object Modules to build firmware. See the latest **Release Notes .txt** file at http://firmware.intel.com/projects/minnowboard-max
+* How to build Instructions for integrating the EDK II source tree (BSD license) with the Binary Object Modules to build firmware. See the latest **Release Notes .txt** file at [firmware.intel.com/projects/Minnowboard-max Firmware Releases](http://firmware.intel.com/projects/minnowboard-max#Releases:)
    * How to build with FSP
    * How to configure Memory Parameters
    * How to enable fTPM feature
