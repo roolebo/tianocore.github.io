@@ -5,6 +5,10 @@ This page contains the released versions of the EDK II Specifications published 
 
 For an understanding of the basic setup and to see examples of how to use the EDK II Specification files [.DEC](#dec),[.DSC](#dsc) and [.INF](#inf), see the wiki page [[Build Description Files]].<Br>
 
+The _EDK II Template Specification_ is an example document that may be used as a template 
+for a new document.  For complete details on how to contribute to TianoCore documents, please
+see the information [here](https://github.com/tianocore-docs/edk2-TemplateSpecification/wiki).
+
 **_Descriptions for each specification is listed below._**
 
 | EDK II Specification | Revision  | Date | Download |
