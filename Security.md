@@ -1,5 +1,6 @@
-![image](http://www.tianocore.org/images/SecurityPix.JPG)
+# Security 
 
 **Please See:**
-* [[SecurityPkg]] - Details on How to enable Security and the Security Package
-* [[Reporting Security Issues]] Current Security advisory page
+* [[SecurityPkg]] - Details on How to enable Security and more information on the Security Package
+* [[Reporting Security Issues]] - How to report Security issues
+* [[Security Advisory Log |Reporting-Security-Issues#security-advisories]] Current Security advisory log 
