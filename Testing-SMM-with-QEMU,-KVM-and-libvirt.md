@@ -125,8 +125,7 @@ enough to log in to the virtualization host via SSH. Run the following
 commands:
 
 ```
-dnf group install with-optional virtualization
-dnf install libvirt-client
+dnf group install --with-optional virtualization
 
 systemctl enable libvirtd
 systemctl start libvirtd
