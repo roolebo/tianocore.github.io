@@ -182,23 +182,23 @@ cat /sys/module/kvm_intel/parameters/nested
   git clone https://github.com/tianocore/edk2.git $EDK2_SOURCE
   ```
 
-* Download, patch and embed OpenSSL into the edk2 source tree as instructed in
-  the `CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt` file. Currently, the
-  commands can be condensed like this:
+* Download and embed OpenSSL into the edk2 source tree as instructed in the
+  `$EDK2_SOURCE/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt` file.
+
+  At the time of this writing (2017-Jul-12), upstream edk2 still uses OpenSSL
+  version `1.1.0e`, although the OpenSSL project has released `1.1.0f`
+  meanwhile (on 2017-May-25). Therefore, the commands from `OpenSSL-HOWTO.txt`
+  can currently be condensed like written below -- please double-check the
+  sanctioned version in `OpenSSL-HOWTO.txt` first, and update the `OPENSSL_VER`
+  assignment below as necessary:
 
   ```
-  OPENSSL_VER=openssl-1.0.2j
-
-  cd $EDK2_SOURCE/CryptoPkg/Library/OpensslLib
+  OPENSSL_VER=openssl-1.1.0e
 
   wget -q -O - http://www.openssl.org/source/${OPENSSL_VER}.tar.gz \
-  | tar -x -z
+  | tar -C $EDK2_SOURCE/CryptoPkg/Library/OpensslLib -x -z
 
-  cd ${OPENSSL_VER}
-  patch -p1 -i ../EDKII_${OPENSSL_VER}.patch
-  cd ..
-  ./Install.sh
-
+  ln -s ${OPENSSL_VER} $EDK2_SOURCE/CryptoPkg/Library/OpensslLib/openssl
   ```
 
 * Build OVMF:
