@@ -273,13 +273,13 @@ cat /sys/module/kvm_intel/parameters/nested
 
 # Create disk images for the virtual machines
 
-In this section, we create two disk images (one for a Fedora 25 guest, another
+In this section, we create two disk images (one for a Fedora 26 guest, another
 for a Windows 10 guest). We also place a number of ISO images in the right
 place, so that we can install the guests from zero.
 
-## Fedora 25
+## Fedora 26
 
-* Copy or move the image file `Fedora-Workstation-Live-x86_64-25-1.3.iso`,
+* Copy or move the image file `Fedora-Workstation-Live-x86_64-26-1.5.iso`,
   which we also used for installing the virtualization host, to the directory
   `/var/lib/libvirt/images/`.
 
@@ -301,7 +301,7 @@ place, so that we can install the guests from zero.
 * Download `en_windows_10_enterprise_2015_ltsb_n_x64_dvd_6848316.iso` from
   MSDN, and place it under `/var/lib/libvirt/images/`.
 
-* Create an empty disk for the guest, similarly to the Fedora 25 command:
+* Create an empty disk for the guest, similarly to the Fedora 26 command:
 
   ```
   qemu-img create -f qcow2 \
