@@ -324,9 +324,9 @@ place, so that we can install the guests from zero.
   The ISO image with the drivers becomes available through the
   `/usr/share/virtio-win/virtio-win.iso` symlink.
 
-# Install the Fedora 25 guest
+# Install the Fedora 26 guest
 
-## Libvirt domain definition (Fedora 25 guest)
+## Libvirt domain definition (Fedora 26 guest)
 
 Download the file
 [ovmf.fedora.q35.template](libvirt-domain-templates/ovmf.fedora.q35.template)
@@ -341,14 +341,13 @@ After this step, the template file can be deleted.
 Note that the template hard-codes a number of pathnames from the above
 sections. If you changed any of those pathnames, please update the template
 file accordingly, before running the `virsh define` command above. (Most of the
-defined domain's characteristics can be edited later with `virsh edit` or
-`virt-manager`, but the `virsh define` command itself could fail if, for
-example, QEMU's pathname in the `<emulator>` XML element is invalid.)
+defined domain's characteristics can be edited later as well, with `virsh edit`
+or `virt-manager`.)
 
 This domain configuration can be used for both installing the guest and booting
 the installed guest.
 
-## Guest installation (Fedora 25 guest)
+## Guest installation (Fedora 26 guest)
 
 * On the virtualization host, start `virt-manager`.
 
@@ -373,7 +372,7 @@ the installed guest.
 
   It may be necessary to select `View | Resize to VM` in the menu bar.
 
-## Tests to perform in the installed guest (Fedora 25 guest)
+## Tests to perform in the installed guest (Fedora 26 guest)
 
 ### Confirm "simple" multiprocessing during boot
 
@@ -413,8 +412,8 @@ virtualization](#enable-nested-virtualization).
 
 ### ACPI S3 suspend/resume loop
 
-* Under `Activities | Settings | Personal | Privacy`, set `Screen Lock` to
-  `Off`.
+* Under `Activities | Settings | Personal | Privacy | Screen Lock`, set
+  `Automatic Screen Lock` to `Off`.
 
 * Open a new terminal window, and input the following shell script:
 
