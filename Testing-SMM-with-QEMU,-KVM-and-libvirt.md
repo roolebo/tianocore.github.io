@@ -36,9 +36,9 @@ recommended.
 # Install the host operating system
 
 Obtain the [Live installation
-image](https://getfedora.org/en/workstation/download/) for Fedora 25
+image](https://getfedora.org/en/workstation/download/) for Fedora 26
 Workstation ([direct
-link](https://download.fedoraproject.org/pub/fedora/linux/releases/25/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-25-1.3.iso)),
+link](https://download.fedoraproject.org/pub/fedora/linux/releases/26/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-26-1.5.iso)),
 and boot it.
 
 Before starting the installation, select **Try Fedora** on the GUI, open a
@@ -59,11 +59,11 @@ cat /sys/module/kvm_intel/parameters/unrestricted_guest
 ```
 
 Proceed with the installation. For help, please refer to the [Installation
-Guide](https://docs.fedoraproject.org/en-US/Fedora/25/html/Installation_Guide/).
+Guide](https://docs.fedoraproject.org/en-US/Fedora/26/html/Installation_Guide/).
 
-In general, stick with the defaults. On the [Create
-User](https://docs.fedoraproject.org/en-US/Fedora/25/html/Installation_Guide/sect-installation-gui-create-user.html)
-screen, *do not create* a non-`root` user.
+In general, stick with the defaults. On the [Configuration and Installation
+Progress](https://docs.fedoraproject.org/en-US/Fedora/26/html/Installation_Guide/sect-installation-gui-installation-progress.html)
+screen, *do not create* a non-`root` user, only set the `root` password.
 
 ## Perform an initial system update
 
