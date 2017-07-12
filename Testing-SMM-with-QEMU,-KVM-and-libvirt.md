@@ -69,7 +69,7 @@ screen, *do not create* a non-`root` user, only set the `root` password.
 
 Although this step is mentioned in the Installation Guide under [Common
 Post-installation
-Tasks](https://docs.fedoraproject.org/en-US/Fedora/25/html/Installation_Guide/sect-common-post-installation-tasks.html),
+Tasks](https://docs.fedoraproject.org/en-US/Fedora/26/html/Installation_Guide/sect-common-post-installation-tasks.html),
 it is worth mentioning here.
 
 After booting the installed host OS, switch to a character console with
