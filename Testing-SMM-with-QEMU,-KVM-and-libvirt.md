@@ -167,66 +167,6 @@ Verify the setting -- the following command should print `Y`:
 cat /sys/module/kvm_intel/parameters/nested
 ```
 
-## Build and install a QEMU development snapshot (if necessary)
-
-As of this writing (2017-Feb-06), the QEMU master branch contains unreleased
-[changes](https://bugzilla.redhat.com/show_bug.cgi?id=1412327) that improve the
-stability of the edk2 SMM driver stack as built into OVMF. The upcoming QEMU
-v2.9 release will contain these changes. Verify the version of QEMU as
-installed above:
-
-```
-qemu-system-x86_64 -version
-```
-
-If at the time of reading the returned version is smaller than `2.9`, please
-install a QEMU development snapshot as follows. Otherwise, the rest of this
-section can be skipped.
-
-First, install a number of dependencies:
-
-```
-dnf install pixman-devel spice-server-devel
-```
-
-Then build and install QEMU, at known-good commit `a0def594286d`:
-
-```
-QEMU_SOURCE=$HOME/qemu
-QEMU_BUILD=$HOME/qemu-build
-QEMU_INSTALL=/opt/qemu
-
-git clone git://git.qemu.org/qemu.git $QEMU_SOURCE
-cd $QEMU_SOURCE
-git checkout a0def594286d
-mkdir -p -v $QEMU_BUILD
-cd $QEMU_BUILD
-
-$QEMU_SOURCE/configure \
-  --target-list=x86_64-softmmu,i386-softmmu \
-  --enable-spice \
-  --enable-trace-backends=log \
-  --enable-debug \
-  --prefix=$QEMU_INSTALL
-
-make -j $(getconf _NPROCESSORS_ONLN)
-make install
-```
-
-## Copy file attributes
-
-In order for libvirt to launch the manually built QEMU binaries with SELinux
-enabled, copy the ownership, file mode bits, and SELinux attributes from the
-`qemu-system-x86` package:
-
-```
-for BINARY in $QEMU_INSTALL/bin/qemu-system-*; do
-  chown -c --reference=/usr/bin/qemu-system-x86_64 $BINARY
-  chmod -c --reference=/usr/bin/qemu-system-x86_64 $BINARY
-  chcon -v --reference=/usr/bin/qemu-system-x86_64 $BINARY
-done
-```
-
 # Install OVMF from source
 
 * Install build dependencies:
