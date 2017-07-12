@@ -452,16 +452,16 @@ virsh define ovmf.win10.q35.template
 After this step, the template file can be deleted.
 
 If you changed any of the pathnames in the earlier sections, then the same
-warning applies as to the [Fedora 25
-guest](#libvirt-domain-definition-fedora-25-guest).
+warning applies as to the [Fedora 26
+guest](#libvirt-domain-definition-fedora-26-guest).
 
 Again, this domain configuration can be used for both installing the guest and
 booting the installed guest.
 
 ## Guest installation (Windows 10 guest)
 
-The same general comments apply as to the [Fedora 25
-guest](#guest-installation-fedora-25-guest). However, the Windows 10 install
+The same general comments apply as to the [Fedora 26
+guest](#guest-installation-fedora-26-guest). However, the Windows 10 install
 media does not contain VirtIO drivers. Therefore the Windows 10 domain
 configuration includes an additional CD-ROM drive, which is not on a VirtIO
 SCSI bus, but on a SATA bus.
