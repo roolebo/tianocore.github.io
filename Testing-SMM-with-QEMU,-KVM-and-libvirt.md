@@ -261,8 +261,15 @@ cat /sys/module/kvm_intel/parameters/nested
     ${EDK2_SOURCE}/Build/OvmfIa32/NOOPT_GCC5/FV/OVMF_CODE.fd \
     ${OVMF_INSTALL}/OVMF_CODE.32.fd
 
-  chcon -v --reference=${QEMU_INSTALL}/share/qemu/bios.bin ${OVMF_INSTALL}/*.fd
+  chcon -v --reference=/usr/share/edk2/ovmf/OVMF_CODE.secboot.fd \
+    ${OVMF_INSTALL}/*.fd
   ```
+
+  * In the last step, we copy the SELinux context from one of the
+    Fedora-provided OVMF files to our manually built files, so that the latter
+    too can be used with libvirt. (Fedora's own OVMF binaries are perfectly
+    usable for end-users, it's just that the target audience of this article is
+    people interested in edk2 development and analysis.)
 
 # Create disk images for the virtual machines
 
