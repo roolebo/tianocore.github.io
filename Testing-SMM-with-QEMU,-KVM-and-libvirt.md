@@ -240,7 +240,7 @@ cat /sys/module/kvm_intel/parameters/nested
     `Ia32X64` platform. Therefore it makes sense to build `Ia32` too.
 
   * 32-bit UEFI OSes are not covered in the current version of this article
-    (2017-Feb-06).
+    (2017-Jul-12).
 
 * Install OVMF (the split firmware binaries and variable store template):
 
