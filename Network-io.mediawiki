@@ -30,11 +30,11 @@ The UEFI network stack getting started guide contains detailed instructions to s
 
 Download the [http://sourceforge.net/projects/network-io/files/Documents/EFINetworkStackGettingStarted.pdf/download UEFI Network Stack Getting Started Guide(pdf)] for guidance on building and using the library to enable UEFI network stack under NT32 Platform Emulator
 
-Download the [https://sourceforge.net/projects/network-io/files/Releases/Development%20Snapshots/NeworkIo-Dev-Snapshot-20090420.zip/download developer snapshot] or official release of the Network-IO project.
+Download the [https://github.com/tianocore/edk2-NetNt32Io snapshot] or official release of the Network-IO project.
 
 '''Other Common Links and Downloads'''
 
-*Directory of [https://sourceforge.net/projects/network-io/files/Releases/Development%20Snapshots Network-IO Source Code Snapshots (Development Versions)]
+*Directory of [https://github.com/tianocore/edk2-NetNt32Io Network-IO Source Code Snapshots (Development Versions)]
 *Directory of Network-IO Source Code Snapshots (Official Releases) 
 *Link to the TianoCore Community Project 
 *Link to the [http://www.uefi.org/ UEFI2.0 Specification]  
