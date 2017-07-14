@@ -3,20 +3,7 @@ __NOTOC__
 
 This page shows the steps for downloading [[EDK II]] from GitHub and compiling projects under various OS/compiler environments.
 
-==GitHub Help==
-
-GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub 
-
-* Setup GitHub for Linux/Windows/MAC (https://help.github.com/articles/set-up-git)
-* Download and install a git GUI interface: git GUI Clients (https://git-scm.com/download/gui/win) | TortoiseGit (https://tortoisegit.org/)
-
-===GitHub EDK II Project Repositories===
-
-* The EDK II project repository is available at https://github.com/tianocore/edk2. 
-* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
-* Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
-
-==How to Setup the EDK II Tree==
+==How to Setup a Local EDK II Tree==
 
 Several build environments are supported and documented.  If instructions are not available for your exact system configuration, you may still be able to tweak the instructions to work on your system.
 
@@ -31,9 +18,22 @@ Several build environments are supported and documented.  If instructions are no
 * Install Python27 (https://www.python.org/)  to run python tool from source 
 **  PYTHON_HOME - set it as Python27 installation directory
 
-'''Note:''' Some of the following examples use the [[Multiple_Workspace]] feature to configure EDK II BaseTools.
+'''Note:''' Some of the examples use the [[Multiple_Workspace]] feature to configure EDK II BaseTools. This is required for using platform code based on edk2-platforms: (https://github.com/tianocore/edk2-platforms)
 
 Once you have a basic build environment running, you can build a project in RELEASE or [[EDK II Debugging|DEBUG]] mode.
+
+==GitHub Help==
+
+GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub 
+
+* Setup GitHub for Linux/Windows/MAC (https://help.github.com/articles/set-up-git)
+* Download and install a git GUI interface: git GUI Clients (https://git-scm.com/download/gui/win) | TortoiseGit (https://tortoisegit.org/)
+
+===GitHub EDK II Project Repositories===
+
+* The EDK II project repository is available at https://github.com/tianocore/edk2. 
+* Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
+* Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
 
 ==EDK II Development Process==
 After setting up your build environment see  [[EDK II Development Process]] for making contributions to the EDK II Project.
