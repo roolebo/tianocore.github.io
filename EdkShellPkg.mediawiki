@@ -1,7 +1,4 @@
-<!-- [[Category:EDKII Packages]] -->
-<!-- [[Category:EFI Shell]] -->
-<!-- [[Category:EDK]] -->
-The '''EdkShellPkg''' contains meta data files for building the [[EDK]] [[Efi-shell|Shell]] for building in an [http://www.tianocore.org/edk2/ EDK II] platform.
+'''EdkShellPkg''' contains meta data files for building the [[EDK]] [[Efi-shell|Shell]]. EdkShellPkg has been retired in lieu of [[ShellPkg]] which implements the UEFI Shell 2.x as specified by the UEFI Forum.
 
 ===Source Repository===
-{{Edk2SubPkg|EdkshellPkg}}
+[https://github.com/tianocore/edk2/tree/master/EdkShellPkg]
