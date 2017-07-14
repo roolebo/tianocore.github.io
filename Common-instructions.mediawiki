@@ -11,6 +11,12 @@ bash$ cd ~/src
 bash$ git clone https://github.com/tianocore/edk2
 </pre>
 
+Note: the 'git clone' command above pulls the latest code from edk2. If you want to work from a stable release, specify a release tag when cloning. Example:
+
+<pre>
+bash$ git clone https://github.com/tianocore/edk2.git vUDK2017
+</pre>
+
 ===Compile build tools ===
 
 <pre>
