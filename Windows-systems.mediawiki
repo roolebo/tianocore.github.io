@@ -11,6 +11,7 @@ This page provides step-by-step instructions or setting up a [http://www.tianoco
 ==GitHub Help==
 
 GitHub (https://help.github.com/index.html) provides step-by-step instructions for user registration and basic features supported by GitHub.
+
 === Git GUI Interface for Windows OS ===
 * Git for Windows OS is available at: (http://git-scm.com/download/win)
 * TortoiseGit for windows OS is available at (https://tortoisegit.org/download/)
@@ -20,7 +21,9 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 * The EDK II project repository is available at https://github.com/tianocore/edk2. 
 * Optional - Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
 
-Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
+Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<br />
+&nbsp;<br />
+Note: the steps below will pull the latest code from edk2 master. To work from a stable release, please refer to the Microsoft Windows build steps for [[UDK2017]]: https://github.com/tianocore/tianocore.github.io/wiki/UDK2017-How-to-Build#how-to-build-windows-system 
 
 ===Internet proxies===
 
