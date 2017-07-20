@@ -13,20 +13,26 @@ This page is designed to support Unified Extensible Firmware Interface ([[UEFI]]
         <th>Description</th>
     </tr>
 <tr></tr>
-<tr>
-    <td>[[UDK2014.IHV Setup Guide|UDK2014 IHV]] (Driver Developer Release)</td>
-    <td>Subset package of UEFI Development Kit ([[UDK2014]]) designed for use with the UEFI Driver Wizard. This release only contains the packages essential for independent hardware vendor (IHV) driver development. Review the [[UDK2014.IHV Setup Guide]] for more information.</td>
-</tr>
 
 <tr>
     <td>[[UEFI Driver Wizard]]</td>
     <td>The [[UEFI Driver Wizard]] is an open source program designed to accelerate the development of new UEFI drivers using a GUI-based template generator. This wizard provides basic support for the most common categories of UEFI drivers. Please refer to the UEFI Driver Wizard 
 [https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UefiDriverWizard/README.txt ReadMe].  Check out the [[Wizard-Getting-Started|Wizard Getting Started ]] guide for more information. Download the  UEFI Driver Wizard MSI (installer for Microsoft Windows) or use this [https://svn.code.sf.net/p/edk2share/code/trunk/DriverDeveloper/UefiDriverWizard/ SVN Link] to download for Linux/Unix/Mac.</td>
 </tr>
+
 <tr>
     <td>[[UEFI Driver Writer's Guide]]</td>
     <td>The [[UEFI Driver Writer's Guide]] (DWG) for UEFI 2.3.1. 03/08/2012, Version 1.0.1 
 </td>
+</tr>
+
+<tr>
+    <td>[[UDK2014.IHV Setup Guide|UDK2014 IHV]] (Driver Developer Release)</td>
+    <td>Subset package of UEFI Development Kit ([[UDK2014]]) designed for use with the UEFI Driver Wizard. This release only contains the packages essential for independent hardware vendor (IHV) driver development, based on the older [[UDK2014]] release.
+
+In general, it is advisable to use a more recent release ([[UDK2015]] or [[UDK2017]]). The UDK2014.IHV subset is still provided for historical purposes. 
+
+Review the [[UDK2014.IHV Setup Guide]] for more information.</td>
 </tr>
 
 </table>
