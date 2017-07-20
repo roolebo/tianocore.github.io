@@ -1,0 +1,17 @@
+==Frequently asked questions about Depex==
+
+===How is the Dependency expression (depex) generated, and what is is the relationship with libraries?===
+
+A) Dependency expressions are generated based on info from the [DEPEX] section of a module's .inf file.
+
+B) The module .inf lists the library classes it depends. Those library classes are cross-referenced through the platform .dsc file to determine which library instances are needed to complete the link of the module. If the libraries also have [DEPEX] sections, those are “and-ed” with the modules.
+
+C) [EDK I] did not have the concept of a Library Class – there were just libraries to link against. EDK I used the depx source file method with libraries. The developer’s job is easier in EDK II, since they don’t have consider inner dependencies on libraries.
+
+D) To see the list of dependencies, use “build -Y DEPEX” to generate a DEPEX report.
+
+===Are dependencies static, or determined at execution time?===
+DEPEX is determined at execution time. It is also possible to use events to create a runtime dependency behavior, but this is a matter of individual implementation. 
+
+===What are 'a priori' files?===
+The 'a priori' file is a special file that complements the dependency expression mechanism of PEI or DXE by stipulating a series of modules which need be dispatched in a prescribed order. This is an optional file, which provides a greater degree of flexibility in platform firmware. In general, the 'a priori' file is not required for most platform porting projects.
