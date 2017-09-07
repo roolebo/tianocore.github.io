@@ -42,7 +42,8 @@ In EDKII HTTP Boot driver, the image type is identified by the media type, or th
 |[application/efi](http://www.iana.org/assignments/media-types/application/efi)|Others (typically *.efi)|UEFI Executable Image|
 
 ### Feature Enabling
-To enable the HTTP boot and RAM Disk boot support, the RamDiskDxe driver and the UefiBootManagerLib ([commit b1bb6f5](https://github.com/tianocore/edk2/commit/b1bb6f5961d82f30046e39e187a80556250f2bd1), [commit fb5848c](https://github.com/tianocore/edk2/commit/fb5848c588688d1e3cd3f175ff888549adddd024) and [commit 3a986a3](https://github.com/tianocore/edk2/commit/3a986a353db249e3ae128d47bff3a13c6e13a037)) are also required.
+UEFI HTTP boot is supported in UDK2017 release.
+In previous UDK release, you may need to modify your code to enable the HTTP boot. Beside the HttpDxe/HttpBootDxe driver, the RamDiskDxe driver and the UefiBootManagerLib ([commit b1bb6f5](https://github.com/tianocore/edk2/commit/b1bb6f5961d82f30046e39e187a80556250f2bd1), [commit fb5848c](https://github.com/tianocore/edk2/commit/fb5848c588688d1e3cd3f175ff888549adddd024) and [commit 3a986a3](https://github.com/tianocore/edk2/commit/3a986a353db249e3ae128d47bff3a13c6e13a037)) are also required.
 ```
 [LibraryClasses]
   UefiBootManagerLib|MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf
