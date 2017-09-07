@@ -50,7 +50,7 @@ To enable the HTTP boot and RAM Disk boot support, the RamDiskDxe driver and the
   MdeModulePkg/Universal/Disk/RamDiskDxe/RamDiskDxe.inf
 ```
 
-Usually the UEFI HTTP Boot is forbidden due to security consideration (only HTTPS is allowed by default), please modify below PCD setting in your platform to enable it.
+Usually the UEFI HTTP Boot is forbidden due to security consideration (only HTTPS is allowed by default), please modify below PCD setting to **TRUE** in your platform to enable it.
 ```
   gEfiNetworkPkgTokenSpaceGuid.PcdAllowHttpConnections
 ```
