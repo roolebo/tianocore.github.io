@@ -100,7 +100,7 @@ Contributor workflow
      ```
      [empty line]
      [empty line]
-     Contributed-under: TianoCore Contribution Agreement 1.0
+     Contributed-under: TianoCore Contribution Agreement 1.1
      Signed-off-by: Your Name <Your Email Address>
      ```
 
