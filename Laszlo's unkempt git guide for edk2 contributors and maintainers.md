@@ -287,6 +287,9 @@ Contributor workflow
        ```
        Cc: Jordan Justen <jordan.l.justen@intel.com>
        Cc: Laszlo Ersek <lersek@redhat.com>
+       Cc: Ard Biesheuvel <ard.biesheuvel@linaro.org>
+       Cc: Anthony Perard <anthony.perard@citrix.com>
+       Cc: Julien Grall <julien.grall@linaro.org>
        ```
 
 19.  <a name="contrib-19" href="#contrib-19">&sect;</a>
