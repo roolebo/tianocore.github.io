@@ -1,6 +1,6 @@
 This page documents our source control commit message format.
 
-This format is also documented in [Contributions.txt](https://github.com/tianocore/edk2/raw/master/MdePkg/Contributions.txt) which may be available in the source tree as well.
+This format is also documented in [Contributions.txt](https://github.com/tianocore/edk2/raw/master/Contributions.txt) which may be available in the source tree as well.
 
 Use this format for commit messages, and when providing the log message for a patch.
 
