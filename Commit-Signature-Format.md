@@ -1,6 +1,6 @@
 The [[commit message|Commit Message Format]] should include signatures for those involved with creating and reviewing the code.
 
-This format is also documented in [Contributions.txt](https://github.com/tianocore/edk2/raw/master/MdePkg/Contributions.txt) which may be available in the source tree as well.
+This format is also documented in [Contributions.txt](https://github.com/tianocore/edk2/raw/master/Contributions.txt) which may be available in the source tree as well.
 
 # Name format
 
