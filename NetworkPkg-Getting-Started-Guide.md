@@ -102,8 +102,6 @@ EFI_LOAD_FILE_PROTOCOL
 ### Shell Application
 * **Application/VConfig** - VLAN configuration Shell application
 * **Application/IpsecConfig** - IPsec configuration Shell application
-* Application/Ping6 - Ping6 has been integrated to Shell Spec 2.2, please use the command in ShellPkg.
-* Application/Ifconfig6 - IfConfig6 has been integrated to Shell Spec 2.2, please use the command in ShellPkg.
 
 ### Notes
 * UNDI, SNP, DPC and MNP drivers are components shared by IPv4 network stack and IPv6 network stack. These modules could be found in MdeModulePkg  except the UNDI driver. For UNDI driver, please contact the Card Vendor.
