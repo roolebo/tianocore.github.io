@@ -11,7 +11,7 @@ MinnowBoard Max & Turbot are low cost, commercially available, reference platfor
 
 The project is based on Intel® Atom™ processors. Technical details, schematics, and information on expansion boards (Lures) can be found at http://minnowboard.org 
 
-A list of currently supported boards and prices can be found at: https://minnowboard.org under the "Boards" tab
+A list of currently supported boards and prices can be found at: https://minnowboard.org under the "[Boards](https://minnowboard.org/compare-boards)" tab
 
 ### UEFI Firmware
 
