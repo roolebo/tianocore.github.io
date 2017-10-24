@@ -192,9 +192,9 @@ As a tangible result of the build, you should have the HelloWorld UEFI applicati
 C:\edk2> dir /s Build\MdeModule\DEBUG_...\IA32\HelloWorld.efi
 </pre>
 
-===Build [http://www.tianocore.org/ovmf/ OVMF] (OPTIONAL)===
+===Build [[OVMF]] (OPTIONAL)===
 
-Once your build environment is set up you might be interested in building the [http://www.tianocore.org/ovmf/ OVMF] platform which is included in the main edk2 source tree.  Since [http://www.tianocore.org/ovmf/ OVMF] builds a full system firmware image this may be of interest to UEFI system firmware developers.
+Once your build environment is set up you might be interested in building the  [[OVMF]] platform which is included in the main edk2 source tree.  Since [[OVMF]] builds a full system firmware image this may be of interest to UEFI system firmware developers.
 
 =See Also=
 * [[Getting-Started-Writing-Simple-Application]]
