@@ -10,4 +10,7 @@ MinnowBoard is an open source hardware enabler, encouraging platform experimenta
 
 MinnowBoard 3 is based on the Intel® Atom™ Processor E3900 Series processor, utilizing the Intel® Firmware Support Package (Intel® FSP) and open source UEFI from the TianoCore EDK II project. Note the source project also requires several small binary object modules, which are provided at https://firmware.intel.com/projects/minnowboard3
 
-Developers can download pre-built UEFI firmware images, utilities, binary object modules, and project release notes. The open source firmware project is available from the TianoCore GitHub: https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoard3
+Developers can download pre-built UEFI firmware images, utilities, binary object modules, and project release notes. The open source firmware project is available from the TianoCore GitHub:
+
+*  https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoard3-UDK2017
+*  https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoard3
