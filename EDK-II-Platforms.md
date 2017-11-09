@@ -11,10 +11,11 @@ Note: new platforms are being developed in the [edk2-platforms](https://github.c
 
 ### Intel® Processor Platforms
 
-* [[MinnowBoard Max/Turbot|MinnowBoardMax]] - Intel® Atom™ E3800 Series processor w/ IA32/x64 open source UEFI firmware
-* [UEFI firmware for N-series Intel® Pentium® Processor and Intel® Celeron® Processor Families](https://firmware.intel.com/projects/braswell-uefi) (IA32 & x64)
 * [[MinnowBoard 3]] - Intel® Atom™ Processor E3900 Series processor w/ IA32/x64 open source UEFI firmware
+* [[MinnowBoard Max/Turbot|MinnowBoardMax]] - Intel® Atom™ E3800 Series processor w/ IA32/x64 open source UEFI firmware
+* [[devel-MinPlatform]] - EDK II 'minimum platform firmware' for Intel(R) Kabylake platforms
 * [[Intel® Galileo Gen 2|Galileo]] - Arduino* certified,  Intel® Quark™ processor, built on fully open-source hardware 
+* [UEFI firmware for N-series Intel® Pentium® Processor and Intel® Celeron® Processor Families](https://firmware.intel.com/projects/braswell-uefi) (IA32 & x64)
 * [[MinnowBoard]] - Intel® Atom™ E640 processor w/ IA32 UEFI firmware (deprecated)
 
 ### ARM Processor Platforms
