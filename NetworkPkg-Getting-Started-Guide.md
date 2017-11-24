@@ -238,6 +238,10 @@ EFI_LOAD_FILE_PROTOCOL
 
 To validate network stack on NT32 platform, please download the source code of [SnpNt32Io](https://github.com/tianocore/tianocore.github.io/wiki/Network-io) and refer to the document [UEFI Network Stack for EDK Getting Started Guide](https://sourceforge.net/projects/network-io/files/Documents/) to build the SnpNt32Io dynamic library.
 
+## Using EDKII Network Stack on OVMF
+
+To validate network stack on OVMF platform, please refer to the [EDKII Network Stack over QEMU](https://github.com/tianocore/tianocore.github.io/wiki/EDKII-Network-Over-QEMU) page.
+
 ## UEFI HTTP BOOT
 
 Please refer to the [UEFI HTTP Boot](https://github.com/tianocore/tianocore.github.io/wiki/HTTP-Boot) page.
