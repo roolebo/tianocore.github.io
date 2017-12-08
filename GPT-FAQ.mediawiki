@@ -27,5 +27,5 @@ To get the benefits of UEFI with the OS. One benefit is >2.2 TB hard drive suppo
 
 <!-- [[category:edit]] -->
 <!-- [[category:FAQ]] -->
-[[category:UEFI/PI]]
+<!-- [[category:UEFI/PI]] -->
 <!-- [[category:GPT]] -->
