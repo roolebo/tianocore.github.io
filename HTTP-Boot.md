@@ -41,6 +41,10 @@ In EDKII HTTP Boot driver, the image type is identified by the media type, or th
 |[application/vnd.efi.img](http://www.iana.org/assignments/media-types/application/vnd.efi-img)|*.img|Virtual Disk Image|
 |[application/efi](http://www.iana.org/assignments/media-types/application/efi)|Others (typically *.efi)|UEFI Executable Image|
 
+### RAM Disk Image Size
+According to section 5.2.25.2 "System Physical Address (SPA) Range Structure" in ACPI 6.2 specification, UEFI firmware will try to allocate memory from **Reserved** memory range to store the downloaded boot image. So the maximum RAM disk image size depends on how much continuous reserved memory block the platform could provide.
+> System physical address ranges described as address type Virtual CD or Virtual Disk shall be described as EFI Reserved Memory Type in UEFI GetMemoryMap API (AddressRangeReserved in E820 Table).
+
 ### Feature Enabling
 UEFI HTTP boot is supported in UDK2017 release.
 In previous UDK release, you may need to modify your code to enable the HTTP boot. Beside the HttpDxe/HttpBootDxe driver, the RamDiskDxe driver and the UefiBootManagerLib ([commit b1bb6f5](https://github.com/tianocore/edk2/commit/b1bb6f5961d82f30046e39e187a80556250f2bd1), [commit fb5848c](https://github.com/tianocore/edk2/commit/fb5848c588688d1e3cd3f175ff888549adddd024) and [commit 3a986a3](https://github.com/tianocore/edk2/commit/3a986a353db249e3ae128d47bff3a13c6e13a037)) are also required.
