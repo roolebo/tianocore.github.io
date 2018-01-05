@@ -9,7 +9,20 @@
 *'''Date Published'''<BR>
 </td>
 </tr>
+<tr>
+<td>
+[https://www.gitbook.com/book/edk2-docs/getting-started-guide-of-edk-ii-http-boot/details GitBook PDF]
 
+
+</td>
+<td>
+[https://www.gitbook.com/book/edk2-docs/getting-started-guide-of-edk-ii-http-boot/details EDK II HTTP Boot Getting Started Guide]- contributed by Ye Ting, Fu Siyuan, and Zhang Lubo
+<BR>
+This document is a getting started guide for using the HTTP boot capability introduced in the UEFI Specification, revision 2.5.
+* January 2018 Rev 0.9
+* April 2016 Rev 0.8 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf  .PDF] 
+</td>
+</tr>
 <tr>
 <td>
 [https://www.gitbook.com/book/edk2-docs/getting-started-with-uefi-https-boot-on-edk-ii/details Gitbook PDF]
@@ -17,7 +30,7 @@
 <td>
 [https://www.gitbook.com/book/edk2-docs/getting-started-with-uefi-https-boot-on-edk-ii/details Getting Started with UEFI HTTPS Boot on EDK II] contributed by Wu Jiaxin, Fu Siyuan and Brian Richardson<BR>
 HTTP over TLS (HTTPS) boot is a standard implementation for securely booting using the Unified Extensible Firmware Interface (UEFI) over a network device. HTTPS Boot is especially important for clients using potentially insecure networks outside of corporate infrastructure. Security for UEFI HTTPS Boot is provided by the underlying Transport Layer Security (TLS). 
-This paper assumes the reader is familiar with the [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf EDK II HTTP Boot Getting Started Guide]
+This paper assumes the reader is familiar with the [https://www.gitbook.com/book/edk2-docs/getting-started-guide-of-edk-ii-http-boot/details EDK II HTTP Boot Getting Started Guide]
  available on this page.
 <BR>
 
@@ -139,18 +152,7 @@ Audience: This paper assumes that audience has basic EDKII/UEFI firmware develop
 * April 2016 
 </td>
 </tr>
-<tr>
-<td>
 
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf  .PDF] 
-</td>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf EDK II HTTP Boot Getting Started Guide] - contributed by Ye Ting, Fu Siyuan, and Zhang Lubo
-<BR>
-This document is a getting started guide for using the HTTP boot capability introduced in the UEFI Specification, revision 2.5.
-* April 2016 Rev 0.8
-</td>
-</tr>
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Memory_Map_And_Practices_in_UEFI_BIOS_V2.pdf .PDF]
