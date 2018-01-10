@@ -1,13 +1,6 @@
 ## Description
 
-This document is designed to aid in the development of UEFI Drivers
-using the EDK II open source project as a development environment. The
-EDK II provides a cross-platform firmware development environment for
-UEFI. UEFI Drivers are described in the Unified Extensible Firmware
-Interface Specification, Version 2.3.1. There are different categories
-of UEFI Drivers, and many variations of each category. This document
-provides basic information for the most common categories of UEFI
-drivers. Many other driver designs are possible.
+This document is provided to help developers prepare UEFI drivers using the EDK II development environment. EDK II is a cross-platform, open source environment as described at https://github.com/tianocore/tianocore.github.io/wiki/EDK-II. UEFI driver standards are described in the Unified Extensible Firmware Interface Specification, at http://uefi.org/specifications. This document provides basic information for the most common categories of UEFI drivers; other driver designs are possible.
 
 ## Versions
 
