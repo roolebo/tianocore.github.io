@@ -21,8 +21,7 @@ PerformFlashWrite (
 A template of the `PlatformFlashAccessLib` is provided in `SignedCapsulePkg` ([`SignedCapsulePkg/Library/PlatformFlashAccessLibNull`](https://github.com/tianocore/edk2/tree/master/SignedCapsulePkg/Library/PlatformFlashAccessLibNull)). Complete examples of this library can be found in the Intel Galileo Gen 2 & MinnowBoard Max EDK II projects:
 
 * [`QuarkPlatformPkg/Feature/Capsule/Library/PlatformFlashAccessLib`](https://github.com/tianocore/edk2/tree/master/QuarkPlatformPkg/Feature/Capsule/Library/PlatformFlashAccessLib)
-* [`Vlv2TbltDevicePkg/Feature/Capsule/Library/PlatformFlashAccessLib`]
-(https://github.com/tianocore/edk2/tree/master/Vlv2TbltDevicePkg/Feature/Capsule/Library/PlatformFlashAccessLib)
+* [`Vlv2TbltDevicePkg/Feature/Capsule/Library/PlatformFlashAccessLib`](https://github.com/tianocore/edk2/tree/master/Vlv2TbltDevicePkg/Feature/Capsule/Library/PlatformFlashAccessLib)
 
 It is recommended that this new platform specific library instance be placed in your platform package.
 
