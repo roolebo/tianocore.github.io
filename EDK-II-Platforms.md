@@ -13,7 +13,7 @@ Note: new platforms are being developed in the [edk2-platforms](https://github.c
 
 * [[MinnowBoard 3]] - Designed for the open hardware MinnowBoard 3 platform and Leaf Hill Intel Customer Reference Board (CRB), using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake).
 * [[MinnowBoard Max/Turbot|MinnowBoardMax]] - Open hardware platform with open source UEFI firmware, based on the Intel® Atom™ E3800 Series processor.
-* [[Kaby Lake MinPlatform]] - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms.
+* [[Kaby Lake MinPlatform]] - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
 * [[Intel® Galileo Gen 2|Galileo]] - Arduino* certified,  Intel® Quark™ processor, built on fully open-source hardware 
 * [UEFI firmware for N-series Intel® Pentium® Processor and Intel® Celeron® Processor Families](https://firmware.intel.com/projects/braswell-uefi) (IA32 & x64)
 * [[MinnowBoard]] - Intel® Atom™ E640 processor w/ IA32 UEFI firmware (deprecated)
