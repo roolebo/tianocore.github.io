@@ -400,6 +400,10 @@ Contributor workflow
        *.patch
      ```
 
+     (On Windows, you may have to move the `*.patch` files to a
+     dedicated temporary directory, and specify that directory on the
+     command line, in place of the `*.patch` glob.)
+
      This command might ask you about sending the messages in response
      to another message (identified by `Message-Id`). Just press Enter
      without entering anything.
