@@ -26,6 +26,11 @@ You can also refer to Intel's [UEFI PXE Boot Performance Analysis](https://firmw
 
 [Using PXE with UEFI on PowerEdge Servers with SUSE Linux Enterprise Server 11](https://linux.dell.com/files/whitepapers/PXE_UEFI_Dell_SLES11_20oct2010.pdf)
 
+[Deployment Guide - SUSE Linux Enterprise Desktop 12 SP3 (Sections 6.1-6.3 )](https://www.suse.com/documentation/sled-12/pdfdoc/book_sle_deployment/book_sle_deployment.pdf)
+
+[How to Set Up a Multi-PXE Installation Server (Setting Up DHCP Services, -Sec 4,7 )](https://www.suse.com/documentation/suse-best-practices/singlehtml/sbp-multi-pxe-install/sbp-multi-pxe-install.html#sec.setup_dhcp)
+
+
 ## Ubuntu
 
 [UEFI Overview](https://wiki.ubuntu.com/UEFI/)
