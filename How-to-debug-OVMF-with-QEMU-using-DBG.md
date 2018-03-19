@@ -1,23 +1,23 @@
 # Debugging EDK II using OvmfPkg with QEMU and Linux DBG
 This example will show how to debug a simple application built with OvmfPkg then using the QEMU and DBG to debug the UEFI Application.
 
-### The following use a UEFI_APPLICATION SampleApp.c as an example:
-1. Add your UEFI application to the OvmfPkgIa32.dsc (using IA32 as an example) 
-  a. example: `SampleApp/SampleApp.inf`  at the end of the [Components] section
-2. Build OVMF for IA32  ;  `bash$ build -a IA32 -p OvmfPkg/OvmfPkgIa32.dsc`
-3. Copy the output of SampleApp to the `hda-contents` directory as shown in [[How-to-run-OVMF]] as a file system for QEMU.  This will be in a similar directory to: `/home/u-mypc/src/edk2/Build/OvmfIa32/DEBUG_GCC5/IA32`
-  a. SampleApp.efi
-  b. SampleApp.debug
-  c. SampleApp (Directory)
+### The following will use a UEFI_APPLICATION SampleApp.c as an example:
+1. Add your UEFI application to the OvmfPkgIa32.dsc (using IA32 )  example: `SampleApp/SampleApp.inf`  at the end of the `[Components]` section in the OvmfPkgIa32.dsc file.
+2. Build OVMF for IA32  ;  `bash$ build -a IA32 -p OvmfPkg/OvmfPkgIa32.dsc` -t GCC5
+3. Copy the output of SampleApp to the `hda-contents` directory similarly as shown in [[How-to-run-OVMF]] as a file system for QEMU.  This will be in a similar directory to the following : `/home/u-mypc/src/edk2/Build/OvmfIa32/DEBUG_GCC5/IA32`
+```
+   SampleApp.efi
+   SampleApp.debug
+   SampleApp (Directory)
+```
 4. Open a terminal(1) prompt in the `run-ovmf` directory
-5. invoke QEMU:
-`qemu-system-i386 -s  -pflash bios.bin -hda fat:rw:hda-contents -net none -debugcon file:debug.log -global isa-debugcon.iobase=0x402 `
+5. invoke QEMU with the following command:
+`bash$ qemu-system-i386 -s  -pflash bios.bin -hda fat:rw:hda-contents -net none -debugcon file:debug.log -global isa-debugcon.iobase=0x402 `
 6. QEMU Will boot to UEFI Shell prompt
 
 
 ### In the QEMU Window
-
-
+Invoke your application.
 ```
 Shell> fs0:
 Fs0:\> SampleApp.efi
@@ -34,17 +34,19 @@ Loading driver at `0x00006AEE000 ` is the memory location where your UEFI Applic
 Keep this address in mind.
 Additionally you might add a DEBUG statement to your application something like the following to get the entry point of your code. :
 ```
- DEBUG ((EFI_D_INFO,     "My Entry point: 0x%08x\r\n", (CHAR16*)UefiMainMySampleApp )  );
+ DEBUG ((EFI_D_INFO, "My Entry point: 0x%08x\r\n", (CHAR16*)UefiMainMySampleApp )  );
 ```
 Then when you `bash$ cat debug.log` you will also get the entry point for your application. In this example the entry point is `UefiMainMySampleApp`.
 
 ```
 My Entry point: 0x06AEE496 
 ```
+This is useful to double check your symbols are fixed up to the correct line numbers in your source file. Otherwise, the code you see in DBG may not be the code that is executing.
+
 ### Invoking DBG
 In the terminal(2) prompt 
 1. Change to the directory where the `hda-contents` is located
-2. Invoke DBG with the source layout window using `bash$ dbg --tui`
+2. Invoke DBG with the source layout window using `bash$ dbg --tui` .
 3. Load your UEFI Application .efi with the `file` command.
 ```
 (gdb) file SampleApp.efi
@@ -62,7 +64,7 @@ Local exec file:
         0x000028c0 - 0x00002980 is .data
         0x00002980 - 0x00002b00 is .reloc
 ```
-5. We need to calculate our addresses for .text and .data section. Application is loaded under `0x00006AEE000 ` (loading driver point -** NOT Entrypoint**) and we know text and data offsets. 
+5. We need to calculate our addresses for .text and .data section. Application is loaded under `0x00006AEE000 ` (loading driver point -  **NOT** **Entrypoint**) and we know text and data offsets. 
 ```
  text = 0x00006AEE000  +  0x00000240
  data = 0x00006AEE000  +  0x00000240 + 0x000028c0 = 0x00006AF0B00 
@@ -74,8 +76,10 @@ No executable file now.
 No symbol file now.
 ```
 7. Load the symbols with the fixed up address:
+```
 (gdb) add-symbol-file SampleApp.debug 0x00006AEE240 -s .data 0x00006AF0B00 
 add symbol table from file "SampleApp.debug" at
+
         .text_addr = 0x6aee240
         .data_addr = 0x6af0b00
 (y or n) y
