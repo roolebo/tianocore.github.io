@@ -48,7 +48,7 @@ This is useful to double check your symbols are fixed up to the correct line num
 ### Invoking GDB
 In the terminal(2) prompt 
 1. Change to the directory where the `hda-contents` is located
-2. Invoke DBG with the source layout window using `bash$ dbg --tui` .
+2. Invoke GDB with the source layout window using `bash$ gdb --tui` .
 3. Load your UEFI Application .efi with the `file` command.
 ```
 (gdb) file SampleApp.efi
