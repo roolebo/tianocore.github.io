@@ -1,4 +1,4 @@
-[[Home]]<br/>
+**[[Home]]**<br/>
 [[Getting Started with EDK II]]<br/>
 [[EDK II Platforms]]<br/>
 [[EDK II Documents]]<br/>
