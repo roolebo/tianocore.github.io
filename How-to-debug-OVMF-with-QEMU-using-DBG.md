@@ -1,5 +1,5 @@
-# Debugging EDK II using OvmfPkg with QEMU and Linux DBG
-This example will show how to debug a simple application built with OvmfPkg then using the QEMU and DBG to debug the UEFI Application.
+# Debugging EDK II using OvmfPkg with QEMU and Linux GDB
+This example will show how to debug a simple application built with OvmfPkg then using the QEMU and GDB to debug the UEFI Application.
 
 ### The following will use a UEFI_APPLICATION SampleApp.c as an example:
 1. Add your UEFI application to the OvmfPkgIa32.dsc (using IA32 )  example: `SampleApp/SampleApp.inf`  at the end of the `[Components]` section in the OvmfPkgIa32.dsc file.
@@ -110,7 +110,7 @@ Fs0:\> SampleApp.efi
 
 The DBG will hit your break point in your UEFI application's entry point and you can begin to debug with source code debugging.
 
-You can set more break points in your code with : `(gdb) break SampleApp.c:nn` : where `nn` is the line of code in your .c file
+You can set more break points in your code with : `(gdb) break SampleApp.c:nn` : where _nn_ is the line of code in your .c file
 
 Your DBG will look similar to this:
 
