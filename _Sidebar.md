@@ -7,6 +7,6 @@
 [[Reporting Issues]]<br />
 [[Reporting Security Issues]]<br />
 [[Community Information]]<br/>
-[[UDK2017]] / [[UDK2018]] / [[EDK II]]<br/>
+[[UDK2018]] / [[EDK II]]<br/>
 [[Additional Projects]] & [[Tasks]]<br/>
 [[Community Support]]
