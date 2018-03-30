@@ -1,6 +1,6 @@
 Welcome to TianoCore, the community supporting an open source implementation of [[UEFI]]. [[EDK II]] is a modern, feature-rich, cross-platform firmware development environment for the UEFI and [[PI]] specifications. We hope that you’ll delve into our work, use TianoCore for platform firmware, [[report any issues|Reporting Issues]] you find, and contribute to the community.
 
-If you want to compile firmware or utilities, we recommend the [[Getting Started with EDK II]] page. This provides an overview of downloading [EDK II from github](https://github.com/tianocore/edk2) and building a sample platform ([[NT32|Nt32Pkg]], [[OVMF]], [[ArmVirtPkg]], [[MdePkg]], ...). The latest stable snapshot of the EDK II project, [[UDK2017]], was released in June 2017.
+If you want to compile firmware or utilities, we recommend the [[Getting Started with EDK II]] page. This provides an overview of downloading [EDK II from github](https://github.com/tianocore/edk2) and building a sample platform ([[NT32|Nt32Pkg]], [[OVMF]], [[ArmVirtPkg]], [[MdePkg]], ...). The latest stable snapshot of the EDK II project, [[UDK2018]], was released in March 2018.
 
 There are multiple [[hardware platforms|EDK II Platforms]] using EDK II open source UEFI firmware, including [[MinnowBoard Max/Turbot|MinnowBoardMax]], [[MinnowBoard 3]], and [[Intel® Galileo Gen 2|Galileo]]. This allows you to experiment and develop UEFI features on real hardware.
 
