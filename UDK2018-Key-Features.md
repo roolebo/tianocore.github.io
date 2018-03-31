@@ -20,12 +20,20 @@
     * Add additional alignment in FFS file
     * Support standalone MM module generation
   * ACPI 6.2
-* Centralized Configuration Management
+    * Add ACPI IO Remapping Table (IORT) definition
 * IOMMU-based DMA Protection
-* Stack Guard, Heap Guard and NULL Pointer Detection
+* Support Stack Guard, Heap Guard and NULL Pointer Detection
+* Update OpenSSL version to the new 1.1.0g.
+* Support CPU PPIN, LMCE and PROC_TRACE feature.
+* Add OpalPassword solution without SMM device code.
+* Update performance infrastructure to save perf entry in ACPI FPDT table.
+* Remove TrEE libraries and drivers.
+* Support Structure PCD as Centralized Configuration Management.
+* Support Structure PCD asCentralized Configuration Management
 * Microsoft Visual Studio 2017 tool chain
-* Hash-based incremental build
+* Support hash-based build to improve the incremental build performance
 * Build time improvement using multi-threading in GenFds to generate FFS files
+*  Support XCODE5 tool chain build and boot functionality.
 
 **********
 **Note:** This page describes the  package notes and the differences based on previous UEFI Development Kit ([[UDK]]) UDK2017 Release.
