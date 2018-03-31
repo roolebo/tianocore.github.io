@@ -62,8 +62,8 @@ The Platform will need to update as in the line below for their platform dsc and
 SecurityPkg/Tcg/Opal/OpalPasswordDxe/OpalPasswordDxe.inf
 -> SecurityPkg/Tcg/Opal/OpalPassword/OpalPasswordDxe.inf
 ```
-The Platform will need to add the line below in their platform dsc and fdf files.
-`SecurityPkg/Tcg/Opal/OpalPassword/OpalPasswordPei.inf`
+The Platform will need to add the line below in their platform dsc and fdf files. <br>
+`SecurityPkg/Tcg/Opal/OpalPassword/OpalPasswordPei.inf` <br>
 The platform will also need to connect the trusted storage and console to enable the new `OpalPassword` solution. The `S3` reserved memory size (for example, `PcdS3AcpiReservedMemorySize`) will need to be enlarged as well as the new `OpalPasswordPei` will need to allocate a DMA buffer for DMA operations to unlock the OPAL device.
 
 14. A new field Translation is added to `PCI_ROOT_BRIDGE_APERTURE` structure in `MdeModulePkg/Include/Library/PciHostBridgeLib.h`. A Platform whose HOST address equals to DEVICE address needs to initialize this field to 0.
