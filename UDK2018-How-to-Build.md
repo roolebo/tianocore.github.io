@@ -57,7 +57,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
        `edksetup --nt32`
     3)  Type following command to build Nt32 platform
         `build -t VS2015x86`
-    4)  Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the C:\MyWorkspace\Build\MdeModule\DEBUG_VS2015x86\IA32 directory
+    4)  Upon the build completing successfully there should be the UEFI Application "`HelloWorld.efi`"  in the C:\MyWorkspace\Build\NT32IA32\DEBUG_VS2015x86\IA32 directory
 
 
 ---
