@@ -44,7 +44,6 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
     2)  Compile the BaseTools C source tools  
 <pre>
 	set PYTHON_HOME=C:\Python27
-        set EDK_TOOLS_PATH=%CD%\BaseTools
         BaseTools\toolssetup.bat Rebuild
 </pre>
 
