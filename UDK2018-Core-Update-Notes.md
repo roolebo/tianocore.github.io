@@ -6,7 +6,7 @@ GCC:*_*_*_DLINK_FLAGS = -Wl,--no-whole-archive
 ```
 2. The `MdePkg BaseLib` adds a new API `CalculateCrc32()` to calculate CRC32 value. If the source code has the same function name, it will need to be updated to use BaseLib one.
 
-3. The Define `GLOBAL_REMOVE_IF_UNREFERENCED` as empty in `Base.h` for Visual Studio 2013* (VS2013) or later compiler. If the platform defines this MACRO as the different value, the platform will need to update their code to remove this macro definition, and use it from Base.h. If platform has the duplicated global variable name from the different libraries, it may be exposed by this change. Platform will need to update the code to avoid the duplicated global variable name.
+3. The Define `GLOBAL_REMOVE_IF_UNREFERENCED` is defined as empty in `Base.h` for Visual Studio 2013* (VS2013) and later compilers. If the platform defines this MACRO as the different value, the platform will need to update their code to remove this macro definition, and use it from Base.h. If the platform has the duplicated global variable name from the different libraries, it may be exposed by this change. Platforms will need to update the code to avoid the duplicated global variable name.
 
 4. To follow UEFI 2.7, the variable driver is updated to do more check and expose an issue in `ShellPkg DmpStore.c`. Then the `DmpStore` command in old the SHELL will not work. The New UEFI SHELL binary or source needs to be used.
 
