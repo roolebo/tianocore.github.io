@@ -9,6 +9,26 @@
 *'''Date Published'''<BR>
 </td>
 </tr>
+
+<tr>
+<td>
+[https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-mitigate-buffer-overflow-in-ue/details Gitbook PDF]
+
+</td>
+<td>
+
+[https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-mitigate-buffer-overflow-in-ue/details A Tour Beyond BIOS- Security Enhancement to Mitigate Buffer Overflow in UEFI ]
+contributed by Jiewen Yao, Vincent Zimmer and Jian Wang<BR>
+
+
+A buffer overflow is “one of the most important exploitation techniques in the history of computer security.” [ [https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&field-author=Andrew+S.+Tanenbaum&search-alias=books&text=Andrew+S.+Tanenbaum&sort=relevancerank Tanenbaum] ] “Buffer overflows are ideally suited for introducing three of the most important protection mechanisms available in most modern systems: stack canaries, data execution protection, and address-space layout randomization.”[ [https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&field-author=Andrew+S.+Tanenbaum&search-alias=books&text=Andrew+S.+Tanenbaum&sort=relevancerank Tanenbaum] ] However, the current UEFI firmware implementation only adopted a few of these mechanisms. <BR>
+This paper will introduce how to enable the protection mechanisms in UEFI firmware to harden the pre-boot phase.
+* March 2018 [https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-mitigate-buffer-overflow-in-ue/details V 2.0 Gitbook]
+* October 2016 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf V 1.0 PDF]
+
+</td>
+</tr>
+
 <tr>
 <td>
 [https://www.gitbook.com/book/edk2-docs/getting-started-guide-of-edk-ii-http-boot/details GitBook PDF]
@@ -74,24 +94,7 @@ In this paper, we provide more details on how we implement capsule update and re
 </td>
 </tr>
 
-<tr>
-<td>
 
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf .PDF]
-
-</td>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Securiy_Enhancement_to_Mitigate_Buffer_Overflow_in_UEFI.pdf A Tour Beyond BIOS- Security Enhancement to Mitigate Buffer Overflow in UEFI ]
-contributed by Jiewen Yao and Vincent Zimmer<BR>
-
-
-A buffer overflow is “one of the most important exploitation techniques in the history of computer security.” [Tanenbaum] "Buffer overflows are ideally suited for introducing three of the most important protection mechanisms available in most modern systems: stack canaries, data execution protection, and address-space layout randomization.” [Tanenbaum] 
-However, the current UEFI firmware implementation only adopted a few of these mechanisms.
-<BR>
-This paper will introduce how to enable the protection mechanisms in UEFI firmware to harden the pre-boot phase.
-* October 2016 
-</td>
-</tr>
 
 <tr>
 <td>
