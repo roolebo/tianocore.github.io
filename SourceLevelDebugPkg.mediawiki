@@ -3,3 +3,5 @@ This package includes a source code debugger agent into a platform, which connec
 https://github.com/tianocore/edk2/tree/master/SourceLevelDebugPkg
 
 Host debug applications for Microsoft Windows and Linux are available here: https://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool#overlay-context=develop
+
+Info for debugging with gdb is available here: [[How to debug OVMF with QEMU using GDB]]
