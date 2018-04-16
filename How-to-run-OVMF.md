@@ -1,4 +1,4 @@
-How to run [OVMF](http://www.tianocore.org/ovmf/) with QEMU or KVM
+How to run [[OVMF]] with QEMU or KVM.
 
 Pre-requisites
 --------------
@@ -9,7 +9,12 @@ To install on Debian/Ubuntu: <code>sudo apt-get install qemu</code>
 
 ### Get a build of OVMF.fd
 
-The latest pre-built binaries of OVMF are available from the main [OVMF](http://www.tianocore.org/ovmf/) page, or from [OVMF downloads](http://sourceforge.net/projects/edk2/files/OVMF) area. You can also [build OVMF](How_to_build_OVMF "wikilink") if you are interested.
+You can [build OVMF](How_to_build_OVMF "wikilink") based on the latest version of [[EDK II]].
+
+Pre-built images are available at https://www.kraxel.org/repos/
+  * These images are automatically built and track the latest OVMF code in the EDK II tree.
+  * Some of these builds include a seabios CSM and can boot non-UEFI “legacy” operating systems. Note: seabios is GPLv3 licensed)
+  * If your OS doesn’t work with RPM repositories, then you can manually download and decompress the RPM files under jenkins/edk2
 
 Choose the correct processor architecture
 -----------------------------------------
