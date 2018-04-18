@@ -1,4 +1,4 @@
-Current  [[UDK2015]] Releases
+Current [[UDK]] Releases
 
 ==='''UDK2010 Releases'''===
 <!-- TABLE start -->
