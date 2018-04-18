@@ -3,7 +3,7 @@
 <table>
 <tr><th colspan="4" style="background-color:#a9c6dd">EDK II User Documentation</th></tr>
 <tr>
-<th>Document DownLoad</th>
+<th>Document Download</th>
 <th>Description</th>
 </tr>
 <tr>
@@ -53,16 +53,11 @@ NOTE SVNs: For Nt32Pkg requires -r13186, For OVMF Requires -r13160 beyond UDK201
 
 <tr>
     <td>
-[https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UEFI_Driver_Writer_Guide_V1.0.1_120308.pdf PDF]
+[https://legacy.gitbook.com/book/edk2-docs/edk-ii-uefi-driver-writer-s-guide/details gitbook]
     </td>
 
     <td>
-Driver Writer Guide V1.01 <br>
-The UEFI Driver Writer Guide V1.0.1 document is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please also refer to the [[Driver-Developer]] page for the EDK II UEFI Driver Developer Wizard.
-
-UEFI Drivers are described in the Unified Extensible Firmware Interface Specification, Version 2.3.1. There are different categories of UEFI Drivers, and many variations of each category. This document provides basic information for the most common categories of UEFI drivers. Many other driver designs are possible.
-
-* March 2012
+The [[UEFI Driver Writer's Guide]] is designed to aid in the development of UEFI Drivers using the EDK II open source project as a development environment. Please refer to the [[Driver Developer]] page for more information.
     </td>
 </tr>
 
@@ -118,33 +113,8 @@ This document defines the guidelines for writing the test cases under UEFI Self-
 * July 2009
     </td>
 </tr>
-<tr>
-    <td>
 
-    </td>
-
-    <td>
-
-    </td>
-</tr>
-<tr>
-    <td>
-
-    </td>
-
-    <td>
-
-    </td>
-</tr>
-<tr>
-    <td>
-
-    </td>
-
-    <td>
-
-    </td>
-</tr>
+<!--
 <tr>
     <td>
 Previous UDK Releases
@@ -155,5 +125,6 @@ Previous UDK Releases
     </td>
 </tr>
 <tr></tr>
+-->
 
 </table>
