@@ -145,6 +145,16 @@ a constraint, but as an enabling philosophy which will:
 
   These rules apply to all code developed.
 
+* **_EDK II Driver Writer's Guide for UEFI 2.3.1_** \[
+[HTML   ](https://edk2-docs.gitbooks.io/edk-ii-uefi-driver-writer-s-guide/content),
+[PDF    ](https://legacy.gitbook.com/download/pdf/book/edk2-docs/edk-ii-uefi-driver-writer-s-guide),
+[Mobi   ](https://legacy.gitbook.com/download/mobi/book/edk2-docs/edk-ii-uefi-driver-writer-s-guide),
+[ePub   ](https://legacy.gitbook.com/download/epub/book/edk2-docs/edk-ii-uefi-driver-writer-s-guide),
+[Gitbook](https://legacy.gitbook.com/book/edk2-docs/edk-ii-uefi-driver-writer-s-guide),
+[GitHub ](https://github.com/tianocore-docs/edk2-UefiDriverWritersGuide)
+\] This document is designed to aid in the development of UEFI Drivers using the EDK II open source
+project as a development environment.
+
 ---
 
 * **_EDK II Template Specification_** \[
