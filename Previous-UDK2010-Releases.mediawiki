@@ -182,12 +182,12 @@ Download</th>
 <tr>
 <!--  Col 1 -->
 <td>
-Go to [[Driver_Developer]]  
+Go to [[Driver Developer]]  
 </td>
 
 <!--  Col 2 -->
 <td>
-UEFI Driver Writer's Wizard and the UEFI Driver Writer's Guide supports UEFI 3.2.1 version of the Specification. See the [[Driver_Developer]] page for more resources for UEFI Driver Writers Resources 
+The UEFI Driver Wizard and [[UEFI Driver Writer's Guide]] support UEFI Specification 2.3.1. See the [[Driver Developer]] page for more resources.
 </td>
 
 <!--  Col 3 -->
