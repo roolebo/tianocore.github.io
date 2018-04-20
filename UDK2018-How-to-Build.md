@@ -27,7 +27,8 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
         2) Extract files in [edk2-vUDK2018] to the working space directory C:\MyWorkspace.
     3) **OR**  Checkout the vUDK2018 Tag from GitHub with the following "git" command <br>
         1)  run  `git clone  https://github.com/tianocore/edk2.git vUDK2018`
-        2)  Move all files and folders under "vUDK2018" to "C:\MyWorkspace"
+        2)  Go to the vUDK2018 directory, and from there run: `git checkout tags/vUDK2018 -b vUDK2018`
+        3)  Move all files and folders under "vUDK2018" to "C:\MyWorkspace"
 
 3.  Generate OpenSSL* Crypto Library
     1)  Open file "C:\MyWorkspace\CryptoPkg\Library\OpensslLib\OpenSSL-HOWTO.txt"
@@ -94,7 +95,8 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
         2) Extract files in [edk2-vUDK2018] to the working space directory ~/src/MyWorkspace.
     3) **OR**  Checkout the vUDK2018 tag from GitHub with the following "git" command 
         1)  Run `"git clone https://github.com/tianocore/edk2.git vUDK2018"`
-        2)  Move all files and folders under "vUDK2018" to "~/src/MyWorkspace"
+        2)  Go to the vUDK2018 directory, and from there run: `git checkout tags/vUDK2018 -b vUDK2018`
+        3)  Move all files and folders under "vUDK2018" to "~/src/MyWorkspace"
 	 
 3.  Generate OpenSSL* Crypto Library
     1)  Open file "~/src/MyWorkspace/CryptoPkg/Library/OpensslLib/OpenSSL-HOWTO.txt"
