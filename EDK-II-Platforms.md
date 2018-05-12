@@ -11,7 +11,7 @@ Note: new platforms are being developed in the [edk2-platforms](https://github.c
 
 ### Intel® Processor Platforms
 
-* [[Intel Atom® Processor E3900 Series|devel-IntelAtomProcessorE3900]] - Designed for platforms using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake). Includes the Leaf Hill CRB and MinnowBoard 3 Module.
+* [[Intel Atom® Processor E3900 Series|devel-IntelAtomProcessorE3900]] - Designed for platforms using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake). Includes the Leaf Hill CRB and [[MinnowBoard 3]] Module.
 * [[MinnowBoard Max/Turbot|MinnowBoardMax]] - Open hardware platform with open source UEFI firmware, based on the Intel® Atom™ E3800 Series processor.
 * [[Project Olympus (Purley MinPlatform)|Purley MinPlatform]] - EDK II platform firmware for the Open Compute Project (OCP) [Intel XSP Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
 * [[Kaby Lake MinPlatform]] - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
