@@ -33,9 +33,11 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 
 * The EDK II project repository is available at https://github.com/tianocore/edk2. 
 * Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
-* Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<BR>
+* EDK II Platforms are available at https://github.com/tianocore/edk2-platforms.
+* Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.
 
 ==EDK II Development Process==
+
 After setting up your build environment see  [[EDK II Development Process]] for making contributions to the EDK II Project.
 
 ==Further Help==
