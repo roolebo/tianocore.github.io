@@ -1,4 +1,4 @@
-The documents in this page are the latest draft revisions published using [Gitbook](https://www.gitbook.com).
+The documents in this page are the latest draft revisions published using [Gitbook](https://legacy.gitbook.com/).
 The source content for these documents are in GIT repositories in the
 [Tianocore-docs](https://github.com/tianocore-docs) organization hosted by [GitHub](https://github.com).
 Feedback on these documents may be provided using the [Gitbook](https://www.gitbook.com) commenting feature
