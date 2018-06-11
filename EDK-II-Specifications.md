@@ -1,5 +1,5 @@
 # **EDK II Specifications**
-This page contains the released versions of the EDK II Specifications published using [Gitbook](https://www.gitbook.com).<br>
+This page contains the released versions of the EDK II Specifications published using [Gitbook](https://legacy.gitbook.com/).<br>
 * The latest draft versions of the EDK II Specification can be found on the [[EDK II Draft Specification]] page.
 * The previous versions of the EDK II Specifications can be found on the [[EDK II Specifications Archived]] page.<Br>
 
