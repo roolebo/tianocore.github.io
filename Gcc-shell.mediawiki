@@ -1,3 +1,5 @@
+<b><i>Note: this package has been deprecated. Please refer to [[Shell]] and [[ShellPkg]] for the latest info.</i></b>
+
 <!-- [[Category:EDKII]] -->
 {{Shell}}
 {{project-summary
