@@ -1,3 +1,7 @@
+[[EDK II Platforms]] | [Intel® Processor Platforms](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Platforms#intel-processor-platforms)
+
+***
+
 ## Intel® Galileo Gen 2 Development Board
 
 Open source UEFI firmware for the Intel® Galileo Gen 2 Development Board is available in EDK II:
