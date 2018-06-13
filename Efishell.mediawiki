@@ -1,7 +1,3 @@
-<!-- [[Category: EFI Shell]] -->
-Teh EFI shell releases are part of the EDK "1" [[efidevkit| EDK]] build infastructure and can be downloaded from the following:
+<b><i>Note: EDK Shell has been deprecated. Please refer to [[Shell]] and [[ShellPkg]] for the latest information.</i></b>
 
-* [[EFI Shell|EDK Shell]] EDK EFI Shell - Matched to EDK "1" releases
-* [http://sourceforge.net/projects/efi-shell/ EFI Shell Page] - Sourceforge EFI Shell Summary Page
-
-Each release is matched to a cooresponding EDK Release
+EFI shell releases are part of the EDK build infrastructure. Also referred to as [[EFI Shell]].
