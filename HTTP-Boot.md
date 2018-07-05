@@ -1,14 +1,14 @@
 # **UEFI HTTP Boot**
 
-## HTTP BOOT
+For a detailed description on UEFI HTTP Boot, see the "HTTP Boot" section of the [UEFI Specification](http://www.uefi.org/specifications).
 
-For detailed description on UEFI HTTP Boot, see the "HTTP Boot" section in [UEFI Specification](http://www.uefi.org/specifications).
-
-### HTTP Boot Getting Start
+### HTTP Boot: Getting Started
 
 Please refer to the white paper [EDK II HTTP Boot Getting Started Guide](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf) for a step by step guide of the HTTP Boot enabling and server configuration in **corporate environment**.
 
-Besides the standard DHCP parameters like the station IP, gateway and DNS server address, the EDK II HTTP Boot driver will use below extensions assigned by DHCP server in corporate environment.
+Additional information is available on the openSUSE Wiki: [UEFI HTTPBoot with OVMF](https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF).
+
+Besides the standard DHCP parameters like the station IP, gateway and DNS server address, the EDK II HTTP Boot driver will use the extensions below, assigned by the DHCP server in a corporate environment.
 
 | Tag Name | Tag # (DHCPv4) | Tag # (DHCPv6)| Length | Data Field |
 | --- | --- | --- | --- |--- |
@@ -18,7 +18,7 @@ Besides the standard DHCP parameters like the station IP, gateway and DNS server
 
 ### URI Configuration in Home Environment
 
-Unlike the corporate network, in a typical home network only a standard DHCP server is available for host IP configuration assignment, the boot file URI need to be entered by user instead of the DHCP HTTPBoot extensions.
+Unlike the corporate network, the DHCP server in a typical home network environment is only available for host IP configuration assignment. This means the boot file URI must be entered by the user instead of the DHCP HTTPBoot extensions.
 ![Home Network Topology](https://github.com/tianocore/tianocore.github.io/wiki/Projects/NetworkPkg/Images/Home.png)
 
 EDK II HTTP Boot driver provides a configuration page for the boot file URI setup.
