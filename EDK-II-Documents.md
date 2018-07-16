@@ -3,4 +3,4 @@
 * [[EDK II Libraries and Helper files]]
 * [[EDK II White papers]]
 * [[EDK II Driver Developer Page|Driver Developer]]
-* [EDK II Documents on GitBook](https://www.gitbook.com/@edk2-docs)
+* [EDK II Documents on GitBook](https://legacy.gitbook.com/@edk2-docs)
