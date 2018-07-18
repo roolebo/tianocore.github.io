@@ -1,9 +1,23 @@
 This page provides step-by-step instructions for setting up a [http://www.tianocore.org/edk2/ EDK II] build environment on Mac OS X systems using the Xcode development tools.  These steps have been verified with macOS Sierra Version 10.12.4
 
 # Mac OS X Xcode
-Download the latest version of [Xcode](https://developer.apple.com/xcode) (8.3.2) from the Mac App Store
+Download the latest version of [Xcode](https://developer.apple.com/xcode) (9.4.1 as of this writing) from the Mac App Store.  After installing Xcode, you will additionally need to install the extra command-line tools.  To do this, at a Terminal prompt, enter:
+```
+$ xcode-select --install
+```
+## Additional Development Tools
+While Xcode provides a full development environment as well as a suite of different utilities, it does not provide all tools required for Tianocore development.  These tools can be provided in a number of ways, but the two most popular ways come from [Brew](https://brew.sh) and [MacPorts](https://www.macports.org/install.php).  Installation information is provided at the previous links.
 
-Xcode is targeted at creating great Mac and iPhone applications. An extra tool, called mtoc, is required to convert from the OS X Mach-O image format to PE/COFF as required by UEFI.
+### MacPorts Tips
+* If you work behind a firewall and need to pass your network traffic through a proxy, ensure you set the environment variable RSYNC_PROXY to your http proxy in the form of `proxy.dns.name:port_number`.
+   * Remember that `sudo` by default drops most environment variables.  Add the `-E` option to tell `sudo` to keep your environment variables.
+* When installing MacPorts packages, if you would like to build from source like traditional [FreeBSD Ports](https://en.wikipedia.org/wiki/FreeBSD_Ports) systems, add the `-s` option to the command line.  Otherwise, default behavior is to pull precompiled packages. 
+
+## Install mtoc
+The mtoc utility is required to convert from the macOS Mach-O image format to the PE/COFF format as required by the UEFI specification.
+
+### Brew Instructions
+Brew does not have an inbuilt version of mtoc so you must create it from source
 
 Go to http://www.opensource.apple.com/ and click on the latest open source version of the developer tools (currently 8.2.1) and you will get a list of projects that can be downloaded. 
 
@@ -17,73 +31,98 @@ To build `mtoc` you will need to copy an include directory from the LLVM project
 * Copy the include/llvm-c and include/llvm directories from LLVM into the cctools include directory, but do not overwrite include/llvm-c/Disassembler.h.
 
   ```
-  cp cctools-895/include/llvm-c/Disassembler.h .
-  cp -R llvm-4.0.0.src/include/llvm cctools-895/include/llvm
-  cp -R llvm-4.0.0.src/include/llvm-c cctools-895/include/llvm-c
-  cp Disassembler.h cctools-895/include/llvm-c
+  $ cp cctools-895/include/llvm-c/Disassembler.h .
+  $ cp -R llvm-4.0.0.src/include/llvm cctools-895/include/llvm
+  $ cp -R llvm-4.0.0.src/include/llvm-c cctools-895/include/llvm-c
+  $ cp Disassembler.h cctools-895/include/llvm-c
   ```
 
 Then from the top cctools directory type:
 
 ```
-cd cctools-895
-make
+$ cd cctools-895
+$ make
 ```
 
 The make will finish with an error message on the file `strip.c`. This is expected. Then do the following:
 
 ```
-cd efitools
-make
+$ cd efitools
+$ make
 ```
 
 You have now built the command line application `mtoc.NEW`! Move it to a more useful location. 
 
 ```
-sudo cp mtoc.NEW /usr/local/bin/mtoc
+$ sudo cp mtoc.NEW /usr/local/bin/mtoc
 ```
 
 If this fails you probably don't have a local/bin directory under /usr. You need to add the directories by hand 
 
 ```
-cd /usr
-sudo mkdir local
-cd local
-sudo mkdir bin 
+$ cd /usr
+$ sudo mkdir local
+$ cd local
+$ sudo mkdir bin 
 ```
+## MacPorts Instructions
+```
+$ sudo port install cctools
+```
+By default, this will install `mtoc` at `/opt/local/bin/mtoc`.
 # Install NASM
 
-In order to support EDK II firmware builds, the latest version of NASM from http://www.nasm.us/ must be installed.
-
+The assembler used for EDK II builds is Netwide Assembler (NASM). The latest version of NASM is available from http://www.nasm.us/.
+## Brew Instructions
 ```
-brew install nasm
-brew upgrade nasm
+$ brew install nasm
+$ brew upgrade nasm
 ```
+## MacPorts Instructions
+```
+$ sudo port install nasm
+```
+By default this installs `nasm` at `/opt/local/bin/nasm`.
 
 # Install ACPI Compiler
 
-In order to support EDK II firmware builds, the latest version of the ASL compiler from https://acpica.org must be installed.
-
+In order to support EDK II firmware builds, the latest version of the ASL compiler from https://acpica.org must be installed.  The ASL compiler is required to build ACPI Source Language code.
+## Brew Install
 ```
-brew install acpica
-brew upgrade acpica
+$ brew install acpica
+$ brew upgrade acpica
 ```
+## MacPorts Install
+```
+$ sudo port install acpica
+```
+By default this installs `iasl` at `/opt/local/bin/iasl`
 
 # Install QEMU Emulator
 
 On order to support running the OVMF platforms from the OvmfPkg, the QEMU emulator from http://www.qemu.org/ must be installed.
 
+## Brew Install
 ```
-brew install qemu
-brew upgrade qemu
+$ brew install qemu
+$ brew upgrade qemu
 ```
+## MacPorts Install
+```
+$ sudo port install qemu
+```
+By default qemu is installed in `/opt/local/bin`.
+## Update PATH environment variable
 
-# Update PATH environment variable
-
-Tools installed using the `brew` command are placed in `usr/local/bin`.  The `PATH` environment variable must be updated so the newly installed tools are used instead of older pre-installed tools.
+Tools installed using the `brew` command are placed in `/usr/local/bin`.  The `PATH` environment variable must be updated so the newly installed tools are used instead of older pre-installed tools.
 
 ```
 export PATH=/usr/local/bin:$PATH
+```
+
+Tools installed using the `port` should automatically be in your shell's PATH.  If not, you can manually set it by:
+```
+export PATH=/opt/local/bin:$PATH
 ```
 
 # Verify tool versions
@@ -184,5 +223,3 @@ Please note the gcc-shell and UnixPkg build separately, so if you update shell c
 # Continue with common instructions
 
 The [remaining instructions](../Common-instructions) are common for most UNIX-like systems.
-
-
