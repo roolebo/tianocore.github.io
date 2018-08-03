@@ -285,7 +285,7 @@ This paper targets firmware, software, and BIOS engineers.
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK_II_Build_Decoded.pdf .PDF]
 </td>
 <td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK2_Build_Decoded.pdf EDK II Build Decoded]<BR>
+[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDK_II_Build_Decoded.pdf EDK II Build Decoded]<BR>
 
 Discussion of the files that are used in a build and their purpose.
 * April 2012
