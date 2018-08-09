@@ -13,6 +13,7 @@
 * Open [[Tasks]] suggested by the EDK II community.
 * [[Coreboot UEFI Payload|Coreboot_UEFI_payload]] open community project.
 * [EDK II Build Data Viewer](https://github.com/01org/edkiibuilddataviewer) project at 01.org
+* [[MicroPython Test Framework for UEFI]] - framework for unit testing and test automation, based on a port of [[MicroPython]] to UEFI for a lightweight and minimalist implementation.
 
 ### [[EDK II Platforms]]
 
