@@ -12,6 +12,27 @@ https://github.com/tianocore/edk2-staging/tree/MicroPythonTestFramework/MicroPyt
 
 This project was publicly announced in March 2018 and added to the [edk2-staging](https://github.com/tianocore/edk2-staging) branch in August 2018.
 
+# Code Structure
+
+Commits are based on latest UDK2018, and include three packages:
+
+ * MicroPythonPkg: MicroPython Interpreter for UEFI
+ * MpyTestFrameworkPkg: MicroPython Test Framework for UEFI
+ * MpyTestCasePkg: One placeholder to contain the future platform test cases repo. 
+
+See README.md files in Package folders for more information.
+
+The following git commands sync with the latest branch:
+
+```
+$ git clone https://github.com/tianocore/edk2-staging
+$ cd edk2-staging
+$ git checkout MicroPythonTestFramework
+$ git submodule update --init –recursive               
+```
+
+_Note: The last command will sync all submodule sources_
+
 # References
 
 MicroPython Project Website: https://micropython.org/
