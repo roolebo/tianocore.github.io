@@ -43,5 +43,11 @@ Current list of [[Tasks]] identified by the EDK II community.
 
 Stable releases, based on validation using various platforms, are labeled as "UEFI Development Kit" ([[UDK]]). The year tag indicates the year of major specifications used for the release.
 
-[[UDK2017]] | [[UDK2015]] | [[UDK2014]] | [[UDK2010]]
+[[UDK2018]] | [[UDK2017]] | [[UDK2015]] | [[UDK2014]] | [[UDK2010]]
 
+## Stable Tags
+
+Stable tags are created on `edk2/master` based on validation using various platforms.  Stable tags names use
+the format `edk2-stable<4 digit year><2 digit month>`.
+
+[edk2-stable201808](https://github.com/tianocore/edk2/releases/tag/edk2-stable201808)
