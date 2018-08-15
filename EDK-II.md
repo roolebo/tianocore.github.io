@@ -51,3 +51,7 @@ Stable tags are created on `edk2/master` based on validation using various platf
 the format `edk2-stable<4 digit year><2 digit month>`.
 
 [edk2-stable201808](https://github.com/tianocore/edk2/releases/tag/edk2-stable201808)
+
+## Future Release and Tag Planning
+
+[[EDK-II-Release-Planning]]
