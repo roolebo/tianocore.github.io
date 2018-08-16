@@ -17,6 +17,12 @@
 
 ### [[EDK II Platforms]]
 
+### Hackathons
+
+Hackathons are in-person events designed to encourage developer feedback on TianoCore projects and features. These are typically associated with, or adjacent to, other firmware-related conferences.
+
+* [[OSFC 2018]] - Open Source Firmware Conference. Sept 12-15, 2018. Erlangen, Germany
+
 ### [[Other Projects (Non EDK II Projects)|Additional-Projects-other]]
 
 ## Important Information
