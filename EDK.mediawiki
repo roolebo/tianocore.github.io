@@ -1,17 +1,3 @@
-<!-- [[Category:EDK]] -->
-The '''EDK''' is the open-source component of the "Framework", Intel's implementation of the EFI Specification, which was developed under the project codenamed "Tiano". The EDK was released under the  [[BSD License]]. Refer to the [[EFI and Framework Open Source Community FAQ]]   for a full explanation of how the EDK relates to the EFI effort.
-
-'''Note that EDK has been deprecated in favor of [[EDK II]].'''
-
-=='''Working with the EDK'''==
-
-The EDK is essentially a container for the Framework's Foundation code and sample drivers. The EDK is also a development kit for developing, debugging, and testing EFI and Framework drivers, EFI Option ROMs, and EFI Applications for use in the Framework environment. To download snapshots of development or official release of the EDK, click on the link and choose the release to start the download process.  Download the [http://sourceforge.net/projects/efidevkit/files/Edk%20Getting%20Started%20Guide%5B1%5D.0.41.pdf/download EDK Getting Started Guide] (pdf) for guidance on building and using the EDK to develop and test drivers.  The [http://www.intel.com/technology/framework/spec.htm Framework Specification] on the Intel website.  To learn more about the EDK codebase see the [[Modules]] EDK Module Structure Explained.
-
-* Developer page: http://sourceforge.net/projects/efidevkit/develop
-* EDK Files page: http://sourceforge.net/projects/efidevkit/files
-
-
-=='''Releases'''==
 					<div class="t_projects">
 						<table>
 							<tr>
@@ -112,6 +98,44 @@ The EDK is essentially a container for the Framework's Foundation code and sampl
 								<td>
 								<a class="external text" href="http://sourceforge.net/projects/efidevkit/files/Releases/Others/EDK%20HII%20Evaluation%20Package.zip/download">
 								EDK HII Evaluation Package</a>
+								 </td>
+								<td>Other Projects
+								</td>
+								<td>&nbsp;</td>
+                                                                <td>&nbsp;</td>
+							</tr>
+							<tr>
+							<th>Gig Undi</th>
+								<th>&nbsp;</th>
+								<th>&nbsp;</th>
+								<th>&nbsp;</th>
+							</tr>
+							<tr>
+							<td>
+							<a href="https://downloadcenter.intel.com/download/19186/Intel-Ethernet-Connections-Boot-Utility-Preboot-Images-and-EFI-Drivers">Intel® Ethernet Connections Download page
+							</a>
+							</td>
+							<td>
+					Intel® Ethernet Connections Boot Utility, Preboot Images, and EFI Drivers <br>					
+							Download Latest Versions of the UEFI Gig Undi Bin and Source:
+							<ul>
+								<li>Download 
+								preboot.exe and expand to disk</li>
+								<li>
+								Goto APPS\EFI\OPENSRC for undi source.</li>
+								<li>
+								Undi binaries are in EFIx64</li>
+							</ul>
+							<p>&nbsp;</td>
+							<td>
+							</td>
+							<td>
+							</td>
+							</tr>
+							<tr>
+							<td>
+								<p>
+								<b>Older versions</b></p>
 								<p>
 								<a class="external text" href="http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_efi_src_4606.zip/download">
 								Intel Undi UEFI Source 4606.zip</a> </p>
@@ -130,36 +154,12 @@ The EDK is essentially a container for the Framework's Foundation code and sampl
 								<p>
 								<a class="external text" href="http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_pci_src_3512.zip/download">
 								gig pci src 3512.zip</a> </td>
-								<td>Other Projects
-								<p><br>
+								<td>&nbsp;<p><br>
 								Fix to the Undi EDK Intel(R) PRO/1000 Network 
 								Driver </td>
 								<td>&nbsp;</td>
-								<td>&nbsp;</td>
+								<td>&nbsp;</td>							
+							
 							</tr>
 						</table>
 					</div>
-
-[[Previous EDK and Shell Releases]]
-
-=='''Sub Projects'''==
-
-[[Edk-apps|edk-apps]]
-
-[[Network-io|network-io]]
-
-License information: [http://www.opensource.org/licenses/bsd-license.php BSD]
-
-Project owner(s): Email the [[edk2-devel| efidevkit-devel ]] email list
-=='''Member Links'''==
-
-* [http://sourceforge.net/apps/trac/efidevkit/report/8 Query of Open and Active EDK Defects]
-* [http://sourceforge.net/project/memberlist.php?group_id=288624 Request for a Project Role] (initial or promotion)
-
-
-=='''Project Points of Contact'''==
-* [[modules|EDK Module Owners]]
-
-
-=='''Useful Links'''==
-* [http://www.intel.com/technology/framework/spec.htm Link to the Intel EFI 1.10 Specification] (on Intel's Site)
