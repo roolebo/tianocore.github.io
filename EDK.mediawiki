@@ -104,38 +104,10 @@
 								<td>&nbsp;</td>
                                                                 <td>&nbsp;</td>
 							</tr>
-							<tr>
-							<th>Gig Undi</th>
-								<th>&nbsp;</th>
-								<th>&nbsp;</th>
-								<th>&nbsp;</th>
-							</tr>
+
 							<tr>
 							<td>
-							<a href="https://downloadcenter.intel.com/download/19186/Intel-Ethernet-Connections-Boot-Utility-Preboot-Images-and-EFI-Drivers">Intel® Ethernet Connections Download page
-							</a>
-							</td>
-							<td>
-					Intel® Ethernet Connections Boot Utility, Preboot Images, and EFI Drivers <br>					
-							Download Latest Versions of the UEFI Gig Undi Bin and Source:
-							<ul>
-								<li>Download 
-								preboot.exe and expand to disk</li>
-								<li>
-								Goto APPS\EFI\OPENSRC for undi source.</li>
-								<li>
-								Undi binaries are in EFIx64</li>
-							</ul>
-							<p>&nbsp;</td>
-							<td>
-							</td>
-							<td>
-							</td>
-							</tr>
-							<tr>
-							<td>
-								<p>
-								<b>Older versions</b></p>
+								
 								<p>
 								<a class="external text" href="http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_efi_src_4606.zip/download">
 								Intel Undi UEFI Source 4606.zip</a> </p>
