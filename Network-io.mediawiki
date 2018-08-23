@@ -41,6 +41,15 @@ Download the [https://github.com/tianocore/edk2-NetNt32Io snapshot] or official 
 *Download [http://www.winpcap.org/ WinPcap® library]
 *Archives of the "Dev" Mailing List 
 
+''' Intel Gig Undi'''<br>
+Intel® Ethernet Connections Boot Utility, Preboot Images, and UEFI Drivers  - Download Latest Versions of the UEFI Gig Undi Bin and Source:
+* Download preboot.exe and expand to disk
+* Goto APPS\EFI\OPENSRC for undi source. Copy paste InteUndiPkg to edk2 source directory and build
+```
+   Build -p IntelGigUndiPkg.dsc
+```
+* Undi binaries are in EFIx64
+
 '''Project Points of Contact'''
 
 *Network-IO Project Owner (China): Ruth Li, Intel Corporation, ruth.li@intel.com
