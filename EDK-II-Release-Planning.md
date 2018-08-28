@@ -11,6 +11,8 @@
 
 ## Proposed Features
 
+* [SMBIOS 3.2.0 support](https://bugzilla.tianocore.org/show_bug.cgi?id=1099)
+
 TBD Bugzilla List
 
 ---
