@@ -24,6 +24,6 @@ Testing will be based on a project ported to the `edk2-stable201808` tag. This c
 
 Please review the participant agreement (below) that corresponds to the event you plan to attend. This document describes requirements for registration, disclosure guidelines, and process for submitting vulnerabilities.
 
-[TERMS AND CONDITIONS FOR THE INTEL CAPSULE UPDATE HACK-A-THON]() (PDF)
+[TERMS AND CONDITIONS FOR THE INTEL CAPSULE UPDATE HACK-A-THON](https://github.com/tianocore/tianocore.github.io/blob/master/files/TianoCoreHackathonAgreementOSFC.pdf) (PDF)
 
 Note that vulnerability submissions may be eligible for the [Intel Bug Bounty Program](https://www.intel.com/content/www/us/en/security-center/bug-bounty-program.html).
