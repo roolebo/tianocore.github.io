@@ -20,6 +20,10 @@ Intel will have 15-20 platforms on site for testing, along with support hardware
 
 Testing will be based on a project ported to the `edk2-stable201808` tag. This code will be available in github in advance of the event (stay tuned). Since this is an updated version of `SignedCapsulePkg` and `FmpCapsulePkg`, the official MinnowBoard firmware release does not have the latest implementation.
 
+## Build Instructions
+
+For this Hack-a-thon, there will be some additional build steps that are required. We have divided this up into a set of instructions for [building on Windows](Hackathon-Build-Windows) as well as [building on Linux](Hackathon-Build-Linux).
+
 ## Participant Agreements
 
 Please review the participant agreement (below) for the OSFC 2018 hack-a-thon. This document describes requirements for registration, disclosure guidelines, and process for submitting vulnerabilities.
