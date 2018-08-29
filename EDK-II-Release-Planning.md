@@ -12,7 +12,7 @@
 ## Proposed Features
 
 * [SMBIOS 3.2.0 support](https://bugzilla.tianocore.org/show_bug.cgi?id=1099)
-
+* [32bit subnet mask support for IP4 PXE](https://bugzilla.tianocore.org/show_bug.cgi?id=1125)
 TBD Bugzilla List
 
 ---
