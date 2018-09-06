@@ -7,11 +7,11 @@ The goal of this project is to provide a common OS emulation environment, to rep
 |-
 | IA32 || Unix || Functional
 |-
-| IA32 || Windows || Not started
+| IA32 || Windows || Functional
 |-
 | X64 || Unix || Functional
 |-
-| X64 || Windows || Not started
+| X64 || Windows || Functional
 |}
 
 ==Source Repository==
