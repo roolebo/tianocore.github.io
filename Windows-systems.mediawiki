@@ -134,8 +134,7 @@ Example:
 *Open Command prompt and CD C:\edk2:
 <pre>
      C:\edk2> set PYTHON_HOME=C:\Python27
-     C:\edk2> edksetup.bat --nt32
-     C:\edk2> nmake -f %BASE_TOOLS_PATH%\Makefile
+     C:\edk2> edksetup.bat Rebuild
 </pre>
 
 
