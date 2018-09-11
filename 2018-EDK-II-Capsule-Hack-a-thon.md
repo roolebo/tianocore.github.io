@@ -24,10 +24,9 @@ Testing will be based on a project ported to the `edk2-stable201808` tag. This c
 
 For this Hack-a-thon, there will be some additional build steps that are required. We have divided this up into a set of instructions for [building on Windows](Hackathon-Build-Windows) as well as [building on Linux](Hackathon-Build-Linux).
 
-## Participant Agreements
+## Participant Registration
 
-Please review the participant agreement (below) for the OSFC 2018 hack-a-thon. This document describes requirements for registration, disclosure guidelines, and process for submitting vulnerabilities.
+Please review the [hack-a-thon participant agreement](https://github.com/tianocore/tianocore.github.io/blob/master/files/TianoCoreHackathonAgreementOSFC.pdf) prior to OSFC 2018. This is a simple registration document that described participant requirements and disclosure guidelines. Note that vulnerability submissions may be eligible for the [Intel Bug Bounty Program](https://www.intel.com/content/www/us/en/security-center/bug-bounty-program.html).
 
-[TERMS AND CONDITIONS FOR THE INTEL CAPSULE UPDATE HACK-A-THON](https://github.com/tianocore/tianocore.github.io/blob/master/files/TianoCoreHackathonAgreementOSFC.pdf) (PDF)
+**Note: this document was updated on 2018-09-11 to remove the 'Confidentiality and Disclosure' clause due to concerns from the community.**
 
-Note that vulnerability submissions may be eligible for the [Intel Bug Bounty Program](https://www.intel.com/content/www/us/en/security-center/bug-bounty-program.html).
