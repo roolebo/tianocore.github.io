@@ -26,7 +26,7 @@ For this Hack-a-thon, there will be some additional build steps that are require
 
 ## Participant Registration
 
-Please review the [hack-a-thon participant agreement](https://github.com/tianocore/tianocore.github.io/blob/master/files/TianoCoreHackathonAgreementOSFC.pdf) prior to OSFC 2018. This is a simple registration document that described participant requirements and disclosure guidelines. Note that vulnerability submissions may be eligible for the [Intel Bug Bounty Program](https://www.intel.com/content/www/us/en/security-center/bug-bounty-program.html).
+Please review the [hack-a-thon participant agreement](https://github.com/tianocore/tianocore.github.io/blob/master/files/TianoCoreHackathonRegistrationOSFC.pdf) prior to OSFC 2018. This is a simple registration document that describes participant requirements and disclosure guidelines. Note that vulnerability submissions may be eligible for the [Intel Bug Bounty Program](https://www.intel.com/content/www/us/en/security-center/bug-bounty-program.html).
 
 **Note: this document was updated on 2018-09-11 to remove the 'Confidentiality and Disclosure' clause due to concerns from the community.**
 
