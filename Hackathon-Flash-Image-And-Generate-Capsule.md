@@ -11,7 +11,7 @@
 * Run the following command to apply all four capsules
 
 ```bash
-CapsuleApp.efi Red.cap Green.cap Blue.cap MinnowMax.cap
+CapsuleApp.efi MinnowMax.cap
 ```
 
 * The MinnowBoard MAX should reboot and the four capsules are applied in the
@@ -34,7 +34,7 @@ CapsuleApp.efi -G MyImage.bmp -O MyImage.cap
   passed into CapsuleApp.efi.
 
 ```bash
-CapsuleApp.efi MyImage.cap Red.cap Green.cap Blue.cap MinnowMax.cap
+CapsuleApp.efi MyImage.cap MinnowMax.cap
 ```
 
 * When the capsules are processed the UX bitmap image should be displayed at the
