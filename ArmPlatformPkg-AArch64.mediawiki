@@ -11,39 +11,35 @@ While the AArch64 Foundation FVP is free to download, the Base FVP requires an A
 A Universally Unique Id (UUID) header. Needed to build the EDK2 BaseTools. On Ubuntu: sudo apt-get install uuid-dev 
 
 2) Download the sources 
-<pre>svn co https://svn.code.sf.net/p/edk2/code/trunk/edk2 edk2 --username guest</pre>
+<pre>git clone git@github.com:tianocore/edk2.git
+git clone https://github.com/tianocore/edk2-platforms.git</pre>
 
 == Build EDK2 Tianocore ==
 
-1) Download the AArch64 GNU toolchain:
-<pre>wget http://releases.linaro.org/13.07/components/toolchain/binaries/gcc-linaro-aarch64-linux-gnu-4.8-2013.07-1_linux.tar.xz
-tar xf gcc-linaro-aarch64-linux-gnu-4.8-2013.07-1_linux.tar.xz</pre>
+1) Install AArch64 GNU toolchain:
+<pre>sudo apt install gcc-aarch64-linux-gnu</pre>
 
 2) Build EDK2:
 
 <pre>cd $(WORKROOT)/edk2</pre>
 The first time you create your environment, you will need to build the EDK2 source tree
-<pre>. edksetup.sh `pwd`/BaseTools
+<pre>. edksetup.sh
 make -C BaseTools</pre>
 
 <b>Note:</b> You might need to unset some environment variables if you are working in the same shell and a different EDK2 repository than your usual EDK2 development environment.<br/>
 Otherwise some conflicts might exist between both EDK2 development environments.
 <pre>unset ARCH WORKSPACE</pre>
 
-* For the Foundation FVP (defined by the DSC file ArmPlatformPkg?/ArmVExpressPkg/ArmVExpress-RTSM-AEMv8Ax4-foundation.dsc):
-<pre>GCC47_AARCH64_PREFIX=<path-to-aarch64-gcc>/gcc-linaro-aarch64-linux-gnu-4.8-2013.07-1_linux/bin/ build -a AARCH64 -p ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-AEMv8Ax4-foundation.dsc -t GCC47</pre>
+* Declare the EDK2 package paths:
+<pre>export PACKAGES_PATH=$PWD:$PWD/edk2-platforms</pre>
 
-* For the Base FVP (defined by the DSC file ArmPlatformPkg?/ArmVExpressPkg/ArmVExpress-RTSM-AEMv8Ax4.dsc):
-<pre>GCC47_AARCH64_PREFIX=<path-to-aarch64-gcc>/gcc-linaro-aarch64-linux-gnu-4.8-2013.07-1_linux/bin/ build -a AARCH64 -p ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-AEMv8Ax4.dsc -t GCC47</pre>
+* For the Foundation and Base FVPs (defined by the DSC file ArmPlatformPkg?/ArmVExpressPkg/ArmVExpress-RTSM-AEMv8Ax4-foundation.dsc):
+<pre>GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -a AARCH64 -p Platform/ARM/VExpressPkg/ArmVExpress-FVP-AArch64.dsc -t GCC5</pre>
 
+Once built, the UEFI Firmware is the following file Build/ArmVExpress-FVP-AArch64/DEBUG_GCC5/FV/FVP_AARCH64_EFI.fd
 
 <b>Note 1:</b> To build the release build, add '-b RELEASE'. Here's an example with the Foundation FVP:
-<pre>GCC47_AARCH64_PREFIX=<path-to-aarch64-gcc>/gcc-linaro-aarch64-linux-gnu-4.8-2013.07-1_linux/bin/ build -a AARCH64 -p ArmPlatformPkg/ArmVExpressPkg/ArmVExpress-RTSM-AEMv8Ax4-foundation.dsc -t GCC47 -b RELEASE</pre>
-
-
-<b>Note 2:</b> The UEFI Firmware is the following file:
-* Foundation FVP: Build/ArmVExpress-RTSM-AEMv8Ax4-foundation/{DEBUG|RELEASE}_GCC47/FV/RTSM_VE_FOUNDATIONV8_EFI.fd
-* Base FVP: Build/ArmVExpress-RTSM-AEMv8Ax4/{DEBUG|RELEASE}_GCC47/FV/RTSM_VE_AEMV8_EFI.fd
+<pre>GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -a AARCH64 -p Platform/ARM/VExpressPkg/ArmVExpress-FVP-AArch64.dsc -t GCC5 -b RELEASE</pre>
 
 == Start Linux from UEFI on the FVPs ==
 
