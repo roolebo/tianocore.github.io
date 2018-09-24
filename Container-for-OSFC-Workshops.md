@@ -9,7 +9,9 @@ These containers are intended to simplify installation of tools and code across 
 
 ## Install the Container
 
-Container Download is TBD (stay tuned).
+You can download the container [here](https://firmware.intel.com/sites/default/files/edk2-ubuntu_docker_image.zip).
+
+After downloading the container, install Docker if you have not done that already.
 
 ### Install Docker
 
@@ -24,15 +26,7 @@ Once Docker is installed, follow the [post-install steps](https://docs.docker.co
 
 Before starting a Docker container, confirm that your user has been added to the `docker` group. This step is **required**.
 
-### Get the EDK II Docker Image From Github
-
-```bash
-$> git clone [github-url]
-$> cd edk2-ubuntu
-$> Docker build -t edk2-ubuntu .
-```
-
-### Install from a Local EDK II Docker Image (optional)
+### Install the Local EDK II Docker Image
 
 The container can be installed locally with the `docker load` command. This assumes you have saved the docker image file as `edk2-ubuntu.docker`.
 
