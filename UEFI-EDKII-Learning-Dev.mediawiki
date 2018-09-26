@@ -38,7 +38,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://github.com/tianocore-docs/Training/raw/master/Online/intro/Defining_Specifications_Role_in_Firmware.zip Zip file**] 
+[https://firmware.intel.com/sites/default/files/defining_spec_role_in_firmware.zip Zip file**] 
   <br>
  
   </td>
@@ -57,7 +57,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 
   <td>
 
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson1/Lesson_1_PEI_and_Course_Intro.zip Zip File**] 
+[https://firmware.intel.com/sites/default/files/lesson_1_pei.zip Zip File**] 
   <br>
  
   </td>
@@ -75,7 +75,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 
   <td>
  
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson2/Lesson_2_DXE.zip Zip File**]
+[https://firmware.intel.com/sites/default/files/lesson_2_dxe.zip Zip File**]
  
   </td>
 
@@ -153,7 +153,7 @@ Intended Audience: Firmware/Software Engineers
 Course Goal: Briefly explore the history and role of specifications in firmware 
 
 
-[https://github.com/tianocore-docs/Training/raw/master/Online/Intro/Defining_Specifications_Role_in_Firmware.zip Lesson 0 Zip file**] 
+[https://firmware.intel.com/sites/default/files/defining_spec_role_in_firmware.zip Lesson 0 Zip file**] 
 
 
 Lesson 0: <br>
@@ -171,7 +171,7 @@ Intended Audience:Firmware/Software Engineers
 Course Goal:Initialize the boot process by following the UEFI specifications
 
 
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson1/Lesson_1_PEI_and_Course_Intro.zip Lesson 1 Zip File**] 
+[https://firmware.intel.com/sites/default/files/lesson_1_pei.zip Lesson 1 Zip File**] 
 
 
 '''Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases''' <br>
@@ -188,7 +188,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson2/Lesson_2_DXE.zip Lesson 2 Zip File**]
+[https://firmware.intel.com/sites/default/files/lesson_2_dxe.zip Lesson 2 Zip File**]
 
 
 ''' Lesson 2: Driver Execution Environment (DXE)'''<br>
