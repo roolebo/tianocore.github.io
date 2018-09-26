@@ -92,7 +92,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson3/Lesson_3_Drivers.zip Zip File**]
+[https://firmware.intel.com/sites/default/files/lesson_3_uefi_drivers.zip Zip File**]
  
  
   </td>
@@ -203,7 +203,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson3/Lesson_3_Drivers.zip Lesson 3 Zip File**]
+[https://firmware.intel.com/sites/default/files/lesson_3_uefi_drivers.zip Lesson 3 Zip File**]
 
 '''Lesson 3: UEFI Drivers '''<br>
 When you complete this lesson, you will be able to:
