@@ -7,12 +7,10 @@
 Welcome to UEFI and EDK II Learning and Development.  The courses below are provided to help you increase your knowledge of UEFI and EDK II and to aid you in performing UEFI- and EDK II-related tasks.
 These courses are provided and produced as a courtesy of Intel Corporation. 
 
-To view the online courses, you'll need   [http://sourceforge.net/projects/edk2/files/Training/Flash_Instructions.pdf/download Adobe* Flash Player 10] or higher with Microsoft Internet Explorer. (Also works with 
-[http://www.adobe.com/products/flashplayer.html Adobe Flash Player] 13)  Before you begin a course, review the course objectives and intended audience to determine if the course is right for you.  Then, click the course link to begin.  Enjoy learning more about UEFI and EDK II!
-
+Before you begin a course, review the course objectives and intended audience to determine if the course is right for you.   Enjoy learning more about UEFI and EDK II!
 
 <br>
-How to download: Download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally. The Flash Player is still required.
+How to download: Download each lesson’s '''Zip file**'''  into your local directory.  Then unzip each one and run each of  the .htm files locally.  Double click on the index.html file for each lesson to open with your default browser.  
 
 ==='''Courses'''===
 
@@ -109,7 +107,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson4/Lesson_4_Firmware.zip Zip File**] 
+[https://firmware.intel.com/sites/default/files/lesson_4_firmware_hierarchy.zip Zip File**] 
  
   </td>
 
@@ -125,7 +123,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson5/Lesson_5_BDS_HII.zip Zip File**]
+[https://firmware.intel.com/sites/default/files/lesson_5_bds_hii.zip Zip File**]
  
   </td>
 
@@ -216,7 +214,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson4/Lesson_4_Firmware.zip Lesson 4 Zip File**] 
+[https://firmware.intel.com/sites/default/files/lesson_4_firmware_hierarchy.zip Lesson 4 Zip File**] 
 
 
 '''Lesson 4: Firmware and Data Storage'''<br>
@@ -229,7 +227,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://github.com/tianocore-docs/Training/raw/master/Online/lesson5/Lesson_5_BDS_HII.zip Lesson 5 Zip File**]
+[https://firmware.intel.com/sites/default/files/lesson_5_bds_hii.zip Lesson 5 Zip File**]
 
 '''Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)'''<br>
 When you complete this lesson, you will be able to: 
