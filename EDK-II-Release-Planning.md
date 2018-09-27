@@ -12,6 +12,7 @@
 ## Proposed Features
 
 * [SMBIOS 3.2.0 support](https://bugzilla.tianocore.org/show_bug.cgi?id=1099)
+* [New APIs in UefiLib to locate ACPI table by signature](https://bugzilla.tianocore.org/show_bug.cgi?id=967)
 * [32bit subnet mask support for IP4 PXE](https://bugzilla.tianocore.org/show_bug.cgi?id=1125)
 * [Non-stop mode for Heap Guard and Null Pointer Detection](https://bugzilla.tianocore.org/show_bug.cgi?id=1095)
 * [PEI Stack Guard](https://bugzilla.tianocore.org/show_bug.cgi?id=1126)
