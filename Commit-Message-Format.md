@@ -11,7 +11,7 @@ Pkg-Module: Brief-single-line-summary
 
 Full-commit-message
 
-Contributed-under: TianoCore Contribution Agreement 1.0
+Contributed-under: TianoCore Contribution Agreement 1.1
 Signed-off-by: Contributor Name &lt;contributor@email.server&gt;
 </pre>
 
