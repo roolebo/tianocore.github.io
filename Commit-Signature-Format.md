@@ -44,7 +44,7 @@ Several lines of
 description for the
 change.
 
-Contributed-under: TianoCore Contribution Agreement 1.0
+Contributed-under: TianoCore Contribution Agreement 1.1
 Signed-off-by: Contributor Name <contributor@email.server>
 Reviewed-by: Reviewer Name <reviewer@reviewer-email.server>
 </pre>
