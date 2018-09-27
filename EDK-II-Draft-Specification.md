@@ -155,6 +155,17 @@ a constraint, but as an enabling philosophy which will:
 \] This document is designed to aid in the development of UEFI Drivers using the EDK II open source
 project as a development environment.
 
+* **_EDK II Module Writer's Guide_** \[
+[HTML   ](https://edk2-docs.gitbooks.io/edk-ii-module-writer-s-guide/content),
+[PDF    ](https://legacy.gitbook.com/download/pdf/book/edk2-docs/edk-ii-module-writer-s-guide),
+[Mobi   ](https://legacy.gitbook.com/download/mobi/book/edk2-docs/edk-ii-module-writer-s-guide),
+[ePub   ](https://legacy.gitbook.com/download/epub/book/edk2-docs/edk-ii-module-writer-s-guide),
+[Gitbook](https://legacy.gitbook.com/book/edk2-docs/edk-ii-module-writer-s-guide),
+[GitHub ](https://github.com/tianocore-docs/edk2-ModuleWriteGuide)
+\] This document is designed to aid in the development of EDK II  Modules using the EDK II open source
+project as a development environment.
+
+
 ---
 
 * **_EDK II Template Specification_** \[
