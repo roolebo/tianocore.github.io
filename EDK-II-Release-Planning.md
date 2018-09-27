@@ -15,6 +15,7 @@
 * [32bit subnet mask support for IP4 PXE](https://bugzilla.tianocore.org/show_bug.cgi?id=1125)
 * [Non-stop mode for Heap Guard and Null Pointer Detection](https://bugzilla.tianocore.org/show_bug.cgi?id=1095)
 * [PEI Stack Guard](https://bugzilla.tianocore.org/show_bug.cgi?id=1126)
+* [Support MSRs define in SDM 2018-05](https://bugzilla.tianocore.org/show_bug.cgi?id=1213)
 
 TBD Bugzilla List
 
