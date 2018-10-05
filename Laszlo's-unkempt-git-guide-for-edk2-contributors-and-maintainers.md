@@ -397,7 +397,7 @@ Contributor workflow
        letter, which outlines the full feature or bugfix.
 
      If `diff.orderFile` has been configured as described
-     <a href="#10">above</a>, the -O parameter can be left out.
+     <a href="#contrib-10">above</a>, the -O parameter can be left out.
 
 24.  <a name="contrib-24" href="#contrib-24">&sect;</a>
      Time to mail-bomb the list! Do the following:
