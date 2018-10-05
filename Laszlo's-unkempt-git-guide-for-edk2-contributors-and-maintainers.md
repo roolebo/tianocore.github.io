@@ -154,6 +154,14 @@ Contributor workflow
      *.c
      ```
 
+     From git version 1.9.0 onwards, this can be configured permanently
+     for the current repository with 
+     ```
+     git config --add diff.orderFile <full path to edk2.diff.order>
+     ```
+     If using an older version of git, you need to pass this path in
+     manually when generating patches.
+
 11.  <a name="contrib-11" href="#contrib-11">&sect;</a>
      Add your own fork of edk2 that lives on GitHub as a *remote* to
      your local clone:
@@ -387,6 +395,9 @@ Contributor workflow
        maintainer is involved in reviewing one or two of your patches
        across the series, he or she will get a copy of your cover
        letter, which outlines the full feature or bugfix.
+
+     If `diff.orderFile` has been configured as described
+     <a href="#10">above</a>, the -O parameter can be left out.
 
 24.  <a name="contrib-24" href="#contrib-24">&sect;</a>
      Time to mail-bomb the list! Do the following:
