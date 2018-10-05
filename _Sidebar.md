@@ -9,5 +9,5 @@
 [[Community Information]]<br/>
 [[UDK2018]] / [[EDK II]]<br/>
 [[Additional Projects]] & [[Tasks]]<br/>
-[[Community Support]]
-[[Community Virtual Meetings]]
+[[Community Support]]<br/>
+[[Community Virtual Meetings]]<br/>
