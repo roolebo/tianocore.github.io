@@ -22,7 +22,7 @@ Stephano Cetola
 TianoCore Community Manager  
 stephano.cetola@linux.intel.com    
   
-## Meeting Contact Details
+## Meeting Details
 
 ### NAMO / EMEA
 
