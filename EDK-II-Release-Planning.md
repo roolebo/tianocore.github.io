@@ -23,4 +23,20 @@
 
 TBD Bugzilla List
 
+# edk2-stable2019XX tag planning
+
+## Proposed Schedule
+
+| Date       | Description                              |
+| ---------- | ---------------------------------------- |
+| 2018-11-15 | Beginning of development                 |
+| 2019-XX-XX | [Soft Feature Freeze](SoftFeatureFreeze) |
+| 2019-XX-XX | [Hard Feature Freeze](HardFeatureFreeze) |
+| 2019-XX-XX | Release                                  |
+
+## Proposed Features
+* [Python 3 migration](https://bugzilla.tianocore.org/show_bug.cgi?id=55)
+
+TBD Bugzilla List
+
 ---
