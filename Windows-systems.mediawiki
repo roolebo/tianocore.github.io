@@ -19,7 +19,6 @@ GitHub (https://help.github.com/index.html) provides step-by-step instructions f
 =='''GitHub EDK II Project Repositories'''==
 
 * The EDK II project repository is available at https://github.com/tianocore/edk2. 
-* Optional - Prebuilt Windows tools are available at https://github.com/tianocore/edk2-BaseTools-win32. 
 
 Content that is not released under an accepted open source license can be found at https://github.com/tianocore/edk2-non-osi.<br />
 &nbsp;<br />
@@ -49,14 +48,6 @@ Download/Checkout the EDK II source tree from Github
 ## Click on Download ZIP
 ## Unzip to C:/
 ## Rename directory “edk2-master” to “edk2”  
-# Optional- (see [[Windows-systems#compile-tools |Compile Tools]] ) Download the EDK II pre-built Base Tools
-## Open https://github.com/tianocore/edk2-BaseTools-win32  in web browser
-## Click on the ''Clone or Download'' button (Right Green)
-## Click on Download ZIP
-## Unzip to C:/
-## Rename directory “edk2-BaseTools-win32-master” to “Win32”  
-## Copy C:/Win32 to C:/edk2/BaseTools/Bin
-## Continue to  [[Windows-systems#build | BUILD]] section
 
 Continue to [[Windows-systems#compile-tools |Compile Tools]] 
 
@@ -68,11 +59,6 @@ Continue to [[Windows-systems#compile-tools |Compile Tools]]
 ## Select a Target directory C:/edk2
 ## Check Recursively clone submodules too
 ## click Clone button
-# Optional (see [[Windows-systems#compile-tools |Compile Tools]] ) Repeat the above with the Clone the edk2-BaseTools-win32 repository repository to download Pre-built BaseTools
-## Open Git Gui
-## Use ''Clone Exiting Repository'' with Source location https://github.com/tianocore/edk2-BaseTools-win32.git and  Target directory C:/Win32
-## Copy C:/Win32 to C:/edk2/BaseTools/Bin
-##  Continue to  [[Windows-systems#build | BUILD]] Section
 
 Continue to [[Windows-systems#compile-tools |Compile Tools]] section
 
@@ -84,36 +70,6 @@ Main repository: https://github.com/tianocore/edk2
 </pre>
 
 Continue to [[Windows-systems#compile-tools |Compile Tools]] and then [[Windows-systems#build | BUILD]] sections
-
-
-=====For EDK II project developers on Windows with the pre-built binary BaseTools:=====
-*	Create a workspace directory
-*	Change to the workspace directory
-*	Clone the EDK II project repository
-**	git clone https://github.com/tianocore/edk2
-*	Clone the edk2-BaseTools-win32 repository
-**	git clone https://github.com/tianocore/edk2-BaseTools-win32
-*	Set environment variables:
-**	EDK_TOOLS_BIN – Set it as the edk2-BaseTools-win32 directory
-Example:
-* Inside Git Bash
-<pre>
-     $ git clone https://github.com/tianocore/edk2
-     $ git clone https://github.com/tianocore/edk2-BaseTools-win32
-</pre>
-* Windows CMD prompt:
-<pre>
-     C:\edk2> set EDK_TOOLS_BIN=c:\efi\test\edk2-BaseTools-win32
-</pre>
-
-
-When the above steps are done, the directory structure will look like:
-  efi
-    └───test (WORKSPACE)
-       ├───edk2
-       └───edk2-BaseTools-win32
-
-Continue to  [[Windows-systems#build | BUILD]] section
 
 =='''Compile Tools'''==
 =====For EDK II project developers on Windows with source BaseTools:=====
@@ -141,7 +97,7 @@ Example:
 =='''Build'''==
 * Set up the [[Nasm-Setup| Nasm]] open source assembly compiler
 * Set up the [[Asl Setup| ASL Compiler]] 
-* [[Windows-systems#compile-tools |Compile Tools]] above or download the pre-built Windows BaseTools from https://github.com/tianocore/edk2-BaseTools-win32
+* [[Windows-systems#compile-tools |Compile Tools]] above
 * Open a Windows CMD prompt:
 * Change to the edk2 directory
 * Run the edksetup.bat script
