@@ -20,6 +20,7 @@
 * [Support MSRs define in SDM 2018-05](https://bugzilla.tianocore.org/show_bug.cgi?id=1213)
 * [Add MSFT toolchain support to BaseStackCheckLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1239)
 * [Add Use-After-Free heap detection in DXE core](https://bugzilla.tianocore.org/show_bug.cgi?id=1240)
+* [Remove FatBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1105)
 
 TBD Bugzilla List
 
