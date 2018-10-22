@@ -3,7 +3,7 @@
 We will be holding the second (of many) community meetings in hopes of receiving feedback as well as raising any new ideas or concerns.
 
 ## Add to Calendar
-[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore%20Community%20Meeting%20-%20NAMO%20%20EMEA.ics)
+[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore%20Community%20Meeting%20-%20NAMO%20%20EMEA.ics)  
 [Asia Pacific / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore%20Community%20Meeting%20-%20APAC%20%20EMEA.ics)
 
 ## Some initial topics that may be discussed include:
