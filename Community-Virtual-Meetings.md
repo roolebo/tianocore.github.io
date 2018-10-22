@@ -1,4 +1,4 @@
-# October 2018
+# October 2018 Meeting 2
 ## Overview
 We will be holding the second (of many) community meetings in hopes of receiving feedback as well as raising any new ideas or concerns.
 
