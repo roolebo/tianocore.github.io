@@ -21,7 +21,7 @@ EFI_TCP4_PROTOCOL
 EFI_TCP6_PROTOCOL
 ```
 
-Note: There are two TCP drivers in EDK II, either Tcp4Dxe or TcpDxe could be used, but they should not be used at the same time.
+Note: The Tcp4Dxe driver in MdeModulePkg has been deprecated, please use NetworkPkg/TcpDxe instead.
 
 * **NetworkPkg/Dhcp6Dxe** - DHCP6 driver, which produces
 ```
@@ -53,7 +53,7 @@ EFI_IPSEC_CONFIG_PROTOCOL
 EFI_LOAD_FILE_PROTOCOL
 EFI_PXE_BASE_CODE_PROTOCOL
 ```
-Note: this driver supports both IPv4 and IPv6 network stack, and can't co-work with the UefiPxeBcDxe driver in MdeModulePkg.
+Note: The UefiPxeBcDxe driver in MdeModulePkg has been deprecated, please use NetworkPkg/UefiPxeBcDxe instead.
 
 ### iSCSI
 * **NetworkPkg/IScsiDxe** - iSCSi driver, which produces
@@ -62,7 +62,7 @@ EFI_ISCSI_INITIATOR_NAME_PROTOCOL
 EFI_EXT_SCSI_PASS_THRU_PROTOCOL
 EFI_AUTHENTICATION_INFO_PROTOCOL
 ```
-Note: this driver supports both IPv4 and IPv6 network stack, and can't co-work with the IScsiDxe driver in MdeModulePkg.
+Note: The IScsiDxe driver in MdeModulePkg has been deprecated, please use NetworkPkg/IScsiDxe instead.
 
 ### DNS
 * **NetworkPkg/DnsDxe** - DNS driver, which produces
@@ -140,17 +140,14 @@ EFI_LOAD_FILE_PROTOCOL
     MdeModulePkg/Universal/Network/Ip4Dxe/Ip4Dxe.inf
     MdeModulePkg/Universal/Network/Mtftp4Dxe/Mtftp4Dxe.inf
     MdeModulePkg/Universal/Network/Udp4Dxe/Udp4Dxe.inf
+    NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
+    NetworkPkg/TcpDxe/TcpDxe.inf
 
     !if $(NETWORK_IP6_ENABLE) == TRUE
       NetworkPkg/Ip6Dxe/Ip6Dxe.inf
       NetworkPkg/Dhcp6Dxe/Dhcp6Dxe.inf
-      NetworkPkg/TcpDxe/TcpDxe.inf
       NetworkPkg/Udp6Dxe/Udp6Dxe.inf
       NetworkPkg/Mtftp6Dxe/Mtftp6Dxe.inf
-      NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
-    !else
-      MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe.inf
-      MdeModulePkg/Universal/Network/UefiPxeBcDxe/UefiPxeBcDxe.inf
     !endif
 
     NetworkPkg/DnsDxe/DnsDxe.inf
@@ -168,11 +165,7 @@ EFI_LOAD_FILE_PROTOCOL
     !endif
 
     !if $(NETWORK_ISCSI_ENABLE) == TRUE
-      !if $(NETWORK_IP6_ENABLE) == TRUE
-        NetworkPkg/IScsiDxe/IScsiDxe.inf
-      !else
-        MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe.inf
-      !endif
+      NetworkPkg/IScsiDxe/IScsiDxe.inf
     !endif
 
     !if $(NETWORK_VLAN_ENABLE) == TRUE
@@ -192,17 +185,14 @@ EFI_LOAD_FILE_PROTOCOL
   INF  MdeModulePkg/Universal/Network/Udp4Dxe/Udp4Dxe.inf
   INF  MdeModulePkg/Universal/Network/Dhcp4Dxe/Dhcp4Dxe.inf
   INF  MdeModulePkg/Universal/Network/Mtftp4Dxe/Mtftp4Dxe.inf
+  INF  NetworkPkg/TcpDxe/TcpDxe.inf
+  INF  NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
 
   !if $(NETWORK_IP6_ENABLE) == TRUE
     INF  NetworkPkg/Ip6Dxe/Ip6Dxe.inf
     INF  NetworkPkg/Dhcp6Dxe/Dhcp6Dxe.inf
     INF  NetworkPkg/Udp6Dxe/Udp6Dxe.inf
     INF  NetworkPkg/Mtftp6Dxe/Mtftp6Dxe.inf
-    INF  NetworkPkg/TcpDxe/TcpDxe.inf
-    INF  NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
-  !else
-    INF  MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe.inf
-    INF  MdeModulePkg/Universal/Network/UefiPxeBcDxe/UefiPxeBcDxe.inf
   !endif
 
   INF  NetworkPkg/DnsDxe/DnsDxe.inf
@@ -224,11 +214,7 @@ EFI_LOAD_FILE_PROTOCOL
   !endif
 
   !if $(NETWORK_ISCSI_ENABLE) == TRUE
-    !if $(NETWORK_IP6_ENABLE) == TRUE
-      INF  NetworkPkg/IScsiDxe/IScsiDxe.inf
-    !else
-      INF  MdeModulePkg/Universal/Network/IScsiDxe/IScsiDxe.inf
-    !endif
+    INF  NetworkPkg/IScsiDxe/IScsiDxe.inf
   !endif
 
 !endif
