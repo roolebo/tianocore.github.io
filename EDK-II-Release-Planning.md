@@ -37,6 +37,6 @@ TBD Bugzilla List
 ## Proposed Features
 * [Python 3 migration](https://bugzilla.tianocore.org/show_bug.cgi?id=55)
 * [Add Use-After-Free heap detection in DXE core](https://bugzilla.tianocore.org/show_bug.cgi?id=1240)
-TBD Bugzilla List
+* <TBD Bugzilla List>
 
 ---
