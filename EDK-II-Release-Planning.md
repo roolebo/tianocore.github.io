@@ -18,7 +18,7 @@
 * [Non-stop mode for Heap Guard and Null Pointer Detection](https://bugzilla.tianocore.org/show_bug.cgi?id=1095)
 * [PEI Stack Guard](https://bugzilla.tianocore.org/show_bug.cgi?id=1126)
 * [Support MSRs define in SDM 2018-05](https://bugzilla.tianocore.org/show_bug.cgi?id=1213)
-* [Add MSFT toolchain support to BaseStackCheckLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1239)
+* [Add Use-After-Free heap detection in DXE core](https://bugzilla.tianocore.org/show_bug.cgi?id=1240)
 * [Remove FatBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1105)
 
 
@@ -35,7 +35,7 @@
 
 ## Proposed Features
 * [Python 3 migration](https://bugzilla.tianocore.org/show_bug.cgi?id=55)
-* [Add Use-After-Free heap detection in DXE core](https://bugzilla.tianocore.org/show_bug.cgi?id=1240)
+* [Add MSFT toolchain support to BaseStackCheckLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1239)
 * TBD Bugzilla List
 
 ---
