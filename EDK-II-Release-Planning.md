@@ -21,7 +21,6 @@
 * [Add MSFT toolchain support to BaseStackCheckLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1239)
 * [Remove FatBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1105)
 
-TBD Bugzilla List
 
 # edk2-stable201903 tag planning
 
