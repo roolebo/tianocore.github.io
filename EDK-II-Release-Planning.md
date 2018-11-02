@@ -36,6 +36,8 @@
 ## Proposed Features
 * [Python 3 migration](https://bugzilla.tianocore.org/show_bug.cgi?id=55)
 * [Add MSFT toolchain support to BaseStackCheckLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1239)
+* [BaseTool Suggestions for improving building performance](https://bugzilla.tianocore.org/show_bug.cgi?id=1288)
+* [Delete IPv4 only TCP/iSCSI/PXE drivers in MdeModulePkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1278)
 * TBD Bugzilla List
 
 ---
