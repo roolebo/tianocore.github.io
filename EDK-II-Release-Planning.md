@@ -40,6 +40,7 @@
 * [Delete IPv4 only TCP/iSCSI/PXE drivers in MdeModulePkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1278)
 * [Remove EdkShellPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1107)
 * [Remove EdkShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1108)
+* [BaseTools: Support Array and C code style initialization in Structure PCD](https://bugzilla.tianocore.org/show_bug.cgi?id=1292)
 * TBD Bugzilla List
 
 ---
