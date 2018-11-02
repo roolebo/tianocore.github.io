@@ -38,6 +38,8 @@
 * [Add MSFT toolchain support to BaseStackCheckLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1239)
 * [BaseTool Suggestions for improving building performance](https://bugzilla.tianocore.org/show_bug.cgi?id=1288)
 * [Delete IPv4 only TCP/iSCSI/PXE drivers in MdeModulePkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1278)
+* [Remove EdkShellPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1107)
+* [Remove EdkShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1108)
 * TBD Bugzilla List
 
 ---
