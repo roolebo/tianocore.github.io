@@ -40,3 +40,13 @@ communicate with the maintainer about their intentions. It also helps if you:
 
 (This definition is modeled after QEMU's [soft feature
 freeze](https://wiki.qemu.org/Planning/SoftFeatureFreeze).)
+
+# Announcing the soft feature freeze
+
+The proposed schedule for the active development cycle is shown in the [EDK II
+Release Planning](EDK-II-Release-Planning) article. Shortly before the soft
+feature freeze, an announcement email is sent to the
+[edk2-devel](https://lists.01.org/mailman/listinfo/edk2-devel) mailing list.
+The announcement is posted by one of the maintainers that are listed in
+[Maintainers.txt](https://github.com/tianocore/edk2/blob/master/Maintainers.txt),
+in section `EDK II Releases`.
