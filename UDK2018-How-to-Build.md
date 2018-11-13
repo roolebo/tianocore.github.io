@@ -16,9 +16,10 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
     https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help
     4)  Download and install Python2.7.x  https://www.python.org/ for building the BaseTools
         Default install directory is: C:/Python27
-    5)  Download http://wiki.overbyte.eu/arch/openssl-1.1.0g-win32.zip, extract it
-        to C:\Openssl. Make sure C:\Openssl is added to system environment 
-        variable 'PATH'.
+    5)  Download the pre-compiled Openssl Win32 binary from https://wiki.openssl.org/index.php/Binaries.  Search for a
+        Windows binary in the list of Third party OpenSSL related binary distributions that will be Win32 binary. 
+        Download and extract to C:\Openssl. Make sure C:\Openssl is added to system environment 
+        variable 'PATH'. 
 
 2.  Create the full Source Code directory for the UDK2018 release
     1)  Create a working space directory in the build machine, for example, C:\MyWorkspace
