@@ -16,8 +16,9 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
     https://github.com/tianocore/tianocore.github.io/wiki/Getting-Started-with-EDK-II#github-help
     4)  Download and install Python2.7.x  https://www.python.org/ for building the BaseTools
         Default install directory is: C:/Python27
-    5)  Download the pre-compiled Openssl Win32 binary from https://wiki.openssl.org/index.php/Binaries.  Search for a
-        Windows binary in the list of Third party OpenSSL related binary distributions that will be Win32 binary. 
+    5)  Download the pre-compiled Openssl binary from https://wiki.openssl.org/index.php/Binaries.  Search for a
+        Windows binary in the list of "_Third Party OpenSSL Related Binary Distributions_" table that will be 
+        Windows binary. Go to the third party site to download the latest version of Windows x64 86 or Win32 binary.
         Download and extract to C:\Openssl. Make sure C:\Openssl is added to system environment 
         variable 'PATH'. 
 
