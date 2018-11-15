@@ -3,15 +3,15 @@
 We will be holding community meetings on the first Thursday of the month. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.
 
 ## December Add to Calendar
-North America / Europe Meeting  
-Asia Pacific / North America  
-*coming soon*  
+(_right-click and Save As..._)  
+[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-NAMO-EMEA.ics)  
+[Asia Pacific / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-APAC-NAMO.ics) 
 
 ## Some initial topics that may be discussed include:
+- Mailing List Updates
 - Patch System Discussion V3 (Phabricator / Github / Gitlab / Gerrit)
-- Doing Design in the Open
-- Adding more detail to Maintainers.txt
-- Using git submodules instead of embedding (e.g. LZMA SDK, Oniguruma, FDT)
+- Doing Designs In The Open
+- Community Discussion Tools (Slack, Discourse, Google Groups)
 
 ## Contact
 Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
