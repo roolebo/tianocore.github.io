@@ -45,6 +45,7 @@ Stable tags are created from `edk2/master` based on validation with various plat
 the format `edk2-stable<4 digit year><2 digit month>` and occur roughly every three months (starting from August 2018).
 
 [edk2-stable201808](https://github.com/tianocore/edk2/releases/tag/edk2-stable201808)
+[edk2-stable201811](https://github.com/tianocore/edk2/releases/tag/edk2-stable201811)
 
 ## UDK Releases
 
