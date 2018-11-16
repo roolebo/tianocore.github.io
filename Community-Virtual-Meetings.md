@@ -8,10 +8,11 @@ We will be holding community meetings on the first Thursday of the month. There 
 [Asia Pacific / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-APAC-NAMO.ics) 
 
 ## Some initial topics that may be discussed include:
-- Mailing List Updates
-- Patch System Discussion V3 (Phabricator / Github / Gitlab / Gerrit)
-- Doing Designs In The Open
 - Community Discussion Tools (Groups.io, Google Groups)
+- Patch System Discussion V3 (Phabricator / Github / Gitlab / Gerrit)
+- Open Source Design Meetings, Bug Scrubs, and CI
+- Open Source Tooling Discussions
+
 
 ## Contact
 Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
