@@ -11,7 +11,7 @@ We will be holding community meetings on the first Thursday of the month. There 
 - Mailing List Updates
 - Patch System Discussion V3 (Phabricator / Github / Gitlab / Gerrit)
 - Doing Designs In The Open
-- Community Discussion Tools (Slack, Discourse, Google Groups)
+- Community Discussion Tools (Groups.io, Google Groups)
 
 ## Contact
 Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
