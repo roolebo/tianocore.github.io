@@ -5,7 +5,7 @@ We will be holding community meetings on the first Thursday of the month. There 
 ## December Add to Calendar
 (_right-click and Save As..._)  
 [North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-NAMO-EMEA.ics)  
-[Asia Pacific / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-APAC-NAMO.ics) 
+[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-APAC-NAMO.ics) 
 
 ## Some initial topics that may be discussed include:
 - Community Discussion Tools (Groups.io, Google Groups)
