@@ -1,10 +1,12 @@
+Note: The original EFI Development Kit ([[EDK]]) is no longer supported. This document is maintained for historical purposes. Please use [[EDK II]] for current UEFI development.
+
 ===What are the differences between EDK and EDK II?===
 
 The main differences are in build architecture. The build description files (.dsc .inf, etc) have been enhanced. The [[EDK II]] build can understand EDK build description files, so an EDK II build can include EDK source code (with limitations). There are also build tool differences: EDK II supports a larger number of operating systems and tool chains.
 
 EDK II has richer libraries (MDELIB, etc.), which makes the source code structure very different. EDK II also uses a package concept, so that the directory and file layout is different. 
 
-[[EDK II]] uses Platform Configuration Database ([[PCD]]) for parameterization and binary patch support, and supports. 
+EDK II uses Platform Configuration Database ([[PCD]]) for parameterization and binary patch support, and supports. 
 newer UEFI/PI specifications (see table below for more info). 
 
 EDK II provides compatibility with EDK-style source code using EdkCompatiblityPkg ([[ECP]]). However, ECP support is being deprecated in current platforms. This is possible because ECP provides binary compatibility for EDK through libraies and thunk code.
@@ -54,7 +56,7 @@ The following table is a side by side comparison.
 |-
 |Standards (UEFI)
 |EFI 1.10, UEFI 2.0, UEFI 2.1, Intel Framework, PI 1.0
-|Focus on UEFI 2.3+/PI 1.2+ Spec Updates. Includes Support for EFI 1.10, UEFI 2.0+, PI 1.0+ & Intel Framework. See [[UDK2017]] release notes for info.
+|Focus on UEFI 2.3+/PI 1.2+ Spec Updates. Includes Support for EFI 1.10, UEFI 2.0+, PI 1.0+ & Intel Framework. See [[UDK2018]] & [[EDK II]] for info on specific releases.
 |-
 | Library
 | binary .Lib files
@@ -71,7 +73,7 @@ The following table is a side by side comparison.
 
 ===How can you find out what has changed between releases?===
 
-The release notes will have a general summary of features and fixes for EDK II changes. See [[UDK2017]] for the latest stable release and release notes.
+The release notes will have a general summary of features and fixes for EDK II changes. See [[EDK II]] for the latest stable release and release notes.
 
 ===In the past there were Libraries associated with PPI===
 
