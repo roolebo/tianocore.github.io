@@ -41,6 +41,7 @@
 * [Remove EdkShellPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1107)
 * [Remove EdkShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1108)
 * [BaseTools: Support Array and C code style initialization in Structure PCD](https://bugzilla.tianocore.org/show_bug.cgi?id=1292)
+* [Merge EmuVariable and Real variable driver](https://bugzilla.tianocore.org/show_bug.cgi?id=1323)
 * TBD Bugzilla List
 
 ---
