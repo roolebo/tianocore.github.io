@@ -60,4 +60,52 @@ INLINE COMMENTS
 
 perhaps include the size in the error message. I've found that kind of thing 
 useful before.
+3c.
+Phabricator doesn't use pull requests. Tasks, Review Requests etc. are all 
+kept indefinitely in the database.
+3d.
+
+Yes. Review comments by default use remarkup (https://secure.phabricator.com/
+book/phabricator/article/remarkup/) but the default email format is plain 
+text, with an option for HTML emails.  
+There are also various preferences for configuring the web display. For 
+example:
+
+"Phabricator normally shows diffs in a side-by-side layout on large screens 
+and automatically switches to a unified view on small screens (like mobile 
+phones). If you prefer unified diffs even on large screens, you can select them 
+for use on all displays."
+
+
+The full list of things Phabricator can do in terms of reviews, tasks, wiki 
+etc. is at https://www.phacility.com/phabricator/ - and can be seen at 
+https://code.bluestop.org/applications/query/all/ .
+
+The TianoCore edk2 repo that's mirrored from Github can be browsed at https://
+code.bluestop.org/diffusion/EDK/ .
+
+
+Note that Phabricator does *not* support pull requests as such. As they 
+explain:
+
+"Code review in Phabricator is a lightweight, asynchronous web-based process. 
+If you are familiar with GitHub, it is similar to how pull requests work:
+
+    An author prepares a change to a codebase, then sends it for review. They 
+specify who they want to review it (additional users may be notified as well, 
+see below). The change itself is called a "Differential Revision".
+    The reviewers receive an email asking them to review the change.
+    The reviewers inspect the change and either discuss it, approve it, or 
+request changes (e.g., if they identify problems or bugs).
+    In response to feedback, the author may update the change (e.g., fixing the 
+bugs or addressing the problems).
+    Once everything is satisfied, some reviewer accepts the change and the 
+author pushes it to the upstream."
+
+For examples of how Phabricator works for code reviews, people can take a look 
+at the following:
+
+https://reviews.freebsd.org/differential/query/all/
+https://reviews.llvm.org/differential/
+https://phabricator.services.mozilla.com/differential/
 
