@@ -1,14 +1,18 @@
 # Questions
-1. No Lock-In - What automated data export is available?
+### 1. No Lock-In
+What automated data export is available?
 We want to be able to leave and take all our data with us. "Data" here includes: review comments, pull requests / patches (including metadata), old (rejected) pull requests and metadata, issue tracker entries and comments (if issue tracker included). This archiving should be automated, not something we do by hand.
 
-2. Easy Administration - Are there any scripts or custom code required after initial setup? We would like to do as little customizing as possible.
+### 2. Easy Administration
+Are there any scripts or custom code required after initial setup? We would like to do as little customizing as possible.
 
-3. Flexible Workflow - Can we use email patches / email review as well as pull requests / web UI review?**
-  3a. Can we can attach review comments to specific code *and* commit message locations?
-  3b. Are the comments faithfully translated to notification emails (including the locations in code the comment is addressing)?
-  3c. Are old topic branches (rejected or updated pull requests) available even after being rejected? (i.e. are they ever deleted?)
-  3d. Is plain text supported in code review comments? 
+### 3. Flexible Workflow
+Can we use email patches / email review as well as pull requests / web UI review?  
+  
+3a. Can we can attach review comments to specific code *and* commit message locations?  
+3b. Are the comments faithfully translated to notification emails (including the locations in code the comment is addressing)?  
+3c. Are old topic branches (rejected or updated pull requests) available even after being rejected? (i.e. are they ever deleted?)  
+3d. Is plain text supported in code review comments?   
 
 # Phabricator
 ## 1. No Lock-In
@@ -92,19 +96,19 @@ code.bluestop.org/diffusion/EDK/ .
 Note that Phabricator does *not* support pull requests as such. As they 
 explain:
 
-"Code review in Phabricator is a lightweight, asynchronous web-based process. 
-If you are familiar with GitHub, it is similar to how pull requests work:
+> Code review in Phabricator is a lightweight, asynchronous web-based process. 
+> If you are familiar with GitHub, it is similar to how pull requests work:
 
-    An author prepares a change to a codebase, then sends it for review. They 
-specify who they want to review it (additional users may be notified as well, 
-see below). The change itself is called a "Differential Revision".
-    The reviewers receive an email asking them to review the change.
-    The reviewers inspect the change and either discuss it, approve it, or 
-request changes (e.g., if they identify problems or bugs).
-    In response to feedback, the author may update the change (e.g., fixing the 
-bugs or addressing the problems).
-    Once everything is satisfied, some reviewer accepts the change and the 
-author pushes it to the upstream."
+>     An author prepares a change to a codebase, then sends it for review. They 
+> specify who they want to review it (additional users may be notified as well, 
+> see below). The change itself is called a "Differential Revision".
+>     The reviewers receive an email asking them to review the change.
+>     The reviewers inspect the change and either discuss it, approve it, or 
+> request changes (e.g., if they identify problems or bugs).
+>     In response to feedback, the author may update the change (e.g., fixing the 
+> bugs or addressing the problems).
+>     Once everything is satisfied, some reviewer accepts the change and the 
+> author pushes it to the upstream.
 
 For examples of how Phabricator works for code reviews, people can take a look 
 at the following:
