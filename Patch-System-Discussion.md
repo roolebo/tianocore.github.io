@@ -11,11 +11,13 @@ We want to be able to leave and take all our data with us. "Data" here includes:
   3d. Is plain text supported in code review comments? 
 
 # Phabricator
-1. All data should be sent out via email, but it appears there's no official way to 
+## 1. No Lock-In
+All data should be sent out via email, but it appears there's no official way to 
 actually _export_ the data. It's all in the database that's kept on-site, but 
 would need pulled out manually. See https://phabricator.wikimedia.org/T108199 
 for a discussion.
-2. All configuration can be done either through the web interface or the scripts 
+## 2. Easy Administration 
+All configuration can be done either through the web interface or the scripts 
 in the 'bin' directory - e.g.:
 
 ./bin/config
@@ -43,44 +45,46 @@ in the 'bin' directory - e.g.:
 >     }   
 >   ]  
 > }  
-3. Yes. You can reply to emails Phabricator sends out to add comments on the 
+## 3. Flexible Workflow
+Yes. You can reply to emails Phabricator sends out to add comments on the 
 review, including on specific lines of code I understand.
-3a. There isn't a UI to attach comments to lines in the summary, but you can 
+### 3a. 
+There isn't a UI to attach comments to lines in the summary, but you can 
 always quote them and comment on them that way. You *can* provide comments on 
 specific lines of code.
-3b. 
+### 3b. 
 Yes. For example, from one of my reviews recently, Phabricator sent:
 
 INLINE COMMENTS
 
-> efi_main.c:98  
-> \+       if (status != EFI_SUCCESS) {  
-> \+               ST->ConOut->OutputString(ST->ConOut, L"Failed to allocate memory for heap.\r\n");  
-> BS->Exit(IH, status, 0, NULL);  
+`efi_main.c:98  `
+`+       if (status != EFI_SUCCESS) {  `
+`+               ST->ConOut->OutputString(ST->ConOut, L"Failed to allocate memory for heap.\r\n");  `
+        `BS->Exit(IH, status, 0, NULL);  `
 
 perhaps include the size in the error message. I've found that kind of thing 
 useful before.
-3c.
+### 3c.
 Phabricator doesn't use pull requests. Tasks, Review Requests etc. are all 
 kept indefinitely in the database.
-3d.
-
+### 3d.
 Yes. Review comments by default use remarkup (https://secure.phabricator.com/
 book/phabricator/article/remarkup/) but the default email format is plain 
 text, with an option for HTML emails.  
 There are also various preferences for configuring the web display. For 
 example:
 
-"Phabricator normally shows diffs in a side-by-side layout on large screens 
-and automatically switches to a unified view on small screens (like mobile 
-phones). If you prefer unified diffs even on large screens, you can select them 
-for use on all displays."
+> Phabricator normally shows diffs in a side-by-side layout on large screens 
+> and automatically switches to a unified view on small screens (like mobile 
+> phones). If you prefer unified diffs even on large screens, you can select them 
+> for use on all displays.
 
 
 The full list of things Phabricator can do in terms of reviews, tasks, wiki 
-etc. is at https://www.phacility.com/phabricator/ - and can be seen at 
-https://code.bluestop.org/applications/query/all/ .
-
+etc. can be seen here:  
+https://www.phacility.com/phabricator/   
+https://code.bluestop.org/applications/query/all/  
+  
 The TianoCore edk2 repo that's mirrored from Github can be browsed at https://
 code.bluestop.org/diffusion/EDK/ .
 
