@@ -1,7 +1,7 @@
 # edk2-stable201903 tag
 
 ## New Features
-* EDK II Release Planning (https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning)
+* [EDK II Release Planning](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning)
 
 ## Wiki
 * TBD
