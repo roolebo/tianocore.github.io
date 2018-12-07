@@ -36,7 +36,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://firmware.intel.com/sites/default/files/defining_spec_role_in_firmware.zip Zip file**] 
+[https://github.com/tianocore-training/Lesson-0/archive/master.zip Zip file**] 
   <br>
  
   </td>
@@ -55,7 +55,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 
   <td>
 
-[https://firmware.intel.com/sites/default/files/lesson_1_pei.zip Zip File**] 
+[https://github.com/tianocore-training/Lesson-1/archive/master.zip Zip File**] 
   <br>
  
   </td>
@@ -73,7 +73,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 
   <td>
  
-[https://firmware.intel.com/sites/default/files/lesson_2_dxe.zip Zip File**]
+[https://github.com/tianocore-training/Lesson-2/archive/master.zip Zip File**]
  
   </td>
 
@@ -90,7 +90,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://firmware.intel.com/sites/default/files/lesson_3_uefi_drivers.zip Zip File**]
+[https://github.com/tianocore-training/Lesson-3/archive/master.zip Zip File**]
  
  
   </td>
@@ -107,7 +107,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://firmware.intel.com/sites/default/files/lesson_4_firmware_hierarchy.zip Zip File**] 
+[https://github.com/tianocore-training/Lesson-4/archive/master.zip Zip File**] 
  
   </td>
 
@@ -123,7 +123,7 @@ Course Goal:Initialize the boot process by following the UEFI specifications
 <tr>
 
   <td>
-[https://firmware.intel.com/sites/default/files/lesson_5_bds_hii.zip Zip File**]
+[https://github.com/tianocore-training/Lesson-5/archive/master.zip Zip File**]
  
   </td>
 
@@ -151,7 +151,7 @@ Intended Audience: Firmware/Software Engineers
 Course Goal: Briefly explore the history and role of specifications in firmware 
 
 
-[https://firmware.intel.com/sites/default/files/defining_spec_role_in_firmware.zip Lesson 0 Zip file**] 
+[https://github.com/tianocore-training/Lesson-0/archive/master.zip Lesson 0 Zip file**] 
 
 
 Lesson 0: <br>
@@ -169,7 +169,7 @@ Intended Audience:Firmware/Software Engineers
 Course Goal:Initialize the boot process by following the UEFI specifications
 
 
-[https://firmware.intel.com/sites/default/files/lesson_1_pei.zip Lesson 1 Zip File**] 
+[https://github.com/tianocore-training/Lesson-1/archive/master.zip Lesson 1 Zip File**] 
 
 
 '''Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases''' <br>
@@ -186,7 +186,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://firmware.intel.com/sites/default/files/lesson_2_dxe.zip Lesson 2 Zip File**]
+[https://github.com/tianocore-training/Lesson-2/archive/master.zip Lesson 2 Zip File**]
 
 
 ''' Lesson 2: Driver Execution Environment (DXE)'''<br>
@@ -201,7 +201,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://firmware.intel.com/sites/default/files/lesson_3_uefi_drivers.zip Lesson 3 Zip File**]
+[https://github.com/tianocore-training/Lesson-3/archive/master.zip Lesson 3 Zip File**]
 
 '''Lesson 3: UEFI Drivers '''<br>
 When you complete this lesson, you will be able to:
@@ -214,7 +214,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://firmware.intel.com/sites/default/files/lesson_4_firmware_hierarchy.zip Lesson 4 Zip File**] 
+[https://github.com/tianocore-training/Lesson-4/archive/master.zip Lesson 4 Zip File**] 
 
 
 '''Lesson 4: Firmware and Data Storage'''<br>
@@ -227,7 +227,7 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://firmware.intel.com/sites/default/files/lesson_5_bds_hii.zip Lesson 5 Zip File**]
+[https://github.com/tianocore-training/Lesson-5/archive/master.zip Lesson 5 Zip File**]
 
 '''Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)'''<br>
 When you complete this lesson, you will be able to: 
