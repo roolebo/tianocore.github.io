@@ -2,6 +2,9 @@
 ## Overview
 We will be holding community meetings on the first Thursday of the month. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.
 
+## Minutes
+[[Community Meeting Minutes]] will be posted after each meeting as well as to the mailing list.
+
 ## December Add to Calendar
 (_right-click and Save As..._)  
 [North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-NAMO-EMEA.ics)  
