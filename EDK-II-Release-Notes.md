@@ -4,7 +4,7 @@
 * [EDK II Release Planning](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning)
 
 ## Wiki
-* TBD
+* [C array structure PCD usage](https://bugzilla.tianocore.org/show_bug.cgi?id=1392)
 
 ## Update Notes
 1. Use ShellPkg in Platform DSC/FDF to replace EdkShellBinPkg, because EdkShellBinPkg is removed.
