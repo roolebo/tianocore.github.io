@@ -19,6 +19,7 @@
 * [BaseTools: Support Array and C code style initialization in Structure PCD](https://bugzilla.tianocore.org/show_bug.cgi?id=1292)
 * [Merge EmuVariable and Real variable driver](https://bugzilla.tianocore.org/show_bug.cgi?id=1323)
 * [Remove DuetPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1322)
+* [Upgrade OpenSSL to 1.1.0j](https://bugzilla.tianocore.org/show_bug.cgi?id=1393)
 * TBD Bugzilla List
 
 ---
