@@ -20,6 +20,8 @@
 * [Merge EmuVariable and Real variable driver](https://bugzilla.tianocore.org/show_bug.cgi?id=1323)
 * [Remove DuetPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1322)
 * [Upgrade OpenSSL to 1.1.0j](https://bugzilla.tianocore.org/show_bug.cgi?id=1393)
+* [Split the S3 phase device initialization codes from the OpalPassword PEI driver](https://bugzilla.tianocore.org/show_bug.cgi?id=1409)
+* [Remove PcdPeiCoreMaxXXX PCDs](https://bugzilla.tianocore.org/show_bug.cgi?id=1405)
 * TBD Bugzilla List
 
 ---
