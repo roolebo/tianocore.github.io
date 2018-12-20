@@ -5,15 +5,14 @@ We will be holding community meetings on the first Thursday of the month. There 
 ## Minutes
 [[Community Meeting Minutes]] will be posted after each meeting as well as to the mailing list.
 
-## December Add to Calendar
+## January Add to Calendar
 (_right-click and Save As..._)  
-[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-NAMO-EMEA.ics)  
-[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-December-Community-Meeting-APAC-NAMO.ics) 
+TBD
 
 ## Some initial topics that may be discussed include:
-- Community Discussion Tools (Groups.io, Google Groups)
-- Patch System Discussion V3 (Phabricator / Github / Gitlab / Gerrit)
-- Open Source Design Meetings, Bug Scrubs, and CI
+- Community Discussion Tools Update
+- Patch System Discussion V4 (Phabricator / Github Research Results)
+- Open Source CI Options (Azure DevOps, 
 - Open Source Tooling Discussions
 
 
@@ -24,38 +23,38 @@ Stephano Cetola
 TianoCore Community Manager  
 stephano.cetola@linux.intel.com    
   
-## December Meeting Details
+## January Meeting Details
 
 ### NAMO / EMEA
 
-**Dec. 6 at 17:00 GMT (9am PST)**
+**Jan. 10 at 17:00 GMT (9am PST)**
 
 Join Zoom Meeting  
-https://zoom.us/j/233005679  
+https://zoom.us/j/940666665  
   
 One tap mobile  
-+16699006833,,233005679# US (San Jose)  
-+16465588665,,233005679# US (New York)  
++16699006833,,940666665# US (San Jose)  
++16465588665,,940666665# US (New York)  
   
 Dial by your location  
         +1 669 900 6833 US (San Jose)  
         +1 646 558 8665 US (New York)  
-Meeting ID: 233 005 679  
+Meeting ID: 940 666 665  
 Find your local number: https://zoom.us/u/arbHk4QEY  
   
 ### APAC / NAMO
   
-**Dec. 7th at 3:00 GMT (11:00 in Shanghai) (Dec 6, 19:00 PST)**
+**Jan. 11th at 3:00 GMT (11:00 in Shanghai) (Jan 10, 19:00 PST)**
   
 Join Zoom Meeting  
-https://zoom.us/j/771434650  
+https://zoom.us/j/754080239  
   
 One tap mobile  
-+16699006833,,771434650# US (San Jose)  
-+16465588665,,771434650# US (New York)  
++16699006833,,754080239# US (San Jose)  
++16465588665,,754080239# US (New York)  
   
 Dial by your location  
         +1 669 900 6833 US (San Jose)  
         +1 646 558 8665 US (New York)  
-Meeting ID: 771 434 650  
+Meeting ID: 754 080 239  
 Find your local number: https://zoom.us/u/avHbqG8Sx  
