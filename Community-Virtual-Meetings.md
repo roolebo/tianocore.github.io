@@ -7,12 +7,13 @@ We will be holding community meetings on the first Thursday of the month. There 
 
 ## January Add to Calendar
 (_right-click and Save As..._)  
-TBD
+[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-January-Community-Meeting-NAMO-EMEA.ics)  
+[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-January-Community-Meeting-APAC-NAMO.ics) 
 
 ## Some initial topics that may be discussed include:
 - Community Discussion Tools Update
-- Patch System Discussion V4 (Phabricator / Github Research Results)
-- Open Source CI Options (Azure DevOps, 
+- Phabricator / Github / GitLab Research Results
+- Open Source CI Options (Azure DevOps, Cirrus CI, Jenkins)
 - Open Source Tooling Discussions
 
 
