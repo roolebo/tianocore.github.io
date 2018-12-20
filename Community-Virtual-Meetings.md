@@ -11,7 +11,7 @@ We will be holding community meetings on the first Thursday of the month. There 
 [Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-January-Community-Meeting-APAC-NAMO.ics) 
 
 ## Some initial topics that may be discussed include:
-- Community Discussion Tools Update
+- Community Discussion Tools Update (GitHub Discussions, Groups.io, MS Teams)
 - Phabricator / Github / GitLab Research Results
 - Open Source CI Options (Azure DevOps, Cirrus CI, Jenkins)
 - Open Source Tooling Discussions
