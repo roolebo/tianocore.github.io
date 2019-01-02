@@ -9,4 +9,4 @@
 ## Update Notes
 1. Use ShellPkg in Platform DSC/FDF to replace EdkShellBinPkg, because EdkShellBinPkg is removed.
 2. Remove the using of PcdPeiCoreMaxFvSupported, PcdPeiCoreMaxPeimPerFv and PcdPeiCoreMaxPpiSupported
-   in platform code as they have been removed for [Bug 1392](https://bugzilla.tianocore.org/show_bug.cgi?id=1392).
+   in platform code as they have been removed for [Bug 1405](https://bugzilla.tianocore.org/show_bug.cgi?id=1405).
