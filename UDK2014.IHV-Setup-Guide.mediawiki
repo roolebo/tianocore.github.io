@@ -1,5 +1,8 @@
 == UDK2014 IHV Driver Developer Release (UDK2014.IHV) ==
 
+===Please note===
+It is recommended to use a more up to date version of EDK II.  Please see the [[UDK]] wiki page for the latest release.
+<hr>
 Reduced distribution of the [[UDK2014]] specifically for independent hardware vendors (IHV) creating UEFI drivers.
 * EDK II [[BaseTools]] for Windows and Linux
 * [[MdeModulePkg]]
