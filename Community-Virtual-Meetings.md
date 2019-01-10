@@ -17,8 +17,8 @@ We will be holding community meetings on the first Thursday of the month. There 
 - Open Source Tooling Discussions
 
 ## Meeting Format
-- Collect Opens
 - Community Updates
+- Collect Opens
 - Topic Discussions
 - Closing Remarks / Questions
 
