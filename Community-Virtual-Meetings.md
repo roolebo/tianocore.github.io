@@ -16,7 +16,7 @@ We will be holding community meetings on the first Thursday of the month. There 
 - Open Source CI Options (Azure DevOps, Cirrus CI, Jenkins)
 - Open Source Tooling Discussions
 
-## Format
+## Meeting Format
 - Collect Opens
 - Community Updates
 - Topic Discussions
