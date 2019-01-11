@@ -1,1 +1,1 @@
-* [December 6th, 2018](https://www.tianocore.org/minutes/Community-EMEA-NAMO-12.html)
+* [December 6th, 2018](https://www.tianocore.org/minutes/Community-2018-12.html)
