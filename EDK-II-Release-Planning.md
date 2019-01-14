@@ -22,6 +22,7 @@
 * [Upgrade OpenSSL to 1.1.0j](https://bugzilla.tianocore.org/show_bug.cgi?id=1393)
 * [Split the S3 phase device initialization codes from the OpalPassword PEI driver](https://bugzilla.tianocore.org/show_bug.cgi?id=1409)
 * [Remove PcdPeiCoreMaxXXX PCDs](https://bugzilla.tianocore.org/show_bug.cgi?id=1405)
+* [Remove unused tool logic in BaseTools C\Python](https://bugzilla.tianocore.org/show_bug.cgi?id=1350)
 * TBD Bugzilla List
 
 ---
