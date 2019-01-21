@@ -24,6 +24,7 @@
 * [Remove PcdPeiCoreMaxXXX PCDs](https://bugzilla.tianocore.org/show_bug.cgi?id=1405)
 * [Remove unused tool logic in BaseTools C\Python](https://bugzilla.tianocore.org/show_bug.cgi?id=1350)
 * [BaseTools: Enable component override functionality](https://bugzilla.tianocore.org/show_bug.cgi?id=1449)
+* Standalone MM build of authenticated variable stack (bugzilla link TBD)
 * TBD Bugzilla List
 
 ---
