@@ -11,9 +11,9 @@ We will be holding community meetings on the first Thursday of the month. There 
 [Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-February-Community-Meeting-APAC-NAMO.ics) 
 
 ## Discussion Topics
-- Groups.io Research Results
-- Gerrit Research Results
-- Rust in EDK2 Exploration
+- Groups.io & Gerrit Research Results
+- Community Design & Bug Scrub Announcements
+- Rust in EDK2 Exploration Notes
 
 ## Meeting Format
 - Community Updates
