@@ -5,16 +5,15 @@ We will be holding community meetings on the first Thursday of the month. There 
 ## Minutes
 [[Community Meeting Minutes]] will be posted after each meeting as well as to the mailing list.
 
-## January Add to Calendar
+## February Add to Calendar
 (_right-click and Save As..._)  
-[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-January-Community-Meeting-NAMO-EMEA.ics)  
-[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-January-Community-Meeting-APAC-NAMO.ics) 
+[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-February-Community-Meeting-NAMO-EMEA.ics)  
+[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-February-Community-Meeting-APAC-NAMO.ics) 
 
 ## Discussion Topics
-- Community Discussion Tools Update (GitHub Discussions, Groups.io, MS Teams)
-- Phabricator / Github / GitLab Research Results
-- Open Source CI Options (Azure DevOps, Cirrus CI, Jenkins)
-- Open Source Tooling Discussions
+- Groups.io Research Results
+- Gerrit Research Results
+- Rust in EDK2 Exploration
 
 ## Meeting Format
 - Community Updates
@@ -34,34 +33,34 @@ stephano.cetola@linux.intel.com
 
 ### NAMO / EMEA
 
-**Jan. 10 at 17:00 GMT (9am PST)**
+**Feb. 14 at 17:00 GMT (9am PST)**
 
 Join Zoom Meeting  
-https://zoom.us/j/940666665  
+https://zoom.us/j/739822185  
   
 One tap mobile  
-+16699006833,,940666665# US (San Jose)  
-+16465588665,,940666665# US (New York)  
++16699006833,,739822185# US (San Jose)  
++16465588665,,739822185# US (New York)  
   
 Dial by your location  
         +1 669 900 6833 US (San Jose)  
         +1 646 558 8665 US (New York)  
-Meeting ID: 940 666 665  
+Meeting ID: 739 822 185  
 Find your local number: https://zoom.us/u/arbHk4QEY  
   
 ### APAC / NAMO
   
-**Jan. 11th at 3:00 GMT (11:00 in Shanghai) (Jan 10, 19:00 PST)**
+**Feb. 15th at 3:00 GMT (11:00 in Shanghai) (Feb 14, 19:00 PST)**
   
 Join Zoom Meeting  
-https://zoom.us/j/754080239  
+https://zoom.us/j/299247501  
   
 One tap mobile  
-+16699006833,,754080239# US (San Jose)  
-+16465588665,,754080239# US (New York)  
++16699006833,,299247501# US (San Jose)  
++16465588665,,299247501# US (New York)  
   
 Dial by your location  
         +1 669 900 6833 US (San Jose)  
         +1 646 558 8665 US (New York)  
-Meeting ID: 754 080 239  
+Meeting ID: 299 247 501  
 Find your local number: https://zoom.us/u/avHbqG8Sx  
