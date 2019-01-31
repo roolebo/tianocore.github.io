@@ -27,7 +27,7 @@ stephano.cetola@linux.intel.com
 
 ### NAMO / EMEA
 
-**Friday at 15:00 GMT (7am PST)**
+**Every Other Friday at 15:00 GMT (7am PST)**
 
 Join Zoom Meeting  
 https://zoom.us/j/670172897    
@@ -44,7 +44,7 @@ Find your local number: https://zoom.us/u/arbHk4QEY
   
 ### APAC / NAMO
   
-**Feb. 15th at 3:00 GMT (11:00 in Shanghai) (Feb 14, 19:00 PST)**
+**Every Other Thursday at 8:00 in Shanghai (16:00 PST)**
   
 Join Zoom Meeting  
 https://zoom.us/j/251103409  
