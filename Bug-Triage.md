@@ -10,12 +10,6 @@ Coming soon...
 [North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-Community-Bug-Triage-EMEA-NAMO.ics)  
 [Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-Community-Bug-Triage-APAC-NAMO.ics) 
 
-## Meeting Format
-- Opens
-- Open Bug Triage
-- Feature Requests
-
-
 ## Contact
 Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
 
