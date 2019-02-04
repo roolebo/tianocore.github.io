@@ -1,6 +1,6 @@
 # Community Bug Triage
 ## Overview
-We will be holding our community bug triage on Thursday, every two weeks. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.  
+We will be holding our community bug triage every two weeks. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.  
 
 ## Bugzilla Links
 Coming soon...
@@ -27,7 +27,7 @@ stephano.cetola@linux.intel.com
 
 ### NAMO / EMEA
 
-**Every Other Friday at 15:00 GMT (7am PST)**
+**Every Other Monday at 15:00 GMT (7am PST)**
 
 Join Zoom Meeting  
 https://zoom.us/j/670172897    
@@ -44,7 +44,7 @@ Find your local number: https://zoom.us/u/arbHk4QEY
   
 ### APAC / NAMO
   
-**Every Other Thursday at 8:00 in Shanghai (16:00 PST)**
+**Every Other Friday at 8:00 in Shanghai (Thursday at 16:00 PST)**
   
 Join Zoom Meeting  
 https://zoom.us/j/251103409  
