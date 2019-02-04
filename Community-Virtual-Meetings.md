@@ -7,7 +7,7 @@ Please note that January and February's meetings will be held on the **second Th
 ## Minutes
 [[Community Meeting Minutes]] will be posted after each meeting as well as to the mailing list.
 
-## February Add to Calendar
+## Add to Calendar
 (_right-click and Save As..._)  
 [North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-February-Community-Meeting-NAMO-EMEA.ics)  
 [Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-February-Community-Meeting-APAC-NAMO.ics) 
@@ -31,7 +31,7 @@ Stephano Cetola
 TianoCore Community Manager  
 stephano.cetola@linux.intel.com    
   
-## January Meeting Details
+## Meeting Details
 
 ### NAMO / EMEA
 
