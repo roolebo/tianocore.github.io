@@ -4,7 +4,7 @@ For a detailed description on UEFI HTTP Boot, see the "HTTP Boot" section of the
 
 ### HTTP Boot: Getting Started
 
-Please refer to the white paper [EDK II HTTP Boot Getting Started Guide](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/EDKIIHttpBootGettingStartedGuide_0_8.pdf) for a step by step guide of the HTTP Boot enabling and server configuration in **corporate environment**.
+Please refer to the white paper [EDK II HTTP Boot Getting Started Guide](https://legacy.gitbook.com/book/edk2-docs/getting-started-guide-of-edk-ii-http-boot/details) for a step by step guide of the HTTP Boot enabling and server configuration in **corporate environment**.
 
 Additional information is available on the openSUSE Wiki: [UEFI HTTPBoot with OVMF](https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF).
 
