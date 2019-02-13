@@ -24,7 +24,9 @@
 * [Remove PcdPeiCoreMaxXXX PCDs](https://bugzilla.tianocore.org/show_bug.cgi?id=1405)
 * [Remove unused tool logic in BaseTools C\Python](https://bugzilla.tianocore.org/show_bug.cgi?id=1350)
 * [BaseTools: Enable component override functionality](https://bugzilla.tianocore.org/show_bug.cgi?id=1449)
-* [SMM CET support](https://bugzilla.tianocore.org/show_bug.cgi?id=1521)
+* [Support PI1.7 EFI_PEI_CORE_FV_LOCATION_PPI](https://bugzilla.tianocore.org/show_bug.cgi?id=1524)
+* [Remove unused tool chain configuration in tools_def.template](https://bugzilla.tianocore.org/show_bug.cgi?id=1377)
+* [BaseTools supports to the driver combination](https://bugzilla.tianocore.org/show_bug.cgi?id=1520)
 * Standalone MM build of authenticated variable stack (bugzilla link TBD)
 * TBD Bugzilla List
 
