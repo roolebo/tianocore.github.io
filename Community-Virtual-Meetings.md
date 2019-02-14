@@ -52,7 +52,7 @@ Find your local number: https://zoom.us/u/arbHk4QEY
   
 ### APAC / NAMO
   
-**Feb. 15th at 3:00 GMT (11:00 in Shanghai) (Feb 14, 19:00 PST)**
+**Feb. 20th at 3:00 GMT (11:00 in Shanghai) (Feb 19, 19:00 PST)**
   
 Join Zoom Meeting  
 https://zoom.us/j/299247501  
