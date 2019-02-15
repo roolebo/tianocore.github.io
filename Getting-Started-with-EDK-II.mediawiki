@@ -15,8 +15,8 @@ Several build environments are supported and documented.  If instructions are no
 '''Note:''' Some other build tools may be required depending on the project or package:
 * [[Nasm Setup|Nasm]]
 * [[ASL Setup|ASL Compiler]]
-* Install Python 2.7.10 or later (https://www.python.org/)  to run python tool from source 
-**  PYTHON_HOME - set it as Python 2.7 installation directory
+* Install Python 3.7 or later (https://www.python.org/)  to run python tool from source 
+**  Python 2.7.10 or later can still be used with PYTHON_HOME
 
 '''Note:''' Some of the examples use the [[Multiple_Workspace]] feature to configure EDK II BaseTools. This is required for using platform code based on edk2-platforms: (https://github.com/tianocore/edk2-platforms)
 
