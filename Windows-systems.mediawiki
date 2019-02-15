@@ -77,8 +77,7 @@ Continue to [[Windows-systems#compile-tools |Compile Tools]] and then [[Windows-
 *	Change to the workspace directory
 *	Clone the EDK II project repository (See [[Windows-systems#download| Download]] section above)
 **	Example: git clone https://github.com/tianocore/edk2
-* Install Python27 (https://www.python.org/)  to run python tool from source 
-**  PYTHON_HOME - set it as Python27 installation directory
+* Install Python37 or late version (https://www.python.org/)  to run python tool from source 
 * Compile BaseTools C source tools
 Example:
 * Inside Git Bash
