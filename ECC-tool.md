@@ -14,14 +14,23 @@ Steps to run ECC tool:<br>
 
 **2). Then in edk2 directory, you can type "Ecc" to run ECC tool directly**.<br>
 
-**3). If you meet following error:**<br>
+**3). If you meet following errors:**<br>
+**Error 1:**<br>
     **import antlr3**<br>
     **ImportError: No module named antlr3**<br>
 
-Since ECC depends on antlr V3.0.1, you can download it from http://www.antlr3.org/download/Python/ <br>
+This error may be met when you run ECC tool with python 2.x, then ECC depends on antlr V3.0.1, you can download it from http://www.antlr3.org/download/Python/ <br>
 After download and extract it, you can enter the antlr tool directory and run: <br>
 **C:\Python27\python.exe setup.py install** to install it.(**on Windows**) <br>
-**python setup.py install**" to install it, root access may be required.(**on Linux**) <br>
+**python setup.py install** to install it, root access may be required.(**on Linux**) <br>
+
+**Error 2:**<br>
+    **import antlr4 as antlr** <br>
+    **ModuleNotFoundError: No module named 'antlr4'** <br>
+
+This error may be met when you run ECC tool with python 3.x, then ECC depends on antlr4, you can install it through following command.<br>
+**py -3 -m pip install antlr4-python3-runtime** to install it.(**on Windows**) <br>
+**sudo python3 -m pip install antlr4-python3-runtime** to install it. (**on Linux**) <br>
 
 **4). You can type "Ecc -h/Ecc --help" to get the help info of ECC tool**.<br>
 
