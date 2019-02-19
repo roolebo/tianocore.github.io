@@ -12,7 +12,7 @@
 2. Remove the using of PcdPeiCoreMaxFvSupported, PcdPeiCoreMaxPeimPerFv and PcdPeiCoreMaxPpiSupported
    in platform code as they have been removed for [Bug 1405](https://bugzilla.tianocore.org/show_bug.cgi?id=1405).
 3. Remove the using of EmuVariableRuntimeDxe and use the merged Variable driver instead like below as 
-   EmuVariableRuntimeDxe has been removed for [Bug 1323](https://bugzilla.tianocore.org/show_bug.cgi?id=1405).
+   EmuVariableRuntimeDxe has been removed for [Bug 1323](https://bugzilla.tianocore.org/show_bug.cgi?id=1323).
 
   MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf {
     <PcdsFixedAtBuild>
