@@ -12,16 +12,16 @@ The EDK II Debug Library (`MdePkg\Include\Library\DebugLib.h`) is a portable lib
 
 ## Debug Macros
 
-* [[DEBUG (Expression)|DEBUG]]
-* [[DEBUG_CODE (Expression)|DEBUG_CODE]]
-* [[DEBUG_CODE_BEGIN() & DEBUG_CODE_END()|DEBUG_CODE_BEGIN/END]]
-* [[DEBUG_CLEAR_MEMORY(...)|DEBUG_CLEAR_MEMORY]]
+* DEBUG (Expression)|DEBUG
+* DEBUG_CODE (Expression)|DEBUG_CODE
+* DEBUG_CODE_BEGIN() & DEBUG_CODE_END()|DEBUG_CODE_BEGIN/END
+* DEBUG_CLEAR_MEMORY(...)|DEBUG_CLEAR_MEMORY
 
 ## Assert Macros
 
-* [[ASSERT (Expression)|ASSERT]]
-* [[ASSERT_EFI_ERROR (StatusParameter)|ASSERT_EFI_ERROR]]
-* [[ASSERT_PROTOCOL_ALREADY_INSTALLED(...)|ASSERT_PROTOCOL_ALREADY_INSTALLED]]
+* ASSERT (Expression)|ASSERT
+* ASSERT_EFI_ERROR (StatusParameter)|ASSERT_EFI_ERROR
+* ASSERT_PROTOCOL_ALREADY_INSTALLED(...)|ASSERT_PROTOCOL_ALREADY_INSTALLED
 
 ## PCDs to configure DebugLib
 
@@ -45,7 +45,7 @@ Definition of `PcdDebugPropertyMask` bitmask field:
     #define DEBUG_PROPERTY_ASSERT_BREAKPOINT_ENABLED  0x10
     #define DEBUG_PROPERTY_ASSERT_DEADLOOP_ENABLED    0x20
 
-Definition of `PcdDebugPrintErrorLevel` bitmask field:
+Definition of `PcdDebugPrintErrorLevel` bitmask field (according to  DebugLib.h):
 
     #define DEBUG_INIT      0x00000001  // Initialization
     #define DEBUG_WARN      0x00000002  // Warnings
@@ -55,12 +55,16 @@ Definition of `PcdDebugPrintErrorLevel` bitmask field:
     #define DEBUG_PAGE      0x00000020  // Alloc & Free's  Page
     #define DEBUG_INFO      0x00000040  // Verbose
     #define DEBUG_DISPATCH  0x00000080  // PEI/DXE Dispatchers
-    #define DEBUG_VARIABLE  0x00000100  //Variable
+    #define DEBUG_VARIABLE  0x00000100  // Variable
     #define DEBUG_BM        0x00000400  // Boot Manager
     #define DEBUG_BLKIO     0x00001000  // BlkIo Driver
-    #define DEBUG_NET       0x00004000  // SNI Driver
+    #define DEBUG_NET       0x00004000  // SNP / Network Io Driver
     #define DEBUG_UNDI      0x00010000  // UNDI Driver
     #define DEBUG_LOADFILE  0x00020000  // Load File 
     #define DEBUG_EVENT     0x00080000  // Event messages
+    #define DEBUG_GCD       0x00100000  // Global Coherency Database changes
+    #define DEBUG_CACHE     0x00200000  // Memory range cache-ability changes
+    #define DEBUG_VERBOSE   0x00400000  // Detailed debug messages that may
+                                        // significantly impact boot performance
     #define DEBUG_ERROR     0x80000000  // Error
 
