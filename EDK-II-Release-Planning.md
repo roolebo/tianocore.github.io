@@ -27,6 +27,7 @@
 * [Support PI1.7 EFI_PEI_CORE_FV_LOCATION_PPI](https://bugzilla.tianocore.org/show_bug.cgi?id=1524)
 * [Remove unused tool chain configuration in tools_def.template](https://bugzilla.tianocore.org/show_bug.cgi?id=1377)
 * [BaseTools supports to the driver combination](https://bugzilla.tianocore.org/show_bug.cgi?id=1520)
+* [Add Security feature set support for ATA devices](https://bugzilla.tianocore.org/show_bug.cgi?id=1529)
 * Standalone MM build of authenticated variable stack (bugzilla link TBD)
 * TBD Bugzilla List
 
