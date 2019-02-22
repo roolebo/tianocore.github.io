@@ -1,5 +1,5 @@
 # Bug Traiage
-The [Bug-Triage TianoCore Bug Triage] meetings will happen bi-monthly.
+The [TianoCore Bug Triage][Bug-Triage] meetings will happen bi-monthly.
 
 # Monthly Meeting
 Our [Monthly-Meeting] will focus on community news and general discussion.
