@@ -23,3 +23,10 @@
       VarCheckLib|MdeModulePkg/Library/VarCheckLib/VarCheckLib.inf
   }
   ```
+4. Remove the TCP/iSCSI/PXE drivers in MdeModulePkg for [BZ1278](https://bugzilla.tianocore.org/show_bug.cgi?id=1278). Below components in NetworkPkg should be used to support both IPv4 and IPv6.
+  ```
+[Components]
+  NetworkPkg/TcpDxe/TcpDxe.inf
+  NetworkPkg/IScsiDxe/IScsiDxe.inf
+  NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
+  ```
