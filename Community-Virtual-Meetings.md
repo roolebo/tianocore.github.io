@@ -1,8 +1,8 @@
 # Bug Traiage
-The [[Bug-Triage]] meetings will happen bi-monthly.
+The [Bug Triage Meetings](Bug-Triage) will happen bi-monthly.
 
 # Monthly Meeting
-Our [[Monthly-Meeting]] will focus on community news and general discussion.
+Our [Monthly Meetings](Monthly-Meeting) will focus on community news and general discussion.
 
 # Community Design Meetings
-Our [[Design-Meetings]] will occur bi-monthly with dates currently TBD.
+Our [Design Meetings](Design-Meeting) will occur bi-monthly with dates currently TBD.
