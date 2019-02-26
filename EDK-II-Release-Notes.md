@@ -44,5 +44,6 @@
    ATA and NVM Express devices respectively. Platforms also need to provide Host
    Controller PEIMs for ATA and NVM Express controllers. These PEIMs should respectively
    produce EDKII_ATA_AHCI_HOST_CONTROLLER_PPI and EDKII_NVM_EXPRESS_HOST_CONTROLLER_PPI
-   in order to support the new working scheme. For image size consideration, compressing
-   the above-mentioned PEIMs is recommended.
+   in order to support the new working scheme. Lastly, please note that the PEIMs
+   involved here will be executed during S3 resume. As a result, they may not be
+   compressed, so there will be an impact to the image size.
