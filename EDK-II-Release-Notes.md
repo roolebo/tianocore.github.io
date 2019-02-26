@@ -30,22 +30,19 @@
   NetworkPkg/IScsiDxe/IScsiDxe.inf
   NetworkPkg/UefiPxeBcDxe/UefiPxeBcDxe.inf
   ```
-5. New working model has been adopted for the ATA and NVM Express OPAL devices
-   S3 auto-unlock feature. The S3 phase hardware initialization codes have been
-   removed from the OpalPassword drivers. The OpalPasswordPei PEIM now will consume
-   the Storage Security Command PPI instances to unlock OPAL devices in S3.
-   More specifically, for ATA devices, a new PEIM:
+5. New working model [BZ1409](https://bugzilla.tianocore.org/show_bug.cgi?id=1409)
+   has been adopted for the ATA and NVM Express OPAL devices S3 auto-unlock feature.
+   The S3 phase hardware (ATA and NVM Express) initialization codes have been removed
+   from the OpalPassword drivers. The OpalPasswordPei PEIM now will consume the
+   Storage Security Command (SSC) PPI instances to unlock OPAL devices in S3. For
+   the new working model, the following PEIMs:
   ```
   MdeModulePkg/Bus/Ata/AhciPei/AhciPei.inf
-  ```
-   is added for initializing the ATA devices in PEI and the PEIM will produce the
-   Storage Security Command PPI for the managing devices.
-   For NVM Express devices, the existing PEIM:
-  ```
   MdeModulePkg/Bus/Pci/NvmExpressPei/NvmExpressPei.inf
   ```
-   has been updated to produce the Storage Security Command PPI.
-   The above 2 PEIMs should be included to support the new working model. Also,
-   platform needs to provide Host Controller PEIMs, which produce EDKII_ATA_AHCI_HOST_CONTROLLER_PPI
-   for ATA controllers and EDKII_NVM_EXPRESS_HOST_CONTROLLER_PPI for NVM Express
-   controllers respectively, to support the new working scheme. [BZ1409](https://bugzilla.tianocore.org/show_bug.cgi?id=1409)
+   should be included by platforms so that SSC PPI instances will be produced for
+   ATA and NVM Express devices respectively. Platforms also need to provide Host
+   Controller PEIMs for ATA and NVM Express controllers. These PEIMs should respectively
+   produce EDKII_ATA_AHCI_HOST_CONTROLLER_PPI and EDKII_NVM_EXPRESS_HOST_CONTROLLER_PPI
+   in order to support the new working scheme. For image size consideration, compressing
+   the above-mentioned PEIMs is recommended.
