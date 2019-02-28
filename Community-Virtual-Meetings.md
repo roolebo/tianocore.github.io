@@ -1,5 +1,5 @@
 # Bug Traiage
-The [Bug Triage Meetings](Bug-Triage) will happen bi-monthly.
+The [Bug Triage Meetings](Bug-Triage) will occur bi-monthly.
 
 # Monthly Meeting
 Our [Monthly Meetings](Monthly-Meeting) will focus on community news and general discussion.
