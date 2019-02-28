@@ -3,8 +3,6 @@
 ## Overview
 We will be holding community meetings on the first Thursday of the month. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.  
 
-Please note that January and February's meetings will be held on the **second Thursday** to accomidate holidays.
-
 ## Minutes
 [[Community Meeting Minutes]] will be posted after each meeting as well as to the mailing list.
 
