@@ -13,7 +13,7 @@ We will be holding community meetings on the first Thursday of the month. There 
 
 ## Discussion Topics
 - Groups.io Next Steps
-- Bug Scrub Review
+- Community "Bug Triage" Review
 - Community Design Announcement
 
 ## Meeting Format
