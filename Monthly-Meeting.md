@@ -14,7 +14,7 @@ We will be holding community meetings on the first Thursday of the month. There 
 ## Discussion Topics
 - Groups.io Next Steps
 - Community "Bug Triage" Review
-- Community Design Announcement
+- Community Design Meeting Announcement
 
 ## Meeting Format
 - Community Updates
