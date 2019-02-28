@@ -47,3 +47,6 @@
    in order to support the new working scheme. Lastly, please note that the PEIMs
    involved here will be executed during S3 resume. As a result, they may not be
    compressed, so there will be an impact to the image size.
+
+6. Unused tool chain VS2003~VS2005, GCC44~GCC47, ELFGCC/UNIXGCC/CYGGCC, DDK3790, MYTOOLS
+   are removed. Please use the latest VS2015 or GCC5 as the default tool chain. 
