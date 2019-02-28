@@ -10,8 +10,8 @@ Please note that January and February's meetings will be held on the **second Th
 
 ## Add to Calendar
 (_right-click and Save As..._)  
-[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-February-Community-Meeting-NAMO-EMEA.ics)  
-[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-February-Community-Meeting-APAC-NAMO.ics) 
+[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-March-Community-Meeting-NAMO-EMEA.ics)  
+[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-March-Community-Meeting-APAC-NAMO.ics) 
 
 ## Discussion Topics
 - Groups.io Next Steps
