@@ -2,12 +2,12 @@
 
 ## Proposed Schedule
 
-| Date(UTC-8)| Description                              |
-| ---------- | ---------------------------------------- |
-| 2018-11-15 | Beginning of development                 |
-| 2019-02-22 | [Soft Feature Freeze](SoftFeatureFreeze) |
-| 2019-03-01 | [Hard Feature Freeze](HardFeatureFreeze) |
-| 2019-03-08 | Release                                  |
+| Date (00:00:00 UTC-8)| Description                              |
+| ---------------------| ---------------------------------------- |
+| 2018-11-15           | Beginning of development                 |
+| 2019-02-22           | [Soft Feature Freeze](SoftFeatureFreeze) |
+| 2019-03-01           | [Hard Feature Freeze](HardFeatureFreeze) |
+| 2019-03-08           | Release                                  |
 
 ## Proposed Features
 * [Python 3 migration](https://bugzilla.tianocore.org/show_bug.cgi?id=55)
