@@ -34,7 +34,7 @@ stephano.cetola@linux.intel.com
 
 ### NAMO / EMEA
 
-**March 7 at 17:00 GMT (9am PST)**
+**March 7 at 17:00 GMT (9am PST, 2pm BRT)**
 
 Join Zoom Meeting  
 https://zoom.us/j/706049056  
