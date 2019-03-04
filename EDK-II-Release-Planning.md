@@ -29,7 +29,7 @@
 * [Add Security feature set support for ATA devices](https://bugzilla.tianocore.org/show_bug.cgi?id=1529)
 * [SMM CET support](https://bugzilla.tianocore.org/show_bug.cgi?id=1521)
 * [Add Wi-Fi Connection Manager to NetworkPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1492)
-* [Standalone MM build of authenticated variable stack] (https://bugzilla.tianocore.org/show_bug.cgi?id=1589)
+* [Standalone MM build of authenticated variable stack](https://bugzilla.tianocore.org/show_bug.cgi?id=1589)
 * TBD Bugzilla List
 
 ---
