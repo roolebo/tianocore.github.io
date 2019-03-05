@@ -11,7 +11,6 @@
 
 ## Proposed Features
 * [Python 3 migration](https://bugzilla.tianocore.org/show_bug.cgi?id=55)
-* [Add MSFT toolchain support to BaseStackCheckLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1239)
 * [BaseTool Suggestions for improving building performance](https://bugzilla.tianocore.org/show_bug.cgi?id=1288)
 * [Delete IPv4 only TCP/iSCSI/PXE drivers in MdeModulePkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1278)
 * [Remove EdkShellPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1107)
@@ -30,6 +29,5 @@
 * [SMM CET support](https://bugzilla.tianocore.org/show_bug.cgi?id=1521)
 * [Add Wi-Fi Connection Manager to NetworkPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1492)
 * [Standalone MM build of authenticated variable stack](https://bugzilla.tianocore.org/show_bug.cgi?id=1589)
-* TBD Bugzilla List
 
 ---
