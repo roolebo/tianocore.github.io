@@ -12,6 +12,8 @@ We will be holding community meetings on the first Thursday of the month. There 
 [Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-March-Community-Meeting-APAC-NAMO.ics) 
 
 ## Discussion Topics
+- Licencing Update
+- GitHub Pull Requests Update
 - Groups.io Next Steps
 - Community "Bug Triage" Review
 - Community Design Meeting Announcement
