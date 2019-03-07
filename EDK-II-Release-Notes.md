@@ -50,3 +50,6 @@
 
 6. Unused tool chain VS2003/VS2015, GCC44/GCC45/GCC46/GCC47, ELFGCC/UNIXGCC/CYGGCC, DDK3790, MYTOOLS
    are removed. Please use the latest VS2015 or GCC5 as the default tool chain. 
+7. In case that a C function body contains the string of L'', L'\\"', L"\\"", L''' or L""", ECC tool running under python3 interpreter will report error with code 5005. Please ignore it for this error is false reported. For example, in ShellPkg\\Application\\Shell\\Shell.c, line 212 contains L"\\"". ```FirstQuote    = FindNextInstance (CmdLine, L"\"", TRUE)``` That line will cause ECC tool under python3 report error “The close brace should be at the very beginning of a line for the function [ContainsSplit].”, this error is a false report. 
+
+    ECC tool under python2 interpreter has no such issue.
