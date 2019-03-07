@@ -4,6 +4,7 @@
 * [EDK II Release Planning](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Release-Planning)
 
 ## Wiki
+* [CET in SMM](https://github.com/tianocore/tianocore.github.io/wiki/CET-in-SMM)
 * [C array structure PCD usage](https://bugzilla.tianocore.org/show_bug.cgi?id=1392)
 * [ECC tool usage](https://github.com/tianocore/tianocore.github.io/wiki/ECC-tool)
 
