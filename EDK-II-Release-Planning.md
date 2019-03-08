@@ -7,7 +7,7 @@
 | 2018-11-15           | Beginning of development                 |
 | 2019-02-22           | [Soft Feature Freeze](SoftFeatureFreeze) |
 | 2019-03-01           | [Hard Feature Freeze](HardFeatureFreeze) |
-| 2019-03-08           | Release                                  |
+| 2019-03-08  (12PM)   | Release                                  |
 
 ## Proposed Features
 * [Python 3 migration](https://bugzilla.tianocore.org/show_bug.cgi?id=55)
