@@ -19,6 +19,7 @@
 * [Remove .S assembly code for IA32 and X64 arch](https://bugzilla.tianocore.org/show_bug.cgi?id=1594)
 * [Replace BSD 2-Clause License with BSD + Patent Licence](https://bugzilla.tianocore.org/show_bug.cgi?id=1373)
 * [Recovery PEI BlockIO support for ATA device](https://bugzilla.tianocore.org/show_bug.cgi?id=1483)
+* [Standardize EDK II PI root-of-trust verification implementation](https://bugzilla.tianocore.org/show_bug.cgi?id=1617)
 * TBD
 
 # edk2-stable201908 tag planning
