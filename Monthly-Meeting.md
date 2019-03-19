@@ -12,17 +12,12 @@ We will be holding community meetings on the first Thursday of the month. There 
 [Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-March-Community-Meeting-APAC-NAMO.ics) 
 
 ## Discussion Topics
-- Licencing Update
-- GitHub Pull Requests Update
-- Groups.io Next Steps
-- Community "Bug Triage" Review
-- Community Design Meeting Announcement
+- 80 vs 120 line length, see [this thread](https://lists.01.org/pipermail/edk2-devel/2019-March/037809.html) for details
 
 ## Meeting Format
 - Community Updates
-- Collect Opens
 - Topic Discussions
-- Closing Remarks / Questions
+- Collect Open Items
 
 
 ## Contact
