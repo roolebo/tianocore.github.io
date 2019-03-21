@@ -7,9 +7,10 @@ We will be holding community meetings on the first Thursday of the month. There 
 [[Community Meeting Minutes]] will be posted after each meeting as well as to the mailing list.
 
 ## Add to Calendar
-(_right-click and Save As..._)  
-[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-Community-Meeting-NAMO-EMEA.ics)  
-[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-Community-Meeting-APAC-NAMO.ics) 
+Please subcribe to the Groups.io calendar:  
+  
+https://edk2.groups.io/g/devel/calendar
+
 
 ## Discussion Topics
 - 80 vs 120 line length, see [this thread](https://lists.01.org/pipermail/edk2-devel/2019-March/037809.html) for details
