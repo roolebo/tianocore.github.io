@@ -38,7 +38,7 @@ Find your local number: https://zoom.us/u/arbHk4QEY
   
 ### APAC / NAMO
   
-**Every Other Friday at 8:00 in Shanghai (Thursday at 16:00 PST)**
+**Every Other Friday at 8:00am in Shanghai (Thursday at 17:00 PDT)**
   
 Join Zoom Meeting  
 https://zoom.us/j/251103409  
