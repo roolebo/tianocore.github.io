@@ -21,7 +21,7 @@ stephano.cetola@linux.intel.com
 
 ### NAMO / EMEA
 
-**Every Other Monday at 15:00 GMT (7am PST)**
+**Every Other Monday at 14:00 GMT (7am PST)**
 
 Join Zoom Meeting  
 https://zoom.us/j/670172897    
