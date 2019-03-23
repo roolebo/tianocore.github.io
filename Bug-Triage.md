@@ -1,4 +1,3 @@
-# Community Bug Triage
 ## Overview
 We will be holding our community bug triage every two weeks. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.  
 
