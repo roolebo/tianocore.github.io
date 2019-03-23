@@ -1,5 +1,3 @@
-
-# Monthly Meeting - First Thursday
 ## Overview
 We will be holding community meetings on the first Thursday of the month. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.  
 
