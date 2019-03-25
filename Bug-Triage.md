@@ -5,9 +5,9 @@ We will be holding our community bug triage every two weeks. There will be two m
 [Default Bugzilla List](https://bugzilla.tianocore.org/buglist.cgi?cmdtype=dorem&list_id=11160&namedcmd=UNCO_Bugs&remaction=run&sharer_id=64)
 
 ## Add to Calendar
-(_right-click and Save As..._)  
-[North America / Europe Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-Community-Bug-Triage-EMEA-NAMO.ics)  
-[Asia Pacific / North America Meeting](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/TianoCore-Community-Bug-Triage-APAC-NAMO.ics) 
+Please subcribe to the Groups.io calendar:  
+  
+https://edk2.groups.io/g/devel/calendar
 
 ## Contact
 Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
