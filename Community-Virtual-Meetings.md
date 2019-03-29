@@ -1,4 +1,4 @@
-# Bug Traiage
+# Bug Triage
 The [Bug Triage Meetings](Bug-Triage) will occur bi-monthly.
 
 # Monthly Meeting
