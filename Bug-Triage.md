@@ -10,7 +10,7 @@ Please subcribe to the Groups.io calendar:
 https://edk2.groups.io/g/devel/calendar
 
 ## Contact
-Please email the list, or myself directly with subjects that you'd like to see discussed, questions, or comments.
+Please email the list, or myself directly with bugs / features that you'd like to see discussed, questions, or comments.
 
 Stephano Cetola  
 TianoCore Community Manager  
