@@ -100,7 +100,6 @@ Contributor workflow
      ```
      [empty line]
      [empty line]
-     Contributed-under: TianoCore Contribution Agreement 1.1
      Signed-off-by: Your Name <Your Email Address>
      ```
 
@@ -286,7 +285,7 @@ Contributor workflow
 
      - an empty line
 
-     - One or more tags directly above the `Contributed-under` line
+     - One or more tags directly above the `Signed-off-by` line
        (which comes from the template) that CC the package maintainers
        that are relevant for this specific patch. Consult the
        `Maintainers.txt` file. For example, if you wrote a patch for

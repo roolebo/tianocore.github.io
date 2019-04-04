@@ -11,7 +11,6 @@ Pkg-Module: Brief-single-line-summary
 
 Full-commit-message
 
-Contributed-under: TianoCore Contribution Agreement 1.1
 Signed-off-by: Contributor Name &lt;contributor@email.server&gt;
 </pre>
 
@@ -39,7 +38,6 @@ Several lines of
 description for the
 change.
 
-Contributed-under: TianoCore Contribution Agreement 1.1
 Signed-off-by: Contributor Name &lt;contributor@email.server&gt;
 Reviewed-by: Reviewer Name &lt;reviewer@reviewer-email.server&gt;
 </Pre>
@@ -54,7 +52,6 @@ Several lines of
 description for the
 change.
 
-Contributed-under: TianoCore Contribution Agreement 1.1
 Signed-off-by: Contributor Name &lt;contributor@email.server&gt;
 Reviewed-by: Reviewer Name &lt;reviewer@reviewer-email.server&gt;
 </Pre>
