@@ -295,7 +295,7 @@ documenting the history of the project.
 
 Key Dates
 ----------
-* July 18, 2017
+* August 3, 2017
 
   Update the TianoCore Contribution Agreement from Version 1.0
   to Version 1.1 to cover open source documentation associated
