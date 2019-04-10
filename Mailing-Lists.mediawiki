@@ -3,16 +3,14 @@ We will be moving our edk2-devel mailing list to Groups.io on April 3rd, 2019 (P
 
 https://edk2.groups.io/g/devel
 
-=== Current lists ===
-There are several developer email lists available.
-
-For general developer discussions, please refer to the ''Developer Discussions'' lists below.  If you are interested in receiving email notifications regarding source code changes (commits), then subscribe to the ''Source Code Changes'' lists below.
+=== Archived lists ===
+Please note that with the exception of *edk2-bugs*, the lists below are all archives. Please see the note above. Some of these lists will be deactivated in the coming months.
 
 {| class="wikitable"
 ! !! Developer Discussions !! Source Code Changes !! Issue Tracking
 |-
 | [http://www.tianocore.org/edk2/ EDK II] / [http://www.tianocore.org/udk2014/ UDK]
-| [https://lists.01.org/mailman/listinfo/edk2-devel edk2-devel]
+| [https://lists.01.org/mailman/listinfo/edk2-devel edk2-devel] 
 | [https://lists.sourceforge.net/lists/listinfo/edk2-commits edk2-commits]
 | [https://lists.01.org/mailman/listinfo/edk2-bugs edk2-bugs]
 |-
