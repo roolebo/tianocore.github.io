@@ -3,6 +3,8 @@ We will be moving our edk2-devel mailing list to Groups.io on April 3rd, 2019 (P
 
 https://edk2.groups.io/g/devel
 
+https://edk2.groups.io/g/announce
+
 === Archived lists ===
 Please note that with the exception of *edk2-bugs*, the lists below are all archives. Please see the note above. Some of these lists will be deactivated in the coming months.
 
