@@ -25,19 +25,11 @@ See [[EDK-II-Release-Planning]]
 
 ## Documentation
 
-[[Getting Started with EDK II]]
-
-[[Driver Developer]]
-
-[[EDK II Specifications]]
-
-[[Code Style]]
-
-[[EDK II Overview]]
+See [[EDK II Documents]]
 
 ## Community
 
-email list - [[edk2-devel]]
+[[Mailing Lists]]
 
 TianoCore uses Bugzilla for [[Reporting Issues]] and [[Reporting Security Issues]].
 
