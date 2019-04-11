@@ -2,9 +2,11 @@
 
 The UEFI Development Kit (UDK) is a stable release of portions of [[EDK II]]. UDK releases are tested against Intel architecture platforms, and omits components that cannot be validated on those configurations.
 
-## Current Release: [[UDK2018]] (Mar 2018)
+## Transition to Stable Tags
 
-## Past Releases: [[UDK2017]] / [[UDK2015]] / [[UDK2014]] / [[UDK2010]] / [UDK2008](https://github.com/tianocore/edk2/tree/UDK2008)
+_**Note: EDK II has moved to a '[stable tag](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II#stable-tags)' release format, which occurs every three months. Info on UDK is presented for historical purposes.**_
+
+## Past Releases: [[UDK2018]] / [[UDK2017]] / [[UDK2015]] / [[UDK2014]] / [[UDK2010]] / [UDK2008](https://github.com/tianocore/edk2/tree/UDK2008)
 
 ## Differences Between UDK and EDK II
 
