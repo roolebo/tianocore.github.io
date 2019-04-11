@@ -1,4 +1,5 @@
 * [[EDK II Specifications]]
+* [[Training]]
 * [[EDK II User Documentation]]
 * [[EDK II Libraries and Helper files]]
 * [[EDK II White papers]]
