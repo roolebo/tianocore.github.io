@@ -26,7 +26,7 @@ some extra complexity (see [[Code Contributions]]).
 =Development environment=
 Building: This project can be completed on any edk2 supported OS or toolchain.
 
-Testing: [http://www.tianocore.org/ovmf/ OVMF] would probably provide the easiest environment for testing your project.  You should be able to build your driver into OVMF and then run OVMF with a hard disk image that contains an ext2 file-system.
+Testing: [https://github.com/tianocore/tianocore.github.io/wiki/OVMF OVMF] would probably provide the easiest environment for testing your project.  You should be able to build your driver into OVMF and then run OVMF with a hard disk image that contains an ext2 file-system.
 
 =Further Discussion=
 This project would be for an edk2 based driver, so please discuss the project on [[edk2-devel]].
