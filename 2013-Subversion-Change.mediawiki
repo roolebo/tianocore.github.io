@@ -57,7 +57,7 @@ SourceForge has more documentation at [http://sourceforge.net/p/forge/community-
 | https://edk-apps.svn.sourceforge.net/svnroot/edk-apps
 | https://svn.code.sf.net/p/edk-apps/code
 |-
-| [[edkcontrib|EDK Contrib]]
+| EDK Contrib
 | https://edkcontrib.svn.sourceforge.net/svnroot/edkcontrib
 | https://svn.code.sf.net/p/edkcontrib/code
 |-
