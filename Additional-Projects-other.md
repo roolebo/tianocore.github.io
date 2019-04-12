@@ -17,7 +17,7 @@ Please Note: this is the older EFI shell; Pre-[[ShellPkg]]
 
 * [PI SCT](http://sourceforge.net/projects/pi-sct/files/) Platform Initializiation Self-certification test projtect (Separate SF Project pi-sct) 
 * [[framework-sct]] EFI device driver loader, application launcher, OS booter
-* [[edkcontrib]]  Contributions to EDK for expanded functionality
+* edkcontrib  Contributions to EDK for expanded functionality
 * [[efi-sct]]  UEFI SCT has been moved to the UEFI Forum at http://www.uefi.org members page.
 
 # Older, unmaintained projects
