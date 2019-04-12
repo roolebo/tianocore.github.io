@@ -2,7 +2,8 @@ If you would like to make code contributions to our community, please refer to o
 
 ## Licenses for TianoCore Contributions
 
-The preferred license for TianoCore is [[BSD-2-Clause|BSD License]]. The TianoCore contributors agreement describes acceptable licenses for community contributions. https://raw.githubusercontent.com/tianocore/edk2/master/MdePkg/Contributions.txt 
+The preferred license for TianoCore is [[BSD+Patent|BSD Plus Patent License]].  When that is not possible, then contributions using
+the following licenses can be accepted:
 
 * BSD (2-clause): http://opensource.org/licenses/BSD-2-Clause 
 * BSD (3-clause): http://opensource.org/licenses/BSD-3-Clause 
@@ -12,8 +13,8 @@ The preferred license for TianoCore is [[BSD-2-Clause|BSD License]]. The TianoCo
 
 ## Documenting Licenses in Source Projects
 
-The full license should be documented in a LICENSE.TXT file, found in the package directory.
+The full license should be documented in a `License.txt` file, found in the root of a repository.
 
-Example: https://github.com/tianocore/edk2/blob/master/MdeModulePkg/License.txt 
+Example: https://github.com/tianocore/edk2/blob/master/License.txt
 
-Source file headers should contain an abbreviated version of the license, with a link to the full license text. An example is provided in the [EDK II Coding Standards Specification](https://edk2-docs.gitbooks.io/edk-ii-c-coding-standards-specification/content/), Section 5.2.3.4 ("License").
+Source file headers should contain an [SPDX](https://spdx.org/licenses/) identifier of the license. An example is provided on the [[BSD+Patent|BSD Plus Patent License]] page.

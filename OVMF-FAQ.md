@@ -36,13 +36,8 @@ is built upon the EDK II code base.
 
 ### What source code license does OVMF use?
 
-OVMF follows the EDK II project in using the open source [BSD
-license](http://opensource.org/licenses/bsd-license.php).
-
-Note: A binary of the [UEFI FAT](edk2-fat-driver "wikilink") driver may
-be included with OVMF builds. The source code to this driver uses the
-[BSD license](http://opensource.org/licenses/bsd-license.php) with [an
-additional term](edk2-fat-driver "wikilink").
+OVMF follows the EDK II project in using the open source [[BSD+Patent|BSD Plus Patent License]] license.
+Some OVMF content is convered by additional licenses detailed in [OvmfPkg/License.txt](https://github.com/tianocore/edk2/blob/master/OvmfPkg/License.txt).
 
 ### What does OVMF provide?
 
@@ -92,7 +87,7 @@ are supported for that release.
 
 ### Are only open source virtual machines supported?
 
-We have chosen the BSD license to enable easy incorporation of any of
+We have chosen the BSD+Patent license to enable easy incorporation of any of
 the piece of our code within nearly any type of product. But, it is
 likely that the firmware images produced by OvmfPkg under edk2 will only
 support open source virtual machines.

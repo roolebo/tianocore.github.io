@@ -1,6 +1,6 @@
 # EDK II
 
-EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and PI specifications. EDK II is open source, using a [BSD](http://www.opensource.org/licenses/bsd-license.php) license.
+EDK II is a modern, feature-rich, cross-platform firmware development environment for the UEFI and PI specifications. EDK II is open source, using a [[BSD+Patent|BSD Plus Patent License]].
 
 ## Source Repositories
 

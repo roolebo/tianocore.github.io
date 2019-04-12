@@ -1,6 +1,4 @@
-Please refer to [https://github.com/tianocore/edk2/raw/master/Contributions.txt Contributions.txt] for more information.
-
-Contributions.txt should also be available in the source tree. (Older source releases may not have the file.)
+Please refer to [https://github.com/tianocore/edk2/blob/master/Readme.md] for more information.
 
 See also
 

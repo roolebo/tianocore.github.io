@@ -1,1 +1,1 @@
-[[Home]] | [[Getting Started with EDK II]] | [[Reporting Issues]] | [[Community Information]] | [[Community Support]] | [[Tasks]] | [[BSD|BSD License]]
+[[Home]] | [[Getting Started with EDK II]] | [[Reporting Issues]] | [[Community Information]] | [[Community Support]] | [[Tasks]] | [[BSD+Patent|BSD Plus Patent License]]

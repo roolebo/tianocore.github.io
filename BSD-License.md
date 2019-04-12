@@ -1,4 +1,4 @@
-The preferred license for TianoCore contributions is [BSD-2-Clause](http://opensource.org/licenses/BSD-2-Clause). The [[Legalese]] page contains information on other licenses accepted under the contributors agreement, and how licenses should be documented in TianoCore projects.
+The preferred license for TianoCore contributions is [[BSD+Patent|BSD Plus Patent License]]. The [[Legalese]] page contains information on other licenses accepted under the contributors agreement, and how licenses should be documented in TianoCore projects.
 
 # Example Language: BSD-2-Clause
 
