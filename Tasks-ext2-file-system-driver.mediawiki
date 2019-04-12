@@ -9,7 +9,7 @@ Develop an [[Wikipedia:Ext2|ext2]] filesystem driver.  (read-only support would 
 
 =Current Status=
 * Being worked on by Alin Rus for [[GSOC2011]]
-** Source: https://github.com/rraf/Ext2Pkg
+** Source: https://github.com/GunioRobot/Ext2Pkg
 
 =Details=
 Filesystems in UEFI can be accessed through the SimpleFileSystem protocol.  This protocol is the defined within [https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Protocol/SimpleFileSystem.h SimpleFileSystem.h].
