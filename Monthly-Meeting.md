@@ -11,7 +11,8 @@ https://edk2.groups.io/g/devel/calendar
 
 
 ## Discussion Topics
-- 80 vs 120 line length, see [this thread](https://lists.01.org/pipermail/edk2-devel/2019-March/037809.html) for details
+- End-to-end workflow (bugs->patch review-CI)
+- CI (devops / cirrus ci / others)
 
 ## Meeting Format
 - Community Updates
