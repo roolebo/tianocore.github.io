@@ -11,7 +11,7 @@ https://edk2.groups.io/g/devel/calendar
 
 
 ## Discussion Topics
-- End-to-end workflow (bugs->patch review-CI)
+- End-to-end workflow (bugs->patch review->CI)
 - CI (devops / cirrus ci / others)
 
 ## Meeting Format
