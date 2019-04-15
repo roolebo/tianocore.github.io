@@ -165,6 +165,6 @@ Your Feedback is critical to making EDK II a success. Please submit any enhancem
 
 Goto  [[edk2-devel]]  to Join the Mailing list
 
-License information: [[BSD+Patent|BSD Plus Patent License]]
+License information: [BSD+Patent|BSD Plus Patent License]
 
 Project owner(s):    See: [https://raw.githubusercontent.com/tianocore/edk2/master/Maintainers.txt Maintainers.txt]
