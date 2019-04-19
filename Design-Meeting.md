@@ -11,7 +11,7 @@ https://edk2.groups.io/g/devel/calendar
 
 
 ## DesignTopics
-- TBD
+- Matthew Carlson/Brogan Sean – Microsoft – Project Mu Tools
 
 ## Contact
 Please email the list, or myself directly with design ideas that you'd like to see discussed.
