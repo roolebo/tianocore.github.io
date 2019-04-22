@@ -20,6 +20,7 @@
 * [Replace BSD 2-Clause License with BSD + Patent Licence](https://bugzilla.tianocore.org/show_bug.cgi?id=1373)
 * [Recovery PEI BlockIO support for ATA device](https://bugzilla.tianocore.org/show_bug.cgi?id=1483)
 * [Standardize EDK II PI root-of-trust verification implementation](https://bugzilla.tianocore.org/show_bug.cgi?id=1617)
+* [Add PCD to Enabled/Disabled IPV6/IPV6 PXE Support in NetworkPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1695)
 * TBD
 
 # edk2-stable201908 tag planning
