@@ -29,6 +29,7 @@
 * [Add support for get organization name to x509 in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1401)
 * [Add support for checking x509 EKUs in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1402)
 * [Add support for PKCS 1v2 RSAES-OAEP PKI encryption in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1403)
+* [Remove ShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1675)
 * TBD
 
 # edk2-stable201908 tag planning
