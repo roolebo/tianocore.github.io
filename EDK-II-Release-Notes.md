@@ -26,4 +26,22 @@
 TBD
 
 ## Update Notes
-TBD
+1. PEIM DebugServicePei and library instance PeiDebugLibDebugPpi are added to save the PEIM Debug Image size. This can be enabled in platform DSC/FDF. Platform DSC is changed to include DebugServicePei and update DebugLib library instance. 
+```
+[LibraryClasses.Common.PEIM]
+  DebugLib|MdeModulePkg/Library/PeiDebugLibDebugPpi/PeiDebugLibDebugPpi.inf
+
+[Components]
+  MdeModulePkg/Universal/DebugServicePei/DebugServicePei.inf {
+    <LibraryClasses>
+      DebugLib|MdeModulePkg/Library/PeiDxeDebugLibReportStatusCode/PeiDxeDebugLibReportStatusCode.inf
+  }
+```
+Platform FDF also needs to be changed to include DebugServicePei and place it into apriori list.
+```
+[FV.PEIFV]
+APRIORI PEI {
+  INF  MdeModulePkg/Universal/DebugServicePei/DebugServicePei.inf
+  }
+INF  MdeModulePkg/Universal/DebugServicePei/DebugServicePei.inf
+```
