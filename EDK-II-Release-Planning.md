@@ -30,6 +30,7 @@
 * [Add support for checking x509 EKUs in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1402)
 * [Add support for PKCS 1v2 RSAES-OAEP PKI encryption in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1403)
 * [Remove ShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1675)
+* [Enable multiple thread /MP option for MSVC compiler](https://bugzilla.tianocore.org/show_bug.cgi?id=1672)
 * TBD
 
 # edk2-stable201908 tag planning
