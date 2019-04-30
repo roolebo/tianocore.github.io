@@ -29,6 +29,7 @@
 * [Add support for PKCS 1v2 RSAES-OAEP PKI encryption in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1403)
 * [Remove ShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1675)
 * [Enable multiple thread /MP option for MSVC compiler](https://bugzilla.tianocore.org/show_bug.cgi?id=1672)
+* [Upstream the EnrollDefaultKeys application to OvmfPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1747)
 * TBD
 
 # edk2-stable201908 tag planning
