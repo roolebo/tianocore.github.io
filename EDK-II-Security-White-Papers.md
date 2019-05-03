@@ -1,10 +1,11 @@
-White Papers and information for EDK II Security
-
-**Industry standard:**<br>
-NIST: https://csrc.nist.gov/publications/sp800 <br>
-TCG: http://trusted.computinggroup.com/
-
-**SideChannel:** [Intel Software Developer Zone -firmware speculative execution](https://software.intel.com/security-software-guidance/insights/host-firmware-speculative-execution-side-channel-mitigation)
+A list of White Papers and information for EDK II Security from multiple sources
+* https://uefi.org
+* https://firmware.intel.com
+* https://tianocore.org
+* Industry standard:
+  * NIST: https://csrc.nist.gov/publications/sp800 <br>
+  * TCG: http://trusted.computinggroup.com/
+* SideChannel: [Intel Software Developer Zone -firmware speculative execution](https://software.intel.com/security-software-guidance/insights/host-firmware-speculative-execution-side-channel-mitigation)
 
 
 **General:**
