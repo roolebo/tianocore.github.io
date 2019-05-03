@@ -10,7 +10,7 @@ TCG: http://trusted.computinggroup.com/
 **General:**
 * [uefi.org - Threat Modeling for Modern System FW.pdf](http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf) (July 2013)
 * [A Tour Beyond BIOS - Security Design Guide in_EDK_II.pdf](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Security_Design_Guide_in_EDK_II.pdf) (Sept 2016)
-* [A Tour Beyond BIOS - Mitigate Buffer Overflow in UEFI - gitbook](https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-mitigate-buffer-overflow-in-ue/details)(April 2018)
+* [A Tour Beyond BIOS - Mitigate Buffer Overflow in UEFI - gitbook](https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-mitigate-buffer-overflow-in-ue/details) (April 2018)
 * [uefi.org - An Introduction to Platform Security](http://www.uefi.org/sites/default/files/resources/Intel_An%20Introduction%20to%20Platform%20.pdf) (Spring 2018)
 
 **Memory Protection:**
@@ -27,9 +27,8 @@ TCG: http://trusted.computinggroup.com/
 [A Tour Beyond BIOS - Capsule Update and Recovery in EDK II](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf) (Dec 2016)
 
 **Variable:**
-* [A Tour Beyond BIOS - Implementing UEFI Authenticated Variables in SMM with EDK II](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_UEFI_Authenticated_Variables_in_SMM_with_EDKII_V2.pdf) (Oct 2015)
-* [A Tour Beyond BIOS - Variable Extension For Confidentiality Annex](https://github.com/jyao1/VariableEx/blob/master/doc/A_Tour_Beyond_BIOS_UEFI_Variable_Extension_For_Confidentiality%20Annex.pdf) (Nov 2016)
-* [A Tour Beyond BIOS - Variable Extension For Confidentiality](https://github.com/jyao1/VariableEx/blob/master/doc/A_Tour_Beyond_BIOS_UEFI_Variable_Extension_For_Confidentiality.pdf) (June 2016)
+[A Tour Beyond BIOS - Implementing UEFI Authenticated Variables in SMM with EDK II](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_UEFI_Authenticated_Variables_in_SMM_with_EDKII_V2.pdf) (Oct 2015)
+
 
 **S3:**
 [A Tour Beyond BIOS - Implementing S3 Resume with EDK II ](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_S3_resume_with_EDKII_V2.pdf) (Oct 2015)
