@@ -9,7 +9,7 @@ Send an email to Stephano (stephano.cetola@linux.intel.com) with
   
 1. The topic  
 2. The day & time you want to present  
-3. How long you would like to present
+3. How long the presentation will take
   
 Files relevant (PDF, doc, etc) can be uploaded here:
   
