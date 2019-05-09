@@ -30,6 +30,8 @@
 * [Remove ShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1675)
 * [Enable multiple thread /MP option for MSVC compiler](https://bugzilla.tianocore.org/show_bug.cgi?id=1672)
 * [Upstream the EnrollDefaultKeys application to OvmfPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1747)
+* [Share code for BaseUefiDecompressLib in MdePkg and MdeModulePkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1722)
+* [Move network related components from MdeModulePkg to NetworkPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1293)
 * TBD
 
 # edk2-stable201908 tag planning
