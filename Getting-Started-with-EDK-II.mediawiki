@@ -18,7 +18,7 @@ Several build environments are supported and documented.  If instructions are no
 * Install Python 3.7 or later (https://www.python.org/)  to run python tool from source 
 **  Python 2.7.10 or later can still be used with PYTHON_HOME
 
-'''Note:''' Some of the examples use the [[Multiple_Workspace]] feature to configure EDK II BaseTools. This is required for using platform code based on edk2-platforms: (https://github.com/tianocore/edk2-platforms)
+'''Note:''' Some of the examples use the [[Multiple_Workspace]] `PACKAGES_PATH` feature to the configure EDK II build environment. For example, this is required for using platform code based on edk2-platforms: (https://github.com/tianocore/edk2-platforms). 
 
 Once you have a basic build environment running, you can build a project in RELEASE or [[EDK II Debugging|DEBUG]] mode.
 
@@ -42,7 +42,7 @@ After setting up your build environment see  [[EDK II Development Process]] for 
 
 ==Further Help==
 
-If you have questions about the code or run into obstacles getting things to work, please join the [[edk2-devel]] email list and ask your EDK II related questions on the list.
+If you have questions about the code or run into obstacles getting things to work, please join the EDK II developer [[Mailing-Lists]]  and ask your EDK II related questions on the list.
 
 For info on writing a simple UEFI EDK II Application, see: [[Getting Started Writing Simple Application]]
 
