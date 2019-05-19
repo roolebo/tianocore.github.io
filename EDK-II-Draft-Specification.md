@@ -145,6 +145,19 @@ a constraint, but as an enabling philosophy which will:
 
   These rules apply to all code developed.
 
+* **_EDK II Minimum Platform Specification_** \[
+[HTML   ](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification),
+[PDF    ](https://legacy.gitbook.com/download/pdf/book/edk2-docs/edk-ii-minimum-platform-specification),
+[Mobi   ](https://legacy.gitbook.com/download/mobi/book/edk2-docs/edk-ii-minimum-platform-specification),
+[ePub   ](https://legacy.gitbook.com/download/epub/book/edk2-docs/edk-ii-minimum-platform-specification),
+[Gitbook](https://legacy.gitbook.com/book/edk2-docs/edk-ii-minimum-platform-specification),
+[GitHub ](https://github.com/tianocore-docs/edk2-MinimumPlatformSpecification)
+\] The EDK II Minimum Platform Specification describes the required and optional elements for an EDK II based platform with the following objectives:
+  * Define a structure that enables developers to consistently navigate source code, execution flow, and the functional results of bootstrapping a system.
+  * Enable a minimal platform where minimal is defined as the minimal firmware implementation required to produce a basic solution that can be further extended to meet a multitude of computing segment needs.
+  * Establish definitions for common, silicon, platform, and board packages and guidelines for minimizing coupling between these packages.
+  * Enable large granularity binary solutions.
+
 * **_EDK II Driver Writer's Guide for UEFI 2.3.1_** \[
 [HTML   ](https://edk2-docs.gitbooks.io/edk-ii-uefi-driver-writer-s-guide/content),
 [PDF    ](https://legacy.gitbook.com/download/pdf/book/edk2-docs/edk-ii-uefi-driver-writer-s-guide),
