@@ -1,10 +1,10 @@
 === Current Lists ===
 We currently have lists for develoment discussions / patch review, announcements, requests for comments, and general discussion. These lists can all be found on Groups.io:
 
-https://edk2.groups.io/g/devel  
-https://edk2.groups.io/g/announce  
-https://edk2.groups.io/g/rfc  
-https://edk2.groups.io/g/discuss  
+https://edk2.groups.io/g/devel<br />
+https://edk2.groups.io/g/announce<br />
+https://edk2.groups.io/g/rfc<br />
+https://edk2.groups.io/g/discuss<br />
 
 === Archived lists ===
 Please note that with the exception of *edk2-bugs*, the lists below are all archives. Please see the information above for the current lists. Some of these lists will be deactivated in the comming months.
