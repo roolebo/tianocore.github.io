@@ -34,6 +34,7 @@
 * [Move OptionRomPkg into new Drivers directory edk2-platforms repo](https://bugzilla.tianocore.org/show_bug.cgi?id=1793)
 * [Add ACPI6.3 definition](https://bugzilla.tianocore.org/show_bug.cgi?id=1813)
 * [Remove Nt32Pkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1812)
+* [update ArmSoftFloatLib to latest upstream version (= 3e)](https://bugzilla.tianocore.org/show_bug.cgi?id=1845)
 * TBD
 
 # edk2-stable201908 tag planning
