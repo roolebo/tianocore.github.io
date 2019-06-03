@@ -9,6 +9,27 @@
 *'''Date Published'''<BR>
 </td>
 </tr>
+<tr>
+<td>
+[https://github.com/tianocore/edk2-platforms/blob/devel-MinPlatform/Platform/Intel/MinPlatformPkg/Docs/A_Tour_Beyond_BIOS_Open_Source_IA_Firmware_Platform_Design_Guide_in_EFI_Developer_Kit_II%20-%20V2.pdf .PDF]
+</td>
+<td>
+[https://github.com/tianocore/edk2-platforms/blob/devel-MinPlatform/Platform/Intel/MinPlatformPkg/Docs/A_Tour_Beyond_BIOS_Open_Source_IA_Firmware_Platform_Design_Guide_in_EFI_Developer_Kit_II%20-%20V2.pdf  A Tour Beyond BIOS Open Source IA Firmware Platform Design Guide in EDK II - V2]- contributed by Vincent Zimmer, Jiewen Yao, Michael Kubacki, Amy Chan, Rangasai Chaganty and Chasel Chiu<BR>
+
+<BR>
+This paper introduces a design guide for an EDK II open source IA firmware solution. In order to make an open IA firmware solution simple, we demonstrate a firmware design approach with minimal features. <BR>
+The only criteria are 
+#It can boot to the OS
+#It is secure. 
+We can remove many unnecessary silicon or platform features like Capsule update, Recovery, S3 resume, SMBIOS, EC, Super IO (SIO), I2C, and only enable ACPI
+& SMM to support booting.
+
+* May 2018 [https://github.com/tianocore/edk2-platforms/blob/devel-MinPlatform/Platform/Intel/MinPlatformPkg/Docs/A_Tour_Beyond_BIOS_Open_Source_IA_Firmware_Platform_Design_Guide_in_EFI_Developer_Kit_II%20-%20V2.pdf V2 .PDF]
+* May 2016 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Open_Source_IA_Firmware_Platform_Design_Guide_in_EFI_Developer_Kit_II.pdf .PDF]
+</td>
+</tr>
+
+
 
 <tr>
 <td>
@@ -123,24 +144,7 @@ The Unified Extensible Firmware Interface (UEFI) and Platform Initialization (PI
 </td>
 </tr>
 
-<tr>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Open_Source_IA_Firmware_Platform_Design_Guide_in_EFI_Developer_Kit_II.pdf .PDF]
-</td>
-<td>
-[https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Open_Source_IA_Firmware_Platform_Design_Guide_in_EFI_Developer_Kit_II.pdf A Tour Beyond BIOS Open Source IA Firmware Platform Design Guide in EDK II]- contributed by Vincent Zimmer and Jiewen Yao<BR>
 
-<BR>
-This paper introduces a design guide for an EDK II open source IA firmware solution. In order to make an open IA firmware solution simple, we demonstrate a firmware design approach with minimal features. <BR>
-The only criteria are 
-#It can boot to the OS
-#It is secure. 
-We can remove many unnecessary silicon or platform features like Capsule update, Recovery, S3 resume, SMBIOS, EC, Super IO (SIO), I2C, and only enable ACPI
-& SMM to support booting.
-
-* May 2016 
-</td>
-</tr>
 <tr>
 <td>
 [https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Secure_SMM_Communication.pdf .PDF]
