@@ -24,6 +24,9 @@ see the information [here](https://github.com/tianocore-docs/edk2-TemplateSpecif
 |[UNI](#uni)     | v1.4   | May 2017   | [HTML   ](https://edk2-docs.gitbooks.io/edk-ii-uni-specification/content/v/release/1.40/), [PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-uni-specification/v/release/1.40), [Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-uni-specification/v/release/1.40), [ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-uni-specification/v/release/1.40), [Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-uni-specification), [Github ](https://github.com/tianocore-docs/edk2-UniSpecification/tree/release/1.40) |
 |[VFR](#vfr)     | v1.92  | April 2018 |[HTML   ](https://edk2-docs.gitbooks.io/edk-ii-vfr-specification/content/v/release/1.92/), [PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-vfr-specification/v/release/1.92), [Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-vfr-specification/v/release/1.92), [ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-vfr-specification/v/release/1.92), [Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-vfr-specification), [Github ](https://github.com/tianocore-docs/edk2-VfrSpecification/tree/release/1.92) |
 | [C Coding Standards](#c-coding-standards) | v 2.2 | June 2017 | [HTML   ](https://edk2-docs.gitbooks.io/edk-ii-c-coding-standards-specification/content/v/release/2.20/), [PDF    ](https://www.gitbook.com/download/pdf/book/edk2-docs/edk-ii-c-coding-standards-specification/v/release/2.20), [Mobi   ](https://www.gitbook.com/download/mobi/book/edk2-docs/edk-ii-c-coding-standards-specification/v/release/2.20), [ePub   ](https://www.gitbook.com/download/epub/book/edk2-docs/edk-ii-c-coding-standards-specification/v/release/2.20), [Gitbook](https://www.gitbook.com/book/edk2-docs/edk-ii-c-coding-standards-specification), [Github ](https://github.com/tianocore-docs/edk2-CCodingStandardsSpecification/tree/release/2.20)|
+|[Min-Platform](#Min-Platform) |v 1.4| May 2019 | [HTML   ](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification/content/), [PDF    ](https://legacy.gitbook.com/download/pdf/book/edk2-docs/edk-ii-minimum-platform-specification), [Mobi   ](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification/content/), [ePub   ](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification/content/), [Gitbook](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification/content/), [Github ](https://github.com/tianocore-docs/edk2-MinimumPlatformSpecification)
+
+
 
 
 
@@ -155,6 +158,18 @@ a constraint, but as an enabling philosophy which will:
   * Reduce customer and new employee learning curves by providing accurate code documentation and uniform style.
 
   These rules apply to all code developed.
+
+## Min-Platform
+This specification details the required and optional elements for an EDK II
+based platform design with the following objectives:<br>
+1. Define a structure that enables developers to consistently navigate source code, execution flow, and the functional results of bootstrapping a system.
+2. Enable a minimal platform where minimal is defined as the minimal firmware implementation required to produce a basic solution that can be further extended to meet a multitude of client, server, and embedded market needs.
+3. Minimize coupling between common, silicon, platform, and board packages.
+4. Enable large granularity binary solutions.
+<br>
+A key aspect of these objectives is to improve the transparency and security
+quality across the client, server, and embedded ecosystems.
+
 
 ---
 
