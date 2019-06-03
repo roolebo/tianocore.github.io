@@ -6,8 +6,8 @@
 | ---------------------| ---------------------------------------- |
 | 2018-03-08 (12PM)    | Beginning of development                 |
 | 2019-05-17           | [Soft Feature Freeze](SoftFeatureFreeze) |
-| 2019-05-24           | [Hard Feature Freeze](HardFeatureFreeze) |
-| 2019-05-31           | Release                                  |
+| 2019-06-03           | [Hard Feature Freeze](HardFeatureFreeze) |
+| 2019-06-06           | Release                                  |
 
 ## Proposed Features
 * [Update OpenSSL version to upcoming 1.1.1](https://bugzilla.tianocore.org/show_bug.cgi?id=1089)
