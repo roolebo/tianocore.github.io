@@ -1,49 +1,10 @@
-# edk2-stable201905 tag planning
-
-## Proposed Schedule
-
-| Date (00:00:00 UTC-8)| Description                              |
-| ---------------------| ---------------------------------------- |
-| 2018-03-08 (12PM)    | Beginning of development                 |
-| 2019-05-17           | [Soft Feature Freeze](SoftFeatureFreeze) |
-| 2019-06-03           | [Hard Feature Freeze](HardFeatureFreeze) |
-| 2019-06-06           | Release                                  |
-
-## Proposed Features
-* [Update OpenSSL version to upcoming 1.1.1](https://bugzilla.tianocore.org/show_bug.cgi?id=1089)
-* [Delete EdkCompatibilityPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1103)
-* [Remove .S assembly code for IA32 and X64 arch](https://bugzilla.tianocore.org/show_bug.cgi?id=1594)
-* [Replace BSD 2-Clause License with BSD + Patent Licence](https://bugzilla.tianocore.org/show_bug.cgi?id=1373)
-* [Recovery PEI BlockIO support for ATA device](https://bugzilla.tianocore.org/show_bug.cgi?id=1483)
-* [Add PCD to Enabled/Disabled IPv4/IPv6 PXE Support in NetworkPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1695)
-* [Remove NetworkPkg/IpSecDxe](https://bugzilla.tianocore.org/show_bug.cgi?id=1697)
-* [Add api to DebubLib to expose a print routine with VaList parameter](https://bugzilla.tianocore.org/show_bug.cgi?id=1395)
-* [Introduce DebugPpi to save the image size with the debug message](https://bugzilla.tianocore.org/show_bug.cgi?id=1549)
-* [ResetSystemLib Adds a new API ResetSystem](https://bugzilla.tianocore.org/show_bug.cgi?id=1460)
-* [ResetUtilityLib Add a new API ResetSystemWithSubtype](https://bugzilla.tianocore.org/show_bug.cgi?id=1458)
-* [Add support for get organization name to x509 in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1401)
-* [Add support for checking x509 EKUs in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1402)
-* [Add support for PKCS 1v2 RSAES-OAEP PKI encryption in BaseCryptLib](https://bugzilla.tianocore.org/show_bug.cgi?id=1403)
-* [Remove ShellBinPkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1675)
-* [Enable multiple thread /MP option for MSVC compiler](https://bugzilla.tianocore.org/show_bug.cgi?id=1672)
-* [Upstream the EnrollDefaultKeys application to OvmfPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1747)
-* [Share code for BaseUefiDecompressLib in MdePkg and MdeModulePkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1722)
-* [Move network related components from MdeModulePkg to NetworkPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1293)
-* [Move BeagleBoardPkg and Omap35xxPkg from edk2 to edk2-platforms repo](https://bugzilla.tianocore.org/show_bug.cgi?id=1467)
-* [Move MinnowMax and Quark platform to edk2-platforms repo](https://bugzilla.tianocore.org/show_bug.cgi?id=1374)
-* [Move OptionRomPkg into new Drivers directory edk2-platforms repo](https://bugzilla.tianocore.org/show_bug.cgi?id=1793)
-* [Add ACPI6.3 definition](https://bugzilla.tianocore.org/show_bug.cgi?id=1813)
-* [Remove Nt32Pkg from edk2/master](https://bugzilla.tianocore.org/show_bug.cgi?id=1812)
-* [update ArmSoftFloatLib to latest upstream version (= 3e)](https://bugzilla.tianocore.org/show_bug.cgi?id=1845)
-* TBD
-
 # edk2-stable201908 tag planning
 
 ## Proposed Schedule
 
 | Date (00:00:00 UTC-8)| Description                              |
 | ---------------------| ---------------------------------------- |
-| 2018-05-31           | Beginning of development                 |
+| 2018-06-06           | Beginning of development                 |
 | 2019-08-16           | [Soft Feature Freeze](SoftFeatureFreeze) |
 | 2019-08-23           | [Hard Feature Freeze](HardFeatureFreeze) |
 | 2019-08-30           | Release                                  |
@@ -70,6 +31,7 @@
 ## Proposed Features
 * TBD
 
+# [edk2-stable201905 tag](https://github.com/tianocore/edk2/releases/tag/edk2-stable201905)
 # [edk2-stable201903 tag](https://github.com/tianocore/edk2/releases/tag/edk2-stable201903)
 # [edk2-stable201811 tag](https://github.com/tianocore/edk2/releases/tag/edk2-stable201811)
 
