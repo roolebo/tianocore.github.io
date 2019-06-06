@@ -27,8 +27,8 @@ APRIORI PEI {
 INF  MdeModulePkg/Universal/DebugServicePei/DebugServicePei.inf
 ```
 
-2. ShellBinPkg has been removed. Platform DSC/FDF need to use the ShellPkg directly.
-Add shell application in platform fdf  file:
+2. ShellBinPkg has been removed. Shell binaries can be download from the Assets section in edk2-stable201905 release page. Platform can also use ShellPkg directly, and update platform dsc/fdf file as below.
+Add shell application in platform fdf file:
 ```
 INF  ShellPkg/Application/Shell/Shell.inf
 ```
@@ -63,3 +63,34 @@ NetworkPkg/Application/IpsecConfig/IpSecConfig.inf
 NetworkPkg/IpSecDxe/IpSecDxe.inf
 ```
 
+4. UefiDecompressLib instance `IntelFrameworkModulePkg/Library/BaseUefiTianoCustomDecompressLib` has been merged into `MdePkg/Library/BaseUefiDecompressLib`. If platform still use the one in IntelFrameworkModulePkg, please update it to use the one in MdePkg. 
+```
+UefiDecompressLib|IntelFrameworkModulePkg/Library/BaseUefiTianoCustomDecompressLib/BaseUefiTianoCustomDecompressLib.inf
+==>
+UefiDecompressLib|MdePkg/Library/BaseUefiDecompressLib/BaseUefiTianoCustomDecompressLib.inf
+```
+
+5. Removed EDK Compatibility support. If platform still use the `PcdFrameworkCompatibilitySupport` or framework VFR, please remove or update the related code logic or source file.
+
+6. Network Module and Libraries are moved from MdeModulePkg to NetworkPkg. The platform DSC/FDF needs to include Network segment files to enable Network features instead of including the group of network modules. Those segment files are included into the different sections in DSC/FDF as below. If the module consumes Network library class, its INF needs to make sure `NetworkPkg\NetworkPkg.dec` in `[Packages]` section.
+```
+Platform.dsc:
+[Defines]
+!include NetworkPkg/NetworkDefines.dsc.inc
+
+[PcdsFixedAtBuild]
+!include NetworkPkg/NetworkPcds.dsc.inc
+
+[LibraryClasses]
+!include NetworkPkg/NetworkLibs.dsc.inc
+
+[Components]
+!include NetworkPkg/NetworkComponents.dsc.inc
+
+Platform.fdf:
+[FV.DXEFV]
+...
+!include NetworkPkg/Network.fdf.inc
+```
+
+7. Openssl has been updated to new 1.1.1b version. Compared to previous version, new version openssl increases the image size for the driver that consumes CryptoLib. Platform FDF file may reserve more space in FV image to contain them. 
