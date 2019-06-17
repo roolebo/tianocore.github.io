@@ -1,19 +1,9 @@
-<ul>
- 
- 
-<li><a href="http://www.tianocore.org/contrib/" title="How to Contribute"> How to Contribute </a></li>
+# How to Contribute
 
-
-<li><a href="http://www.tianocore.org/contrib/getting-started.html" title="Getting Started"> Getting Started </a></li>
-
-<li>[[Training]]</li>
- 
-<li>[[EDK II Documents]]</li>
-
-<li>[[Reporting Issues]]</li>
-
-<li>[[Reporting Security Issues]]</li>
-  
-<li>[[FAQs|Member FAQ]]</li>
- 
-</ul>
+* [[Getting Started with EDK II]]
+* [[Mailing Lists]]
+* [[Training]] 
+* [[EDK II Documents]]
+* [[Reporting Issues]]
+* [[Reporting Security Issues]]
+* [[FAQs|Member FAQ]]
