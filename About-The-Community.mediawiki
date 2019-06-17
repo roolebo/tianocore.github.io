@@ -1,15 +1,13 @@
-There is a lot to learn about the the EFI and Framework open source community. Without actually joining the community, you still have access to the documentation, source and binaries available on the EFI and Framework Open Source Community Website. However, your involvement will be limited to read-only access to the tools provided by the community. The real magic of any community is when you join and have full access to the tools that the community drivers use to evolve and make their application and its accompanying documentation and tooling. As a community member, you will have access to the following:
+There is a lot to learn about EDK II and the TianoCore open source community. The real magic of any community is when you join and have full access to the tools that the community drivers use to evolve and make their application and its accompanying documentation and tooling. As a community member, you have access to the following:
 
-* Forums - Used for a traceable dialog between community members.
-* Issue Tracking - This helps keep track of feature requests, tasks and issues with the respective project.
-* Mailing Lists - Like forums but handled via email instead of web forms.
-* RSS Feeds - You can subscribe to RSS feeds for news, forums and mailing lists.
-* Source Control - All Projects use Subversion to keep track of different versions of software source code.
+* [[Mailing Lists]] - Using groups.io. Primary source of communications, including patch review.
+* Issue Tracking - [[Reporting Issues]] via Bugzilla. This tracks feature requests, tasks and issues with the respective project.
+* Source Control - All Projects use github to keep track of different versions of software source code.
+* [[Community Virtual Meetings]] - video conference for community meetings, bug triage, and design reviews.
 
 As you can see, there is a lot at your disposal as a community member. Excited yet? If so, learn how to get involved here.
 
 == Background ==
-
 
 In June of 2004 Intel announced that it would release the "Foundation Code" of its next generation firmware technology - a successor to the PC BIOS - under an open source license later in the year. The Foundation Code, developed by Intel as part of a project code named Tiano, is Intel's "preferred implementation" of the Extensible Firmware Interface (EFI) Specification. The code to be released includes the core of the Foundation Code as well as a driver development kit. To follow through with its intentions to release the code as open source, Intel partnered with Collabnet, an industry leader in providing tools and services to support an open source initiative, to create a community for this effort. The result of this partnership is this Open Source Website.
 
