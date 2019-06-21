@@ -23,8 +23,8 @@ A list of White Papers and information for EDK II Security from multiple sources
 * [A Tour Beyond BIOS - Mitigate Buffer Overflow in UEFI - gitbook](https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-mitigate-buffer-overflow-in-ue/details) (April 2018)
 
 **SMM Protection:**
-* [uefi.org - SMM Protection in EDK II ](http://www.uefi.org/sites/default/files/resources/Jiewen%20Yao%20-%20SMM%20Protection%20in%20%20EDKII_Intel.pdf) (Spring 2017)
 * [A Tour Beyond BIOS Secure SMM Communication](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Secure_SMM_Communication.pdf) (April 2016)
+* [uefi.org - SMM Protection in EDK II ](http://www.uefi.org/sites/default/files/resources/Jiewen%20Yao%20-%20SMM%20Protection%20in%20%20EDKII_Intel.pdf) (Spring 2017)
 
 **SecureBoot/AuthVariable:**
 * [A Tour Beyond BIOS - Implementing UEFI Authenticated Variables in SMM with EDK II](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Implementing_UEFI_Authenticated_Variables_in_SMM_with_EDKII_V2.pdf) (Oct 2015)
