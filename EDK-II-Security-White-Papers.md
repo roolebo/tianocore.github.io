@@ -9,11 +9,11 @@ A list of White Papers and information for EDK II Security from multiple sources
 
 
 **General:**
-* [Understanding the UEFI Secure Boot Chain](https://legacy.gitbook.com/book/edk2-docs/understanding-the-uefi-secure-boot-chain/details) (June 2019)
 * [uefi.org - Threat Modeling for Modern System FW.pdf](http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf) (July 2013)
 * [A Tour Beyond BIOS - Security Design Guide in_EDK_II.pdf](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Security_Design_Guide_in_EDK_II.pdf) (Sept 2016)
 * [A Tour Beyond BIOS - Mitigate Buffer Overflow in UEFI - gitbook](https://www.gitbook.com/book/edk2-docs/a-tour-beyond-bios-mitigate-buffer-overflow-in-ue/details) (April 2018)
 * [uefi.org - An Introduction to Platform Security](http://www.uefi.org/sites/default/files/resources/Intel_An%20Introduction%20to%20Platform%20.pdf) (Spring 2018)
+* [Understanding the UEFI Secure Boot Chain](https://legacy.gitbook.com/book/edk2-docs/understanding-the-uefi-secure-boot-chain/details) (June 2019)
 
 
 **EDK II Code:**
