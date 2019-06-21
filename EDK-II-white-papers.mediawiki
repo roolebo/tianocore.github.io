@@ -1,3 +1,6 @@
+This page contains a list of White papers and technical documents in chronological order<br>
+Check [[EDK II Security White Papers]] for documents on security 
+
 <div class="t_projects">
 <table>
 <tr><th colspan="4" style="background-color:#a9c6dd">EDK II White papers</th></tr>
