@@ -5,7 +5,7 @@ Unified Extensible Firmware Interface ([[UEFI]]) specification defines a set of
 [[EDK II]] is a modern, feature-rich, cross-platform firmware development environment for the UEFI specification.
 
 
-**UEFI Payload** is an EDK II based project to enable UEFI support for bootloaders like [Slim Bootloader](https://github.com/slimbootloader/slimbootloader) and coreboot. Bootloaders follow a modular approach for platform initialization (initialization stages) and OS boot logic (payload). The separation of platform initialization and boot logic allows the choice of different payloads.
+[UEFI Payload ](https://github.com/tianocore/edk2/tree/master/UefiPayloadPkg) is an EDK II based project to enable UEFI support for bootloaders like [Slim Bootloader](https://github.com/slimbootloader/slimbootloader) and coreboot. Bootloaders follow a modular approach for platform initialization (initialization stages) and OS boot logic (payload). The separation of platform initialization and boot logic allows the choice of different payloads.
 UEFI Payload relies on the underlying boot firmware to initialize the platform and consumes the platform initialization information to be platform agnostic as much as possible. 
 
 ## UEFI Payload components
