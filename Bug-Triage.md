@@ -2,7 +2,7 @@
 We will be holding our community bug triage every two weeks. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.  
 
 ## Bugzilla Links
-[Default Bugzilla List](https://bugzilla.tianocore.org/buglist.cgi?cmdtype=dorem&list_id=11160&namedcmd=UNCO_Bugs&remaction=run&sharer_id=64)
+[Default Bugzilla List](https://bugzilla.tianocore.org/buglist.cgi?bug_status=UNCONFIRMED&keywords=need_info%2C%20&keywords_type=nowords&list_id=13967&query_format=advanced&resolution=---)
 
 ## Add to Calendar
 Please subcribe to the Groups.io calendar:  
