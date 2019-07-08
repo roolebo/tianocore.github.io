@@ -15,6 +15,11 @@
 * [FeatureFlagExpression Support in LibraryClasses section of INF file](https://bugzilla.tianocore.org/show_bug.cgi?id=1446)
 * [Add new tool chain for LLVM/CLANG8.0](https://bugzilla.tianocore.org/show_bug.cgi?id=1603)
 * [Standardize EDK II PI root-of-trust verification implementation](https://bugzilla.tianocore.org/show_bug.cgi?id=1617)
+* [Remove IntelFsp[Wrapper]Pkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1819)
+* [Move IntelSiliconPkg from edk2 repo to edk2-platforms repo](https://bugzilla.tianocore.org/show_bug.cgi?id=1890)
+* [Remove framework modules within PcAtChipsetPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1844)
+* [[NvmExpressPei] Update the driver to produce NVM Express PassThru PPI](https://bugzilla.tianocore.org/show_bug.cgi?id=1879)
+
 * TBD
 
 # edk2-stable2019011 tag planning
