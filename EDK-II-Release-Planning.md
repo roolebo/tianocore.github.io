@@ -19,6 +19,9 @@
 * [Move IntelSiliconPkg from edk2 repo to edk2-platforms repo](https://bugzilla.tianocore.org/show_bug.cgi?id=1890)
 * [Remove framework modules within PcAtChipsetPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1844)
 * [[NvmExpressPei] Update the driver to produce NVM Express PassThru PPI](https://bugzilla.tianocore.org/show_bug.cgi?id=1879)
+* [Enable new MM MP Protocol](https://bugzilla.tianocore.org/show_bug.cgi?id=1937)
+* [Change PiSmmCpu driver to enable 5-level paging when CPU supports it](https://bugzilla.tianocore.org/show_bug.cgi?id=1946)
+* [Support Capsule On Disk](https://bugzilla.tianocore.org/show_bug.cgi?id=1852)
 
 * TBD
 
