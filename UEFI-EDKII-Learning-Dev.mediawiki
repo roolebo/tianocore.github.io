@@ -24,14 +24,16 @@ How to download: Download each lesson’s '''Zip file**'''  into your local dire
 <td>
 </td>
 <td>
+</td>
+<td>
 Intended Audience:Firmware/Software Engineers <br>
 Course Goal:Initialize the boot process by following the UEFI specifications
 </td>
 </tr>    
 <tr>
-        <th>Download</th>
-        <th>Launch Training</th>
-        <th>Description</th>
+        <th width="35%">Download</th>
+        <th width="18%">Launch Training</th>
+        <th width="45%">Description</th>
     </tr>
 <tr></tr>
 <tr>
