@@ -173,8 +173,8 @@ Intended Audience: Firmware/Software Engineers
 Course Goal: Briefly explore the history and role of specifications in firmware 
 
 
-[https://github.com/tianocore-training/Lesson-0/archive/master.zip Lesson 0 Zip file**] <br>
-  [https://tianocore-training.github.io/Lesson-0/ Launch   ]
+Download [https://github.com/tianocore-training/Lesson-0/archive/master.zip Lesson 0 Zip file**] or 
+[https://tianocore-training.github.io/Lesson-0 Launch   ] 
 
 
 Lesson 0: <br>
@@ -192,8 +192,8 @@ Intended Audience:Firmware/Software Engineers
 Course Goal:Initialize the boot process by following the UEFI specifications
 
 
-[https://github.com/tianocore-training/Lesson-1/archive/master.zip Lesson 1 Zip File**] <br>
-  [https://tianocore-training.github.io/Lesson-1/ Launch   ]
+Download [https://github.com/tianocore-training/Lesson-1/archive/master.zip Lesson 1 Zip File**]  or 
+[https://tianocore-training.github.io/Lesson-1 Launch   ] 
 
 
 '''Lesson 1: Course Introduction and Pre-EFI (PEI) and Security (SEC) Phases''' <br>
@@ -205,13 +205,13 @@ When you complete this lesson, you will be able to:
 * Define PEI and its purpose, functions, attributes, and components 
 * Describe PEI’s relationship to memory 
 * Explain HOBs, their purpose, and contribution to the PEI phase 
-* Transition from the PEI phase to the DXE phase.  
+* Transition from the PEI phase to the DXE phase.  
 
 
 
 
-[https://github.com/tianocore-training/Lesson-2/archive/master.zip Lesson 2 Zip File**]<br>
-  [https://tianocore-training.github.io/Lesson-2/ Launch   ]
+Download [https://github.com/tianocore-training/Lesson-2/archive/master.zip Lesson 2 Zip File**] or
+[https://tianocore-training.github.io/Lesson-2 Launch   ]
 
 
 ''' Lesson 2: Driver Execution Environment (DXE)'''<br>
@@ -226,8 +226,8 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://github.com/tianocore-training/Lesson-3/archive/master.zip Lesson 3 Zip File**]<br>
-  [https://tianocore-training.github.io/Lesson-3/ Launch   ]
+Download [https://github.com/tianocore-training/Lesson-3/archive/master.zip Lesson 3 Zip File**] or
+[https://tianocore-training.github.io/Lesson-3 Launch   ]
 
 '''Lesson 3: UEFI Drivers '''<br>
 When you complete this lesson, you will be able to:
@@ -240,8 +240,8 @@ When you complete this lesson, you will be able to:
 
 
 
-[https://github.com/tianocore-training/Lesson-4/archive/master.zip Lesson 4 Zip File**] <br>
-  [https://tianocore-training.github.io/Lesson-4/ Launch   ]
+Download [https://github.com/tianocore-training/Lesson-4/archive/master.zip Lesson 4 Zip File**] or
+[https://tianocore-training.github.io/Lesson-4 Launch   ]
 
 
 '''Lesson 4: Firmware and Data Storage'''<br>
@@ -253,9 +253,8 @@ When you complete this lesson, you will be able to:
 *	Load drivers from a non-flash location
 
 
-
-[https://github.com/tianocore-training/Lesson-5/archive/master.zip Lesson 5 Zip File**]<br>
-  [https://tianocore-training.github.io/Lesson-5/ Launch   ]
+Download [https://github.com/tianocore-training/Lesson-5/archive/master.zip Lesson 5 Zip File**]  Or
+[https://tianocore-training.github.io/Lesson-5 Launch   ] 
 
 '''Lesson 5: Boot Device Selection (BDS) and Human Interface Infrastructure (HII)'''<br>
 When you complete this lesson, you will be able to: 
