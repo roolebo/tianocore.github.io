@@ -22,6 +22,8 @@
 * [Enable new MM MP Protocol](https://bugzilla.tianocore.org/show_bug.cgi?id=1937)
 * [Change PiSmmCpu driver to enable 5-level paging when CPU supports it](https://bugzilla.tianocore.org/show_bug.cgi?id=1946)
 * [Support Capsule On Disk](https://bugzilla.tianocore.org/show_bug.cgi?id=1852)
+* [BaseTools Enable multiple-thread autogen](https://bugzilla.tianocore.org/show_bug.cgi?id=1875)
+* [Enable 5-level paging in DXE long mode](https://bugzilla.tianocore.org/show_bug.cgi?id=2008)
 
 * TBD
 
