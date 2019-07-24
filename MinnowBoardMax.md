@@ -2,7 +2,7 @@
 
 ***
 
-## MinnowBoard Max/Turbot
+## MinnowBoard Max/Turbot 
 
 <img src="https://minnowboard.org/wp-content/uploads/2017/10/MBTurbot-dual-core-Top-0001-171002-1.png" width="20%" height="20%" >
 
@@ -13,7 +13,7 @@ The project is based on Intel® Atom™ processors. Technical details, schematic
 
 A list of currently supported boards and prices can be found at: https://minnowboard.org under the "[Boards](https://minnowboard.org/compare-boards)" tab
 
-### UEFI Firmware
+### UEFI Firmware - Release
 
 Documentation, binary images, and source build instructions are at http://firmware.intel.com/projects/minnowboard-max
 
@@ -25,3 +25,6 @@ Documentation, binary images, and source build instructions are at http://firmwa
    * How to enable fTPM feature
 * The open source firmware project is available from the TianoCore GitHub:
    * https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017
+
+### UEFI Firmware - Development
+The EDK II development firmware for the MinnowBoard Max / Turbot is now available.  Please see the [Valleyview2 Readme](https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Vlv2TbltDevicePkg/Readme.md) for instructions to download and build a firmware image. This development firmware is ECP free and can cowork with the latest updates from EDK II. 
