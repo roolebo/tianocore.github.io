@@ -24,6 +24,7 @@
 * [Support Capsule On Disk](https://bugzilla.tianocore.org/show_bug.cgi?id=1852)
 * [BaseTools Enable multiple-thread autogen](https://bugzilla.tianocore.org/show_bug.cgi?id=1875)
 * [Enable 5-level paging in DXE long mode](https://bugzilla.tianocore.org/show_bug.cgi?id=2008)
+* [Update FmpDxe to support service drivers that manage more than one device at a time](https://bugzilla.tianocore.org/show_bug.cgi?id=1525)
 
 * TBD
 
