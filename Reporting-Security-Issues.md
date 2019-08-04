@@ -12,6 +12,10 @@ If you are interested in being involved in the evaluation of Tianocore Security 
 
 **NOTE**: Never send any details related to a security issue in email.
 
+The tianocore infosec team uses the following flow to evaluate items
+![](https://github.com/jwang36/tianocore.github.io/raw/master/security/flowchart.svg?sanitize=true)
+
+
 # Security Advisories
 
 List of current EDK II Security Advisories can be found at this Gitbook : 
