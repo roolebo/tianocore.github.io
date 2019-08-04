@@ -12,6 +12,8 @@ If you are interested in being involved in the evaluation of Tianocore Security 
 
 **NOTE**: Never send any details related to a security issue in email.
 
+Also, tianocore infosec team members should only share details of unmitigated issues in the infosec-tagged Bugzilla entries. Any sharing of unmitigated issues on un-encrypted email or open source prior to embargo expiry may lead to removal from the infosec group.
+
 The tianocore infosec team uses the following flow to evaluate items
 ![](https://github.com/jwang36/tianocore.github.io/raw/master/security/flowchart.svg?sanitize=true)
 
