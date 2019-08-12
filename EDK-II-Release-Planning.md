@@ -29,6 +29,11 @@
 * [Add EDKII_UFS_HC_PLATFORM_PROTOCOL to support platform specific programming of UFS host controllers](https://bugzilla.tianocore.org/show_bug.cgi?id=1343)
 * [Enable SM3 digest algorithm for measured boot and TCG2 EVENT protocol](https://bugzilla.tianocore.org/show_bug.cgi?id=1781)
 * [Add a new MODULE_TYPE HOST_APPLICATION in BaseTool](https://bugzilla.tianocore.org/show_bug.cgi?id=1956)
+* [Add support for KDF function](https://bugzilla.tianocore.org/show_bug.cgi?id=1928)
+* [[SD/MMC] Allow platform to tweak device working parameters during SD card/eMMC initialization](https://bugzilla.tianocore.org/show_bug.cgi?id=1882)
+* [port TLS_ENABLE from OvmfPkg to ArmVirtPkg](https://bugzilla.tianocore.org/show_bug.cgi?id=1009)
+* [IntelFsp2Pkg: add TempRamExitPpi.h per FSP 2.1 spec](https://bugzilla.tianocore.org/show_bug.cgi?id=1883)
+* [IntelFsp2Pkg: Add support for FSP 1.x binaries to SplitFspBin.py](https://bugzilla.tianocore.org/show_bug.cgi?id=1308)
 
 * TBD
 
