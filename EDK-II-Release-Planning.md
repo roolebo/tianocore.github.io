@@ -27,6 +27,8 @@
 * [Update FmpDxe to support service drivers that manage more than one device at a time](https://bugzilla.tianocore.org/show_bug.cgi?id=1525)
 * [RegularExpressionDxe: Update Oniguruma to the latest Release 6.9.3 (security fix release)](https://bugzilla.tianocore.org/show_bug.cgi?id=2066)
 * [Add EDKII_UFS_HC_PLATFORM_PROTOCOL to support platform specific programming of UFS host controllers](https://bugzilla.tianocore.org/show_bug.cgi?id=1343)
+* [Enable SM3 digest algorithm for measured boot and TCG2 EVENT protocol](https://bugzilla.tianocore.org/show_bug.cgi?id=1781)
+* [Add a new MODULE_TYPE HOST_APPLICATION in BaseTool](https://bugzilla.tianocore.org/show_bug.cgi?id=1952)
 
 * TBD
 
