@@ -26,6 +26,7 @@
 * [Enable 5-level paging in DXE long mode](https://bugzilla.tianocore.org/show_bug.cgi?id=2008)
 * [Update FmpDxe to support service drivers that manage more than one device at a time](https://bugzilla.tianocore.org/show_bug.cgi?id=1525)
 * [RegularExpressionDxe: Update Oniguruma to the latest Release 6.9.3 (security fix release)](https://bugzilla.tianocore.org/show_bug.cgi?id=2066)
+* [Add EDKII_UFS_HC_PLATFORM_PROTOCOL to support platform specific programming of UFS host controllers](https://bugzilla.tianocore.org/show_bug.cgi?id=1343)
 
 * TBD
 
