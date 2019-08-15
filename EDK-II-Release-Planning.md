@@ -35,6 +35,8 @@
 * [IntelFsp2Pkg: add TempRamExitPpi.h per FSP 2.1 spec](https://bugzilla.tianocore.org/show_bug.cgi?id=1883)
 * [IntelFsp2Pkg: Add support for FSP 1.x binaries to SplitFspBin.py](https://bugzilla.tianocore.org/show_bug.cgi?id=1308)
 * [New OvmfXen platform with Xen PVH support](https://bugzilla.tianocore.org/show_bug.cgi?id=1689)
+* [Tool to generate a Windows Firmware Update Drivers](https://bugzilla.tianocore.org/show_bug.cgi?id=1837)
+* [BaseTools/Scripts: Add GetUtcDateTime script](https://bugzilla.tianocore.org/show_bug.cgi?id=2067)
 
 * TBD
 
