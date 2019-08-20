@@ -11,11 +11,19 @@ Note: new platforms are being developed in the [edk2-platforms](https://github.c
 
 ### Intel® Processor Platforms
 
-* [[Intel Atom® Processor E3900 Series|IntelAtomProcessorE3900]] - Designed for platforms using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake). Includes the Leaf Hill CRB, Up Squared, and MinnowBoard 3 Module.
-* [[MinnowBoard Max/Turbot|MinnowBoardMax]] - Open hardware platform with open source UEFI firmware, based on the Intel® Atom™ E3800 Series processor.
-* [[Project Olympus (Purley MinPlatform)|Purley MinPlatform]] - EDK II platform firmware for the Open Compute Project (OCP) [Intel XSP Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
+Recent Intel platform EDK II implementations follow a software architecture intended to aid in uniform delivery of Intel platforms called EDK II Minimum Platform. That architecture is described and maintained in the [EDK II Minimum Platform Specification draft](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification). Brief and practical information regarding the goals of a Minimum Platform and how to build are available in the Intel platform [Readme.md](https://github.com/tianocore/edk2-platforms/blob/master/Platform/Intel/Readme.md).
+
+#### EDK II Minimum Platforms
+
 * [[Kaby Lake MinPlatform]] - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
-* [[Intel® Galileo Gen 2|Galileo]] - Arduino* certified,  Intel® Quark™ processor, built on fully open-source hardware 
+* [[Project Olympus (Purley MinPlatform)|Purley MinPlatform]] - EDK II platform firmware for the Open Compute Project (OCP) [Intel XSP Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
+* [[Whiskey Lake MinPlatform]] - EDK II platform firmware on 8th Generation Intel® Core™ Processors and chipsets (formerly [Whiskey Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/135883/whiskey-lake.html) platforms).
+
+#### Other Platforms
+
+* [[Intel Atom® Processor E3900 Series|IntelAtomProcessorE3900]] - Designed for platforms using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake). Includes the Leaf Hill CRB, Up Squared, and MinnowBoard 3 Module.
+* [[Intel® Galileo Gen 2|Galileo]] - Arduino* certified,  Intel® Quark™ processor, built on fully open-source hardware
+* [[MinnowBoard Max/Turbot|MinnowBoardMax]] - Open hardware platform with open source UEFI firmware, based on the Intel® Atom™ E3800 Series processor.
 * [UEFI firmware for N-series Intel® Pentium® Processor and Intel® Celeron® Processor Families](https://firmware.intel.com/projects/braswell-uefi) (IA32 & x64)
 * [[MinnowBoard]] - Intel® Atom™ E640 processor w/ IA32 UEFI firmware (deprecated)
 
