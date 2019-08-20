@@ -37,6 +37,8 @@
 * [New OvmfXen platform with Xen PVH support](https://bugzilla.tianocore.org/show_bug.cgi?id=1689)
 * [Tool to generate a Windows Firmware Update Drivers](https://bugzilla.tianocore.org/show_bug.cgi?id=1837)
 * [BaseTools/Scripts: Add GetUtcDateTime script](https://bugzilla.tianocore.org/show_bug.cgi?id=2067)
+* [Adding a new TSC library by using CPUID(0x15) TSC leaf](https://bugzilla.tianocore.org/show_bug.cgi?id=1909)
+* [Build Cache very easily miss because of monolithic platform hash](https://bugzilla.tianocore.org/show_bug.cgi?id=1927)
 
 * TBD
 
