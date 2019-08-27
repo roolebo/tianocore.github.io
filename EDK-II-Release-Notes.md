@@ -47,4 +47,6 @@ Added `VS2017 VS2015 VS2013 VS2012` tool chain options for edksetup.bat to set u
 For example: when your dev machine has installed VS2017 and VS2015, call `edksetup.bat VS2015` can set VS2015 build env.
 Call `edksetup.bat` without any tool chain option, the highest version of VS tool env will be set.
 
+5. PiSmmCpuDxeSmm was updated to create 5-level page table for SMM environment when CPU is capable. If the platform uses platform-specific SmmCpuFeatureLib and the library provides custom SMI handler, the SMI handler assembly code needs to be updated to set BIT12 in CR4 before entering to 64bit mode.
+
 TBD
