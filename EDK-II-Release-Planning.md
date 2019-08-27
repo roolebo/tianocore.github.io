@@ -40,8 +40,6 @@
 * [Adding a new TSC library by using CPUID(0x15) TSC leaf](https://bugzilla.tianocore.org/show_bug.cgi?id=1909)
 * [Build Cache very easily miss because of monolithic platform hash](https://bugzilla.tianocore.org/show_bug.cgi?id=1927)
 
-* TBD
-
 # edk2-stable2019011 tag planning
 
 ## Proposed Schedule
@@ -49,6 +47,7 @@
 | Date (00:00:00 UTC-8)| Description                              |
 | ---------------------| ---------------------------------------- |
 | 2018-08-30           | Beginning of development                 |
+| 2019-11-11           | Feature Planning Freeze                  |
 | 2019-11-15           | [Soft Feature Freeze](SoftFeatureFreeze) |
 | 2019-11-22           | [Hard Feature Freeze](HardFeatureFreeze) |
 | 2019-11-29           | Release                                  |
