@@ -2,7 +2,7 @@
 
 # Phase 1 (edk2 repository only)
 * Remove write access to edk2 repo
-* EDK II Maintainers use GutHub PR instead of push
+* EDK II Maintainers use GitHub Pull Request instead of push
 * Only accept PR from EDK II Maintainers.  Reject all other PRs.
 * Run basic Pre-commit checks
 * If all Pre-commit checks pass, then auto commit changes
