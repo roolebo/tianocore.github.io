@@ -1,5 +1,3 @@
-# OBB Verification
-
 OBB (Oem Boot Block) Verification is a common solution of maintaining the Chain-of-Trust in edk2 based firmware. It fills the gap between IBB (Initial Boot Block, verified by Root-of-Trust) and 3rd-party image (like OS loader, verified by Secure Boot). Following figure shows the point at which the OBB Verification complete the Chain-of-Trust in firmware.
 
 ![1566887183249](images/OBB-in-the-Chain-of-Trust.png)
@@ -18,11 +16,16 @@ To boost the boot performance, only hash algorithm (SHA256 or beyond) is current
 
 To meet above requirements, the OBB hash value must be calculated in following way
 
-`If OBB = FV1 + FV2 + FV3,
-	FV1 -> FV1_Digest
-	FV2 -> FV2_Digest
-	FV3 -> FV3_Digest
-	FV1_Digest + FV2_Digest + FV3_Digest -> OBB Hash`
+> If OBB = FV1 + FV2 + FV3,
+>
+>       FV1 -> FV1_Digest
+>
+>       FV2 -> FV2_Digest
+>
+>       FV3 -> FV3_Digest
+>
+>       FV1_Digest + FV2_Digest + FV3_Digest -> OBB Hash
+>
 
 There's only one hash value allowed as OBB hash for one boot mode. As long as the FVs information is passed in the same order as in OBB hash calculating, [FvReportPei](https://github.com/tianocore/edk2/tree/master/SecurityPkg/FvReportPei) is able to get the separate hash value for each FV as well as final OBB hash value, without repeated calculations. 
 
