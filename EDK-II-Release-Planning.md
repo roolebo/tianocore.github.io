@@ -12,6 +12,7 @@
 
 ## Proposed Features
 * [Add new tool chain for LLVM/CLANG8.0](https://bugzilla.tianocore.org/show_bug.cgi?id=1603)
+* [BaseTools: Enable --genfds-multi-thread by default build](https://bugzilla.tianocore.org/show_bug.cgi?id=1302)
 * TBD
 
 # [edk2-stable201908 tag](https://github.com/tianocore/edk2/releases/tag/edk2-stable201908)
