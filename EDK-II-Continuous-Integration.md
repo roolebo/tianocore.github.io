@@ -101,9 +101,7 @@
   + https://en.wikipedia.org/wiki/Continuous_integration
 * GitHub Continuous Integration services
   + https://github.com/marketplace/category/continuous-integration
-* Jenkins Evaluation for booting and running tests in physical hardware
-  + Contacts
-    - Rebecca Cran <rebecca@bsdio.com>
+* Jenkins Evaluation
   + https://ci.bsdio.com/job/edk2-master/
   + https://ci.bsdio.com/blue/organizations/jenkins/edk2-ci/activity
   + https://ci.bsdio.com/blue/organizations/jenkins/edk2-ci/detail/edk2-ci/2/pipeline
