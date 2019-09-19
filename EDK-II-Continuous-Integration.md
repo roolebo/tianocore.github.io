@@ -96,6 +96,11 @@
     for packaging a pre-enrolled variable store template file.
     - https://github.com/puiterwijk/qemu-ovmf-secureboot
 
+# Future Enhancements
+* Support non-maintainer GitHub Pull Requests that are submitted after code
+  review is complete.  Maintainers must still be part of the review/approval
+  process before the PR is run through pre-commit tests auto committed.
+
 # Evaluations and Supporting Background Materials
 * Background
   + https://en.wikipedia.org/wiki/Continuous_integration
