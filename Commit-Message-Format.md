@@ -21,7 +21,7 @@ Where:
   than 72 characters
 * CVE fix needs to append CVE number in Brief-single-line-summary. The format is 'Pkg-Module: Brief-single-line-summary (CVE-Year-Number)'. Its length should be less than 92 characters.
 * blank-line is an empty line
-* Full-commit-message is the full message describing the change. Its first lines are bugzilla URL if there are one or more bugzilla.
+* Full-commit-message is the full message describing the change. Its first lines are bugzilla URL if there are one or more bugzilla. It may include the test items those have been verified. 
 * Line length should be less than 76 characters when possible
 * Signatures is one or more lines with signatures. Please see the
   [[Commit Signature Format]] page for more information.
