@@ -1,0 +1,1 @@
+The Minimum Platform Architecture (MPA) creates guidelines for how to design, enable improvements in quality and security on open source platform initialization development on firmware for Intel products.
