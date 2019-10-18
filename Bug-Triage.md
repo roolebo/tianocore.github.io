@@ -18,36 +18,27 @@ stephano.cetola@linux.intel.com
   
 ## Meeting Details
 
-### NAMO / EMEA
-
-**Every Other Monday at 15:00 GMT (8am PST)**
-
-Join Zoom Meeting  
-https://zoom.us/j/670172897    
-  
-One tap mobile  
-+16699006833,,670172897# US (San Jose)  
-+16465588665,,670172897# US (New York)  
-  
-Dial by your location  
-        +1 669 900 6833 US (San Jose)  
-        +1 646 558 8665 US (New York)  
-Meeting ID: 670 172 897  
-Find your local number: https://zoom.us/u/arbHk4QEY  
-  
 ### APAC / NAMO
   
 **Every Other Friday at 8:00am in Shanghai (Thursday at 17:00 PDT)**
   
-Join Zoom Meeting  
-https://zoom.us/j/251103409  
-  
-One tap mobile  
-+16699006833,,251103409# US (San Jose)  
-+16465588665,,251103409# US (New York)  
-  
-Dial by your location  
-        +1 669 900 6833 US (San Jose)  
-        +1 646 558 8665 US (New York)  
-Meeting ID: 251 103 409  
-Find your local number: https://zoom.us/u/avHbqG8Sx  
+For more info please see:
+https://www.tianocore.org/bug-triage
+
+To join the meeting on a computer or mobile phone: 
+https://bluejeans.com/889357567?src=calendarLink
+
+Phone Dial-in
++1.408.740.7256 (US (San Jose))
++1.408.317.9253 (US (Primary, San Jose))
+Global Numbers: https://www.bluejeans.com/numbers
+
+Meeting ID: 889 357 567
+
+Room System
+199.48.152.152 or bjn.vc
+
+Meeting ID: 889 357 567
+
+Want to test your video connection?
+https://bluejeans.com/111
