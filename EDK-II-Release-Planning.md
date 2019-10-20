@@ -21,6 +21,7 @@
 * [Add support SMBIOS spec 3.3.0](https://bugzilla.tianocore.org/show_bug.cgi?id=2202)
 * [Allow PCDs to be used in conditional statements if not referenced in an INF](https://bugzilla.tianocore.org/show_bug.cgi?id=2270)
 * [Add Support Laml and Lasa for TPM2 ACPI](https://bugzilla.tianocore.org/show_bug.cgi?id=978)
+* [Add PCI Device Security Support](https://bugzilla.tianocore.org/show_bug.cgi?id=2303)
 * TBD
 
 # [edk2-stable201908 tag](https://github.com/tianocore/edk2/releases/tag/edk2-stable201908)
