@@ -1,8 +1,8 @@
 ## Overview
-We will be holding our community bug triage every two weeks. There will be two meetings attempting to cover all timezones. Please contact me with questions or comments.  
+We will be holding our community bug triage every two weeks. There will be two meetings attempting to cover all timezones. Please contact the list with questions or comments.  
 
 ## Bugzilla Links
-[Default Bugzilla List](https://bugzilla.tianocore.org/buglist.cgi?cmdtype=dorem&list_id=14095&namedcmd=Tianocore%20Issues%20UNCONFIRMED&remaction=run&sharer_id=14)
+See the bottom of the Bugzilla page. Once logged in, there will be a link to "Tianocore Issues UNCONFIRMED". We will triage starting with those bugs.
 
 ## Add to Calendar
 Please subcribe to the Groups.io calendar:  
@@ -10,7 +10,7 @@ Please subcribe to the Groups.io calendar:
 https://edk2.groups.io/g/devel/calendar
 
 ## Contact
-Please email [the list](https://edk2.groups.io/g/devel), or myself directly with bugs / features that you'd like to see discussed, questions, or comments.
+Please email [the list](mailto:discuss@edk2.groups.io) with bugs / features that you'd like to see discussed, questions, or comments.
 
 ## Meeting Details
 
