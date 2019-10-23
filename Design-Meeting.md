@@ -5,7 +5,7 @@ This meeting is a chance for the TianoCore community to bring any initial design
 https://edk2.groups.io/g/devel/files/Designs
 
 ## How to Submit a Topic
-Send an email to Stephano (stephano.cetola@linux.intel.com) with
+Send an email to [the discuss list](mailto:discuss@edk2.groups.io) with
   
 1. The topic  
 2. The day & time you want to present  
@@ -15,7 +15,7 @@ Files relevant (PDF, doc, etc) can be uploaded here:
   
 https://edk2.groups.io/g/devel/files/Designs
 
-Stephano will update the calendar event:
+The calendar event will be updated with design topics:
 
 https://edk2.groups.io/g/devel/calendar
   
@@ -28,7 +28,3 @@ https://edk2.groups.io/g/devel/calendar
 
 ## Contact
 Please email the list, or myself directly with design ideas that you'd like to see discussed.
-
-Stephano Cetola  
-TianoCore Community Manager  
-stephano.cetola@linux.intel.com    

@@ -116,7 +116,6 @@ patches will begin on April 9, 2019.
 Feedback can be sent to edk2-devel at lists.01.org, the EDK II community
 manager or any of the EDK II stewards.
 
-  * Stephano Cetola <stephano.cetola at intel.com>   Community Manager
   * Leif Lindholm   <leif.lindholm at linaro.org>    Steward
   * Andrew Fish     <afish at apple.com>             Steward
   * Laszlo Ersek    <lersek at redhat.com>           Steward

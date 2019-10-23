@@ -12,10 +12,6 @@ https://edk2.groups.io/g/devel/calendar
 ## Contact
 Please email [the list](https://edk2.groups.io/g/devel), or myself directly with bugs / features that you'd like to see discussed, questions, or comments.
 
-Stephano Cetola  
-TianoCore Community Manager  
-stephano.cetola@linux.intel.com    
-  
 ## Meeting Details
 
 ### APAC / NAMO
