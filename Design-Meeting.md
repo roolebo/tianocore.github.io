@@ -22,7 +22,7 @@ https://edk2.groups.io/g/devel/calendar
 A notice will then be sent to the group 1 day before the event with a list of all the topics.
 
 ## Add to Calendar
-Please subcribe to the Groups.io calendar:  
+Please subscribe to the Groups.io calendar:  
   
 https://edk2.groups.io/g/devel/calendar
 
