@@ -16,4 +16,4 @@ https://edk2.groups.io/g/devel/calendar
 
 
 ## Contact
-Please email the list with subjects that you'd like to see discussed, questions, or comments.
+Please email [the discuss list](mailto:discuss@edk2.groups.io) with subjects that you'd like to see discussed, questions, or comments.
