@@ -107,9 +107,6 @@
 * GitHub Continuous Integration services
   + https://github.com/marketplace/category/continuous-integration
 * Jenkins Evaluation
-  + https://ci.bsdio.com/job/edk2-master/
-  + https://ci.bsdio.com/blue/organizations/jenkins/edk2-ci/activity
-  + https://ci.bsdio.com/blue/organizations/jenkins/edk2-ci/detail/edk2-ci/2/pipeline
 * GitLab Evaluation
   + Contacts
     - Laszlo Ersek <lersek@redhat.com>
