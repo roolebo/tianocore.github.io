@@ -16,7 +16,6 @@ Recent Intel platform EDK II implementations follow a software architecture inte
 #### EDK II Minimum Platforms
 
 * [[Kaby Lake MinPlatform]] - EDK II platform firmware on 7th Generation Intel® Core™ Processors and chipsets (formerly [Kaby Lake](https://ark.intel.com/products/codename/82879/Kaby-Lake) platforms).
-* [[Project Olympus (Purley MinPlatform)|Purley MinPlatform]] - EDK II platform firmware for the Open Compute Project (OCP) [Intel XSP Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
 * [[Whiskey Lake MinPlatform]] - EDK II platform firmware on 8th Generation Intel® Core™ Processors and chipsets (formerly [Whiskey Lake](https://ark.intel.com/content/www/us/en/ark/products/codename/135883/whiskey-lake.html) platforms).
 
 #### Other Platforms
