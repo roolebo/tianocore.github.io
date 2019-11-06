@@ -18,7 +18,7 @@
 * [Upgrade Openssl to 1.1.1d due to CVEs in v1.1.1b](https://bugzilla.tianocore.org/show_bug.cgi?id=2226)
 * [UEFI Variable SMI Reduction](https://bugzilla.tianocore.org/show_bug.cgi?id=2220)
 * [ScsiDiskDxe Support the Storage Security Command Protocol](https://bugzilla.tianocore.org/show_bug.cgi?id=1546)
-* [Add support SMBIOS spec 3.3.0](https://bugzilla.tianocore.org/show_bug.cgi?id=2202)
+* [Add support SMBIOS spec 3.3.0](https://bugzilla.tianocore.org/show_bug.cgi?id=2305)
 * [Allow PCDs to be used in conditional statements if not referenced in an INF](https://bugzilla.tianocore.org/show_bug.cgi?id=2270)
 * [Add Support Laml and Lasa for TPM2 ACPI](https://bugzilla.tianocore.org/show_bug.cgi?id=978)
 * [Add PCI Device Security Support](https://bugzilla.tianocore.org/show_bug.cgi?id=2303)
