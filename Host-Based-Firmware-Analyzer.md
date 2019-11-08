@@ -11,4 +11,4 @@ Computer platform firmware is a critical element in the root-of-trust.  Firmware
 # Additional Information
 
 * [Using Host-based Analysis to Improve Firmware Resiliency](https://software.intel.com/en-us/blogs/2019/02/25/using-host-based-analysis-to-improve-firmware-resiliency) (blog)
-* [Using Host-based Analysis to Improve Firmware Resiliency](https://firmware.intel.com/sites/default/files/Intel_UsingHBFAtoImprovePlatformResiliency.pdf) (whitepaper)
+* [Using Host-based Analysis to Improve Firmware Resiliency](https://software.intel.com/sites/default/files/managed/6a/4c/Intel_UsingHBFAtoImprovePlatformResiliency.pdf) (whitepaper)
