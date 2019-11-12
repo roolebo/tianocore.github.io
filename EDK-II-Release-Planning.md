@@ -1,4 +1,4 @@
-# edk2-stable2019011 tag planning
+# edk2-stable201911 tag planning
 
 ## Proposed Schedule
 
