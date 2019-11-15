@@ -24,6 +24,8 @@
 * [Add PCI Device Security Support](https://bugzilla.tianocore.org/show_bug.cgi?id=2303)
 * [BootGuard TOCTOU vulnerability (CVE-2019-11098)](https://bugzilla.tianocore.org/show_bug.cgi?id=1614)
 * [Invalid server certificate accepted in HTTPS Boot (CVE-2019-14553)](https://bugzilla.tianocore.org/show_bug.cgi?id=960)
+* [MdeModulePkg: Enable/Disable S3BootScript dynamically](https://bugzilla.tianocore.org/show_bug.cgi?id=2212)
+* [Enable Phase 1 of Continuous Integration (CI) on the edk2 repository](https://bugzilla.tianocore.org/show_bug.cgi?id=2315)
 * TBD
 
 # [edk2-stable201908 tag](https://github.com/tianocore/edk2/releases/tag/edk2-stable201908)
