@@ -36,4 +36,4 @@ Review the [[UDK2014.IHV Setup Guide]] for more information.</td>
 
 </table>
 
-* Please visit the [http://firmware.intel.com/ Intel® Architecture Firmware Resource Center] for additional resources based on Intel platforms. 
+* Please visit the [https://software.intel.com/en-us/firmware/ Intel® Architecture Firmware Resource Center] for additional resources based on Intel platforms. 

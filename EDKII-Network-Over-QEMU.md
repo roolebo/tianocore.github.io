@@ -55,7 +55,7 @@ sudo ifconfig tap0 up
 You can also refer to the [opensuse](https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF) help page available at opensuse.org.
 
 #### OVMF Debugging
-Serial through file, console or remote TCP port can be used to trace the issue. OVMF also supports source level debug using the [Intel® UEFI Development Kit Debugger Tool](https://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool).
+Serial through file, console or remote TCP port can be used to trace the issue. OVMF also supports source level debug using the [Intel® UEFI Development Kit Debugger Tool](https://software.intel.com/en-us/download/intel-uefi-development-kit-intel-udk-debugger-tool-r151-linux).
 
 #### Verification Result
 For OVMF, each virtual network device (e.g. **e1000**, **virtio-net-pci**, **i82557b**) can utilize an included iPXE stack (ROMFILE) and UEFI networking. iPXE is enabled by default. You can use the "romfile=" to disable the iPXE support so OVMF only utilizes the EDK II network stack.
@@ -168,7 +168,7 @@ https://github.com/tianocore/edk2/tree/master/OvmfPkg
 6. UEFI HTTP Boot with OVMF:
 https://en.opensuse.org/UEFI_HTTPBoot_with_OVMF
 7. Intel® UEFI Development Kit Debugger Tool:
-https://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool
+https://software.intel.com/en-us/articles/unified-extensible-firmware-interface
 8. PCI hierarchy:
 https://github.com/qemu/qemu/blob/master/docs/pcie.txt
 9. QEMU Virtual Network Device (Mailing Thread):

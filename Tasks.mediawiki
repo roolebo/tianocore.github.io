@@ -81,9 +81,9 @@ Allow APs to safely print and use DEBUG trace messages.
 
 === Port Intel Firmware Engine SDK Extensions to OVMF ===
 
-[[Intel Firmware Engine]] adds UserExtensions in the SDK to describe connections between modules and module parameters (as "Patchable In Binary" PCDs). This enables binary distribution of configurable firmware components. Porting these extensions to a branch of OVMF would allow development and testing of these concepts on a virtual platform.
-* https://firmware.intel.com/learn/intel-firmware-engine/downloads
-* https://firmware.intel.com/sites/default/files/Intel%C2%AE%20Firmware%20Engine%20SDK_R2.0.2.zip
+Intel Firmware Engine adds UserExtensions in the SDK to describe connections between modules and module parameters (as "Patchable In Binary" PCDs). This enables binary distribution of configurable firmware components. Porting these extensions to a branch of OVMF would allow development and testing of these concepts on a virtual platform.
+* This application has EOL'd as of Aug 2019
+
 Languages: C, Python
 Mentor: Jaben Carsey
 

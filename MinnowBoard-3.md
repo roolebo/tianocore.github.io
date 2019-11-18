@@ -10,7 +10,7 @@ Note to developers: Release 0.70 updates the codebase to use [[UDK2018]], and mo
 
 This codebase is designed for the MinnowBoard 3 platform and Leaf Hill Customer Reference Board (CRB), using the [Intel Atom® Processor E3900 Series](https://www.intel.com/content/www/us/en/embedded/products/apollo-lake/overview.html) (formerly Apollo Lake).
 
-Project Info: https://firmware.intel.com/projects/minnowboard3
+Project Info: [Intel Developer Zone - Intel Atom® Processor E3900 Series page](https://software.intel.com/en-us/articles/uefi-firmware-project-for-intel-atom-processor-e3900-series-processor-platforms)
 
 Developers can download pre-built UEFI firmware images, utilities, binary object modules, and project release notes. The open source firmware project is available from the TianoCore GitHub:
 

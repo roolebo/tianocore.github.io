@@ -7,7 +7,7 @@
 
 ### How do other 3rd party companies use [[UDK]]?
 * Other 3rd party companies, including BIOS vendors use the UEFI conformance BIOS implementation based on the UDK release which Intel validates.
-*   See also the Intel UEFI community for more information http://firmware.intel.com
+*   See also the Intel UEFI community for more information https://software.intel.com/en-us/firmware/
 
 ### [[UDK]] is stable
 * It is NOT “always changed.” The last release of [[UDK]] was [[UDK2017]] June 2017. 

@@ -13,7 +13,7 @@ This project is open source UEFI firmware, based on the TianoCore EDK II codebas
 Developers can download pre-built UEFI firmware images, utilities, binary object modules, and project release notes. The open source firmware project is available from the TianoCore GitHub:
 
 *  https://github.com/tianocore/edk2-platforms/tree/devel-IntelAtomProcessorE3900
-*  https://firmware.intel.com/projects/IntelAtomProcessorE3900
+*  https://software.intel.com/en-us/articles/uefi-firmware-project-for-intel-atom-processor-e3900-series-processor-platforms
 
 ## Reporting Firmware Issues
 
@@ -32,7 +32,7 @@ Leaf Hill refers to an Intel Customer Reference Board (CRB) using the [Intel Ato
 
 ### Up Squared by UP-BOARD
 
-Support for the UP Squared board was introduced in Release 0.71. Pre-built images and build instructions are available on [firmware.intel.com](https://firmware.intel.com/projects/IntelAtomProcessorE3900). Please refer to the [release notes](https://firmware.intel.com/projects/IntelAtomProcessorE3900) for information on platform features and known issues.
+Support for the UP Squared board was introduced in Release 0.71. Pre-built images and build instructions are available on [Intel Developer Zone - Firmware](https://software.intel.com/en-us/articles/uefi-firmware-project-for-intel-atom-processor-e3900-series-processor-platforms). Please refer to the [release notes](https://software.intel.com/en-us/articles/uefi-firmware-project-for-intel-atom-processor-e3900-series-processor-platforms) for information on platform features and known issues.
 
 _**NOTE:** The firmware provided by this project for the UP Squared maker board is not based on the official manufacturer's firmware. This project is for experimentation and is not supported by the manufacturer (Aaeon). Flashing this firmware on the UP Squared will void the manufacturer's warranty. Thanks to Aaeon for their cooperation and providing platform porting information._
 

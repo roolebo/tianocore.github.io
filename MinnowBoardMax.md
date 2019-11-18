@@ -15,11 +15,11 @@ A list of currently supported boards and prices can be found at: https://minnowb
 
 ### UEFI Firmware - Release
 
-Documentation, binary images, and source build instructions are at http://firmware.intel.com/projects/minnowboard-max
+Documentation, binary images, and source build instructions are at https://software.intel.com/en-us/articles/minnowboard-maxturbot-uefi-firmware
 
 * Binary Firmware Images ("UEFI BIOS"): 32-bit and 64-bit UEFI builds, with Debug and Release images. Includes flash update utilities and release notes.
 * Binary Object Modules for which source code is not available due to the Intellectual property for both Intel silicon (microprocessor and chipset) and third party components.
-* How to build Instructions for integrating the EDK II source tree (BSD license) with the Binary Object Modules to build firmware. See the latest **Release Notes .txt** file at [firmware.intel.com/projects/Minnowboard-max Firmware Releases](http://firmware.intel.com/projects/minnowboard-max#Releases:)
+* How to build Instructions for integrating the EDK II source tree (BSD license) with the Binary Object Modules to build firmware. See the latest **Release Notes .txt** file at [Intel Developer Zone -Minnowboard-max Firmware Releases](https://software.intel.com/en-us/articles/minnowboard-maxturbot-uefi-firmware)
    * How to build with FSP
    * How to configure Memory Parameters
    * How to enable fTPM feature
