@@ -4,7 +4,7 @@
 
 | Date (00:00:00 UTC-8)| Description                              |
 | ---------------------| ---------------------------------------- |
-| 2018-08-30           | Beginning of development                 |
+| 2019-08-30           | Beginning of development                 |
 | 2019-11-11           | Feature Planning Freeze                  |
 | 2019-11-15           | [Soft Feature Freeze](SoftFeatureFreeze) |
 | 2019-11-22           | [Hard Feature Freeze](HardFeatureFreeze) |
