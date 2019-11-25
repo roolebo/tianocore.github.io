@@ -154,7 +154,7 @@ Contributor workflow
      ```
 
      From git version 1.9.0 onwards, this can be configured permanently
-     for the current repository with 
+     for the current repository with
      ```
      git config --add diff.orderFile <full path to edk2.diff.order>
      ```
@@ -907,27 +907,25 @@ Maintainer workflow
      11](#maint-11) accordingly.
 
 14.  <a name="maint-14" href="#maint-14">&sect;</a>
-     Time to push the patches to upstream master. Take a big breath :),
-     and run
+     Time to push the patches to upstream master. Take a big breath :)
 
-     ```
-     git push origin REVIEW_implement_foo_for_bar_vN:master
-     ```
-
-     This will *attempt* to push the commits from your local
+     The steps below *attempt* to push the commits from your local
      `REVIEW_implement_foo_for_bar_vN` branch -- which is based off of
-     your local master branch -- to the main github repo, *and* move the
-     upstream master branch forward to the final commit among those.
+     your local master branch -- to the main github repo using a GitHub
+     pull request, *and* move the upstream master branch forward to the
+     final commit among those.
 
      If it succeeds, you deserve an alcoholic (or non-alcoholic) drink
      of your choice, you're done.
 
-     If it fails, then the reason is that *another maintainer* executed
-     these steps in parallel, and moved forward the upstream master
+     If a merge conflict is detected, then the reason is that *another maintainer*
+     executed these steps in parallel, and moved forward the upstream master
      branch *after* your [maintainer step 6](#maint-06), but before your
-     [maintainer step 14](#maint-14). If github accepted your push in
-     this case, that would cause the *other* maintainer's push to go
-     lost. So, proceed to the next step.
+     [maintainer step 14](#maint-14). If github accepted your pull request in
+     this case, that may cause the *other* maintainer's pull request to fail.
+
+     Follow steps 7-9 from [The maintainer process for the EDK II project](../EDK-II-Development-Process#the-maintainer-process-for-the-edk-ii-project)
+     substituting `<new-integration-branch>` with `REVIEW_implement_foo_for_bar_vN`.
 
 15.  <a name="maint-15" href="#maint-15">&sect;</a>
      Repeat the following steps:
@@ -949,4 +947,3 @@ Maintainer workflow
 
      - [maintainer step 12](#maint-12) through [maintainer step
        14](#maint-14) -- rebuild, optionally retest, try pushing again.
-
