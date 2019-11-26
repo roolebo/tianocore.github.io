@@ -1,23 +1,72 @@
-# EDK II Continuous Integration Proposal
+# EDK II Continuous Integration
 
-# Phase 1 (edk2 repository only)
-* Remove write access to edk2 repo
-* EDK II Maintainers use GitHub Pull Request instead of push
-* Only accept PR from EDK II Maintainers.  Reject all other PRs.
-* Run basic Pre-commit checks
-* If all Pre-commit checks pass, then auto commit changes
-* If any Pre-commit check fails, then notify submitter
-* Limit pre-commit check execution time to 10 minutes
-* Provide on-demand builds to EDK II Maintainers
+Summary of pre-commit and post-commit Continuous Integration services that
+improve the quality of commits made to EDK II repositories.  The sections below
+list the Continuous Integration services that are active and plans for future
+enhancements and extensions to these services.
 
-## Proposed Pre-Commit Checks in Phase 1
-* PatchCheck.py
+## Phase 1 (edk2 repository only) - Activated November 11, 2019
+
+1) Use a combination of GitHub, Azure Pipelines, Mergify, and edk2-pytool features.
+   * GitHub Pull Requests + Labels, Branch Protections,  Notifications
+   * Mergify Pull Request Rules with auto commit if all checks pass
+   * 3 pre-commit jobs in Azure Pipelines (PatchCheck, Windows/VS, Linux/GCC).
+     Goal is to complete all pre-commits check in under 10 minutes.
+   * 2 post-commit jobs in Azure Pipelines (Windows/VS, Linux/GCC).  Post commit
+     status provided at top of `edk2/master` [Readme.md](https://github.com/tianocore/edk2/blob/master/Readme.md).
+   * [EDK II Pytool Library](https://github.com/tianocore/edk2-pytool-library)
+   * [EDK II Pytool Extensions](https://github.com/tianocore/edk2-pytool-extensions)
+   * [TianoCore Bugzilla #2315](https://bugzilla.tianocore.org/show_bug.cgi?id=2315)
+   * Original RFC Proposals
+     - https://edk2.groups.io/g/rfc/message/93
+     - https://edk2.groups.io/g/devel/message/46607
+2) Enable the following pre-commit checks
+   * [PatchCheck](https://github.com/tianocore/edk2/blob/e92b155740cdbf10a85ed8f37f69da0991fc8275/BaseTools/Scripts/PatchCheck.py)
+   * [CharEncodingCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/CharEncodingCheck)
+   * [CompilerPlugin](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/CompilerPlugin)
+   * [DependencyCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/DependencyCheck)
+   * [DscCompleteCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/DscCompleteCheck)
+   * [GuidCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/GuidCheck)
+   * [LibraryClassCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/LibraryClassCheck)
+   * [SpellCheck](https://github.com/tianocore/edk2/tree/e92b155740cdbf10a85ed8f37f69da0991fc8275/.pytool/Plugin/SpellCheck)
+3) TianoCore EDK II Maintainers Team permissions reduced from 'Write" to "Triage"
+4) EDK II Maintainers must use GitHub pull request with 'push' label to request
+   a branch to be strict rebase merged into `edk2/master`.  If all checks pass,
+   then the patches in the pull request are automatically added to `edk2/master`.
+   If any check fails, then email notifications are sent and details of the
+   failure are available through Azure Pipelines test results.
+5) Personal builds available to all EDK II developers using a GitHub pull
+   request without the 'push' label set.  If all checks pass, then a notification
+   email is sent and the pull request is closed.  If any checks fails, then
+   email notifications are sent and the details of the failure are available
+   through Azure Pipelines test results.
+6) GitHub References
+   * [GitHub](https://github.com/)
+   * [GitHub Labels](https://help.github.com/en/github/managing-your-work-on-github/about-labels)
+   * [GitHub Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
+   * [GitHub Notifications](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/about-notifications)
+   * [Watch a GitHub repository](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/watching-and-unwatching-repositories)
+   * [Create a GutHub fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+   * [Create a GitHub pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+7) HUB Command line Utility to perform GitHub operations
+   * [HUB Releases](https://github.com/github/hub/releases)
+   * [HUB Usage](https://hub.github.com/hub.1.html)
+8) Azure Pipelines References
+   * [Azure Piplelines GitHub App](https://github.com/marketplace/azure-pipelines)
+   * [Azure Pipelines TianoCore edk2-ci Project](https://dev.azure.com/tianocore/edk2-ci)
+   * [Azure Pipelines TianoCore edk2-ci Pipelines](https://dev.azure.com/tianocore/edk2-ci/_build)
+   * [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines)
+   * [Azure Pipelines YAML Schema](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema)
+9) Mergify References
+   * [Mergify GitHub App](https://github.com/apps/mergify)
+   * [Mergify Documentation](https://doc.mergify.io)
+
+[[EDK II Continuous Integration Administration]]
 
 ## Proposed Pre-Commit Checks in Phase 2
 * Verify Reviewed-by and Acked-by tags are present with correct maintainers
 * Verify no non-ASCII characters in modified files
 * Verify no binary files in set of modified files
-* Verify Package Dependency rules in modified files
 
 ## Proposed Pre-Commit Checks in Phase 3
 * Run ECC on modified files
