@@ -89,3 +89,23 @@ Runtime Cache feature enabled, the total GetVariable () time for an existing UEF
 
 Therefore, analysis shows eliminating SMIs on Runtime Service GetVariable () and GetNextVariableName () calls is
 possible and can lead to the greatest potential improvement in terms of SMM reduction across the UEFI variable services.
+
+# Summary of Changes
+The UEFI Variable Runtime Cache feature reduces overall system SMM usage when using VariableSmmRuntimeDxe with
+VariableSmm for SMM UEFI variables. It does so by eliminating SMM usage for the Runtime Service GetVariable () and
+GetNextVariableName () functions.
+
+## Major Changes
+ 1. Two UEFI variable caches will be maintained.
+    * "Runtime Cache" - Maintained in VariableSmmRuntimeDxe. Used to serve
+      runtime service GetVariable () and GetNextVariableName () callers.
+    * "SMM Cache" - Maintained in VariableSmm to service SMM GetVariable ()
+      and GetNextVariableName () callers.
+
+      > Note: A cache in SMRAM is retained so SMM modules do not operate on data
+        outside SMRAM.
+ 2. A new UEFI variable read and write flow will be used as described below.
+
+At any given time, the two caches should be coherent. On a variable write, the runtime cache is only updated after
+validation in SMM and, in the case of a non-volatile UEFI variable, the variable must also be successfully written
+to non-volatile storage.
