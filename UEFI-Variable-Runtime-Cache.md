@@ -109,3 +109,79 @@ GetNextVariableName () functions.
 At any given time, the two caches should be coherent. On a variable write, the runtime cache is only updated after
 validation in SMM and, in the case of a non-volatile UEFI variable, the variable must also be successfully written
 to non-volatile storage.
+
+# Design Details
+This section covers various design related details to help provide context and background for this feature.
+
+## UEFI Variable Cache Background
+A UEFI variable host memory cache existed in the EDK II UEFI variable driver prior to this feature. When SMM UEFI
+variables are enabled, the cache is maintained in SMRAM by VariableSmm. Hence the previous behavior for a runtime
+UEFI variable call to trigger an SMI, the SMI handler to check for a cache hit, and then check non-volatile storage
+on a cache miss.
+
+In general, the UEFI variable cache before and after this feature serves as a write-through cache of all variable data
+in the form of a host memory variable store. Volatile UEFI variables are entirely maintained in a host memory variable
+store although in a different buffer than the non-volatile UEFI variable cache.
+
+### Previous UEFI Variable Cache
+![Previous UEFI variable cache behavior](images/uefi-variable-runtime-cache/uefi_variable_cache_without_runtime_cache.png "Previous UEFI variable cache behavior")
+
+### UEFI Variable Cache with Runtime Cache
+![UEFI variable cache runtime behavior](images/uefi-variable-runtime-cache/uefi_variable_cache_with_runtime_cache.png "UEFI variable runtime cache behavior")
+
+### High-Level GetVariable () Flow with the Runtime Cache
+![High-level GetVariable () flow with the runtime cache](images/uefi-variable-runtime-cache/uefi-rt-services-getvariable-with-runtime-cache.png "High-level GetVariable () flow with the runtime cache")
+
+### High-Level SetVariable () Flow with the Runtime Cache
+![High-level SetVariable () flow with the runtime cache](images/uefi-variable-runtime-cache/uefi-rt-services-setvariable-with-runtime-cache.png "High-level SetVariable () flow with the runtime cache")
+
+## Runtime & SMM Cache Coherency
+The non-volatile cache should always accurately reflect non-volatile storage contents (done today) and the "SMM cache"
+and "Runtime cache" should always be coherent on access. The runtime cache is updated by VariableSmm.
+
+Updating both caches from within a SMM SetVariable () operation is fairly straightforward but a race condition can
+occur if an SMI occurs during the execution of runtime code reading from the runtime cache. To handle this case,
+a runtime cache read lock is introduced that explicitly moves pending updates from SMM to the runtime cache if an SMM
+update occurs while the runtime cache is locked. Note that it is not expected a Runtime services call will interrupt
+SMM processing since all CPU cores rendezvous in SMM.
+
+### Runtime DXE Read Flow
+ 1. Acquire RuntimeCacheReadLock
+ 2. If RuntimeCachePendingUpdate flag (rare) is set then:
+     2.a. Trigger FlushRuntimeCachePendingUpdate SMI
+     2.b. Verify RuntimeCachePendingUpdate flag is cleared
+ 3. Perform read from RuntimeCache
+ 4. Release RuntimeCacheReadLock
+
+### FlushRuntimeCachePendingUpdate SMI Flow
+ 1. If RuntimeCachePendingUpdate flag is not set:
+     1.a. Return
+ 2. Copy the data at RuntimeCachePendingOffset of RuntimeCachePendingLength to
+    RuntimeCache
+ 3. Clear the RuntimeCachePendingUpdate flag
+
+### SMM Write Flow
+ 1. Perform variable authentication and non-volatile write. If either fail,
+    return an error to the caller.
+ 2. If RuntimeCacheReadLock is set then:
+    * Set RuntimeCachePendingUpdate flag
+    * Update RuntimeCachePendingOffset and RuntimeCachePendingLength to
+      cover the a superset of the pending chunk (for simplicity, the
+      entire variable store is currently synchronized).
+ 3. Else:
+    * Update RuntimeCache
+ 4. Update SmmCache
+
+    > Note: RT read cannot occur during SMI processing since all cores are
+      locked in SMM.
+
+## Security Concerns
+A common concern raised with this feature is the potential security threat presented by serving runtime services
+callers from a ring 0 memory buffer of EfiRuntimeServicesData type. The conclusion of analyzing this during the proposal
+phase was that this change does not fundamentally alter the attack surface. The UEFI variable Runtime Services are
+invoked from ring 0 and the data already travels through ring 0 buffers (such as the SMM communicate buffer) to reach
+the caller. Even today if ring 0 is assumed to be malicious, the malicious code may keep one AP in a loop to monitor
+the communication data, when the BSP gets an (authenticated) variable. When the communication buffer is updated and the
+status is set to EFI_SUCCESS, the AP may modify the communication buffer contents such the tampered data is returned to
+the BSP caller. Or an interrupt handler on the BSP may alter the communication buffer contents before the data is
+returned to the caller. In summary, this was not found to introduce any attack not possible today.
