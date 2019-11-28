@@ -2,11 +2,11 @@ The UEFI Variable Runtime Cache feature was introduced to reduce the total numbe
 system time in SMM when SMM UEFI variables are enabled.
 
 * Pros:
-  * Improved system boot time
-  * Improved system stability
-  * Less SMI impact on the operating system (of particular importance in real-time operating systems)
+  * Improves system boot time
+  * Improves system stability
+  * Reduces SMI impact on the operating system (of particular importance in real-time operating systems)
 * Cons:
-  * Increase in runtime system memory
+  * Increases in runtime system memory
 
     > Note: The memory increase is relatively minimal where the increase size is equal to the sum of the size of all
             non-volatile UEFI variable stores on the platform. Typically there is just one non-volatile variable store.
@@ -25,38 +25,38 @@ The feature is enabled and disabled by the following FeaturePCD in MdeModulePkg:
   # @Prompt Enable the UEFI variable runtime cache.
   gEfiMdeModulePkgTokenSpaceGuid.PcdEnableVariableRuntimeCache|TRUE|BOOLEAN|0x00010039
 ```
-The default PCD value is TRUE. The feature can be disabled by simply setting the PCD value to "FALSE" in a platform
-DSC file.
+The default PCD value is TRUE meaning the feature is enabled by default. The feature can be disabled by simply setting
+the PCD value to "FALSE" in a platform DSC file.
 
 # Problem Statement
 The UEFI Runtime Service GetVariable () is called very often throughout the boot including OS runtime. Each Runtime
 Service GetVariable () call triggers an SMI which negatively impacts system performance.
 
 ## Issues with SMM
-From a system functionality standpoint, SMM is typically undesirable for the following reasons:
+SMM is typically undesirable for at least the following reasons:
 1. Core rendezvous: When the system enters SMM, all CPU activity is blocked at other privilege levels.
 2. Interrupt latency: Real-Time Operating Systems (RTOS) have stringent requirements to service system interrupts
    which is severely impacted by frequent SMIs at OS runtime.
 
 ## Platforms Have Little Choice
 Today's computer systems must comply with a myriad of industry specifications that often leverage the UEFI variable
-mechanism as defined in the UEFI specification as a form of OS independent non-volatile storage. Sometimes other system
-software interacts with UEFI variables outside the control of other software impacted. The following examples are
+mechanism as defined in the UEFI specification as a form of OS independent non-volatile storage. In some cases, system
+software interacts with UEFI variables outside the control of user software impacted. The following examples are
 intended to help illustrate this statement.
 1. Firmware interfaces such as UEFI capsule update requires UEFI variables.
 2. Industry specifications define variables such as BootOrder, OsIndications, and UEFI Secure Boot related variables
    such as pk, kek, db, dbx, etc. creating an interface between the platform firmware and operating system.
 3. Operating systems such as Microsoft Windows 10 sometimes issue periodic UEFI variable reads independent of user
    software.
-4. Operating systems such as Microsoft Windows 10 uses UEFI variables to manage checkpoints of disk dumps during bug
+4. Operating systems such as Microsoft Windows 10 use UEFI variables to manage checkpoints of disk dumps during bug
    check scenarios.
 
 In any case, reducing the overall system impact due to UEFI variables benefits all software on the system.
 
 ## Sample GetVariable () Impact
 The following data is intended to show why this feature can be useful. Assume an RTOS has a maximum latency allowance
-of 10us. The following measurements were taken from an Intel Apollo Lake Reference and Validation Platform and show this
-threshold is not achievable with any SMM usage.
+of 10us. The following measurements were taken from an Intel&reg; Apollo Lake Reference and Validation Platform and show
+this threshold is not achievable with any SMM involvement.
 
 Observation                                                  | Duration
 -------------------------------------------------------------|------------------
@@ -69,25 +69,26 @@ RT->GetVariable () (called for a non-existing UEFI variable) | 272us
 for illustrative purposes of the relative duration for the given scenarios.
 
 ## A Phased Approach
-Ideally, SMM could be eliminated entirely. However, SMM provides a ubiquitous isolated execution environment to
-authenticate UEFI variable requests. Further, SMM provides a trusted software environment to manage UEFI variable
-transactions to non-volatile storage (e.g. SPI flash or eMMC/UFS RPMB) at OS runtime when hardware enforcement of
-write access is restricted to SMM.
+Ideally, SMM could be eliminated entirely. However, SMM continues to serve a useful purposes in that it provides a
+ubiquitous isolated execution environment to authenticate UEFI variable requests. Further, SMM provides a trusted
+software environment to manage UEFI variable transactions to non-volatile storage (e.g. SPI flash or eMMC/UFS RPMB) at
+OS runtime when hardware enforcement of write access is restricted to SMM.
 
 ### Priority: Reduce SMM Usage for Getting UEFI Variables
 The rationale for preserving SMM applies to SetVariable () but not GetVariable () or GetNextVariableName (). This
-realization led to the UEFI Variable Runtime cache feature. Fortunately, getting variables is also the common case.
+realization led to the UEFI Variable Runtime cache feature. Fortunately, getting variables as opposed to setting
+variables is much more common.
 
 On an Intel&reg; Atom Reference and Validation Platform (RVP), it was found that after a first boot (also referred to
 as a "manufacturing boot" in which many UEFI variables are written to initialize the UEFI variable store), the number
 of GetVariable () calls exceeded 150 while the number of SetVariable () calls was less than 10. GetVariableName () was
-also invoked multiple times which is often called many times iterating over the current set of variables each time
-invoking an SMI.
+also invoked multiple times which is often called many times successively to iterate over the current set of variables
+each time invoking an SMI.
 
 On the same Intel&reg; Apollo Lake system used in the earlier data table, it was found that with the UEFI Variable
-Runtime Cache feature enabled, the total GetVariable () time for an existing UEFI variable decreased to 5us (from 220us).
+Runtime Cache feature enabled, the total GetVariable () time for an existing UEFI variable decreased to 5us from 220us.
 
-Therefore, analysis shows eliminating SMIs on Runtime Service GetVariable () and GetNextVariableName () calls is
+Therefore, analysis showed that eliminating SMIs on Runtime Service GetVariable () and GetNextVariableName () calls is
 possible and can lead to the greatest potential improvement in terms of SMM reduction across the UEFI variable services.
 
 # Summary of Changes
@@ -116,7 +117,7 @@ This section covers various design related details to help provide context and b
 ## UEFI Variable Cache Background
 A UEFI variable host memory cache existed in the EDK II UEFI variable driver prior to this feature. When SMM UEFI
 variables are enabled, the cache is maintained in SMRAM by VariableSmm. Hence the previous behavior for a runtime
-UEFI variable call to trigger an SMI, the SMI handler to check for a cache hit, and then check non-volatile storage
+UEFI variable call to trigger an SMI, the SMI handler to check for a cache hit, and then consult non-volatile storage
 on a cache miss.
 
 In general, the UEFI variable cache before and after this feature serves as a write-through cache of all variable data
@@ -137,7 +138,7 @@ store although in a different buffer than the non-volatile UEFI variable cache.
 
 ## Runtime & SMM Cache Coherency
 The non-volatile cache should always accurately reflect non-volatile storage contents (done today) and the "SMM cache"
-and "Runtime cache" should always be coherent on access. The runtime cache is updated by VariableSmm.
+and "Runtime cache" should always be coherent on access. The runtime cache is only updated by VariableSmm.
 
 Updating both caches from within a SMM SetVariable () operation is fairly straightforward but a race condition can
 occur if an SMI occurs during the execution of runtime code reading from the runtime cache. To handle this case,
@@ -148,20 +149,20 @@ SMM processing since all CPU cores rendezvous in SMM.
 ### Runtime DXE Read Flow
  1. Acquire RuntimeCacheReadLock
  2. If RuntimeCachePendingUpdate flag (rare) is set then:
-     2.a. Trigger FlushRuntimeCachePendingUpdate SMI
-     2.b. Verify RuntimeCachePendingUpdate flag is cleared
+    * Trigger FlushRuntimeCachePendingUpdate SMI
+    * Verify RuntimeCachePendingUpdate flag is cleared
  3. Perform read from RuntimeCache
  4. Release RuntimeCacheReadLock
 
 ### FlushRuntimeCachePendingUpdate SMI Flow
  1. If RuntimeCachePendingUpdate flag is not set:
-     1.a. Return
+    * Return
  2. Copy the data at RuntimeCachePendingOffset of RuntimeCachePendingLength to
     RuntimeCache
  3. Clear the RuntimeCachePendingUpdate flag
 
 ### SMM Write Flow
- 1. Perform variable authentication and non-volatile write. If either fail,
+ 1. Perform variable authentication and the non-volatile write. If either fail,
     return an error to the caller.
  2. If RuntimeCacheReadLock is set then:
     * Set RuntimeCachePendingUpdate flag
@@ -180,8 +181,8 @@ A common concern raised with this feature is the potential security threat prese
 callers from a ring 0 memory buffer of EfiRuntimeServicesData type. The conclusion of analyzing this during the proposal
 phase was that this change does not fundamentally alter the attack surface. The UEFI variable Runtime Services are
 invoked from ring 0 and the data already travels through ring 0 buffers (such as the SMM communicate buffer) to reach
-the caller. Even today if ring 0 is assumed to be malicious, the malicious code may keep one AP in a loop to monitor
+the caller. Even today if ring 0 is assumed to be malicious, the malicious code could keep one AP in a loop to monitor
 the communication data, when the BSP gets an (authenticated) variable. When the communication buffer is updated and the
-status is set to EFI_SUCCESS, the AP may modify the communication buffer contents such the tampered data is returned to
-the BSP caller. Or an interrupt handler on the BSP may alter the communication buffer contents before the data is
-returned to the caller. In summary, this was not found to introduce any attack not possible today.
+status is set to EFI_SUCCESS, the AP could modify the communication buffer contents such that tampered data is returned
+to the BSP caller. Or an interrupt handler on the BSP could alter the communication buffer contents before the data is
+returned to the caller. In summary, this feature was not found to introduce any attack not possible today.
