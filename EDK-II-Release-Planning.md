@@ -13,6 +13,9 @@
 ## Proposed Features
 * [BootGuard TOCTOU vulnerability (CVE-2019-11098)](https://bugzilla.tianocore.org/show_bug.cgi?id=1614)
 * [Basetool: Reuse compiler show-include feature for the incremental build quality and performance](https://bugzilla.tianocore.org/show_bug.cgi?id=2311)
+* [BaseTools GenerateCapsule: Support capsule dependency](https://bugzilla.tianocore.org/show_bug.cgi?id=2412)
+* [FmpDxe: Support capsule dependency](https://bugzilla.tianocore.org/show_bug.cgi?id=2421)
+* [New BaseCryptLib instances to compile independently from callers](https://bugzilla.tianocore.org/show_bug.cgi?id=2420)
 * TBD
 
 # edk2-stable202005 tag planning
