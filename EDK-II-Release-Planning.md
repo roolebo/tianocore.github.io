@@ -17,6 +17,7 @@
 * [FmpDxe: Support capsule dependency](https://bugzilla.tianocore.org/show_bug.cgi?id=2421)
 * [New BaseCryptLib instances to compile independently from callers](https://bugzilla.tianocore.org/show_bug.cgi?id=2420)
 * [Add TCG PFP revision 105 support and NIST SP800-155 event](https://bugzilla.tianocore.org/show_bug.cgi?id=2439)
+* [MpInitLib: Build information for loaded and applied microcode patches](https://bugzilla.tianocore.org/show_bug.cgi?id=2430)
 * TBD
 
 # edk2-stable202005 tag planning
