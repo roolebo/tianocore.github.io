@@ -18,8 +18,8 @@
 * [New BaseCryptLib instances to compile independently from callers](https://bugzilla.tianocore.org/show_bug.cgi?id=2420)
 * [Add TCG PFP revision 105 support and NIST SP800-155 event](https://bugzilla.tianocore.org/show_bug.cgi?id=2439)
 * [MpInitLib: Build information for loaded and detected microcode patches](https://bugzilla.tianocore.org/show_bug.cgi?id=2430)
-* [PEI/DXE microcode loader: Relocate microcode to memory according to FIT] (https://tianocore.acgmultimedia.com/show_bug.cgi?id=2449)
-TBD
+* [Microcode Loader: Relocate microcode to memory according to FIT](https://tianocore.acgmultimedia.com/show_bug.cgi?id=2449)
+* TBD
 
 # edk2-stable202005 tag planning
 
