@@ -19,7 +19,7 @@
 * [Add TCG PFP revision 105 support and NIST SP800-155 event](https://bugzilla.tianocore.org/show_bug.cgi?id=2439)
 * [MpInitLib: Build information for loaded and detected microcode patches](https://bugzilla.tianocore.org/show_bug.cgi?id=2430)
 * [Microcode Loader: Relocate microcode to memory according to FIT](https://tianocore.acgmultimedia.com/show_bug.cgi?id=2449)
-* [BaseCryptLib: Remove HmacXxxGetContextSize and replace HmacXxxInit with HmacXxxSetKey](https://tianocore.acgmultimedia.com/show_bug.cgi?id=1792)
+* [BaseCryptLib: Remove HmacXxxGetContextSize and replace HmacXxxInit with HmacXxxSetKey](https://bugzilla.tianocore.org/show_bug.cgi?id=1792)
 * TBD
 
 # edk2-stable202005 tag planning
