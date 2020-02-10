@@ -11,7 +11,6 @@
 | 2020-02-28           | Release                                  |
 
 ## Proposed Features
-* [BootGuard TOCTOU vulnerability (CVE-2019-11098)](https://bugzilla.tianocore.org/show_bug.cgi?id=1614)
 * [Basetool: Reuse compiler show-include feature for the incremental build quality and performance](https://bugzilla.tianocore.org/show_bug.cgi?id=2311)
 * [BaseTools GenerateCapsule: Support capsule dependency](https://bugzilla.tianocore.org/show_bug.cgi?id=2412)
 * [FmpDxe: Support capsule dependency](https://bugzilla.tianocore.org/show_bug.cgi?id=2421)
@@ -37,6 +36,7 @@
 | 2020-05-29           | Release                                  |
 
 ## Proposed Features
+* [BootGuard TOCTOU vulnerability (CVE-2019-11098)](https://bugzilla.tianocore.org/show_bug.cgi?id=1614)
 * TBD
 
 # edk2-stable202008 tag planning
