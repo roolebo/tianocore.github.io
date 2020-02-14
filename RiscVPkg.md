@@ -2,5 +2,5 @@
 RISC-V package (RiscVPkg) which provides RISC-V processor related protocols and libraries according to UEFI specification and edk2 implementations.  
 
 Visit below links for more information and the status of RISC-V edk2 port,  
-* RISC-V Platform Package ([RiscVPlatformPkg](https://github.com/tianocore/tianocore.github.io/wiki/RiscVPkg )) 
+* RISC-V Platform Package ([RiscVPlatformPkg](https://github.com/tianocore/tianocore.github.io/wiki/RiscVPlatformPkg )) 
 * [ RISC-V UEFI EDK2 Documents](https://github.com/riscv/riscv-uefi-edk2-docs)
