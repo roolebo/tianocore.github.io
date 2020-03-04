@@ -17,6 +17,7 @@
 * [BaseTools: Use submodule way to access third party brotli](https://bugzilla.tianocore.org/show_bug.cgi?id=2558)
 * [Add support RISC-V arch platforms](https://bugzilla.tianocore.org/show_bug.cgi?id=2532)
 * [Disabling safe string constraint assertions](https://bugzilla.tianocore.org/show_bug.cgi?id=2054)
+* [OVMF RFE: VCPU hotplug with SMM](https://bugzilla.tianocore.org/show_bug.cgi?id=1512)
 * TBD
 
 # edk2-stable202008 tag planning
