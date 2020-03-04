@@ -8,7 +8,7 @@
 | 2020-02-07           | Feature Planning Freeze                  |
 | 2020-02-14           | [Soft Feature Freeze](SoftFeatureFreeze) |
 | 2020-02-21           | [Hard Feature Freeze](HardFeatureFreeze) |
-| 2020-02-28           | Release                                  |
+| 2020-03-04           | Release                                  |
 
 ## Proposed Features
 * [Basetool: Reuse compiler show-include feature for the incremental build quality and performance](https://bugzilla.tianocore.org/show_bug.cgi?id=2311)
@@ -37,6 +37,11 @@
 
 ## Proposed Features
 * [BootGuard TOCTOU vulnerability (CVE-2019-11098)](https://bugzilla.tianocore.org/show_bug.cgi?id=1614)
+* [RegularExpressionDxe: Use submodule way to access third party Oniguruma](https://bugzilla.tianocore.org/show_bug.cgi?id=2073)
+* [BrotliCustomDecompressLib: Use submodule way to access third party brotli](https://bugzilla.tianocore.org/show_bug.cgi?id=2559)
+* [BaseTools: Use submodule way to access third party brotli](https://bugzilla.tianocore.org/show_bug.cgi?id=2558)
+* [Add support RISC-V arch platforms](https://bugzilla.tianocore.org/show_bug.cgi?id=2532)
+* [Disabling safe string constraint assertions](https://bugzilla.tianocore.org/show_bug.cgi?id=2054)
 * TBD
 
 # edk2-stable202008 tag planning
