@@ -13,6 +13,8 @@ EDK II Staging (features in development) - <https://github.com/tianocore/edk2-st
 Stable tags are created from `edk2/master` based on validation with various platforms. Stable tags names use
 the format `edk2-stable<4 digit year><2 digit month>` and occur roughly every three months (starting from August 2018).
 
+[edk2-stable202002](https://github.com/tianocore/edk2/releases/tag/edk2-stable202002)
+
 [edk2-stable201911](https://github.com/tianocore/edk2/releases/tag/edk2-stable201911)
 
 [edk2-stable201908](https://github.com/tianocore/edk2/releases/tag/edk2-stable201908)
