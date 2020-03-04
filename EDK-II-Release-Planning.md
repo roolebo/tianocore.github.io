@@ -29,7 +29,7 @@
 
 | Date (00:00:00 UTC-8)| Description                              |
 | ---------------------| ---------------------------------------- |
-| 2020-02-28           | Beginning of development                 |
+| 2020-03-04           | Beginning of development                 |
 | 2020-05-08           | Feature Planning Freeze                  |
 | 2020-05-15           | [Soft Feature Freeze](SoftFeatureFreeze) |
 | 2020-05-22           | [Hard Feature Freeze](HardFeatureFreeze) |
