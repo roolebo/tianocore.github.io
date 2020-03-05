@@ -17,6 +17,11 @@
 * [BaseTools: Use submodule way to access third party brotli](https://bugzilla.tianocore.org/show_bug.cgi?id=2558)
 * [Add support RISC-V arch platforms](https://bugzilla.tianocore.org/show_bug.cgi?id=2532)
 * [Disabling safe string constraint assertions](https://bugzilla.tianocore.org/show_bug.cgi?id=2054)
+* [OVMF Implement support for TPM2 measured boot](https://bugzilla.tianocore.org/show_bug.cgi?id=2560)
+* [OVMF Implement support for Linux v5.7+ initrd and mixed mode loading](https://bugzilla.tianocore.org/show_bug.cgi?id=2564)
+* [OVMF Use loadimage/startimage for loading the kernel passed via the QEMU command line](https://bugzilla.tianocore.org/show_bug.cgi?id=2566)
+* [OVMF Support booting from Fusion-MPT SCSI controllers](https://bugzilla.tianocore.org/show_bug.cgi?id=2390)
+* [OVMF Support booting from VMware PVSCSI controllers](https://bugzilla.tianocore.org/show_bug.cgi?id=2567)
 * [OVMF RFE: VCPU hotplug with SMM](https://bugzilla.tianocore.org/show_bug.cgi?id=1512)
 * TBD
 
