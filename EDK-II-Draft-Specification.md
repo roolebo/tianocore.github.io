@@ -145,6 +145,25 @@ a constraint, but as an enabling philosophy which will:
 
   These rules apply to all code developed.
 
+* **_EDK II Python Development Process Specification_** \[
+[HTML   ](https://edk2-docs.gitbooks.io/edk-ii-python-development-process-speicfication),
+[PDF    ](https://legacy.gitbook.com/download/pdf/book/edk2-docs/edk-ii-python-development-process-speicfication),
+[Mobi   ](https://legacy.gitbook.com/download/mobi/book/edk2-docs/edk-ii-python-development-process-speicfication),
+[ePub   ](https://legacy.gitbook.com/download/epub/book/edk2-docs/edk-ii-python-development-process-speicfication),
+[Gitbook](https://legacy.gitbook.com/book/edk2-docs/edk-ii-python-development-process-speicfication),
+[GitHub ](https://github.com/tianocore-docs/edk2-PythonDevelopmentProcessSpecification)
+\] The EDK II Python Development Process Specification defines a set of python
+coding standards, development flow, and tools to help to identify and fix
+deviations in written code. These standards, flow and tools to establish:
+  * Uniformity of style
+  * Uniform conventions
+  * To maintain consistency
+  * To maintain extensibility
+  * To improve readability
+  * To improve maintainability, reusability
+
+  These rules apply to all code developed.
+
 * **_EDK II Minimum Platform Specification_** \[
 [HTML   ](https://edk2-docs.gitbooks.io/edk-ii-minimum-platform-specification),
 [PDF    ](https://legacy.gitbook.com/download/pdf/book/edk2-docs/edk-ii-minimum-platform-specification),
