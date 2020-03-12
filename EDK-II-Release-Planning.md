@@ -23,6 +23,7 @@
 * [OVMF Support booting from Fusion-MPT SCSI controllers](https://bugzilla.tianocore.org/show_bug.cgi?id=2390)
 * [OVMF Support booting from VMware PVSCSI controllers](https://bugzilla.tianocore.org/show_bug.cgi?id=2567)
 * [OVMF RFE: VCPU hotplug with SMM](https://bugzilla.tianocore.org/show_bug.cgi?id=1512)
+* [Ensure NV Variable Confidentiality and Integrity for Platforms Supporting RPMC](https://bugzilla.tianocore.org/show_bug.cgi?id=2594)
 * TBD
 
 # edk2-stable202008 tag planning
