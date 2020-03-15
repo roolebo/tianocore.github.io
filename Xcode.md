@@ -17,53 +17,8 @@ While Xcode provides a full development environment as well as a suite of differ
 The mtoc utility is required to convert from the macOS Mach-O image format to the PE/COFF format as required by the UEFI specification.
 
 ### Brew Instructions
-Brew does not have an inbuilt version of mtoc so you must create it from source
-
-Go to http://www.opensource.apple.com/ and click on the latest open source version of the developer tools (currently 8.2.1) and you will get a list of projects that can be downloaded. 
-
-* Download the cctools project (currently cctools-895). 
-* Expand the tar file (double click on it in Finder)
-* Open a Terminal window to get a command line prompt.
-
-To build `mtoc` you will need to copy an include directory from the LLVM project.
-
-* Download http://llvm.org/releases/download.html#4.0
-* Copy the include/llvm-c and include/llvm directories from LLVM into the cctools include directory, but do not overwrite include/llvm-c/Disassembler.h.
-
-  ```
-  $ cp cctools-895/include/llvm-c/Disassembler.h .
-  $ cp -R llvm-4.0.0.src/include/llvm cctools-895/include/llvm
-  $ cp -R llvm-4.0.0.src/include/llvm-c cctools-895/include/llvm-c
-  $ cp Disassembler.h cctools-895/include/llvm-c
-  ```
-
-Then from the top cctools directory type:
-
 ```
-$ cd cctools-895
-$ make
-```
-
-The make will finish with an error message on the file `strip.c`. This is expected. Then do the following:
-
-```
-$ cd efitools
-$ make
-```
-
-You have now built the command line application `mtoc.NEW`! Move it to a more useful location. 
-
-```
-$ sudo cp mtoc.NEW /usr/local/bin/mtoc
-```
-
-If this fails you probably don't have a local/bin directory under /usr. You need to add the directories by hand 
-
-```
-$ cd /usr
-$ sudo mkdir local
-$ cd local
-$ sudo mkdir bin 
+$ brew install mtoc
 ```
 ## MacPorts Instructions
 ```
